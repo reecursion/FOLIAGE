@@ -1,0 +1,6 @@
+{{ bos_token }}{{ "<|start_header_id|>system<|end_header_id|>\n\n" if messages[0]['role'] == 'system' else "" }}
+{{ messages[0]['content'] if messages[0]['role'] == 'system' else "" }}{{ "<|eot_id|>\n" if messages[0]['role'] == 'system' else "" }}
+
+{% for message in messages if message['role'] != 'system' %}
+{{ "<|start_header_id|>" + message['role'] + "<|end_header_id|>\n\n" + message['content'] + "<|eot_id|>" }}
+{% endfor %}
