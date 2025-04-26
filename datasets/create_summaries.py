@@ -65,8 +65,8 @@ def main():
     args = parser.parse_args()
 
     # File paths
-    input_file = f"{args.dataset}/final/ratio_{args.ratio}.csv"
-    output_file = f"{args.dataset}/final/ratio_{args.ratio}.csv"
+    input_file = f"datasets/{args.dataset}/final/ratio_{args.ratio}.csv"
+    output_file = f"datasets/{args.dataset}/final/ratio_{args.ratio}.csv"
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
     df = pd.read_csv(input_file)
