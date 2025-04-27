@@ -98,6 +98,13 @@ def main():
                 generate_summary(dialogue_blocks[did], prompt)
                 for did in tqdm(dialogue_summaries["dialogue_id"])
             ]
+        
+        # Merge back into utterance-level DataFrame
+        df_final = df.merge(dialogue_summaries, on="dialogue_id", how="left")
+
+        # Save final output
+        df_final.to_csv(output_file, index=False)
+        print(f"Saved summarized data to: {output_file}")
 
     # Merge back into utterance-level DataFrame
     df_final = df.merge(dialogue_summaries, on="dialogue_id", how="left")
