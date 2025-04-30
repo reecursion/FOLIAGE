@@ -9,7 +9,10 @@ def main(input_path, output_dir, ratios):
 
     # Ensure the output directory exists
     os.makedirs(output_dir, exist_ok=True)
-
+    
+    if 'worker_score_bucket' in df.columns:
+        df = df.drop(columns=['worker_score_bucket'])
+        
     # Identify dialogue ID and utterance index columns
     if 'dialogue_id' not in df.columns or 'utterance_idx' not in df.columns:
         raise ValueError("Input CSV must contain 'dialogue_id' and 'utterance_idx' columns.")
