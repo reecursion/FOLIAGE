@@ -25,10 +25,9 @@ def preprocess_logits_for_metrics(logits, labels):
     # Return the predicted IDs and labels
     return pred_ids, labels
 
-def compute_metrics(_, tokenizer, model, eval_dataset, dialogue_info):
+def compute_metrics(_, tokenizer, model, eval_dataset, dialogue_info, dataset_type):
     """
-    Simple metric computation that directly evaluates the model on a sample
-    of the evaluation dataset to calculate NMSE.
+    Compute metrics for both CB and P4G datasets.
     
     Args:
         _: Unused eval_preds parameter (required by trainer interface)
@@ -36,12 +35,13 @@ def compute_metrics(_, tokenizer, model, eval_dataset, dialogue_info):
         model: The current model being trained
         eval_dataset: The current fold's evaluation dataset
         dialogue_info: Dictionary with ground truth information
+        dataset_type: Type of dataset (cb or p4g)
         
     Returns:
-        Dictionary with NMSE metric
+        Dictionary with metrics appropriate for the dataset type
     """
     # Initialize metric values
-    total_nmse = 0.0
+    total_metrics = {}
     valid_count = 0
     
     # Get a sample of dialogue IDs from the eval dataset
@@ -65,45 +65,73 @@ def compute_metrics(_, tokenizer, model, eval_dataset, dialogue_info):
             # Get prompt from dialogue_info
             prompt = dialogue_info[dialogue_id]["prompt"]
             
-            # Get sale price (ground truth)
-            sale_price = dialogue_info[dialogue_id]["sale_price"]
-            
             # Generate prediction
             with torch.no_grad():
                 inputs = tokenizer([prompt], return_tensors="pt").to(model.device)
                 outputs = model.generate(**inputs, max_new_tokens=32, use_cache=True)
                 pred_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
             
-            # Extract predicted price
-            predicted_price = extract_final_price(pred_text)
-            
-            # Skip if no valid predicted price
-            if predicted_price is None or predicted_price <= 0:
-                continue
-            
-            # Calculate NMSE
-            nmse = ((sale_price - predicted_price) ** 2) / sale_price
-            
-            # Update counters
-            total_nmse += nmse
-            valid_count += 1
+            # Process metrics based on dataset type
+            if dataset_type == "cb":
+                # Extract predicted price for Craigslist Bargain
+                predicted_price = extract_final_price(pred_text)
                 
+                # Skip if no valid predicted price
+                if predicted_price is None or predicted_price <= 0:
+                    continue
+                
+                # Get ground truth
+                sale_price = dialogue_info[dialogue_id]["sale_price"]
+                
+                # Calculate NMSE
+                nmse = ((sale_price - predicted_price) ** 2) / sale_price
+                
+                # Update metrics
+                if "nmse" not in total_metrics:
+                    total_metrics["nmse"] = 0.0
+                total_metrics["nmse"] += nmse
+                
+            elif dataset_type == "p4g":
+                # Extract donation decision for Persuasion for Good
+                pred_decision = extract_donation_decision(pred_text)
+                
+                # Skip if no valid prediction
+                if pred_decision is None:
+                    continue
+                
+                # Get ground truth
+                true_decision = "YES" if dialogue_info[dialogue_id]["donation_made"] else "NO"
+                
+                # Calculate decision accuracy
+                decision_correct = (pred_decision.lower() == true_decision.lower())
+                
+                # Update decision accuracy metric
+                if "accuracy" not in total_metrics:
+                    total_metrics["accuracy"] = 0.0
+                total_metrics["accuracy"] += 1.0 if decision_correct else 0.0
+            
+            valid_count += 1
+        
         except Exception as e:
             # Skip problematic examples
             continue
     
     model.train()
     
+    # Calculate final metrics
+    result = {}
     if valid_count > 0:
-        return {"nmse": total_nmse / valid_count}
-    else:
-        # Return a default value to avoid NaN
-        return {"nmse": float('nan')}
+        if dataset_type == "cb" and "nmse" in total_metrics:
+            result["nmse"] = total_metrics["nmse"] / valid_count
+        elif dataset_type == "p4g" and "accuracy" in total_metrics:
+            result["accuracy"] = total_metrics["accuracy"] / valid_count
+    
+    return result
 
-def get_compute_metrics_fn(tokenizer, model, eval_dataset, dialogue_info):
+def get_compute_metrics_fn(tokenizer, model, eval_dataset, dialogue_info, dataset_type):
     """Creates compute_metrics function with necessary context"""
     def compute_metrics_wrapper(eval_preds):
-        return compute_metrics(eval_preds, tokenizer, model, eval_dataset, dialogue_info)
+        return compute_metrics(eval_preds, tokenizer, model, eval_dataset, dialogue_info, dataset_type)
     return compute_metrics_wrapper
 
 
@@ -191,12 +219,21 @@ def prepare_dataset(args, tokenizer):
         for _, row in group.iterrows():
             # Format with or without intentions based on scaffolding type
             utterance = row['utterance']
+
+            # Include speaker role context for P4G dataset
+            speaker = row['speaker']
+            if args.dataset_type == "p4g":
+                if speaker == "EE":
+                    speaker = "Persuadee"
+                elif speaker == "ER":
+                    speaker = "Persuader"
+
             if args.scaffolding_type in ["local", "both"] and 'intention' in row and pd.notna(row['intention']):
                 # Include intention for local scaffolding
-                conversation.append(f"{row['speaker']}: {utterance} [{row['intention']}]")
+                conversation.append(f"{speaker}: {utterance} [{row['intention']}]")
             else:
                 # No intentions
-                conversation.append(f"{row['speaker']}: {utterance}")
+                conversation.append(f"{speaker}: {utterance}")
         
         formatted_conversation = "\n".join(conversation)
         
@@ -207,7 +244,6 @@ def prepare_dataset(args, tokenizer):
             if summary_column in group.columns and pd.notna(group[summary_column].iloc[0]):
                 summary = f", [Summary: {group[summary_column].iloc[0]}]"
         
-        # Get outcome/label
         if args.dataset_type == "cb":
             # Make sure required columns exist
             required_columns = ['sale_price', 'buyer_target', 'seller_target']
@@ -253,31 +289,46 @@ def prepare_dataset(args, tokenizer):
             
         elif args.dataset_type == "p4g":
             # Check for required columns
-            if 'label' not in group.columns:
-                print(f"Warning: label column not found in dialogue {dialogue_id}, skipping")
+            if 'donation_made' not in group.columns:
+                print(f"Warning: donation_made column not found in dialogue {dialogue_id}, skipping")
                 continue
             
-            # Get donation amount if available
-            donation_amount = None
-            if 'donation_amount' in group.columns:
-                donation_values = group['donation_amount'].dropna()
-                if len(donation_values) > 0:
-                    donation_amount = donation_values.iloc[0]
+            # Get donation information
+            donation_made = bool(group['donation_made'].iloc[0])
             
-            if donation_amount is not None and not pd.isna(donation_amount):
-                outcome = f"DONATION: YES, AMOUNT: ${donation_amount}"
+            if donation_made:
+                outcome = "DONATION: YES"
             else:
-                outcome = "DONATION: YES" if group['label'].iloc[0].lower() == 'yes' else "DONATION: NO"
+                outcome = "DONATION: NO"
+            
+            # Always use "with intentions" if they're included
+            intentions_note = " with intentions" if args.scaffolding_type in ["local", "both"] else ""
+            
+            # Format summary part based on global scaffolding
+            summary_part = ""
+            if args.scaffolding_type in ["global", "both"] and args.summary_type != "none":
+                summary_part = f" {summary}"
             
             # Create messages for chat template
             messages = [{
                 "role": "user",
-                "content": f"You are helping analyze a persuasion conversation.\n\nConversation:\n{formatted_conversation}{summary}\n\nPredict whether the persuadee will make a donation."
+                "content": f"You are helping analyze a persuasion conversation{intentions_note}. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'\n\nConversation:\n{formatted_conversation}{summary_part}"
             }]
             
             # Apply chat template
             input_text = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=False)
-        
+            
+            # Create assistant message with outcome
+            assistant_messages = [{
+                "role": "assistant",
+                "content": outcome
+            }]
+            
+            # Store dialogue info for evaluation
+            dialogue_info[dialogue_id] = {
+                "donation_made": donation_made,
+                "prompt": input_text
+            }
         # Format completion using chat template
         output_text = tokenizer.apply_chat_template(assistant_messages, tokenize=False, add_generation_prompt=False)
         
@@ -338,7 +389,10 @@ def perform_kfold_cross_validation(args):
     
     # Create output directories
     os.makedirs(args.output_dir, exist_ok=True)
-    results_dir = "/home/gganeshl/FOLIAGE/src/sft/results/craigslistbargain"
+    if args.dataset_type == "cb":
+        results_dir = "/home/gganeshl/FOLIAGE/src/sft/results/craigslistbargain"
+    elif args.dataset_type == "p4g":
+        results_dir = "/home/gganeshl/FOLIAGE/src/sft/results/persuasionforgood"
     os.makedirs(results_dir, exist_ok=True)
     
     # Extract ratio from filename
@@ -355,11 +409,17 @@ def perform_kfold_cross_validation(args):
     
     # Initialize empty DataFrame if file doesn't exist
     if not os.path.exists(predictions_file):
-        pd.DataFrame(columns=[
-            "dialogue_id", "fold", "prompt", "generated_text", "buyer_target", 
-            "seller_target", "sale_price", "predicted_final_price", "success_sale", 
-            "success_predicted", "normalized_squared_error"
-        ]).to_csv(predictions_file, index=False)
+        if args.dataset_type == "cb":
+            pd.DataFrame(columns=[
+                "dialogue_id", "fold", "prompt", "generated_text", "buyer_target", 
+                "seller_target", "sale_price", "predicted_final_price", "success_sale", 
+                "success_predicted", "normalized_squared_error"
+            ]).to_csv(predictions_file, index=False)
+        elif args.dataset_type == "p4g":
+            pd.DataFrame(columns=[
+                "dialogue_id", "fold", "prompt", "generated_text", 
+                "donation_made", "predicted_decision", "decision_correct"
+            ]).to_csv(predictions_file, index=False)
     
     # Initialize wandb
     try:
@@ -419,6 +479,11 @@ def perform_kfold_cross_validation(args):
         
         # Set up training arguments
         model_checkpoint_path = os.path.join(fold_output_dir, "checkpoints")
+        
+        # Set metric for best model based on dataset type
+        metric_for_best_model = "eval_nmse" if args.dataset_type == "cb" else "eval_accuracy"
+        greater_is_better = False if args.dataset_type == "cb" else True
+        
         training_arguments = TrainingArguments(
             output_dir=model_checkpoint_path,
             optim='paged_adamw_32bit',
@@ -439,8 +504,8 @@ def perform_kfold_cross_validation(args):
             overwrite_output_dir=True,
             lr_scheduler_type='linear',
             save_total_limit=2,  
-            metric_for_best_model="eval_nmse",  
-            greater_is_better=False,
+            metric_for_best_model=metric_for_best_model,  
+            greater_is_better=greater_is_better,
             eval_accumulation_steps=1,
         )
         
@@ -456,7 +521,7 @@ def perform_kfold_cross_validation(args):
                 self.preprocess_logits_for_metrics = preprocess_logits_for_metrics
         
         # Initialize compute_metrics function with model, eval_dataset and dialogue_info
-        compute_metrics_fn = get_compute_metrics_fn(tokenizer, model, val_dataset, dialogue_info)
+        compute_metrics_fn = get_compute_metrics_fn(tokenizer, model, val_dataset, dialogue_info, args.dataset_type)
 
         # Initialize SFTTrainer with the early stopping callback
         trainer = CustomSFTTrainer(
@@ -514,33 +579,54 @@ def perform_kfold_cross_validation(args):
                     outputs = model.generate(**inputs, max_new_tokens=64, use_cache=True)
                     generated_text = tokenizer.decode(outputs[0])
                     
-                    # Extract predicted price
-                    predicted_price = extract_final_price(generated_text)
-                    
-                    # Add to predictions
-                    prediction = {
-                        "dialogue_id": dialogue_id,
-                        "fold": fold + 1,
-                        "prompt": prompt,
-                        "generated_text": generated_text,
-                        "buyer_target": dialogue_info[dialogue_id]["buyer_target"],
-                        "seller_target": dialogue_info[dialogue_id]["seller_target"],
-                        "sale_price": dialogue_info[dialogue_id]["sale_price"],
-                        "predicted_final_price": predicted_price
-                    }
-                    
-                    # Calculate metrics if predicted price exists
-                    if predicted_price is not None:
-                        buyer_target = dialogue_info[dialogue_id]["buyer_target"]
-                        seller_target = dialogue_info[dialogue_id]["seller_target"]
-                        sale_price = dialogue_info[dialogue_id]["sale_price"]
+                    # Process based on dataset type
+                    if args.dataset_type == "cb":
+                        # Extract predicted price
+                        predicted_price = extract_final_price(generated_text)
                         
-                        # Calculate success metrics
-                        prediction["success_sale"] = (sale_price - buyer_target) / (seller_target - buyer_target)
-                        prediction["success_predicted"] = (predicted_price - buyer_target) / (seller_target - buyer_target)
+                        # Add to predictions
+                        prediction = {
+                            "dialogue_id": dialogue_id,
+                            "fold": fold + 1,
+                            "prompt": prompt,
+                            "generated_text": generated_text,
+                            "buyer_target": dialogue_info[dialogue_id]["buyer_target"],
+                            "seller_target": dialogue_info[dialogue_id]["seller_target"],
+                            "sale_price": dialogue_info[dialogue_id]["sale_price"],
+                            "predicted_final_price": predicted_price
+                        }
                         
-                        # Calculate NMSE
-                        prediction["normalized_squared_error"] = ((sale_price - predicted_price) ** 2) / sale_price
+                        # Calculate metrics if predicted price exists
+                        if predicted_price is not None:
+                            buyer_target = dialogue_info[dialogue_id]["buyer_target"]
+                            seller_target = dialogue_info[dialogue_id]["seller_target"]
+                            sale_price = dialogue_info[dialogue_id]["sale_price"]
+                            
+                            # Calculate success metrics
+                            prediction["success_sale"] = (sale_price - buyer_target) / (seller_target - buyer_target)
+                            prediction["success_predicted"] = (predicted_price - buyer_target) / (seller_target - buyer_target)
+                            
+                            # Calculate NMSE
+                            prediction["normalized_squared_error"] = ((sale_price - predicted_price) ** 2) / sale_price
+                    
+                    elif args.dataset_type == "p4g":
+                        # Extract donation decision
+                        pred_decision = extract_donation_decision(generated_text)
+                        
+                        # Add to predictions
+                        prediction = {
+                            "dialogue_id": dialogue_id,
+                            "fold": fold + 1,
+                            "prompt": prompt,
+                            "generated_text": generated_text,
+                            "donation_made": dialogue_info[dialogue_id]["donation_made"],
+                            "predicted_decision": pred_decision
+                        }
+                        
+                        # Calculate metrics if predicted decision exists
+                        if pred_decision is not None:
+                            true_decision = "YES" if dialogue_info[dialogue_id]["donation_made"] else "NO"
+                            prediction["decision_correct"] = (pred_decision.lower() == true_decision.lower())
                     
                     fold_predictions.append(prediction)
                 except Exception as e:
@@ -565,35 +651,54 @@ def perform_kfold_cross_validation(args):
                 except Exception as e:
                     print(f"Error saving predictions: {e}")
             
-            # Calculate metrics for this fold
+            # Calculate metrics for this fold based on dataset type
             if fold_predictions:
                 df = pd.DataFrame(fold_predictions)
-                df = df.dropna(subset=['predicted_final_price', 'success_sale', 'success_predicted'])
                 
-                if len(df) > 0:
-                    # Calculate metrics
-                    price_nmse = df["normalized_squared_error"].mean()
-                    success_rmse = np.sqrt(mean_squared_error(df['success_sale'], df['success_predicted']))
+                if args.dataset_type == "cb":
+                    df = df.dropna(subset=['predicted_final_price', 'success_sale', 'success_predicted'])
                     
-                    # Calculate Pearson correlation
-                    if len(df) > 1:
-                        rpearson, _ = pearsonr(df['success_sale'], df['success_predicted'])
-                        fold_result["rpearson"] = rpearson
+                    if len(df) > 0:
+                        # Calculate metrics
+                        price_nmse = df["normalized_squared_error"].mean()
+                        success_rmse = np.sqrt(mean_squared_error(df['success_sale'], df['success_predicted']))
+                        
+                        # Calculate Pearson correlation
+                        if len(df) > 1:
+                            rpearson, _ = pearsonr(df['success_sale'], df['success_predicted'])
+                            fold_result["rpearson"] = rpearson
+                        
+                        # Add metrics to fold result
+                        fold_result["price_nmse"] = price_nmse
+                        fold_result["success_rmse"] = success_rmse
+                        
+                        # Log to wandb
+                        try:
+                            wandb.log({
+                                f"fold_{fold+1}/price_nmse": price_nmse,
+                                f"fold_{fold+1}/success_rmse": success_rmse
+                            })
+                            if "rpearson" in fold_result:
+                                wandb.log({f"fold_{fold+1}/rpearson": fold_result["rpearson"]})
+                        except:
+                            print("Warning: Could not log to wandb")
+                
+                elif args.dataset_type == "p4g":
+                    df = df.dropna(subset=['predicted_decision', 'donation_made'])
                     
-                    # Add metrics to fold result
-                    fold_result["price_nmse"] = price_nmse
-                    fold_result["success_rmse"] = success_rmse
-                    
-                    # Log to wandb
-                    try:
-                        wandb.log({
-                            f"fold_{fold+1}/price_nmse": price_nmse,
-                            f"fold_{fold+1}/success_rmse": success_rmse
-                        })
-                        if "rpearson" in fold_result:
-                            wandb.log({f"fold_{fold+1}/rpearson": fold_result["rpearson"]})
-                    except:
-                        print("Warning: Could not log to wandb")
+                    if len(df) > 0:
+                        accuracy = df['decision_correct'].mean()
+                        
+                        # Add metrics to fold result
+                        fold_result["accuracy"] = accuracy
+                        
+                        # Log to wandb
+                        try:
+                            wandb.log({
+                                f"fold_{fold+1}/accuracy": accuracy
+                            })
+                        except:
+                            print("Warning: Could not log to wandb")
             
             fold_results.append(fold_result)
             
@@ -622,10 +727,16 @@ def perform_kfold_cross_validation(args):
         # Print individual fold results
         for result in fold_results:
             metrics_str = f"Train Loss = {result['train_loss']:.4f}, Eval Loss = {result['eval_loss']:.4f}"
-            if "price_nmse" in result:
-                metrics_str += f", NMSE = {result['price_nmse']:.4f}, RMSE = {result['success_rmse']:.4f}"
-                if "rpearson" in result:
-                    metrics_str += f", Pearson = {result['rpearson']:.4f}"
+            
+            if args.dataset_type == "cb":
+                if "price_nmse" in result:
+                    metrics_str += f", NMSE = {result['price_nmse']:.4f}, RMSE = {result['success_rmse']:.4f}"
+                    if "rpearson" in result:
+                        metrics_str += f", Pearson = {result['rpearson']:.4f}"
+            elif args.dataset_type == "p4g":
+                if "accuracy" in result:
+                    metrics_str += f", Accuracy = {result['accuracy']:.4f}"
+            
             print(f"Fold {result['fold']}: {metrics_str}")
     else:
         print("No fold results to report.")
@@ -633,28 +744,56 @@ def perform_kfold_cross_validation(args):
     # Calculate overall metrics from saved predictions
     try:
         all_predictions = pd.read_csv(predictions_file)
-        all_predictions = all_predictions.dropna(subset=['predicted_final_price', 'success_sale', 'success_predicted'])
         
-        if len(all_predictions) > 0:
-            overall_nmse = all_predictions["normalized_squared_error"].mean()
-            overall_rmse = np.sqrt(mean_squared_error(
-                all_predictions['success_sale'], all_predictions['success_predicted']))
+        if args.dataset_type == "cb":
+            all_predictions = all_predictions.dropna(subset=['predicted_final_price', 'success_sale', 'success_predicted'])
             
-            print(f"\nOverall Metrics:")
-            print(f"NMSE = {overall_nmse:.4f}, RMSE = {overall_rmse:.4f}")
+            if len(all_predictions) > 0:
+                overall_nmse = all_predictions["normalized_squared_error"].mean()
+                overall_rmse = np.sqrt(mean_squared_error(
+                    all_predictions['success_sale'], all_predictions['success_predicted']))
+                
+                print(f"\nOverall Metrics:")
+                print(f"NMSE = {overall_nmse:.4f}, RMSE = {overall_rmse:.4f}")
+                
+                # Calculate overall Pearson correlation
+                if len(all_predictions) > 1:
+                    overall_pearson, _ = pearsonr(
+                        all_predictions['success_sale'], all_predictions['success_predicted'])
+                    print(f"Pearson = {overall_pearson:.4f}")
+                    
+                    # Log overall metrics to wandb
+                    try:
+                        wandb.log({
+                            "overall/price_nmse": overall_nmse,
+                            "overall/success_rmse": overall_rmse,
+                            "overall/rpearson": overall_pearson
+                        })
+                    except:
+                        print("Warning: Could not log to wandb")
+        
+        elif args.dataset_type == "p4g":
+            all_predictions = all_predictions.dropna(subset=['predicted_decision', 'donation_made'])
             
-            # Calculate overall Pearson correlation
-            if len(all_predictions) > 1:
-                overall_pearson, _ = pearsonr(
-                    all_predictions['success_sale'], all_predictions['success_predicted'])
-                print(f"Pearson = {overall_pearson:.4f}")
+            if len(all_predictions) > 0:
+                # Ensure decision_correct is properly calculated
+                all_predictions['true_decision'] = all_predictions['donation_made'].apply(
+                    lambda x: "YES" if x else "NO")
+                
+                # Calculate overall accuracy
+                if 'decision_correct' not in all_predictions.columns:
+                    all_predictions['decision_correct'] = all_predictions.apply(
+                        lambda row: row['predicted_decision'].lower() == row['true_decision'].lower(), axis=1)
+                
+                overall_accuracy = all_predictions['decision_correct'].mean()
+                
+                print(f"\nOverall Metrics:")
+                print(f"Accuracy = {overall_accuracy:.4f}")
                 
                 # Log overall metrics to wandb
                 try:
                     wandb.log({
-                        "overall/price_nmse": overall_nmse,
-                        "overall/success_rmse": overall_rmse,
-                        "overall/rpearson": overall_pearson
+                        "overall/accuracy": overall_accuracy
                     })
                 except:
                     print("Warning: Could not log to wandb")
@@ -667,7 +806,6 @@ def perform_kfold_cross_validation(args):
         pass
     
     return fold_results
-
 
 def main():
     args = parse_arguments()
