@@ -73,7 +73,7 @@ def compute_metrics(_, tokenizer, model, eval_dataset, dialogue_info, dataset_ty
             # Generate prediction
             with torch.no_grad():
                 inputs = tokenizer([prompt], return_tensors="pt").to(model.device)
-                outputs = model.generate(**inputs, max_new_tokens=256, use_cache=True)
+                outputs = model.generate(**inputs, max_new_tokens=512, use_cache=True)
                 pred_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
             
             # print(f"DEBUG: Generated text for dialogue {dialogue_id}: {pred_text}...")
@@ -118,7 +118,7 @@ def compute_metrics(_, tokenizer, model, eval_dataset, dialogue_info, dataset_ty
                 
                 # Calculate decision accuracy
                 decision_correct = (pred_decision.lower() == true_decision.lower())
-                print(f"--------------------------------------")
+            
                 
                 # Update decision accuracy metric
                 if "accuracy" not in total_metrics:
@@ -212,7 +212,7 @@ def parse_arguments():
     parser.add_argument("--batch_size", type=int, default=4, help="Training batch size per device")
     parser.add_argument("--epochs", type=int, default=10, help="Number of training epochs")
     parser.add_argument("--n_folds", type=int, default=5, help="Number of folds for cross-validation")
-    parser.add_argument("--max_length", type=int, default=1024, help="Maximum sequence length")
+    parser.add_argument("--max_length", type=int, default=512, help="Maximum sequence length")
     parser.add_argument("--rank", type=int, default=8, help="LoRA rank")
     # K-fold arguments
     parser.add_argument("--seed", type=int, default=42, help="Random seed for reproducibility")
@@ -228,27 +228,36 @@ def parse_arguments():
 def extract_allocation(response):
     """Extract final allocation from model output for Casino dataset."""
     try:
-        # Look for ALLOCATION pattern
-        lines = response.split('\n')
+        if "<|end_header_id|>" in response:
+            response = response.split("<|end_header_id|>")[1].strip()
+        elif "assistant" in response:
+            response = response.split("assistant")[1].strip()
+
         allocation = {'agent1': {}, 'agent2': {}}
-        
-        for line in lines:
-            # Look for AGENT_1_FOOD: 2 pattern
-            for agent in ['agent1', 'agent2']:
-                for resource in ['food', 'water', 'firewood']:
-                    pattern = f"{agent.upper()}_{resource.upper()}:\\s*(\\d+)"
-                    match = re.search(pattern, line, re.IGNORECASE)
-                    if match:
-                        allocation[agent][resource] = int(match.group(1))
-        
-        # Verify all allocations are present and sum to 3 for each resource
-        for resource in ['food', 'water', 'firewood']:
-            if (allocation['agent1'].get(resource, 0) + 
-                allocation['agent2'].get(resource, 0) != 3):
-                return None
-        
-        return allocation
-    except:
+
+        # Agent 1
+        agent1_food = re.search(r'AGENT_1_FOOD:\s*(\d+)', response, re.IGNORECASE)
+        agent1_water = re.search(r'AGENT_1_WATER:\s*(\d+)', response, re.IGNORECASE)
+        agent1_firewood = re.search(r'AGENT_1_FIREWOOD:\s*(\d+)', response, re.IGNORECASE)
+            
+        # Agent 2
+        agent2_food = re.search(r'AGENT_2_FOOD:\s*(\d+)', response, re.IGNORECASE)
+        agent2_water = re.search(r'AGENT_2_WATER:\s*(\d+)', response, re.IGNORECASE)
+        agent2_firewood = re.search(r'AGENT_2_FIREWOOD:\s*(\d+)', response, re.IGNORECASE)
+
+        if all([agent1_food, agent1_water, agent1_firewood, agent2_food, agent2_water, agent2_firewood]):
+            allocation['agent1']['food'] = int(agent1_food.group(1))
+            allocation['agent1']['water'] = int(agent1_water.group(1))
+            allocation['agent1']['firewood'] = int(agent1_firewood.group(1))
+            allocation['agent2']['food'] = int(agent2_food.group(1))
+            allocation['agent2']['water'] = int(agent2_water.group(1))
+            allocation['agent2']['firewood'] = int(agent2_firewood.group(1))
+            return allocation
+
+
+        return None
+    except Exception as e:
+        print(f"[ERROR] Failed to extract allocation: {e}")
         return None
 
 def calculate_utility_score(allocation, preferences):
@@ -515,7 +524,7 @@ def prepare_dataset(args, tokenizer):
             # Create messages for chat template
             messages = [{
                 "role": "user",
-                "content": f"""You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource (food, water, firewood) has exactly 3 units to be distributed.
+                "content": f"""You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
 
 Agent Preferences:
 Agent 1: High priority: {next(k for k, v in preferences['agent1'].items() if v == 'high')}, Medium priority: {next(k for k, v in preferences['agent1'].items() if v == 'medium')}, Low priority: {next(k for k, v in preferences['agent1'].items() if v == 'low')}
@@ -524,7 +533,7 @@ Agent 2: High priority: {next(k for k, v in preferences['agent2'].items() if v =
 Conversation{intentions_note}:
 {formatted_conversation}{summary_part}
 
-Based on this negotiation, predict the final allocation of resources. Provide your answer in the following format:
+Based on this negotiation, predict the final allocation of resources. Provide your answer in the following format, with no explanation:
 AGENT_1_FOOD: [number]
 AGENT_1_WATER: [number]
 AGENT_1_FIREWOOD: [number]
@@ -820,7 +829,7 @@ def perform_kfold_cross_validation(args):
                 # Generate prediction
                 try:
                     inputs = tokenizer([prompt], return_tensors="pt").to("cuda")
-                    outputs = model.generate(**inputs, max_new_tokens=256, use_cache=True)
+                    outputs = model.generate(**inputs, max_new_tokens=512, use_cache=True)
                     generated_text = tokenizer.decode(outputs[0])
                     
                     # Process based on dataset type
