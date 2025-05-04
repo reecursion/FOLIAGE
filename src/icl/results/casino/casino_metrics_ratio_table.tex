@@ -1,0 +1,64 @@
+\begin{table*}[ht]
+\centering
+\caption{Combined metrics for resource allocation and utility prediction on the Casino dataset}
+\label{tab:casino_combined_metrics_by_ratio}
+\begin{tabular}{llccccc}
+\hline
+\textbf{Metric} & \textbf{Config} & \textbf{25.0\%} & \textbf{37.5\%} & \textbf{50.0\%} & \textbf{62.5\%} & \textbf{75.0\%} \\
+\hline
+\multicolumn{7}{l}{\textbf{Model: LLAMA70B}} \\
+\midrule
+\multirow{5}{*}{\textbf{Agent 1 Utility MSE\textsuperscript{$\dagger$}}} & (i) Utterance only & 18.4665 & 19.7918 & 17.7738 & 17.7866 & 13.9794 \\
+ & (ii) Utterance + Intentions & \cellcolor{green!25}18.1856 & \cellcolor{green!25}18.7455 & \cellcolor{green!25}17.5476 & \cellcolor{green!25}16.6889 & \cellcolor{green!25}13.8997 \\
+ & (iii) Utterance + SCD & \cellcolor{red!25}19.3599 & \cellcolor{green!25}18.5527 & \cellcolor{green!25}17.5835 & \cellcolor{green!25}16.2031 & \cellcolor{red!25}14.3573 \\
+ & (iv) Utterance + SCM & \cellcolor{red!25}19.4742 & \cellcolor{green!25}18.8612 & \cellcolor{green!25}16.7661 & \cellcolor{green!25}15.9769 & \cellcolor{green!25}13.4447 \\
+ & (vi) Utterance + SCM + Intentions & \cellcolor{red!25}20.3918 & \cellcolor{red!25}19.8098 & \cellcolor{red!25}17.8021 & \cellcolor{green!25}14.5193 & \cellcolor{red!25}16.0746 \\
+\midrule
+\multirow{5}{*}{\textbf{Agent 2 Utility MSE}} & (i) Utterance only & 18.0284 & 18.4910 & 17.0746 & 17.0900 & 12.0797 \\
+ & (ii) Utterance + Intentions & \cellcolor{green!25}17.8892 & \cellcolor{green!25}17.2262 & \cellcolor{green!25}16.5219 & \cellcolor{green!25}15.4422 & \cellcolor{red!25}12.1028 \\
+ & (iii) Utterance + SCD & \cellcolor{red!25}18.8740 & \cellcolor{green!25}16.2237 & \cellcolor{green!25}16.3033 & \cellcolor{green!25}15.3445 & \cellcolor{green!25}11.7481 \\
+ & (iv) Utterance + SCM & \cellcolor{red!25}18.1211 & \cellcolor{green!25}16.4653 & \cellcolor{green!25}16.2416 & \cellcolor{green!25}16.3213 & \cellcolor{green!25}11.2365 \\
+ & (vi) Utterance + SCM + Intentions & \cellcolor{red!25}19.5928 & \cellcolor{green!25}16.7686 & \cellcolor{green!25}16.5887 & \cellcolor{green!25}13.7815 & \cellcolor{red!25}12.4653 \\
+\midrule
+\multirow{5}{*}{\textbf{Average Utility MSE}} & (i) Utterance only & 18.2474 & 19.1414 & 17.4242 & 17.4383 & 13.0296 \\
+ & (ii) Utterance + Intentions & \cellcolor{green!25}18.0374 & \cellcolor{green!25}17.9859 & \cellcolor{green!25}17.0347 & \cellcolor{green!25}16.0656 & \cellcolor{green!25}13.0013 \\
+ & (iii) Utterance + SCD & \cellcolor{red!25}19.1170 & \cellcolor{green!25}17.3882 & \cellcolor{green!25}16.9434 & \cellcolor{green!25}15.7738 & \cellcolor{red!25}13.0527 \\
+ & (iv) Utterance + SCM & \cellcolor{red!25}18.7977 & \cellcolor{green!25}17.6632 & \cellcolor{green!25}16.5039 & \cellcolor{green!25}16.1491 & \cellcolor{green!25}12.3406 \\
+ & (vi) Utterance + SCM + Intentions & \cellcolor{red!25}19.9923 & \cellcolor{green!25}18.2892 & \cellcolor{green!25}17.1954 & \cellcolor{green!25}14.1504 & \cellcolor{red!25}14.2699 \\
+\midrule
+\multirow{5}{*}{\textbf{Food Match Ratio\textsuperscript{$\ddagger$}}} & (i) Utterance only & 45.88\% & 50.64\% & 57.07\% & 62.47\% & 69.67\% \\
+ & (ii) Utterance + Intentions & \cellcolor{red!25}43.04\% & \cellcolor{green!25}50.90\% & \cellcolor{red!25}56.04\% & \cellcolor{green!25}64.01\% & \cellcolor{red!25}68.64\% \\
+ & (iii) Utterance + SCD & \cellcolor{red!25}41.65\% & \cellcolor{red!25}48.84\% & \cellcolor{red!25}56.81\% & \cellcolor{green!25}63.24\% & \cellcolor{red!25}69.15\% \\
+ & (iv) Utterance + SCM & \cellcolor{red!25}45.36\% & \cellcolor{red!25}47.30\% & \cellcolor{red!25}56.56\% & \cellcolor{green!25}63.24\% & \cellcolor{red!25}68.38\% \\
+ & (vi) Utterance + SCM + Intentions & \cellcolor{red!25}44.59\% & \cellcolor{red!25}47.56\% & \cellcolor{red!25}54.24\% & \cellcolor{red!25}61.70\% & \cellcolor{red!25}69.15\% \\
+\midrule
+\multirow{5}{*}{\textbf{Water Match Ratio}} & (i) Utterance only & 46.91\% & 46.02\% & 56.81\% & 60.93\% & 69.41\% \\
+ & (ii) Utterance + Intentions & \cellcolor{red!25}44.07\% & \cellcolor{green!25}47.81\% & \cellcolor{green!25}57.58\% & \cellcolor{green!25}62.47\% & \cellcolor{green!25}71.72\% \\
+ & (iii) Utterance + SCD & \cellcolor{red!25}45.24\% & \cellcolor{green!25}47.30\% & \cellcolor{green!25}57.07\% & \cellcolor{green!25}61.44\% & \cellcolor{red!25}68.89\% \\
+ & (iv) Utterance + SCM & \cellcolor{red!25}44.59\% & \cellcolor{green!25}47.81\% & \cellcolor{red!25}56.56\% & \cellcolor{red!25}59.90\% & \cellcolor{red!25}68.89\% \\
+ & (vi) Utterance + SCM + Intentions & \cellcolor{red!25}45.10\% & \cellcolor{green!25}47.04\% & \cellcolor{green!25}57.58\% & \cellcolor{green!25}61.18\% & \cellcolor{green!25}70.44\% \\
+\midrule
+\multirow{5}{*}{\textbf{Firewood Match Ratio}} & (i) Utterance only & 42.27\% & 46.02\% & 56.30\% & 62.98\% & 66.58\% \\
+ & (ii) Utterance + Intentions & \cellcolor{green!25}44.33\% & \cellcolor{green!25}47.30\% & \cellcolor{red!25}53.21\% & \cellcolor{red!25}62.47\% & \cellcolor{green!25}68.38\% \\
+ & (iii) Utterance + SCD & \cellcolor{green!25}44.47\% & \cellcolor{red!25}46.02\% & \cellcolor{red!25}55.01\% & \cellcolor{red!25}60.93\% & \cellcolor{red!25}66.07\% \\
+ & (iv) Utterance + SCM & \cellcolor{red!25}41.75\% & \cellcolor{red!25}45.76\% & \cellcolor{red!25}54.50\% & \cellcolor{green!25}63.50\% & \cellcolor{red!25}65.04\% \\
+ & (vi) Utterance + SCM + Intentions & \cellcolor{green!25}47.16\% & \cellcolor{red!25}46.02\% & \cellcolor{red!25}54.24\% & \cellcolor{green!25}63.24\% & \cellcolor{green!25}67.61\% \\
+\midrule
+\multirow{5}{*}{\textbf{Exact Match Ratio}} & (i) Utterance only & 11.60\% & 12.85\% & 22.62\% & 29.56\% & 41.39\% \\
+ & (ii) Utterance + Intentions & \cellcolor{red!25}11.34\% & \cellcolor{green!25}14.65\% & \cellcolor{red!25}22.11\% & \cellcolor{green!25}29.82\% & \cellcolor{red!25}41.13\% \\
+ & (iii) Utterance + SCD & \cellcolor{red!25}10.03\% & \cellcolor{green!25}13.88\% & \cellcolor{red!25}22.11\% & \cellcolor{red!25}27.76\% & \cellcolor{red!25}38.82\% \\
+ & (iv) Utterance + SCM & \cellcolor{red!25}10.05\% & \cellcolor{red!25}11.05\% & \cellcolor{red!25}21.85\% & \cellcolor{red!25}27.76\% & \cellcolor{red!25}37.79\% \\
+ & (vi) Utterance + SCM + Intentions & \cellcolor{red!25}9.54\% & \cellcolor{red!25}10.03\% & \cellcolor{red!25}21.34\% & \cellcolor{green!25}30.08\% & \cellcolor{red!25}40.10\% \\
+\midrule
+\multirow{5}{*}{\textbf{Overall Resource Match}} & (i) Utterance only & 45.02\% & 48.07\% & 56.90\% & 62.38\% & 68.77\% \\
+ & (ii) Utterance + Intentions & \cellcolor{red!25}43.94\% & \cellcolor{green!25}48.97\% & \cellcolor{red!25}55.91\% & \cellcolor{green!25}63.07\% & \cellcolor{green!25}69.71\% \\
+ & (iii) Utterance + SCD & \cellcolor{red!25}43.74\% & \cellcolor{red!25}47.73\% & \cellcolor{red!25}56.60\% & \cellcolor{red!25}61.83\% & \cellcolor{red!25}68.38\% \\
+ & (iv) Utterance + SCM & \cellcolor{red!25}43.99\% & \cellcolor{red!25}47.30\% & \cellcolor{red!25}56.13\% & \cellcolor{red!25}62.34\% & \cellcolor{red!25}67.61\% \\
+ & (vi) Utterance + SCM + Intentions & \cellcolor{green!25}45.53\% & \cellcolor{red!25}46.96\% & \cellcolor{red!25}55.61\% & \cellcolor{red!25}62.30\% & \cellcolor{green!25}69.24\% \\
+\hline
+\multicolumn{7}{l}{\textsuperscript{$\dagger$}Lower values are better.}\\
+\multicolumn{7}{l}{\textsuperscript{$\ddagger$}Higher values are better.}\\
+\end{tabular}
+\caption{\textbf{ICL: }Performance metrics across different conversation ratios and configuration types for LLAMA-3.1-70B on the \textbf{Casino} dataset}
+\label{tab:combined_metrics_icl_llama_casino_by_ratio}
+\end{table*}
