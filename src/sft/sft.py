@@ -27,7 +27,7 @@ def preprocess_logits_for_metrics(logits, labels):
 
 def compute_metrics(_, tokenizer, model, eval_dataset, dialogue_info, dataset_type):
     """
-    Compute metrics for both CB and P4G datasets.
+    Compute metrics for all datasets (CB, P4G, and Casino).
     
     Args:
         _: Unused eval_preds parameter (required by trainer interface)
@@ -35,7 +35,7 @@ def compute_metrics(_, tokenizer, model, eval_dataset, dialogue_info, dataset_ty
         model: The current model being trained
         eval_dataset: The current fold's evaluation dataset
         dialogue_info: Dictionary with ground truth information
-        dataset_type: Type of dataset (cb or p4g)
+        dataset_type: Type of dataset (cb, p4g, or casino)
         
     Returns:
         Dictionary with metrics appropriate for the dataset type
@@ -43,6 +43,8 @@ def compute_metrics(_, tokenizer, model, eval_dataset, dialogue_info, dataset_ty
     # Initialize metric values
     total_metrics = {}
     valid_count = 0
+    processed_count = 0
+    skipped_count = 0
     
     # Get a sample of dialogue IDs from the eval dataset
     # Limit to a small number for speed during training
@@ -54,12 +56,15 @@ def compute_metrics(_, tokenizer, model, eval_dataset, dialogue_info, dataset_ty
     
     # Process sampled examples
     for i in sample_indices:
+        processed_count += 1
         try:
             # Get dialogue ID
             dialogue_id = eval_dataset[i]["dialogue_id"]
             
             # Skip if dialogue_id not in dialogue_info
             if dialogue_id not in dialogue_info:
+                # print(f"DEBUG: Dialogue ID {dialogue_id} not found in dialogue_info, skipping")
+                skipped_count += 1
                 continue
             
             # Get prompt from dialogue_info
@@ -68,65 +73,119 @@ def compute_metrics(_, tokenizer, model, eval_dataset, dialogue_info, dataset_ty
             # Generate prediction
             with torch.no_grad():
                 inputs = tokenizer([prompt], return_tensors="pt").to(model.device)
-                outputs = model.generate(**inputs, max_new_tokens=32, use_cache=True)
+                outputs = model.generate(**inputs, max_new_tokens=256, use_cache=True)
                 pred_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
+            
+            # print(f"DEBUG: Generated text for dialogue {dialogue_id}: {pred_text}...")
             
             # Process metrics based on dataset type
             if dataset_type == "cb":
                 # Extract predicted price for Craigslist Bargain
                 predicted_price = extract_final_price(pred_text)
-                
-                # Skip if no valid predicted price
-                if predicted_price is None or predicted_price <= 0:
-                    continue
+                # print(f"DEBUG: Extracted price: {predicted_price}")
                 
                 # Get ground truth
                 sale_price = dialogue_info[dialogue_id]["sale_price"]
                 
-                # Calculate NMSE
-                nmse = ((sale_price - predicted_price) ** 2) / sale_price
-                
                 # Update metrics
                 if "nmse" not in total_metrics:
                     total_metrics["nmse"] = 0.0
+                
+                if predicted_price is None:
+                    print(f"DEBUG: Failed to extract price from: {pred_text}")
+                    skipped_count += 1
+                    continue                
+
+                # Calculate NMSE
+                nmse = ((sale_price - predicted_price) ** 2) / sale_price
+                
                 total_metrics["nmse"] += nmse
                 
             elif dataset_type == "p4g":
                 # Extract donation decision for Persuasion for Good
                 pred_decision = extract_donation_decision(pred_text)
+                # print(f"DEBUG: Extracted donation decision: {pred_decision}")
                 
                 # Skip if no valid prediction
                 if pred_decision is None:
+                    print(f"DEBUG: Failed to extract donation decision from: {pred_text}")
+                    skipped_count += 1
                     continue
                 
                 # Get ground truth
                 true_decision = "YES" if dialogue_info[dialogue_id]["donation_made"] else "NO"
+                # print(f"DEBUG: True decision: {true_decision}")
                 
                 # Calculate decision accuracy
                 decision_correct = (pred_decision.lower() == true_decision.lower())
+                print(f"--------------------------------------")
                 
                 # Update decision accuracy metric
                 if "accuracy" not in total_metrics:
                     total_metrics["accuracy"] = 0.0
                 total_metrics["accuracy"] += 1.0 if decision_correct else 0.0
+                
+            elif dataset_type == "casino":
+                # Extract predicted allocation for Casino
+                predicted_allocation = extract_allocation(pred_text)
+                # print(f"DEBUG: Extracted allocation: {predicted_allocation}")
+                
+                # Skip if no valid predicted allocation
+                if predicted_allocation is None:
+                    print(f"DEBUG: Failed to extract allocation from: {pred_text}")
+                    skipped_count += 1
+                    continue
+                
+                # Get ground truth and preferences
+                true_allocation = dialogue_info[dialogue_id]["final_allocation"]
+                preferences = dialogue_info[dialogue_id]["preferences"]
+                
+                # Calculate utility scores for prediction
+                pred_agent1_utility = calculate_utility_score({'agent1': predicted_allocation['agent1']}, preferences)
+                
+                # Get ground truth Agent 1 utility
+                true_agent1_utility = dialogue_info[dialogue_id]["agent1_utility"]
+                # print(f"DEBUG: Predicted utility: {pred_agent1_utility}, True utility: {true_agent1_utility}")
+                
+                # Calculate MSE of utility scores (only Agent 1)
+                utility_mse = (true_agent1_utility - pred_agent1_utility) ** 2
+                
+                # Update metrics
+                if "utility_mse" not in total_metrics:
+                    total_metrics["utility_mse"] = 0.0
+                total_metrics["utility_mse"] += utility_mse
             
             valid_count += 1
         
         except Exception as e:
             # Skip problematic examples
+            print(f"DEBUG: Exception in compute_metrics for dialogue {i}: {str(e)}")
+            skipped_count += 1
             continue
     
     model.train()
     
     # Calculate final metrics
     result = {}
+    print(f"DEBUG: Processed {processed_count} examples, {valid_count} valid, {skipped_count} skipped")
+    print(f"DEBUG: Total metrics accumulated: {total_metrics}")
+    
     if valid_count > 0:
         if dataset_type == "cb" and "nmse" in total_metrics:
             result["nmse"] = total_metrics["nmse"] / valid_count
+            print(f"DEBUG: Final NMSE: {result['nmse']}")
         elif dataset_type == "p4g" and "accuracy" in total_metrics:
             result["accuracy"] = total_metrics["accuracy"] / valid_count
+            print(f"DEBUG: Final Accuracy: {result['accuracy']}")
+        elif dataset_type == "casino" and "utility_mse" in total_metrics:
+            result["utility_mse"] = total_metrics["utility_mse"] / valid_count
+            print(f"DEBUG: Final Utility MSE: {result['utility_mse']}")
+    else:
+        print("DEBUG: WARNING - No valid examples for metric calculation!")
     
+    print(f"DEBUG: Returning result: {result}")
     return result
+
 
 def get_compute_metrics_fn(tokenizer, model, eval_dataset, dialogue_info, dataset_type):
     """Creates compute_metrics function with necessary context"""
@@ -139,7 +198,7 @@ def parse_arguments():
     parser = argparse.ArgumentParser(description="Finetune Llama 3.1 8B on negotiation datasets with k-fold cross validation")
     # Dataset arguments
     parser.add_argument("--dataset_path", type=str, required=True, help="Path to the CSV dataset file")
-    parser.add_argument("--dataset_type", type=str, required=True, choices=["cb", "p4g"],
+    parser.add_argument("--dataset_type", type=str, required=True, choices=["cb", "p4g", "casino"],
                         help="Type of dataset (cb for Craigslist Bargain, p4g for Persuasion for Good)")
     # Intentions arguments
     parser.add_argument("--scaffolding_type", type=str, required=True, choices=["local", "global", "both", "none"],
@@ -153,30 +212,84 @@ def parse_arguments():
     parser.add_argument("--batch_size", type=int, default=4, help="Training batch size per device")
     parser.add_argument("--epochs", type=int, default=10, help="Number of training epochs")
     parser.add_argument("--n_folds", type=int, default=5, help="Number of folds for cross-validation")
-    parser.add_argument("--max_length", type=int, default=512, help="Maximum sequence length")
+    parser.add_argument("--max_length", type=int, default=1024, help="Maximum sequence length")
     parser.add_argument("--rank", type=int, default=8, help="LoRA rank")
     # K-fold arguments
     parser.add_argument("--seed", type=int, default=42, help="Random seed for reproducibility")
     parser.add_argument("--eval_steps", type=int, default=1, help="Steps between evaluations")
     parser.add_argument("--save_total_limit", type=int, default=2, help="Maximum number of checkpoints to save")
-    # Early stopping arguments (Added)
+    # Early stopping arguments
     parser.add_argument("--early_stopping_patience", type=int, default=3, help="Patience for early stopping")
     parser.add_argument("--early_stopping_threshold", type=float, default=0.001, help="Threshold for early stopping")
     
     return parser.parse_args()
 
 
-def extract_donation_decision(text):
-    """Extract donation decision from model output for P4G dataset."""
+def extract_allocation(response):
+    """Extract final allocation from model output for Casino dataset."""
     try:
-        # First check for DONATION: YES/NO format
-        donation_match = re.search(r'DONATION:\s*(YES|NO)', text, re.IGNORECASE)
-        if donation_match:
-            donation_decision = donation_match.group(1).upper()
-            return donation_decision
-        return None
+        # Look for ALLOCATION pattern
+        lines = response.split('\n')
+        allocation = {'agent1': {}, 'agent2': {}}
+        
+        for line in lines:
+            # Look for AGENT_1_FOOD: 2 pattern
+            for agent in ['agent1', 'agent2']:
+                for resource in ['food', 'water', 'firewood']:
+                    pattern = f"{agent.upper()}_{resource.upper()}:\\s*(\\d+)"
+                    match = re.search(pattern, line, re.IGNORECASE)
+                    if match:
+                        allocation[agent][resource] = int(match.group(1))
+        
+        # Verify all allocations are present and sum to 3 for each resource
+        for resource in ['food', 'water', 'firewood']:
+            if (allocation['agent1'].get(resource, 0) + 
+                allocation['agent2'].get(resource, 0) != 3):
+                return None
+        
+        return allocation
     except:
         return None
+
+def calculate_utility_score(allocation, preferences):
+    """Calculate utility score based on allocation and preferences."""
+    utility_map = {
+        'high': 5,
+        'medium': 4,
+        'low': 3
+    }
+    
+    score = 0
+    for agent, items in allocation.items():
+        for item, value in items.items():
+            # Get preference level for this agent and item
+            pref = preferences[agent][item]
+            score += utility_map[pref] * value
+    
+    return score
+
+
+def extract_donation_decision(response):
+    """Extract donation decision from model output for P4G dataset."""
+    try:
+        # First, check if response has the <|end_header_id|> marker
+        if "assistant" in response:
+           # Extract content after the marker
+            parts = response.split("assistant")
+            if len(parts) > 1:
+                response = parts[1]
+            
+            # Look for DONATION: YES or DONATION: NO pattern
+            donation_match = re.search(r'DONATION:\s*(YES|NO)', response, re.IGNORECASE)
+            if donation_match:
+                donation_decision = donation_match.group(1).upper()
+                return donation_decision
+            else:
+                print(f"[ERROR] Cannot extract response from: {response}")
+        return "NO"
+    except:
+        print(f"[ERROR] Cannot extract response from: {response}")
+        return "NO"
 
 def extract_final_price(text):
     """Extract the final price from model output."""
@@ -220,13 +333,19 @@ def prepare_dataset(args, tokenizer):
             # Format with or without intentions based on scaffolding type
             utterance = row['utterance']
 
-            # Include speaker role context for P4G dataset
+            # Include speaker role context
             speaker = row['speaker']
             if args.dataset_type == "p4g":
                 if speaker == "EE":
                     speaker = "Persuadee"
                 elif speaker == "ER":
                     speaker = "Persuader"
+            elif args.dataset_type == "casino":
+                # Call agents Agent 1 and Agent 2 for casino dataset
+                if speaker == "mturk_agent_1":
+                    speaker = "Agent 1"
+                elif speaker == "mturk_agent_2":
+                    speaker = "Agent 2"
 
             if args.scaffolding_type in ["local", "both"] and 'intention' in row and pd.notna(row['intention']):
                 # Include intention for local scaffolding
@@ -329,6 +448,111 @@ def prepare_dataset(args, tokenizer):
                 "donation_made": donation_made,
                 "prompt": input_text
             }
+            
+        elif args.dataset_type == "casino":
+            # Get agent preferences and final allocation
+            required_columns = [
+                'mturk_agent_1_high_item', 'mturk_agent_1_medium_item', 'mturk_agent_1_low_item',
+                'mturk_agent_2_high_item', 'mturk_agent_2_medium_item', 'mturk_agent_2_low_item',
+                'mturk_agent_1_food', 'mturk_agent_1_water', 'mturk_agent_1_firewood',
+                'mturk_agent_2_food', 'mturk_agent_2_water', 'mturk_agent_2_firewood'
+            ]
+            
+            if not all(col in group.columns for col in required_columns):
+                print(f"Warning: Required columns missing in dialogue {dialogue_id}, skipping")
+                continue
+                
+            # Extract preferences
+            preferences = {
+                'agent1': {
+                    group['mturk_agent_1_high_item'].iloc[0].lower(): 'high',
+                    group['mturk_agent_1_medium_item'].iloc[0].lower(): 'medium',
+                    group['mturk_agent_1_low_item'].iloc[0].lower(): 'low'
+                },
+                'agent2': {
+                    group['mturk_agent_2_high_item'].iloc[0].lower(): 'high',
+                    group['mturk_agent_2_medium_item'].iloc[0].lower(): 'medium',
+                    group['mturk_agent_2_low_item'].iloc[0].lower(): 'low'
+                }
+            }
+            
+            # Extract final allocation
+            final_allocation = {
+                'agent1': {
+                    'food': int(group['mturk_agent_1_food'].iloc[0]),
+                    'water': int(group['mturk_agent_1_water'].iloc[0]),
+                    'firewood': int(group['mturk_agent_1_firewood'].iloc[0])
+                },
+                'agent2': {
+                    'food': int(group['mturk_agent_2_food'].iloc[0]),
+                    'water': int(group['mturk_agent_2_water'].iloc[0]),
+                    'firewood': int(group['mturk_agent_2_firewood'].iloc[0])
+                }
+            }
+            
+            # Calculate utility scores
+            agent1_utility = calculate_utility_score({'agent1': final_allocation['agent1']}, preferences)
+            agent2_utility = calculate_utility_score({'agent2': final_allocation['agent2']}, preferences)
+            
+            # Format outcome with structured allocation
+            outcome = (
+                f"AGENT_1_FOOD: {final_allocation['agent1']['food']}\n"
+                f"AGENT_1_WATER: {final_allocation['agent1']['water']}\n"
+                f"AGENT_1_FIREWOOD: {final_allocation['agent1']['firewood']}\n"
+                f"AGENT_2_FOOD: {final_allocation['agent2']['food']}\n"
+                f"AGENT_2_WATER: {final_allocation['agent2']['water']}\n"
+                f"AGENT_2_FIREWOOD: {final_allocation['agent2']['firewood']}"
+            )
+            
+            # Always use "with intentions" if they're included
+            intentions_note = " with intentions" if args.scaffolding_type in ["local", "both"] else ""
+            
+            # Format summary part based on global scaffolding
+            summary_part = ""
+            if args.scaffolding_type in ["global", "both"] and args.summary_type != "none":
+                summary_part = f" {summary}"
+            
+            # Create messages for chat template
+            messages = [{
+                "role": "user",
+                "content": f"""You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource (food, water, firewood) has exactly 3 units to be distributed.
+
+Agent Preferences:
+Agent 1: High priority: {next(k for k, v in preferences['agent1'].items() if v == 'high')}, Medium priority: {next(k for k, v in preferences['agent1'].items() if v == 'medium')}, Low priority: {next(k for k, v in preferences['agent1'].items() if v == 'low')}
+Agent 2: High priority: {next(k for k, v in preferences['agent2'].items() if v == 'high')}, Medium priority: {next(k for k, v in preferences['agent2'].items() if v == 'medium')}, Low priority: {next(k for k, v in preferences['agent2'].items() if v == 'low')}
+
+Conversation{intentions_note}:
+{formatted_conversation}{summary_part}
+
+Based on this negotiation, predict the final allocation of resources. Provide your answer in the following format:
+AGENT_1_FOOD: [number]
+AGENT_1_WATER: [number]
+AGENT_1_FIREWOOD: [number]
+AGENT_2_FOOD: [number]
+AGENT_2_WATER: [number]
+AGENT_2_FIREWOOD: [number]
+
+Remember: Each resource must sum to exactly 3 units across both agents."""
+            }]
+            
+            # Apply chat template
+            input_text = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=False)
+            
+            # Create assistant message with outcome
+            assistant_messages = [{
+                "role": "assistant",
+                "content": outcome
+            }]
+            
+            # Store dialogue info for evaluation
+            dialogue_info[dialogue_id] = {
+                "final_allocation": final_allocation,
+                "preferences": preferences,
+                "agent1_utility": agent1_utility,
+                "agent2_utility": agent2_utility,
+                "prompt": input_text
+            }
+            
         # Format completion using chat template
         output_text = tokenizer.apply_chat_template(assistant_messages, tokenize=False, add_generation_prompt=False)
         
@@ -393,6 +617,8 @@ def perform_kfold_cross_validation(args):
         results_dir = "/home/gganeshl/FOLIAGE/src/sft/results/craigslistbargain"
     elif args.dataset_type == "p4g":
         results_dir = "/home/gganeshl/FOLIAGE/src/sft/results/persuasionforgood"
+    elif args.dataset_type == "casino":
+        results_dir = "/home/gganeshl/FOLIAGE/src/sft/results/casino"
     os.makedirs(results_dir, exist_ok=True)
     
     # Extract ratio from filename
@@ -419,6 +645,17 @@ def perform_kfold_cross_validation(args):
             pd.DataFrame(columns=[
                 "dialogue_id", "fold", "prompt", "generated_text", 
                 "donation_made", "predicted_decision", "decision_correct"
+            ]).to_csv(predictions_file, index=False)
+        elif args.dataset_type == "casino":
+            pd.DataFrame(columns=[
+                "dialogue_id", "fold", "prompt", "generated_text",
+                "agent1_food", "agent1_water", "agent1_firewood",
+                "agent2_food", "agent2_water", "agent2_firewood",
+                "predicted_agent1_food", "predicted_agent1_water", "predicted_agent1_firewood",
+                "predicted_agent2_food", "predicted_agent2_water", "predicted_agent2_firewood",
+                "true_agent1_utility", "true_agent2_utility",
+                "predicted_agent1_utility", "predicted_agent2_utility",
+                "utility_mse"
             ]).to_csv(predictions_file, index=False)
     
     # Initialize wandb
@@ -481,8 +718,15 @@ def perform_kfold_cross_validation(args):
         model_checkpoint_path = os.path.join(fold_output_dir, "checkpoints")
         
         # Set metric for best model based on dataset type
-        metric_for_best_model = "eval_nmse" if args.dataset_type == "cb" else "eval_accuracy"
-        greater_is_better = False if args.dataset_type == "cb" else True
+        if args.dataset_type == "cb":
+            metric_for_best_model = "eval_nmse"
+            greater_is_better = False
+        elif args.dataset_type == "casino":
+            metric_for_best_model = "eval_utility_mse"
+            greater_is_better = False
+        else:  # p4g
+            metric_for_best_model = "eval_accuracy"
+            greater_is_better = True
         
         training_arguments = TrainingArguments(
             output_dir=model_checkpoint_path,
@@ -576,7 +820,7 @@ def perform_kfold_cross_validation(args):
                 # Generate prediction
                 try:
                     inputs = tokenizer([prompt], return_tensors="pt").to("cuda")
-                    outputs = model.generate(**inputs, max_new_tokens=64, use_cache=True)
+                    outputs = model.generate(**inputs, max_new_tokens=256, use_cache=True)
                     generated_text = tokenizer.decode(outputs[0])
                     
                     # Process based on dataset type
@@ -628,7 +872,50 @@ def perform_kfold_cross_validation(args):
                             true_decision = "YES" if dialogue_info[dialogue_id]["donation_made"] else "NO"
                             prediction["decision_correct"] = (pred_decision.lower() == true_decision.lower())
                     
+                    
+                    elif args.dataset_type == "casino":
+                        # Extract allocation
+                        predicted_allocation = extract_allocation(generated_text)
+                        
+                        # Add to predictions
+                        prediction = {
+                            "dialogue_id": dialogue_id,
+                            "fold": fold + 1,
+                            "prompt": prompt,
+                            "generated_text": generated_text,
+                            "agent1_food": dialogue_info[dialogue_id]["final_allocation"]["agent1"]["food"],
+                            "agent1_water": dialogue_info[dialogue_id]["final_allocation"]["agent1"]["water"],
+                            "agent1_firewood": dialogue_info[dialogue_id]["final_allocation"]["agent1"]["firewood"],
+                            "agent2_food": dialogue_info[dialogue_id]["final_allocation"]["agent2"]["food"],
+                            "agent2_water": dialogue_info[dialogue_id]["final_allocation"]["agent2"]["water"],
+                            "agent2_firewood": dialogue_info[dialogue_id]["final_allocation"]["agent2"]["firewood"],
+                            "true_agent1_utility": dialogue_info[dialogue_id]["agent1_utility"],
+                            "true_agent2_utility": dialogue_info[dialogue_id]["agent2_utility"]
+                        }
+                        
+                        # Calculate metrics if predicted allocation exists
+                        if predicted_allocation is not None:
+                            prediction["predicted_agent1_food"] = predicted_allocation["agent1"]["food"]
+                            prediction["predicted_agent1_water"] = predicted_allocation["agent1"]["water"]
+                            prediction["predicted_agent1_firewood"] = predicted_allocation["agent1"]["firewood"]
+                            prediction["predicted_agent2_food"] = predicted_allocation["agent2"]["food"]
+                            prediction["predicted_agent2_water"] = predicted_allocation["agent2"]["water"]
+                            prediction["predicted_agent2_firewood"] = predicted_allocation["agent2"]["firewood"]
+                            
+                            # Calculate predicted utility scores
+                            preferences = dialogue_info[dialogue_id]["preferences"]
+                            pred_agent1_utility = calculate_utility_score({'agent1': predicted_allocation['agent1']}, preferences)
+                            pred_agent2_utility = calculate_utility_score({'agent2': predicted_allocation['agent2']}, preferences)
+                            
+                            prediction["predicted_agent1_utility"] = pred_agent1_utility
+                            prediction["predicted_agent2_utility"] = pred_agent2_utility
+                            
+                            # Calculate utility MSE (only Agent 1)
+                            utility_mse = (dialogue_info[dialogue_id]["agent1_utility"] - pred_agent1_utility) ** 2
+                            prediction["utility_mse"] = utility_mse
+                        
                     fold_predictions.append(prediction)
+
                 except Exception as e:
                     print(f"Error generating prediction for dialogue {dialogue_id}: {e}")
                     continue
@@ -699,6 +986,24 @@ def perform_kfold_cross_validation(args):
                             })
                         except:
                             print("Warning: Could not log to wandb")
+
+                if args.dataset_type == "casino":
+                    df = df.dropna(subset=['predicted_agent1_utility', 'predicted_agent2_utility'])
+                    
+                    if len(df) > 0:
+                        # Calculate overall utility MSE
+                        utility_mse = df["utility_mse"].mean()
+                        
+                        # Add metrics to fold result
+                        fold_result["utility_mse"] = utility_mse
+                        
+                        # Log to wandb
+                        try:
+                            wandb.log({
+                                f"fold_{fold+1}/utility_mse": utility_mse
+                            })
+                        except:
+                            print("Warning: Could not log to wandb")
             
             fold_results.append(fold_result)
             
@@ -736,6 +1041,9 @@ def perform_kfold_cross_validation(args):
             elif args.dataset_type == "p4g":
                 if "accuracy" in result:
                     metrics_str += f", Accuracy = {result['accuracy']:.4f}"
+            elif args.dataset_type == "casino":
+                if "utility_mse" in result:
+                    metrics_str += f", Utility MSE = {result['utility_mse']:.4f}"
             
             print(f"Fold {result['fold']}: {metrics_str}")
     else:
@@ -797,6 +1105,24 @@ def perform_kfold_cross_validation(args):
                     })
                 except:
                     print("Warning: Could not log to wandb")
+            
+        elif args.dataset_type == "casino":
+            all_predictions = all_predictions.dropna(subset=['utility_mse'])
+            
+            if len(all_predictions) > 0:
+                overall_utility_mse = all_predictions["utility_mse"].mean()
+                
+                print(f"\nOverall Metrics:")
+                print(f"Utility MSE = {overall_utility_mse:.4f}")
+                
+                # Log overall metrics to wandb
+                try:
+                    wandb.log({
+                        "overall/utility_mse": overall_utility_mse
+                    })
+                except:
+                    print("Warning: Could not log to wandb")
+
     except Exception as e:
         print(f"Error calculating overall metrics: {e}")
     

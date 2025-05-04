@@ -23,6 +23,8 @@ class ConversationForecastingWithIntentions:
             self.dataset_dir = "/home/gganeshl/FOLIAGE/datasets/craigslistbargain/final"
         elif self.dataset_type == "p4g":
             self.dataset_dir = "/home/gganeshl/FOLIAGE/datasets/p4g/final"
+        elif self.dataset_type == "casino":
+            self.dataset_dir = "/home/gganeshl/FOLIAGE/datasets/casino/final"
         
         # Base output directory
         base_output_dir = f"/home/gganeshl/FOLIAGE/src/icl/results/{dataset_type}/{model_type}"
@@ -38,14 +40,17 @@ class ConversationForecastingWithIntentions:
             self.output_dir = base_output_dir
         
         # API keys
-        self.api_key = s.environ['OPENAI_API_KEY']
+        try:
+            self.api_key = os.environ['OPENAI_API_KEY']
+        except:
+            print("[ERROR] No OpenAI key found")
         
         # Initialize clients based on model type
         if self.model_type == "gpt":
             self.client = OpenAI(api_key=self.api_key)
         elif self.model_type == "llama70b" or self.model_type == "llama8b":
             self.client = OpenAI(
-                base_url="http://babel-4-37:8081/v1",
+                base_url="http://babel-15-36:8081/v1",
                 api_key="EMPTY"
             )
         
@@ -83,6 +88,11 @@ class ConversationForecastingWithIntentions:
                     speaker = "Persuadee"
                 elif speaker == "ER":
                     speaker = "Persuader"
+            elif self.dataset_type == "casino":
+                if speaker == "mturk_agent_1":
+                    speaker = "Agent 1"
+                elif speaker == "mturk_agent_2":
+                    speaker = "Agent 2"
             
             if self.include_intentions and 'intention' in row and pd.notna(row['intention']):
                 formatted_conversation.append(f"{speaker}: {row['utterance']} [{row['intention']}]")
@@ -127,6 +137,38 @@ INPUT: <${buyer_target}, ${seller_target}, [{conversation}]{summary_part}>"""
             summary_part = f" {summary}" if summary else ""  # Format like paste-2
             
             prompt = f"""You are helping analyze a persuasion conversation{intentions_note}. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'\n\nConversation:\n{conversation}{summary_part}"""
+        elif self.dataset_type == "casino":
+            # Extract agent preferences
+            agent1_high = row.get('mturk_agent_1_high_item', '').lower() if pd.notna(row.get('mturk_agent_1_high_item', '')) else 'unknown'
+            agent1_medium = row.get('mturk_agent_1_medium_item', '').lower() if pd.notna(row.get('mturk_agent_1_medium_item', '')) else 'unknown'
+            agent1_low = row.get('mturk_agent_1_low_item', '').lower() if pd.notna(row.get('mturk_agent_1_low_item', '')) else 'unknown'
+            
+            agent2_high = row.get('mturk_agent_2_high_item', '').lower() if pd.notna(row.get('mturk_agent_2_high_item', '')) else 'unknown'
+            agent2_medium = row.get('mturk_agent_2_medium_item', '').lower() if pd.notna(row.get('mturk_agent_2_medium_item', '')) else 'unknown'
+            agent2_low = row.get('mturk_agent_2_low_item', '').lower() if pd.notna(row.get('mturk_agent_2_low_item', '')) else 'unknown'
+            
+            intentions_note = " with intentions" if self.include_intentions else ""
+            summary_part = f" {summary}" if summary else ""
+            
+            prompt = f"""You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: {agent1_high}, Medium priority: {agent1_medium}, Low priority: {agent1_low}
+Agent 2: High priority: {agent2_high}, Medium priority: {agent2_medium}, Low priority: {agent2_low}
+
+Conversation{intentions_note}:
+{conversation}{summary_part}
+
+Based on this negotiation, predict the final allocation of resources. Provide your answer in the following format, with no explanation:
+AGENT_1_FOOD: [number]
+AGENT_1_WATER: [number]
+AGENT_1_FIREWOOD: [number]
+AGENT_2_FOOD: [number]
+AGENT_2_WATER: [number]
+AGENT_2_FIREWOOD: [number]
+
+Remember: Each resource must sum to exactly 3 units across both agents."""
+            
         return prompt
 
     @retry(wait=wait_exponential(multiplier=1, min=4, max=60), stop=stop_after_attempt(5))
@@ -173,6 +215,68 @@ INPUT: <${buyer_target}, ${seller_target}, [{conversation}]{summary_part}>"""
             time.sleep(2)
             raise
 
+    def extract_allocation(self, response):
+        """Extract final allocation from model output for Casino dataset."""
+        try:
+            if "<|end_header_id|>" in response:
+                response = response.split("<|end_header_id|>")[1].strip()
+            elif "assistant" in response:
+                response = response.split("assistant")[1].strip()
+
+            allocation = {'agent1': {}, 'agent2': {}}
+
+            # Agent 1
+            agent1_food = re.search(r'AGENT_1_FOOD:\s*(\d+)', response, re.IGNORECASE)
+            agent1_water = re.search(r'AGENT_1_WATER:\s*(\d+)', response, re.IGNORECASE)
+            agent1_firewood = re.search(r'AGENT_1_FIREWOOD:\s*(\d+)', response, re.IGNORECASE)
+            
+            # Agent 2
+            agent2_food = re.search(r'AGENT_2_FOOD:\s*(\d+)', response, re.IGNORECASE)
+            agent2_water = re.search(r'AGENT_2_WATER:\s*(\d+)', response, re.IGNORECASE)
+            agent2_firewood = re.search(r'AGENT_2_FIREWOOD:\s*(\d+)', response, re.IGNORECASE)
+
+            if all([agent1_food, agent1_water, agent1_firewood, agent2_food, agent2_water, agent2_firewood]):
+                allocation['agent1']['food'] = int(agent1_food.group(1))
+                allocation['agent1']['water'] = int(agent1_water.group(1))
+                allocation['agent1']['firewood'] = int(agent1_firewood.group(1))
+                allocation['agent2']['food'] = int(agent2_food.group(1))
+                allocation['agent2']['water'] = int(agent2_water.group(1))
+                allocation['agent2']['firewood'] = int(agent2_firewood.group(1))
+
+                # DEBUG: Print parsed allocation
+                print(f"[DEBUG] Parsed allocation: {allocation}")
+
+                # Enforce sum constraint
+                for resource in ['food', 'water', 'firewood']:
+                    total = allocation['agent1'][resource] + allocation['agent2'][resource]
+                    if total != 3:
+                        print(f"[WARNING] Invalid total for {resource}: {total}.")
+
+
+                return allocation
+
+            print(f"[WARNING] Could not match all fields. Response: {response}")
+            return None
+        except Exception as e:
+            print(f"[ERROR] Failed to extract allocation: {e}")
+            return None
+
+    def calculate_utility_score(self, allocation, preferences):
+        """Calculate utility score based on allocation and preferences."""
+        utility_map = {
+            'high': 5,
+            'medium': 4,
+            'low': 3
+        }
+        
+        score = 0
+        for agent, items in allocation.items():
+            for item, value in items.items():
+                # Get preference level for this agent and item
+                pref = preferences[agent][item]
+                score += utility_map[pref] * value
+        
+        return score
 
     def extract_prediction(self, response):
         """Extract prediction from LLM response"""
@@ -202,22 +306,81 @@ INPUT: <${buyer_target}, ${seller_target}, [{conversation}]{summary_part}>"""
             return None
             
         elif self.dataset_type == "p4g":
-            donation_match = re.search(r'DONATION:\s*(YES|NO)', text, re.IGNORECASE)
-            if donation_match:
-                donation_decision = donation_match.group(1).upper()
-                return donation_decision
+            if "assistant" in response:
+            # Extract content after the marker
+                parts = response.split("assistant")
+                if len(parts) > 1:
+                    response = parts[1]
+                
+                # Look for DONATION: YES or DONATION: NO pattern
+                donation_match = re.search(r'DONATION:\s*(YES|NO)', response, re.IGNORECASE)
+                if donation_match:
+                    donation_decision = donation_match.group(1).upper()
+                    return donation_decision
+            else:
+                donation_match = re.search(r'DONATION:\s*(YES|NO)', response, re.IGNORECASE)
+                if donation_match:
+                    donation_decision = donation_match.group(1).upper()
+                    return donation_decision
+        elif self.dataset_type == "casino":
+            # Use the extract_allocation function for casino dataset
+            return self.extract_allocation(response)
 
         print(f"[WARNING] Could not extract prediction from response: {response}")
         return None
+
 
     def determine_actual_outcome(self, row):
         if self.dataset_type == "cb":
             return row['sale_price']
         elif self.dataset_type == "p4g":
-            donation_made = row.get('donation_made', None)
+            donation_made = row.get('donation_made')
             if donation_made is not None:
                 return "YES" if donation_made==1 else "NO"
             return None
+        elif self.dataset_type == "casino":
+            try:
+                # Extract actual allocation
+                actual_allocation = {
+                    'agent1': {
+                        'food': int(row.get('mturk_agent_1_food', 0)),
+                        'water': int(row.get('mturk_agent_1_water', 0)),
+                        'firewood': int(row.get('mturk_agent_1_firewood', 0))
+                    },
+                    'agent2': {
+                        'food': int(row.get('mturk_agent_2_food', 0)),
+                        'water': int(row.get('mturk_agent_2_water', 0)),
+                        'firewood': int(row.get('mturk_agent_2_firewood', 0))
+                    }
+                }
+                
+                # Get preferences
+                preferences = {
+                    'agent1': {
+                        row.get('mturk_agent_1_high_item', '').lower(): 'high',
+                        row.get('mturk_agent_1_medium_item', '').lower(): 'medium',
+                        row.get('mturk_agent_1_low_item', '').lower(): 'low'
+                    },
+                    'agent2': {
+                        row.get('mturk_agent_2_high_item', '').lower(): 'high',
+                        row.get('mturk_agent_2_medium_item', '').lower(): 'medium',
+                        row.get('mturk_agent_2_low_item', '').lower(): 'low'
+                    }
+                }
+                
+                # Calculate utility scores
+                agent1_utility = self.calculate_utility_score({'agent1': actual_allocation['agent1']}, preferences)
+                agent2_utility = self.calculate_utility_score({'agent2': actual_allocation['agent2']}, preferences)
+                
+                return {
+                    'allocation': actual_allocation,
+                    'preferences': preferences,
+                    'agent1_utility': agent1_utility,
+                    'agent2_utility': agent2_utility
+                }
+            except Exception as e:
+                print(f"[WARNING] Error determining actual outcome for casino: {e}")
+                return None
         if 'label' in row and pd.notna(row['label']):
             return row['label']
 
@@ -232,6 +395,9 @@ INPUT: <${buyer_target}, ${seller_target}, [{conversation}]{summary_part}>"""
             return None
         elif self.dataset_type == "p4g":
             return 1 if str(actual).lower() == str(predicted).lower() else 0
+        elif self.dataset_type == "casino":
+            # For casino, we use utility MSE as a metric
+            return None
             
         return 0
 
@@ -282,6 +448,41 @@ INPUT: <${buyer_target}, ${seller_target}, [{conversation}]{summary_part}>"""
                         'correct': correct,
                         'donation_amount': row.get('donation_amount')
                     })
+                # When adding prediction results to the output
+                elif self.dataset_type == "casino" and isinstance(actual, dict) and isinstance(prediction, dict):
+                    try:
+                        # Safely extract actual values
+                        for agent in ['agent1', 'agent2']:
+                            for resource in ['food', 'water', 'firewood']:
+                                actual_val = actual.get('allocation', {}).get(agent, {}).get(resource)
+                                pred_val = prediction.get(agent, {}).get(resource)
+
+                                if actual_val is not None:
+                                    result[f'{agent}_{resource}_actual'] = actual_val
+                                if pred_val is not None:
+                                    result[f'{agent}_{resource}_pred'] = pred_val
+
+                        # Safely get preferences
+                        preferences = actual.get('preferences', {})
+
+                        # Compute predicted utilities only if all values present
+                        if all(agent in prediction for agent in ['agent1', 'agent2']):
+                            pred_agent1_utility = self.calculate_utility_score({'agent1': prediction['agent1']}, preferences)
+                            pred_agent2_utility = self.calculate_utility_score({'agent2': prediction['agent2']}, preferences)
+
+                            result['agent1_utility_pred'] = pred_agent1_utility
+                            result['agent2_utility_pred'] = pred_agent2_utility
+
+                            if 'agent1_utility' in actual:
+                                result['agent1_utility_actual'] = actual['agent1_utility']
+                                result['utility_mse'] = (actual['agent1_utility'] - pred_agent1_utility) ** 2
+
+                            if 'agent2_utility' in actual:
+                                result['agent2_utility_actual'] = actual['agent2_utility']
+
+
+                    except Exception as e:
+                        print(f"[WARNING] Failed to safely extract actual/predicted for casino: {e}")
 
                 results.append(result)
                 time.sleep(0.5)
@@ -315,14 +516,33 @@ INPUT: <${buyer_target}, ${seller_target}, [{conversation}]{summary_part}>"""
                 dialogue_row = {
                     'dialogue_id': dialogue_id,
                     'conversation': conversation,
-                    'buyer_target': group['buyer_target'].iloc[0] if 'buyer_target' in group.columns else None,
-                    'seller_target': group['seller_target'].iloc[0] if 'seller_target' in group.columns else None,
-                    'sale_price': group['sale_price'].iloc[0] if 'sale_price' in group.columns else None
                 }
                 
-                # Add other relevant data if available
-                if 'donation_amount' in group.columns:
-                    dialogue_row['donation_amount'] = group['donation_amount'].iloc[0]
+                # Add dataset-specific fields
+                if self.dataset_type == "cb":
+                    dialogue_row.update({
+                        'buyer_target': group['buyer_target'].iloc[0] if 'buyer_target' in group.columns else None,
+                        'seller_target': group['seller_target'].iloc[0] if 'seller_target' in group.columns else None,
+                        'sale_price': group['sale_price'].iloc[0] if 'sale_price' in group.columns else None
+                    })
+                elif self.dataset_type == "p4g":
+                    # For the p4g dataset, correctly handle the donation_made column
+                    dialogue_row.update({
+                        'donation_amount': group['donation_amount'].iloc[0] if 'donation_amount' in group.columns else None,
+                        'donation_made': group['donation_made'].iloc[0] if 'donation_made' in group.columns else None
+                    })
+                elif self.dataset_type == "casino":
+                    # Add casino-specific fields
+                    casino_fields = [
+                        'mturk_agent_1_high_item', 'mturk_agent_1_medium_item', 'mturk_agent_1_low_item',
+                        'mturk_agent_2_high_item', 'mturk_agent_2_medium_item', 'mturk_agent_2_low_item',
+                        'mturk_agent_1_food', 'mturk_agent_1_water', 'mturk_agent_1_firewood',
+                        'mturk_agent_2_food', 'mturk_agent_2_water', 'mturk_agent_2_firewood'
+                    ]
+                    
+                    for field in casino_fields:
+                        if field in group.columns:
+                            dialogue_row[field] = group[field].iloc[0]
                 
                 if 'label' in group.columns:
                     dialogue_row['label'] = group['label'].iloc[0]
@@ -391,7 +611,7 @@ INPUT: <${buyer_target}, ${seller_target}, [{conversation}]{summary_part}>"""
                                         (row['seller_target'] <= row['predicted_final_price'] <= row['buyer_target']) 
                                    else 0, axis=1)
                     print(f"  Predictions within negotiation range: {df['within_range'].sum()} ({df['within_range'].mean() * 100:.2f}%)")
-            else:
+            elif self.dataset_type == "p4g":
                 # For p4g dataset with binary prediction
                 if 'correct' in df.columns:
                     print(f"  Correct predictions: {df['correct'].sum()} ({df['correct'].mean() * 100:.2f}%)")
@@ -412,6 +632,39 @@ INPUT: <${buyer_target}, ${seller_target}, [{conversation}]{summary_part}>"""
                             print(f"  Precision: {precision:.4f}")
                             print(f"  Recall: {recall:.4f}")
                             print(f"  F1 Score: {f1:.4f}")
+            elif self.dataset_type == "casino":
+                # Calculate utility MSE for casino dataset
+                if 'utility_mse' in df.columns:
+                    df_valid = df.dropna(subset=['utility_mse'])
+                    if len(df_valid) > 0:
+                        mean_utility_mse = df_valid['utility_mse'].mean()
+                        median_utility_mse = df_valid['utility_mse'].median()
+                        print(f"  Mean Utility MSE: {mean_utility_mse:.4f}")
+                        print(f"  Median Utility MSE: {median_utility_mse:.4f}")
+                        
+                        # Calculate exact match ratio for resource allocation
+                        if all(col in df.columns for col in ['agent1_food_actual', 'agent1_food_pred']):
+                            df['food_match'] = df.apply(
+                                lambda row: 1 if row['agent1_food_actual'] == row['agent1_food_pred'] and 
+                                              row['agent2_food_actual'] == row['agent2_food_pred'] else 0, axis=1)
+                            df['water_match'] = df.apply(
+                                lambda row: 1 if row['agent1_water_actual'] == row['agent1_water_pred'] and 
+                                              row['agent2_water_actual'] == row['agent2_water_pred'] else 0, axis=1)
+                            df['firewood_match'] = df.apply(
+                                lambda row: 1 if row['agent1_firewood_actual'] == row['agent1_firewood_pred'] and 
+                                              row['agent2_firewood_actual'] == row['agent2_firewood_pred'] else 0, axis=1)
+                            
+                            print(f"  Food allocation accuracy: {df['food_match'].mean() * 100:.2f}%")
+                            print(f"  Water allocation accuracy: {df['water_match'].mean() * 100:.2f}%")
+                            print(f"  Firewood allocation accuracy: {df['firewood_match'].mean() * 100:.2f}%")
+                            
+                            # Calculate exact resource allocation match for all resources
+                            df['exact_match'] = df.apply(
+                                lambda row: 1 if row['food_match'] == 1 and 
+                                              row['water_match'] == 1 and 
+                                              row['firewood_match'] == 1 else 0, axis=1)
+                            print(f"  Exact allocation match: {df['exact_match'].sum()} ({df['exact_match'].mean() * 100:.2f}%)")
+                
                 
             # Save final results with metrics
             ratio_str = str(self.ratio)
@@ -436,7 +689,7 @@ INPUT: <${buyer_target}, ${seller_target}, [{conversation}]{summary_part}>"""
 
 def main():
     parser = argparse.ArgumentParser(description="Conversation Forecasting With Intentions")
-    parser.add_argument("--dataset_type", type=str, required=True, choices=["cb", "p4g"],
+    parser.add_argument("--dataset_type", type=str, required=True, choices=["cb", "p4g", "casino"],
                         help="Type of dataset (cb for Craigslist Bargain, p4g for Persuasion for Good)")
     parser.add_argument("--model_type", type=str, default="gpt", choices=["gpt", "llama8b", "llama70b"],
                         help="Type of model to use (gpt for OpenAI, llama for open source Llama model)")
@@ -465,3 +718,31 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# python zero_shot.py --dataset_type p4g --model_type llama70b --summary_type none --ratio 0.5 --include_intentions
+# python zero_shot.py --dataset_type p4g --model_type llama70b --summary_type none --ratio 0.625 --include_intentions
+# python zero_shot.py --dataset_type p4g --model_type llama70b --summary_type none --ratio 0.75 --include_intentions
+
+# python zero_shot.py --dataset_type p4g --model_type llama70b --summary_type scm --ratio 0.375 
+# python zero_shot.py --dataset_type p4g --model_type llama70b --summary_type scm --ratio 0.5 
+# python zero_shot.py --dataset_type p4g --model_type llama70b --summary_type scm --ratio 0.625 
+# python zero_shot.py --dataset_type p4g --model_type llama70b --summary_type scm --ratio 0.75 
+
+# python zero_shot.py --dataset_type p4g --model_type llama70b --summary_type scd --ratio 0.25 
+# python zero_shot.py --dataset_type p4g --model_type llama70b --summary_type scd --ratio 0.375 
+# python zero_shot.py --dataset_type p4g --model_type llama70b --summary_type scd --ratio 0.5 
+# python zero_shot.py --dataset_type p4g --model_type llama70b --summary_type scd --ratio 0.625 
+# python zero_shot.py --dataset_type p4g --model_type llama70b --summary_type scd --ratio 0.75 
+
+# python zero_shot.py --dataset_type p4g --model_type llama70b --summary_type scm --ratio 0.25 --include_intentions
+# python zero_shot.py --dataset_type p4g --model_type llama70b --summary_type scm --ratio 0.375 --include_intentions
+# python zero_shot.py --dataset_type p4g --model_type llama70b --summary_type scm --ratio 0.5 --include_intentions
+# python zero_shot.py --dataset_type p4g --model_type llama70b --summary_type scm --ratio 0.625 --include_intentions
+# python zero_shot.py --dataset_type p4g --model_type llama70b --summary_type scm --ratio 0.75 --include_intentions
+
+# python zero_shot.py --dataset_type p4g --model_type llama70b --summary_type scd --ratio 0.25 --include_intentions
+# python zero_shot.py --dataset_type p4g --model_type llama70b --summary_type scd --ratio 0.375 --include_intentions
+# python zero_shot.py --dataset_type p4g --model_type llama70b --summary_type scd --ratio 0.5 --include_intentions
+# python zero_shot.py --dataset_type p4g --model_type llama70b --summary_type scd --ratio 0.625 --include_intentions
+# python zero_shot.py --dataset_type p4g --model_type llama70b --summary_type scd --ratio 0.75 --include_intentions
