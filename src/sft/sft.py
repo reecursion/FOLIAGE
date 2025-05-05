@@ -107,7 +107,7 @@ def compute_metrics(_, tokenizer, model, eval_dataset, dialogue_info, dataset_ty
                 # print(f"DEBUG: Extracted donation decision: {pred_decision}")
                 
                 # Skip if no valid prediction
-                if pred_decision is None:
+                if pred_decision == "NULL":
                     print(f"DEBUG: Failed to extract donation decision from: {pred_text}")
                     skipped_count += 1
                     continue
@@ -212,7 +212,7 @@ def parse_arguments():
     parser.add_argument("--batch_size", type=int, default=4, help="Training batch size per device")
     parser.add_argument("--epochs", type=int, default=10, help="Number of training epochs")
     parser.add_argument("--n_folds", type=int, default=5, help="Number of folds for cross-validation")
-    parser.add_argument("--max_length", type=int, default=512, help="Maximum sequence length")
+    parser.add_argument("--max_length", type=int, default=1024, help="Maximum sequence length")
     parser.add_argument("--rank", type=int, default=8, help="LoRA rank")
     # K-fold arguments
     parser.add_argument("--seed", type=int, default=42, help="Random seed for reproducibility")
@@ -295,10 +295,10 @@ def extract_donation_decision(response):
                 return donation_decision
             else:
                 print(f"[ERROR] Cannot extract response from: {response}")
-        return "NO"
+        return "NULL"
     except:
         print(f"[ERROR] Cannot extract response from: {response}")
-        return "NO"
+        return "NULL"
 
 def extract_final_price(text):
     """Extract the final price from model output."""
@@ -363,7 +363,7 @@ def prepare_dataset(args, tokenizer):
                 # No intentions
                 conversation.append(f"{speaker}: {utterance}")
         
-        formatted_conversation = "\n".join(conversation)
+        formatted_conversation = ", ".join(conversation)
         
         # Add summary if using global scaffolding
         summary = ""
@@ -829,7 +829,7 @@ def perform_kfold_cross_validation(args):
                 # Generate prediction
                 try:
                     inputs = tokenizer([prompt], return_tensors="pt").to("cuda")
-                    outputs = model.generate(**inputs, max_new_tokens=512, use_cache=True)
+                    outputs = model.generate(**inputs, max_new_tokens=1024, use_cache=True)
                     generated_text = tokenizer.decode(outputs[0])
                     
                     # Process based on dataset type
