@@ -5,7 +5,7 @@ import re
 from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
 
 # Path to the directory containing the CSV files
-base_dir = "/home/gganeshl/FOLIAGE/src/sft/results/persuasionforgood"
+base_dir = "/home/gganeshl/FOLIAGE/src/sft/results/p4g"
 
 # Function to calculate metrics for a single file
 def analyze_file(filepath):
@@ -22,7 +22,7 @@ def analyze_file(filepath):
             print(f"  Fold {fold}: {count} samples")
         
         # Filter out any rows with missing data
-        valid_data = df.dropna(subset=['donation_made', 'predicted_decision'])
+        valid_data = df.dropna(subset=['label', 'predicted_label'])
         print(f"\nTotal rows after filtering: {len(valid_data)}")
         
         # Extract fold information after filtering
@@ -36,8 +36,8 @@ def analyze_file(filepath):
         fold_counts_after = folds_after
         
         # Convert True/False and YES/NO to 1/0 for binary classification metrics
-        valid_data['actual_binary'] = valid_data['donation_made'].map({True: 1, False: 0})
-        valid_data['predicted_binary'] = valid_data['predicted_decision'].map({'YES': 1, 'NO': 0})
+        valid_data['actual_binary'] = valid_data['label']
+        valid_data['predicted_binary'] = valid_data['predicted_label']
         
         # Group by fold and calculate metrics for each fold
         fold_metrics = {}
@@ -52,9 +52,9 @@ def analyze_file(filepath):
             predicted = fold_data['predicted_binary'].values
             
             # Calculate metrics
-            precision = precision_score(actual, predicted, zero_division=0)
-            recall = recall_score(actual, predicted, zero_division=0)
-            f1 = f1_score(actual, predicted, zero_division=0)
+            precision = precision_score(actual, predicted, zero_division=0, average="macro")
+            recall = recall_score(actual, predicted, zero_division=0, average="macro")
+            f1 = f1_score(actual, predicted, zero_division=0, average="macro")
             accuracy = accuracy_score(actual, predicted)
             
             # Count true/false positives/negatives
@@ -184,7 +184,7 @@ def process_all_files():
             '(vi) Utterance + Intentions + SCM'
         ]
         
-        ratios = ['0.25'] #, '0.375', '0.5', '0.625', '0.75']
+        ratios = ['0.25', '0.375', '0.5', '0.625', '0.75']
         
         # Initialize empty table
         for metric_type in table_data.keys():
@@ -299,8 +299,8 @@ def generate_combined_latex_table(data, ratios):
             latex_table += "\\midrule\n"
     
     latex_table += "\\hline\n\\end{tabular}\n"
-    latex_table += "\\caption{\\textbf{ICL: }Performance metrics across different conversation lengths and configuration types for \\textbf{Llama-3.1-70B} on the \\textbf{Persuasion for Good} dataset}\n"
-    latex_table += "\\label{tab:combined_metrics_icl_llama_p4g}\n\\end{table*}"
+    latex_table += "\\caption{\\textbf{SFT: }Performance metrics across different conversation lengths and configuration types for \\textbf{Llama-3.1-70B} on the \\textbf{Persuasion for Good} dataset}\n"
+    latex_table += "\\label{tab:combined_metrics_sft_llama_p4g}\n\\end{table*}"
     
     print(latex_table)
     return latex_table

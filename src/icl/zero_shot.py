@@ -178,7 +178,7 @@ Remember: Each resource must sum to exactly 3 units across both agents."""
                 response = self.client.chat.completions.create(
                     model="gpt-3.5-turbo",
                     messages=[{"role": "user", "content": prompt}],
-                    temperature=0.2,
+                    temperature=0,
                     max_tokens=100
                 )
                 return response.choices[0].message.content.strip()

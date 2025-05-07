@@ -25,9 +25,9 @@ def analyze_file(filepath):
         valid_data['predicted_binary'] = valid_data['predicted'].map({'yes': 1, 'no': 0})
         
         # Calculate metrics
-        precision = precision_score(valid_data['actual_binary'], valid_data['predicted_binary'], zero_division=0)
-        recall = recall_score(valid_data['actual_binary'], valid_data['predicted_binary'], zero_division=0)
-        f1 = f1_score(valid_data['actual_binary'], valid_data['predicted_binary'], zero_division=0)
+        precision = precision_score(valid_data['actual_binary'], valid_data['predicted_binary'], zero_division=0, average="macro")
+        recall = recall_score(valid_data['actual_binary'], valid_data['predicted_binary'], zero_division=0, average="macro")
+        f1 = f1_score(valid_data['actual_binary'], valid_data['predicted_binary'], zero_division=0, average="macro")
         
         return {
             'filename': os.path.basename(filepath),
