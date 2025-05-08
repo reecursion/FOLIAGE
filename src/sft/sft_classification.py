@@ -56,7 +56,7 @@ def compute_metrics(eval_preds, val_idx=None, full_dataset=None):
     
     # Calculate metrics
     accuracy = accuracy_score(labels, predictions)
-    precision, recall, f1, _ = precision_recall_fscore_support(labels, predictions, average='binary')
+    precision, recall, f1, _ = precision_recall_fscore_support(labels, predictions, average='macro')
     
     return {
         'accuracy': accuracy,
@@ -81,7 +81,7 @@ def parse_arguments():
                         help="Type of summary to use for global intentions")
     
     # Training arguments
-    parser.add_argument("--output_dir", type=str, default="./output",
+    parser.add_argument("--output_dir", type=str, default="data/user_data/gganeshl/",
                         help="Directory to save model checkpoints")
     parser.add_argument("--batch_size", type=int, default=4, help="Training batch size per device")
     parser.add_argument("--epochs", type=int, default=10, help="Number of training epochs")
@@ -106,7 +106,6 @@ def prepare_dataset(args, tokenizer):
     df = pd.read_csv(args.dataset_path)
     
     if args.dataset_type != "p4g":
-        print(f"This script currently only supports the p4g dataset type. You specified: {args.dataset_type}")
         return None
     
     print("Processing dialogue-level dataset...")
@@ -359,7 +358,7 @@ def perform_kfold_cross_validation(args):
             num_train_epochs=args.epochs,
             warmup_ratio=0.1,
             load_best_model_at_end=True,
-            metric_for_best_model="eval_accuracy",
+            metric_for_best_model="eval_f1",
             greater_is_better=True,
             save_total_limit=args.save_total_limit,
             dataloader_drop_last=False,  # To handle small datasets better

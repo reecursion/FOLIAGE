@@ -62,13 +62,14 @@ def calculate_metrics(data):
     
     # Calculate RMSE for success
     success_mse = ((valid_data['success_sale'] - valid_data['success_predicted']) ** 2).mean()
-    success_rmse = math.sqrt(success_mse)
+    success_rmse = round(math.sqrt(success_mse), 2)
     
     # Calculate Pearson correlation for success
     success_pearson, _ = pearsonr(valid_data['success_sale'], valid_data['success_predicted'])
+    success_pearson = round(success_pearson, 2)
     
     # Calculate NMSE for raw price
-    raw_price_nmse = valid_data['normalized_squared_error'].mean()
+    raw_price_nmse = round(valid_data['normalized_squared_error'].mean(), 2)
     
     return {
         'successRMSE': success_rmse,
@@ -77,13 +78,20 @@ def calculate_metrics(data):
         'count': len(valid_data)
     }
 
-# Average metrics across folds
+# Average metrics across folds with standard deviation
 def average_metrics_across_folds(fold_results):
     metrics = {
         'successRMSE': 0,
         'successPearson': 0,
         'rawPriceNMSE': 0,
         'totalCount': 0
+    }
+    
+    # Store individual fold metrics for std calculation
+    fold_metrics_list = {
+        'successRMSE': [],
+        'successPearson': [],
+        'rawPriceNMSE': []
     }
     
     for fold, fold_metrics in fold_results.items():
@@ -93,12 +101,30 @@ def average_metrics_across_folds(fold_results):
         metrics['successPearson'] += fold_metrics['successPearson'] * count
         metrics['rawPriceNMSE'] += fold_metrics['rawPriceNMSE'] * count
         metrics['totalCount'] += count
+        
+        # Store each fold's metrics for std calculation
+        fold_metrics_list['successRMSE'].append(fold_metrics['successRMSE'])
+        fold_metrics_list['successPearson'].append(fold_metrics['successPearson'])
+        fold_metrics_list['rawPriceNMSE'].append(fold_metrics['rawPriceNMSE'])
     
     # Normalize by total count
     if metrics['totalCount'] > 0:
         metrics['successRMSE'] /= metrics['totalCount']
         metrics['successPearson'] /= metrics['totalCount']
         metrics['rawPriceNMSE'] /= metrics['totalCount']
+    
+    # Calculate standard deviations across folds
+    metrics['successRMSE_std'] = np.std(fold_metrics_list['successRMSE'], ddof=1) if len(fold_metrics_list['successRMSE']) > 1 else 0
+    metrics['successPearson_std'] = np.std(fold_metrics_list['successPearson'], ddof=1) if len(fold_metrics_list['successPearson']) > 1 else 0
+    metrics['rawPriceNMSE_std'] = np.std(fold_metrics_list['rawPriceNMSE'], ddof=1) if len(fold_metrics_list['rawPriceNMSE']) > 1 else 0
+    
+    # Round all metrics and standard deviations to 2 decimal places
+    metrics['successRMSE'] = round(metrics['successRMSE'], 2)
+    metrics['successPearson'] = round(metrics['successPearson'], 2)
+    metrics['rawPriceNMSE'] = round(metrics['rawPriceNMSE'], 2)
+    metrics['successRMSE_std'] = round(metrics['successRMSE_std'], 2)
+    metrics['successPearson_std'] = round(metrics['successPearson_std'], 2)
+    metrics['rawPriceNMSE_std'] = round(metrics['rawPriceNMSE_std'], 2)
     
     return metrics
 
@@ -150,7 +176,10 @@ def process_all_files():
         table_data = {
             'successRMSE': {},
             'successPearson': {},
-            'rawPriceNMSE': {}
+            'rawPriceNMSE': {},
+            'successRMSE_std': {},
+            'successPearson_std': {},
+            'rawPriceNMSE_std': {}
         }
         
         # Initialize structure
@@ -166,7 +195,8 @@ def process_all_files():
         ratios = ['0.25', '0.375', '0.5', '0.625', '0.75']
         
         # Initialize empty table
-        for metric_type in table_data.keys():
+        for metric_type in ['successRMSE', 'successPearson', 'rawPriceNMSE', 
+                           'successRMSE_std', 'successPearson_std', 'rawPriceNMSE_std']:
             table_data[metric_type] = {}
             
             for config_type in config_types:
@@ -186,9 +216,15 @@ def process_all_files():
             if not config_type or not ratio or ratio not in ratios:
                 continue
             
+            # Fill mean values
             table_data['successRMSE'][config_type][ratio] = result['avg_metrics']['successRMSE']
             table_data['successPearson'][config_type][ratio] = result['avg_metrics']['successPearson']
             table_data['rawPriceNMSE'][config_type][ratio] = result['avg_metrics']['rawPriceNMSE']
+            
+            # Fill standard deviation values
+            table_data['successRMSE_std'][config_type][ratio] = result['avg_metrics']['successRMSE_std']
+            table_data['successPearson_std'][config_type][ratio] = result['avg_metrics']['successPearson_std']
+            table_data['rawPriceNMSE_std'][config_type][ratio] = result['avg_metrics']['rawPriceNMSE_std']
         
         # Generate combined LaTeX table
         print("\n--- Combined Table for All Metrics ---")
@@ -199,19 +235,22 @@ def process_all_files():
         print(f"Error processing files: {e}")
         return {'error': str(e)}
 
-# Generate combined LaTeX table for all metrics
+# Generate combined LaTeX table for all metrics with standard deviations
 def generate_combined_latex_table(data, ratios):
     metric_names = ['Success RMSE', 'Success Pearson', 'Raw Price NMSE']
     metric_keys = ['successRMSE', 'successPearson', 'rawPriceNMSE']
+    std_keys = ['successRMSE_std', 'successPearson_std', 'rawPriceNMSE_std']
     
     # Start the table
-    latex_table = "\\begin{table}[ht]\n\\centering\n\\begin{tabular}{ll" + "c" * len(ratios) + "}\n\\hline\n"
+    latex_table = "\\begin{table}[ht]\n\\centering\n\\begin{tabular}{p{2.8cm}p{3.5cm}p{1.3cm}p{1.3cm}p{1.3cm}p{1.3cm}p{1.3cm}}\n\\hline\n"
     latex_table += "\\textbf{Metric} & \\textbf{Config} & " + " & ".join([f"\\textbf{{{float(r) * 100:.1f}\\%}}" for r in ratios]) + " \\\\\n\\hline\n"
     
     # For each metric
     for i, metric_name in enumerate(metric_names):
         metric_key = metric_keys[i]
+        std_key = std_keys[i]
         metric_data = data[metric_key]
+        std_data = data[std_key]
         
         # Get configs that have data for this metric
         config_types = [ct for ct in metric_data.keys() if any(metric_data[ct].get(r) is not None for r in ratios)]
@@ -241,12 +280,13 @@ def generate_combined_latex_table(data, ratios):
             cells = []
             for ratio in ratios:
                 value = metric_data[config_type].get(ratio)
+                std_value = std_data[config_type].get(ratio)
                 
-                if value is None:
+                if value is None or std_value is None:
                     cells.append('-')
                 else:
-                    # Format value (round to 4 decimal places)
-                    formatted_value = f"{value:.4f}"
+                    # Format value with standard deviation (mean ± std) - now with 2 decimal places
+                    formatted_value = f"{value:.2f} $\\pm$ {std_value:.2f}"
                     
                     # Color compared to baseline
                     if config_type == baseline_type or ratio not in baseline_values:
@@ -271,7 +311,7 @@ def generate_combined_latex_table(data, ratios):
             latex_table += "\\midrule\n"
     
     latex_table += "\\hline\n\\end{tabular}\n"
-    latex_table += "\\caption{Performance metrics across different conversation lengths and configuration types.}\n"
+    latex_table += "\\caption{Performance metrics (mean $\\pm$ standard deviation) across different conversation lengths and configuration types.}\n"
     latex_table += "\\label{tab:combined_metrics}\n\\end{table}"
     
     print(latex_table)
@@ -290,7 +330,7 @@ def generate_latex_table(data, metric_name, ratios):
     
     for ratio in ratios:
         if baseline_type in data and ratio in data[baseline_type] and data[baseline_type][ratio] is not None:
-            baseline_values[ratio] = data[baseline_type][ratio]
+            baseline_values[ratio] = round(data[baseline_type][ratio],2)
     
     # Add rows
     for config_type in config_types:
@@ -298,13 +338,13 @@ def generate_latex_table(data, metric_name, ratios):
         
         cells = []
         for ratio in ratios:
-            value = data[config_type].get(ratio)
+            value = round(data[config_type].get(ratio), 2)
             
             if value is None:
                 cells.append('-')
             else:
-                # Format value (round to 4 decimal places)
-                formatted_value = f"{value:.4f}"
+                # Format value (round to 2 decimal places)
+                formatted_value = f"{value:.2f}"
                 
                 # Color compared to baseline
                 if config_type == baseline_type or ratio not in baseline_values:
