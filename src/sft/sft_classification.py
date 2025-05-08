@@ -131,9 +131,9 @@ def prepare_dataset(args, tokenizer):
             # Format speaker role
             speaker = row['speaker']
             if speaker == "EE":
-                speaker = "Persuadee"
+                speaker = "Persuadee (EE)"
             elif speaker == "ER":
-                speaker = "Persuader"
+                speaker = "Persuader (ER)"
             
             # Format with or without intentions based on scaffolding type
             utterance = row['utterance']
@@ -240,7 +240,7 @@ def perform_kfold_cross_validation(args):
         experiment_name += f"_{args.summary_type}"
     
     # Initialize predictions CSV
-    predictions_file = os.path.join(f"/home/gganeshl/FOLIAGE/src/sft/results/{args.dataset_type}", f"{experiment_name}_predictions.csv")
+    predictions_file = os.path.join(f"/home/gganeshl/FOLIAGE/src/sft/results/{args.dataset_type}/seed_{args.seed}", f"{experiment_name}_predictions.csv")
     
     # Initialize empty DataFrame if file doesn't exist
     if not os.path.exists(predictions_file):

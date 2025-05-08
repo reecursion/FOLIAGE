@@ -1,0 +1,2333 @@
+dialogue_id,fold,prompt,generated_text,buyer_target,seller_target,sale_price,predicted_final_price,success_sale,success_predicted,normalized_squared_error
+C_02dce7bcadcc42f087698f0e6bdcb5a0,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$778, $1556, [Seller: Hello [Greeting the buyer], Buyer: Hi! How's the flooring of the apartments? [Initiating conversation and inquiring about the flooring]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$778, $1556, [Seller: Hello [Greeting the buyer], Buyer: Hi! How's the flooring of the apartments? [Initiating conversation and inquiring about the flooring]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $1200.0<|eot_id|>",778,1556,1350.0,1200.0,0.7352185089974294,0.5424164524421594,16.666666666666668
+C_05801cc30bfb40299539dbe518ee2cd7,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$9880, $13000, [Buyer: Hello I am interested in your vehicle. What kind of amenties does it have? [Expressing interest and inquiring about vehicle amenities], Seller: very well kept and only has 32k miles very clean interior and drives like a champ, i'm pretty firm on price but could also be flirted with a great deal [Describing the vehicle's condition and hinting at price flexibility]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$9880, $13000, [Buyer: Hello I am interested in your vehicle. What kind of amenties does it have? [Expressing interest and inquiring about vehicle amenities], Seller: very well kept and only has 32k miles very clean interior and drives like a champ, i'm pretty firm on price but could also be flirted with a great deal [Describing the vehicle's condition and hinting at price flexibility]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $10500.0<|eot_id|>",9880,13000,10000.0,10500.0,0.038461538461538464,0.1987179487179487,25.0
+C_06d94f0c5f1f4ec58ba047789b7f8bba,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$2065, $2950, [Seller: HI! How are you? [Greeting the buyer and initiating conversation], Buyer: I'm well and you? [Responding to the greeting and reciprocating the question], Seller: Great!  Are you interested in one of our 1 bedrooms? [Confirming the buyer's interest in a specific product], Buyer: Yes, may I ask what the amenities are at this location? [Expressing interest and inquiring about amenities]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$2065, $2950, [Seller: HI! How are you? [Greeting the buyer and initiating conversation], Buyer: I'm well and you? [Responding to the greeting and reciprocating the question], Seller: Great!  Are you interested in one of our 1 bedrooms? [Confirming the buyer's interest in a specific product], Buyer: Yes, may I ask what the amenities are at this location? [Expressing interest and inquiring about amenities]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $2400.0<|eot_id|>",2065,2950,2950.0,2400.0,1.0,0.3785310734463277,102.54237288135593
+C_083cf47df93d4a8c8029ae8c8cccc963,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$5250, $10500, [Seller: Hi. I see your interested in my car? [Initiate conversation and confirm buyer's interest], Buyer: Hello, yes I may be interested in purchasing the car. Has it had regular maintenance? [Express interest and inquire about maintenance history]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$5250, $10500, [Seller: Hi. I see your interested in my car? [Initiate conversation and confirm buyer's interest], Buyer: Hello, yes I may be interested in purchasing the car. Has it had regular maintenance? [Express interest and inquire about maintenance history]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $7000.0<|eot_id|>",5250,10500,6500.0,7000.0,0.23809523809523808,0.3333333333333333,38.46153846153846
+C_0b7f8b0d852e4c9190ffe45c7e9b14d2,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1710, $2250, [Seller: HI! are you looking for a new place? [Initiate conversation and gauge interest], Buyer: Yes, can you tell me your pet policy? [Inquire about pet policy]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1710, $2250, [Seller: HI! are you looking for a new place? [Initiate conversation and gauge interest], Buyer: Yes, can you tell me your pet policy? [Inquire about pet policy]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $2000.0<|eot_id|>",1710,2250,2150.0,2000.0,0.8148148148148148,0.5370370370370371,10.465116279069768
+C_0e9bc20920e04c858e9c9f5e27741435,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$990, $1100, [Buyer: Hello are you still selling the T3 [Initiate conversation and inquire about the availability of the T3], Seller: Yes it is still for sale. Are you interested in it? [Confirm availability and gauge interest]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$990, $1100, [Buyer: Hello are you still selling the T3 [Initiate conversation and inquire about the availability of the T3], Seller: Yes it is still for sale. Are you interested in it? [Confirm availability and gauge interest]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $990.0<|eot_id|>",990,1100,1000.0,990.0,0.09090909090909091,0.0,0.1
+C_1040a280fba0420e8b3d5b8f21dae9b0,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$11, $12, [Seller: Hello [Greeting the buyer], Buyer: Hi, is the charger brand new? [Inquiring about the condition of the charger]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$11, $12, [Seller: Hello [Greeting the buyer], Buyer: Hi, is the charger brand new? [Inquiring about the condition of the charger]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $11.0<|eot_id|>",11,12,11.0,11.0,0.0,0.0,0.0
+C_123aa753f820465aaf4ebf507db816fc,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$105, $150, [Seller: Hello! [Greeting the buyer and initiating the conversation.], Buyer: is it new are used [Inquiring about the condition of the item.], Seller: Bed is used, but in very good condition! [Providing information about the condition of the item.]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$105, $150, [Seller: Hello! [Greeting the buyer and initiating the conversation.], Buyer: is it new are used [Inquiring about the condition of the item.], Seller: Bed is used, but in very good condition! [Providing information about the condition of the item.]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $120.0<|eot_id|>",105,150,120.0,120.0,0.3333333333333333,0.3333333333333333,0.0
+C_1686a2b184ca4c51bb1155f1e4d07615,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$225, $250, [Buyer: Hello. I am interested in your Felt bike. [Express interest in the bike], Seller: HI, so you are interested in the bike, right? [Confirm buyer's interest]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$225, $250, [Buyer: Hello. I am interested in your Felt bike. [Express interest in the bike], Seller: HI, so you are interested in the bike, right? [Confirm buyer's interest]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $225.0<|eot_id|>",225,250,225.0,225.0,0.0,0.0,0.0
+C_168841ee27564cffb1c8d14f444c37ff,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$2232, $2480, [Seller: Thanks for viewing the listing. [Expressing gratitude for viewing the listing], Buyer: Coould you tell me how many bedrooms this has? [Requesting information about the number of bedrooms]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$2232, $2480, [Seller: Thanks for viewing the listing. [Expressing gratitude for viewing the listing], Buyer: Coould you tell me how many bedrooms this has? [Requesting information about the number of bedrooms]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $2300.0<|eot_id|>",2232,2480,2350.0,2300.0,0.47580645161290325,0.27419354838709675,1.0638297872340425
+C_168d0da5e8ae482ab5e0e0ce2e637430,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$2240, $3200, [Buyer: Hello there. Are you still selling the Mazda? [Initiate conversation and inquire about the availability of the Mazda.], Seller: Yes the Mazda is still for sale. [Confirm the availability of the Mazda.]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$2240, $3200, [Buyer: Hello there. Are you still selling the Mazda? [Initiate conversation and inquire about the availability of the Mazda.], Seller: Yes the Mazda is still for sale. [Confirm the availability of the Mazda.]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $2800.0<|eot_id|>",2240,3200,2500.0,2800.0,0.2708333333333333,0.5833333333333334,36.0
+C_16ad8add4a784396aee2749f00ab04b7,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$6300, $7000, [Seller: Hello how are you? [Initiate conversation and establish rapport], Buyer: I'm okay. You drive alot. [Acknowledge greeting and make an observation about the car usage]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$6300, $7000, [Seller: Hello how are you? [Initiate conversation and establish rapport], Buyer: I'm okay. You drive alot. [Acknowledge greeting and make an observation about the car usage]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $6500.0<|eot_id|>",6300,7000,6700.0,6500.0,0.5714285714285714,0.2857142857142857,5.970149253731344
+C_1cde3ba5c42045639d33acc1cfb27aae,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$3496, $4995, [Buyer: What a lovely house! I wonder, how high up is it? I'm afraid of heights. [Expressing admiration and concern about the height of the house], Seller: Hello, thank you! It is on the side of a hill. The hill is not steep. It is completely safe and secured with a fence around it. [Reassuring the buyer about the safety and security of the house], Buyer: Oh that's not so bad then. I see you have an updated kitchen and bathrooms? Did you use tile and what does the color scheme look like? [Seeking information about the kitchen and bathroom updates and their aesthetics]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$3496, $4995, [Buyer: What a lovely house! I wonder, how high up is it? I'm afraid of heights. [Expressing admiration and concern about the height of the house], Seller: Hello, thank you! It is on the side of a hill. The hill is not steep. It is completely safe and secured with a fence around it. [Reassuring the buyer about the safety and security of the house], Buyer: Oh that's not so bad then. I see you have an updated kitchen and bathrooms? Did you use tile and what does the color scheme look like? [Seeking information about the kitchen and bathroom updates and their aesthetics]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $4000.0<|eot_id|>",3496,4995,4450.0,4000.0,0.6364242828552368,0.3362241494329553,45.50561797752809
+C_26ab8ec2e5bc41c189f4004d19105014,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$797, $1595, [Seller: Hello how are you today? [Initiate conversation and establish rapport], Buyer: Hello, I am doing great. How are you? I am interested in the apartment on Bassett Dr. Is it still available? [Respond to greeting  reciprocate inquiry  and express interest in the apartment], Seller: Yes it sure it. [Confirm availability of the apartment]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$797, $1595, [Seller: Hello how are you today? [Initiate conversation and establish rapport], Buyer: Hello, I am doing great. How are you? I am interested in the apartment on Bassett Dr. Is it still available? [Respond to greeting  reciprocate inquiry  and express interest in the apartment], Seller: Yes it sure it. [Confirm availability of the apartment]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $1000.0<|eot_id|>",797,1595,1095.0,1000.0,0.37343358395989973,0.2543859649122807,8.242009132420092
+C_2a7e7681bd3a484bbcaa3390726e6d79,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$350, $500, [Seller: Hi..  How are u? [Initiate conversation and establish rapport], Buyer: Hello, I'm well. Is this bed still available? [Confirm availability of the item], Seller: I am great..  And yes, it is..  Do u have any questions? [Respond positively and offer further assistance]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$350, $500, [Seller: Hi..  How are u? [Initiate conversation and establish rapport], Buyer: Hello, I'm well. Is this bed still available? [Confirm availability of the item], Seller: I am great..  And yes, it is..  Do u have any questions? [Respond positively and offer further assistance]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $350.0<|eot_id|>",350,500,500.0,350.0,1.0,0.0,45.0
+C_2bdb308591df45e29a321a7cfd167002,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$138, $150, [Buyer: Hello!  SO what are you selling [Initiate conversation and inquire about items for sale], Seller: I've got an Ottoman, so I hope you're in the market for an Ottoman. [Inform the buyer about the item being sold and express hope that the buyer is interested]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$138, $150, [Buyer: Hello!  SO what are you selling [Initiate conversation and inquire about items for sale], Seller: I've got an Ottoman, so I hope you're in the market for an Ottoman. [Inform the buyer about the item being sold and express hope that the buyer is interested]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $145.0<|eot_id|>",138,150,140.0,145.0,0.16666666666666666,0.5833333333333334,0.17857142857142858
+C_2d377d29fc514954b131abeb958c09c3,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$195, $325, [Buyer: I love the look of your chair! I have a couple of questions: What time period is the frame from? When was it reupholstered? Why are you getting rid of it? [Expressing admiration and inquiring about the chair's details], Seller: It's not too old maybe about 50 years or so, but it is hand made in the old european tradition. everything on it is original, sturdy well made no creaking. i' [Providing information about the chair's age and craftsmanship]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$195, $325, [Buyer: I love the look of your chair! I have a couple of questions: What time period is the frame from? When was it reupholstered? Why are you getting rid of it? [Expressing admiration and inquiring about the chair's details], Seller: It's not too old maybe about 50 years or so, but it is hand made in the old european tradition. everything on it is original, sturdy well made no creaking. i' [Providing information about the chair's age and craftsmanship]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $275.0<|eot_id|>",195,325,260.0,275.0,0.5,0.6153846153846154,0.8653846153846154
+C_2d9f77850a92462e98a4e709e3a72d03,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1932, $2100, [Seller: hello [Initiate conversation], Buyer: hi i can offer you a great price if the apartment is nice [Express willingness to negotiate based on apartment quality], Seller: yes its in great condition [Assure the buyer of the apartment's good condition]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1932, $2100, [Seller: hello [Initiate conversation], Buyer: hi i can offer you a great price if the apartment is nice [Express willingness to negotiate based on apartment quality], Seller: yes its in great condition [Assure the buyer of the apartment's good condition]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $2000.0<|eot_id|>",1932,2100,1950.0,2000.0,0.10714285714285714,0.40476190476190477,1.2820512820512822
+C_2e5725b15ed64f29847f85b5117707c0,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$25, $50, [Seller: Hello [Greeting the buyer and initiating the conversation], Buyer: Great calculator, how long have you had it? [Expressing interest in the calculator and inquiring about its usage duration]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$25, $50, [Seller: Hello [Greeting the buyer and initiating the conversation], Buyer: Great calculator, how long have you had it? [Expressing interest in the calculator and inquiring about its usage duration]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $40.0<|eot_id|>",25,50,35.0,40.0,0.4,0.6,0.7142857142857143
+C_30ee77bc9d10423c85b64892d7ca7fad,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$65, $130, [Buyer: I am interested in you iphone [Express interest in purchasing the iPhone], Seller: OK, do you have any questions about it for me? [Offer to provide additional information], Buyer: how long has the corner of the screen been lifted? [Inquire about the condition of the phone]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$65, $130, [Buyer: I am interested in you iphone [Express interest in purchasing the iPhone], Seller: OK, do you have any questions about it for me? [Offer to provide additional information], Buyer: how long has the corner of the screen been lifted? [Inquire about the condition of the phone]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $100.0<|eot_id|>",65,130,90.0,100.0,0.38461538461538464,0.5384615384615384,1.1111111111111112
+C_31863aa23ae74cefa0e498f87851d92a,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$6230, $8900, [Seller: Hello [Greeting the buyer], Buyer: Hi! I am interested in your truck. How is the paint? [Expressing interest in the truck and inquiring about the paint condition]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$6230, $8900, [Seller: Hello [Greeting the buyer], Buyer: Hi! I am interested in your truck. How is the paint? [Expressing interest in the truck and inquiring about the paint condition]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $7500.0<|eot_id|>",6230,8900,7000.0,7500.0,0.2883895131086142,0.4756554307116105,35.714285714285715
+C_3269870effcd41629d433276712ef467,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$525, $750, [Seller: Hi. Interested in my phone? [Initiate conversation and gauge interest], Buyer: Hi, yes, how much storage does the phone have? [Inquire about phone's storage capacity]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$525, $750, [Seller: Hi. Interested in my phone? [Initiate conversation and gauge interest], Buyer: Hi, yes, how much storage does the phone have? [Inquire about phone's storage capacity]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $600.0<|eot_id|>",525,750,575.0,600.0,0.2222222222222222,0.3333333333333333,1.0869565217391304
+C_35d4d749ff734ba3969f57fbda060a50,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$69, $99, [Buyer: Hi there! [Greeting the seller to initiate conversation.], Seller: This is in perfect condition and was only used for about 6 months before I upgraded. [Providing information about the condition and usage history of the phone.], Buyer: Ok, that's great. What networks will this phone work with? [Expressing approval and inquiring about network compatibility.]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$69, $99, [Buyer: Hi there! [Greeting the seller to initiate conversation.], Seller: This is in perfect condition and was only used for about 6 months before I upgraded. [Providing information about the condition and usage history of the phone.], Buyer: Ok, that's great. What networks will this phone work with? [Expressing approval and inquiring about network compatibility.]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $85.0<|eot_id|>",69,99,69.0,85.0,0.0,0.5333333333333333,3.710144927536232
+C_35fbfe946e69424abdc649cedd219066,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$5395, $5995, [Seller: Hi Are you interested in the car? [Initiate conversation and gauge interest], Buyer: hello I am interested in your car for sale. does it have a clean carfax report? [Express interest and inquire about car's history]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$5395, $5995, [Seller: Hi Are you interested in the car? [Initiate conversation and gauge interest], Buyer: hello I am interested in your car for sale. does it have a clean carfax report? [Express interest and inquire about car's history]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $5500.0<|eot_id|>",5395,5995,5400.0,5500.0,0.008333333333333333,0.175,1.8518518518518519
+C_36d9137d77e14cc187db74c0da5f1024,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$98, $130, [Seller: Hello [Greeting the buyer], Buyer: Hello, what can you tell me about this item? [Requesting information about the item], Seller: I'm selling a GoPro Hero 3 black edition with a waterproof case. It has an 8g memory stick and the charging cable. It is in excellent condition and works perfectly! [Providing detailed information about the item]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$98, $130, [Seller: Hello [Greeting the buyer], Buyer: Hello, what can you tell me about this item? [Requesting information about the item], Seller: I'm selling a GoPro Hero 3 black edition with a waterproof case. It has an 8g memory stick and the charging cable. It is in excellent condition and works perfectly! [Providing detailed information about the item]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $100.0<|eot_id|>",98,130,120.0,100.0,0.6875,0.0625,3.3333333333333335
+C_399c1f48c33b4561aa7ce7652e953682,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$154, $220, [Buyer: Oh, great!  I take it you're interested?  It's a great phone. [Expressing enthusiasm and gauging interest], Buyer: Hello! I'm interested in the Casper mattress you posted... [Expressing interest in the product], Seller: Outstanding! it is fairly new and I would love to pass it on to a new user [Confirming the product's condition and expressing willingness to sell]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$154, $220, [Buyer: Oh, great!  I take it you're interested?  It's a great phone. [Expressing enthusiasm and gauging interest], Buyer: Hello! I'm interested in the Casper mattress you posted... [Expressing interest in the product], Seller: Outstanding! it is fairly new and I would love to pass it on to a new user [Confirming the product's condition and expressing willingness to sell]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $200.0<|eot_id|>",154,220,185.0,200.0,0.4696969696969697,0.696969696969697,1.2162162162162162
+C_3b27c7241883469fac726cbe398b02a1,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1037, $2075, [Buyer: Hello, I'm am interested in your apartment. [Expressing interest in the apartment], Seller: It's a great place! [Promoting the apartment]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1037, $2075, [Buyer: Hello, I'm am interested in your apartment. [Expressing interest in the apartment], Seller: It's a great place! [Promoting the apartment]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $1550.0<|eot_id|>",1037,2075,1950.0,1550.0,0.8795761078998073,0.49421965317919075,82.05128205128206
+C_3d54408bf33f419c990bc72505ad80d3,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$20, $40, [Buyer: Hello. The stereo looks great. How old is it?' [Initiate conversation and inquire about the age of the stereo], Seller: I had it for two years. The sound is great. [Provide information about the stereo's age and quality]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$20, $40, [Buyer: Hello. The stereo looks great. How old is it?' [Initiate conversation and inquire about the age of the stereo], Seller: I had it for two years. The sound is great. [Provide information about the stereo's age and quality]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $30.0<|eot_id|>",20,40,35.0,30.0,0.75,0.5,0.7142857142857143
+C_44131a776a914be2a2f8067bd908241e,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$190, $250, [Seller: HI! [Greet the buyer and initiate the conversation.], Buyer: Hi, is this used or new? [Inquire about the condition of the phone.]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$190, $250, [Seller: HI! [Greet the buyer and initiate the conversation.], Buyer: Hi, is this used or new? [Inquire about the condition of the phone.]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $200.0<|eot_id|>",190,250,215.0,200.0,0.4166666666666667,0.16666666666666666,1.0465116279069768
+C_4522fb58ef2144d3a46781cc14c94a3a,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1708, $1898, [Buyer: Hi, I am interested in becoming a Solis tenant. [Expressing interest in becoming a tenant], Seller: Great [Expressing positivity and readiness to assist], Buyer: So what can you tell me about the price? [Inquiring about the price]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1708, $1898, [Buyer: Hi, I am interested in becoming a Solis tenant. [Expressing interest in becoming a tenant], Seller: Great [Expressing positivity and readiness to assist], Buyer: So what can you tell me about the price? [Inquiring about the price]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $1750.0<|eot_id|>",1708,1898,1775.0,1750.0,0.3526315789473684,0.22105263157894736,0.352112676056338
+C_452397f9712d442eb794e857fe587a32,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$21, $30, [Buyer: is this still for sale [Inquiring about the availability of the item], Seller: Hey, im willing to sell this item for $30 [Stating willingness to sell and setting an initial price], Seller: Yeah it is, [Confirming the item is still available]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$21, $30, [Buyer: is this still for sale [Inquiring about the availability of the item], Seller: Hey, im willing to sell this item for $30 [Stating willingness to sell and setting an initial price], Seller: Yeah it is, [Confirming the item is still available]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $25.0<|eot_id|>",21,30,25.0,25.0,0.4444444444444444,0.4444444444444444,0.0
+C_4642e3e1d76443f181f4bf795aea0dd8,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$136, $180, [Seller: Hello [Greeting the buyer], Buyer: Hi, I'm interested in your bike [Expressing interest in the bike], Seller: I'm glad to hear that. It's a vintage 1960 Japanese made touring bike. This is a collector's type of bike but still in good shape if one were to be interested in riding it. [Providing detailed information about the bike]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$136, $180, [Seller: Hello [Greeting the buyer], Buyer: Hi, I'm interested in your bike [Expressing interest in the bike], Seller: I'm glad to hear that. It's a vintage 1960 Japanese made touring bike. This is a collector's type of bike but still in good shape if one were to be interested in riding it. [Providing detailed information about the bike]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $150.0<|eot_id|>",136,180,150.0,150.0,0.3181818181818182,0.3181818181818182,0.0
+C_46c24474568348e19e8f52a24ea75126,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1575, $2250, [Seller: HI [Greeting the buyer], Buyer: hello there [Responding to the greeting], Seller: Do you have any questions? [Offering assistance]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1575, $2250, [Seller: HI [Greeting the buyer], Buyer: hello there [Responding to the greeting], Seller: Do you have any questions? [Offering assistance]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $1750.0<|eot_id|>",1575,2250,1900.0,1750.0,0.48148148148148145,0.25925925925925924,11.842105263157896
+C_47da7bcc44fd4766bc688d9a1bf87336,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$3572, $4700, [Buyer: Hello [Greeting the seller], Seller: Hey, so I have a great car for sale here. Honda's have always treated me well. [Introducing the car for sale and expressing positive sentiment about it], Buyer: Looks interesting, how many miles are on it? [Expressing interest and inquiring about the car's mileage]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$3572, $4700, [Buyer: Hello [Greeting the seller], Seller: Hey, so I have a great car for sale here. Honda's have always treated me well. [Introducing the car for sale and expressing positive sentiment about it], Buyer: Looks interesting, how many miles are on it? [Expressing interest and inquiring about the car's mileage]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $4000.0<|eot_id|>",3572,4700,3900.0,4000.0,0.2907801418439716,0.37943262411347517,2.5641025641025643
+C_4a369f84a93d43af91bfed699aacce1c,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$3109, $4092, [Seller: Hello How are you? [Greeting the buyer and initiating conversation], Buyer: Hi, I am great, how about you? I think your apartment is just what I am looking for. [Responding to the greeting and expressing interest in the apartment], Seller: I am fine and thanks for asking [Responding to the buyer's greeting and acknowledging their interest]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$3109, $4092, [Seller: Hello How are you? [Greeting the buyer and initiating conversation], Buyer: Hi, I am great, how about you? I think your apartment is just what I am looking for. [Responding to the greeting and expressing interest in the apartment], Seller: I am fine and thanks for asking [Responding to the buyer's greeting and acknowledging their interest]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $3500.0<|eot_id|>",3109,4092,3700.0,3500.0,0.6012207527975585,0.3977619532044761,10.81081081081081
+C_4c87e5e8b80b41d99280f9309b3eeeb7,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1260, $1800, [Buyer: Hi there. I would like more information on the Black sofa. [Requesting information about the Black sofa.], Seller: hi would you like to buy the sofe set been use some [Inquiring if the Buyer is interested in purchasing the sofa set and providing initial condition information.], Buyer: I am interested,but need some more information. Is there any stains or spills on it? Any tears or rips? [Expressing interest and requesting detailed condition information (stains  spills  tears  rips).]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1260, $1800, [Buyer: Hi there. I would like more information on the Black sofa. [Requesting information about the Black sofa.], Seller: hi would you like to buy the sofe set been use some [Inquiring if the Buyer is interested in purchasing the sofa set and providing initial condition information.], Buyer: I am interested,but need some more information. Is there any stains or spills on it? Any tears or rips? [Expressing interest and requesting detailed condition information (stains  spills  tears  rips).]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $1400.0<|eot_id|>",1260,1800,1325.0,1400.0,0.12037037037037036,0.25925925925925924,4.245283018867925
+C_5196ca4827c84d058493ed97e0e4b8e7,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$11, $15, [Seller: Hi [Initiate conversation], Buyer: hi [Respond to greeting]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$11, $15, [Seller: Hi [Initiate conversation], Buyer: hi [Respond to greeting]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $12.0<|eot_id|>",11,15,11.0,12.0,0.0,0.25,0.09090909090909091
+C_5c4d4e8fa3054145a85371f2d51b2ec2,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1256, $1795, [Buyer: Hello there [Greeting the seller], Seller: Hello [Responding to the greeting], Buyer: I am interested in taking up residence at this place. Is it a nice area? [Expressing interest and inquiring about the area]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1256, $1795, [Buyer: Hello there [Greeting the seller], Seller: Hello [Responding to the greeting], Buyer: I am interested in taking up residence at this place. Is it a nice area? [Expressing interest and inquiring about the area]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $1500.0<|eot_id|>",1256,1795,1500.0,1500.0,0.45269016697588127,0.45269016697588127,0.0
+C_5cf2d4e054b5446891cbf147ff046c2e,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$625, $1250, [Seller: Hey, I saw that you were interested in the bike! [Initiate conversation and express awareness of the buyer's interest], Buyer: Yes I am interested what kind of condition is it in? [Confirm interest and inquire about the condition of the bike]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$625, $1250, [Seller: Hey, I saw that you were interested in the bike! [Initiate conversation and express awareness of the buyer's interest], Buyer: Yes I am interested what kind of condition is it in? [Confirm interest and inquire about the condition of the bike]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $1000.0<|eot_id|>",625,1250,800.0,1000.0,0.28,0.6,50.0
+C_5d62d62548f14b9fb6da962a2d4f9f5c,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$133, $175, [Buyer: hi [Greeting the seller], Seller: Hello , there! [Responding to the greeting], Buyer: hi this is a nice bed all i have is $133 [Expressing interest in the bed and stating a budget]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$133, $175, [Buyer: hi [Greeting the seller], Seller: Hello, there! [Responding to the greeting], Buyer: hi this is a nice bed all i have is $133 [Expressing interest in the bed and stating a budget]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $150.0<|eot_id|>",133,175,140.0,150.0,0.16666666666666666,0.40476190476190477,0.7142857142857143
+C_5f0f0773203e4aa3b7f3bd114e3586b9,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$45, $90, [Seller: Hello! [Greeting the buyer and initiating the conversation.], Buyer: Hi I am interested in the bike you have [Expressing interest in the bike being sold.]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$45, $90, [Seller: Hello! [Greeting the buyer and initiating the conversation.], Buyer: Hi I am interested in the bike you have [Expressing interest in the bike being sold.]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $75.0<|eot_id|>",45,90,50.0,75.0,0.1111111111111111,0.6666666666666666,12.5
+C_622ae8307ea64db49da110d928266dc0,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$108, $180, [Buyer: Hello, I am interested in you iPad mini. Is it still available? [Expressing interest and inquiring about availability], Seller: Yes, it is! [Confirming availability], Buyer: Great, is the price negotiable? [Inquiring about price negotiability]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$108, $180, [Buyer: Hello, I am interested in you iPad mini. Is it still available? [Expressing interest and inquiring about availability], Seller: Yes, it is! [Confirming availability], Buyer: Great, is the price negotiable? [Inquiring about price negotiability]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $140.0<|eot_id|>",108,180,125.0,140.0,0.2361111111111111,0.4444444444444444,1.8
+C_63aeb8495678428dac32cca3522ebf7c,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$100, $200, [Buyer: hello [Initiate conversation], Seller: Hi are you interested in the television? [Confirm interest in the item]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$100, $200, [Buyer: hello [Initiate conversation], Seller: Hi are you interested in the television? [Confirm interest in the item]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $100.0<|eot_id|>",100,200,150.0,100.0,0.5,0.0,16.666666666666668
+C_651a57f692304d77948916038fd54f7f,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1531, $2015, [Seller: hello [Greeting the buyer], Buyer: hi [Responding to the greeting], Seller: Are you interesting in touring the apartment I'm listing? [Inquiring about the buyer's interest in the apartment]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1531, $2015, [Seller: hello [Greeting the buyer], Buyer: hi [Responding to the greeting], Seller: Are you interesting in touring the apartment I'm listing? [Inquiring about the buyer's interest in the apartment]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $1700.0<|eot_id|>",1531,2015,1750.0,1700.0,0.4524793388429752,0.34917355371900827,1.4285714285714286
+C_6765c47d789a4d609789e434927cc38e,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$84, $120, [Seller: hello, are you interested in my bike? [Initiate conversation and gauge interest], Buyer: Hi there is  this still on sale? [Confirm availability of the item]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$84, $120, [Seller: hello, are you interested in my bike? [Initiate conversation and gauge interest], Buyer: Hi there is  this still on sale? [Confirm availability of the item]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $100.0<|eot_id|>",84,120,92.0,100.0,0.2222222222222222,0.4444444444444444,0.6956521739130435
+C_6875adc094e54f39a815f8fe94d33f1d,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1237, $1375, [Buyer: Hello I am interested in this apartment? [Expressing interest in the apartment], Seller: Hi, are you interested in the apartment? [Confirming the buyer's interest]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1237, $1375, [Buyer: Hello I am interested in this apartment? [Expressing interest in the apartment], Seller: Hi, are you interested in the apartment? [Confirming the buyer's interest]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $1300.0<|eot_id|>",1237,1375,1300.0,1300.0,0.45652173913043476,0.45652173913043476,0.0
+C_6b0404df12994618a259ccfb352f9e58,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1700, $3400, [Seller: Hello how are you? [Initiating conversation], Buyer: Greaat, how are you?  Are you interested in the townhome?  Can I answer any questions? [Responding to greeting and expressing interest in the property], Seller: Yes are you interested? I am renting. [Confirming interest and providing information about renting]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1700, $3400, [Seller: Hello how are you? [Initiating conversation], Buyer: Greaat, how are you?  Are you interested in the townhome?  Can I answer any questions? [Responding to greeting and expressing interest in the property], Seller: Yes are you interested? I am renting. [Confirming interest and providing information about renting]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $2000.0<|eot_id|>",1700,3400,2900.0,2000.0,0.7058823529411765,0.17647058823529413,279.3103448275862
+C_6b2272cd22ea432bb975186ca26e2380,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$2800, $4000, [Buyer: Hello [Greeting the seller], Seller: Hi! [Responding to the greeting]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$2800, $4000, [Buyer: Hello [Greeting the seller], Seller: Hi! [Responding to the greeting]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $3500.0<|eot_id|>",2800,4000,3600.0,3500.0,0.6666666666666666,0.5833333333333334,2.7777777777777777
+C_6b2549bd504244c6a901d0dcc8bbfb91,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1190, $1700, [Buyer: Hi, is the apartment downtown still available? [Inquire about the availability of the apartment], Seller: Yes, it is. It's a beautiful apartment and has had a lot of renovations! [Confirm availability and highlight the apartment's features]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1190, $1700, [Buyer: Hi, is the apartment downtown still available? [Inquire about the availability of the apartment], Seller: Yes, it is. It's a beautiful apartment and has had a lot of renovations! [Confirm availability and highlight the apartment's features]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $1300.0<|eot_id|>",1190,1700,1300.0,1300.0,0.21568627450980393,0.21568627450980393,0.0
+C_7346d2b98c44463a94985811bf8b8b43,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$444, $585, [Buyer: Hello [Greeting the seller to initiate the conversation.], Seller: hello please tell me you would like to buy the terra cotta cloth sofa for 600.00 [Prompting the buyer to confirm interest in purchasing the sofa at the listed price.]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$444, $585, [Buyer: Hello [Greeting the seller to initiate the conversation.], Seller: hello please tell me you would like to buy the terra cotta cloth sofa for 600.00 [Prompting the buyer to confirm interest in purchasing the sofa at the listed price.]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $500.0<|eot_id|>",444,585,500.0,500.0,0.3971631205673759,0.3971631205673759,0.0
+C_74e6c71a6263457b9133b4eb99c45699,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1375, $2750, [Seller: Hello [Greeting the buyer], Buyer: Hello there. I was wondering if I would be able to stop by and check this house out to see the inside [Expressing interest in viewing the house]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1375, $2750, [Seller: Hello [Greeting the buyer], Buyer: Hello there. I was wondering if I would be able to stop by and check this house out to see the inside [Expressing interest in viewing the house]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $2000.0<|eot_id|>",1375,2750,2300.0,2000.0,0.6727272727272727,0.45454545454545453,39.130434782608695
+C_7541a3a7b64745bc9e5735cbb2f254bc,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$243, $320, [Buyer: I'm interested in your leather sofa. I think it would look great in my living room. Would you take $243? [Expressing interest in the item and making an initial offer], Seller: It is actually a sofa and loveseat, so I can't go that low.  They come from a smoke free and pet free home.  I could go $300 [Clarifying the item details and making a counteroffer]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$243, $320, [Buyer: I'm interested in your leather sofa. I think it would look great in my living room. Would you take $243? [Expressing interest in the item and making an initial offer], Seller: It is actually a sofa and loveseat, so I can't go that low.  They come from a smoke free and pet free home.  I could go $300 [Clarifying the item details and making a counteroffer]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $280.0<|eot_id|>",243,320,275.0,280.0,0.4155844155844156,0.4805194805194805,0.09090909090909091
+C_756494f8845f426c85736a57b1833154,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1697, $2425, [Buyer: Hello [Greeting the seller], Seller: welcome. it's a nice location. walk to school. 2 bedroom find a roomate. perfect for a couple. [Introducing the property and highlighting its features], Buyer: what does the 2425 include? Does that include all utilities etc? [Inquiring about what is included in the rent]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1697, $2425, [Buyer: Hello [Greeting the seller], Seller: welcome. it's a nice location. walk to school. 2 bedroom find a roomate. perfect for a couple. [Introducing the property and highlighting its features], Buyer: what does the 2425 include? Does that include all utilities etc? [Inquiring about what is included in the rent]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $2000.0<|eot_id|>",1697,2425,2000.0,2000.0,0.41620879120879123,0.41620879120879123,0.0
+C_75b74814579d43ae924e92a93871d507,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$45, $50, [Seller: Hello, are you interested in purchasing this bike? [Initiate conversation and gauge interest in the bike], Buyer: yes I am. What color is it? [Express interest and inquire about the bike's color]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$45, $50, [Seller: Hello, are you interested in purchasing this bike? [Initiate conversation and gauge interest in the bike], Buyer: yes I am. What color is it? [Express interest and inquire about the bike's color]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $45.0<|eot_id|>",45,50,45.0,45.0,0.0,0.0,0.0
+C_76271efe3dbe48a4b9725ed8c2c0c6f0,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$24, $40, [Buyer: Hi, how are you today? [Initiate conversation and establish rapport], Seller: GOOD, AND YOU [Respond to greeting and reciprocate inquiry]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$24, $40, [Buyer: Hi, how are you today? [Initiate conversation and establish rapport], Seller: GOOD, AND YOU [Respond to greeting and reciprocate inquiry]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $35.0<|eot_id|>",24,40,30.0,35.0,0.375,0.6875,0.8333333333333334
+C_769e5aae31504874a684432206dba115,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$180, $200, [Seller: Hi..How are you? [Greeting and initiating conversation], Buyer: I am great! Hope you are well. I saw your listing and I am very interested in this item. How long have you had the item? [Responding to greeting and expressing interest in the item]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$180, $200, [Seller: Hi..How are you? [Greeting and initiating conversation], Buyer: I am great! Hope you are well. I saw your listing and I am very interested in this item. How long have you had the item? [Responding to greeting and expressing interest in the item]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $180.0<|eot_id|>",180,200,185.0,180.0,0.25,0.0,0.13513513513513514
+C_7ae1a96f0eb14147ac43f6be311a6473,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$3150, $4500, [Buyer: Hello im very interested in the 2002 mercedez. How long have you had it for? Are you the first owner? [Expressing interest and inquiring about the car's history], Seller: I am. I bought it new in 2002 and have kept it in excellent condition [Providing information about ownership and condition]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$3150, $4500, [Buyer: Hello im very interested in the 2002 mercedez. How long have you had it for? Are you the first owner? [Expressing interest and inquiring about the car's history], Seller: I am. I bought it new in 2002 and have kept it in excellent condition [Providing information about ownership and condition]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $3500.0<|eot_id|>",3150,4500,4000.0,3500.0,0.6296296296296297,0.25925925925925924,62.5
+C_80ebaaf267974dbca34c14b111d11431,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$2100, $4200, [Buyer: Hey, is the corvette still available? [Inquire about the availability of the corvette], Seller: hi there, it is! Are you interested? [Confirm availability and gauge interest]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$2100, $4200, [Buyer: Hey, is the corvette still available? [Inquire about the availability of the corvette], Seller: hi there, it is! Are you interested? [Confirm availability and gauge interest]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $3000.0<|eot_id|>",2100,4200,2500.0,3000.0,0.19047619047619047,0.42857142857142855,100.0
+C_82a1ed5a407e4810b723575f3f56a92d,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$200, $400, [Buyer: Hello, yes, I'm interested in the product in your listing? [Expressing interest in the product], Seller: Hello, any questions i can answer for you? [Offering assistance and inviting questions], Buyer: Well, is there anything wrong with the ipad? [Inquiring about the condition of the product]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$200, $400, [Buyer: Hello, yes, I'm interested in the product in your listing? [Expressing interest in the product], Seller: Hello, any questions i can answer for you? [Offering assistance and inviting questions], Buyer: Well, is there anything wrong with the ipad? [Inquiring about the condition of the product]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $350.0<|eot_id|>",200,400,200.0,350.0,0.0,0.75,112.5
+C_880852dd16fb48b89b8cbabe169fa915,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$3600, $6000, [Buyer: Hi there can you tell me a little more about this car as the add has little to no information posted but i am very interested. [Requesting more information about the car], Seller: Hello are you interested in this car? Yes, it is a garage kept 2004 BMW 325 convertible.  It has 100000 miles and a clean title. [Confirming interest and providing basic details about the car]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$3600, $6000, [Buyer: Hi there can you tell me a little more about this car as the add has little to no information posted but i am very interested. [Requesting more information about the car], Seller: Hello are you interested in this car? Yes, it is a garage kept 2004 BMW 325 convertible.  It has 100000 miles and a clean title. [Confirming interest and providing basic details about the car]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $4500.0<|eot_id|>",3600,6000,4000.0,4500.0,0.16666666666666666,0.375,62.5
+C_88c9136c46104c69acdc13345dd77b06,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1012, $2025, [Seller: Hello how are you doing? [Initiate conversation and establish rapport], Buyer: Hello there I am interested in this studio building. [Express interest in the property], Seller: Great would you like to know anything? [Offer assistance and invite questions], Buyer: Yes please. What is the location? [Request specific information about the property location]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1012, $2025, [Seller: Hello how are you doing? [Initiate conversation and establish rapport], Buyer: Hello there I am interested in this studio building. [Express interest in the property], Seller: Great would you like to know anything? [Offer assistance and invite questions], Buyer: Yes please. What is the location? [Request specific information about the property location]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $1800.0<|eot_id|>",1012,2025,1500.0,1800.0,0.4817374136229023,0.7778874629812438,60.0
+C_895698a40de840dcb5afd7e07c65d8ed,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1959, $2800, [Buyer: Hello! I see you have a 4 bedroom home [Initiate conversation and express interest in the property], Seller: Yes, and I would like to rent out the upstairs - 2 bedrooms and a bath. [Provide information about the rental property], Buyer: how are the schools in that area? [Inquire about the quality of local schools]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1959, $2800, [Buyer: Hello! I see you have a 4 bedroom home [Initiate conversation and express interest in the property], Seller: Yes, and I would like to rent out the upstairs - 2 bedrooms and a bath. [Provide information about the rental property], Buyer: how are the schools in that area? [Inquire about the quality of local schools]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $2200.0<|eot_id|>",1959,2800,2600.0,2200.0,0.7621878715814506,0.28656361474435194,61.53846153846154
+C_8cb9847cb230413d8eeec73c0f0e7166,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1400, $2800, [Buyer: Hello! [Greeting and initiating conversation], Seller: selling for 3000 [Stating the initial price], Buyer: 3000 is a little steep. lets drop it down a bit. [Expressing that the price is too high and suggesting a reduction]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1400, $2800, [Buyer: Hello! [Greeting and initiating conversation], Seller: selling for 3000 [Stating the initial price], Buyer: 3000 is a little steep. lets drop it down a bit. [Expressing that the price is too high and suggesting a reduction]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $2000.0<|eot_id|>",1400,2800,2000.0,2000.0,0.42857142857142855,0.42857142857142855,0.0
+C_8e98663fcc0d48da8c1d565c5f367c52,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$454, $650, [Buyer: is the bike still for sale [Inquiring about the availability of the bike], Seller: Hi! It's not everyday people sell tandem bikes, and this is a great deal. Very well cared for. It is definitely still available. [Confirming availability and promoting the bike]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$454, $650, [Buyer: is the bike still for sale [Inquiring about the availability of the bike], Seller: Hi! It's not everyday people sell tandem bikes, and this is a great deal. Very well cared for. It is definitely still available. [Confirming availability and promoting the bike]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $500.0<|eot_id|>",454,650,550.0,500.0,0.4897959183673469,0.23469387755102042,4.545454545454546
+C_8f54debd567e409fa84bd21e5c928a30,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$120, $200, [Buyer: Hello!  How are you? [Initiate conversation and establish rapport], Seller: great, how are you? [Respond to greeting and reciprocate inquiry], Buyer: Super special awesome.  That's a nice dresser you have [Express positive mood and compliment the item]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$120, $200, [Buyer: Hello!  How are you? [Initiate conversation and establish rapport], Seller: great, how are you? [Respond to greeting and reciprocate inquiry], Buyer: Super special awesome.  That's a nice dresser you have [Express positive mood and compliment the item]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $150.0<|eot_id|>",120,200,170.0,150.0,0.625,0.375,2.3529411764705883
+C_90f35d805c804079992fc12457a2b3f6,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$75, $150, [Buyer: Hi, I am interested in your headphones [Expressing interest in the product], Seller: Great I'm asking $150 [Stating the asking price]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$75, $150, [Buyer: Hi, I am interested in your headphones [Expressing interest in the product], Seller: Great I'm asking $150 [Stating the asking price]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $100.0<|eot_id|>",75,150,100.0,100.0,0.3333333333333333,0.3333333333333333,0.0
+C_934ad1e3bb72452ea7328e77256043e3,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$7699, $11000, [Buyer: Does this have a lot of miles on it? [Inquire about the mileage of the car], Seller: I only use to get to work and back, so it doesn't have many miles on it at all.  It only has about 20,000 miles on it. [Provide information about the car's mileage]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$7699, $11000, [Buyer: Does this have a lot of miles on it? [Inquire about the mileage of the car], Seller: I only use to get to work and back, so it doesn't have many miles on it at all.  It only has about 20,000 miles on it. [Provide information about the car's mileage]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $8000.0<|eot_id|>",7699,11000,9000.0,8000.0,0.39412299303241444,0.09118448954862163,111.11111111111111
+C_94aaa7dccb044ae0829f9ca63faced47,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$2240, $3200, [Seller: Hi there [Greeting the buyer], Buyer: Hello! I am possibly interested in the car for sale. [Expressing interest in the car for sale], Seller: sure thing what do you need to ask? [Offering to answer questions]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$2240, $3200, [Seller: Hi there [Greeting the buyer], Buyer: Hello! I am possibly interested in the car for sale. [Expressing interest in the car for sale], Seller: sure thing what do you need to ask? [Offering to answer questions]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $3000.0<|eot_id|>",2240,3200,2500.0,3000.0,0.2708333333333333,0.7916666666666666,100.0
+C_9e7ba83b5db74637aa5287cd348c2ac1,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$11, $15, [Buyer: Hello. I just saw your posting. Can you tell me is this all in working order? [Initiate conversation and inquire about the condition of the item], Seller: Hello, yes everything works fine. Its brand new never used. [Confirm the item is in working order and provide additional information]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$11, $15, [Buyer: Hello. I just saw your posting. Can you tell me is this all in working order? [Initiate conversation and inquire about the condition of the item], Seller: Hello, yes everything works fine. Its brand new never used. [Confirm the item is in working order and provide additional information]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $12.0<|eot_id|>",11,15,11.0,12.0,0.0,0.25,0.09090909090909091
+C_a16e495759534135aca2630202d6b8f9,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$9100, $13000, [Seller: interested in buying the car? [Initiate conversation and gauge interest], Buyer: Possibly! Can you tell me about the condition of the interior and the body? [Express potential interest and request detailed information]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$9100, $13000, [Seller: interested in buying the car? [Initiate conversation and gauge interest], Buyer: Possibly! Can you tell me about the condition of the interior and the body? [Express potential interest and request detailed information]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $11000.0<|eot_id|>",9100,13000,11000.0,11000.0,0.48717948717948717,0.48717948717948717,0.0
+C_a1d229c625f44fa583b45506c69c3b46,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$6500, $13000, [Seller: Hello, this is my faithful and trusted Dodge Ram for the low price of $13000. I am relocating to another country so I am selling everything and I need every penny I can get. [Introduce the item for sale and provide context for the urgency of the sale], Buyer: How many miles does it have? [Inquire about the mileage of the vehicle], Seller: The  mileage is 100,000 [Provide the mileage information]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$6500, $13000, [Seller: Hello, this is my faithful and trusted Dodge Ram for the low price of $13000. I am relocating to another country so I am selling everything and I need every penny I can get. [Introduce the item for sale and provide context for the urgency of the sale], Buyer: How many miles does it have? [Inquire about the mileage of the vehicle], Seller: The  mileage is 100,000 [Provide the mileage information]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $10000.0<|eot_id|>",6500,13000,11500.0,10000.0,0.7692307692307693,0.5384615384615384,195.65217391304347
+C_a77a80ffabec4dc68b9d8ace284e1fe7,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$840, $1400, [Seller: Hello [Greeting the buyer], Buyer: Howdy Partner [Responding to the greeting], Seller: I am selling this nice bathroom sink for 1400 [Introducing the item for sale and stating the price]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$840, $1400, [Seller: Hello [Greeting the buyer], Buyer: Howdy Partner [Responding to the greeting], Seller: I am selling this nice bathroom sink for 1400 [Introducing the item for sale and stating the price]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $1000.0<|eot_id|>",840,1400,1200.0,1000.0,0.6428571428571429,0.2857142857142857,33.333333333333336
+C_a7816b4e06fb4d09b45eeec7ea127f19,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$23, $25, [Buyer: Hello how are you? [Initiate conversation and establish rapport], Seller: good, how about you? [Respond to greeting and reciprocate inquiry], Buyer: I am fine thanks. [Respond to inquiry and maintain rapport]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$23, $25, [Buyer: Hello how are you? [Initiate conversation and establish rapport], Seller: good, how about you? [Respond to greeting and reciprocate inquiry], Buyer: I am fine thanks. [Respond to inquiry and maintain rapport]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $23.0<|eot_id|>",23,25,23.0,23.0,0.0,0.0,0.0
+C_a79064b5e20545a28e78f52961bd5b57,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$2100, $3000, [Seller: Hello how may I help you? [Offer assistance], Buyer: i am interested in your car, could you tell me a little more about it? What make/model is the vehicle? [Express interest and request information]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$2100, $3000, [Seller: Hello how may I help you? [Offer assistance], Buyer: i am interested in your car, could you tell me a little more about it? What make/model is the vehicle? [Express interest and request information]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $2500.0<|eot_id|>",2100,3000,2300.0,2500.0,0.2222222222222222,0.4444444444444444,17.391304347826086
+C_a88fc36a49254eb89eedb3c90ab51c3d,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$4320, $4800, [Seller: Hi, are you interested in the home? [Initiate conversation and gauge interest], Buyer: Hi there. Yes I am absolutely interested but I need some details please. Is the location nearby all facilities? [Express interest and request details], Seller: Yes, it is near lots of local businesses, grocery, store, mall, restaurants ect. [Provide information about the location]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$4320, $4800, [Seller: Hi, are you interested in the home? [Initiate conversation and gauge interest], Buyer: Hi there. Yes I am absolutely interested but I need some details please. Is the location nearby all facilities? [Express interest and request details], Seller: Yes, it is near lots of local businesses, grocery, store, mall, restaurants ect. [Provide information about the location]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $4500.0<|eot_id|>",4320,4800,4400.0,4500.0,0.16666666666666666,0.375,2.272727272727273
+C_a9aa017d57aa49919d66922d0d2c1e80,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$66, $110, [Buyer: Hello? [Initiate conversation], Seller: Hi! I'm selling this for just 110 [State the selling price]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$66, $110, [Buyer: Hello? [Initiate conversation], Seller: Hi! I'm selling this for just 110 [State the selling price]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $80.0<|eot_id|>",66,110,85.0,80.0,0.4318181818181818,0.3181818181818182,0.29411764705882354
+C_aa2f40bc16ea435899bf585d3c3edef0,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$837, $1395, [Buyer: Hi! I am interested in your apartment [Expressing interest in the apartment], Seller: Hi,I see you are interested. How can I help you? [Acknowledging interest and offering assistance]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$837, $1395, [Buyer: Hi! I am interested in your apartment [Expressing interest in the apartment], Seller: Hi,I see you are interested. How can I help you? [Acknowledging interest and offering assistance]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $1200.0<|eot_id|>",837,1395,950.0,1200.0,0.2025089605734767,0.6505376344086021,65.78947368421052
+C_abc05dd4ca6441b68572b6ae740eaf70,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$60, $80, [Seller: hi [Initiate conversation], Buyer: hello [Respond to greeting], Seller: are you interested [Inquire about buyer's interest]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$60, $80, [Seller: hi [Initiate conversation], Buyer: hello [Respond to greeting], Seller: are you interested [Inquire about buyer's interest]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $70.0<|eot_id|>",60,80,60.0,70.0,0.0,0.5,1.6666666666666667
+C_aef98ea7e9cd4071abb1d11142e55740,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$75, $99, [Buyer: Hi, wondering how tall the table is [Inquiring about the dimensions of the table], Seller: it is about 30 inches. It is in good condition [Providing the dimensions and condition of the table]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$75, $99, [Buyer: Hi, wondering how tall the table is [Inquiring about the dimensions of the table], Seller: it is about 30 inches. It is in good condition [Providing the dimensions and condition of the table]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $80.0<|eot_id|>",75,99,85.0,80.0,0.4166666666666667,0.20833333333333334,0.29411764705882354
+C_b5de3fc4c30741e48c6e5ab6833c1d10,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$975, $1950, [Seller: Hello, are you interested in these apartments? [Initiate conversation and gauge interest], Buyer: Hello. Yes I am. How many bedrooms? [Express interest and inquire about specifics]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$975, $1950, [Seller: Hello, are you interested in these apartments? [Initiate conversation and gauge interest], Buyer: Hello. Yes I am. How many bedrooms? [Express interest and inquire about specifics]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $1500.0<|eot_id|>",975,1950,1300.0,1500.0,0.3333333333333333,0.5384615384615384,30.76923076923077
+C_c0ed6d7b2bb64ca0aabadad8ce525a7e,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$150, $250, [Seller: Hi! [Greeting the buyer and initiating the conversation.], Buyer: Hello. How are you? [Responding to the greeting and inquiring about the seller's well-being.]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$150, $250, [Seller: Hi! [Greeting the buyer and initiating the conversation.], Buyer: Hello. How are you? [Responding to the greeting and inquiring about the seller's well-being.]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $200.0<|eot_id|>",150,250,225.0,200.0,0.75,0.5,2.7777777777777777
+C_c43f2b16c2dc4bd683dba92412a93b5d,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$87, $95, [Buyer: Hello. I am interested in buying this product. [Express interest in purchasing the product], Seller: Sounds good! I'm aware that the listing says $95, but I'm willing to negotiate. [Show willingness to negotiate the price]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$87, $95, [Buyer: Hello. I am interested in buying this product. [Express interest in purchasing the product], Seller: Sounds good! I'm aware that the listing says $95, but I'm willing to negotiate. [Show willingness to negotiate the price]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $90.0<|eot_id|>",87,95,90.0,90.0,0.375,0.375,0.0
+C_c45de9ee2d1a410caff4d221284b9bf9,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$9120, $12000, [Buyer: hello [Initiate conversation], Seller: Hello, are you interested in buying this vehicle? [Confirm interest in the vehicle], Buyer: yes indeed, I like the color too [Express interest and appreciation for the vehicle's color]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$9120, $12000, [Buyer: hello [Initiate conversation], Seller: Hello, are you interested in buying this vehicle? [Confirm interest in the vehicle], Buyer: yes indeed, I like the color too [Express interest and appreciation for the vehicle's color]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $10000.0<|eot_id|>",9120,12000,9850.0,10000.0,0.2534722222222222,0.3055555555555556,2.284263959390863
+C_cae60a0d1a214a7ba20964d156f1eca4,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$15, $20, [Seller: hello! [Greeting the buyer and initiating the conversation.], Buyer: Hi! I'm interested in perhaps getting this bike for my son. What size is this bike? [Expressing interest in the bike and inquiring about its size.]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$15, $20, [Seller: hello! [Greeting the buyer and initiating the conversation.], Buyer: Hi! I'm interested in perhaps getting this bike for my son. What size is this bike? [Expressing interest in the bike and inquiring about its size.]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $17.0<|eot_id|>",15,20,15.0,17.0,0.0,0.4,0.26666666666666666
+C_d130fcfa43374a03bbbba08bdd85e8b9,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$500, $1000, [Seller: Hello [Greeting the buyer], Buyer: I'm interested in set you have. [Expressing interest in the item]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$500, $1000, [Seller: Hello [Greeting the buyer], Buyer: I'm interested in set you have. [Expressing interest in the item]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $750.0<|eot_id|>",500,1000,500.0,750.0,0.0,0.5,125.0
+C_d26bad533e364c4d9b8358d777ad3205,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1700, $3400, [Buyer: Is the Datsun still available? [Inquiring about the availability of the Datsun], Seller: Hi! yes it is. It is in great condition, only 80k miles. Listing price is 3400 [Confirming availability and providing additional details about the car], Buyer: Are those original miles? [Seeking clarification on the mileage]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1700, $3400, [Buyer: Is the Datsun still available? [Inquiring about the availability of the Datsun], Seller: Hi! yes it is. It is in great condition, only 80k miles. Listing price is 3400 [Confirming availability and providing additional details about the car], Buyer: Are those original miles? [Seeking clarification on the mileage]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $2500.0<|eot_id|>",1700,3400,1900.0,2500.0,0.11764705882352941,0.47058823529411764,189.47368421052633
+C_d2ff25ca3e3f442aade45f5ca2b749ac,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$140, $200, [Seller: Hello [Greeting the buyer], Buyer: howdy. so moving eh? [Responding to the greeting and initiating conversation about the sale]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$140, $200, [Seller: Hello [Greeting the buyer], Buyer: howdy. so moving eh? [Responding to the greeting and initiating conversation about the sale]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $175.0<|eot_id|>",140,200,140.0,175.0,0.0,0.5833333333333334,8.75
+C_d78d1e5c7ae6400e9590fb6d932a2732,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$525, $1050, [Buyer: 500$ I'll come pick it up right now cash in hand and I'll throw in a gold chain that's worth 250. [To make an initial offer and add an incentive (gold chain) to persuade the seller.], Seller: I'm not interested in trades. I'm selling the bike for 1050. It is the a competition grade bike same as used by Lance Armstrong and it wasn't just the large amount of drugs that propelled him to all those victories. [To reject the trade offer  state the selling price  and emphasize the bike's quality and value.]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$525, $1050, [Buyer: 500$ I'll come pick it up right now cash in hand and I'll throw in a gold chain that's worth 250. [To make an initial offer and add an incentive (gold chain) to persuade the seller.], Seller: I'm not interested in trades. I'm selling the bike for 1050. It is the a competition grade bike same as used by Lance Armstrong and it wasn't just the large amount of drugs that propelled him to all those victories. [To reject the trade offer  state the selling price  and emphasize the bike's quality and value.]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $700.0<|eot_id|>",525,1050,850.0,700.0,0.6190476190476191,0.3333333333333333,26.470588235294116
+C_d790a6621c934b2a919c3e3e313c901a,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1840, $2000, [Seller: Hello. [Greeting the buyer.], Buyer: Hello, I am interested in the bike. [Expressing interest in the bike.]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1840, $2000, [Seller: Hello. [Greeting the buyer.], Buyer: Hello, I am interested in the bike. [Expressing interest in the bike.]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $1900.0<|eot_id|>",1840,2000,1875.0,1900.0,0.21875,0.375,0.3333333333333333
+C_d791c2499509456296a08dd3adae6070,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$4900, $7000, [Buyer: Hello [Greeting the seller], Seller: Hello [Responding to the greeting]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$4900, $7000, [Buyer: Hello [Greeting the seller], Seller: Hello [Responding to the greeting]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $6000.0<|eot_id|>",4900,7000,5500.0,6000.0,0.2857142857142857,0.5238095238095238,45.45454545454545
+C_d8a31aebaaf74a978d45336cde4b15a8,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$110, $220, [Buyer: hello, is the bike in running condition? I understand it sat for a while have you taken it out to make sure the motor hasn't depreciated? [Inquire about the condition of the bike and ensure the motor is functional], Seller: the motor works fine all that is missing is the rear brake cable which is a quick fix. [Reassure the buyer about the motor's condition and mention a minor issue], Buyer: I have found a complete piece selling online foe $198 brand new is there any way you can come down on the price? [Negotiate the price by referencing a lower price found online]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$110, $220, [Buyer: hello, is the bike in running condition? I understand it sat for a while have you taken it out to make sure the motor hasn't depreciated? [Inquire about the condition of the bike and ensure the motor is functional], Seller: the motor works fine all that is missing is the rear brake cable which is a quick fix. [Reassure the buyer about the motor's condition and mention a minor issue], Buyer: I have found a complete piece selling online foe $198 brand new is there any way you can come down on the price? [Negotiate the price by referencing a lower price found online]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $170.0<|eot_id|>",110,220,175.0,170.0,0.5909090909090909,0.5454545454545454,0.14285714285714285
+C_da8adc234a764cf0bf99a157c437a21d,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$3505, $3895, [Seller: Hi [Greeting the buyer to initiate the conversation.], Buyer: Hello, I am interested in the poperty, does it come with any additional perks or features? [Expressing interest in the property and inquiring about additional perks or features.]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$3505, $3895, [Seller: Hi [Greeting the buyer to initiate the conversation.], Buyer: Hello, I am interested in the poperty, does it come with any additional perks or features? [Expressing interest in the property and inquiring about additional perks or features.]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $3600.0<|eot_id|>",3505,3895,3700.0,3600.0,0.5,0.24358974358974358,2.7027027027027026
+C_e3fbb6dd2f5949ce9ece21fd9b0babc1,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$7, $15, [Seller: Hey there. [Greeting the buyer], Buyer: Hello [Responding to the greeting]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$7, $15, [Seller: Hey there. [Greeting the buyer], Buyer: Hello [Responding to the greeting]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $10.0<|eot_id|>",7,15,10.0,10.0,0.375,0.375,0.0
+C_e41d38d0910e4e09886e105722227797,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1891, $2102, [Seller: Great place to live. Are you interested? [Initiate conversation and gauge interest], Buyer: Yes. Is it close to any stores or restaurants? [Inquire about proximity to amenities]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1891, $2102, [Seller: Great place to live. Are you interested? [Initiate conversation and gauge interest], Buyer: Yes. Is it close to any stores or restaurants? [Inquire about proximity to amenities]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $2000.0<|eot_id|>",1891,2102,1950.0,2000.0,0.2796208530805687,0.5165876777251185,1.2820512820512822
+C_e6e08f5315f54998b78fbed290cf9a16,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1620, $1800, [Buyer: HI, I was interested in the apartment [Expressing interest in the apartment], Seller: excellent it has 2 rooms and 1 and a half bathrooms. got everything stove, refrigerator dishwasher and garbage disposal [Providing details about the apartment], Buyer: is it furnished? [Inquiring about the furnishing status]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1620, $1800, [Buyer: HI, I was interested in the apartment [Expressing interest in the apartment], Seller: excellent it has 2 rooms and 1 and a half bathrooms. got everything stove, refrigerator dishwasher and garbage disposal [Providing details about the apartment], Buyer: is it furnished? [Inquiring about the furnishing status]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $1650.0<|eot_id|>",1620,1800,1700.0,1650.0,0.4444444444444444,0.16666666666666666,1.4705882352941178
+C_e9092991154545eab0da006e122f7c71,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$240, $400, [Buyer: Hi [Greeting], Seller: Hello! Are you interested in the couches? [Initiating conversation about the couches]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$240, $400, [Buyer: Hi [Greeting], Seller: Hello! Are you interested in the couches? [Initiating conversation about the couches]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $300.0<|eot_id|>",240,400,275.0,300.0,0.21875,0.375,2.272727272727273
+C_e9b9d671cd3b4974a0e86731cddb7e4d,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$375, $750, [Seller: Hello! [Greeting the buyer], Buyer: Hi how are you doing today? [Initiating small talk and establishing rapport]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$375, $750, [Seller: Hello! [Greeting the buyer], Buyer: Hi how are you doing today? [Initiating small talk and establishing rapport]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $375.0<|eot_id|>",375,750,500.0,375.0,0.3333333333333333,0.0,31.25
+C_ec49904858b141a582000936a9d926d5,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1339, $1488, [Seller: Hello, are you interested in the unit? [Initiate conversation and gauge interest], Buyer: Yes. How many rooms and baths? [Express interest and request specific information]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$1339, $1488, [Seller: Hello, are you interested in the unit? [Initiate conversation and gauge interest], Buyer: Yes. How many rooms and baths? [Express interest and request specific information]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $1375.0<|eot_id|>",1339,1488,1425.0,1375.0,0.5771812080536913,0.24161073825503357,1.7543859649122806
+C_ecb56dce00284da9ac648e527970d427,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$8, $12, [Seller: Interested in camping?  You've came to the right place! [Initiate conversation and attract interest], Buyer: Hello. I am interested in your tent. Could you tell me how old it is? [Express interest and request information], Seller: It's only a few years old.  It's waterproof and heavy duty.  Only asking $12 [Provide information and state price]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$8, $12, [Seller: Interested in camping?  You've came to the right place! [Initiate conversation and attract interest], Buyer: Hello. I am interested in your tent. Could you tell me how old it is? [Express interest and request information], Seller: It's only a few years old.  It's waterproof and heavy duty.  Only asking $12 [Provide information and state price]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $10.0<|eot_id|>",8,12,8.0,10.0,0.0,0.5,0.5
+C_ed20afc8142b4992a136bd29fee069bf,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$363, $395, [Buyer: Does this TV really have a skewed wooden frame on it? [Seek clarification about the TV's frame], Seller: Hi there no there is no wooden frame [Provide information about the TV's frame], Buyer: okay because in the picture it looks cattywompous. what do you say to $350? [Express concern and make an offer]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$363, $395, [Buyer: Does this TV really have a skewed wooden frame on it? [Seek clarification about the TV's frame], Seller: Hi there no there is no wooden frame [Provide information about the TV's frame], Buyer: okay because in the picture it looks cattywompous. what do you say to $350? [Express concern and make an offer]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $380.0<|eot_id|>",363,395,375.0,380.0,0.375,0.53125,0.06666666666666667
+C_ed4de9a34fca47e19feb39079f8ff5c1,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$3195, $3550, [Seller: Thanks for viewing my listing. Do you have any questions? [Initiate conversation and invite questions], Buyer: I do. I have a dog would she be able to come with me? [Inquire about pet policy], Seller: No, I apologize, but we do not accept pets. [Inform about no-pet policy]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$3195, $3550, [Seller: Thanks for viewing my listing. Do you have any questions? [Initiate conversation and invite questions], Buyer: I do. I have a dog would she be able to come with me? [Inquire about pet policy], Seller: No, I apologize, but we do not accept pets. [Inform about no-pet policy]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $3500.0<|eot_id|>",3195,3550,3375.0,3500.0,0.5070422535211268,0.8591549295774648,4.62962962962963
+C_f1f4ecb9a627436d89e21b6283940ba5,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$40, $80, [Buyer: Hi this set of Chairs and table really look cozy and i will like to have them. May i know if there is anything wrong with them and why your are selling them if you do not mind [Express interest in the item and inquire about its condition and reason for sale], Seller: this set is in great condition. there is nothing wrong with them. I just purchased a new set so I am trying to sell this one [Reassure the buyer about the item's condition and provide a reason for selling]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$40, $80, [Buyer: Hi this set of Chairs and table really look cozy and i will like to have them. May i know if there is anything wrong with them and why your are selling them if you do not mind [Express interest in the item and inquire about its condition and reason for sale], Seller: this set is in great condition. there is nothing wrong with them. I just purchased a new set so I am trying to sell this one [Reassure the buyer about the item's condition and provide a reason for selling]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $60.0<|eot_id|>",40,80,60.0,60.0,0.5,0.5,0.0
+C_f4f1490bce944146b73eb58c61371245,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$210, $300, [Buyer: Hi I am interested in this drone quadcopter. Does it look good? [Expressing interest in the product and seeking confirmation of its condition], Seller: Yes its it looks super clean! [Confirming the product's good condition]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$210, $300, [Buyer: Hi I am interested in this drone quadcopter. Does it look good? [Expressing interest in the product and seeking confirmation of its condition], Seller: Yes its it looks super clean! [Confirming the product's good condition]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $220.0<|eot_id|>",210,300,225.0,220.0,0.16666666666666666,0.1111111111111111,0.1111111111111111
+C_f5b79781041b48bdb8f859ad6403b8a3,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$175, $250, [Seller: Hello [Greeting the buyer], Buyer: Hello! [Responding to the greeting]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$175, $250, [Seller: Hello [Greeting the buyer], Buyer: Hello! [Responding to the greeting]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $175.0<|eot_id|>",175,250,175.0,175.0,0.0,0.0,0.0
+C_fd016d47a55845dcb134a8fc1f4a10ab,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$720, $1200, [Buyer: Is the basket included with this bike? [Inquiring about the inclusion of the basket with the bike], Seller: Yes it is included with the bike. [Confirming that the basket is included with the bike]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$720, $1200, [Buyer: Is the basket included with this bike? [Inquiring about the inclusion of the basket with the bike], Seller: Yes it is included with the bike. [Confirming that the basket is included with the bike]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $1000.0<|eot_id|>",720,1200,950.0,1000.0,0.4791666666666667,0.5833333333333334,2.6315789473684212
+C_fdebec1d17924b1bbf0748ab1e682fbd,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$10950, $21900, [Buyer: Hello [Greeting the seller], Seller: hello. are you interested in this car? do you have the budget to be interested in this car? I have had a bunch of low ballers today [Confirming buyer's interest and budget]]><|eot_id|>","<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Analyze this negotiation, given in the format <buyer target, seller target, [negotiation with intentions]> and predict the projected sale price that lies between the buyer and seller targets. Provide only the final answer in the format 'FINAL_PRICE: [number]'
+INPUT: <$10950, $21900, [Buyer: Hello [Greeting the seller], Seller: hello. are you interested in this car? do you have the budget to be interested in this car? I have had a bunch of low ballers today [Confirming buyer's interest and budget]]><|eot_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+FINAL_PRICE: $15000.0<|eot_id|>",10950,21900,21000.0,15000.0,0.9178082191780822,0.3698630136986301,1714.2857142857142

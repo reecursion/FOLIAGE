@@ -86,10 +86,15 @@ def compute_metrics(_, tokenizer, model, eval_dataset, dialogue_info, dataset_ty
                 
                 # Get ground truth
                 sale_price = dialogue_info[dialogue_id]["sale_price"]
+                buyer_target = dialogue_info[dialogue_id]["buyer_target"]
+                seller_target = dialogue_info[dialogue_id]["seller_target"]
                 
                 # Update metrics
                 if "nmse" not in total_metrics:
                     total_metrics["nmse"] = 0.0
+                
+                if "success_rmse_sum" not in total_metrics:
+                    total_metrics["success_rmse_sum"] = 0.0
                 
                 if predicted_price is None:
                     print(f"DEBUG: Failed to extract price from: {pred_text}")
@@ -98,8 +103,15 @@ def compute_metrics(_, tokenizer, model, eval_dataset, dialogue_info, dataset_ty
 
                 # Calculate NMSE
                 nmse = ((sale_price - predicted_price) ** 2) / sale_price
-                
                 total_metrics["nmse"] += nmse
+                
+                # Calculate success scores (as seen in the second file)
+                success_sale = (sale_price - buyer_target) / (seller_target - buyer_target)
+                success_predicted = (predicted_price - buyer_target) / (seller_target - buyer_target)
+                
+                # Calculate squared error for success score
+                success_squared_error = (success_sale - success_predicted) ** 2
+                total_metrics["success_rmse_sum"] += success_squared_error
                 
             elif dataset_type == "p4g":
                 # Extract donation decision for Persuasion for Good
@@ -134,7 +146,8 @@ def compute_metrics(_, tokenizer, model, eval_dataset, dialogue_info, dataset_ty
                 if predicted_allocation is None:
                     print(f"DEBUG: Failed to extract allocation from: {pred_text}")
                     skipped_count += 1
-                    continue
+                    total_metrics["utility_mse"] = float('inf') 
+                    break
                 
                 # Get ground truth and preferences
                 true_allocation = dialogue_info[dialogue_id]["final_allocation"]
@@ -174,6 +187,13 @@ def compute_metrics(_, tokenizer, model, eval_dataset, dialogue_info, dataset_ty
         if dataset_type == "cb" and "nmse" in total_metrics:
             result["nmse"] = total_metrics["nmse"] / valid_count
             print(f"DEBUG: Final NMSE: {result['nmse']}")
+            
+            # Calculate and add success RMSE if available
+            if "success_rmse_sum" in total_metrics:
+                success_mse = total_metrics["success_rmse_sum"] / valid_count
+                result["success_rmse"] = math.sqrt(success_mse)
+                print(f"DEBUG: Final Success RMSE: {result['success_rmse']}")
+                
         elif dataset_type == "p4g" and "accuracy" in total_metrics:
             result["accuracy"] = total_metrics["accuracy"] / valid_count
             print(f"DEBUG: Final Accuracy: {result['accuracy']}")
@@ -233,14 +253,30 @@ def extract_allocation(response):
         elif "assistant" in response:
             response = response.split("assistant")[1].strip()
 
-        allocation = {'agent1': {}, 'agent2': {}}
+        import re
 
-        # Agent 1
+        # Try to find the curly braces format pattern using regex
+        allocation = {'agent1': {}, 'agent2': {}}
+        
+        # Pattern for the new curly braces format
+        pattern = r'{agent1:{food:(\d+),\s*water:(\d+),\s*firewood:(\d+)},\s*agent2:{food:(\d+),\s*water:(\d+),\s*firewood:(\d+)}}'
+        braces_match = re.search(pattern, response, re.IGNORECASE)
+        
+        if braces_match:
+            # Extract values from regex groups
+            allocation['agent1']['food'] = int(braces_match.group(1))
+            allocation['agent1']['water'] = int(braces_match.group(2))
+            allocation['agent1']['firewood'] = int(braces_match.group(3))
+            allocation['agent2']['food'] = int(braces_match.group(4))
+            allocation['agent2']['water'] = int(braces_match.group(5))
+            allocation['agent2']['firewood'] = int(braces_match.group(6))
+            return allocation
+            
+        # Fallback to original format with AGENT_X_RESOURCE: format
         agent1_food = re.search(r'AGENT_1_FOOD:\s*(\d+)', response, re.IGNORECASE)
         agent1_water = re.search(r'AGENT_1_WATER:\s*(\d+)', response, re.IGNORECASE)
         agent1_firewood = re.search(r'AGENT_1_FIREWOOD:\s*(\d+)', response, re.IGNORECASE)
             
-        # Agent 2
         agent2_food = re.search(r'AGENT_2_FOOD:\s*(\d+)', response, re.IGNORECASE)
         agent2_water = re.search(r'AGENT_2_WATER:\s*(\d+)', response, re.IGNORECASE)
         agent2_firewood = re.search(r'AGENT_2_FIREWOOD:\s*(\d+)', response, re.IGNORECASE)
@@ -254,11 +290,11 @@ def extract_allocation(response):
             allocation['agent2']['firewood'] = int(agent2_firewood.group(1))
             return allocation
 
-
         return None
     except Exception as e:
         print(f"[ERROR] Failed to extract allocation: {e}")
         return None
+
 
 def calculate_utility_score(allocation, preferences):
     """Calculate utility score based on allocation and preferences."""
@@ -505,13 +541,14 @@ def prepare_dataset(args, tokenizer):
             
             # Format outcome with structured allocation
             outcome = (
-                f"AGENT_1_FOOD: {final_allocation['agent1']['food']}\n"
-                f"AGENT_1_WATER: {final_allocation['agent1']['water']}\n"
-                f"AGENT_1_FIREWOOD: {final_allocation['agent1']['firewood']}\n"
-                f"AGENT_2_FOOD: {final_allocation['agent2']['food']}\n"
-                f"AGENT_2_WATER: {final_allocation['agent2']['water']}\n"
-                f"AGENT_2_FIREWOOD: {final_allocation['agent2']['firewood']}"
+                f"OUTCOME: {{agent1:{{food:{final_allocation['agent1']['food']}, "
+                f"water:{final_allocation['agent1']['water']}, "
+                f"firewood:{final_allocation['agent1']['firewood']}}}, "
+                f"agent2:{{food:{final_allocation['agent2']['food']}, "
+                f"water:{final_allocation['agent2']['water']}, "
+                f"firewood:{final_allocation['agent2']['firewood']}}}}}"
             )
+
             
             # Always use "with intentions" if they're included
             intentions_note = " with intentions" if args.scaffolding_type in ["local", "both"] else ""
@@ -526,22 +563,18 @@ def prepare_dataset(args, tokenizer):
                 "role": "user",
                 "content": f"""You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
 
-Agent Preferences:
-Agent 1: High priority: {next(k for k, v in preferences['agent1'].items() if v == 'high')}, Medium priority: {next(k for k, v in preferences['agent1'].items() if v == 'medium')}, Low priority: {next(k for k, v in preferences['agent1'].items() if v == 'low')}
-Agent 2: High priority: {next(k for k, v in preferences['agent2'].items() if v == 'high')}, Medium priority: {next(k for k, v in preferences['agent2'].items() if v == 'medium')}, Low priority: {next(k for k, v in preferences['agent2'].items() if v == 'low')}
+            Agent Preferences:
+            Agent 1: High priority: {next(k for k, v in preferences['agent1'].items() if v == 'high')}, Medium priority: {next(k for k, v in preferences['agent1'].items() if v == 'medium')}, Low priority: {next(k for k, v in preferences['agent1'].items() if v == 'low')}
+            Agent 2: High priority: {next(k for k, v in preferences['agent2'].items() if v == 'high')}, Medium priority: {next(k for k, v in preferences['agent2'].items() if v == 'medium')}, Low priority: {next(k for k, v in preferences['agent2'].items() if v == 'low')}
 
-Conversation{intentions_note}:
-{formatted_conversation}{summary_part}
+            Conversation{intentions_note}:
+            {formatted_conversation}{summary_part}
 
-Based on this negotiation, predict the final allocation of resources. Provide your answer in the following format, with no explanation:
-AGENT_1_FOOD: [number]
-AGENT_1_WATER: [number]
-AGENT_1_FIREWOOD: [number]
-AGENT_2_FOOD: [number]
-AGENT_2_WATER: [number]
-AGENT_2_FIREWOOD: [number]
+            Based on this negotiation, predict the final allocation of resources. Provide your answer using the following format with curly braces, with no explanation:
 
-Remember: Each resource must sum to exactly 3 units across both agents."""
+            OUTCOME: {{agent1:{{food:[number], water:[number], firewood:[number]}}, agent2:{{food:[number], water:[number], firewood:[number]}}}}
+
+            Remember: Each resource must sum to exactly 3 units across both agents."""
             }]
             
             # Apply chat template
@@ -552,6 +585,7 @@ Remember: Each resource must sum to exactly 3 units across both agents."""
                 "role": "assistant",
                 "content": outcome
             }]
+
             
             # Store dialogue info for evaluation
             dialogue_info[dialogue_id] = {
@@ -623,11 +657,11 @@ def perform_kfold_cross_validation(args):
     # Create output directories
     os.makedirs(args.output_dir, exist_ok=True)
     if args.dataset_type == "cb":
-        results_dir = "/home/gganeshl/FOLIAGE/src/sft/results/craigslistbargain"
+        results_dir = f"/home/gganeshl/FOLIAGE/src/sft/results/craigslistbargain/seed_{args.seed}"
     elif args.dataset_type == "p4g":
-        results_dir = "/home/gganeshl/FOLIAGE/src/sft/results/persuasionforgood"
+        results_dir = f"/home/gganeshl/FOLIAGE/src/sft/results/persuasionforgood/seed_{args.seed}"
     elif args.dataset_type == "casino":
-        results_dir = "/home/gganeshl/FOLIAGE/src/sft/results/casino"
+        results_dir = f"/home/gganeshl/FOLIAGE/src/sft/results/casino/seed_{args.seed}"
     os.makedirs(results_dir, exist_ok=True)
     
     # Extract ratio from filename
@@ -728,7 +762,7 @@ def perform_kfold_cross_validation(args):
         
         # Set metric for best model based on dataset type
         if args.dataset_type == "cb":
-            metric_for_best_model = "eval_nmse"
+            metric_for_best_model = "eval_rmse"
             greater_is_better = False
         elif args.dataset_type == "casino":
             metric_for_best_model = "eval_utility_mse"
