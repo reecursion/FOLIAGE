@@ -2050,3 +2050,512 @@ Persuadee (EE): Same here, but it really feels like a Monday.
 Persuader (ER): Ugh yes it does!
 Persuadee (EE): I can not believe how warm it is already.
 Summary: The conversation is a casual exchange between two people, ER and EE, on a Tuesday morning. They greet each other, discuss how they are feeling, and comment on how the day feels like a Monday. EE also mentions the unusually warm weather.",0,0,True,0.8662109375
+20180719-120436_413_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi there
+Persuadee (EE): Hello
+Persuader (ER): Have you heard of the Save the Children charity?
+Persuadee (EE): I actually have not.
+Persuadee (EE): What do they do to help children?
+Persuader (ER): It is an international organization that helps protect and promote rights for childrens and provides for them in suffering conditions - such as lack of basic needs, like water, clothing, and food.
+Persuadee (EE): I'm glad a charity like that exists internationally.
+Persuader (ER): It's for a great cause.
+Summary: The conversation is about the Save the Children charity. ER introduces the organization to EE, explaining its mission to protect children's rights and provide basic needs like water, clothing, and food. EE expresses appreciation for the charity's international efforts.",0,0,True,0.96435546875
+20180723-042226_724_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi there.
+Persuader (ER): How are you today?
+Persuadee (EE): Hello, I am fine, how about you?
+Persuader (ER): Very well thanks.
+Persuader (ER): Do you currently give any money to charity on a regular basis?
+Persuadee (EE): Yes, I try to help time to time
+Persuader (ER): Any charity in particular?
+Persuadee (EE): No, anything that catches my eyes, or I find them on gofundme, what about you?
+Persuader (ER): I have a few payments set up monthly.
+Persuader (ER): I assume then you've heard of Save the Children and the great work they do with young people?
+Persuadee (EE): Yes, I've heard of it.
+Persuadee (EE): Can you please explain more about it?
+Summary: The conversation involves two individuals discussing their charitable contributions. ER asks EE if they donate to charity regularly, to which EE responds affirmatively, mentioning they donate to various causes found online. ER mentions having monthly charity payments set up and brings up ""Save the Children,"" prompting EE to ask for more information about the organization.",1,0,False,0.52783203125
+20180723-061928_535_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): HI
+Persuadee (EE): HI
+Persuader (ER): ARE YOU INTRESTED TO DONATE SOME FUNDS TO CHARITY TO SAVE SOME CHILDRENS
+Persuadee (EE): Of course I am very interested to donate funds to charity
+Persuader (ER): Thanks for that.
+Persuader (ER): You are helping to small childrens for their studies,etc
+Persuadee (EE): What charity do you usually donate?
+Persuader (ER): I do United World wide or Food for the poor
+Summary: ER is asking EE if they are interested in donating funds to charity to help children. EE expresses interest in donating. ER thanks EE and mentions that the donations help with children's studies. EE inquires about the charities ER donates to, and ER mentions United Worldwide and Food for the Poor.",1,1,True,0.89990234375
+20180723-070336_48_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hey, how's it going?
+Persuadee (EE): Good just another Monday how about yourself?
+Persuader (ER): hahah same here.
+Persuader (ER): Do you have a moment to chat about social issues?
+Persuader (ER): Specially the ones concerning children?
+Persuadee (EE): Yea what do you got?
+Persuader (ER): I'd like to talk about the charity Save the Children.
+Persuader (ER): What was life like for you as a kid?
+Summary: ER and EE are exchanging greetings and discussing social issues, particularly those affecting children. ER introduces the charity Save the Children and asks EE about their childhood experiences.",0,0,True,0.7802734375
+20180723-120746_371_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello would you please donate to help save the children?
+Persuadee (EE): What children organization?
+Persuader (ER): This organization is called Save the Children and your donation can help ensure children't rights to health, education, and safety.
+Persuadee (EE): How long has this charity been around?
+Persuader (ER): We have been around for a long time and have worked hard to ensure that as much of your money as possible goes towards helping the children.
+Persuader (ER): The children need your help to ensure that they have a fighting chance at their future.
+Persuader (ER): You can help care for them medically and ensure they have the education needed to succeed in life.
+Persuadee (EE): The organization sounds like a good one.
+Summary: The conversation involves a representative (ER) from the charity organization ""Save the Children"" asking for donations to support children's rights to health, education, and safety. The potential donor (EE) inquires about the organization, and the representative emphasizes their long-standing commitment to efficiently using donations to help children. The potential donor expresses a positive impression of the organization.",0,0,True,0.7998046875
+20180808-030454_242_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello, how are you today?
+Persuadee (EE): hi,it was another day
+Persuader (ER): I see, same here for me.
+Persuader (ER): Have you every tried donation through HITs?
+Persuadee (EE): ya recently i too tried children's charity regarding their studies.
+Persuadee (EE): it makes me good
+Persuader (ER): I usually donate a good part of my bonus in different studies, but I specially have a soft heart for children.
+Persuader (ER): Have you ever heard about ""Save the Children"" before?
+Persuadee (EE): children must be educated i didn\'t heard about  ""save the children"" what is the procedure of giving donation?
+Persuader (ER): They work on different issues in almost 120 countries.
+Summary: The conversation revolves around the topic of charitable donations, particularly focusing on children's education. ER and EE discuss their experiences with donating, with ER mentioning a preference for supporting children's causes and introducing EE to the organization ""Save the Children."" EE expresses interest in learning more about the donation process for this organization.",1,1,True,0.830078125
+20180808-032124_114_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Have you thought about how much of the reward for this HIT you want to donate to Save the Children?
+Persuadee (EE): I do not want to donate any of my reward for this hit.
+Persuadee (EE): I make donations to charity regularly but not from jobs that I do.
+Persuader (ER): Save the Children is a great international no-governmental organization that promotes children's rights, provides relief and helps support children in developing countries.
+Persuader (ER): It has a very low overhead and almost all the money donated to it is directly used to help children.
+Persuadee (EE): I know that it is a good organization and I support them.
+Persuadee (EE): However I am not getting a reward from this hit.
+Persuadee (EE): I am spending my time completing it so I am being paid for a job.
+Persuadee (EE): I want the money to do with as I choose.
+Summary: ER inquires if EE wants to donate part of their reward from a HIT to Save the Children. EE declines, explaining they regularly donate to charity but not from job earnings. ER highlights the organization's merits, but EE insists they prefer to use their earnings as they see fit, emphasizing that the payment is compensation for their time and work.",0,1,False,0.9638671875
+20180808-032545_201_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): HI GOOD MORNING
+Persuadee (EE): Good morning.
+Persuadee (EE): How are you today?
+Persuader (ER): FINE,SAVE THE CHILDREN , HOW DO YOU THINK ABOUT THE DONATION THE SAVE THE CHILD.
+Persuadee (EE): I don't usually donate to charities.
+Persuadee (EE): Is that something that you personally do?
+Persuader (ER): NO BUT, ITS A INTERNATIONAL NON-GOVERNMENTAL ORGANIZATION TO THE CHILD
+Summary: The conversation involves a discussion about the ""Save the Children"" organization. ER asks EE about their thoughts on donating to the charity. EE mentions they don't usually donate to charities and asks if ER does. ER clarifies that they don't donate either but notes that ""Save the Children"" is an international NGO focused on children.",0,1,False,0.9228515625
+20180808-035715_390_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello, how are you doing today?
+Persuadee (EE): Good thanks!
+Persuadee (EE): You?
+Persuader (ER): Very well.
+Persuader (ER): Do you have any particular hobbies that you enjoy?
+Persuadee (EE): Mostly into hiking these days - how about you?
+Persuadee (EE): Do you have any info on this children's charity we're supposed to talk about?
+Persuader (ER): I like to play golf, as well as go on walks with my dog.
+Persuader (ER): Yes, the charity sounds like it does a lot of great work.
+Persuadee (EE): Walks with the dog sound awesome.
+Summary: The conversation involves ER and EE discussing their well-being, hobbies, and a children's charity. EE enjoys hiking, while ER likes golf and walking their dog. They briefly mention the charity's positive impact.",0,0,True,0.61865234375
+20180808-043445_804_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello, how are you today?
+Persuadee (EE): Hi, I'm doing OK, how are you?
+Persuader (ER): I am fine thanks.
+Persuader (ER): Are you interested in donating?
+Persuadee (EE): Possibly, I'm not sure.
+Persuadee (EE): I don't even know what the charity is.
+Persuader (ER): The organization which collects money from people, and spend it on people and issues which are needed
+Persuadee (EE): Right, but I would like to know specifically what organization.
+Persuader (ER): I myself have a soft heart for children and usually help the charities for children.
+Persuader (ER): Have you heard of ""Save the Children""?
+Summary: The conversation involves ER asking EE about their interest in donating to a charity. EE expresses uncertainty and requests more information about the specific organization. ER mentions having a preference for children's charities and introduces ""Save the Children"" as an example.",1,1,True,0.80224609375
+20180808-050533_601_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Save the Children is a great organization that looks out for the well being of children in need.
+Persuader (ER): Currently they are looking for individuals to help their cause.
+Persuadee (EE): where is this organization based?
+Persuadee (EE): Do they help children from a particular country or is it all around the world?
+Persuader (ER): They help children mostly in developing countries around the world.
+Persuader (ER): Think about all the stories you hear in the news and on social media about children that need help or have been taken advantage of.
+Persuadee (EE): Yeah stories like that are very heart breaking.
+Persuadee (EE): What types of programs do they offer?
+Persuadee (EE): Like do they just supply food?
+Persuader (ER): They often protect children from being victims of hunger, violence, and child labor.
+Summary: The conversation discusses the organization Save the Children, which aids children in need, primarily in developing countries. The exchange covers the organization's global reach and its programs, which protect children from hunger, violence, and child labor, rather than just supplying food. The emotional impact of stories about children in need is also mentioned.",0,0,True,0.5810546875
+20180808-064649_236_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): HI GOOD MORNING
+Persuadee (EE): Good morning, how are you?
+Persuader (ER): FINE, HOW ABOUT YOU, AND MANY CHILDREN ARE DYING.
+Persuadee (EE): I am fine, thanks!
+Persuadee (EE): Yes, surely there is a good charity that can help children.
+Persuadee (EE): Do you know of a good one?
+Persuader (ER): YES, I KNOW THE BEST CHARITY , THAT NAME IS SAVE THE CHILDREN, DO YOU KNOW THE CHARITY.
+Summary: The conversation is a morning greeting between ER and EE, where ER mentions the issue of children dying. EE suggests finding a good charity to help, and ER recommends ""Save the Children"" as the best charity for this cause.",0,0,True,0.57080078125
+20180824-020419_695_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): On behalf of this hit i wat to talk to you about a charity
+Persuadee (EE): What specifically would you like to talk about?
+Persuader (ER): I want to talk to you about a charity called Save the Children
+Persuadee (EE): I've heard of them.
+Persuadee (EE): How much do we have to share with them?
+Persuader (ER): well let me tell you a little bit about the charity first
+Persuadee (EE): That sounds good.
+Summary: The conversation involves ER wanting to discuss the charity ""Save the Children"" with EE. ER intends to provide more information about the charity, while EE is interested in learning more, including how much they might contribute.",1,0,False,0.88525390625
+20180824-023730_85_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi how are you today?
+Persuadee (EE): good
+Persuader (ER): Have you ever heard of Save the Children?
+Persuadee (EE): I have not, but there are other charities I like to participate in
+Persuader (ER): Do you have any children?
+Persuader (ER): I have two.
+Summary: The conversation involves ER asking EE about their familiarity with the charity ""Save the Children."" EE is unfamiliar with it but mentions participating in other charities. ER then asks if EE has children and shares that they have two children.",0,0,True,0.91064453125
+20180825-054948_621_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello
+Persuadee (EE): Hi.
+Persuadee (EE): I really do not know much about children's charity, do you?
+Persuader (ER): Oh.
+Persuader (ER): There is this children's charity my friend volunteers for.
+Persuader (ER): It's called Save the Children.
+Persuader (ER): Have you heard of it?
+Persuadee (EE): I think so.
+Persuadee (EE): Does it have commercials on tv?
+Persuader (ER): Yes, they do.
+Persuader (ER): I wish they didn't have to spend their monies on commericals but it is the only way to get their name out there.
+Summary: The conversation is about a children's charity called Save the Children. ER mentions that their friend volunteers for the charity, which is known for its TV commercials. ER expresses a wish that the charity didn't have to spend money on advertising, but acknowledges it's necessary for raising awareness.",1,0,False,0.73046875
+20180825-055034_34_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello
+Persuadee (EE): hello
+Persuader (ER): Would you like to donate a partial or full amount of your payment from this task to Save the Children.
+Persuader (ER): Save the Children is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries.
+Persuadee (EE): how much of the money is put to work?
+Persuader (ER): All of the money you choose to donate will go to the charity.
+Persuader (ER): Donating any amount will make a difference, every little donation adds up!
+Summary: The conversation involves ER asking EE if they would like to donate part or all of their payment from a task to Save the Children, an NGO supporting children's rights and relief efforts. EE inquires about the allocation of the donation, and ER assures that all donated funds go directly to the charity, emphasizing that even small donations are impactful.",0,1,False,0.96142578125
+20180825-063009_943_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi WOuld you like to donate your payment for this task to save the children?
+Persuadee (EE): No, to be honest I am doing this task to save up extra money for myself.
+Persuader (ER): I understand that.
+Persuader (ER): But it's only .30 of the money you are saving.
+Persuader (ER): It could do alot of good for Save the children.
+Persuadee (EE): I appreciate your position, but what exactly is Save the Children and how do I know that money will truly be used to help kids?
+Persuader (ER): The researchers of this hit will make sure the money goes to save the children.
+Persuader (ER): Save the Children is a world wide organization that helps kids in war torn areas.
+Summary: The conversation involves ER asking EE if they would like to donate their payment to Save the Children. EE declines, explaining they are saving money for themselves and asks for more information about the organization. ER explains that Save the Children is a global organization helping children in war-torn areas and assures that the donation will be used appropriately.",0,1,False,0.5869140625
+20180825-071316_761_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi
+Persuadee (EE): Hello, do you have any charities in mind that you support?
+Persuader (ER): Yes, I am very fond of Save the Children.
+Persuadee (EE): I've never heard of that one.
+Persuadee (EE): What is their goal?
+Persuader (ER): They are an international charity that provideds food, basic supplies and reief to children in developing countries
+Persuadee (EE): Oh that is interesting.
+Summary: The conversation involves ER and EE discussing charitable organizations. ER mentions supporting Save the Children, an international charity providing food and supplies to children in developing countries. EE expresses interest, having not heard of the charity before.",0,0,True,0.59130859375
+20180825-073559_995_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello?
+Persuadee (EE): hi
+Persuader (ER): How are you today?
+Persuadee (EE): good how about you?
+Persuader (ER): I am well, thank you!
+Persuader (ER): Glad you are doing well also.
+Persuader (ER): Have you heard of the charity called Save the Children?
+Persuadee (EE): i have not, can you tell me more?
+Persuader (ER): It is an international charity that helps children in need all around the world.
+Summary: ER and EE exchange greetings and inquire about each other's well-being. ER introduces the charity ""Save the Children"" to EE, explaining that it is an international organization helping children in need globally.",0,0,True,0.59814453125
+20180825-073629_433_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Have you ever though about donating to Save the Children?
+Persuadee (EE): I have thought about it before.
+Persuadee (EE): I've been approached by people on the street.
+Persuader (ER): It is a really great charity.
+Persuader (ER): It helps children who have been in crisis.
+Persuadee (EE): Is the charity international?
+Persuadee (EE): Or do they operate primarily in America?
+Summary: The conversation involves ER encouraging EE to consider donating to Save the Children, highlighting its role in helping children in crisis. EE mentions previous encounters with street fundraisers and inquires about the charity's international or American focus.",0,0,True,0.857421875
+20180825-075627_48_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello, hope your great today.
+Persuader (ER): Have you heard of save the children.
+Persuader (ER): Hold ten?
+Persuadee (EE): I'm doing well, thanks!
+Persuadee (EE): Likewise to you.
+Persuadee (EE): I have not heard of that charity.
+Persuader (ER): Save the children do amazing work with kind kids
+Persuadee (EE): How long has this charity been in existence?
+Persuader (ER): They have been providing great services for kids for over 10 years
+Summary: ER introduces the charity ""Save the Children"" to EE, who is unfamiliar with it. ER explains that the organization does significant work with children and has been active for over 10 years. EE expresses interest in learning more about the charity.",0,0,True,0.9091796875
+20180825-075630_493_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi!
+Persuader (ER): How are you doing today?
+Persuadee (EE): I'm doing well.
+Persuadee (EE): How about you?
+Persuader (ER): I am great, just enjoying some coffee on my deck.
+Persuader (ER): How is the weather for you?
+Persuadee (EE): It's cloudy a lot, but otherwise fine.
+Persuadee (EE): I was just looking through the morning mail.
+Persuadee (EE): A request by a children's charity for a donation.
+Persuader (ER): Which charity was the flyer from?
+Summary: ER and EE are having a casual conversation. ER is enjoying coffee on the deck and asks about EE's weather, which is cloudy. EE mentions looking through the morning mail and receiving a donation request from a children's charity. ER inquires about the charity's name.",1,0,False,0.64794921875
+20180825-083745_516_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello
+Persuadee (EE): Hi how are you doing today?
+Persuader (ER): I am doing great!
+Persuader (ER): Would you like to hear about ways you can help Save the Children today!
+Persuadee (EE): Sure.
+Persuadee (EE): Tell me as much as you can about the organization.
+Persuader (ER): Save the Children is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries.
+Persuadee (EE): It sounds like they have a worthy cause.
+Summary: The conversation involves ER introducing Save the Children to EE, who expresses interest in learning more. ER explains that it is an international NGO focused on promoting children's rights and providing support in developing countries. EE acknowledges the organization's worthy cause.",1,0,False,0.9384765625
+20180825-090032_956_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi, how are you today?
+Persuader (ER): Have you ever considered donating to Save the Children?
+Persuader (ER): It is a great kids'
+Persuadee (EE): Hi I am fine and yourself?
+Persuader (ER): I'm good.
+Persuader (ER): Save the Children is one of the best children's charities around.
+Persuader (ER): They do really great work.
+Persuadee (EE): Have you ever thought about the benefits from the donations?
+Persuadee (EE): Do the donations actually help the organization?
+Persuader (ER): Yes, they really do.
+Summary: The conversation involves ER promoting the charity ""Save the Children"" to EE, highlighting its positive impact. EE inquires about the benefits and effectiveness of donations, to which ER affirms that they significantly help the organization.",0,1,False,0.79345703125
+20180826-013036_595_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi, would you like to donate to Save the Children?
+Persuadee (EE): hello, I have heard of the organization but I am unfamiliar with what they do.
+Persuadee (EE): what would my donation go toward?
+Persuader (ER): Your donation would help promote children's rights help support children in developing countries.
+Persuader (ER): It can really make a difference.
+Persuadee (EE): I think I would rather donate to a childrens charity that takes care of American children.
+Persuader (ER): Are American children more important than non-American children?
+Persuadee (EE): In the scheme of things, a life is a life, but I am American and feel it important to help my fellow Americans
+Summary: The conversation involves a representative from Save the Children (ER) asking a potential donor (EE) to contribute. EE is unfamiliar with the organization's work and inquires about the donation's impact. ER explains it supports children's rights in developing countries. EE expresses a preference for donating to charities that focus on American children, emphasizing a personal connection to supporting fellow Americans.",0,0,True,0.5126953125
+20180826-013529_897_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hey, do some good, give some money to kids.
+Persuadee (EE): Sure.I would be glad to. How much money do you think I should give?
+Persuader (ER): oh, could you afford maybe fifteen cents?
+Persuadee (EE): I can afford $5.00
+Summary: ER asks EE to donate money to help children. EE agrees and asks how much to give. ER suggests fifteen cents, but EE offers to donate $5.00 instead.",1,1,True,0.79248046875
+20180826-043247_456_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hey!
+Persuader (ER): How are you doin today?
+Persuadee (EE): Hey!
+Persuadee (EE): I'm doing well!
+Persuadee (EE): How are you?
+Persuader (ER): I\'m alright, just reading up on this organization called ""Save the Children"".. have you heard about it?
+Persuadee (EE): I haven't.
+Persuadee (EE): It sounds familiar though.
+Persuadee (EE): Could you tell me about it?
+Persuader (ER): Yeah, no problem!
+Persuader (ER): It's a non-governmental organization that helps with children's rights.
+Persuader (ER): They claim to provide relief and support to kids in developing countries.
+Persuadee (EE): That's amazing.
+Persuadee (EE): Do they provide legal help or support to live?
+Persuader (ER): It looks like a bit of both!
+Persuader (ER): But they're down on donations.
+Summary: ER and EE greet each other and discuss ""Save the Children,"" an NGO focused on children's rights. ER explains that the organization provides relief and support to children in developing countries. EE inquires about the type of support offered, and ER mentions both legal help and support for living, noting that the organization is currently low on donations.",0,1,False,0.890625
+20180826-073320_803_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi there!
+Persuader (ER): I am looking for donations for the Save the children's Foundation?
+Persuader (ER): Could I interest you in that?
+Persuadee (EE): I would perhaps be interested can you tell me more a bout it
+Persuader (ER): It is a charity that helps hungry children in need.
+Persuader (ER): It is a international, non governmental organization that promotes children's rights, provides releif and support children in developing countries.
+Persuadee (EE): That sounds great, What countries do they help children in?
+Persuader (ER): There's quite a few! It's international.
+Persuader (ER): Even the smallest donation would make a difference to a child in need.
+Persuadee (EE): Ok I would like to see if I can help. I love children.
+Summary: ER is seeking donations for the Save the Children's Foundation, an international NGO supporting children’s rights and providing relief in developing countries. EE expresses interest and asks for more information, indicating a willingness to help, motivated by a love for children.",0,0,True,0.98095703125
+20180826-174120_426_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi, I would like to speak to you about a wonderful charity called ""save the children"".
+Persuadee (EE): Hey hows it?
+Persuadee (EE): Yeah I am interested to hear more.
+Persuader (ER): When you give to Save the Children, you're investing in a future for every last child.Nearly 90% of every dollar you give goes straight to our mission ??Â¸??Â¸ helping children grow up healthy, learning and safe.
+Persuadee (EE): Nearly 90?
+Persuadee (EE): Where does the other money go?
+Persuader (ER): The rest?
+Persuader (ER): We use to support the mission ??Â¸??Â¸ running our programs and raising funds to help more children.
+Summary: ER introduces ""Save the Children"" charity to EE, highlighting that nearly 90% of donations directly support their mission to help children. EE inquires about the allocation of the remaining funds, to which ER explains they are used for supporting the mission, running programs, and fundraising.",1,1,True,0.96875
+20180826-175705_624_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): hello, do you know about the charity save the children?
+Persuadee (EE): Hi.
+Persuadee (EE): No, I have not heard about that charity.
+Persuader (ER): do you want some info?
+Persuadee (EE): Yes, I would love some information.
+Persuader (ER): save the children is a non-profit organization that help the children all around the world.
+Summary: ER introduces the charity ""Save the Children"" to EE, who is unfamiliar with it. ER offers information, explaining that it is a non-profit organization dedicated to helping children worldwide.",0,0,True,0.8994140625
+20180826-180300_663_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Good afternoon/evening
+Persuadee (EE): Hello
+Persuader (ER): Looks like there might be a bonus coming at the end of this HIT, have you got any plans for the money?
+Persuadee (EE): Nope, what do you recommend?
+Persuader (ER): I read a lot about the Save the Children charity before I came in here.
+Persuader (ER): I hope that more people will donate a portion of their income.
+Persuader (ER): Even small amounts will definitely help
+Persuadee (EE): What's Save the Children all about?
+Persuader (ER): They provide relief and support to children in developing nations, especially the millions of kids who are at risk in Syria.
+Persuader (ER): They are a charity we can trust, so I think we all should do our part to help the less fortunate
+Persuadee (EE): Do they provide for the millions of hungry kids here in the USA?
+Summary: The conversation involves ER discussing the possibility of a bonus and suggesting donating to Save the Children, a charity supporting children in developing nations, especially in Syria. EE inquires about the charity's work and asks if they also help hungry children in the USA.",0,0,True,0.556640625
+20180826-190151_488_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello!
+Persuader (ER): How are you tonight?
+Persuadee (EE): I'm doing very well.
+Persuadee (EE): How are you?
+Persuader (ER): I am good thank you.
+Persuader (ER): Have you heard of Save the Children?
+Persuadee (EE): Yes, I have!
+Persuadee (EE): Is it a charity that you are interested in?
+Persuader (ER): Children are our future and I believe in charities helping children.
+Summary: ER and EE greet each other and discuss their well-being. ER then brings up the charity ""Save the Children,"" expressing interest and belief in supporting organizations that help children, as they are our future. EE acknowledges familiarity with the charity.",0,0,True,0.92919921875
+20180826-193546_146_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): How much would you like to the Save the Children foundation?
+Persuadee (EE): tell me more
+Persuader (ER): Well Save the Children is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries.
+Persuadee (EE): ok cool is there a website?
+Persuader (ER): Yes it is  URL
+Summary: The conversation involves a representative (ER) discussing the Save the Children foundation with a potential donor (EE). ER explains the organization's mission to support children's rights and provide relief in developing countries. EE expresses interest and inquires about a website, to which ER responds affirmatively.",0,0,True,0.60107421875
+20180827-034916_910_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi there!
+Persuader (ER): How are you today?
+Persuadee (EE): I am fine how are you?
+Persuader (ER): I am doing really great.
+Persuader (ER): What are your plans for the day?
+Persuadee (EE): well I have to go to work in a little while here how about you?
+Persuader (ER): Ah, yes.
+Persuader (ER): Same here.
+Persuader (ER): That is why I am up so early.
+Persuader (ER): I have to go into the office, do you as well, or can you work from home?
+Persuadee (EE): I  work in an office setting as well, I guess we are to talk about childrens charity's.
+Summary: ER and EE greet each other and discuss their well-being. They both mention having to go to work soon, with ER asking if EE can work from home. EE confirms they work in an office and mentions that their discussion will focus on children's charities.",1,0,False,0.912109375
+20180829-082113_449_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hey there :) How are you feeling today?
+Persuadee (EE): I'm fine how are you.
+Persuader (ER): Not too bad, all things considered
+Persuadee (EE): Thats good to hear.
+Persuadee (EE): Where are you from?
+Persuader (ER): U.S. How about you?
+Persuader (ER): Think they matched us with our complete opposites? :P
+Persuadee (EE): Same.
+Persuadee (EE): Maybe, I'm not sure.
+Summary: ER and EE are having a casual conversation. ER asks how EE is feeling, and they both mention they're doing fine. They discuss their locations, both being from the U.S., and humorously consider if they were matched as opposites.",1,0,False,0.9423828125
+20180829-084042_694_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): hi
+Persuadee (EE): how are you today?
+Persuader (ER): so you gonna donate or what
+Persuadee (EE): sure I can donate but what is the game?
+Persuader (ER): you gotta donate your payment
+Persuadee (EE): If I donate, what do I get in return?
+Persuadee (EE): Will you donate the same amount back to me?
+Persuader (ER): No, I don\'t believe that\'s the case.
+Persuader (ER): However, it\'s for a good cause.
+Summary: The conversation involves ER asking EE to donate their payment for a good cause. EE agrees to donate but inquires about what they will receive in return and if ER will match the donation. ER clarifies that there will be no matching donation but emphasizes the charitable purpose.",0,1,False,0.76904296875
+20180903-111245_955_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello, have you heard of Save The Children?
+Persuadee (EE): I think so, it sounds familiar.
+Persuadee (EE): it is a nonprofit charity if i recall.
+Persuadee (EE): What exactly do they do?
+Persuader (ER): Save The Children helps kids from around the world by taking contributions from generous patrons. Kids from countries that have been stricken by poverty, violence, and other blights.
+Persuadee (EE): What countries has the charity worked in recently?
+Persuader (ER): Well, we have programs set up in 120 countries in total right now.
+Persuader (ER): Some of our most recent campaigns involve Myanmar - in Rohingya where parents and their children have been forced to flee because of violence to surrounding countries. In the largest refugee camp stationed in Bangladesh, there are an estimated 915,000 children and adults taking shelter.
+Persuadee (EE): Wow that sounds like a really robust program.
+Persuadee (EE): How long has Save the Children been around?
+Summary: The conversation is about Save The Children, a nonprofit charity that aids children worldwide affected by poverty and violence. The organization operates in 120 countries, with recent efforts in Myanmar and Bangladesh. The participants discuss the charity's mission and impact, and one asks about its history.",1,0,False,0.6689453125
+20180904-004818_580_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Have you heard of the charity Save the Children?
+Persuadee (EE): Yes I have, but I don't know a lot about it.
+Persuader (ER): They promote children's rights, provides relief, and helps support children in developing countries.
+Persuadee (EE): That sounds like a very nice cause.
+Persuader (ER): Yes, it\'s a great cause.
+Persuader (ER): And the charity is highly rated with many positive rewards.
+Persuader (ER): Including an ""A"" rating from the American Institute of Philanthropy.
+Persuadee (EE): That's awesome!
+Persuadee (EE): Do you know when the charity began?
+Persuader (ER): It was founded way back on April 15, 1919!
+Persuader (ER): A charity with that kind of history shows that it has made an amazing impact.
+Persuader (ER): Just last year they helped a total of 155 million children!
+Persuadee (EE): That is very impressive.
+Summary: ER and EE discuss the charity Save the Children. ER explains its mission to promote children's rights and provide support in developing countries. ER highlights the charity's high ratings and long history, noting its founding in 1919 and its impact, having helped 155 million children last year. EE expresses admiration for the charity's work and history.",1,1,True,0.96728515625
+20180904-032932_423_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello.
+Persuader (ER): Would you like to donate a portion of your reward to a charity called Save the Children?
+Persuadee (EE): I think I would be willing to donate a portion.
+Persuader (ER): Excellent!
+Persuader (ER): Would you like to know more about the charity first?
+Persuadee (EE): Yes, that was going to be my next question.
+Persuader (ER): Save the Children promotes children's rights, and helps children from developing countries.
+Persuadee (EE): What types of children's rights?
+Persuader (ER): Your donation would help ensure children's rights to health, education, and safety.
+Summary: ER asks EE if they would like to donate part of their reward to Save the Children. EE is willing but wants more information. ER explains that the charity supports children's rights, focusing on health, education, and safety in developing countries.",1,1,True,0.68798828125
+20180904-073734_888_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Good morning.
+Persuadee (EE): Good morning, how are you doing?
+Persuader (ER): I'm great, thank you for asking!
+Persuader (ER): Do you have some time today to talk about an amazing charity I am part of?
+Persuadee (EE): Sure, I'd love to hear what charity you participate in
+Summary: ER and EE exchange morning greetings. ER expresses interest in discussing a charity they are involved with, and EE shows willingness to learn more about it.",0,0,True,0.9404296875

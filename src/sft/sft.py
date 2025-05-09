@@ -45,6 +45,7 @@ def compute_metrics(_, tokenizer, model, eval_dataset, dialogue_info, dataset_ty
     valid_count = 0
     processed_count = 0
     skipped_count = 0
+    invalid_count = 0  # Track invalid extractions separately
     
     # Get a sample of dialogue IDs from the eval dataset
     # Limit to a small number for speed during training
@@ -113,6 +114,8 @@ def compute_metrics(_, tokenizer, model, eval_dataset, dialogue_info, dataset_ty
                 success_squared_error = (success_sale - success_predicted) ** 2
                 total_metrics["success_rmse_sum"] += success_squared_error
                 
+                valid_count += 1
+                
             elif dataset_type == "p4g":
                 # Extract donation decision for Persuasion for Good
                 pred_decision = extract_donation_decision(pred_text)
@@ -130,45 +133,72 @@ def compute_metrics(_, tokenizer, model, eval_dataset, dialogue_info, dataset_ty
                 
                 # Calculate decision accuracy
                 decision_correct = (pred_decision.lower() == true_decision.lower())
-            
                 
                 # Update decision accuracy metric
                 if "accuracy" not in total_metrics:
                     total_metrics["accuracy"] = 0.0
                 total_metrics["accuracy"] += 1.0 if decision_correct else 0.0
                 
+                valid_count += 1
+                
             elif dataset_type == "casino":
                 # Extract predicted allocation for Casino
                 predicted_allocation = extract_allocation(pred_text)
                 # print(f"DEBUG: Extracted allocation: {predicted_allocation}")
                 
-                # Skip if no valid predicted allocation
-                if predicted_allocation is None:
-                    print(f"DEBUG: Failed to extract allocation from: {pred_text}")
-                    skipped_count += 1
-                    total_metrics["utility_mse"] = float('inf') 
-                    break
-                
                 # Get ground truth and preferences
                 true_allocation = dialogue_info[dialogue_id]["final_allocation"]
                 preferences = dialogue_info[dialogue_id]["preferences"]
                 
-                # Calculate utility scores for prediction
-                pred_agent1_utility = calculate_utility_score({'agent1': predicted_allocation['agent1']}, preferences)
-                
-                # Get ground truth Agent 1 utility
-                true_agent1_utility = dialogue_info[dialogue_id]["agent1_utility"]
-                # print(f"DEBUG: Predicted utility: {pred_agent1_utility}, True utility: {true_agent1_utility}")
-                
-                # Calculate MSE of utility scores (only Agent 1)
-                utility_mse = (true_agent1_utility - pred_agent1_utility) ** 2
-                
-                # Update metrics
                 if "utility_mse" not in total_metrics:
                     total_metrics["utility_mse"] = 0.0
-                total_metrics["utility_mse"] += utility_mse
-            
-            valid_count += 1
+                
+                if "invalid_count" not in total_metrics:
+                    total_metrics["invalid_count"] = 0
+                
+                # If extraction failed, calculate worst-case utility
+                if predicted_allocation is None:
+                    print(f"DEBUG: Failed to extract allocation from: {pred_text}")
+                    
+                    # Get the actual resources for agent1 and calculate the worst-case allocation
+                    # (the opposite of what they got - 3 minus their actual allocation)
+                    worst_case_allocation = {
+                        'agent1': {
+                            'food': 3 - true_allocation['agent1']['food'],
+                            'water': 3 - true_allocation['agent1']['water'],
+                            'firewood': 3 - true_allocation['agent1']['firewood']
+                        }
+                    }
+                    
+                    # Calculate utility for worst-case allocation
+                    worst_case_agent1_utility = calculate_utility_score({'agent1': worst_case_allocation['agent1']}, preferences)
+                    
+                    # Get ground truth Agent 1 utility
+                    true_agent1_utility = dialogue_info[dialogue_id]["agent1_utility"]
+                    
+                    # Calculate MSE between true utility and worst-case utility
+                    utility_mse = (true_agent1_utility - worst_case_agent1_utility) ** 2
+                    total_metrics["utility_mse"] += utility_mse
+                    
+                    # Count this as an invalid extraction
+                    invalid_count += 1
+                    total_metrics["invalid_count"] += 1
+                    
+                    print(f"DEBUG: Calculated worst-case utility MSE: {utility_mse}")
+                else:
+                    # Calculate utility scores for prediction as before
+                    pred_agent1_utility = calculate_utility_score({'agent1': predicted_allocation['agent1']}, preferences)
+                    
+                    # Get ground truth Agent 1 utility
+                    true_agent1_utility = dialogue_info[dialogue_id]["agent1_utility"]
+                    # print(f"DEBUG: Predicted utility: {pred_agent1_utility}, True utility: {true_agent1_utility}")
+                    
+                    # Calculate MSE of utility scores (only Agent 1)
+                    utility_mse = (true_agent1_utility - pred_agent1_utility) ** 2
+                    total_metrics["utility_mse"] += utility_mse
+                    
+                    # This is a valid extraction
+                    valid_count += 1
         
         except Exception as e:
             # Skip problematic examples
@@ -180,10 +210,12 @@ def compute_metrics(_, tokenizer, model, eval_dataset, dialogue_info, dataset_ty
     
     # Calculate final metrics
     result = {}
-    print(f"DEBUG: Processed {processed_count} examples, {valid_count} valid, {skipped_count} skipped")
+    total_evaluated = valid_count + invalid_count  # Total examples where we calculated metrics
+    
+    print(f"DEBUG: Processed {processed_count} examples, {valid_count} valid, {invalid_count} invalid, {skipped_count} skipped")
     print(f"DEBUG: Total metrics accumulated: {total_metrics}")
     
-    if valid_count > 0:
+    if total_evaluated > 0:
         if dataset_type == "cb" and "nmse" in total_metrics:
             result["nmse"] = total_metrics["nmse"] / valid_count
             print(f"DEBUG: Final NMSE: {result['nmse']}")
@@ -198,14 +230,17 @@ def compute_metrics(_, tokenizer, model, eval_dataset, dialogue_info, dataset_ty
             result["accuracy"] = total_metrics["accuracy"] / valid_count
             print(f"DEBUG: Final Accuracy: {result['accuracy']}")
         elif dataset_type == "casino" and "utility_mse" in total_metrics:
-            result["utility_mse"] = total_metrics["utility_mse"] / valid_count
+            # Use total_evaluated (valid + invalid) as denominator for casino
+            result["utility_mse"] = total_metrics["utility_mse"] / total_evaluated
+            if "invalid_count" in total_metrics:
+                result["invalid_rate"] = total_metrics["invalid_count"] / total_evaluated
             print(f"DEBUG: Final Utility MSE: {result['utility_mse']}")
+            print(f"DEBUG: Invalid extraction rate: {result.get('invalid_rate', 0):.4f}")
     else:
         print("DEBUG: WARNING - No valid examples for metric calculation!")
     
     print(f"DEBUG: Returning result: {result}")
     return result
-
 
 def get_compute_metrics_fn(tokenizer, model, eval_dataset, dialogue_info, dataset_type):
     """Creates compute_metrics function with necessary context"""
