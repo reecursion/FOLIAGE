@@ -5,9 +5,8 @@ import re
 from sklearn.metrics import mean_squared_error
 
 # Path to the directory containing the CSV files
-base_dir = "/home/gganeshl/FOLIAGE/src/icl/results/casino"  # Path to result files
+base_dir = "/home/gganeshl/FOLIAGE/src/icl/results/casino"  
 
-# Path to the preferences CSV file - now using ratio pattern in filename
 preferences_csv_path = "/home/gganeshl/FOLIAGE/datasets/casino/final/ratio_0.5.csv"
 
 # Command line argument parsing
@@ -34,42 +33,31 @@ def calculate_utility(food, water, firewood, preferences):
             preferences['water'] * water + 
             preferences['firewood'] * firewood)
 
-# Extract ratio from filename - new function similar to paste2.txt
 def extract_ratio(filename):
     match = re.search(r'casino_(\d+\.\d+)', filename)
     if match:
         return match.group(1)
     
-    # Alternative pattern if needed
     match = re.search(r'ratio_(\d+\.\d+)', filename)
-    return match.group(1) if match else "0.5"  # Default to 0.5 if not found
+    return match.group(1) if match else "0.5"
 
-# Load the preferences from the CSV file based on specified ratio
 def load_preferences(ratio="0.5"):
-    # Construct the preferences file path with the correct ratio
     ratio_preferences_path = preferences_csv_path.replace("ratio_0.5", f"ratio_{ratio}")
     print(f"Loading preferences data from {ratio_preferences_path}")
     
     try:
         prefs_df = pd.read_csv(ratio_preferences_path)
-        
-        # Create a dictionary to store preferences for each dialogue
         dialogue_preferences = {}
-        
-        # Track duplicate dialogue IDs
         duplicate_count = 0
         
-        # Process each dialogue in the dataframe
         for idx, row in prefs_df.iterrows():
             dialogue_id = row['dialogue_id']
             
-            # Check if this dialogue_id has already been processed
             if dialogue_id in dialogue_preferences:
                 duplicate_count += 1
                 # print(f"Warning: Duplicate dialogue_id {dialogue_id} found (row {idx}). Using first occurrence only.")
                 continue
             
-            # Extract preferences for each agent
             agent1_prefs = {
                 'high_item': row.get('mturk_agent_1_high_item', '').lower() if pd.notna(row.get('mturk_agent_1_high_item', '')) else '',
                 'medium_item': row.get('mturk_agent_1_medium_item', '').lower() if pd.notna(row.get('mturk_agent_1_medium_item', '')) else '',
@@ -82,11 +70,9 @@ def load_preferences(ratio="0.5"):
                 'low_item': row.get('mturk_agent_2_low_item', '').lower() if pd.notna(row.get('mturk_agent_2_low_item', '')) else ''
             }
             
-            # Convert preferences to dictionary format for utility calculation
             agent1_preference_dict = {}
             agent2_preference_dict = {}
             
-            # Set preferences based on high/medium/low priority items
             for item in ['food', 'water', 'firewood']:
                 if item == agent1_prefs['high_item'].lower():
                     agent1_preference_dict[item] = 5  # High priority: 5
@@ -95,7 +81,6 @@ def load_preferences(ratio="0.5"):
                 elif item == agent1_prefs['low_item'].lower():
                     agent1_preference_dict[item] = 3  # Low priority: 3
                 else:
-                    # Fallback if preference mapping is incomplete
                     print(f"Warning: Incomplete preference mapping for agent1 in dialogue {dialogue_id}, item {item}")
                     agent1_preference_dict[item] = 4  # Default to medium priority
                     
@@ -130,20 +115,15 @@ def load_preferences(ratio="0.5"):
     
     except Exception as e:
         print(f"Error loading preferences for ratio {ratio}: {e}")
-        # Return a default preferences dict if loading fails
         return {}
 
-# Initialize a dictionary to store preferences by ratio
 DIALOGUE_PREFERENCES_BY_RATIO = {}
 
-# Function to get preferences for a specific ratio
 def get_preferences_for_ratio(ratio="0.5"):
-    # If not loaded yet, load preferences for this ratio
     if ratio not in DIALOGUE_PREFERENCES_BY_RATIO:
         DIALOGUE_PREFERENCES_BY_RATIO[ratio] = load_preferences(ratio)
     return DIALOGUE_PREFERENCES_BY_RATIO[ratio]
 
-# Function to calculate metrics for a single file - updated to use ratio parameter
 def analyze_file(filepath):
     print(f"Processing {filepath}...")
     try:
@@ -151,14 +131,11 @@ def analyze_file(filepath):
         df = pd.read_csv(filepath)
         print(f"Total rows in file: {len(df)}")
         
-        # Extract ratio from filename
         ratio = extract_ratio(os.path.basename(filepath))
         print(f"Using ratio: {ratio}")
         
-        # Get preferences for this ratio
         dialogue_preferences = get_preferences_for_ratio(ratio)
         
-        # Filter out any rows with missing data
         valid_columns = [
             'agent1_food_actual', 'agent1_food_pred', 
             'agent1_water_actual', 'agent1_water_pred',
@@ -169,21 +146,17 @@ def analyze_file(filepath):
             'dialogue_id'
         ]
         
-        # Create a copy of the dataframe to prevent SettingWithCopyWarning
         valid_data = df.dropna(subset=valid_columns).copy()
         print(f"Total rows in file after filtering: {len(valid_data)}")
         
-        # Create a column for agent1 and agent2 utility using dynamic preferences
         valid_data.loc[:, 'agent1_utility_actual_calc'] = 0
         valid_data.loc[:, 'agent1_utility_pred_calc'] = 0
         valid_data.loc[:, 'agent2_utility_actual_calc'] = 0
         valid_data.loc[:, 'agent2_utility_pred_calc'] = 0
         
-        # Process each row, using dialogue-specific preferences where available
         for idx, row in valid_data.iterrows():
             dialogue_id = row['dialogue_id']
             
-            # Get preferences for this dialogue, or use defaults if not found
             if dialogue_id in dialogue_preferences:
                 agent1_preferences = dialogue_preferences[dialogue_id]['agent1']
                 agent2_preferences = dialogue_preferences[dialogue_id]['agent2']
@@ -193,7 +166,6 @@ def analyze_file(filepath):
                 agent1_preferences = {'food': 4, 'water': 4, 'firewood': 4}
                 agent2_preferences = {'food': 4, 'water': 4, 'firewood': 4}
             
-            # Calculate utilities using .loc instead of .at to avoid warnings
             valid_data.loc[idx, 'agent1_utility_actual_calc'] = calculate_utility(
                 row['agent1_food_actual'],
                 row['agent1_water_actual'],
@@ -223,7 +195,6 @@ def analyze_file(filepath):
                 agent2_preferences
             )
         
-        # Calculate MSE for agent utilities
         agent1_utility_mse = mean_squared_error(
             valid_data['agent1_utility_actual_calc'], 
             valid_data['agent1_utility_pred_calc']
@@ -236,12 +207,10 @@ def analyze_file(filepath):
         
         avg_utility_mse = (agent1_utility_mse + agent2_utility_mse) / 2
         
-        # Calculate resource allocation match metrics
         food_match = (valid_data['agent1_food_actual'] == valid_data['agent1_food_pred']).mean()
         water_match = (valid_data['agent1_water_actual'] == valid_data['agent1_water_pred']).mean()
         firewood_match = (valid_data['agent1_firewood_actual'] == valid_data['agent1_firewood_pred']).mean()
         
-        # Calculate exact match (all resources correctly predicted)
         exact_match = ((valid_data['agent1_food_actual'] == valid_data['agent1_food_pred']) & 
                         (valid_data['agent1_water_actual'] == valid_data['agent1_water_pred']) &
                         (valid_data['agent1_firewood_actual'] == valid_data['agent1_firewood_pred']) &
@@ -249,8 +218,6 @@ def analyze_file(filepath):
                         (valid_data['agent2_water_actual'] == valid_data['agent2_water_pred']) &
                         (valid_data['agent2_firewood_actual'] == valid_data['agent2_firewood_pred'])).mean()
         
-        # Calculate additional metrics
-        # Overall resource match (percentage of all resources correctly predicted)
         resource_match_overall = (
             (valid_data['agent1_food_actual'] == valid_data['agent1_food_pred']).sum() +
             (valid_data['agent1_water_actual'] == valid_data['agent1_water_pred']).sum() +
@@ -258,7 +225,7 @@ def analyze_file(filepath):
             (valid_data['agent2_food_actual'] == valid_data['agent2_food_pred']).sum() +
             (valid_data['agent2_water_actual'] == valid_data['agent2_water_pred']).sum() +
             (valid_data['agent2_firewood_actual'] == valid_data['agent2_firewood_pred']).sum()
-        ) / (len(valid_data) * 6)  # 6 resources total
+        ) / (len(valid_data) * 6)  
         
         return {
             'filename': os.path.basename(filepath),
@@ -282,7 +249,6 @@ def analyze_file(filepath):
             'error': str(e)
         }
 
-# Map file pattern to configuration type
 def map_file_to_config_type(filepath, filename):
     # Extract configuration based on filename and filepath patterns
     config_type = 'Unknown'

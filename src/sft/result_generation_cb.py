@@ -252,10 +252,8 @@ def generate_combined_latex_table(data, ratios):
         metric_data = data[metric_key]
         std_data = data[std_key]
         
-        # Get configs that have data for this metric
         config_types = [ct for ct in metric_data.keys() if any(metric_data[ct].get(r) is not None for r in ratios)]
         
-        # Get baseline values for color coding
         baseline_type = '(i) Utterance'
         baseline_values = {}
         
@@ -263,14 +261,11 @@ def generate_combined_latex_table(data, ratios):
             if baseline_type in metric_data and ratio in metric_data[baseline_type] and metric_data[baseline_type][ratio] is not None:
                 baseline_values[ratio] = metric_data[baseline_type][ratio]
         
-        # Add metric name to first row only
         first_config = True
         
-        # Add rows for each config
         for config_type in config_types:
             row = ""
             
-            # Add metric name only to first row of the metric section
             if first_config:
                 row += f"\\multirow{{{len(config_types)}}}{{*}}{{\\textbf{{{metric_name}}}}} & {config_type} & "
                 first_config = False
@@ -285,15 +280,11 @@ def generate_combined_latex_table(data, ratios):
                 if value is None or std_value is None:
                     cells.append('-')
                 else:
-                    # Format value with standard deviation (mean ± std) - now with 2 decimal places
                     formatted_value = f"{value:.2f} $\\pm$ {std_value:.2f}"
                     
-                    # Color compared to baseline
                     if config_type == baseline_type or ratio not in baseline_values:
                         cells.append(formatted_value)
                     else:
-                        # For RMSE and NMSE, lower is better (green)
-                        # For Pearson, higher is better (green)
                         is_improvement = metric_key == 'successPearson'
                         if is_improvement:
                             is_better = value > baseline_values[ratio]
@@ -306,7 +297,6 @@ def generate_combined_latex_table(data, ratios):
             row += " & ".join(cells) + " \\\\\n"
             latex_table += row
         
-        # Add a midrule between metrics (except after the last one)
         if i < len(metric_names) - 1:
             latex_table += "\\midrule\n"
     
@@ -317,14 +307,12 @@ def generate_combined_latex_table(data, ratios):
     print(latex_table)
     return latex_table
 
-# Legacy function for individual tables - kept for reference
 def generate_latex_table(data, metric_name, ratios):
     config_types = [ct for ct in data.keys() if any(data[ct].get(r) is not None for r in ratios)]
     
     latex_table = "\\begin{table}[ht]\n\\centering\n\\begin{tabular}{l" + "c" * len(ratios) + "}\n\\hline\n"
     latex_table += "\\textbf{Config} & " + " & ".join([f"\\textbf{{{float(r) * 100:.1f}\\%}}" for r in ratios]) + " \\\\\n\\hline\n"
     
-    # Get baseline values for color coding
     baseline_type = '(i) Utterance'
     baseline_values = {}
     

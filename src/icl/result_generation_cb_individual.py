@@ -18,12 +18,10 @@ def calculate_scores(file_path):
         df = pd.read_csv(file_path)
         print(f"Original length of dataset: {len(df)}")
         
-        # Check if we need to extract prices from responses
         if 'predicted_final_price' not in df.columns and 'response' in df.columns:
             df['predicted_final_price'] = df['response'].apply(extract_price)
             print("Extracted predicted prices from response column")
 
-        # Drop rows with missing values
         original_len = len(df)
         df = df.dropna(subset=['sale_price', 'predicted_final_price', 'buyer_target', 'seller_target'])
         print(f"Dropped {original_len - len(df)} rows with NaN values")
@@ -44,11 +42,9 @@ def calculate_scores(file_path):
             print(f"No valid data in {file_path} after sale price range filtering")
             return
 
-        # Calculate normalized values
         df['r_sale'] = (df['sale_price'] - df['buyer_target']) / (df['seller_target'] - df['buyer_target'])
         df['r_predicted'] = (df['predicted_final_price'] - df['buyer_target']) / (df['seller_target'] - df['buyer_target'])
 
-        # Calculate metrics
         price_mse = mean_squared_error(df['sale_price'], df['predicted_final_price'])
         price_rmse = np.sqrt(price_mse)
 
