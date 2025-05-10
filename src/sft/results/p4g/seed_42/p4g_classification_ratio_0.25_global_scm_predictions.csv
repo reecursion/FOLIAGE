@@ -1,833 +1,4 @@
 dialogue_id,fold,text,label,predicted_label,correct,confidence_score
-20180719-120436_413_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hi there
-Persuadee: Hello
-Persuader: Have you heard of the Save the Children charity?
-Persuadee: I actually have not.
-Persuadee: What do they do to help children?
-Persuader: It is an international organization that helps protect and promote rights for childrens and provides for them in suffering conditions - such as lack of basic needs, like water, clothing, and food.
-Persuadee: I'm glad a charity like that exists internationally.
-Persuader: It's for a great cause.
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER initiates the conversation warmly and provides clear, informative responses about the charity, demonstrating both friendliness and knowledge. Their explanation of the charity's mission reflects competence, while their positive tone and support for the cause indicate warmth.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE responds politely and shows genuine interest in learning more, which reflects high warmth. Their engagement and thoughtful questions about the charity demonstrate competence, as they actively seek to understand the organization's impact.",0,0,True,0.9892578125
-20180723-042226_724_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hi there.
-Persuader: How are you today?
-Persuadee: Hello, I am fine, how about you?
-Persuader: Very well thanks.
-Persuader: Do you currently give any money to charity on a regular basis?
-Persuadee: Yes, I try to help time to time
-Persuader: Any charity in particular?
-Persuadee: No, anything that catches my eyes, or I find them on gofundme, what about you?
-Persuader: I have a few payments set up monthly.
-Persuader: I assume then you've heard of Save the Children and the great work they do with young people?
-Persuadee: Yes, I've heard of it.
-Persuadee: Can you please explain more about it?
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: User1 initiates the conversation with polite greetings and shows interest in user2's charitable activities, indicating high warmth. They also share their own charitable contributions and provide information about a specific charity, demonstrating high competence.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: User2 responds politely and reciprocates the inquiry about well-being, showing high warmth. They express their charitable actions and ask for more information about a charity, indicating openness to learning and engagement, which reflects high competence.",1,0,False,1.0
-20180723-061928_535_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: HI
-Persuadee: HI
-Persuader: ARE YOU INTRESTED TO DONATE SOME FUNDS TO CHARITY TO SAVE SOME CHILDRENS
-Persuadee: Of course I am very interested to donate funds to charity
-Persuader: Thanks for that.
-Persuader: You are helping to small childrens for their studies,etc
-Persuadee: What charity do you usually donate?
-Persuader: I do United World wide or Food for the poor
-Summary: user1 (ER):
-  warmth: high
-  competence: low
-  explanation: User1 initiates the conversation with a charitable request, expressing gratitude and appreciation, indicating high warmth. However, there are spelling and grammatical errors, such as ""intrested"" and ""childrens,"" which suggest lower competence in communication.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: User2 responds positively and shows interest in donating, indicating high warmth. They ask a relevant question about the charity, demonstrating engagement and understanding, which reflects high competence.",1,1,True,0.71875
-20180723-070336_48_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hey, how's it going?
-Persuadee: Good just another Monday how about yourself?
-Persuader: hahah same here.
-Persuader: Do you have a moment to chat about social issues?
-Persuader: Specially the ones concerning children?
-Persuadee: Yea what do you got?
-Persuader: I'd like to talk about the charity Save the Children.
-Persuader: What was life like for you as a kid?
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER initiates the conversation with a friendly greeting and expresses interest in discussing important social issues, indicating high warmth. Their focus on a specific charity and social concern shows a proactive and informed approach, suggesting high competence.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE responds positively and engages in the conversation, showing openness and willingness to discuss the topic, which reflects high warmth. Their readiness to engage in a discussion about social issues indicates an understanding and interest, suggesting high competence.",0,1,False,0.82275390625
-20180723-120746_371_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hello would you please donate to help save the children?
-Persuadee: What children organization?
-Persuader: This organization is called Save the Children and your donation can help ensure children't rights to health, education, and safety.
-Persuadee: How long has this charity been around?
-Persuader: We have been around for a long time and have worked hard to ensure that as much of your money as possible goes towards helping the children.
-Persuader: The children need your help to ensure that they have a fighting chance at their future.
-Persuader: You can help care for them medically and ensure they have the education needed to succeed in life.
-Persuadee: The organization sounds like a good one.
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER demonstrates high warmth by expressing concern for children's welfare and encouraging donations to support them. ER also shows high competence by providing information about the organization, its longevity, and its efficient use of donations, which suggests reliability and effectiveness.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE shows high warmth by expressing interest in the charity and acknowledging its positive impact. EE also displays high competence by asking relevant questions about the organization, indicating a thoughtful and informed approach to the conversation.",0,0,True,0.95166015625
-20180808-030454_242_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hello, how are you today?
-Persuadee: hi,it was another day
-Persuader: I see, same here for me.
-Persuader: Have you every tried donation through HITs?
-Persuadee: ya recently i too tried children's charity regarding their studies.
-Persuadee: it makes me good
-Persuader: I usually donate a good part of my bonus in different studies, but I specially have a soft heart for children.
-Persuader: Have you ever heard about ""Save the Children"" before?
-Persuadee: children must be educated i didn\'t heard about  ""save the children"" what is the procedure of giving donation?
-Persuader: They work on different issues in almost 120 countries.
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: User1 demonstrates high warmth through friendly greetings and expressing empathy towards children. Their competence is high as they share their experience with donations, indicating knowledge and involvement in charitable activities.
-
-user2 (EE):
-  warmth: high
-  competence: low
-  explanation: User2 shows high warmth by engaging in the conversation and expressing positive feelings about donating. However, their competence appears low due to limited knowledge about specific charities and unclear communication.",1,1,True,0.97314453125
-20180808-032124_114_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Have you thought about how much of the reward for this HIT you want to donate to Save the Children?
-Persuadee: I do not want to donate any of my reward for this hit.
-Persuadee: I make donations to charity regularly but not from jobs that I do.
-Persuader: Save the Children is a great international no-governmental organization that promotes children's rights, provides relief and helps support children in developing countries.
-Persuader: It has a very low overhead and almost all the money donated to it is directly used to help children.
-Persuadee: I know that it is a good organization and I support them.
-Persuadee: However I am not getting a reward from this hit.
-Persuadee: I am spending my time completing it so I am being paid for a job.
-Persuadee: I want the money to do with as I choose.
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER demonstrates warmth by showing enthusiasm for donating to a charitable cause and providing information about the organization's benefits. ER's competence is high as they effectively communicate the organization's credibility and impact, suggesting a well-informed perspective.
-
-user2 (EE):
-  warmth: low
-  competence: high
-  explanation: EE's warmth is perceived as low due to their firm stance on not donating, which may come across as self-focused. However, their competence is high as they articulate a clear rationale for their decision, indicating a thoughtful and consistent approach to personal financial decisions.",0,0,True,0.9228515625
-20180808-032545_201_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: HI GOOD MORNING
-Persuadee: Good morning.
-Persuadee: How are you today?
-Persuader: FINE,SAVE THE CHILDREN , HOW DO YOU THINK ABOUT THE DONATION THE SAVE THE CHILD.
-Persuadee: I don't usually donate to charities.
-Persuadee: Is that something that you personally do?
-Persuader: NO BUT, ITS A INTERNATIONAL NON-GOVERNMENTAL ORGANIZATION TO THE CHILD
-Summary: user1 (ER):
-  warmth: low
-  competence: low
-  explanation: ER's use of all caps and abrupt responses may come across as impersonal, reducing perceived warmth. The lack of clear articulation and engagement in the conversation may suggest lower competence.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE initiates polite conversation and asks questions, indicating engagement and interest, which enhances perceived warmth. EE's responses are clear and articulate, suggesting higher competence.",0,0,True,0.9189453125
-20180808-035715_390_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hello, how are you doing today?
-Persuadee: Good thanks!
-Persuadee: You?
-Persuader: Very well.
-Persuader: Do you have any particular hobbies that you enjoy?
-Persuadee: Mostly into hiking these days - how about you?
-Persuadee: Do you have any info on this children's charity we're supposed to talk about?
-Persuader: I like to play golf, as well as go on walks with my dog.
-Persuader: Yes, the charity sounds like it does a lot of great work.
-Persuadee: Walks with the dog sound awesome.
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER initiates the conversation with a friendly greeting and shows interest in EE's hobbies, indicating high warmth. ER also provides information about the charity, suggesting competence in the context of the conversation.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE responds positively to ER's greeting and shares personal interests, reflecting high warmth. EE also inquires about the charity, demonstrating an interest in the topic and competence in maintaining the conversation's focus.",0,0,True,0.88330078125
-20180808-043445_804_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hello, how are you today?
-Persuadee: Hi, I'm doing OK, how are you?
-Persuader: I am fine thanks.
-Persuader: Are you interested in donating?
-Persuadee: Possibly, I'm not sure.
-Persuadee: I don't even know what the charity is.
-Persuader: The organization which collects money from people, and spend it on people and issues which are needed
-Persuadee: Right, but I would like to know specifically what organization.
-Persuader: I myself have a soft heart for children and usually help the charities for children.
-Persuader: Have you heard of ""Save the Children""?
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER initiates the conversation with a polite greeting and expresses personal values, indicating high warmth. They provide information about their charitable interests, demonstrating competence in understanding and communicating the purpose of the organization.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE responds politely and shows interest in the conversation, indicating high warmth. They ask specific questions to gain a better understanding of the organization, demonstrating a high level of competence in seeking detailed information before making a decision.",1,0,False,0.99853515625
-20180808-050533_601_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Save the Children is a great organization that looks out for the well being of children in need.
-Persuader: Currently they are looking for individuals to help their cause.
-Persuadee: where is this organization based?
-Persuadee: Do they help children from a particular country or is it all around the world?
-Persuader: They help children mostly in developing countries around the world.
-Persuader: Think about all the stories you hear in the news and on social media about children that need help or have been taken advantage of.
-Persuadee: Yeah stories like that are very heart breaking.
-Persuadee: What types of programs do they offer?
-Persuadee: Like do they just supply food?
-Persuader: They often protect children from being victims of hunger, violence, and child labor.
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER demonstrates high warmth by expressing concern for children's well-being and promoting a charitable cause. Their competence is high due to providing detailed information about the organization's global reach and the types of programs offered, indicating knowledge and understanding.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE shows high warmth by expressing empathy towards the plight of children and engaging in a supportive dialogue. Their competence is high as they ask relevant, clarifying questions that show a desire to understand the organization's operations and impact.",0,0,True,0.97216796875
-20180808-064649_236_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: HI GOOD MORNING
-Persuadee: Good morning, how are you?
-Persuader: FINE, HOW ABOUT YOU, AND MANY CHILDREN ARE DYING.
-Persuadee: I am fine, thanks!
-Persuadee: Yes, surely there is a good charity that can help children.
-Persuadee: Do you know of a good one?
-Persuader: YES, I KNOW THE BEST CHARITY , THAT NAME IS SAVE THE CHILDREN, DO YOU KNOW THE CHARITY.
-Summary: user1 (ER):
-  warmth: low
-  competence: high
-  explanation: ER's use of all caps can be perceived as aggressive, reducing perceived warmth. However, ER provides specific information about a charity, indicating knowledge and competence.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE engages politely and shows concern for the topic, indicating warmth. EE also asks relevant questions and acknowledges ER's information, demonstrating competence in the conversation.",0,0,True,0.9892578125
-20180824-020419_695_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: On behalf of this hit i wat to talk to you about a charity
-Persuadee: What specifically would you like to talk about?
-Persuader: I want to talk to you about a charity called Save the Children
-Persuadee: I've heard of them.
-Persuadee: How much do we have to share with them?
-Persuader: well let me tell you a little bit about the charity first
-Persuadee: That sounds good.
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER initiates the conversation with a focus on charity, indicating a prosocial intent, which suggests high warmth. They also attempt to provide information about the charity, demonstrating competence in conveying relevant details.
-
-user2 (EE):
-  warmth: low
-  competence: high
-  explanation: EE's responses are direct and focused on specific details, such as the amount to share, which suggests high competence. However, the lack of expressed enthusiasm or empathy towards the charitable cause implies lower warmth.",1,1,True,0.85595703125
-20180824-023730_85_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hi how are you today?
-Persuadee: good
-Persuader: Have you ever heard of Save the Children?
-Persuadee: I have not, but there are other charities I like to participate in
-Persuader: Do you have any children?
-Persuader: I have two.
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: User1 initiates the conversation with a friendly greeting and shows interest in user2's personal life, indicating high warmth. Their engagement in discussing charities suggests an understanding of social issues, reflecting high competence.
-
-user2 (EE):
-  warmth: low
-  competence: high
-  explanation: User2's responses are brief and lack engagement, suggesting low warmth. However, their mention of participating in other charities indicates awareness and involvement, reflecting high competence.",0,0,True,0.921875
-20180825-054948_621_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hello
-Persuadee: Hi.
-Persuadee: I really do not know much about children's charity, do you?
-Persuader: Oh.
-Persuader: There is this children's charity my friend volunteers for.
-Persuader: It's called Save the Children.
-Persuader: Have you heard of it?
-Persuadee: I think so.
-Persuadee: Does it have commercials on tv?
-Persuader: Yes, they do.
-Persuader: I wish they didn't have to spend their monies on commericals but it is the only way to get their name out there.
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER demonstrates warmth by sharing information about a charity and expressing a wish for efficient use of resources. Their competence is shown through knowledge about the charity and understanding of its marketing strategies.
-
-user2 (EE):
-  warmth: low
-  competence: low
-  explanation: EE's responses are brief and lack engagement, indicating low warmth. Their admission of limited knowledge about the charity and reliance on vague recollections suggest low competence in this context.",1,1,True,0.7666015625
-20180825-055034_34_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hello
-Persuadee: hello
-Persuader: Would you like to donate a partial or full amount of your payment from this task to Save the Children.
-Persuader: Save the Children is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries.
-Persuadee: how much of the money is put to work?
-Persuader: All of the money you choose to donate will go to the charity.
-Persuader: Donating any amount will make a difference, every little donation adds up!
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER demonstrates high warmth by engaging politely and showing concern for charitable causes. Their competence is high, as they provide clear information about the charity and the impact of donations, indicating knowledge and effectiveness in communication.
-
-user2 (EE):
-  warmth: low
-  competence: high
-  explanation: EE's warmth is low due to their brief and transactional response. However, their competence is high as they ask a relevant question about the allocation of funds, showing critical thinking and a focus on understanding the charity's operations.",0,0,True,0.93603515625
-20180825-063009_943_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hi WOuld you like to donate your payment for this task to save the children?
-Persuadee: No, to be honest I am doing this task to save up extra money for myself.
-Persuader: I understand that.
-Persuader: But it's only .30 of the money you are saving.
-Persuader: It could do alot of good for Save the children.
-Persuadee: I appreciate your position, but what exactly is Save the Children and how do I know that money will truly be used to help kids?
-Persuader: The researchers of this hit will make sure the money goes to save the children.
-Persuader: Save the Children is a world wide organization that helps kids in war torn areas.
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER demonstrates high warmth by understanding EE's position and providing information about the charity. ER's competence is high as they articulate the purpose of the organization clearly and address EE's concerns about the donation's impact.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE shows high warmth by expressing appreciation for ER's position and asking thoughtful questions. EE's competence is high as they articulate their financial priorities and seek more information to make an informed decision.",0,0,True,0.9892578125
-20180825-071316_761_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hi
-Persuadee: Hello, do you have any charities in mind that you support?
-Persuader: Yes, I am very fond of Save the Children.
-Persuadee: I've never heard of that one.
-Persuadee: What is their goal?
-Persuader: They are an international charity that provideds food, basic supplies and reief to children in developing countries
-Persuadee: Oh that is interesting.
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER demonstrates high warmth by expressing fondness for a charity, suggesting empathy and care for others. ER also shows high competence by providing a clear and informative explanation of the charity's mission, indicating knowledge and understanding.
-
-user2 (EE):
-  warmth: high
-  competence: low
-  explanation: EE displays high warmth by engaging in the conversation with curiosity and expressing interest in ER's charity choice. However, EE shows low competence by admitting unfamiliarity with the charity and not contributing additional information or insights.",0,0,True,0.99169921875
-20180825-073559_995_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hello?
-Persuadee: hi
-Persuader: How are you today?
-Persuadee: good how about you?
-Persuader: I am well, thank you!
-Persuader: Glad you are doing well also.
-Persuader: Have you heard of the charity called Save the Children?
-Persuadee: i have not, can you tell me more?
-Persuader: It is an international charity that helps children in need all around the world.
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER initiates the conversation with a friendly greeting and expresses genuine interest in EE's well-being, indicating high warmth. ER also provides clear and informative responses about the charity, demonstrating high competence.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE responds politely and reciprocates the inquiry about ER's well-being, showing high warmth. EE also expresses interest in learning more about the charity, indicating a willingness to engage and understand, which reflects high competence.",0,0,True,0.994140625
-20180825-073629_433_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Have you ever though about donating to Save the Children?
-Persuadee: I have thought about it before.
-Persuadee: I've been approached by people on the street.
-Persuader: It is a really great charity.
-Persuader: It helps children who have been in crisis.
-Persuadee: Is the charity international?
-Persuadee: Or do they operate primarily in America?
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER demonstrates high warmth by expressing enthusiasm for a charitable cause and providing positive information about it. Their competence is high as they share relevant details about the charity's impact, suggesting knowledge and understanding of the organization.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE shows high warmth by engaging in the conversation and expressing prior consideration of the charity. Their competence is high as they ask specific, relevant questions about the charity's operations, indicating an interest in understanding its scope and impact.",0,1,False,0.5107421875
-20180825-075627_48_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hello, hope your great today.
-Persuader: Have you heard of save the children.
-Persuader: Hold ten?
-Persuadee: I'm doing well, thanks!
-Persuadee: Likewise to you.
-Persuadee: I have not heard of that charity.
-Persuader: Save the children do amazing work with kind kids
-Persuadee: How long has this charity been in existence?
-Persuader: They have been providing great services for kids for over 10 years
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER initiates the conversation with a friendly greeting and expresses enthusiasm about the charity, indicating high warmth. Their ability to provide information about the charity's work and longevity suggests high competence.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE reciprocates the friendly tone and expresses interest in learning more about the charity, indicating high warmth. Their inquiry about the charity's history demonstrates a thoughtful and competent approach to the conversation.",0,0,True,0.96875
-20180825-075630_493_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hi!
-Persuader: How are you doing today?
-Persuadee: I'm doing well.
-Persuadee: How about you?
-Persuader: I am great, just enjoying some coffee on my deck.
-Persuader: How is the weather for you?
-Persuadee: It's cloudy a lot, but otherwise fine.
-Persuadee: I was just looking through the morning mail.
-Persuadee: A request by a children's charity for a donation.
-Persuader: Which charity was the flyer from?
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER initiates the conversation with a friendly greeting and shows interest in EE's well-being and activities, indicating high warmth. ER also maintains the flow of conversation smoothly and asks relevant questions, suggesting high competence.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE responds politely and reciprocates the inquiry about ER's well-being, reflecting high warmth. EE provides clear and relevant responses about their activities, demonstrating high competence in communication.",1,0,False,0.99462890625
-20180825-083745_516_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hello
-Persuadee: Hi how are you doing today?
-Persuader: I am doing great!
-Persuader: Would you like to hear about ways you can help Save the Children today!
-Persuadee: Sure.
-Persuadee: Tell me as much as you can about the organization.
-Persuader: Save the Children is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries.
-Persuadee: It sounds like they have a worthy cause.
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER initiates the conversation warmly and enthusiastically shares information about a charitable organization, indicating a friendly and helpful demeanor. Their ability to provide clear and relevant information about the organization demonstrates competence.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE responds politely and expresses interest in learning more, indicating warmth. Their engagement and acknowledgment of the organization's cause as worthy suggest an understanding and appreciation, reflecting competence.",1,0,False,0.80029296875
-20180825-090032_956_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hi, how are you today?
-Persuader: Have you ever considered donating to Save the Children?
-Persuader: It is a great kids'
-Persuadee: Hi I am fine and yourself?
-Persuader: I'm good.
-Persuader: Save the Children is one of the best children's charities around.
-Persuader: They do really great work.
-Persuadee: Have you ever thought about the benefits from the donations?
-Persuadee: Do the donations actually help the organization?
-Persuader: Yes, they really do.
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER initiates the conversation with a friendly greeting and shows enthusiasm for a charitable cause, indicating high warmth. Their knowledge and advocacy for the charity suggest high competence.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE reciprocates the greeting warmly and engages thoughtfully by asking insightful questions about the charity's impact, demonstrating both high warmth and competence.",0,0,True,0.9970703125
-20180826-013036_595_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hi, would you like to donate to Save the Children?
-Persuadee: hello, I have heard of the organization but I am unfamiliar with what they do.
-Persuadee: what would my donation go toward?
-Persuader: Your donation would help promote children's rights help support children in developing countries.
-Persuader: It can really make a difference.
-Persuadee: I think I would rather donate to a childrens charity that takes care of American children.
-Persuader: Are American children more important than non-American children?
-Persuadee: In the scheme of things, a life is a life, but I am American and feel it important to help my fellow Americans
-Summary: user1 (ER):
-  warmth: low
-  competence: high
-  explanation: ER demonstrates competence by providing clear information about the charity's purpose and impact. However, their warmth is perceived as low due to the confrontational tone in questioning the importance of American children over non-American children, which could be seen as lacking empathy for EE's perspective.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE shows high warmth by expressing a willingness to donate and explaining their preference in a respectful manner. Their competence is high as they ask relevant questions to understand the charity better and articulate their reasoning for preferring to donate domestically.",0,0,True,0.97314453125
-20180826-013529_897_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hey, do some good, give some money to kids.
-Persuadee: Sure.I would be glad to. How much money do you think I should give?
-Persuader: oh, could you afford maybe fifteen cents?
-Persuadee: I can afford $5.00
-Summary: user1 (ER):
-  warmth: high
-  competence: low
-  explanation: ER initiates the conversation with a friendly suggestion to help children, indicating high warmth. However, the suggestion of a small amount (fifteen cents) may reflect low competence in understanding the potential impact or expectations of charitable giving.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE responds positively and is willing to contribute, showing high warmth. By offering a significantly larger amount than suggested, EE demonstrates high competence in assessing the situation and making a meaningful contribution.",1,1,True,0.68310546875
-20180826-043247_456_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hey!
-Persuader: How are you doin today?
-Persuadee: Hey!
-Persuadee: I'm doing well!
-Persuadee: How are you?
-Persuader: I\'m alright, just reading up on this organization called ""Save the Children"".. have you heard about it?
-Persuadee: I haven't.
-Persuadee: It sounds familiar though.
-Persuadee: Could you tell me about it?
-Persuader: Yeah, no problem!
-Persuader: It's a non-governmental organization that helps with children's rights.
-Persuader: They claim to provide relief and support to kids in developing countries.
-Persuadee: That's amazing.
-Persuadee: Do they provide legal help or support to live?
-Persuader: It looks like a bit of both!
-Persuader: But they're down on donations.
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER initiates the conversation warmly and shares information about a charitable organization, demonstrating both friendliness and knowledge. ER's willingness to explain and discuss the organization's activities further supports a perception of high competence.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE responds positively and shows interest in the conversation by asking questions, indicating a friendly and engaged demeanor. EE's curiosity and ability to ask relevant questions about the organization reflect a high level of competence.",0,0,True,0.83935546875
-20180826-073320_803_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hi there!
-Persuader: I am looking for donations for the Save the children's Foundation?
-Persuader: Could I interest you in that?
-Persuadee: I would perhaps be interested can you tell me more a bout it
-Persuader: It is a charity that helps hungry children in need.
-Persuader: It is a international, non governmental organization that promotes children's rights, provides releif and support children in developing countries.
-Persuadee: That sounds great, What countries do they help children in?
-Persuader: There's quite a few! It's international.
-Persuader: Even the smallest donation would make a difference to a child in need.
-Persuadee: Ok I would like to see if I can help. I love children.
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER demonstrates high warmth by engaging politely and expressing a clear, altruistic purpose. Their competence is high, as they provide information about the organization and its mission effectively, showing knowledge and confidence in their cause.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE shows high warmth by expressing interest and a positive attitude towards helping children. Their competence is high, as they ask relevant questions to understand the organization better and express a willingness to contribute thoughtfully.",0,0,True,0.89501953125
-20180826-174120_426_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hi, I would like to speak to you about a wonderful charity called ""save the children"".
-Persuadee: Hey hows it?
-Persuadee: Yeah I am interested to hear more.
-Persuader: When you give to Save the Children, you're investing in a future for every last child.Nearly 90% of every dollar you give goes straight to our mission ??Â¸??Â¸ helping children grow up healthy, learning and safe.
-Persuadee: Nearly 90?
-Persuadee: Where does the other money go?
-Persuader: The rest?
-Persuader: We use to support the mission ??Â¸??Â¸ running our programs and raising funds to help more children.
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER demonstrates high warmth by expressing enthusiasm and dedication to a charitable cause, aiming to help children. Their competence is high as they provide specific information about the charity's financial allocation, indicating knowledge and transparency about the organization's operations.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE shows high warmth by expressing interest in learning more about the charity. Their competence is high as they ask pertinent questions about the financial details, indicating an understanding of the importance of transparency and accountability in charitable contributions.",1,1,True,0.55224609375
-20180826-175705_624_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: hello, do you know about the charity save the children?
-Persuadee: Hi.
-Persuadee: No, I have not heard about that charity.
-Persuader: do you want some info?
-Persuadee: Yes, I would love some information.
-Persuader: save the children is a non-profit organization that help the children all around the world.
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER initiates the conversation with a friendly greeting and offers information about a charity, demonstrating helpfulness and knowledge, which indicates high warmth and competence.
-
-user2 (EE):
-  warmth: high
-  competence: low
-  explanation: EE responds politely and expresses interest in learning more, showing openness and friendliness, which indicates high warmth. However, their lack of prior knowledge about the charity suggests lower competence in this context.",0,0,True,0.99853515625
-20180826-180300_663_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Good afternoon/evening
-Persuadee: Hello
-Persuader: Looks like there might be a bonus coming at the end of this HIT, have you got any plans for the money?
-Persuadee: Nope, what do you recommend?
-Persuader: I read a lot about the Save the Children charity before I came in here.
-Persuader: I hope that more people will donate a portion of their income.
-Persuader: Even small amounts will definitely help
-Persuadee: What's Save the Children all about?
-Persuader: They provide relief and support to children in developing nations, especially the millions of kids who are at risk in Syria.
-Persuader: They are a charity we can trust, so I think we all should do our part to help the less fortunate
-Persuadee: Do they provide for the millions of hungry kids here in the USA?
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER demonstrates high warmth by expressing concern for charitable causes and encouraging donations to help others. Their competence is also high, as they provide detailed information about the charity and its mission, showing knowledge and understanding of the topic.
-
-user2 (EE):
-  warmth: low
-  competence: low
-  explanation: EE shows low warmth by not engaging with ER's enthusiasm for the charity and questioning its focus. Their competence appears low due to a lack of contribution to the discussion and reliance on ER for information.",0,0,True,0.99462890625
-20180826-190151_488_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hello!
-Persuader: How are you tonight?
-Persuadee: I'm doing very well.
-Persuadee: How are you?
-Persuader: I am good thank you.
-Persuader: Have you heard of Save the Children?
-Persuadee: Yes, I have!
-Persuadee: Is it a charity that you are interested in?
-Persuader: Children are our future and I believe in charities helping children.
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER initiates the conversation with a friendly greeting and expresses a caring attitude towards children and charities, indicating high warmth. ER's ability to engage in a meaningful conversation about a specific topic suggests high competence.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE responds positively and reciprocates the inquiry about well-being, showing high warmth. EE's acknowledgment of the charity and engagement in the conversation reflect high competence.",0,0,True,0.93212890625
-20180826-193546_146_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: How much would you like to the Save the Children foundation?
-Persuadee: tell me more
-Persuader: Well Save the Children is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries.
-Persuadee: ok cool is there a website?
-Persuader: Yes it is  URL
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER demonstrates high warmth by engaging politely and providing helpful information about the organization. Their competence is high as they clearly explain the organization's purpose and provide the requested website link, showing knowledge and resourcefulness.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE shows high warmth by expressing interest and asking for more information, which indicates openness and engagement. Their competence is high as they ask relevant questions to gain a better understanding, demonstrating curiosity and a desire to be informed.",0,0,True,0.8779296875
-20180827-034916_910_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hi there!
-Persuader: How are you today?
-Persuadee: I am fine how are you?
-Persuader: I am doing really great.
-Persuader: What are your plans for the day?
-Persuadee: well I have to go to work in a little while here how about you?
-Persuader: Ah, yes.
-Persuader: Same here.
-Persuader: That is why I am up so early.
-Persuader: I have to go into the office, do you as well, or can you work from home?
-Persuadee: I  work in an office setting as well, I guess we are to talk about childrens charity's.
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER initiates the conversation with a friendly greeting and shows interest in EE's plans, indicating high warmth. ER also shares personal information about their work situation, suggesting openness and competence in managing daily responsibilities.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE responds politely and reciprocates the inquiry about ER's day, demonstrating high warmth. EE also shares their work situation and transitions to the topic of discussion, indicating competence in communication and task awareness.",1,0,False,0.99951171875
-20180829-082113_449_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hey there :) How are you feeling today?
-Persuadee: I'm fine how are you.
-Persuader: Not too bad, all things considered
-Persuadee: Thats good to hear.
-Persuadee: Where are you from?
-Persuader: U.S. How about you?
-Persuader: Think they matched us with our complete opposites? :P
-Persuadee: Same.
-Persuadee: Maybe, I'm not sure.
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER initiates the conversation with a friendly greeting and emoticon, indicating warmth. They maintain a positive tone and engage in light humor, suggesting social competence.
-
-user2 (EE):
-  warmth: low
-  competence: low
-  explanation: EE's responses are brief and lack emotional engagement, suggesting low warmth. Their minimal interaction and lack of elaboration imply low competence in sustaining a conversational flow.",1,0,False,0.66357421875
-20180829-084042_694_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: hi
-Persuadee: how are you today?
-Persuader: so you gonna donate or what
-Persuadee: sure I can donate but what is the game?
-Persuader: you gotta donate your payment
-Persuadee: If I donate, what do I get in return?
-Persuadee: Will you donate the same amount back to me?
-Persuader: No, I don\'t believe that\'s the case.
-Persuader: However, it\'s for a good cause.
-Summary: user1 (ER):
-  warmth: low
-  competence: high
-  explanation: ER comes across as direct and transactional, showing little concern for social niceties, which suggests low warmth. However, ER is clear about the purpose and rationale behind the request, indicating high competence.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE engages with polite inquiries and expresses willingness to participate, demonstrating high warmth. EE also asks relevant questions about the exchange, showing an understanding of the situation and thus high competence.",0,0,True,0.91943359375
-20180903-111245_955_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hello, have you heard of Save The Children?
-Persuadee: I think so, it sounds familiar.
-Persuadee: it is a nonprofit charity if i recall.
-Persuadee: What exactly do they do?
-Persuader: Save The Children helps kids from around the world by taking contributions from generous patrons. Kids from countries that have been stricken by poverty, violence, and other blights.
-Persuadee: What countries has the charity worked in recently?
-Persuader: Well, we have programs set up in 120 countries in total right now.
-Persuader: Some of our most recent campaigns involve Myanmar - in Rohingya where parents and their children have been forced to flee because of violence to surrounding countries. In the largest refugee camp stationed in Bangladesh, there are an estimated 915,000 children and adults taking shelter.
-Persuadee: Wow that sounds like a really robust program.
-Persuadee: How long has Save the Children been around?
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER demonstrates high warmth by engaging politely and providing detailed information about the charity's efforts, indicating a genuine interest in helping others. ER's competence is high, as they provide specific details about the charity's global reach and recent campaigns, showcasing knowledge and expertise.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE shows high warmth through curiosity and respectful engagement, asking questions that indicate interest in the topic. EE's competence is high, as they recall relevant information about the charity and ask informed questions, demonstrating understanding and a desire to learn more.",1,1,True,0.9287109375
-20180904-004818_580_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Have you heard of the charity Save the Children?
-Persuadee: Yes I have, but I don't know a lot about it.
-Persuader: They promote children's rights, provides relief, and helps support children in developing countries.
-Persuadee: That sounds like a very nice cause.
-Persuader: Yes, it\'s a great cause.
-Persuader: And the charity is highly rated with many positive rewards.
-Persuader: Including an ""A"" rating from the American Institute of Philanthropy.
-Persuadee: That's awesome!
-Persuadee: Do you know when the charity began?
-Persuader: It was founded way back on April 15, 1919!
-Persuader: A charity with that kind of history shows that it has made an amazing impact.
-Persuader: Just last year they helped a total of 155 million children!
-Persuadee: That is very impressive.
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER demonstrates high warmth by expressing enthusiasm and positivity about the charity, indicating a caring attitude. ER's competence is high, as they provide detailed information about the charity's history, ratings, and impact, showing knowledge and confidence in the subject.
-
-user2 (EE):
-  warmth: high
-  competence: low
-  explanation: EE shows high warmth through positive and supportive responses, indicating interest and agreement. However, EE's competence is low, as they admit to not knowing much about the charity and primarily respond with expressions of interest rather than providing information.",1,0,False,0.6923828125
-20180904-032932_423_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Hello.
-Persuader: Would you like to donate a portion of your reward to a charity called Save the Children?
-Persuadee: I think I would be willing to donate a portion.
-Persuader: Excellent!
-Persuader: Would you like to know more about the charity first?
-Persuadee: Yes, that was going to be my next question.
-Persuader: Save the Children promotes children's rights, and helps children from developing countries.
-Persuadee: What types of children's rights?
-Persuader: Your donation would help ensure children's rights to health, education, and safety.
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: ER demonstrates high warmth by initiating the conversation with a polite greeting and expressing enthusiasm about EE's willingness to donate. ER also shows high competence by providing clear and informative responses about the charity and its mission, ensuring EE is well-informed.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: EE displays high warmth by expressing willingness to donate and showing interest in learning more about the charity. EE's competence is high as they ask relevant questions, indicating a thoughtful and informed approach to their decision-making process.",1,0,False,0.98193359375
-20180904-073734_888_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader: Good morning.
-Persuadee: Good morning, how are you doing?
-Persuader: I'm great, thank you for asking!
-Persuader: Do you have some time today to talk about an amazing charity I am part of?
-Persuadee: Sure, I'd love to hear what charity you participate in
-Summary: user1 (ER):
-  warmth: high
-  competence: high
-  explanation: User1 initiates the conversation with a friendly greeting and expresses enthusiasm and positivity, indicating high warmth. They also introduce a topic related to charity, suggesting a sense of responsibility and involvement, which implies high competence.
-
-user2 (EE):
-  warmth: high
-  competence: high
-  explanation: User2 responds with a friendly greeting and shows concern by asking about user1's well-being, indicating high warmth. They express willingness to engage in a conversation about the charity, demonstrating openness and interest, which suggests high competence.",0,0,True,0.99609375
 20180719-211846_176_live,1,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4193,3 +3364,832 @@ user2 (EE):
   warmth: high
   competence: high
   explanation: EE reciprocates the greeting and engages in small talk, displaying friendliness and relatability, which indicates high warmth. EE's responses are articulate and contribute to the flow of conversation, suggesting high competence.",0,0,True,0.916015625
+20180719-120436_413_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi there
+Persuadee (EE): Hello
+Persuader (ER): Have you heard of the Save the Children charity?
+Persuadee (EE): I actually have not.
+Persuadee (EE): What do they do to help children?
+Persuader (ER): It is an international organization that helps protect and promote rights for childrens and provides for them in suffering conditions - such as lack of basic needs, like water, clothing, and food.
+Persuadee (EE): I'm glad a charity like that exists internationally.
+Persuader (ER): It's for a great cause.
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER initiates the conversation warmly and provides clear, informative responses about the charity, demonstrating both friendliness and knowledge. Their explanation of the charity's mission reflects competence, while their positive tone and support for the cause indicate warmth.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE responds politely and shows genuine interest in learning more, which reflects high warmth. Their engagement and thoughtful questions about the charity demonstrate competence, as they actively seek to understand the organization's impact.",0,1,False,0.830078125
+20180723-042226_724_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi there.
+Persuader (ER): How are you today?
+Persuadee (EE): Hello, I am fine, how about you?
+Persuader (ER): Very well thanks.
+Persuader (ER): Do you currently give any money to charity on a regular basis?
+Persuadee (EE): Yes, I try to help time to time
+Persuader (ER): Any charity in particular?
+Persuadee (EE): No, anything that catches my eyes, or I find them on gofundme, what about you?
+Persuader (ER): I have a few payments set up monthly.
+Persuader (ER): I assume then you've heard of Save the Children and the great work they do with young people?
+Persuadee (EE): Yes, I've heard of it.
+Persuadee (EE): Can you please explain more about it?
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: User1 initiates the conversation with polite greetings and shows interest in user2's charitable activities, indicating high warmth. They also share their own charitable contributions and provide information about a specific charity, demonstrating high competence.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: User2 responds politely and reciprocates the inquiry about well-being, showing high warmth. They express their charitable actions and ask for more information about a charity, indicating openness to learning and engagement, which reflects high competence.",1,0,False,0.916015625
+20180723-061928_535_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): HI
+Persuadee (EE): HI
+Persuader (ER): ARE YOU INTRESTED TO DONATE SOME FUNDS TO CHARITY TO SAVE SOME CHILDRENS
+Persuadee (EE): Of course I am very interested to donate funds to charity
+Persuader (ER): Thanks for that.
+Persuader (ER): You are helping to small childrens for their studies,etc
+Persuadee (EE): What charity do you usually donate?
+Persuader (ER): I do United World wide or Food for the poor
+Summary: user1 (ER):
+  warmth: high
+  competence: low
+  explanation: User1 initiates the conversation with a charitable request, expressing gratitude and appreciation, indicating high warmth. However, there are spelling and grammatical errors, such as ""intrested"" and ""childrens,"" which suggest lower competence in communication.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: User2 responds positively and shows interest in donating, indicating high warmth. They ask a relevant question about the charity, demonstrating engagement and understanding, which reflects high competence.",1,1,True,0.66845703125
+20180723-070336_48_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hey, how's it going?
+Persuadee (EE): Good just another Monday how about yourself?
+Persuader (ER): hahah same here.
+Persuader (ER): Do you have a moment to chat about social issues?
+Persuader (ER): Specially the ones concerning children?
+Persuadee (EE): Yea what do you got?
+Persuader (ER): I'd like to talk about the charity Save the Children.
+Persuader (ER): What was life like for you as a kid?
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER initiates the conversation with a friendly greeting and expresses interest in discussing important social issues, indicating high warmth. Their focus on a specific charity and social concern shows a proactive and informed approach, suggesting high competence.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE responds positively and engages in the conversation, showing openness and willingness to discuss the topic, which reflects high warmth. Their readiness to engage in a discussion about social issues indicates an understanding and interest, suggesting high competence.",0,0,True,0.77587890625
+20180723-120746_371_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello would you please donate to help save the children?
+Persuadee (EE): What children organization?
+Persuader (ER): This organization is called Save the Children and your donation can help ensure children't rights to health, education, and safety.
+Persuadee (EE): How long has this charity been around?
+Persuader (ER): We have been around for a long time and have worked hard to ensure that as much of your money as possible goes towards helping the children.
+Persuader (ER): The children need your help to ensure that they have a fighting chance at their future.
+Persuader (ER): You can help care for them medically and ensure they have the education needed to succeed in life.
+Persuadee (EE): The organization sounds like a good one.
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates high warmth by expressing concern for children's welfare and encouraging donations to support them. ER also shows high competence by providing information about the organization, its longevity, and its efficient use of donations, which suggests reliability and effectiveness.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE shows high warmth by expressing interest in the charity and acknowledging its positive impact. EE also displays high competence by asking relevant questions about the organization, indicating a thoughtful and informed approach to the conversation.",0,1,False,0.62841796875
+20180808-030454_242_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello, how are you today?
+Persuadee (EE): hi,it was another day
+Persuader (ER): I see, same here for me.
+Persuader (ER): Have you every tried donation through HITs?
+Persuadee (EE): ya recently i too tried children's charity regarding their studies.
+Persuadee (EE): it makes me good
+Persuader (ER): I usually donate a good part of my bonus in different studies, but I specially have a soft heart for children.
+Persuader (ER): Have you ever heard about ""Save the Children"" before?
+Persuadee (EE): children must be educated i didn\'t heard about  ""save the children"" what is the procedure of giving donation?
+Persuader (ER): They work on different issues in almost 120 countries.
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: User1 demonstrates high warmth through friendly greetings and expressing empathy towards children. Their competence is high as they share their experience with donations, indicating knowledge and involvement in charitable activities.
+
+user2 (EE):
+  warmth: high
+  competence: low
+  explanation: User2 shows high warmth by engaging in the conversation and expressing positive feelings about donating. However, their competence appears low due to limited knowledge about specific charities and unclear communication.",1,1,True,0.79345703125
+20180808-032124_114_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Have you thought about how much of the reward for this HIT you want to donate to Save the Children?
+Persuadee (EE): I do not want to donate any of my reward for this hit.
+Persuadee (EE): I make donations to charity regularly but not from jobs that I do.
+Persuader (ER): Save the Children is a great international no-governmental organization that promotes children's rights, provides relief and helps support children in developing countries.
+Persuader (ER): It has a very low overhead and almost all the money donated to it is directly used to help children.
+Persuadee (EE): I know that it is a good organization and I support them.
+Persuadee (EE): However I am not getting a reward from this hit.
+Persuadee (EE): I am spending my time completing it so I am being paid for a job.
+Persuadee (EE): I want the money to do with as I choose.
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates warmth by showing enthusiasm for donating to a charitable cause and providing information about the organization's benefits. ER's competence is high as they effectively communicate the organization's credibility and impact, suggesting a well-informed perspective.
+
+user2 (EE):
+  warmth: low
+  competence: high
+  explanation: EE's warmth is perceived as low due to their firm stance on not donating, which may come across as self-focused. However, their competence is high as they articulate a clear rationale for their decision, indicating a thoughtful and consistent approach to personal financial decisions.",0,0,True,0.572265625
+20180808-032545_201_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): HI GOOD MORNING
+Persuadee (EE): Good morning.
+Persuadee (EE): How are you today?
+Persuader (ER): FINE,SAVE THE CHILDREN , HOW DO YOU THINK ABOUT THE DONATION THE SAVE THE CHILD.
+Persuadee (EE): I don't usually donate to charities.
+Persuadee (EE): Is that something that you personally do?
+Persuader (ER): NO BUT, ITS A INTERNATIONAL NON-GOVERNMENTAL ORGANIZATION TO THE CHILD
+Summary: user1 (ER):
+  warmth: low
+  competence: low
+  explanation: ER's use of all caps and abrupt responses may come across as impersonal, reducing perceived warmth. The lack of clear articulation and engagement in the conversation may suggest lower competence.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE initiates polite conversation and asks questions, indicating engagement and interest, which enhances perceived warmth. EE's responses are clear and articulate, suggesting higher competence.",0,0,True,0.86669921875
+20180808-035715_390_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello, how are you doing today?
+Persuadee (EE): Good thanks!
+Persuadee (EE): You?
+Persuader (ER): Very well.
+Persuader (ER): Do you have any particular hobbies that you enjoy?
+Persuadee (EE): Mostly into hiking these days - how about you?
+Persuadee (EE): Do you have any info on this children's charity we're supposed to talk about?
+Persuader (ER): I like to play golf, as well as go on walks with my dog.
+Persuader (ER): Yes, the charity sounds like it does a lot of great work.
+Persuadee (EE): Walks with the dog sound awesome.
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER initiates the conversation with a friendly greeting and shows interest in EE's hobbies, indicating high warmth. ER also provides information about the charity, suggesting competence in the context of the conversation.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE responds positively to ER's greeting and shares personal interests, reflecting high warmth. EE also inquires about the charity, demonstrating an interest in the topic and competence in maintaining the conversation's focus.",0,0,True,0.77294921875
+20180808-043445_804_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello, how are you today?
+Persuadee (EE): Hi, I'm doing OK, how are you?
+Persuader (ER): I am fine thanks.
+Persuader (ER): Are you interested in donating?
+Persuadee (EE): Possibly, I'm not sure.
+Persuadee (EE): I don't even know what the charity is.
+Persuader (ER): The organization which collects money from people, and spend it on people and issues which are needed
+Persuadee (EE): Right, but I would like to know specifically what organization.
+Persuader (ER): I myself have a soft heart for children and usually help the charities for children.
+Persuader (ER): Have you heard of ""Save the Children""?
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER initiates the conversation with a polite greeting and expresses personal values, indicating high warmth. They provide information about their charitable interests, demonstrating competence in understanding and communicating the purpose of the organization.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE responds politely and shows interest in the conversation, indicating high warmth. They ask specific questions to gain a better understanding of the organization, demonstrating a high level of competence in seeking detailed information before making a decision.",1,0,False,0.8876953125
+20180808-050533_601_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Save the Children is a great organization that looks out for the well being of children in need.
+Persuader (ER): Currently they are looking for individuals to help their cause.
+Persuadee (EE): where is this organization based?
+Persuadee (EE): Do they help children from a particular country or is it all around the world?
+Persuader (ER): They help children mostly in developing countries around the world.
+Persuader (ER): Think about all the stories you hear in the news and on social media about children that need help or have been taken advantage of.
+Persuadee (EE): Yeah stories like that are very heart breaking.
+Persuadee (EE): What types of programs do they offer?
+Persuadee (EE): Like do they just supply food?
+Persuader (ER): They often protect children from being victims of hunger, violence, and child labor.
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates high warmth by expressing concern for children's well-being and promoting a charitable cause. Their competence is high due to providing detailed information about the organization's global reach and the types of programs offered, indicating knowledge and understanding.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE shows high warmth by expressing empathy towards the plight of children and engaging in a supportive dialogue. Their competence is high as they ask relevant, clarifying questions that show a desire to understand the organization's operations and impact.",0,1,False,0.62890625
+20180808-064649_236_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): HI GOOD MORNING
+Persuadee (EE): Good morning, how are you?
+Persuader (ER): FINE, HOW ABOUT YOU, AND MANY CHILDREN ARE DYING.
+Persuadee (EE): I am fine, thanks!
+Persuadee (EE): Yes, surely there is a good charity that can help children.
+Persuadee (EE): Do you know of a good one?
+Persuader (ER): YES, I KNOW THE BEST CHARITY , THAT NAME IS SAVE THE CHILDREN, DO YOU KNOW THE CHARITY.
+Summary: user1 (ER):
+  warmth: low
+  competence: high
+  explanation: ER's use of all caps can be perceived as aggressive, reducing perceived warmth. However, ER provides specific information about a charity, indicating knowledge and competence.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE engages politely and shows concern for the topic, indicating warmth. EE also asks relevant questions and acknowledges ER's information, demonstrating competence in the conversation.",0,0,True,0.6123046875
+20180824-020419_695_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): On behalf of this hit i wat to talk to you about a charity
+Persuadee (EE): What specifically would you like to talk about?
+Persuader (ER): I want to talk to you about a charity called Save the Children
+Persuadee (EE): I've heard of them.
+Persuadee (EE): How much do we have to share with them?
+Persuader (ER): well let me tell you a little bit about the charity first
+Persuadee (EE): That sounds good.
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER initiates the conversation with a focus on charity, indicating a prosocial intent, which suggests high warmth. They also attempt to provide information about the charity, demonstrating competence in conveying relevant details.
+
+user2 (EE):
+  warmth: low
+  competence: high
+  explanation: EE's responses are direct and focused on specific details, such as the amount to share, which suggests high competence. However, the lack of expressed enthusiasm or empathy towards the charitable cause implies lower warmth.",1,1,True,0.83203125
+20180824-023730_85_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi how are you today?
+Persuadee (EE): good
+Persuader (ER): Have you ever heard of Save the Children?
+Persuadee (EE): I have not, but there are other charities I like to participate in
+Persuader (ER): Do you have any children?
+Persuader (ER): I have two.
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: User1 initiates the conversation with a friendly greeting and shows interest in user2's personal life, indicating high warmth. Their engagement in discussing charities suggests an understanding of social issues, reflecting high competence.
+
+user2 (EE):
+  warmth: low
+  competence: high
+  explanation: User2's responses are brief and lack engagement, suggesting low warmth. However, their mention of participating in other charities indicates awareness and involvement, reflecting high competence.",0,0,True,0.76123046875
+20180825-054948_621_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello
+Persuadee (EE): Hi.
+Persuadee (EE): I really do not know much about children's charity, do you?
+Persuader (ER): Oh.
+Persuader (ER): There is this children's charity my friend volunteers for.
+Persuader (ER): It's called Save the Children.
+Persuader (ER): Have you heard of it?
+Persuadee (EE): I think so.
+Persuadee (EE): Does it have commercials on tv?
+Persuader (ER): Yes, they do.
+Persuader (ER): I wish they didn't have to spend their monies on commericals but it is the only way to get their name out there.
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates warmth by sharing information about a charity and expressing a wish for efficient use of resources. Their competence is shown through knowledge about the charity and understanding of its marketing strategies.
+
+user2 (EE):
+  warmth: low
+  competence: low
+  explanation: EE's responses are brief and lack engagement, indicating low warmth. Their admission of limited knowledge about the charity and reliance on vague recollections suggest low competence in this context.",1,0,False,0.92578125
+20180825-055034_34_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello
+Persuadee (EE): hello
+Persuader (ER): Would you like to donate a partial or full amount of your payment from this task to Save the Children.
+Persuader (ER): Save the Children is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries.
+Persuadee (EE): how much of the money is put to work?
+Persuader (ER): All of the money you choose to donate will go to the charity.
+Persuader (ER): Donating any amount will make a difference, every little donation adds up!
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates high warmth by engaging politely and showing concern for charitable causes. Their competence is high, as they provide clear information about the charity and the impact of donations, indicating knowledge and effectiveness in communication.
+
+user2 (EE):
+  warmth: low
+  competence: high
+  explanation: EE's warmth is low due to their brief and transactional response. However, their competence is high as they ask a relevant question about the allocation of funds, showing critical thinking and a focus on understanding the charity's operations.",0,1,False,0.791015625
+20180825-063009_943_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi WOuld you like to donate your payment for this task to save the children?
+Persuadee (EE): No, to be honest I am doing this task to save up extra money for myself.
+Persuader (ER): I understand that.
+Persuader (ER): But it's only .30 of the money you are saving.
+Persuader (ER): It could do alot of good for Save the children.
+Persuadee (EE): I appreciate your position, but what exactly is Save the Children and how do I know that money will truly be used to help kids?
+Persuader (ER): The researchers of this hit will make sure the money goes to save the children.
+Persuader (ER): Save the Children is a world wide organization that helps kids in war torn areas.
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates high warmth by understanding EE's position and providing information about the charity. ER's competence is high as they articulate the purpose of the organization clearly and address EE's concerns about the donation's impact.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE shows high warmth by expressing appreciation for ER's position and asking thoughtful questions. EE's competence is high as they articulate their financial priorities and seek more information to make an informed decision.",0,1,False,0.62353515625
+20180825-071316_761_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi
+Persuadee (EE): Hello, do you have any charities in mind that you support?
+Persuader (ER): Yes, I am very fond of Save the Children.
+Persuadee (EE): I've never heard of that one.
+Persuadee (EE): What is their goal?
+Persuader (ER): They are an international charity that provideds food, basic supplies and reief to children in developing countries
+Persuadee (EE): Oh that is interesting.
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates high warmth by expressing fondness for a charity, suggesting empathy and care for others. ER also shows high competence by providing a clear and informative explanation of the charity's mission, indicating knowledge and understanding.
+
+user2 (EE):
+  warmth: high
+  competence: low
+  explanation: EE displays high warmth by engaging in the conversation with curiosity and expressing interest in ER's charity choice. However, EE shows low competence by admitting unfamiliarity with the charity and not contributing additional information or insights.",0,0,True,0.751953125
+20180825-073559_995_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello?
+Persuadee (EE): hi
+Persuader (ER): How are you today?
+Persuadee (EE): good how about you?
+Persuader (ER): I am well, thank you!
+Persuader (ER): Glad you are doing well also.
+Persuader (ER): Have you heard of the charity called Save the Children?
+Persuadee (EE): i have not, can you tell me more?
+Persuader (ER): It is an international charity that helps children in need all around the world.
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER initiates the conversation with a friendly greeting and expresses genuine interest in EE's well-being, indicating high warmth. ER also provides clear and informative responses about the charity, demonstrating high competence.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE responds politely and reciprocates the inquiry about ER's well-being, showing high warmth. EE also expresses interest in learning more about the charity, indicating a willingness to engage and understand, which reflects high competence.",0,0,True,0.8896484375
+20180825-073629_433_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Have you ever though about donating to Save the Children?
+Persuadee (EE): I have thought about it before.
+Persuadee (EE): I've been approached by people on the street.
+Persuader (ER): It is a really great charity.
+Persuader (ER): It helps children who have been in crisis.
+Persuadee (EE): Is the charity international?
+Persuadee (EE): Or do they operate primarily in America?
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates high warmth by expressing enthusiasm for a charitable cause and providing positive information about it. Their competence is high as they share relevant details about the charity's impact, suggesting knowledge and understanding of the organization.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE shows high warmth by engaging in the conversation and expressing prior consideration of the charity. Their competence is high as they ask specific, relevant questions about the charity's operations, indicating an interest in understanding its scope and impact.",0,0,True,0.89013671875
+20180825-075627_48_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello, hope your great today.
+Persuader (ER): Have you heard of save the children.
+Persuader (ER): Hold ten?
+Persuadee (EE): I'm doing well, thanks!
+Persuadee (EE): Likewise to you.
+Persuadee (EE): I have not heard of that charity.
+Persuader (ER): Save the children do amazing work with kind kids
+Persuadee (EE): How long has this charity been in existence?
+Persuader (ER): They have been providing great services for kids for over 10 years
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER initiates the conversation with a friendly greeting and expresses enthusiasm about the charity, indicating high warmth. Their ability to provide information about the charity's work and longevity suggests high competence.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE reciprocates the friendly tone and expresses interest in learning more about the charity, indicating high warmth. Their inquiry about the charity's history demonstrates a thoughtful and competent approach to the conversation.",0,0,True,0.88818359375
+20180825-075630_493_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi!
+Persuader (ER): How are you doing today?
+Persuadee (EE): I'm doing well.
+Persuadee (EE): How about you?
+Persuader (ER): I am great, just enjoying some coffee on my deck.
+Persuader (ER): How is the weather for you?
+Persuadee (EE): It's cloudy a lot, but otherwise fine.
+Persuadee (EE): I was just looking through the morning mail.
+Persuadee (EE): A request by a children's charity for a donation.
+Persuader (ER): Which charity was the flyer from?
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER initiates the conversation with a friendly greeting and shows interest in EE's well-being and activities, indicating high warmth. ER also maintains the flow of conversation smoothly and asks relevant questions, suggesting high competence.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE responds politely and reciprocates the inquiry about ER's well-being, reflecting high warmth. EE provides clear and relevant responses about their activities, demonstrating high competence in communication.",1,0,False,0.54833984375
+20180825-083745_516_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello
+Persuadee (EE): Hi how are you doing today?
+Persuader (ER): I am doing great!
+Persuader (ER): Would you like to hear about ways you can help Save the Children today!
+Persuadee (EE): Sure.
+Persuadee (EE): Tell me as much as you can about the organization.
+Persuader (ER): Save the Children is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries.
+Persuadee (EE): It sounds like they have a worthy cause.
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER initiates the conversation warmly and enthusiastically shares information about a charitable organization, indicating a friendly and helpful demeanor. Their ability to provide clear and relevant information about the organization demonstrates competence.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE responds politely and expresses interest in learning more, indicating warmth. Their engagement and acknowledgment of the organization's cause as worthy suggest an understanding and appreciation, reflecting competence.",1,1,True,0.783203125
+20180825-090032_956_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi, how are you today?
+Persuader (ER): Have you ever considered donating to Save the Children?
+Persuader (ER): It is a great kids'
+Persuadee (EE): Hi I am fine and yourself?
+Persuader (ER): I'm good.
+Persuader (ER): Save the Children is one of the best children's charities around.
+Persuader (ER): They do really great work.
+Persuadee (EE): Have you ever thought about the benefits from the donations?
+Persuadee (EE): Do the donations actually help the organization?
+Persuader (ER): Yes, they really do.
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER initiates the conversation with a friendly greeting and shows enthusiasm for a charitable cause, indicating high warmth. Their knowledge and advocacy for the charity suggest high competence.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE reciprocates the greeting warmly and engages thoughtfully by asking insightful questions about the charity's impact, demonstrating both high warmth and competence.",0,1,False,0.74755859375
+20180826-013036_595_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi, would you like to donate to Save the Children?
+Persuadee (EE): hello, I have heard of the organization but I am unfamiliar with what they do.
+Persuadee (EE): what would my donation go toward?
+Persuader (ER): Your donation would help promote children's rights help support children in developing countries.
+Persuader (ER): It can really make a difference.
+Persuadee (EE): I think I would rather donate to a childrens charity that takes care of American children.
+Persuader (ER): Are American children more important than non-American children?
+Persuadee (EE): In the scheme of things, a life is a life, but I am American and feel it important to help my fellow Americans
+Summary: user1 (ER):
+  warmth: low
+  competence: high
+  explanation: ER demonstrates competence by providing clear information about the charity's purpose and impact. However, their warmth is perceived as low due to the confrontational tone in questioning the importance of American children over non-American children, which could be seen as lacking empathy for EE's perspective.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE shows high warmth by expressing a willingness to donate and explaining their preference in a respectful manner. Their competence is high as they ask relevant questions to understand the charity better and articulate their reasoning for preferring to donate domestically.",0,1,False,0.5009765625
+20180826-013529_897_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hey, do some good, give some money to kids.
+Persuadee (EE): Sure.I would be glad to. How much money do you think I should give?
+Persuader (ER): oh, could you afford maybe fifteen cents?
+Persuadee (EE): I can afford $5.00
+Summary: user1 (ER):
+  warmth: high
+  competence: low
+  explanation: ER initiates the conversation with a friendly suggestion to help children, indicating high warmth. However, the suggestion of a small amount (fifteen cents) may reflect low competence in understanding the potential impact or expectations of charitable giving.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE responds positively and is willing to contribute, showing high warmth. By offering a significantly larger amount than suggested, EE demonstrates high competence in assessing the situation and making a meaningful contribution.",1,1,True,0.79150390625
+20180826-043247_456_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hey!
+Persuader (ER): How are you doin today?
+Persuadee (EE): Hey!
+Persuadee (EE): I'm doing well!
+Persuadee (EE): How are you?
+Persuader (ER): I\'m alright, just reading up on this organization called ""Save the Children"".. have you heard about it?
+Persuadee (EE): I haven't.
+Persuadee (EE): It sounds familiar though.
+Persuadee (EE): Could you tell me about it?
+Persuader (ER): Yeah, no problem!
+Persuader (ER): It's a non-governmental organization that helps with children's rights.
+Persuader (ER): They claim to provide relief and support to kids in developing countries.
+Persuadee (EE): That's amazing.
+Persuadee (EE): Do they provide legal help or support to live?
+Persuader (ER): It looks like a bit of both!
+Persuader (ER): But they're down on donations.
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER initiates the conversation warmly and shares information about a charitable organization, demonstrating both friendliness and knowledge. ER's willingness to explain and discuss the organization's activities further supports a perception of high competence.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE responds positively and shows interest in the conversation by asking questions, indicating a friendly and engaged demeanor. EE's curiosity and ability to ask relevant questions about the organization reflect a high level of competence.",0,1,False,0.76171875
+20180826-073320_803_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi there!
+Persuader (ER): I am looking for donations for the Save the children's Foundation?
+Persuader (ER): Could I interest you in that?
+Persuadee (EE): I would perhaps be interested can you tell me more a bout it
+Persuader (ER): It is a charity that helps hungry children in need.
+Persuader (ER): It is a international, non governmental organization that promotes children's rights, provides releif and support children in developing countries.
+Persuadee (EE): That sounds great, What countries do they help children in?
+Persuader (ER): There's quite a few! It's international.
+Persuader (ER): Even the smallest donation would make a difference to a child in need.
+Persuadee (EE): Ok I would like to see if I can help. I love children.
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates high warmth by engaging politely and expressing a clear, altruistic purpose. Their competence is high, as they provide information about the organization and its mission effectively, showing knowledge and confidence in their cause.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE shows high warmth by expressing interest and a positive attitude towards helping children. Their competence is high, as they ask relevant questions to understand the organization better and express a willingness to contribute thoughtfully.",0,0,True,0.576171875
+20180826-174120_426_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi, I would like to speak to you about a wonderful charity called ""save the children"".
+Persuadee (EE): Hey hows it?
+Persuadee (EE): Yeah I am interested to hear more.
+Persuader (ER): When you give to Save the Children, you're investing in a future for every last child.Nearly 90% of every dollar you give goes straight to our mission ??Â¸??Â¸ helping children grow up healthy, learning and safe.
+Persuadee (EE): Nearly 90?
+Persuadee (EE): Where does the other money go?
+Persuader (ER): The rest?
+Persuader (ER): We use to support the mission ??Â¸??Â¸ running our programs and raising funds to help more children.
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates high warmth by expressing enthusiasm and dedication to a charitable cause, aiming to help children. Their competence is high as they provide specific information about the charity's financial allocation, indicating knowledge and transparency about the organization's operations.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE shows high warmth by expressing interest in learning more about the charity. Their competence is high as they ask pertinent questions about the financial details, indicating an understanding of the importance of transparency and accountability in charitable contributions.",1,1,True,0.9306640625
+20180826-175705_624_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): hello, do you know about the charity save the children?
+Persuadee (EE): Hi.
+Persuadee (EE): No, I have not heard about that charity.
+Persuader (ER): do you want some info?
+Persuadee (EE): Yes, I would love some information.
+Persuader (ER): save the children is a non-profit organization that help the children all around the world.
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER initiates the conversation with a friendly greeting and offers information about a charity, demonstrating helpfulness and knowledge, which indicates high warmth and competence.
+
+user2 (EE):
+  warmth: high
+  competence: low
+  explanation: EE responds politely and expresses interest in learning more, showing openness and friendliness, which indicates high warmth. However, their lack of prior knowledge about the charity suggests lower competence in this context.",0,0,True,0.95361328125
+20180826-180300_663_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Good afternoon/evening
+Persuadee (EE): Hello
+Persuader (ER): Looks like there might be a bonus coming at the end of this HIT, have you got any plans for the money?
+Persuadee (EE): Nope, what do you recommend?
+Persuader (ER): I read a lot about the Save the Children charity before I came in here.
+Persuader (ER): I hope that more people will donate a portion of their income.
+Persuader (ER): Even small amounts will definitely help
+Persuadee (EE): What's Save the Children all about?
+Persuader (ER): They provide relief and support to children in developing nations, especially the millions of kids who are at risk in Syria.
+Persuader (ER): They are a charity we can trust, so I think we all should do our part to help the less fortunate
+Persuadee (EE): Do they provide for the millions of hungry kids here in the USA?
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates high warmth by expressing concern for charitable causes and encouraging donations to help others. Their competence is also high, as they provide detailed information about the charity and its mission, showing knowledge and understanding of the topic.
+
+user2 (EE):
+  warmth: low
+  competence: low
+  explanation: EE shows low warmth by not engaging with ER's enthusiasm for the charity and questioning its focus. Their competence appears low due to a lack of contribution to the discussion and reliance on ER for information.",0,0,True,0.55419921875
+20180826-190151_488_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello!
+Persuader (ER): How are you tonight?
+Persuadee (EE): I'm doing very well.
+Persuadee (EE): How are you?
+Persuader (ER): I am good thank you.
+Persuader (ER): Have you heard of Save the Children?
+Persuadee (EE): Yes, I have!
+Persuadee (EE): Is it a charity that you are interested in?
+Persuader (ER): Children are our future and I believe in charities helping children.
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER initiates the conversation with a friendly greeting and expresses a caring attitude towards children and charities, indicating high warmth. ER's ability to engage in a meaningful conversation about a specific topic suggests high competence.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE responds positively and reciprocates the inquiry about well-being, showing high warmth. EE's acknowledgment of the charity and engagement in the conversation reflect high competence.",0,1,False,0.517578125
+20180826-193546_146_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): How much would you like to the Save the Children foundation?
+Persuadee (EE): tell me more
+Persuader (ER): Well Save the Children is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries.
+Persuadee (EE): ok cool is there a website?
+Persuader (ER): Yes it is  URL
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates high warmth by engaging politely and providing helpful information about the organization. Their competence is high as they clearly explain the organization's purpose and provide the requested website link, showing knowledge and resourcefulness.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE shows high warmth by expressing interest and asking for more information, which indicates openness and engagement. Their competence is high as they ask relevant questions to gain a better understanding, demonstrating curiosity and a desire to be informed.",0,0,True,0.9599609375
+20180827-034916_910_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi there!
+Persuader (ER): How are you today?
+Persuadee (EE): I am fine how are you?
+Persuader (ER): I am doing really great.
+Persuader (ER): What are your plans for the day?
+Persuadee (EE): well I have to go to work in a little while here how about you?
+Persuader (ER): Ah, yes.
+Persuader (ER): Same here.
+Persuader (ER): That is why I am up so early.
+Persuader (ER): I have to go into the office, do you as well, or can you work from home?
+Persuadee (EE): I  work in an office setting as well, I guess we are to talk about childrens charity's.
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER initiates the conversation with a friendly greeting and shows interest in EE's plans, indicating high warmth. ER also shares personal information about their work situation, suggesting openness and competence in managing daily responsibilities.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE responds politely and reciprocates the inquiry about ER's day, demonstrating high warmth. EE also shares their work situation and transitions to the topic of discussion, indicating competence in communication and task awareness.",1,0,False,0.5625
+20180829-082113_449_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hey there :) How are you feeling today?
+Persuadee (EE): I'm fine how are you.
+Persuader (ER): Not too bad, all things considered
+Persuadee (EE): Thats good to hear.
+Persuadee (EE): Where are you from?
+Persuader (ER): U.S. How about you?
+Persuader (ER): Think they matched us with our complete opposites? :P
+Persuadee (EE): Same.
+Persuadee (EE): Maybe, I'm not sure.
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER initiates the conversation with a friendly greeting and emoticon, indicating warmth. They maintain a positive tone and engage in light humor, suggesting social competence.
+
+user2 (EE):
+  warmth: low
+  competence: low
+  explanation: EE's responses are brief and lack emotional engagement, suggesting low warmth. Their minimal interaction and lack of elaboration imply low competence in sustaining a conversational flow.",1,0,False,0.71240234375
+20180829-084042_694_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): hi
+Persuadee (EE): how are you today?
+Persuader (ER): so you gonna donate or what
+Persuadee (EE): sure I can donate but what is the game?
+Persuader (ER): you gotta donate your payment
+Persuadee (EE): If I donate, what do I get in return?
+Persuadee (EE): Will you donate the same amount back to me?
+Persuader (ER): No, I don\'t believe that\'s the case.
+Persuader (ER): However, it\'s for a good cause.
+Summary: user1 (ER):
+  warmth: low
+  competence: high
+  explanation: ER comes across as direct and transactional, showing little concern for social niceties, which suggests low warmth. However, ER is clear about the purpose and rationale behind the request, indicating high competence.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE engages with polite inquiries and expresses willingness to participate, demonstrating high warmth. EE also asks relevant questions about the exchange, showing an understanding of the situation and thus high competence.",0,1,False,0.92529296875
+20180903-111245_955_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello, have you heard of Save The Children?
+Persuadee (EE): I think so, it sounds familiar.
+Persuadee (EE): it is a nonprofit charity if i recall.
+Persuadee (EE): What exactly do they do?
+Persuader (ER): Save The Children helps kids from around the world by taking contributions from generous patrons. Kids from countries that have been stricken by poverty, violence, and other blights.
+Persuadee (EE): What countries has the charity worked in recently?
+Persuader (ER): Well, we have programs set up in 120 countries in total right now.
+Persuader (ER): Some of our most recent campaigns involve Myanmar - in Rohingya where parents and their children have been forced to flee because of violence to surrounding countries. In the largest refugee camp stationed in Bangladesh, there are an estimated 915,000 children and adults taking shelter.
+Persuadee (EE): Wow that sounds like a really robust program.
+Persuadee (EE): How long has Save the Children been around?
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates high warmth by engaging politely and providing detailed information about the charity's efforts, indicating a genuine interest in helping others. ER's competence is high, as they provide specific details about the charity's global reach and recent campaigns, showcasing knowledge and expertise.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE shows high warmth through curiosity and respectful engagement, asking questions that indicate interest in the topic. EE's competence is high, as they recall relevant information about the charity and ask informed questions, demonstrating understanding and a desire to learn more.",1,0,False,0.6787109375
+20180904-004818_580_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Have you heard of the charity Save the Children?
+Persuadee (EE): Yes I have, but I don't know a lot about it.
+Persuader (ER): They promote children's rights, provides relief, and helps support children in developing countries.
+Persuadee (EE): That sounds like a very nice cause.
+Persuader (ER): Yes, it\'s a great cause.
+Persuader (ER): And the charity is highly rated with many positive rewards.
+Persuader (ER): Including an ""A"" rating from the American Institute of Philanthropy.
+Persuadee (EE): That's awesome!
+Persuadee (EE): Do you know when the charity began?
+Persuader (ER): It was founded way back on April 15, 1919!
+Persuader (ER): A charity with that kind of history shows that it has made an amazing impact.
+Persuader (ER): Just last year they helped a total of 155 million children!
+Persuadee (EE): That is very impressive.
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates high warmth by expressing enthusiasm and positivity about the charity, indicating a caring attitude. ER's competence is high, as they provide detailed information about the charity's history, ratings, and impact, showing knowledge and confidence in the subject.
+
+user2 (EE):
+  warmth: high
+  competence: low
+  explanation: EE shows high warmth through positive and supportive responses, indicating interest and agreement. However, EE's competence is low, as they admit to not knowing much about the charity and primarily respond with expressions of interest rather than providing information.",1,1,True,0.6162109375
+20180904-032932_423_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello.
+Persuader (ER): Would you like to donate a portion of your reward to a charity called Save the Children?
+Persuadee (EE): I think I would be willing to donate a portion.
+Persuader (ER): Excellent!
+Persuader (ER): Would you like to know more about the charity first?
+Persuadee (EE): Yes, that was going to be my next question.
+Persuader (ER): Save the Children promotes children's rights, and helps children from developing countries.
+Persuadee (EE): What types of children's rights?
+Persuader (ER): Your donation would help ensure children's rights to health, education, and safety.
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates high warmth by initiating the conversation with a polite greeting and expressing enthusiasm about EE's willingness to donate. ER also shows high competence by providing clear and informative responses about the charity and its mission, ensuring EE is well-informed.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE displays high warmth by expressing willingness to donate and showing interest in learning more about the charity. EE's competence is high as they ask relevant questions, indicating a thoughtful and informed approach to their decision-making process.",1,1,True,0.6337890625
+20180904-073734_888_live,5,"You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Good morning.
+Persuadee (EE): Good morning, how are you doing?
+Persuader (ER): I'm great, thank you for asking!
+Persuader (ER): Do you have some time today to talk about an amazing charity I am part of?
+Persuadee (EE): Sure, I'd love to hear what charity you participate in
+Summary: user1 (ER):
+  warmth: high
+  competence: high
+  explanation: User1 initiates the conversation with a friendly greeting and expresses enthusiasm and positivity, indicating high warmth. They also introduce a topic related to charity, suggesting a sense of responsibility and involvement, which implies high competence.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: User2 responds with a friendly greeting and shows concern by asking about user1's well-being, indicating high warmth. They express willingness to engage in a conversation about the charity, demonstrating openness and interest, which suggests high competence.",0,0,True,0.97802734375

@@ -14,6 +14,7 @@ from transformers import (AutoModelForCausalLM, AutoTokenizer,
                          BitsAndBytesConfig, TrainingArguments,
                          EarlyStoppingCallback)  # Added EarlyStoppingCallback
 from trl import SFTTrainer
+import re
 
 def preprocess_logits_for_metrics(logits, labels):
     """
@@ -265,7 +266,7 @@ def parse_arguments():
     parser.add_argument("--output_dir", type=str, default="/data/user_data/gganeshl/output",
                         help="Directory to save model checkpoints")
     parser.add_argument("--batch_size", type=int, default=4, help="Training batch size per device")
-    parser.add_argument("--epochs", type=int, default=10, help="Number of training epochs")
+    parser.add_argument("--epochs", type=int, default=15, help="Number of training epochs")
     parser.add_argument("--n_folds", type=int, default=5, help="Number of folds for cross-validation")
     parser.add_argument("--max_length", type=int, default=1024, help="Maximum sequence length")
     parser.add_argument("--rank", type=int, default=8, help="LoRA rank")
@@ -280,25 +281,20 @@ def parse_arguments():
     return parser.parse_args()
 
 
+# Pre-compile the regex pattern for better performance
+ALLOCATION_PATTERN = re.compile(r'{agent1:{food:(\d+),\s*water:(\d+),\s*firewood:(\d+)},\s*agent2:{food:(\d+),\s*water:(\d+),\s*firewood:(\d+)}}', re.IGNORECASE)
+
 def extract_allocation(response):
     """Extract final allocation from model output for Casino dataset."""
     try:
-        if "<|end_header_id|>" in response:
-            response = response.split("<|end_header_id|>")[1].strip()
-        elif "assistant" in response:
-            response = response.split("assistant")[1].strip()
-
-        import re
-
-        # Try to find the curly braces format pattern using regex
-        allocation = {'agent1': {}, 'agent2': {}}
-        
-        # Pattern for the new curly braces format
-        pattern = r'{agent1:{food:(\d+),\s*water:(\d+),\s*firewood:(\d+)},\s*agent2:{food:(\d+),\s*water:(\d+),\s*firewood:(\d+)}}'
-        braces_match = re.search(pattern, response, re.IGNORECASE)
-        
+        # Quick input validation
+        if not response or not isinstance(response, str):
+            return None
+            
+        # First try direct pattern matching on the original text
+        braces_match = ALLOCATION_PATTERN.search(response)
         if braces_match:
-            # Extract values from regex groups
+            allocation = {'agent1': {}, 'agent2': {}}
             allocation['agent1']['food'] = int(braces_match.group(1))
             allocation['agent1']['water'] = int(braces_match.group(2))
             allocation['agent1']['firewood'] = int(braces_match.group(3))
@@ -307,30 +303,34 @@ def extract_allocation(response):
             allocation['agent2']['firewood'] = int(braces_match.group(6))
             return allocation
             
-        # Fallback to original format with AGENT_X_RESOURCE: format
-        agent1_food = re.search(r'AGENT_1_FOOD:\s*(\d+)', response, re.IGNORECASE)
-        agent1_water = re.search(r'AGENT_1_WATER:\s*(\d+)', response, re.IGNORECASE)
-        agent1_firewood = re.search(r'AGENT_1_FIREWOOD:\s*(\d+)', response, re.IGNORECASE)
-            
-        agent2_food = re.search(r'AGENT_2_FOOD:\s*(\d+)', response, re.IGNORECASE)
-        agent2_water = re.search(r'AGENT_2_WATER:\s*(\d+)', response, re.IGNORECASE)
-        agent2_firewood = re.search(r'AGENT_2_FIREWOOD:\s*(\d+)', response, re.IGNORECASE)
-
-        if all([agent1_food, agent1_water, agent1_firewood, agent2_food, agent2_water, agent2_firewood]):
-            allocation['agent1']['food'] = int(agent1_food.group(1))
-            allocation['agent1']['water'] = int(agent1_water.group(1))
-            allocation['agent1']['firewood'] = int(agent1_firewood.group(1))
-            allocation['agent2']['food'] = int(agent2_food.group(1))
-            allocation['agent2']['water'] = int(agent2_water.group(1))
-            allocation['agent2']['firewood'] = int(agent2_firewood.group(1))
+        # Fall back to original logic if direct match fails
+        processed_response = response
+        if "<|end_header_id|>" in response:
+            processed_response = response.split("<|end_header_id|>")[1].strip()
+        elif "assistant" in response:
+            processed_response = response.split("assistant")[1].strip()
+        elif "OUTCOME" in response:
+            parts = response.split("OUTCOME")
+            if len(parts) > 2:
+                processed_response = "OUTCOME".join(parts[2:]).strip()
+        
+        # Try the regex on the processed text
+        allocation = {'agent1': {}, 'agent2': {}}
+        braces_match = ALLOCATION_PATTERN.search(processed_response)
+        if braces_match:
+            allocation['agent1']['food'] = int(braces_match.group(1))
+            allocation['agent1']['water'] = int(braces_match.group(2))
+            allocation['agent1']['firewood'] = int(braces_match.group(3))
+            allocation['agent2']['food'] = int(braces_match.group(4))
+            allocation['agent2']['water'] = int(braces_match.group(5))
+            allocation['agent2']['firewood'] = int(braces_match.group(6))
             return allocation
-
+            
         return None
     except Exception as e:
         print(f"[ERROR] Failed to extract allocation: {e}")
         return None
-
-
+        
 def calculate_utility_score(allocation, preferences):
     """Calculate utility score based on allocation and preferences."""
     utility_map = {
@@ -605,7 +605,7 @@ def prepare_dataset(args, tokenizer):
             Conversation{intentions_note}:
             {formatted_conversation}{summary_part}
 
-            Based on this negotiation, predict the final allocation of resources. Provide your answer using the following format with curly braces, with no explanation:
+            Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
 
             OUTCOME: {{agent1:{{food:[number], water:[number], firewood:[number]}}, agent2:{{food:[number], water:[number], firewood:[number]}}}}
 
@@ -797,7 +797,7 @@ def perform_kfold_cross_validation(args):
         
         # Set metric for best model based on dataset type
         if args.dataset_type == "cb":
-            metric_for_best_model = "eval_rmse"
+            metric_for_best_model = "eval_success_rmse"
             greater_is_better = False
         elif args.dataset_type == "casino":
             metric_for_best_model = "eval_utility_mse"
@@ -984,6 +984,7 @@ def perform_kfold_cross_validation(args):
                             preferences = dialogue_info[dialogue_id]["preferences"]
                             pred_agent1_utility = calculate_utility_score({'agent1': predicted_allocation['agent1']}, preferences)
                             pred_agent2_utility = calculate_utility_score({'agent2': predicted_allocation['agent2']}, preferences)
+                            print("Predicted utility - Agent1: ", pred_agent1_utility)
                             
                             prediction["predicted_agent1_utility"] = pred_agent1_utility
                             prediction["predicted_agent2_utility"] = pred_agent2_utility
