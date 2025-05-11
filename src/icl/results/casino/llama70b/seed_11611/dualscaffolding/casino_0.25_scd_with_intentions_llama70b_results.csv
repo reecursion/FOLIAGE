@@ -1,0 +1,459 @@
+dialogue_id,summary_type,model_type,include_intentions,conversation,prompt,response,agent1_food_actual,agent1_food_pred,agent1_water_actual,agent1_water_pred,agent1_firewood_actual,agent1_firewood_pred,agent2_food_actual,agent2_food_pred,agent2_water_actual,agent2_water_pred,agent2_firewood_actual,agent2_firewood_pred,agent1_utility_pred,agent2_utility_pred,agent1_utility_actual,utility_mse,agent2_utility_actual
+0,scd,llama70b,True,"Agent 1: Hello! 🙂 Let's work together on a deal for these packages, shall we? What are you most interested in?
+Agent 2: Hey! I'd like some more firewood to keep my doggo warm. What do you need?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: food, Low priority: water
+Agent 2: High priority: firewood, Medium priority: water, Low priority: food
+
+Conversation with intentions:
+Agent 1: Hello! 🙂 Let's work together on a deal for these packages, shall we? What are you most interested in?
+Agent 2: Hey! I'd like some more firewood to keep my doggo warm. What do you need? The conversation begins with a friendly and collaborative tone, as both participants express a willingness to negotiate and find a mutually beneficial arrangement. The first speaker initiates with a positive and open-ended question, inviting cooperation. The second speaker responds with a specific need, maintaining the amicable atmosphere and showing readiness to engage in a reciprocal exchange. Both speakers demonstrate a cooperative and solution-oriented approach throughout the interaction.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,
+1,scd,llama70b,True,"Agent 2: Hello. How are you?
+Agent 1: I am good. I am pretty excited for the trip this weekend. what about you?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: firewood, Low priority: water
+Agent 2: High priority: food, Medium priority: firewood, Low priority: water
+
+Conversation with intentions:
+Agent 2: Hello. How are you?
+Agent 1: I am good. I am pretty excited for the trip this weekend. what about you? The conversation begins with a friendly exchange of greetings and inquiries about well-being. One speaker expresses excitement about an upcoming trip, setting a positive and enthusiastic tone. The other speaker's response is not included, but the initial exchange suggests an intention to share personal experiences and engage in a lighthearted, anticipatory discussion. The sentiment is warm and inviting, aiming to build rapport and possibly explore shared interests or plans.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,
+2,scd,llama70b,True,"Agent 2: Hey there!
+Agent 1: Hi! How are you?! You excited for your camping trip??! I sure am ready to go on mine!","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: food, Low priority: firewood
+Agent 2: High priority: water, Medium priority: firewood, Low priority: food
+
+Conversation with intentions:
+Agent 2: Hey there!
+Agent 1: Hi! How are you?! You excited for your camping trip??! I sure am ready to go on mine! The conversation begins with a friendly and enthusiastic exchange. Both speakers express excitement and anticipation for their respective camping trips, creating a positive and upbeat tone. The use of exclamation marks suggests a high level of enthusiasm and shared eagerness. The interaction is characterized by mutual excitement and a sense of camaraderie, as both participants seem to be looking forward to their upcoming experiences.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[2], firewood:[1]}, agent2:{food:[1], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,
+3,scd,llama70b,True,"Agent 2: Hi, I'd like 3 packages of food. I have diabetes and my blood sugar could drop.
+Agent 1: oh dear, I am sorry to hear that my son is type one, I am okay with giving you all the food if you could give me all the firewood. I have hypothyroidism and it makes me get cold.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: water, Low priority: food
+Agent 2: High priority: food, Medium priority: water, Low priority: firewood
+
+Conversation with intentions:
+Agent 2: Hi, I'd like 3 packages of food. I have diabetes and my blood sugar could drop.
+Agent 1: oh dear, I am sorry to hear that my son is type one, I am okay with giving you all the food if you could give me all the firewood. I have hypothyroidism and it makes me get cold. The conversation begins with one speaker expressing a need for food due to a health condition, while the other empathizes and shares a personal connection to the issue. The second speaker then proposes a trade, indicating a willingness to negotiate based on mutual health-related needs. Both speakers maintain a cooperative tone, focusing on finding a solution that addresses their respective challenges.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[0], water:[3], firewood:[3]}, agent2:{food:[3], water:[0], firewood:[0]}}",,,,,,,,,,,,,,,,,
+4,scd,llama70b,True,"Agent 2: What are you most interested in getting?
+Agent 1: I think food is my highest priority, What about you?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: firewood, Low priority: water
+Agent 2: High priority: food, Medium priority: firewood, Low priority: water
+
+Conversation with intentions:
+Agent 2: What are you most interested in getting?
+Agent 1: I think food is my highest priority, What about you? The conversation begins with an inquiry about interests, indicating a neutral and open sentiment. The response reveals a clear prioritization, suggesting a practical and straightforward approach. The initial question also invites reciprocation, implying an intention to engage in mutual sharing. The conversation maintains a cooperative tone, with both participants showing openness to discussing personal preferences and priorities. Overall, the interaction is characterized by a balanced exchange of interests and a willingness to understand each other's perspectives.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:2, water:1, firewood:0}, agent2:{food:1, water:2, firewood:1}}",2.0,2.0,1.0,1.0,1.0,0.0,1.0,1.0,2.0,2.0,2.0,1.0,13.0,15.0,17.0,16.0,19.0
+5,scd,llama70b,True,"Agent 1: Hello, what are your preferences for extra supplies?  I am greatly in need of food and water.  We will be doing a lot of activity in a hot, dry climate.🙂
+Agent 2: I prefer firewood because I will get cold at night. I forgot blankets ☹️","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: water, Low priority: firewood
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation with intentions:
+Agent 1: Hello, what are your preferences for extra supplies?  I am greatly in need of food and water.  We will be doing a lot of activity in a hot, dry climate.🙂
+Agent 2: I prefer firewood because I will get cold at night. I forgot blankets ☹️ The conversation begins with a friendly tone as the first speaker expresses a strong need for food and water due to upcoming activities in a challenging climate. The second speaker responds by sharing their preference for firewood, explaining their concern about staying warm at night due to forgetting blankets. Both speakers convey their needs clearly, with the first maintaining a positive demeanor and the second expressing mild concern.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[2], firewood:[0]}, agent2:{food:[1], water:[1], firewood:[3]}}",,,,,,,,,,,,,,,,,
+6,scd,llama70b,True,"Agent 2: Hi, are you excited for the camping trip?
+Agent 1: Hello! I am very excited!🙂 How about you?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: food, Low priority: water
+Agent 2: High priority: food, Medium priority: firewood, Low priority: water
+
+Conversation with intentions:
+Agent 2: Hi, are you excited for the camping trip?
+Agent 1: Hello! I am very excited!🙂 How about you? The conversation begins with a friendly and enthusiastic tone as one participant expresses excitement about an upcoming camping trip. The other participant reciprocates the enthusiasm, creating a positive and engaging atmosphere. Both speakers maintain a lighthearted and cheerful sentiment, indicating a shared anticipation and mutual interest in the event. The interaction is characterized by an open and inviting exchange, fostering a sense of camaraderie and shared excitement.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:1, water:1, firewood:2}, agent2:{food:2, water:2, firewood:1}}",0.0,1.0,1.0,1.0,3.0,2.0,3.0,2.0,2.0,2.0,0.0,1.0,17.0,20.0,18.0,1.0,21.0
+7,scd,llama70b,True,"Agent 2: Hello!
+Agent 1: Hello, how are you doing today?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: firewood, Low priority: food
+Agent 2: High priority: food, Medium priority: water, Low priority: firewood
+
+Conversation with intentions:
+Agent 2: Hello!
+Agent 1: Hello, how are you doing today? The conversation begins with a friendly and polite exchange of greetings. Both speakers express a positive and courteous tone, indicating an intention to engage in a pleasant interaction. The initial sentiment is warm and inviting, setting the stage for a potentially cooperative and amicable discussion.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:0, water:2, firewood:1}, agent2:{food:3, water:1, firewood:2}}",0.0,0.0,2.0,2.0,2.0,1.0,3.0,3.0,1.0,1.0,1.0,2.0,14.0,25.0,18.0,16.0,22.0
+8,scd,llama70b,True,"Agent 2: How are you today? Did you have any preferences on the supplies we will be trading?
+Agent 1: I am good. How about yourself? I think I would like some firewood to start off with. We like to have bigger fires. What about you?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: firewood, Low priority: water
+Agent 2: High priority: water, Medium priority: food, Low priority: firewood
+
+Conversation with intentions:
+Agent 2: How are you today? Did you have any preferences on the supplies we will be trading?
+Agent 1: I am good. How about yourself? I think I would like some firewood to start off with. We like to have bigger fires. What about you? The conversation begins with a friendly exchange of pleasantries, establishing a positive tone. Both speakers express interest in each other's well-being, setting a cooperative atmosphere. The first speaker initiates the discussion on trading preferences, while the second speaker responds with a specific request, maintaining the cordial tone. The conversation remains focused on mutual interests, with both parties showing openness to each other's needs, suggesting a collaborative and amicable negotiation process.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:2, water:0, firewood:2}, agent2:{food:1, water:3, firewood:1}}",2.0,2.0,0.0,0.0,3.0,2.0,1.0,1.0,3.0,3.0,0.0,1.0,18.0,22.0,22.0,16.0,19.0
+9,scd,llama70b,True,"Agent 2: Hello, how are you today? 🙂
+Agent 1: good, how are you 🙂","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: food, Low priority: water
+Agent 2: High priority: food, Medium priority: firewood, Low priority: water
+
+Conversation with intentions:
+Agent 2: Hello, how are you today? 🙂
+Agent 1: good, how are you 🙂 The conversation begins with a friendly and polite exchange of greetings, with both speakers expressing positive sentiments. They use emojis to convey warmth and friendliness, indicating a mutual intention to establish a pleasant and approachable tone. The interaction is brief and maintains a consistent level of cordiality, with no shift in strategy or sentiment.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:1, water:1, firewood:2}, agent2:{food:2, water:2, firewood:1}}",1.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,17.0,20.0,17.0,0.0,20.0
+10,scd,llama70b,True,"Agent 2: hello!
+Agent 1: Hello.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: firewood, Low priority: food
+Agent 2: High priority: water, Medium priority: firewood, Low priority: food
+
+Conversation with intentions:
+Agent 2: hello!
+Agent 1: Hello. The conversation begins with a friendly greeting, establishing a polite and open tone. Both participants seem receptive and ready to engage. As the dialogue progresses, the speakers maintain a cooperative and respectful demeanor, indicating a mutual willingness to communicate effectively. There is a consistent effort to understand each other's perspectives, suggesting an intention to reach a constructive outcome. The conversation remains positive and focused on maintaining a productive exchange.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,
+11,scd,llama70b,True,"Agent 1: hi how are you are you ready for your trip
+Agent 2: I'm ready, I just would like to have a little extra stuff. How about you?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: firewood, Low priority: water
+Agent 2: High priority: food, Medium priority: firewood, Low priority: water
+
+Conversation with intentions:
+Agent 1: hi how are you are you ready for your trip
+Agent 2: I'm ready, I just would like to have a little extra stuff. How about you? The conversation begins with a friendly and casual tone, as one speaker checks in on the other's readiness for an upcoming trip. The second speaker responds positively, expressing readiness but also a desire for additional items. The interaction maintains a light and amicable atmosphere, with both participants showing interest in each other's situations, suggesting a mutual engagement and supportive dynamic.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,
+12,scd,llama70b,True,"Agent 1: Hi. I'm most interested in water. What's your highest priority?
+Agent 2: I really need water too. I have a young baby and will do a lot of washing.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: firewood, Low priority: food
+Agent 2: High priority: water, Medium priority: firewood, Low priority: food
+
+Conversation with intentions:
+Agent 1: Hi. I'm most interested in water. What's your highest priority?
+Agent 2: I really need water too. I have a young baby and will do a lot of washing. The conversation begins with both speakers expressing a mutual interest in water, with the second speaker emphasizing a personal need due to having a young baby. The interaction is cooperative, with both parties aligning on a shared priority. The second speaker uses personal circumstances to underscore their need, potentially as a persuasive strategy to elicit empathy and agreement from the first speaker. The tone remains amicable and understanding throughout.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[3], water:[1], firewood:[2]}, agent2:{food:[0], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,
+13,scd,llama70b,True,"Agent 2: Hello there...! Are you excited for the camp
+Agent 1: Hey, I am really excited! 🙂
+Agent 2: Wow.. Cool","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: firewood, Low priority: food
+Agent 2: High priority: food, Medium priority: water, Low priority: firewood
+
+Conversation with intentions:
+Agent 2: Hello there...! Are you excited for the camp
+Agent 1: Hey, I am really excited! 🙂
+Agent 2: Wow.. Cool The conversation begins with a friendly and enthusiastic tone as both participants express excitement about an upcoming event. The first speaker initiates the conversation with a positive inquiry, and the second speaker responds with matching enthusiasm. The first speaker then acknowledges the shared excitement, maintaining the upbeat and engaging atmosphere. Overall, the interaction is light-hearted and centered around mutual anticipation, with both participants displaying positive sentiments throughout.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:0, water:2, firewood:1}, agent2:{food:3, water:1, firewood:2}}",0.0,0.0,1.0,2.0,3.0,1.0,3.0,3.0,2.0,1.0,0.0,2.0,14.0,25.0,17.0,9.0,23.0
+14,scd,llama70b,True,"Agent 1: n
+Agent 2: Hello there I was just thinking of the upcoming camping trip.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: food, Low priority: firewood
+Agent 2: High priority: firewood, Medium priority: water, Low priority: food
+
+Conversation with intentions:
+Agent 1: n
+Agent 2: Hello there I was just thinking of the upcoming camping trip. The conversation begins with a casual greeting and a mention of an upcoming event, suggesting a friendly and anticipatory tone. The speakers appear to be in the early stages of planning or discussing details, with an intention to share excitement or coordinate plans. As the conversation progresses, it is likely that the speakers will maintain a collaborative and positive approach, focusing on logistics, shared interests, or expectations related to the event.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[0]}, agent2:{food:[2], water:[1], firewood:[3]}}",,,,,,,,,,,,,,,,,
+15,scd,llama70b,True,"Agent 2: Hi.  I am looking at possibly taking 3 of the food packages, 2 of the water packages and one of the firewood.
+Agent 1: Hi. Why do you need so many food packages?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: firewood, Low priority: water
+Agent 2: High priority: food, Medium priority: water, Low priority: firewood
+
+Conversation with intentions:
+Agent 2: Hi.  I am looking at possibly taking 3 of the food packages, 2 of the water packages and one of the firewood.
+Agent 1: Hi. Why do you need so many food packages? The conversation begins with one speaker expressing interest in acquiring multiple packages of food, water, and firewood. The other speaker responds with curiosity, questioning the necessity of such a quantity of food packages. This initiates a shift from a transactional exchange to a more inquisitive dialogue, suggesting a potential negotiation or deeper exploration of the first speaker's needs or intentions. The interaction reflects a dynamic of inquiry and justification.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[1], water:[1], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,
+16,scd,llama70b,True,"Agent 1: Hi, this is my first time camping and I want to make sure I have enough stuff.  I would like three food, three firewood, and two water.  What do you think?
+Agent 2: I have been camping a few times and pretty much know what I need to be comfortable and healthy.  Warmth and hydration are important for me.  So, I am thinking 2 firewood, 2 water and 0 food.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: firewood, Low priority: water
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation with intentions:
+Agent 1: Hi, this is my first time camping and I want to make sure I have enough stuff.  I would like three food, three firewood, and two water.  What do you think?
+Agent 2: I have been camping a few times and pretty much know what I need to be comfortable and healthy.  Warmth and hydration are important for me.  So, I am thinking 2 firewood, 2 water and 0 food. The conversation begins with mturk_agent_1 expressing uncertainty and seeking advice on camping supplies, showing a desire for preparedness. Mturk_agent_2 responds with confidence, drawing on personal experience to prioritize warmth and hydration over food. The interaction highlights a contrast in experience levels, with mturk_agent_1 open to guidance and mturk_agent_2 asserting a more minimalist approach based on past camping experiences. Both speakers maintain their initial perspectives, focusing on their individual priorities for the camping trip.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,
+17,scd,llama70b,True,"Agent 1: Hello, how are you today?
+Agent 2: hello, I am good, I am very excited about this trip. how are you?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: firewood, Low priority: food
+Agent 2: High priority: water, Medium priority: food, Low priority: firewood
+
+Conversation with intentions:
+Agent 1: Hello, how are you today?
+Agent 2: hello, I am good, I am very excited about this trip. how are you? The conversation begins with a friendly and polite exchange of greetings. One speaker expresses excitement about an upcoming trip, indicating a positive and enthusiastic mood. The other speaker reciprocates the polite tone, maintaining a warm and engaging atmosphere. The interaction suggests a mutual interest in each other's well-being and experiences, setting a positive and open tone for further discussion.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,
+18,scd,llama70b,True,"Agent 1: Hello, what are your preferences for food, water, and firewood?
+Agent 2: Hey, nice getting to interact with you. I would like to have additional packages of firewood and water
+Agent 1: Okay, I would like to have additional packages of food and water.
+Agent 2: I would take 2 packages of firewood and 1 each of water and food. Let me know your thoughts.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: water, Low priority: firewood
+Agent 2: High priority: firewood, Medium priority: water, Low priority: food
+
+Conversation with intentions:
+Agent 1: Hello, what are your preferences for food, water, and firewood?
+Agent 2: Hey, nice getting to interact with you. I would like to have additional packages of firewood and water
+Agent 1: Okay, I would like to have additional packages of food and water.
+Agent 2: I would take 2 packages of firewood and 1 each of water and food. Let me know your thoughts. The conversation begins with a friendly tone as both speakers express their preferences. The interaction remains cordial and cooperative, with each participant clearly stating their needs. As the conversation progresses, mturk_agent_2 proposes a specific allocation of resources, inviting mturk_agent_1 to share their perspective. The dialogue reflects a collaborative approach, with both parties aiming to reach a mutually beneficial agreement.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:2, water:1, firewood:0}, agent2:{food:1, water:1, firewood:2}}",2.0,2.0,2.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,2.0,2.0,14.0,17.0,21.0,49.0,17.0
+20,scd,llama70b,True,"Agent 2: hi there🙂
+Agent 1: Hello, I hope we can reach a good deal. I am in desperate need of firewoood and water
+Agent 2: I also need water.  You would not believe how much my family and I sweat!","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: water, Low priority: food
+Agent 2: High priority: water, Medium priority: food, Low priority: firewood
+
+Conversation with intentions:
+Agent 2: hi there🙂
+Agent 1: Hello, I hope we can reach a good deal. I am in desperate need of firewoood and water
+Agent 2: I also need water.  You would not believe how much my family and I sweat! The conversation begins with a friendly greeting and quickly moves to expressing needs, with one speaker emphasizing urgency. Both participants share a common need, creating a sense of mutual understanding. The tone remains light-hearted despite the underlying urgency, as one speaker uses humor to describe their situation. This approach suggests an intention to maintain a cooperative and amicable negotiation atmosphere, aiming to find a mutually beneficial solution.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[0], water:[1], firewood:[3]}, agent2:{food:[3], water:[2], firewood:[0]}}",,,,,,,,,,,,,,,,,
+21,scd,llama70b,True,"Agent 2: Hello! how are you doing? are you excited to go camping
+Agent 1: Yep! Been closed up too long with this Covid-19 stuff.😡Wish it would like the Prez sez ""go away""","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: food, Low priority: water
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation with intentions:
+Agent 2: Hello! how are you doing? are you excited to go camping
+Agent 1: Yep! Been closed up too long with this Covid-19 stuff.😡Wish it would like the Prez sez ""go away"" The conversation begins with a friendly greeting and an inquiry about excitement for camping. The first speaker expresses enthusiasm for the upcoming camping trip, indicating a desire for outdoor activities after being restricted due to COVID-19. The sentiment shifts slightly as frustration with the pandemic is expressed, referencing a desire for it to end. The conversation reflects a mix of anticipation for future plans and dissatisfaction with current circumstances.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[1], water:[1], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,
+22,scd,llama70b,True,"Agent 1: Hello, i will offer you as much food as you want for all of your fire wood.
+Agent 2: Hello, how are you?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: water, Low priority: firewood
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation with intentions:
+Agent 1: Hello, i will offer you as much food as you want for all of your fire wood.
+Agent 2: Hello, how are you? The conversation begins with mturk_agent_1 making a direct offer, indicating a transactional intention. mturk_agent_2 responds with a polite greeting, suggesting a more relational or courteous approach. This shift from a transactional to a relational tone indicates a potential divergence in conversational strategies, with mturk_agent_1 focused on negotiation and mturk_agent_2 on establishing rapport. The conversation's trajectory suggests a need for alignment in communication styles for effective negotiation.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[3], water:[1], firewood:[0]}, agent2:{food:[0], water:[2], firewood:[3]}}",,,,,,,,,,,,,,,,,
+23,scd,llama70b,True,"Agent 1: Hi
+Agent 2: Hi how are you","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: water, Low priority: firewood
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation with intentions:
+Agent 1: Hi
+Agent 2: Hi how are you The conversation begins with a simple greeting, indicating a neutral and polite tone. The second speaker follows up with a friendly inquiry about the first speaker's well-being, suggesting an intention to engage in a more personal or cordial exchange. The trajectory shows a transition from a basic greeting to a more personal interaction, with the second speaker attempting to establish a connection or rapport.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[2], firewood:[1]}, agent2:{food:[1], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,
+24,scd,llama70b,True,"Agent 2: Hello there.
+Agent 1: hi","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: water, Low priority: firewood
+Agent 2: High priority: water, Medium priority: firewood, Low priority: food
+
+Conversation with intentions:
+Agent 2: Hello there.
+Agent 1: hi The conversation begins with a neutral and polite exchange of greetings. There is no indication of sentiment, intentions, or strategies beyond the initial pleasantries, as the conversation has just started and lacks further context or development.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,
+25,scd,llama70b,True,"Agent 1: I would like to ask for 3 firewood, 1 water and 0 food. I will be in an area where no extra wood will be available and I need the wood to cook all the food that I will already have.
+Agent 2: I understand where you're coming from but I'm afraid that is not acceptable.  My family's comfort is my top priority and I will be needing at least 2 firewoods to make sure they are kept warm.  I would also request some extra water.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: water, Low priority: food
+Agent 2: High priority: firewood, Medium priority: water, Low priority: food
+
+Conversation with intentions:
+Agent 1: I would like to ask for 3 firewood, 1 water and 0 food. I will be in an area where no extra wood will be available and I need the wood to cook all the food that I will already have.
+Agent 2: I understand where you're coming from but I'm afraid that is not acceptable.  My family's comfort is my top priority and I will be needing at least 2 firewoods to make sure they are kept warm.  I would also request some extra water. The conversation begins with mturk_agent_1 expressing a specific need for resources, emphasizing a lack of availability in their area. Mturk_agent_2 acknowledges this but prioritizes their family's comfort, asserting their own needs for firewood and additional water. Both speakers maintain a firm stance on their requirements, indicating a negotiation dynamic where each party seeks to balance personal necessity with understanding the other's situation. The conversation reflects a persistent negotiation without resolution.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:0, water:2, firewood:1}, agent2:{food:3, water:1, firewood:2}}",1.0,0.0,1.0,2.0,2.0,1.0,2.0,3.0,2.0,1.0,1.0,2.0,13.0,23.0,17.0,16.0,19.0
