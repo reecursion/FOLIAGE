@@ -8,6 +8,9 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from openai import OpenAI
 from tqdm import tqdm
 import re
+import random
+import numpy as np
+import torch
 
 def seed_everything(seed):
     random.seed(seed)
@@ -16,11 +19,10 @@ def seed_everything(seed):
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = True
     torch.cuda.manual_seed_all(seed)
-    transformers.set_seed(seed)
 
 class ConversationForecastingWithIntentions:
     def __init__(self, dataset_type, model_type="gpt", summary_type="none", 
-                 ratio=0.5, batch_size=5, include_intentions=False):
+                 ratio=0.5, batch_size=5, include_intentions=False, seed=42):
         self.dataset_type = dataset_type
         self.model_type = model_type
         self.summary_type = summary_type
@@ -36,7 +38,7 @@ class ConversationForecastingWithIntentions:
             self.dataset_dir = "/home/gganeshl/FOLIAGE/datasets/casino/final"
         
         # Base output directory
-        base_output_dir = f"/home/gganeshl/FOLIAGE/src/icl/results/{dataset_type}/{model_type}/seed_{args.seed}"
+        base_output_dir = f"/home/gganeshl/FOLIAGE/src/icl/results/{dataset_type}/{model_type}/seed_{seed}"
         
         # Determine the appropriate subdirectory based on intentions and summary type
         if self.include_intentions and self.summary_type == "none":
@@ -59,7 +61,7 @@ class ConversationForecastingWithIntentions:
             self.client = OpenAI(api_key=self.api_key)
         elif self.model_type == "llama70b" or self.model_type == "llama8b":
             self.client = OpenAI(
-                base_url="http://babel-15-36:8081/v1",
+                base_url="http://babel-11-13:8081/v1",
                 api_key="EMPTY"
             )
         
@@ -723,7 +725,8 @@ def main():
         summary_type=args.summary_type,
         ratio=args.ratio,
         batch_size=args.batch_size,
-        include_intentions=args.include_intentions
+        include_intentions=args.include_intentions,
+        seed=args.seed,
     )
 
     forecaster.run()
