@@ -9,6 +9,15 @@ from openai import OpenAI
 from tqdm import tqdm
 import re
 
+def seed_everything(seed):
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = True
+    torch.cuda.manual_seed_all(seed)
+    transformers.set_seed(seed)
+
 class ConversationForecastingWithIntentions:
     def __init__(self, dataset_type, model_type="gpt", summary_type="none", 
                  ratio=0.5, batch_size=5, include_intentions=False):
@@ -27,7 +36,7 @@ class ConversationForecastingWithIntentions:
             self.dataset_dir = "/home/gganeshl/FOLIAGE/datasets/casino/final"
         
         # Base output directory
-        base_output_dir = f"/home/gganeshl/FOLIAGE/src/icl/results/{dataset_type}/{model_type}"
+        base_output_dir = f"/home/gganeshl/FOLIAGE/src/icl/results/{dataset_type}/{model_type}/seed_{args.seed}"
         
         # Determine the appropriate subdirectory based on intentions and summary type
         if self.include_intentions and self.summary_type == "none":
@@ -85,9 +94,9 @@ class ConversationForecastingWithIntentions:
             speaker = row['speaker']
             if self.dataset_type == "p4g":
                 if speaker == "EE":
-                    speaker = "Persuadee"
+                    speaker = "Persuadee (EE)"
                 elif speaker == "ER":
-                    speaker = "Persuader"
+                    speaker = "Persuader (ER)"
             elif self.dataset_type == "casino":
                 if speaker == "mturk_agent_1":
                     speaker = "Agent 1"
@@ -159,13 +168,9 @@ Agent 2: High priority: {agent2_high}, Medium priority: {agent2_medium}, Low pri
 Conversation{intentions_note}:
 {conversation}{summary_part}
 
-Based on this negotiation, predict the final allocation of resources. Provide your answer in the following format, with no explanation:
-AGENT_1_FOOD: [number]
-AGENT_1_WATER: [number]
-AGENT_1_FIREWOOD: [number]
-AGENT_2_FOOD: [number]
-AGENT_2_WATER: [number]
-AGENT_2_FIREWOOD: [number]
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {{agent1:{{food:[number], water:[number], firewood:[number]}}, agent2:{{food:[number], water:[number], firewood:[number]}}}}
 
 Remember: Each resource must sum to exactly 3 units across both agents."""
             
@@ -217,49 +222,51 @@ Remember: Each resource must sum to exactly 3 units across both agents."""
 
     def extract_allocation(self, response):
         """Extract final allocation from model output for Casino dataset."""
+        ALLOCATION_PATTERN = re.compile(r'{agent1:{food:(\d+),\s*water:(\d+),\s*firewood:(\d+)},\s*agent2:{food:(\d+),\s*water:(\d+),\s*firewood:(\d+)}}', re.IGNORECASE)
         try:
-            if "<|end_header_id|>" in response:
-                response = response.split("<|end_header_id|>")[1].strip()
-            elif "assistant" in response:
-                response = response.split("assistant")[1].strip()
-
-            allocation = {'agent1': {}, 'agent2': {}}
-
-            # Agent 1
-            agent1_food = re.search(r'AGENT_1_FOOD:\s*(\d+)', response, re.IGNORECASE)
-            agent1_water = re.search(r'AGENT_1_WATER:\s*(\d+)', response, re.IGNORECASE)
-            agent1_firewood = re.search(r'AGENT_1_FIREWOOD:\s*(\d+)', response, re.IGNORECASE)
-            
-            # Agent 2
-            agent2_food = re.search(r'AGENT_2_FOOD:\s*(\d+)', response, re.IGNORECASE)
-            agent2_water = re.search(r'AGENT_2_WATER:\s*(\d+)', response, re.IGNORECASE)
-            agent2_firewood = re.search(r'AGENT_2_FIREWOOD:\s*(\d+)', response, re.IGNORECASE)
-
-            if all([agent1_food, agent1_water, agent1_firewood, agent2_food, agent2_water, agent2_firewood]):
-                allocation['agent1']['food'] = int(agent1_food.group(1))
-                allocation['agent1']['water'] = int(agent1_water.group(1))
-                allocation['agent1']['firewood'] = int(agent1_firewood.group(1))
-                allocation['agent2']['food'] = int(agent2_food.group(1))
-                allocation['agent2']['water'] = int(agent2_water.group(1))
-                allocation['agent2']['firewood'] = int(agent2_firewood.group(1))
-
-                # DEBUG: Print parsed allocation
-                print(f"[DEBUG] Parsed allocation: {allocation}")
-
-                # Enforce sum constraint
-                for resource in ['food', 'water', 'firewood']:
-                    total = allocation['agent1'][resource] + allocation['agent2'][resource]
-                    if total != 3:
-                        print(f"[WARNING] Invalid total for {resource}: {total}.")
-
-
+            # Quick input validation
+            if not response or not isinstance(response, str):
+                return None
+                
+            # First try direct pattern matching on the original text
+            braces_match = ALLOCATION_PATTERN.search(response)
+            if braces_match:
+                allocation = {'agent1': {}, 'agent2': {}}
+                allocation['agent1']['food'] = int(braces_match.group(1))
+                allocation['agent1']['water'] = int(braces_match.group(2))
+                allocation['agent1']['firewood'] = int(braces_match.group(3))
+                allocation['agent2']['food'] = int(braces_match.group(4))
+                allocation['agent2']['water'] = int(braces_match.group(5))
+                allocation['agent2']['firewood'] = int(braces_match.group(6))
                 return allocation
-
-            print(f"[WARNING] Could not match all fields. Response: {response}")
+                
+            # Fall back to original logic if direct match fails
+            processed_response = response
+            if "<|end_header_id|>" in response:
+                processed_response = response.split("<|end_header_id|>")[1].strip()
+            elif "assistant" in response:
+                processed_response = response.split("assistant")[1].strip()
+            elif "OUTCOME" in response:
+                parts = response.split("OUTCOME")
+                if len(parts) > 2:
+                    processed_response = "OUTCOME".join(parts[2:]).strip()
+            
+            # Try the regex on the processed text
+            allocation = {'agent1': {}, 'agent2': {}}
+            braces_match = ALLOCATION_PATTERN.search(processed_response)
+            if braces_match:
+                allocation['agent1']['food'] = int(braces_match.group(1))
+                allocation['agent1']['water'] = int(braces_match.group(2))
+                allocation['agent1']['firewood'] = int(braces_match.group(3))
+                allocation['agent2']['food'] = int(braces_match.group(4))
+                allocation['agent2']['water'] = int(braces_match.group(5))
+                allocation['agent2']['firewood'] = int(braces_match.group(6))
+                return allocation
+                
             return None
         except Exception as e:
             print(f"[ERROR] Failed to extract allocation: {e}")
-            return None
+            return None    
 
     def calculate_utility_score(self, allocation, preferences):
         """Calculate utility score based on allocation and preferences."""
@@ -702,8 +709,13 @@ def main():
                         help="Number of dialogues to process in each batch")
     parser.add_argument("--include_intentions", action="store_true",
                         help="Include speaker intentions in the conversation format")
+    parser.add_argument("--seed", type=int, default=42,
+                        help="Seed")
+
 
     args = parser.parse_args()
+
+    seed_everything(args.seed)
 
     forecaster = ConversationForecastingWithIntentions(
         dataset_type=args.dataset_type,
