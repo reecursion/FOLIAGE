@@ -5,7 +5,7 @@ import re
 from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
 
 # Path to the directory containing the CSV files
-base_dir = "/home/gganeshl/FOLIAGE/src/sft/results/p4g"
+base_dir = "/home/rithviks/FOLIAGE/src/sft/results/p4g"
 
 # Function to calculate metrics for a single file
 def analyze_file(filepath):
@@ -40,72 +40,62 @@ def analyze_file(filepath):
         valid_data['predicted_binary'] = valid_data['predicted_label']
         
         # Group by fold and calculate metrics for each fold
-        fold_metrics = {}
-        for fold, fold_data in valid_data.groupby('fold'):
+        # fold_metrics = {}
+        # for fold, fold_data in valid_data.groupby('fold'):
             # Skip if fold has no data
-            if len(fold_data) == 0:
-                continue
+            # if len(fold_data) == 0:
+            #     continue
             
-            print(f"\nAnalyzing Fold {fold}: {len(fold_data)} samples")
+            # print(f"\nAnalyzing Fold {fold}: {len(fold_data)} samples")
                 
-            actual = fold_data['actual_binary'].values
-            predicted = fold_data['predicted_binary'].values
+        actual = valid_data['actual_binary'].values
+        predicted = valid_data['predicted_binary'].values
             
-            # Calculate metrics
-            precision = precision_score(actual, predicted, zero_division=0, average="macro")
-            recall = recall_score(actual, predicted, zero_division=0, average="macro")
-            f1 = f1_score(actual, predicted, zero_division=0, average="macro")
-            accuracy = accuracy_score(actual, predicted)
+        # Calculate metrics
+        precision = precision_score(actual, predicted, zero_division=0, average="macro")
+        recall = recall_score(actual, predicted, zero_division=0, average="macro")
+        f1 = f1_score(actual, predicted, zero_division=0, average="macro")
+        accuracy = accuracy_score(actual, predicted)
+        
+        # Count true/false positives/negatives
+        tp = ((actual == 1) & (predicted == 1)).sum()
+        fp = ((actual == 0) & (predicted == 1)).sum()
+        tn = ((actual == 0) & (predicted == 0)).sum()
+        fn = ((actual == 1) & (predicted == 0)).sum()
+        
+        # Count actual donations and predictions
+        true_count = (actual == 1).sum()
+        false_count = (actual == 0).sum()
+        yes_count = (predicted == 1).sum()
+        no_count = (predicted == 0).sum()
             
-            # Count true/false positives/negatives
-            tp = ((actual == 1) & (predicted == 1)).sum()
-            fp = ((actual == 0) & (predicted == 1)).sum()
-            tn = ((actual == 0) & (predicted == 0)).sum()
-            fn = ((actual == 1) & (predicted == 0)).sum()
+        # print(f"  Actually donated: {true_count}/{len(fold_data)} ({true_count/len(fold_data)*100:.1f}%)")
+        # print(f"  Predicted donations: {yes_count}/{len(fold_data)} ({yes_count/len(fold_data)*100:.1f}%)")
             
-            # Count actual donations and predictions
-            true_count = (actual == 1).sum()
-            false_count = (actual == 0).sum()
-            yes_count = (predicted == 1).sum()
-            no_count = (predicted == 0).sum()
-            
-            print(f"  Actually donated: {true_count}/{len(fold_data)} ({true_count/len(fold_data)*100:.1f}%)")
-            print(f"  Predicted donations: {yes_count}/{len(fold_data)} ({yes_count/len(fold_data)*100:.1f}%)")
-            
-            fold_metrics[fold] = {
-                'precision': precision,
-                'recall': recall,
-                'f1': f1,
-                'accuracy': accuracy,
-                'true_positives': tp,
-                'false_positives': fp,
-                'true_negatives': tn,
-                'false_negatives': fn,
-                'donation_true': true_count,
-                'donation_false': false_count,
-                'predicted_yes': yes_count,
-                'predicted_no': no_count,
-                'total': len(fold_data)
-            }
+        final_metrics = {
+            'precision': precision,
+            'recall': recall,
+            'f1': f1,
+            'accuracy': accuracy,
+            'true_positives': tp,
+            'false_positives': fp,
+            'true_negatives': tn,
+            'false_negatives': fn,
+            'donation_true': true_count,
+            'donation_false': false_count,
+            'predicted_yes': yes_count,
+            'predicted_no': no_count,
+            'total': len(valid_data)
+        }
         
         # Calculate average metrics across all folds
-        if fold_metrics:
-            avg_metrics = {
-                'precision': np.mean([m['precision'] for m in fold_metrics.values()]),
-                'recall': np.mean([m['recall'] for m in fold_metrics.values()]),
-                'f1': np.mean([m['f1'] for m in fold_metrics.values()]),
-                'accuracy': np.mean([m['accuracy'] for m in fold_metrics.values()]),
-                'total': sum([m['total'] for m in fold_metrics.values()]),
-                'donation_true': sum([m['donation_true'] for m in fold_metrics.values()]),
-                'donation_false': sum([m['donation_false'] for m in fold_metrics.values()]),
-                'predicted_yes': sum([m['predicted_yes'] for m in fold_metrics.values()]),
-                'predicted_no': sum([m['predicted_no'] for m in fold_metrics.values()])
-            }
-            fold_metrics['average'] = avg_metrics
+        metrics = {}
+        metrics['average'] = final_metrics
+
             
         return {
             'filename': os.path.basename(filepath),
-            'fold_metrics': fold_metrics,
+            'fold_metrics': metrics,
             'fold_counts_before': fold_counts_before,
             'fold_counts_after': fold_counts_after
         }
@@ -118,21 +108,24 @@ def analyze_file(filepath):
 
 # Map file pattern to configuration type based on both directory and filename
 def map_file_to_config_type(filepath, filename):
-    
-    if 'none' in filename:
+    if '_none_predictions' in filename:
         return '(i) Utterance'
-    elif 'local' in filename:
+    elif '_local_predictions' in filename:
         return '(ii) Utterance + Intentions'
-    elif 'global_scd' in filename:
+    elif '_global_scd_predictions' in filename:
         return '(iii) Utterance + SCD Summary'
-    elif 'global_scm' in filename:
+    elif '_global_scm_predictions' in filename:
         return '(iv) Utterance + SCM Summary'
-    elif 'both_scd' in filename:
-        return '(v) Utterance + Intentions + SCD'
-    elif 'both_scm' in filename:
-        return '(vi) Utterance + Intentions + SCM'
-    
-    return 'Unknown'
+    elif '_global_traditional_predictions' in filename:
+        return '(v) Utterance + Traditional Summary'
+    elif '_both_scd_predictions' in filename:
+        return '(vi) Utt + Intentions + SCD Summary'
+    elif '_both_scm_predictions' in filename:
+        return '(vii) Utt + Intentions + SCM Summary'
+    elif '_both_traditional_predictions' in filename:
+        return '(viii) Utt + Intentions + Traditional Summary'
+    else:
+        return 'Unknown'
 
 # Extract ratio from filename
 def extract_ratio(filename):
@@ -180,8 +173,10 @@ def process_all_files():
             '(ii) Utterance + Intentions',
             '(iii) Utterance + SCD Summary',
             '(iv) Utterance + SCM Summary',
-            '(v) Utterance + Intentions + SCD',
-            '(vi) Utterance + Intentions + SCM'
+            '(v) Utterance + Traditional Summary',
+            '(vi) Utt + Intentions + SCD Summary',
+            '(vii) Utt + Intentions + SCM Summary',
+            '(viii) Utt + Intentions + Traditional Summary'
         ]
         
         ratios = ['0.25', '0.375', '0.5', '0.625', '0.75']
@@ -194,7 +189,7 @@ def process_all_files():
                 table_data[metric_type][config_type] = {}
                 
                 for ratio in ratios:
-                    table_data[metric_type][config_type][ratio] = None
+                    table_data[metric_type][config_type][ratio] = 0
         
         # Fill in table data
         for result in results:
@@ -208,13 +203,24 @@ def process_all_files():
                 continue
             
             # Get average metrics across all folds
+            print("HIRES")
+            print(result)
             fold_metrics = result.get('fold_metrics', {})
+
             if 'average' in fold_metrics:
                 avg_metrics = fold_metrics['average']
+
                 
                 for metric in ['precision', 'recall', 'f1', 'accuracy']:
                     if metric in avg_metrics:
-                        table_data[metric][config_type][ratio] = avg_metrics[metric]
+                        table_data[metric][config_type][ratio] += avg_metrics[metric]
+
+        for metric in table_data:
+            for config_type in table_data[metric]:
+                for ratio in table_data[metric][config_type]:
+                    table_data[metric][config_type][ratio] /= 3
+
+
         
         # Generate combined LaTeX table
         print("\n--- Combined Table for All Metrics ---")
