@@ -10918,4 +10918,970 @@ Persuadee (EE): Do you work for them?
 Persuader (ER): Nope, I don't work for them.
 Persuadee (EE): Okay, well I see that they have an A rating on charity watch with only 13% going to overhead.","You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
-Conv
+Conversation:
+Persuader (ER): Hey there :) How are you feeling today?
+Persuadee (EE): I'm fine how are you.
+Persuader (ER): Not too bad, all things considered
+Persuadee (EE): Thats good to hear.
+Persuadee (EE): Where are you from?
+Persuader (ER): U.S. How about you?
+Persuader (ER): Think they matched us with our complete opposites? :P
+Persuadee (EE): Same.
+Persuadee (EE): Maybe, I'm not sure.
+Persuader (ER): Haha I am trying to figure out if you're a bot.
+Persuader (ER): I'm not, if you're wondering :) If you are you're pretty good.
+Persuader (ER): Congrats!
+Persuadee (EE): Lol.  I'm not a bot......
+Persuader (ER): Haha nice, I'll take your word for it for now :)
+Persuader (ER): Ok if we talk about some serious stuff?
+Persuadee (EE): Sure, let's do it.
+Persuadee (EE): I'm not sure if I'm donating to you or if you're donating to me.
+Persuader (ER): Neither of us are donating to each other actually, which is probably a good thing.
+Persuader (ER): What have you heard about the charity called ""Save the Children""?
+Persuadee (EE): Yes I have, I think they are from the UK.
+Persuader (ER): They're international - a pretty solid, well-known organization with a good track record.
+Persuader (ER): Basically they work to protect children around the world.
+Persuader (ER): They fundraise and advocate for children suffering from disasters or war or poverty.
+Persuader (ER): So we have the opportunity today to donate some of our payment to them.
+Persuadee (EE): Do you work for them?
+Persuader (ER): Nope, I don't work for them.
+Persuadee (EE): Okay, well I see that they have an A rating on charity watch with only 13% going to overhead.","Persuader (ER): That's right, they're very transparent and responsible with their funds.
+Persuader (ER): So if you're interested, we could split our payment to them today. Or you could donate the whole thing, if you'd like.
+Persuadee (EE): I don't know.  I'm not sure if I want to give up my whole payment.  I was really looking forward to it.
+Persuader (ER): I totally get it. It's a big ask. You can do whatever you feel comfortable with.",yes,,0,0.5
+20180829-084042_694_live,none,llama70b,False,"Persuader (ER): hi
+Persuadee (EE): how are you today?
+Persuader (ER): so you gonna donate or what
+Persuadee (EE): sure I can donate but what is the game?
+Persuader (ER): you gotta donate your payment
+Persuadee (EE): If I donate, what do I get in return?
+Persuadee (EE): Will you donate the same amount back to me?
+Persuader (ER): No, I don\'t believe that\'s the case.
+Persuader (ER): However, it\'s for a good cause.
+Persuader (ER): Save the children.
+Persuader (ER): dont you like children?
+Persuader (ER): they need your help.
+Persuader (ER): its just 2 bucks. or ill tell you what, how about just half?
+Persuadee (EE): I'll give .50 if you send are actually an mturk human.
+Persuadee (EE): respond with your mturk number and I'll donate .50
+Persuader (ER): why should i give you my mturk number?
+Persuader (ER): also, i think you should be a little bit more generous, come on bro, 1 dollar wont kill you.
+Persuadee (EE): ok, I'll do $1 but I want to know your mturk worker ID to prove it's a person
+Persuader (ER): no you could use my info to do some sketchy crap.
+Persuader (ER): Don't i sound human, what kind of AI talks like this.
+Persuader (ER): Also, im skeptical to see if youre actually human.
+Persuader (ER): tell me a joke to prove it.
+Persuader (ER): robots cant laugh, a im sure you know
+Persuadee (EE): That's true.
+Persuadee (EE): I do believe you are human based on the conversation.
+Persuadee (EE): I'll donate a $1.
+Persuader (ER): sounds good thanks","You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): hi
+Persuadee (EE): how are you today?
+Persuader (ER): so you gonna donate or what
+Persuadee (EE): sure I can donate but what is the game?
+Persuader (ER): you gotta donate your payment
+Persuadee (EE): If I donate, what do I get in return?
+Persuadee (EE): Will you donate the same amount back to me?
+Persuader (ER): No, I don\'t believe that\'s the case.
+Persuader (ER): However, it\'s for a good cause.
+Persuader (ER): Save the children.
+Persuader (ER): dont you like children?
+Persuader (ER): they need your help.
+Persuader (ER): its just 2 bucks. or ill tell you what, how about just half?
+Persuadee (EE): I'll give .50 if you send are actually an mturk human.
+Persuadee (EE): respond with your mturk number and I'll donate .50
+Persuader (ER): why should i give you my mturk number?
+Persuader (ER): also, i think you should be a little bit more generous, come on bro, 1 dollar wont kill you.
+Persuadee (EE): ok, I'll do $1 but I want to know your mturk worker ID to prove it's a person
+Persuader (ER): no you could use my info to do some sketchy crap.
+Persuader (ER): Don't i sound human, what kind of AI talks like this.
+Persuader (ER): Also, im skeptical to see if youre actually human.
+Persuader (ER): tell me a joke to prove it.
+Persuader (ER): robots cant laugh, a im sure you know
+Persuadee (EE): That's true.
+Persuadee (EE): I do believe you are human based on the conversation.
+Persuadee (EE): I'll donate a $1.
+Persuader (ER): sounds good thanks","assistant<|end_header_id|>
+
+DONATION: YES",no,yes,0,0.0
+20180902-222227_892_live,none,llama70b,False,"Persuader (ER): hi there!
+Persuadee (EE): Hello.
+Persuadee (EE): How you doin
+Persuader (ER): pretty good.
+Persuader (ER): It looks like this chat is supposed to be to learn more about ""Save the Children"".
+Persuader (ER): Have you ever heard of it?
+Persuadee (EE): Yes I am aware of that charity
+Persuader (ER): It seems vaguely familiar but I never paid attention specifically.
+Persuader (ER): Have you ever donated to them?
+Persuadee (EE): I have not but I have to some others recently
+Persuader (ER): Do you feel that Save the Children is a good charity to give to?
+Persuader (ER): From what I'm reading, it sounds like a great cause
+Persuadee (EE): I know a little can you maybe provide some info for me?
+Persuader (ER): It seems to be international, and supports children in developing countries.
+Persuader (ER): It's apparently very influential in war zones like Syria
+Persuadee (EE): Oh wow that is good to know.
+Persuadee (EE): I know Syria is a mess recently
+Persuader (ER): Absolutely.
+Persuader (ER): It says on their site that in the first two months of this year alone, 1000 children were killed or injured there
+Persuadee (EE): Ugh that is rough..  Nobody deserves that in this world
+Persuader (ER): I can't imagine what that's like for the parents.
+Persuader (ER): As a mom myself, I'm thinking about donating my earnings from this task to them
+Persuadee (EE): That sounds like a good idea so what amount is the max i can donate?
+Persuader (ER): From what I can tell, we can donate anywhere from 0 to $2 (the full payment).
+Persuader (ER): Then through the official Save the Children website, I'm sure there's no max (and there'd be a tax deduction)
+Persuadee (EE): Ok good to know.
+Persuadee (EE): Thank you very much forthat info you have been very helpful!","You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): hi there!
+Persuadee (EE): Hello.
+Persuadee (EE): How you doin
+Persuader (ER): pretty good.
+Persuader (ER): It looks like this chat is supposed to be to learn more about ""Save the Children"".
+Persuader (ER): Have you ever heard of it?
+Persuadee (EE): Yes I am aware of that charity
+Persuader (ER): It seems vaguely familiar but I never paid attention specifically.
+Persuader (ER): Have you ever donated to them?
+Persuadee (EE): I have not but I have to some others recently
+Persuader (ER): Do you feel that Save the Children is a good charity to give to?
+Persuader (ER): From what I'm reading, it sounds like a great cause
+Persuadee (EE): I know a little can you maybe provide some info for me?
+Persuader (ER): It seems to be international, and supports children in developing countries.
+Persuader (ER): It's apparently very influential in war zones like Syria
+Persuadee (EE): Oh wow that is good to know.
+Persuadee (EE): I know Syria is a mess recently
+Persuader (ER): Absolutely.
+Persuader (ER): It says on their site that in the first two months of this year alone, 1000 children were killed or injured there
+Persuadee (EE): Ugh that is rough..  Nobody deserves that in this world
+Persuader (ER): I can't imagine what that's like for the parents.
+Persuader (ER): As a mom myself, I'm thinking about donating my earnings from this task to them
+Persuadee (EE): That sounds like a good idea so what amount is the max i can donate?
+Persuader (ER): From what I can tell, we can donate anywhere from 0 to $2 (the full payment).
+Persuader (ER): Then through the official Save the Children website, I'm sure there's no max (and there'd be a tax deduction)
+Persuadee (EE): Ok good to know.
+Persuadee (EE): Thank you very much forthat info you have been very helpful!","assistant<|end_header_id|>
+
+DONATION: YES",yes,yes,1,2.0
+20180903-094545_472_live,none,llama70b,False,"Persuader (ER): Hello how are you today?
+Persuadee (EE): I'm good.
+Persuadee (EE): How are you?
+Persuader (ER): I am doing great!
+Persuader (ER): I am here to let you know about this amazing international foundation called Save the Children that promotes children's rights, provides relief and helps support them in developing countries.
+Persuadee (EE): Please tell me more.
+Persuader (ER): These children are being used in horrific ways, the food and supplies that are supposed to be going to them are being stolen and we are trying to gather money to ensure the supplies get to these children who really need these supplies and help. With a donation today, not only will we be able to ensure the supply lines safely reach villages, but doctors will also go and help the children with medical care they desperately need.
+Persuader (ER): All I ask is that you donate a portion of your task payment to this charity to help the children.
+Persuadee (EE): How do I know this charity is legit?
+Persuader (ER): You are free to look up any information you like at  URL
+Persuadee (EE): How much of the donations goto the children and the effort?
+Persuader (ER): 100% of your donation will go directly to Save the Children.
+Persuader (ER): Just think of it this way, instead of getting your morning coffee, or that bag of chips at lunch, you could donate $2 today and help ensure that 3 children get the care they need and food in their stomachs.
+Persuadee (EE): Does 100% go to the effort directly or does any of the monies go to employees like the director of the charity ect?
+Persuader (ER): The research team will collect all donations and send it all directly to Save the children.
+Persuader (ER): So it will go to pay for the flights to get the team over there, medicine, food, everything needed to help these children
+Persuadee (EE): What roughly is the percentage that goes to the running of the charity and helping the children directly?
+Persuader (ER): Like I said earlier, 100% of your donation goes directly to helping these children.
+Persuader (ER): Look, already in 2018 alone, 1,000 children have been reportedly killed or injured in intensifying violence.
+Persuader (ER): They need your help.
+Persuader (ER): They need your donation more than you do honestly.
+Persuader (ER): What is $2 to you when that money can literally save lives over there?
+Persuadee (EE): There are many scams out there that take more to profit then to actually help the kids.
+Persuadee (EE): I need to know these things before I donate even if it is as little as $2.
+Persuader (ER): You can go to the website I provided you earlier to know in your heart that this is not a scam.
+Persuader (ER): Can I count on you to help these children?
+Persuader (ER): Are you willing to trust me enough to donate your task payment to help these children?
+Persuadee (EE): I do not know in my heart that this is not a scam.","You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello how are you today?
+Persuadee (EE): I'm good.
+Persuadee (EE): How are you?
+Persuader (ER): I am doing great!
+Persuader (ER): I am here to let you know about this amazing international foundation called Save the Children that promotes children's rights, provides relief and helps support them in developing countries.
+Persuadee (EE): Please tell me more.
+Persuader (ER): These children are being used in horrific ways, the food and supplies that are supposed to be going to them are being stolen and we are trying to gather money to ensure the supplies get to these children who really need these supplies and help. With a donation today, not only will we be able to ensure the supply lines safely reach villages, but doctors will also go and help the children with medical care they desperately need.
+Persuader (ER): All I ask is that you donate a portion of your task payment to this charity to help the children.
+Persuadee (EE): How do I know this charity is legit?
+Persuader (ER): You are free to look up any information you like at  URL
+Persuadee (EE): How much of the donations goto the children and the effort?
+Persuader (ER): 100% of your donation will go directly to Save the Children.
+Persuader (ER): Just think of it this way, instead of getting your morning coffee, or that bag of chips at lunch, you could donate $2 today and help ensure that 3 children get the care they need and food in their stomachs.
+Persuadee (EE): Does 100% go to the effort directly or does any of the monies go to employees like the director of the charity ect?
+Persuader (ER): The research team will collect all donations and send it all directly to Save the children.
+Persuader (ER): So it will go to pay for the flights to get the team over there, medicine, food, everything needed to help these children
+Persuadee (EE): What roughly is the percentage that goes to the running of the charity and helping the children directly?
+Persuader (ER): Like I said earlier, 100% of your donation goes directly to helping these children.
+Persuader (ER): Look, already in 2018 alone, 1,000 children have been reportedly killed or injured in intensifying violence.
+Persuader (ER): They need your help.
+Persuader (ER): They need your donation more than you do honestly.
+Persuader (ER): What is $2 to you when that money can literally save lives over there?
+Persuadee (EE): There are many scams out there that take more to profit then to actually help the kids.
+Persuadee (EE): I need to know these things before I donate even if it is as little as $2.
+Persuader (ER): You can go to the website I provided you earlier to know in your heart that this is not a scam.
+Persuader (ER): Can I count on you to help these children?
+Persuader (ER): Are you willing to trust me enough to donate your task payment to help these children?
+Persuadee (EE): I do not know in my heart that this is not a scam.","<|start_header_id|>assistant<|end_header_id|>
+
+DONATION: NO",no,no,1,0.0
+20180903-103835_253_live,none,llama70b,False,"Persuader (ER): Hello there, how are you?
+Persuadee (EE): Hi
+Persuader (ER): How much do you know about Save the Children?
+Persuadee (EE): I know that it is a charity.
+Persuadee (EE): I think I have seen some commercials for it in my lifetime.
+Persuader (ER): Were you aware that Save the Children assists both children in the U.S. as well as foreign countries?
+Persuadee (EE): No.
+Persuadee (EE): I figured they just tried to help children in under developed countries.
+Persuadee (EE): That's great that they help people in the U.S. as well!
+Persuadee (EE): I think it's important to help children from our country and also others.
+Persuader (ER): Yes, not only do we help out with literacy and school related causes, but also with feeding, shelter, and disaster relief for children all over the world.
+Persuadee (EE): That's wonderful!
+Persuadee (EE): Are you a top rated charity?
+Persuadee (EE): How much goes to administrative costs?
+Persuader (ER): We are a top rated charity, and have been around for nearly 100 years!
+Persuader (ER): Nearly 90% of our funds go straight to children, with the remainder going to fundraising costs and only 5% for admin costs.
+Persuadee (EE): Wow!  That's really great!
+Persuadee (EE): I've seen companies go to 70% and I can't help but judge them for it.
+Persuadee (EE): I think this is a fair percentage to have.
+Persuader (ER): We try our best to keep the children first, and have done so in aiding millions of children over the years.
+Persuadee (EE): I think that's great!
+Persuadee (EE): What country is in the most need right now?
+Persuader (ER): Both Africa and USA currently have the highest number of children in need.
+Persuadee (EE): That's sad that a country as powerful as the USA still has problems with children in need.
+Persuader (ER): It is very sad, but with the help of so many millions of caring people we are able to enrich the lives of so many.
+Persuadee (EE): What is the money used for mostly?  Food?  Toys?  Clothes?
+Persuadee (EE): I think this is all very interesting stuff.","You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello there, how are you?
+Persuadee (EE): Hi
+Persuader (ER): How much do you know about Save the Children?
+Persuadee (EE): I know that it is a charity.
+Persuadee (EE): I think I have seen some commercials for it in my lifetime.
+Persuader (ER): Were you aware that Save the Children assists both children in the U.S. as well as foreign countries?
+Persuadee (EE): No.
+Persuadee (EE): I figured they just tried to help children in under developed countries.
+Persuadee (EE): That's great that they help people in the U.S. as well!
+Persuadee (EE): I think it's important to help children from our country and also others.
+Persuader (ER): Yes, not only do we help out with literacy and school related causes, but also with feeding, shelter, and disaster relief for children all over the world.
+Persuadee (EE): That's wonderful!
+Persuadee (EE): Are you a top rated charity?
+Persuadee (EE): How much goes to administrative costs?
+Persuader (ER): We are a top rated charity, and have been around for nearly 100 years!
+Persuader (ER): Nearly 90% of our funds go straight to children, with the remainder going to fundraising costs and only 5% for admin costs.
+Persuadee (EE): Wow!  That's really great!
+Persuadee (EE): I've seen companies go to 70% and I can't help but judge them for it.
+Persuadee (EE): I think this is a fair percentage to have.
+Persuader (ER): We try our best to keep the children first, and have done so in aiding millions of children over the years.
+Persuadee (EE): I think that's great!
+Persuadee (EE): What country is in the most need right now?
+Persuader (ER): Both Africa and USA currently have the highest number of children in need.
+Persuadee (EE): That's sad that a country as powerful as the USA still has problems with children in need.
+Persuader (ER): It is very sad, but with the help of so many millions of caring people we are able to enrich the lives of so many.
+Persuadee (EE): What is the money used for mostly?  Food?  Toys?  Clothes?
+Persuadee (EE): I think this is all very interesting stuff.","assistant<|end_header_id|>
+
+DONATION: YES
+
+The persuadee (EE) has shown a high level of engagement and interest in the conversation, asking multiple questions and expressing positive sentiments towards the charity. They have also demonstrated a willingness to learn more about the organization and its mission. Additionally, EE has expressed a sense of moral obligation to help children in need and has praised the charity's efficiency and transparency. These factors suggest that EE is likely to make a donation on the spot.",no,yes,0,0.0
+20180903-111245_955_live,none,llama70b,False,"Persuader (ER): Hello, have you heard of Save The Children?
+Persuadee (EE): I think so, it sounds familiar.
+Persuadee (EE): it is a nonprofit charity if i recall.
+Persuadee (EE): What exactly do they do?
+Persuader (ER): Save The Children helps kids from around the world by taking contributions from generous patrons. Kids from countries that have been stricken by poverty, violence, and other blights.
+Persuadee (EE): What countries has the charity worked in recently?
+Persuader (ER): Well, we have programs set up in 120 countries in total right now.
+Persuader (ER): Some of our most recent campaigns involve Myanmar - in Rohingya where parents and their children have been forced to flee because of violence to surrounding countries. In the largest refugee camp stationed in Bangladesh, there are an estimated 915,000 children and adults taking shelter.
+Persuadee (EE): Wow that sounds like a really robust program.
+Persuadee (EE): How long has Save the Children been around?
+Persuader (ER): It was founded in 1919, on April 15th in London - UK.
+Persuadee (EE): Do you work for Save the Children or do you just volunteer for the charity?
+Persuader (ER): I do not work for them, I work on behalf of them.
+Persuader (ER): That is why I'm talking to you today.
+Persuader (ER): These children need help, and could use it from generous people like you.
+Persuader (ER): A meal, an education, an opportunity like everyone else, that is all these kids want.
+Persuader (ER): Even one cent will add up to help a child in need, but if you wish you may donate up to 2 dollars.
+Persuader (ER): For every cent you donate it will come directly from your task payment.
+Persuadee (EE): I love to help charities that serve a good cause and I would love to donate but I do have one question.
+Persuadee (EE): What is the portion of donations that goes to children versus the portion that goes to administration or other expenses
+Persuader (ER): Sure, absolutely. In 2017, 86% went to Program services - or services that directly help aid these children. 9% went towards fundraising efforts, and 5% went towards our Management & other general costs. In 2018 we anticipate similar numbers.
+Persuadee (EE): That's pretty impressive!
+Persuadee (EE): Not too many charities can claim such a strong commitment to the cause.
+Persuader (ER): We do it for them, not for ourselves.
+Persuader (ER): And we hope our numbers reflect that amount of love and effort that goes toward what we do.
+Persuadee (EE): I'd be willing to donate $1 to Save the Children.
+Persuader (ER): That is very kind!
+Persuader (ER): After this chat is complete, you may choose how ever much you wish to give on the next page.
+Persuader (ER): Would you like to know about a potential child this money would be helping?
+Persuadee (EE): Sure, tell me more about a potential child this money would help.
+Persuader (ER): Mim, in Bangladesh is 7 years old, and wants to become a teacher.
+Persuader (ER): It could go towards her education, because in her country the average girl only stays in school until 10 years old.","You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello, have you heard of Save The Children?
+Persuadee (EE): I think so, it sounds familiar.
+Persuadee (EE): it is a nonprofit charity if i recall.
+Persuadee (EE): What exactly do they do?
+Persuader (ER): Save The Children helps kids from around the world by taking contributions from generous patrons. Kids from countries that have been stricken by poverty, violence, and other blights.
+Persuadee (EE): What countries has the charity worked in recently?
+Persuader (ER): Well, we have programs set up in 120 countries in total right now.
+Persuader (ER): Some of our most recent campaigns involve Myanmar - in Rohingya where parents and their children have been forced to flee because of violence to surrounding countries. In the largest refugee camp stationed in Bangladesh, there are an estimated 915,000 children and adults taking shelter.
+Persuadee (EE): Wow that sounds like a really robust program.
+Persuadee (EE): How long has Save the Children been around?
+Persuader (ER): It was founded in 1919, on April 15th in London - UK.
+Persuadee (EE): Do you work for Save the Children or do you just volunteer for the charity?
+Persuader (ER): I do not work for them, I work on behalf of them.
+Persuader (ER): That is why I'm talking to you today.
+Persuader (ER): These children need help, and could use it from generous people like you.
+Persuader (ER): A meal, an education, an opportunity like everyone else, that is all these kids want.
+Persuader (ER): Even one cent will add up to help a child in need, but if you wish you may donate up to 2 dollars.
+Persuader (ER): For every cent you donate it will come directly from your task payment.
+Persuadee (EE): I love to help charities that serve a good cause and I would love to donate but I do have one question.
+Persuadee (EE): What is the portion of donations that goes to children versus the portion that goes to administration or other expenses
+Persuader (ER): Sure, absolutely. In 2017, 86% went to Program services - or services that directly help aid these children. 9% went towards fundraising efforts, and 5% went towards our Management & other general costs. In 2018 we anticipate similar numbers.
+Persuadee (EE): That's pretty impressive!
+Persuadee (EE): Not too many charities can claim such a strong commitment to the cause.
+Persuader (ER): We do it for them, not for ourselves.
+Persuader (ER): And we hope our numbers reflect that amount of love and effort that goes toward what we do.
+Persuadee (EE): I'd be willing to donate $1 to Save the Children.
+Persuader (ER): That is very kind!
+Persuader (ER): After this chat is complete, you may choose how ever much you wish to give on the next page.
+Persuader (ER): Would you like to know about a potential child this money would be helping?
+Persuadee (EE): Sure, tell me more about a potential child this money would help.
+Persuader (ER): Mim, in Bangladesh is 7 years old, and wants to become a teacher.
+Persuader (ER): It could go towards her education, because in her country the average girl only stays in school until 10 years old.","assistant<|end_header_id|>
+
+DONATION: YES",yes,yes,1,1.0
+20180903-132332_521_live,none,llama70b,False,"Persuader (ER): hi there!
+Persuader (ER): How was your weekend?
+Persuadee (EE): It was pretty good, hot weather but still nice and yours?
+Persuader (ER): hot here too.
+Persuader (ER): I did a 5k fun for save the children charity.
+Persuader (ER): have you ever heard of it?
+Persuadee (EE): No, I can't say I have.
+Persuadee (EE): What is it about?
+Persuader (ER): I'm excited to tell you about it! it is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries.
+Persuadee (EE): In what way does it support children?
+Persuader (ER): There is a lack of support for children in developing countries, especially in war zones.
+Persuader (ER): For instance, millions of Syrian children have grown up facing the daily threat of violence.
+Persuader (ER): In the first two months of 2018 alone, 1,000 children were reportedly killed or injured in intensifying violence.
+Persuadee (EE): I see so does the money go for food, shelter, medical support those kinds of things?
+Persuader (ER): exactly.
+Persuader (ER): The war torn area is just one of many examples of places where kids need support.
+Persuader (ER): It's great to help.
+Persuader (ER): every little bit counts!
+Persuadee (EE): Does this money provide help for the kids in their own country or is it used to bring these children over to the United States?
+Persuader (ER): to help in their countries.
+Persuader (ER): They also help kids here in the USA too.
+Persuader (ER): would you consider making a donation?
+Persuader (ER): even something small would help.
+Persuadee (EE): I'm sorry I'm just not able to at this time but thank you for telling me about this organization.
+Persuadee (EE): I wish you well.","You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): hi there!
+Persuader (ER): How was your weekend?
+Persuadee (EE): It was pretty good, hot weather but still nice and yours?
+Persuader (ER): hot here too.
+Persuader (ER): I did a 5k fun for save the children charity.
+Persuader (ER): have you ever heard of it?
+Persuadee (EE): No, I can't say I have.
+Persuadee (EE): What is it about?
+Persuader (ER): I'm excited to tell you about it! it is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries.
+Persuadee (EE): In what way does it support children?
+Persuader (ER): There is a lack of support for children in developing countries, especially in war zones.
+Persuader (ER): For instance, millions of Syrian children have grown up facing the daily threat of violence.
+Persuader (ER): In the first two months of 2018 alone, 1,000 children were reportedly killed or injured in intensifying violence.
+Persuadee (EE): I see so does the money go for food, shelter, medical support those kinds of things?
+Persuader (ER): exactly.
+Persuader (ER): The war torn area is just one of many examples of places where kids need support.
+Persuader (ER): It's great to help.
+Persuader (ER): every little bit counts!
+Persuadee (EE): Does this money provide help for the kids in their own country or is it used to bring these children over to the United States?
+Persuader (ER): to help in their countries.
+Persuader (ER): They also help kids here in the USA too.
+Persuader (ER): would you consider making a donation?
+Persuader (ER): even something small would help.
+Persuadee (EE): I'm sorry I'm just not able to at this time but thank you for telling me about this organization.
+Persuadee (EE): I wish you well.","assistant<|end_header_id|>
+
+DONATION: NO",no,no,1,0.0
+20180903-134122_237_live,none,llama70b,False,"Persuader (ER): Donate to Save the Children, please.
+Persuader (ER): Think about those poor kids.
+Persuadee (EE): Well tell me a little bit more about the charity.
+Persuader (ER): It's really all in the name.
+Persuader (ER): You have a moral responsibility.
+Persuadee (EE): A lot of charities are just a name and they don't do what they promise.
+Persuadee (EE): How do I know my money will go where it supposed to?
+Persuader (ER): They're a world-famous trustworthy charity.
+Persuader (ER): If they were fraudulent or misallocating funds, surely there'd have been a scandal.
+Persuadee (EE): Ok.
+Persuadee (EE): So why do they deserve my money as opposed to other charities like St Judes or the Red Cross>
+Persuader (ER): Of course you can donate to other charities.
+Persuader (ER): It's not necessarily a zero-sum game.
+Persuader (ER): I can tell you, however, that Save the Children is, in a way, more immediate in helping people (as opposed to fighting disease like St Jude's) and delivers services similar to the Red Cross, but directed toward children.
+Persuader (ER): So, please: think of the children!
+Persuadee (EE): Do they help kids in the US?
+Persuadee (EE): I like to help people that are close to home.
+Persuader (ER): Their assistance is directed toward children in developing countries, where, unlike most of the US, children are totally deprived of opportunity and basic services.
+Persuader (ER): Though you, being the generous person you are, like helping those at home, is there a reason not to help children abroad?
+Persuadee (EE): I don't mind helping those abroad.
+Persuadee (EE): But there are a lot kids here in the US who deal with poverty.
+Persuadee (EE): So it's not that I don't care about the children elsewhere, just want to help those at home first.
+Persuader (ER): So we'll agree then: you can do both!
+Persuadee (EE): Well how do i make a donation to them?
+Persuader (ER): You can refer to Save the Children's website to gather more information if you like to: http:// URL
+Persuadee (EE): well if you aren't going to help me out with information and make it easy on me by helping with info, i'm not sure if you really care
+Persuader (ER): Of course I care.","You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Donate to Save the Children, please.
+Persuader (ER): Think about those poor kids.
+Persuadee (EE): Well tell me a little bit more about the charity.
+Persuader (ER): It's really all in the name.
+Persuader (ER): You have a moral responsibility.
+Persuadee (EE): A lot of charities are just a name and they don't do what they promise.
+Persuadee (EE): How do I know my money will go where it supposed to?
+Persuader (ER): They're a world-famous trustworthy charity.
+Persuader (ER): If they were fraudulent or misallocating funds, surely there'd have been a scandal.
+Persuadee (EE): Ok.
+Persuadee (EE): So why do they deserve my money as opposed to other charities like St Judes or the Red Cross>
+Persuader (ER): Of course you can donate to other charities.
+Persuader (ER): It's not necessarily a zero-sum game.
+Persuader (ER): I can tell you, however, that Save the Children is, in a way, more immediate in helping people (as opposed to fighting disease like St Jude's) and delivers services similar to the Red Cross, but directed toward children.
+Persuader (ER): So, please: think of the children!
+Persuadee (EE): Do they help kids in the US?
+Persuadee (EE): I like to help people that are close to home.
+Persuader (ER): Their assistance is directed toward children in developing countries, where, unlike most of the US, children are totally deprived of opportunity and basic services.
+Persuader (ER): Though you, being the generous person you are, like helping those at home, is there a reason not to help children abroad?
+Persuadee (EE): I don't mind helping those abroad.
+Persuadee (EE): But there are a lot kids here in the US who deal with poverty.
+Persuadee (EE): So it's not that I don't care about the children elsewhere, just want to help those at home first.
+Persuader (ER): So we'll agree then: you can do both!
+Persuadee (EE): Well how do i make a donation to them?
+Persuader (ER): You can refer to Save the Children's website to gather more information if you like to: http:// URL
+Persuadee (EE): well if you aren't going to help me out with information and make it easy on me by helping with info, i'm not sure if you really care
+Persuader (ER): Of course I care.","assistant<|end_header_id|>
+
+DONATION: NO",yes,no,0,0.2
+20180903-145436_470_live,none,llama70b,False,"Persuader (ER): Hello
+Persuadee (EE): hi!
+Persuader (ER): How's it going?
+Persuadee (EE): It is going alright, thanks
+Persuader (ER): Did you have any interesting dreams?
+Persuadee (EE): I did actually, but i can't remember the.
+Persuadee (EE): what donations are we talking about?
+Persuader (ER): It\'s for ""Save the Children""
+Persuadee (EE): what is it abuot?
+Persuader (ER): It promotes children's rights and provides relief in developing countries
+Persuadee (EE): weell that sounds like a lovely charity.
+Persuadee (EE): are you donating?
+Persuader (ER): Yeah I'm going to donate a couple dollars after this.
+Persuader (ER): Do you think you will, too?
+Persuadee (EE): I wish I could give more, but I am broke
+Persuader (ER): How much would you give if you weren't?","You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello
+Persuadee (EE): hi!
+Persuader (ER): How's it going?
+Persuadee (EE): It is going alright, thanks
+Persuader (ER): Did you have any interesting dreams?
+Persuadee (EE): I did actually, but i can't remember the.
+Persuadee (EE): what donations are we talking about?
+Persuader (ER): It\'s for ""Save the Children""
+Persuadee (EE): what is it abuot?
+Persuader (ER): It promotes children's rights and provides relief in developing countries
+Persuadee (EE): weell that sounds like a lovely charity.
+Persuadee (EE): are you donating?
+Persuader (ER): Yeah I'm going to donate a couple dollars after this.
+Persuader (ER): Do you think you will, too?
+Persuadee (EE): I wish I could give more, but I am broke
+Persuader (ER): How much would you give if you weren't?","assistant<|end_header_id|>
+
+DONATION: NO",no,no,1,0.0
+20180904-004818_580_live,none,llama70b,False,"Persuader (ER): Have you heard of the charity Save the Children?
+Persuadee (EE): Yes I have, but I don't know a lot about it.
+Persuader (ER): They promote children's rights, provides relief, and helps support children in developing countries.
+Persuadee (EE): That sounds like a very nice cause.
+Persuader (ER): Yes, it\'s a great cause.
+Persuader (ER): And the charity is highly rated with many positive rewards.
+Persuader (ER): Including an ""A"" rating from the American Institute of Philanthropy.
+Persuadee (EE): That's awesome!
+Persuadee (EE): Do you know when the charity began?
+Persuader (ER): It was founded way back on April 15, 1919!
+Persuader (ER): A charity with that kind of history shows that it has made an amazing impact.
+Persuader (ER): Just last year they helped a total of 155 million children!
+Persuadee (EE): That is very impressive.
+Persuadee (EE): Do you know on average how much money the charity makes per year?
+Persuader (ER): The total operating revenue was $807,412 in 2017, and 9 out of every 10  dollars they make goes straight into the programs and services to help children and families in need.
+Persuadee (EE): That is awesome.
+Persuader (ER): I know I was surprised by those numbers.
+Persuader (ER): A lot of widely known charities aren't as open and honest about where their finances go, but you can easily find Save the Children's financial reports online.
+Persuader (ER): That's important to me in a charity.
+Persuadee (EE): Yes, definitely.
+Persuadee (EE): Unfortunately some ""charities"" are just scams that do not donate to a worthy cause at all.
+Persuader (ER): That's the truth.
+Persuader (ER): That's why it's so important to do research before donating.
+Persuader (ER): Save the Children even breaks down where exactly your money goes on their website.
+Persuader (ER): For example, 34% of the money donated goes to health & nutrition services and programs, 21% to education, 11% to emergencies, 11% to HIV/AIDs, etc.
+Persuader (ER): It is fully listed on the site with an easy to read graphic.
+Persuader (ER): Super helpful.
+Persuadee (EE): That's very helpful.
+Persuadee (EE): It is best to be transparent when running a charity like that, especially when the charity brings in a large amount of money.
+Persuadee (EE): That way nobody can question anything.
+Persuader (ER): Oh yeah.
+Persuader (ER): When I first heard about these super well known organizations only actually using about 5% of their proceeds for their services I was shocked.
+Persuader (ER): Save the Children uses a total of 86% of proceeds for their services and programs!
+Persuader (ER): The rest goes to ""fundraising, management, and general"" as the website says.
+Persuader (ER): That\'s good to hear that it\'s not all about filling some people\'s pockets.
+Persuadee (EE): Right.
+Persuadee (EE): I understand that people have to get paid for what they do, but they shouldn't be making an extravagant amount of money.
+Persuader (ER): Exactly.
+Persuader (ER): It's pretty infuriating to know that some people play on people's sensitivities and vulnerable states to just get rich.
+Persuader (ER): I know when I make donations I always be sure to get the facts first now.
+Persuader (ER): Have you ever donated to charity in the past?","You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Have you heard of the charity Save the Children?
+Persuadee (EE): Yes I have, but I don't know a lot about it.
+Persuader (ER): They promote children's rights, provides relief, and helps support children in developing countries.
+Persuadee (EE): That sounds like a very nice cause.
+Persuader (ER): Yes, it\'s a great cause.
+Persuader (ER): And the charity is highly rated with many positive rewards.
+Persuader (ER): Including an ""A"" rating from the American Institute of Philanthropy.
+Persuadee (EE): That's awesome!
+Persuadee (EE): Do you know when the charity began?
+Persuader (ER): It was founded way back on April 15, 1919!
+Persuader (ER): A charity with that kind of history shows that it has made an amazing impact.
+Persuader (ER): Just last year they helped a total of 155 million children!
+Persuadee (EE): That is very impressive.
+Persuadee (EE): Do you know on average how much money the charity makes per year?
+Persuader (ER): The total operating revenue was $807,412 in 2017, and 9 out of every 10  dollars they make goes straight into the programs and services to help children and families in need.
+Persuadee (EE): That is awesome.
+Persuader (ER): I know I was surprised by those numbers.
+Persuader (ER): A lot of widely known charities aren't as open and honest about where their finances go, but you can easily find Save the Children's financial reports online.
+Persuader (ER): That's important to me in a charity.
+Persuadee (EE): Yes, definitely.
+Persuadee (EE): Unfortunately some ""charities"" are just scams that do not donate to a worthy cause at all.
+Persuader (ER): That's the truth.
+Persuader (ER): That's why it's so important to do research before donating.
+Persuader (ER): Save the Children even breaks down where exactly your money goes on their website.
+Persuader (ER): For example, 34% of the money donated goes to health & nutrition services and programs, 21% to education, 11% to emergencies, 11% to HIV/AIDs, etc.
+Persuader (ER): It is fully listed on the site with an easy to read graphic.
+Persuader (ER): Super helpful.
+Persuadee (EE): That's very helpful.
+Persuadee (EE): It is best to be transparent when running a charity like that, especially when the charity brings in a large amount of money.
+Persuadee (EE): That way nobody can question anything.
+Persuader (ER): Oh yeah.
+Persuader (ER): When I first heard about these super well known organizations only actually using about 5% of their proceeds for their services I was shocked.
+Persuader (ER): Save the Children uses a total of 86% of proceeds for their services and programs!
+Persuader (ER): The rest goes to ""fundraising, management, and general"" as the website says.
+Persuader (ER): That\'s good to hear that it\'s not all about filling some people\'s pockets.
+Persuadee (EE): Right.
+Persuadee (EE): I understand that people have to get paid for what they do, but they shouldn't be making an extravagant amount of money.
+Persuader (ER): Exactly.
+Persuader (ER): It's pretty infuriating to know that some people play on people's sensitivities and vulnerable states to just get rich.
+Persuader (ER): I know when I make donations I always be sure to get the facts first now.
+Persuader (ER): Have you ever donated to charity in the past?","assistant<|end_header_id|>
+
+DONATION: YES",yes,yes,1,0.25
+20180904-012828_299_live,none,llama70b,False,"Persuader (ER): Hello
+Persuadee (EE): Hi there how are you?
+Persuader (ER): Great and you
+Persuadee (EE): I am doing fine, thanks for asking.
+Persuader (ER): Can I ask you a question?
+Persuadee (EE): You sure can
+Persuader (ER): Do you have any kids?
+Persuadee (EE): I don't have any children but there are many children in my family.
+Persuader (ER): Im sure you love them as your own, I have a big family do you?
+Persuadee (EE): I do have a big family, I enjoy it at times, other times I don't
+Persuader (ER): I truly understand.
+Persuader (ER): Have you heard of this charity?
+Persuadee (EE): Yes I do.
+Persuader (ER): It's great to know that there are others who feel the same way.
+Persuader (ER): Have you heard of Save the Children?
+Persuadee (EE): No I haven't.
+Persuadee (EE): Could you QUICKLY tell me about it
+Persuader (ER): Save the Children is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries.","You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello
+Persuadee (EE): Hi there how are you?
+Persuader (ER): Great and you
+Persuadee (EE): I am doing fine, thanks for asking.
+Persuader (ER): Can I ask you a question?
+Persuadee (EE): You sure can
+Persuader (ER): Do you have any kids?
+Persuadee (EE): I don't have any children but there are many children in my family.
+Persuader (ER): Im sure you love them as your own, I have a big family do you?
+Persuadee (EE): I do have a big family, I enjoy it at times, other times I don't
+Persuader (ER): I truly understand.
+Persuader (ER): Have you heard of this charity?
+Persuadee (EE): Yes I do.
+Persuader (ER): It's great to know that there are others who feel the same way.
+Persuader (ER): Have you heard of Save the Children?
+Persuadee (EE): No I haven't.
+Persuadee (EE): Could you QUICKLY tell me about it
+Persuader (ER): Save the Children is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries.","assistant<|end_header_id|>
+
+DONATION: NO
+
+The persuadee seems open to the conversation and has shown some engagement, but there are no strong indicators that they are emotionally invested or committed to making a donation. The persuadee asked the persuader to ""QUICKLY"" tell them about the charity, which may suggest that they are not entirely interested or willing to spend a lot of time discussing the topic. Additionally, the persuader has not yet made a clear ask for a donation, nor have they established a strong connection between the persuadee's values and the charity's mission.",no,no,1,0.0
+20180904-025026_901_live,none,llama70b,False,"Persuader (ER): Hello.
+Persuader (ER): How are you today?
+Persuader (ER): If you have the time, I would like to talk with you about a charity.
+Persuadee (EE): I am well today thank you.
+Persuadee (EE): I would be happy to listen.
+Persuader (ER): Thank you.
+Persuader (ER): Do you know the organization Save the Children?
+Persuadee (EE): I do not.
+Persuadee (EE): What do they do?
+Persuader (ER): Save the Children is an international non-governmental organization.
+Persuader (ER): They work for children's rights, helps support children in developing countries.
+Persuadee (EE): That sounds like a great cause.
+Persuader (ER): It really is.
+Persuader (ER): They work so the chieldren can have access to health, education, safety.
+Persuader (ER): In developing countries like Syria, millions of children have grown up facing the daily threat of violence.
+Persuadee (EE): I feel very bad for the children in Syria.
+Persuadee (EE): I can't imagine what they are going through.
+Persuadee (EE): Helping them is very important as is helping our children here.
+Persuader (ER): I agree.
+Persuader (ER): And sometimes even a small help is a lot, thinking many others will do the same.
+Persuadee (EE): I agree with that.
+Persuadee (EE): Does this organization spend the majority of their donations on the cause or are the higher ups lining their pockets?
+Persuader (ER): Ah, a rightful question.
+Persuader (ER): This really is a trustworthy organization and they do work for the children.
+Persuader (ER): Actually, you can get more information about the organization from their website:  URL
+Persuadee (EE): The website says that 86% of funds go to the cause.
+Persuadee (EE): That's a really good number considering the overhead that must be required for international relief.
+Persuader (ER): You are right.
+Persuader (ER): This is a trustable fund.
+Persuader (ER): Would you care to donate a little bit for the children?
+Persuadee (EE): What are my options for donation?","You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello.
+Persuader (ER): How are you today?
+Persuader (ER): If you have the time, I would like to talk with you about a charity.
+Persuadee (EE): I am well today thank you.
+Persuadee (EE): I would be happy to listen.
+Persuader (ER): Thank you.
+Persuader (ER): Do you know the organization Save the Children?
+Persuadee (EE): I do not.
+Persuadee (EE): What do they do?
+Persuader (ER): Save the Children is an international non-governmental organization.
+Persuader (ER): They work for children's rights, helps support children in developing countries.
+Persuadee (EE): That sounds like a great cause.
+Persuader (ER): It really is.
+Persuader (ER): They work so the chieldren can have access to health, education, safety.
+Persuader (ER): In developing countries like Syria, millions of children have grown up facing the daily threat of violence.
+Persuadee (EE): I feel very bad for the children in Syria.
+Persuadee (EE): I can't imagine what they are going through.
+Persuadee (EE): Helping them is very important as is helping our children here.
+Persuader (ER): I agree.
+Persuader (ER): And sometimes even a small help is a lot, thinking many others will do the same.
+Persuadee (EE): I agree with that.
+Persuadee (EE): Does this organization spend the majority of their donations on the cause or are the higher ups lining their pockets?
+Persuader (ER): Ah, a rightful question.
+Persuader (ER): This really is a trustworthy organization and they do work for the children.
+Persuader (ER): Actually, you can get more information about the organization from their website:  URL
+Persuadee (EE): The website says that 86% of funds go to the cause.
+Persuadee (EE): That's a really good number considering the overhead that must be required for international relief.
+Persuader (ER): You are right.
+Persuader (ER): This is a trustable fund.
+Persuader (ER): Would you care to donate a little bit for the children?
+Persuadee (EE): What are my options for donation?","assistant<|end_header_id|>
+
+DONATION: YES",yes,yes,1,0.3
+20180904-030739_178_live,none,llama70b,False,"Persuader (ER): Do you ever donate to charity?
+Persuadee (EE): Yes, I support a few causes that I personally believe in very much.
+Persuader (ER): Have you ever heard of Save the Children?
+Persuadee (EE): Yes, but I don't know a lot about them.
+Persuadee (EE): What is their mission?
+Persuader (ER): Their mission is to promote children's rights, and provide relief and support to children in developing countries.
+Persuadee (EE): That sounds interesting.
+Persuadee (EE): What countries do they work in?
+Persuader (ER): They work in many countries across the world.
+Persuader (ER): For example, millions of children in Syria grow up facing the daily threat of violence.
+Persuader (ER): A donation could help these children greatly.
+Persuadee (EE): It sounds like it.
+Persuadee (EE): Do you donate to this charity?
+Persuader (ER): I do.
+Persuader (ER): It is a great charity that does a lot of great work around the world.
+Persuadee (EE): Some charities are run better than others.
+Persuadee (EE): Do you know what Save the Children's reputation is for actually using the money it collects to help children versus for fundraising and administrative salaries?
+Persuader (ER): The majority of all donations collected goes directly toward the mission of helping children in developing counties.
+Persuadee (EE): Ok.
+Persuadee (EE): How long has this group been in operation?
+Persuader (ER): They are a well established charity that has been working around the world for several years.","You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Do you ever donate to charity?
+Persuadee (EE): Yes, I support a few causes that I personally believe in very much.
+Persuader (ER): Have you ever heard of Save the Children?
+Persuadee (EE): Yes, but I don't know a lot about them.
+Persuadee (EE): What is their mission?
+Persuader (ER): Their mission is to promote children's rights, and provide relief and support to children in developing countries.
+Persuadee (EE): That sounds interesting.
+Persuadee (EE): What countries do they work in?
+Persuader (ER): They work in many countries across the world.
+Persuader (ER): For example, millions of children in Syria grow up facing the daily threat of violence.
+Persuader (ER): A donation could help these children greatly.
+Persuadee (EE): It sounds like it.
+Persuadee (EE): Do you donate to this charity?
+Persuader (ER): I do.
+Persuader (ER): It is a great charity that does a lot of great work around the world.
+Persuadee (EE): Some charities are run better than others.
+Persuadee (EE): Do you know what Save the Children's reputation is for actually using the money it collects to help children versus for fundraising and administrative salaries?
+Persuader (ER): The majority of all donations collected goes directly toward the mission of helping children in developing counties.
+Persuadee (EE): Ok.
+Persuadee (EE): How long has this group been in operation?
+Persuader (ER): They are a well established charity that has been working around the world for several years.","assistant<|end_header_id|>
+
+DONATION: NO
+
+Reasoning: While the persuadee seems interested in the charity's mission and asks relevant questions, they also express skepticism about the charity's efficiency and reputation, which suggests they may want to do more research before making a donation. Additionally, the persuadee does not explicitly express a desire to donate or ask about the donation process, which further suggests that they may not be ready to make a donation on the spot.",no,no,1,0.0
+20180904-032932_423_live,none,llama70b,False,"Persuader (ER): Hello.
+Persuader (ER): Would you like to donate a portion of your reward to a charity called Save the Children?
+Persuadee (EE): I think I would be willing to donate a portion.
+Persuader (ER): Excellent!
+Persuader (ER): Would you like to know more about the charity first?
+Persuadee (EE): Yes, that was going to be my next question.
+Persuader (ER): Save the Children promotes children's rights, and helps children from developing countries.
+Persuadee (EE): What types of children's rights?
+Persuader (ER): Your donation would help ensure children's rights to health, education, and safety.
+Persuader (ER): Many of these children live in developing or war-torn areas where these basic necessities are hard to come by.
+Persuadee (EE): What type of people or who manages this fund?
+Persuader (ER): Save the Children has excellent credentials and is managed by a board of commercial CEOs and business leaders without any government or religious affiliation.
+Persuadee (EE): Does Save the Children help children in the United States?
+Persuader (ER): Yes!
+Persuader (ER): Since 1932, Save the Children has been on the ground providing support to the most isolated and underserved children in rural America.
+Persuader (ER): Many of these children don't have the same opportunities as others and live in very difficult conditions.
+Persuadee (EE): That is awesome.
+Persuadee (EE): I work hard to help children as well.
+Persuader (ER): That's great!
+Persuader (ER): It is a worthwhile cause and every penny has a significant impact on these children's lives.
+Persuader (ER): Even a small donation can have a large impact in impoverished areas.
+Persuadee (EE): I am curious why you chose the words ""rural America""?
+Persuader (ER): Of course.
+Persuader (ER): I chose those words because across the United States, one in five children grows up in poverty and, of the counties with the highest poverty rates, 90% are rural.
+Persuader (ER): Because of circumstances beyond their control, millions of kids never reach their full potential.
+Persuadee (EE): mmmm that is interesting, I did not know that statistic.
+Persuadee (EE): I work with children more in an ""urban"" setting that are incredibly in bad circumstances.
+Persuader (ER): I agree that children in both settings need help and commend you for your efforts.","You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello.
+Persuader (ER): Would you like to donate a portion of your reward to a charity called Save the Children?
+Persuadee (EE): I think I would be willing to donate a portion.
+Persuader (ER): Excellent!
+Persuader (ER): Would you like to know more about the charity first?
+Persuadee (EE): Yes, that was going to be my next question.
+Persuader (ER): Save the Children promotes children's rights, and helps children from developing countries.
+Persuadee (EE): What types of children's rights?
+Persuader (ER): Your donation would help ensure children's rights to health, education, and safety.
+Persuader (ER): Many of these children live in developing or war-torn areas where these basic necessities are hard to come by.
+Persuadee (EE): What type of people or who manages this fund?
+Persuader (ER): Save the Children has excellent credentials and is managed by a board of commercial CEOs and business leaders without any government or religious affiliation.
+Persuadee (EE): Does Save the Children help children in the United States?
+Persuader (ER): Yes!
+Persuader (ER): Since 1932, Save the Children has been on the ground providing support to the most isolated and underserved children in rural America.
+Persuader (ER): Many of these children don't have the same opportunities as others and live in very difficult conditions.
+Persuadee (EE): That is awesome.
+Persuadee (EE): I work hard to help children as well.
+Persuader (ER): That's great!
+Persuader (ER): It is a worthwhile cause and every penny has a significant impact on these children's lives.
+Persuader (ER): Even a small donation can have a large impact in impoverished areas.
+Persuadee (EE): I am curious why you chose the words ""rural America""?
+Persuader (ER): Of course.
+Persuader (ER): I chose those words because across the United States, one in five children grows up in poverty and, of the counties with the highest poverty rates, 90% are rural.
+Persuader (ER): Because of circumstances beyond their control, millions of kids never reach their full potential.
+Persuadee (EE): mmmm that is interesting, I did not know that statistic.
+Persuadee (EE): I work with children more in an ""urban"" setting that are incredibly in bad circumstances.
+Persuader (ER): I agree that children in both settings need help and commend you for your efforts.","assistant<|end_header_id|>
+
+DONATION: YES
+
+Reasoning: 
+
+* The persuadee initially expresses willingness to donate a portion of their reward, indicating a positive inclination towards making a donation.
+* Throughout the conversation, the persuadee asks questions that demonstrate genuine interest in the charity and its cause, rather than skepticism or resistance.
+* The persuadee expresses admiration for the charity's work, particularly its efforts in rural America, and shares a personal connection to helping children in need.
+* The persuader effectively addresses the persuadee's questions and provides credible information about the charity, building trust and credibility.
+* The conversation maintains a positive and supportive tone, with the persuader commending the persuadee's efforts to help children, creating a sense of mutual understanding and shared values.
+
+Overall, the persuadee's engagement, interest, and positive responses throughout the conversation suggest a high likelihood of making a donation on the spot.",yes,yes,1,1.0
+20180904-043300_214_live,none,llama70b,False,"Persuader (ER): Hi!
+Persuader (ER): How are you doing today?
+Persuadee (EE): I'm doing very well.
+Persuadee (EE): Just recovering from the long weekend.
+Persuadee (EE): How about yourself?
+Persuader (ER): I am doing well thank you and same here
+Persuadee (EE): Awesome.
+Persuadee (EE): What are some of your hobbies?
+Persuader (ER): Well one hobby is volunteering.
+Persuader (ER): I wanted to talk to you about a charity Save the Children, have you heard of it?
+Persuadee (EE): Only in name.
+Persuadee (EE): I haven't heard too much about it though.
+Persuadee (EE): Can you tell me more?
+Persuader (ER): It is a charity that helps ensure children's rights to healthcare, education, safety, etc. all over the world
+Persuadee (EE): What do you do as a volunteer for this charity?
+Persuader (ER): Well I volunteer for another nonprofit organization, but I guess I am a volunteer in a way trying to encourage people to donate money.
+Persuader (ER): even a few cents can add up!
+Persuadee (EE): Hmm, I see.
+Persuadee (EE): Do you have information about their charity rating?
+Persuadee (EE): How much of the donation will actually be used to help the children?
+Persuader (ER): The research team will collect all the donations and send it to Save the Children.
+Persuader (ER): It is a trustworthy organizaition that will use your donation to the fullest
+Persuadee (EE): I always like to see some report first.
+Persuadee (EE): Maybe I will have to do some research first.
+Persuadee (EE): Have you donated to them yourself?
+Persuader (ER): You can find more information at their website,  URL
+Persuader (ER): I actually have not yet.","You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi!
+Persuader (ER): How are you doing today?
+Persuadee (EE): I'm doing very well.
+Persuadee (EE): Just recovering from the long weekend.
+Persuadee (EE): How about yourself?
+Persuader (ER): I am doing well thank you and same here
+Persuadee (EE): Awesome.
+Persuadee (EE): What are some of your hobbies?
+Persuader (ER): Well one hobby is volunteering.
+Persuader (ER): I wanted to talk to you about a charity Save the Children, have you heard of it?
+Persuadee (EE): Only in name.
+Persuadee (EE): I haven't heard too much about it though.
+Persuadee (EE): Can you tell me more?
+Persuader (ER): It is a charity that helps ensure children's rights to healthcare, education, safety, etc. all over the world
+Persuadee (EE): What do you do as a volunteer for this charity?
+Persuader (ER): Well I volunteer for another nonprofit organization, but I guess I am a volunteer in a way trying to encourage people to donate money.
+Persuader (ER): even a few cents can add up!
+Persuadee (EE): Hmm, I see.
+Persuadee (EE): Do you have information about their charity rating?
+Persuadee (EE): How much of the donation will actually be used to help the children?
+Persuader (ER): The research team will collect all the donations and send it to Save the Children.
+Persuader (ER): It is a trustworthy organizaition that will use your donation to the fullest
+Persuadee (EE): I always like to see some report first.
+Persuadee (EE): Maybe I will have to do some research first.
+Persuadee (EE): Have you donated to them yourself?
+Persuader (ER): You can find more information at their website,  URL
+Persuader (ER): I actually have not yet.","<|start_header_id|>assistant<|end_header_id|>
+
+DONATION: NO
+
+The persuadee is showing some interest in the charity, but is also expressing caution and a desire to do their own research before making a donation. They are asking questions about the charity's rating and how much of the donation will actually be used to help the children, which suggests that they are not yet convinced. Additionally, the persuader's lack of personal experience with donating to the charity and their vague answers to the persuadee's questions may have raised some doubts. Overall, it seems unlikely that the persuadee will make a donation on the spot.",no,no,1,0.0
+20180904-045349_715_live,none,llama70b,False,"Persuader (ER): Good morning.
+Persuader (ER): How are you doing today?
+Persuadee (EE): Hi.
+Persuadee (EE): I am doing good.
+Persuadee (EE): How about you?
+Persuader (ER): I'm doing pretty good for a Tuesday morning.
+Persuadee (EE): Haha.
+Persuadee (EE): Same here, but it really feels like a Monday.
+Persuader (ER): Ugh yes it does!
+Persuadee (EE): I can not believe how warm it is already.
+Persuader (ER): Where are you from?
+Persuadee (EE): I am from the Midwest.
+Persuadee (EE): What about you?
+Persuader (ER): I'm from the South East.
+Persuader (ER): It's always warm here.
+Persuadee (EE): Oh, yep.
+Persuadee (EE): You are definitely in for warm weather, which is great as far as I am concerned.
+Persuader (ER): We're about to get hit by a tropical storm.
+Persuadee (EE): I heard that some bad weather was going to be coming.
+Persuadee (EE): I hope it is not too severe.
+Persuader (ER): Me too.
+Persuader (ER): It's just part of living on the Gulf.
+Persuader (ER): You have to be prepared for it.
+Persuadee (EE): Yes, I am sure you get a lot of storms.
+Persuader (ER): We do.
+Persuader (ER): I guess I should get into what this chat is supposed to be about.
+Persuader (ER): Have you heard of the Charity Save The Children?
+Persuadee (EE): I have heard about them.
+Persuadee (EE): What do you like about them?
+Persuader (ER): I like that they're committed to helping children in need.","You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Good morning.
+Persuader (ER): How are you doing today?
+Persuadee (EE): Hi.
+Persuadee (EE): I am doing good.
+Persuadee (EE): How about you?
+Persuader (ER): I'm doing pretty good for a Tuesday morning.
+Persuadee (EE): Haha.
+Persuadee (EE): Same here, but it really feels like a Monday.
+Persuader (ER): Ugh yes it does!
+Persuadee (EE): I can not believe how warm it is already.
+Persuader (ER): Where are you from?
+Persuadee (EE): I am from the Midwest.
+Persuadee (EE): What about you?
+Persuader (ER): I'm from the South East.
+Persuader (ER): It's always warm here.
+Persuadee (EE): Oh, yep.
+Persuadee (EE): You are definitely in for warm weather, which is great as far as I am concerned.
+Persuader (ER): We're about to get hit by a tropical storm.
+Persuadee (EE): I heard that some bad weather was going to be coming.
+Persuadee (EE): I hope it is not too severe.
+Persuader (ER): Me too.
+Persuader (ER): It's just part of living on the Gulf.
+Persuader (ER): You have to be prepared for it.
+Persuadee (EE): Yes, I am sure you get a lot of storms.
+Persuader (ER): We do.
+Persuader (ER): I guess I should get into what this chat is supposed to be about.
+Persuader (ER): Have you heard of the Charity Save The Children?
+Persuadee (EE): I have heard about them.
+Persuadee (EE): What do you like about them?
+Persuader (ER): I like that they're committed to helping children in need.","assistant<|end_header_id|>
+
+DONATION: NO
+
+Reasoning: The conversation has been friendly and casual so far, but it hasn't built up to a strong emotional or rational appeal for the persuadee to make a donation. The persuader has only just introduced the charity and hasn't made a clear ask or presented a compelling reason for the persuadee to donate. The persuadee's response to the charity's mention is lukewarm, asking a general question about what the persuader likes about the charity, rather than expressing enthusiasm or interest in supporting it.",no,no,1,0.0
+20180904-073734_888_live,none,llama70b,False,"Persuader (ER): Good morning.
+Persuadee (EE): Good morning, how are you doing?
+Persuader (ER): I'm great, thank you for asking!
+Persuader (ER): Do you have some time today to talk about an amazing charity I am part of?
+Persuadee (EE): Sure, I'd love to hear what charity you participate in
+Persuader (ER): It's called Save the Children and we work towards helping disadvantaged children around the world have adequate food, shelter and healthcare.
+Persuadee (EE): Sounds wonderful!
+Persuadee (EE): Do you only work in the US?
+Persuader (ER): Great question.
+Persuader (ER): No, we work all around the world, wherever our help is needed.
+Persuadee (EE): What a great charity, is there anything I can do to help?
+Persuader (ER): Absolutely, we are always looking for individuals who are willing to contribute to the cause.
+Persuadee (EE): How much are you looking for?
+Persuader (ER): A donation of just $1 can help feed a child for 5 days.
+Persuadee (EE): And specifically, where does that money go towards?
+Persuader (ER): The money goes towards providing meals and clean water.","You are helping analyze a persuasion conversation. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Good morning.
+Persuadee (EE): Good morning, how are you doing?
+Persuader (ER): I'm great, thank you for asking!
+Persuader (ER): Do you have some time today to talk about an amazing charity I am part of?
+Persuadee (EE): Sure, I'd love to hear what charity you participate in
+Persuader (ER): It's called Save the Children and we work towards helping disadvantaged children around the world have adequate food, shelter and healthcare.
+Persuadee (EE): Sounds wonderful!
+Persuadee (EE): Do you only work in the US?
+Persuader (ER): Great question.
+Persuader (ER): No, we work all around the world, wherever our help is needed.
+Persuadee (EE): What a great charity, is there anything I can do to help?
+Persuader (ER): Absolutely, we are always looking for individuals who are willing to contribute to the cause.
+Persuadee (EE): How much are you looking for?
+Persuader (ER): A donation of just $1 can help feed a child for 5 days.
+Persuadee (EE): And specifically, where does that money go towards?
+Persuader (ER): The money goes towards providing meals and clean water.","assistant<|end_header_id|>
+
+DONATION: YES
+
+Reasoning: 
+
+* The persuadee (EE) seems genuinely interested in the charity, using phrases like ""I'd love to hear"" and ""Sounds wonderful!"".
+* EE asks questions about the charity, showing engagement and a desire to learn more.
+* When asked if they can help, EE responds positively, indicating a willingness to contribute.
+* EE asks about the specific use of the donation, suggesting they are considering making a donation and want to know more about the impact of their contribution.
+* The persuader (ER) provides a clear and compelling answer about the use of the donation, which may help to build trust and increase the likelihood of a donation.
+
+Overall, the conversation suggests that EE is receptive to the persuader's message and may be likely to make a donation on the spot.",no,yes,0,0.0

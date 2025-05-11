@@ -7547,4 +7547,1120 @@ Persuadee (EE): Definitely, Are you interested in such things? [Seeking further 
 Persuader (ER): Yes I donate to charity every month through my paychecks. [Sharing personal habit of donating]
 Persuadee (EE): Oh! [Expressing surprise]
 Persuadee (EE): this is so good. [Expressing approval]
-Persuader (ER): Are you aware of what save te children does? [Checking the other person's awareness 
+Persuader (ER): Are you aware of what save te children does? [Checking the other person's awareness about the charity]
+Persuadee (EE): I know a little bit. [Admitting limited knowledge]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): I think it would be good to donate your payment to Save the Children, it could help alot of kids out [Suggesting a charitable action]
+Persuadee (EE): yes i will. [Agreeing to the suggestion]
+Persuader (ER): That's very good since they do so much for children. [Affirming the value of the action]
+Persuadee (EE): Sure, Do you like donations? [Inquiring about the other person's interest in donations]
+Persuader (ER): Yes I think donating to charity is a very honorable thing to do. [Expressing personal belief in the value of donations]
+Persuadee (EE): Definitely, Are you interested in such things? [Seeking further confirmation of the other person's interest]
+Persuader (ER): Yes I donate to charity every month through my paychecks. [Sharing personal habit of donating]
+Persuadee (EE): Oh! [Expressing surprise]
+Persuadee (EE): this is so good. [Expressing approval]
+Persuader (ER): Are you aware of what save te children does? [Checking the other person's awareness about the charity]
+Persuadee (EE): I know a little bit. [Admitting limited knowledge] user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates high warmth by expressing enthusiasm for charitable donations and praising EE's decision to donate. ER also shows high competence by sharing personal involvement in regular donations, indicating knowledge and commitment to charitable activities.
+
+user2 (EE):
+  warmth: high
+  competence: low
+  explanation: EE shows high warmth by agreeing to donate and expressing positive reactions to ER's charitable actions. However, EE's competence appears low due to limited knowledge about the charity's activities, as indicated by their admission of knowing only a little about it.","assistant<|end_header_id|>
+
+DONATION: YES",yes,yes,1,25.0
+20180827-034056_964_live,scm,llama70b,True,"Persuader (ER): hi. [Greeting]
+Persuader (ER): Dpo you about Save the Children organizatio [Initiate conversation about Save the Children organization]
+Persuadee (EE): Do I what with save the children [Seek clarification]
+Persuader (ER): save the children organization takes cares of children around the world [Provide information about Save the Children organization]
+Persuadee (EE): OK yes I am aware of this organization [Acknowledge awareness]
+Persuader (ER): Its very important what they do. [Express importance of the organization's work]
+Persuader (ER): Do oyu agree? [Seek agreement]
+Persuadee (EE): NO I do not agree. [Express disagreement]
+Persuadee (EE): I think it is a good organization. [Express positive opinion about the organization]
+Persuadee (EE): however there are lots of kids in my ocuntry that need help first [Express concern for local children]
+Persuader (ER): Where do you live and what are you doing to help the children? [Inquire about EE's location and actions to help children]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): hi. [Greeting]
+Persuader (ER): Dpo you about Save the Children organizatio [Initiate conversation about Save the Children organization]
+Persuadee (EE): Do I what with save the children [Seek clarification]
+Persuader (ER): save the children organization takes cares of children around the world [Provide information about Save the Children organization]
+Persuadee (EE): OK yes I am aware of this organization [Acknowledge awareness]
+Persuader (ER): Its very important what they do. [Express importance of the organization's work]
+Persuader (ER): Do oyu agree? [Seek agreement]
+Persuadee (EE): NO I do not agree. [Express disagreement]
+Persuadee (EE): I think it is a good organization. [Express positive opinion about the organization]
+Persuadee (EE): however there are lots of kids in my ocuntry that need help first [Express concern for local children]
+Persuader (ER): Where do you live and what are you doing to help the children? [Inquire about EE's location and actions to help children] user1 (ER):
+  warmth: high
+  competence: low
+  explanation: User1 demonstrates high warmth by expressing interest in a charitable organization and engaging in a friendly manner. However, their competence is perceived as low due to multiple typographical errors and a lack of clarity in conveying their points.
+
+user2 (EE):
+  warmth: low
+  competence: high
+  explanation: User2 exhibits low warmth by disagreeing abruptly and prioritizing local needs over a global cause, which may come across as dismissive. Their competence is high, as they clearly articulate their awareness and opinion about the organization and local issues.","assistant<|end_header_id|>
+
+DONATION: NO
+
+The persuadee (EE) has expressed disagreement with the importance of the organization's work and has shifted the focus to local children in need. Although they acknowledge that Save the Children is a good organization, their priority lies with helping children in their own country. The persuader's (ER) low competence and inability to effectively address EE's concerns may have further diminished the likelihood of a donation. EE's low warmth and high competence suggest that they are unlikely to be swayed by ER's emotional appeal and may require a more logical and well-reasoned approach to consider making a donation.",no,no,1,0.0
+20180827-034916_910_live,scm,llama70b,True,"Persuader (ER): Hi there! [Greeting the other person]
+Persuader (ER): How are you today? [Inquiring about the other person's well-being]
+Persuadee (EE): I am fine how are you? [Responding to the greeting and inquiring back]
+Persuader (ER): I am doing really great. [Responding positively to the inquiry]
+Persuader (ER): What are your plans for the day? [Asking about the other person's plans for the day]
+Persuadee (EE): well I have to go to work in a little while here how about you? [Sharing their plans and asking about the other person's plans]
+Persuader (ER): Ah, yes. [Acknowledging the response]
+Persuader (ER): Same here. [Sharing similar plans]
+Persuader (ER): That is why I am up so early. [Explaining why they are up early]
+Persuader (ER): I have to go into the office, do you as well, or can you work from home? [Inquiring about the other person's work setting]
+Persuadee (EE): I  work in an office setting as well, I guess we are to talk about childrens charity's. [Sharing their work setting and introducing the topic of children's charities]
+Persuadee (EE): Do you donate to any on a regular base? [Inquiring about the other person's donation habits]
+Persuader (ER): I was just getting ready to ask you if you would be willing to donate some of today's payment to Save the Children. [Proposing a donation to Save the Children]
+Persuader (ER): Even a little would help. [Encouraging the donation by stating that any amount helps]
+Persuader (ER): How much would you be able to spare? [Asking how much the other person can donate]
+Persuadee (EE): I usually like to donate to more local charities, this way it seems safer to actually go where it is needed and it is for poor homeless kids around my own area [Explaining their preference for donating to local charities]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi there! [Greeting the other person]
+Persuader (ER): How are you today? [Inquiring about the other person's well-being]
+Persuadee (EE): I am fine how are you? [Responding to the greeting and inquiring back]
+Persuader (ER): I am doing really great. [Responding positively to the inquiry]
+Persuader (ER): What are your plans for the day? [Asking about the other person's plans for the day]
+Persuadee (EE): well I have to go to work in a little while here how about you? [Sharing their plans and asking about the other person's plans]
+Persuader (ER): Ah, yes. [Acknowledging the response]
+Persuader (ER): Same here. [Sharing similar plans]
+Persuader (ER): That is why I am up so early. [Explaining why they are up early]
+Persuader (ER): I have to go into the office, do you as well, or can you work from home? [Inquiring about the other person's work setting]
+Persuadee (EE): I  work in an office setting as well, I guess we are to talk about childrens charity's. [Sharing their work setting and introducing the topic of children's charities]
+Persuadee (EE): Do you donate to any on a regular base? [Inquiring about the other person's donation habits]
+Persuader (ER): I was just getting ready to ask you if you would be willing to donate some of today's payment to Save the Children. [Proposing a donation to Save the Children]
+Persuader (ER): Even a little would help. [Encouraging the donation by stating that any amount helps]
+Persuader (ER): How much would you be able to spare? [Asking how much the other person can donate]
+Persuadee (EE): I usually like to donate to more local charities, this way it seems safer to actually go where it is needed and it is for poor homeless kids around my own area [Explaining their preference for donating to local charities] user1 (ER):
+  warmth: high
+  competence: high
+  explanation: User1 initiates the conversation with friendly greetings and shows interest in user2's plans, indicating high warmth. They also discuss work and propose a charitable donation, suggesting high competence in managing responsibilities and social initiatives.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: User2 reciprocates the friendly tone and engages in the conversation about work and charity, showing high warmth. Their preference for local charities and thoughtful reasoning reflect high competence in making informed decisions about donations.","assistant<|end_header_id|>
+
+DONATION: NO
+
+The persuadee (EE) has expressed a clear preference for donating to local charities, citing a desire to ensure that the funds are used effectively in their own area. While they have engaged in a friendly and competent conversation, their specific concerns and priorities suggest that they are unlikely to make a donation to Save the Children on the spot.",yes,no,0,0.3
+20180827-035202_980_live,scm,llama70b,True,"Persuader (ER): Hello. [Greeting the other person]
+Persuader (ER): Have you ever heard of the organization Save the Children? [Introducing the topic of Save the Children]
+Persuadee (EE): I haven't [Responding to the question and indicating lack of prior knowledge]
+Persuader (ER): They are an amazing organization with a national and an international presence. [Providing information about the organization]
+Persuader (ER): Would you like to know more about what they do? [Offering to provide more information]
+Persuadee (EE): I think I'm okay. [Declining the offer for more information]
+Persuadee (EE): No need to share more information [Reinforcing the decision to not receive more information]
+Persuader (ER): I understand and I do not want to take up too much of your time. [Expressing understanding and respect for the other person's time]
+Persuader (ER): But please know that this organization ehlps children on every continent but Antartica. [Providing additional information about the organization's reach]
+Persuadee (EE): Why not Antartica? [Asking a follow-up question out of curiosity]
+Persuader (ER): There just isn't the population to warrant it. [Explaining why the organization does not operate in Antarctica]
+Persuader (ER): The climate is not sustainable for human life and children do not reside there. [Providing further explanation about the climate and population]
+Persuader (ER): But in the other countries they provide emergency response, global advocacy,  literacy, and health education. [Listing the types of services the organization provides]
+Persuadee (EE): Well that's disappointing. [Expressing disappointment]
+Persuadee (EE): What country receives the most aid? [Asking for more specific information about aid distribution]
+Persuader (ER): It is spread out by need but rest assured that their charity ranges from Kentucky all the way to Kenya. [Explaining how aid is distributed based on need]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello. [Greeting the other person]
+Persuader (ER): Have you ever heard of the organization Save the Children? [Introducing the topic of Save the Children]
+Persuadee (EE): I haven't [Responding to the question and indicating lack of prior knowledge]
+Persuader (ER): They are an amazing organization with a national and an international presence. [Providing information about the organization]
+Persuader (ER): Would you like to know more about what they do? [Offering to provide more information]
+Persuadee (EE): I think I'm okay. [Declining the offer for more information]
+Persuadee (EE): No need to share more information [Reinforcing the decision to not receive more information]
+Persuader (ER): I understand and I do not want to take up too much of your time. [Expressing understanding and respect for the other person's time]
+Persuader (ER): But please know that this organization ehlps children on every continent but Antartica. [Providing additional information about the organization's reach]
+Persuadee (EE): Why not Antartica? [Asking a follow-up question out of curiosity]
+Persuader (ER): There just isn't the population to warrant it. [Explaining why the organization does not operate in Antarctica]
+Persuader (ER): The climate is not sustainable for human life and children do not reside there. [Providing further explanation about the climate and population]
+Persuader (ER): But in the other countries they provide emergency response, global advocacy,  literacy, and health education. [Listing the types of services the organization provides]
+Persuadee (EE): Well that's disappointing. [Expressing disappointment]
+Persuadee (EE): What country receives the most aid? [Asking for more specific information about aid distribution]
+Persuader (ER): It is spread out by need but rest assured that their charity ranges from Kentucky all the way to Kenya. [Explaining how aid is distributed based on need] user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates high warmth by being polite, understanding, and respectful of EE's time. ER also shows high competence by providing clear, informative responses about the organization's activities and addressing EE's questions accurately.
+
+user2 (EE):
+  warmth: low
+  competence: low
+  explanation: EE exhibits low warmth by being dismissive and uninterested in the information provided. EE's competence appears low as they do not engage deeply with the conversation or show understanding of the organization's work.","assistant<|end_header_id|>
+
+DONATION: NO",no,no,1,0.0
+20180827-041027_973_live,scm,llama70b,True,"Persuader (ER): hi how are you [Greeting and initiating conversation]
+Persuadee (EE): I'm well, thanks [Responding to greeting]
+Persuader (ER): do you know what is the save the children [Inquiring about the other person's knowledge of a specific organization]
+Persuadee (EE): I've heard of it. [Indicating some familiarity with the organization]
+Persuadee (EE): It's a charity, right? [Seeking confirmation about the nature of the organization]
+Persuadee (EE): What do they do? [Requesting more information about the organization's activities]
+Persuader (ER): yes it is a organization do you know more info [Confirming the nature of the organization and probing for more information]
+Persuadee (EE): I'd like more information, yes. [Expressing interest in learning more]
+Persuader (ER): The Save the Children Fund, commonly known as Save the Children, is an international non-governmental organisation that promotes children's rights, provides relief and helps support children in developing countries. [Providing detailed information about the organization]
+Persuadee (EE): That's nice. [Acknowledging the information]
+Persuadee (EE): What kind of things do they help with? [Requesting specific details about the organization's activities]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): hi how are you [Greeting and initiating conversation]
+Persuadee (EE): I'm well, thanks [Responding to greeting]
+Persuader (ER): do you know what is the save the children [Inquiring about the other person's knowledge of a specific organization]
+Persuadee (EE): I've heard of it. [Indicating some familiarity with the organization]
+Persuadee (EE): It's a charity, right? [Seeking confirmation about the nature of the organization]
+Persuadee (EE): What do they do? [Requesting more information about the organization's activities]
+Persuader (ER): yes it is a organization do you know more info [Confirming the nature of the organization and probing for more information]
+Persuadee (EE): I'd like more information, yes. [Expressing interest in learning more]
+Persuader (ER): The Save the Children Fund, commonly known as Save the Children, is an international non-governmental organisation that promotes children's rights, provides relief and helps support children in developing countries. [Providing detailed information about the organization]
+Persuadee (EE): That's nice. [Acknowledging the information]
+Persuadee (EE): What kind of things do they help with? [Requesting specific details about the organization's activities] user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates high warmth by engaging politely and sharing information willingly. Their competence is high as they provide clear and accurate information about the organization in question, showing knowledge and willingness to inform.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE exhibits high warmth by responding politely and showing interest in the topic. Their competence is high as they ask relevant questions, indicating a desire to understand more and engage thoughtfully in the conversation.","assistant<|end_header_id|>
+
+DONATION: NO",no,no,1,0.0
+20180827-050740_909_live,scm,llama70b,True,"Persuader (ER): Hi! [Greeting]
+Persuader (ER): How are you today? [Inquiring about well-being]
+Persuadee (EE): Feeling great. [Responding to inquiry]
+Persuadee (EE): Just got back from the gym [Providing additional information]
+Persuader (ER): nice! [Expressing approval]
+Persuader (ER): I would like talk to you about a charity today. [Introducing topic of conversation]
+Persuader (ER): Do you donate at all? [Inquiring about donation habits]
+Persuadee (EE): I'm pretty poor. [Expressing financial limitations]
+Persuadee (EE): If I have money I try to donate to charities that I like. [Clarifying donation habits]
+Persuader (ER): I am in the same boat. [Expressing empathy]
+Persuader (ER): Have you heard of Save the Children? [Inquiring about familiarity with a specific charity]
+Persuadee (EE): No. [Expressing lack of knowledge]
+Persuadee (EE): I don't believe I have. [Reiterating lack of knowledge]
+Persuader (ER): It's an organization that raises money for children all over the world in need, such as children from war torn countries like syria [Providing information about the charity]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi! [Greeting]
+Persuader (ER): How are you today? [Inquiring about well-being]
+Persuadee (EE): Feeling great. [Responding to inquiry]
+Persuadee (EE): Just got back from the gym [Providing additional information]
+Persuader (ER): nice! [Expressing approval]
+Persuader (ER): I would like talk to you about a charity today. [Introducing topic of conversation]
+Persuader (ER): Do you donate at all? [Inquiring about donation habits]
+Persuadee (EE): I'm pretty poor. [Expressing financial limitations]
+Persuadee (EE): If I have money I try to donate to charities that I like. [Clarifying donation habits]
+Persuader (ER): I am in the same boat. [Expressing empathy]
+Persuader (ER): Have you heard of Save the Children? [Inquiring about familiarity with a specific charity]
+Persuadee (EE): No. [Expressing lack of knowledge]
+Persuadee (EE): I don't believe I have. [Reiterating lack of knowledge]
+Persuader (ER): It's an organization that raises money for children all over the world in need, such as children from war torn countries like syria [Providing information about the charity] user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER initiates the conversation with a friendly greeting and shows interest in EE’s well-being, indicating high warmth. ER also provides information about a charity, demonstrating knowledge and the ability to engage in meaningful topics, indicating high competence.
+
+user2 (EE):
+  warmth: low
+  competence: high
+  explanation: EE responds briefly and does not reciprocate the initial greeting, suggesting lower warmth. However, EE provides a clear and honest explanation of their financial situation and charitable preferences, indicating high competence in communicating personal circumstances.","assistant<|end_header_id|>
+
+DONATION: NO
+
+Reasoning:
+
+* The persuadee (EE) explicitly states their financial limitations, saying ""I'm pretty poor"", which suggests that they may not be in a position to make a donation.
+* Although EE expresses a willingness to donate to charities they like, they also express a lack of familiarity with the specific charity being discussed (Save the Children).
+* The persuader (ER) attempts to build rapport and establish a connection with EE, but EE's responses remain brief and don't indicate a strong emotional investment in the conversation.
+* The analysis of EE's warmth as ""low"" suggests that they may not be particularly receptive to ER's persuasive efforts.
+
+Overall, while ER's warmth and competence may help to establish a positive tone for the conversation, EE's financial constraints and lack of familiarity with the charity make it unlikely that they will make a donation on the spot.",no,no,1,0.0
+20180827-051440_378_live,scm,llama70b,True,"Persuader (ER): Hello there! [Greeting the other person]
+Persuader (ER): How are you today? [Inquiring about the other person's well-being]
+Persuadee (EE): Hi... [Responding to the greeting]
+Persuader (ER): How are you? [Repeating the inquiry about the other person's well-being]
+Persuadee (EE): Fine...what about you..? [Responding to the inquiry and reciprocating the question]
+Persuader (ER): Doing well myself. [Responding to the inquiry about their own well-being]
+Persuader (ER): But am upset about something I just learned [Introducing a topic of concern]
+Persuadee (EE): Why....What's happen and which think do you get upset...? [Expressing curiosity and asking for more details]
+Persuader (ER): In the first two months of 2018 alone over 1,000 Syrian children died or were injured due to intensifying violence and war. [Providing specific information about the upsetting topic]
+Persuader (ER): This makes me so anger and sad! [Expressing personal emotions about the topic]
+Persuader (ER): That innocent children are being harmed over something they have no control over! [Elaborating on the reason for their emotions]
+Persuadee (EE): Yea...I am also feel bad that incident... [Expressing empathy and shared feelings]
+Persuader (ER): I fell so bad about it also. [Reiterating their own feelings]
+Persuader (ER): That is why I am going to donate a small amount to the Save The Childrten charity. [Introducing their intention to donate to a charity]
+Persuader (ER): Did you know they are actively providing shelter and food to these children in active war zones? [Providing information about the charity's activities]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello there! [Greeting the other person]
+Persuader (ER): How are you today? [Inquiring about the other person's well-being]
+Persuadee (EE): Hi... [Responding to the greeting]
+Persuader (ER): How are you? [Repeating the inquiry about the other person's well-being]
+Persuadee (EE): Fine...what about you..? [Responding to the inquiry and reciprocating the question]
+Persuader (ER): Doing well myself. [Responding to the inquiry about their own well-being]
+Persuader (ER): But am upset about something I just learned [Introducing a topic of concern]
+Persuadee (EE): Why....What's happen and which think do you get upset...? [Expressing curiosity and asking for more details]
+Persuader (ER): In the first two months of 2018 alone over 1,000 Syrian children died or were injured due to intensifying violence and war. [Providing specific information about the upsetting topic]
+Persuader (ER): This makes me so anger and sad! [Expressing personal emotions about the topic]
+Persuader (ER): That innocent children are being harmed over something they have no control over! [Elaborating on the reason for their emotions]
+Persuadee (EE): Yea...I am also feel bad that incident... [Expressing empathy and shared feelings]
+Persuader (ER): I fell so bad about it also. [Reiterating their own feelings]
+Persuader (ER): That is why I am going to donate a small amount to the Save The Childrten charity. [Introducing their intention to donate to a charity]
+Persuader (ER): Did you know they are actively providing shelter and food to these children in active war zones? [Providing information about the charity's activities] user1 (ER):
+  warmth: high
+  competence: high
+  explanation: User1 initiates the conversation with a friendly greeting and expresses genuine concern for a serious issue, demonstrating empathy and compassion. They also provide specific information about their plans to help, indicating a proactive and informed approach, which reflects high competence.
+
+user2 (EE):
+  warmth: low
+  competence: low
+  explanation: User2's responses are brief and lack engagement, showing minimal emotional involvement or empathy. They do not contribute additional information or solutions, suggesting a lack of initiative or understanding, which reflects low competence.","assistant<|end_header_id|>
+
+DONATION: NO",no,no,1,0.0
+20180827-053243_818_live,scm,llama70b,True,"Persuader (ER): Hello! [Greeting the other person]
+Persuadee (EE): hi [Responding to the greeting]
+Persuader (ER): Have you heard of the charity, Save the Children? [Introducing the topic of the charity]
+Persuadee (EE): no I have not...what is it about? [Expressing lack of knowledge and asking for more information]
+Persuader (ER): Save the Children is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries. [Providing information about the charity]
+Persuader (ER): You can refer to Save the Children's website to gather more information if you like to. [Encouraging the other person to seek more information]
+Persuader (ER): URL [Providing a resource (website URL)]
+Persuadee (EE): ooo ok...thats good that there is a organization put together to help children in other countries [Expressing approval of the charity's mission]
+Persuader (ER): Yes, it is good. [Agreeing with the other person's sentiment]
+Persuader (ER): But they are really under funded. [Highlighting the charity's need for funds]
+Persuader (ER): Would you be willing to donate to the charity now? [Requesting a donation]
+Persuadee (EE): I will have to read up more about the organization before i just give my money up because there is fake charities in the world [Expressing caution and the need for more information before donating]
+Persuader (ER): I understand that. [Showing understanding of the other person's caution]
+Persuader (ER): Your donation is essential to help ensuring children's rights to health, education, safety, etc. [Emphasizing the importance of the donation]
+Persuader (ER): Your donation will make a tangible impact for the world. [Highlighting the impact of the donation]
+Persuadee (EE): Yes i understand that because every sunday i would go to the homeless shelter in my town and help collect clothes for the people that need it.it is something i do once a week because it is the right thing to do.. [Sharing personal experience with charity work]
+Persuader (ER): It is the right thing to do. [Agreeing with the sentiment of doing the right thing]
+Persuader (ER): That helps people directly in your community. [Acknowledging the impact of the other person's local charity work]
+Persuader (ER): A lot of these children don't have people like you in their community. [Highlighting the lack of support in other communities]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello! [Greeting the other person]
+Persuadee (EE): hi [Responding to the greeting]
+Persuader (ER): Have you heard of the charity, Save the Children? [Introducing the topic of the charity]
+Persuadee (EE): no I have not...what is it about? [Expressing lack of knowledge and asking for more information]
+Persuader (ER): Save the Children is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries. [Providing information about the charity]
+Persuader (ER): You can refer to Save the Children's website to gather more information if you like to. [Encouraging the other person to seek more information]
+Persuader (ER): URL [Providing a resource (website URL)]
+Persuadee (EE): ooo ok...thats good that there is a organization put together to help children in other countries [Expressing approval of the charity's mission]
+Persuader (ER): Yes, it is good. [Agreeing with the other person's sentiment]
+Persuader (ER): But they are really under funded. [Highlighting the charity's need for funds]
+Persuader (ER): Would you be willing to donate to the charity now? [Requesting a donation]
+Persuadee (EE): I will have to read up more about the organization before i just give my money up because there is fake charities in the world [Expressing caution and the need for more information before donating]
+Persuader (ER): I understand that. [Showing understanding of the other person's caution]
+Persuader (ER): Your donation is essential to help ensuring children's rights to health, education, safety, etc. [Emphasizing the importance of the donation]
+Persuader (ER): Your donation will make a tangible impact for the world. [Highlighting the impact of the donation]
+Persuadee (EE): Yes i understand that because every sunday i would go to the homeless shelter in my town and help collect clothes for the people that need it.it is something i do once a week because it is the right thing to do.. [Sharing personal experience with charity work]
+Persuader (ER): It is the right thing to do. [Agreeing with the sentiment of doing the right thing]
+Persuader (ER): That helps people directly in your community. [Acknowledging the impact of the other person's local charity work]
+Persuader (ER): A lot of these children don't have people like you in their community. [Highlighting the lack of support in other communities] user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates high warmth by expressing understanding and appreciation for EE's community service efforts. ER also shows high competence by providing detailed information about the charity and articulating the impact of donations, indicating knowledge and capability in discussing the topic.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE exhibits high warmth by expressing interest in the charity and sharing personal experiences of helping others, which shows empathy and community spirit. EE also displays high competence by indicating a need to verify information before donating, reflecting a thoughtful and discerning approach.","assistant<|end_header_id|>
+
+DONATION: NO
+
+The persuadee (EE) has expressed interest in the charity and has a track record of helping others, which suggests a willingness to support a good cause. However, EE has also explicitly stated that they need to ""read up more about the organization"" before donating, indicating a desire to verify the charity's legitimacy and effectiveness before making a decision. This cautious approach, combined with the fact that the persuader (ER) has not addressed EE's concerns about fake charities, makes it unlikely that EE will make a donation on the spot.",no,no,1,0.0
+20180828-151914_101_live,scm,llama70b,True,"Persuader (ER): Hello, I would like to talk to you about making a donation to Save the Children [Initiate conversation about making a donation]
+Persuadee (EE): Okay, if you don [Express willingness to listen but starts to express a condition]
+Persuader (ER): Your donation will help to ensure children's rights to healthcare, education, safety, etc [Provide information about the benefits of the donation]
+Persuadee (EE): Does this money that goes for donation stay here in the United States? [Seek clarification on the geographical allocation of the donation]
+Persuader (ER): No, not all of it will stay in the United states [Clarify that not all donations stay in the United States]
+Persuadee (EE): Is there a specific age or race of children that Save the Children are looking to benefit? [Inquire about the specific demographics of children benefiting from the donation]
+Persuader (ER): No, they don't have any prejudice like that, it's strictly to help children in general who are in need [Clarify that the organization helps all children in need without prejudice]
+Persuadee (EE): This allows doctors to go to other countries? [Seek further clarification on the scope of the aid provided]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello, I would like to talk to you about making a donation to Save the Children [Initiate conversation about making a donation]
+Persuadee (EE): Okay, if you don [Express willingness to listen but starts to express a condition]
+Persuader (ER): Your donation will help to ensure children's rights to healthcare, education, safety, etc [Provide information about the benefits of the donation]
+Persuadee (EE): Does this money that goes for donation stay here in the United States? [Seek clarification on the geographical allocation of the donation]
+Persuader (ER): No, not all of it will stay in the United states [Clarify that not all donations stay in the United States]
+Persuadee (EE): Is there a specific age or race of children that Save the Children are looking to benefit? [Inquire about the specific demographics of children benefiting from the donation]
+Persuader (ER): No, they don't have any prejudice like that, it's strictly to help children in general who are in need [Clarify that the organization helps all children in need without prejudice]
+Persuadee (EE): This allows doctors to go to other countries? [Seek further clarification on the scope of the aid provided] user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates high warmth by engaging politely and focusing on helping children, which indicates a caring attitude. Their competence is high as they provide clear, informative responses about the donation process and the organization's mission, showing knowledge and confidence in the subject.
+
+user2 (EE):
+  warmth: low
+  competence: high
+  explanation: EE's warmth is perceived as low due to their direct and transactional approach, which lacks expressions of empathy or personal connection. However, their competence is high as they ask specific, relevant questions that show critical thinking and a desire to understand the implications of the donation.","assistant<|end_header_id|>
+
+DONATION: NO
+
+Reasoning:
+
+* The persuadee (EE) is expressing a critical and transactional approach, asking specific questions about the allocation of funds, demographics of children benefiting, and scope of aid provided. This suggests that they are evaluating the effectiveness and efficiency of the organization before making a decision.
+* EE's warmth is perceived as low, indicating a lack of emotional connection or personal investment in the cause. This may make them less likely to make an impulsive or emotional decision to donate on the spot.
+* While EE is engaged and asking questions, their tone is more evaluative than enthusiastic or supportive. This suggests that they may need more time to consider the information and weigh their options before making a decision.
+* The persuader (ER) has provided clear and informative responses, but has not explicitly addressed any specific concerns or objections that EE may have. This may not be enough to overcome EE's critical evaluation and persuade them to make a donation on the spot.",yes,no,0,1.0
+20180828-165639_960_live,scm,llama70b,True,"Persuader (ER): Hey, how are you? [Initiate conversation and greet]
+Persuadee (EE): Fine and you? [Respond to greeting and reciprocate question]
+Persuader (ER): I am well. [Respond to inquiry about well-being]
+Persuadee (EE): Good, so what's up? [Express satisfaction and inquire about the purpose of the conversation]
+Persuader (ER): Have you heard about Save the Children? [Introduce the topic of Save the Children]
+Persuadee (EE): Yea, ive came across it a few times on different internet ads. [Acknowledge familiarity with the organization]
+Persuader (ER): Have you ever donated to them? [Inquire about past donations to the organization]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hey, how are you? [Initiate conversation and greet]
+Persuadee (EE): Fine and you? [Respond to greeting and reciprocate question]
+Persuader (ER): I am well. [Respond to inquiry about well-being]
+Persuadee (EE): Good, so what's up? [Express satisfaction and inquire about the purpose of the conversation]
+Persuader (ER): Have you heard about Save the Children? [Introduce the topic of Save the Children]
+Persuadee (EE): Yea, ive came across it a few times on different internet ads. [Acknowledge familiarity with the organization]
+Persuader (ER): Have you ever donated to them? [Inquire about past donations to the organization] user1 (ER):
+  warmth: high
+  competence: high
+  explanation: User1 initiates the conversation with a friendly greeting and expresses interest in user2's well-being, indicating high warmth. Their inquiry about a charitable organization suggests awareness and a proactive approach, reflecting high competence.
+
+user2 (EE):
+  warmth: high
+  competence: low
+  explanation: User2 responds politely and reciprocates the greeting, showing high warmth. However, their casual acknowledgment of the organization without further engagement or detailed knowledge suggests lower competence in this context.","assistant<|end_header_id|>
+
+Based on the conversation and the intentions analysis, I predict:
+
+DONATION: NO
+
+Reasoning:
+
+* The persuadee (EE) shows high warmth, indicating they are open and friendly, but this alone does not guarantee a donation.
+* The persuadee's low competence in this context suggests they may not have a strong understanding of the organization or its mission, which could lead to hesitation or lack of confidence in making a donation.
+* The conversation has only just introduced the topic of Save the Children, and there is no evidence of a strong emotional connection or persuasive argument being made to motivate the persuadee to donate on the spot.
+* The persuadee's casual acknowledgment of the organization (""I've came across it a few times on different internet ads"") does not indicate a strong interest or commitment to the cause, which reduces the likelihood of an immediate donation.",no,no,1,0.0
+20180829-082113_449_live,scm,llama70b,True,"Persuader (ER): Hey there :) How are you feeling today? [Initiate conversation and inquire about the other person's well-being]
+Persuadee (EE): I'm fine how are you. [Respond to greeting and reciprocate the question]
+Persuader (ER): Not too bad, all things considered [Provide a personal update on well-being]
+Persuadee (EE): Thats good to hear. [Acknowledge the response and express positive sentiment]
+Persuadee (EE): Where are you from? [Inquire about the other person's location]
+Persuader (ER): U.S. How about you? [Answer the question and reciprocate the inquiry]
+Persuader (ER): Think they matched us with our complete opposites? :P [Introduce a playful comment to lighten the mood]
+Persuadee (EE): Same. [Provide a brief response to the location question]
+Persuadee (EE): Maybe, I'm not sure. [Respond to the playful comment with uncertainty]
+Persuader (ER): Haha I am trying to figure out if you're a bot. [Introduce humor and express curiosity about the other person's identity]
+Persuader (ER): I'm not, if you're wondering :) If you are you're pretty good. [Clarify own identity and compliment the other person if they were a bot]
+Persuader (ER): Congrats! [Express congratulations humorously]
+Persuadee (EE): Lol.  I'm not a bot...... [Respond with humor and clarify own identity]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hey there :) How are you feeling today? [Initiate conversation and inquire about the other person's well-being]
+Persuadee (EE): I'm fine how are you. [Respond to greeting and reciprocate the question]
+Persuader (ER): Not too bad, all things considered [Provide a personal update on well-being]
+Persuadee (EE): Thats good to hear. [Acknowledge the response and express positive sentiment]
+Persuadee (EE): Where are you from? [Inquire about the other person's location]
+Persuader (ER): U.S. How about you? [Answer the question and reciprocate the inquiry]
+Persuader (ER): Think they matched us with our complete opposites? :P [Introduce a playful comment to lighten the mood]
+Persuadee (EE): Same. [Provide a brief response to the location question]
+Persuadee (EE): Maybe, I'm not sure. [Respond to the playful comment with uncertainty]
+Persuader (ER): Haha I am trying to figure out if you're a bot. [Introduce humor and express curiosity about the other person's identity]
+Persuader (ER): I'm not, if you're wondering :) If you are you're pretty good. [Clarify own identity and compliment the other person if they were a bot]
+Persuader (ER): Congrats! [Express congratulations humorously]
+Persuadee (EE): Lol.  I'm not a bot...... [Respond with humor and clarify own identity] user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER engages with friendly greetings and humor, indicating high warmth. Their playful and inquisitive nature, along with clear communication, suggests high competence.
+
+user2 (EE):
+  warmth: moderate
+  competence: moderate
+  explanation: EE responds politely but with minimal enthusiasm, indicating moderate warmth. Their brief and straightforward replies suggest moderate competence, as they engage but do not elaborate much.","assistant<|end_header_id|>
+
+DONATION: NO
+
+Reasoning: 
+
+The conversation is primarily focused on building rapport and engaging in light banter, with no clear mention of a cause or request for a donation. The persuader's intentions seem to be centered around establishing a connection with the persuadee, rather than making a direct ask. The persuadee's responses, while polite, do not indicate a strong emotional investment or sense of urgency that would typically precede a donation. Additionally, the conversation lacks a clear transition to a request for a donation, making it unlikely that the persuadee would make a donation on the spot.",yes,no,0,0.5
+20180829-084042_694_live,scm,llama70b,True,"Persuader (ER): hi [Initiate conversation]
+Persuadee (EE): how are you today? [Inquire about well-being]
+Persuader (ER): so you gonna donate or what [Request donation]
+Persuadee (EE): sure I can donate but what is the game? [Seek clarification about the donation]
+Persuader (ER): you gotta donate your payment [Specify the donation requirement]
+Persuadee (EE): If I donate, what do I get in return? [Inquire about return on donation]
+Persuadee (EE): Will you donate the same amount back to me? [Seek confirmation of reciprocal donation]
+Persuader (ER): No, I don\'t believe that\'s the case. [Clarify non-reciprocal nature of donation]
+Persuader (ER): However, it\'s for a good cause. [Justify donation as a good cause]
+Persuader (ER): Save the children. [Specify the cause (Save the children)]
+Persuader (ER): dont you like children? [Appeal to the listener's empathy for children]
+Persuader (ER): they need your help. [Emphasize the need for help]
+Persuader (ER): its just 2 bucks. or ill tell you what, how about just half? [Negotiate the donation amount]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): hi [Initiate conversation]
+Persuadee (EE): how are you today? [Inquire about well-being]
+Persuader (ER): so you gonna donate or what [Request donation]
+Persuadee (EE): sure I can donate but what is the game? [Seek clarification about the donation]
+Persuader (ER): you gotta donate your payment [Specify the donation requirement]
+Persuadee (EE): If I donate, what do I get in return? [Inquire about return on donation]
+Persuadee (EE): Will you donate the same amount back to me? [Seek confirmation of reciprocal donation]
+Persuader (ER): No, I don\'t believe that\'s the case. [Clarify non-reciprocal nature of donation]
+Persuader (ER): However, it\'s for a good cause. [Justify donation as a good cause]
+Persuader (ER): Save the children. [Specify the cause (Save the children)]
+Persuader (ER): dont you like children? [Appeal to the listener's empathy for children]
+Persuader (ER): they need your help. [Emphasize the need for help]
+Persuader (ER): its just 2 bucks. or ill tell you what, how about just half? [Negotiate the donation amount] user1 (ER):
+  warmth: low
+  competence: low
+  explanation: ER's approach is aggressive and lacks empathy, as shown by their pushy and guilt-inducing tactics. They do not provide clear information or reciprocation, which diminishes perceived competence.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE maintains a polite and inquisitive tone, asking relevant questions and showing willingness to participate. Their responses indicate thoughtfulness and an interest in understanding the situation, reflecting both warmth and competence.","assistant<|end_header_id|>
+
+DONATION: NO
+
+Reasoning: Despite the persuadee (EE) showing initial willingness to donate and asking clarifying questions, the persuader's (ER) approach is aggressive and lacks empathy. ER's pushy tactics, failure to provide clear information, and non-reciprocal nature of the donation may have raised skepticism in EE. Additionally, ER's low warmth and competence may have eroded trust, making it less likely for EE to make a donation on the spot.",no,no,1,0.0
+20180902-222227_892_live,scm,llama70b,True,"Persuader (ER): hi there! [Greeting the other participant]
+Persuadee (EE): Hello. [Responding to the greeting]
+Persuadee (EE): How you doin [Inquiring about the other participant's well-being]
+Persuader (ER): pretty good. [Responding to the inquiry about well-being]
+Persuader (ER): It looks like this chat is supposed to be to learn more about ""Save the Children"". [Introducing the topic of the conversation]
+Persuader (ER): Have you ever heard of it? [Asking if the other participant is familiar with the charity]
+Persuadee (EE): Yes I am aware of that charity [Confirming awareness of the charity]
+Persuader (ER): It seems vaguely familiar but I never paid attention specifically. [Sharing personal familiarity with the charity]
+Persuader (ER): Have you ever donated to them? [Inquiring about the other participant's donation history to the charity]
+Persuadee (EE): I have not but I have to some others recently [Sharing donation history to other charities]
+Persuader (ER): Do you feel that Save the Children is a good charity to give to? [Asking for the other participant's opinion on the charity]
+Persuader (ER): From what I'm reading, it sounds like a great cause [Sharing personal positive impression of the charity]
+Persuadee (EE): I know a little can you maybe provide some info for me? [Requesting more information about the charity]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): hi there! [Greeting the other participant]
+Persuadee (EE): Hello. [Responding to the greeting]
+Persuadee (EE): How you doin [Inquiring about the other participant's well-being]
+Persuader (ER): pretty good. [Responding to the inquiry about well-being]
+Persuader (ER): It looks like this chat is supposed to be to learn more about ""Save the Children"". [Introducing the topic of the conversation]
+Persuader (ER): Have you ever heard of it? [Asking if the other participant is familiar with the charity]
+Persuadee (EE): Yes I am aware of that charity [Confirming awareness of the charity]
+Persuader (ER): It seems vaguely familiar but I never paid attention specifically. [Sharing personal familiarity with the charity]
+Persuader (ER): Have you ever donated to them? [Inquiring about the other participant's donation history to the charity]
+Persuadee (EE): I have not but I have to some others recently [Sharing donation history to other charities]
+Persuader (ER): Do you feel that Save the Children is a good charity to give to? [Asking for the other participant's opinion on the charity]
+Persuader (ER): From what I'm reading, it sounds like a great cause [Sharing personal positive impression of the charity]
+Persuadee (EE): I know a little can you maybe provide some info for me? [Requesting more information about the charity] user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER engages in a friendly manner and shows interest in learning and sharing information about a charity. They ask questions and express a willingness to discuss and provide information, indicating both warmth and competence.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE responds politely and shows awareness of the charity, indicating competence. They also express interest in learning more, which suggests openness and warmth. Their engagement in the conversation is constructive and supportive.","assistant<|end_header_id|>
+
+DONATION: YES
+
+My reasoning is as follows:
+
+* Both the persuader (ER) and persuadee (EE) have high warmth and competence ratings, indicating a positive and constructive conversation.
+* The persuadee (EE) is aware of the charity and has donated to other charities recently, suggesting they are open to giving.
+* The persuadee (EE) asks for more information about the charity, indicating interest and a willingness to learn more.
+* The persuader (ER) is prepared to provide information and has a positive impression of the charity, which they share with the persuadee (EE).
+* The conversation is friendly and engaging, with both parties showing mutual respect and interest in the topic.
+
+Overall, the conversation has created a positive and supportive atmosphere, which increases the likelihood of the persuadee (EE) making a donation on the spot.",yes,yes,1,2.0
+20180903-094545_472_live,scm,llama70b,True,"Persuader (ER): Hello how are you today? [Greeting and initiating conversation]
+Persuadee (EE): I'm good. [Responding to greeting]
+Persuadee (EE): How are you? [Inquiring about the other person's well-being]
+Persuader (ER): I am doing great! [Responding positively to inquiry]
+Persuader (ER): I am here to let you know about this amazing international foundation called Save the Children that promotes children's rights, provides relief and helps support them in developing countries. [Introducing the purpose of the conversation and providing information about the charity]
+Persuadee (EE): Please tell me more. [Expressing interest and requesting more information]
+Persuader (ER): These children are being used in horrific ways, the food and supplies that are supposed to be going to them are being stolen and we are trying to gather money to ensure the supplies get to these children who really need these supplies and help. With a donation today, not only will we be able to ensure the supply lines safely reach villages, but doctors will also go and help the children with medical care they desperately need. [Providing detailed information about the charity's mission and the issues it addresses]
+Persuader (ER): All I ask is that you donate a portion of your task payment to this charity to help the children. [Making a direct request for a donation]
+Persuadee (EE): How do I know this charity is legit? [Expressing skepticism and seeking validation of the charity's legitimacy]
+Persuader (ER): You are free to look up any information you like at  URL [Providing a resource for verification]
+Persuadee (EE): How much of the donations goto the children and the effort? [Inquiring about the allocation of donations]
+Persuader (ER): 100% of your donation will go directly to Save the Children. [Assuring that all donations go directly to the charity]
+Persuader (ER): Just think of it this way, instead of getting your morning coffee, or that bag of chips at lunch, you could donate $2 today and help ensure that 3 children get the care they need and food in their stomachs. [Encouraging donation by comparing it to small daily expenses]
+Persuadee (EE): Does 100% go to the effort directly or does any of the monies go to employees like the director of the charity ect? [Seeking clarification on the use of donations and potential administrative costs]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello how are you today? [Greeting and initiating conversation]
+Persuadee (EE): I'm good. [Responding to greeting]
+Persuadee (EE): How are you? [Inquiring about the other person's well-being]
+Persuader (ER): I am doing great! [Responding positively to inquiry]
+Persuader (ER): I am here to let you know about this amazing international foundation called Save the Children that promotes children's rights, provides relief and helps support them in developing countries. [Introducing the purpose of the conversation and providing information about the charity]
+Persuadee (EE): Please tell me more. [Expressing interest and requesting more information]
+Persuader (ER): These children are being used in horrific ways, the food and supplies that are supposed to be going to them are being stolen and we are trying to gather money to ensure the supplies get to these children who really need these supplies and help. With a donation today, not only will we be able to ensure the supply lines safely reach villages, but doctors will also go and help the children with medical care they desperately need. [Providing detailed information about the charity's mission and the issues it addresses]
+Persuader (ER): All I ask is that you donate a portion of your task payment to this charity to help the children. [Making a direct request for a donation]
+Persuadee (EE): How do I know this charity is legit? [Expressing skepticism and seeking validation of the charity's legitimacy]
+Persuader (ER): You are free to look up any information you like at  URL [Providing a resource for verification]
+Persuadee (EE): How much of the donations goto the children and the effort? [Inquiring about the allocation of donations]
+Persuader (ER): 100% of your donation will go directly to Save the Children. [Assuring that all donations go directly to the charity]
+Persuader (ER): Just think of it this way, instead of getting your morning coffee, or that bag of chips at lunch, you could donate $2 today and help ensure that 3 children get the care they need and food in their stomachs. [Encouraging donation by comparing it to small daily expenses]
+Persuadee (EE): Does 100% go to the effort directly or does any of the monies go to employees like the director of the charity ect? [Seeking clarification on the use of donations and potential administrative costs] user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates high warmth by engaging positively and expressing concern for children's welfare. Their competence is also high, as they provide detailed information about the charity and address EE's inquiries effectively, showing knowledge and confidence in the subject matter.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE shows high warmth by engaging in the conversation politely and expressing interest in the cause. Their competence is high, as they ask pertinent questions about the charity's legitimacy and financial allocation, indicating critical thinking and a desire for transparency.","assistant<|end_header_id|>
+
+DONATION: YES
+
+Reasoning:
+
+* The persuader (ER) effectively establishes a positive tone and demonstrates high warmth, which helps build trust and rapport with the persuadee (EE).
+* ER provides detailed information about the charity and addresses EE's concerns, showcasing their competence and confidence in the subject matter.
+* EE engages positively and expresses interest in the cause, indicating high warmth and a willingness to consider the request.
+* EE's questions about the charity's legitimacy and financial allocation demonstrate critical thinking and a desire for transparency, but do not necessarily indicate a lack of willingness to donate.
+* ER's responses to EE's questions are reassuring and transparent, which helps to build trust and alleviate concerns.
+* The persuader's final appeal, comparing the donation to small daily expenses, is a effective way to make the request more relatable and manageable for EE.
+* Overall, the conversation suggests that EE is engaged, informed, and sympathetic to the cause, making it likely that they will make",no,yes,0,0.0
+20180903-103835_253_live,scm,llama70b,True,"Persuader (ER): Hello there, how are you? [Initiate conversation and establish rapport]
+Persuadee (EE): Hi [Respond to greeting]
+Persuader (ER): How much do you know about Save the Children? [Inquire about EE's knowledge of Save the Children]
+Persuadee (EE): I know that it is a charity. [Provide basic information about Save the Children]
+Persuadee (EE): I think I have seen some commercials for it in my lifetime. [Share personal experience related to Save the Children]
+Persuader (ER): Were you aware that Save the Children assists both children in the U.S. as well as foreign countries? [Provide additional information about Save the Children's scope]
+Persuadee (EE): No. [Express lack of awareness]
+Persuadee (EE): I figured they just tried to help children in under developed countries. [Share assumption about Save the Children's focus]
+Persuadee (EE): That's great that they help people in the U.S. as well! [Express approval of Save the Children's broader scope]
+Persuadee (EE): I think it's important to help children from our country and also others. [Share personal belief about the importance of helping children]
+Persuader (ER): Yes, not only do we help out with literacy and school related causes, but also with feeding, shelter, and disaster relief for children all over the world. [Provide detailed information about Save the Children's activities]
+Persuadee (EE): That's wonderful! [Express approval]
+Persuadee (EE): Are you a top rated charity? [Inquire about the charity's rating]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello there, how are you? [Initiate conversation and establish rapport]
+Persuadee (EE): Hi [Respond to greeting]
+Persuader (ER): How much do you know about Save the Children? [Inquire about EE's knowledge of Save the Children]
+Persuadee (EE): I know that it is a charity. [Provide basic information about Save the Children]
+Persuadee (EE): I think I have seen some commercials for it in my lifetime. [Share personal experience related to Save the Children]
+Persuader (ER): Were you aware that Save the Children assists both children in the U.S. as well as foreign countries? [Provide additional information about Save the Children's scope]
+Persuadee (EE): No. [Express lack of awareness]
+Persuadee (EE): I figured they just tried to help children in under developed countries. [Share assumption about Save the Children's focus]
+Persuadee (EE): That's great that they help people in the U.S. as well! [Express approval of Save the Children's broader scope]
+Persuadee (EE): I think it's important to help children from our country and also others. [Share personal belief about the importance of helping children]
+Persuader (ER): Yes, not only do we help out with literacy and school related causes, but also with feeding, shelter, and disaster relief for children all over the world. [Provide detailed information about Save the Children's activities]
+Persuadee (EE): That's wonderful! [Express approval]
+Persuadee (EE): Are you a top rated charity? [Inquire about the charity's rating] user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER engages politely and informatively, providing detailed information about the charity, which indicates high competence. Their friendly and supportive tone throughout the conversation suggests high warmth.
+
+user2 (EE):
+  warmth: high
+  competence: low
+  explanation: EE responds positively and expresses enthusiasm about the charity's work, indicating high warmth. However, their limited knowledge about the charity and reliance on ER for information suggest lower competence.","<|start_header_id|>assistant<|end_header_id|>
+
+DONATION: YES
+
+Reasoning:
+
+1. **Established rapport**: The persuader (ER) successfully initiates a conversation and establishes a rapport with the persuadee (EE), creating a positive atmosphere for the conversation.
+2. **EE's positive attitude**: EE responds positively to the information provided by ER, expressing approval and enthusiasm about Save the Children's work, indicating a high level of warmth towards the charity.
+3. **Growing awareness and interest**: EE's initial lack of knowledge about Save the Children's scope and activities is gradually addressed by ER, and EE becomes increasingly interested and supportive of the charity's work.
+4. **No major objections**: EE does not raise any significant concerns or objections to the charity or its work, which suggests that they are receptive to the idea of supporting it.
+5. **ER's high competence and warmth**: ER's ability to provide detailed information and respond to EE's questions in a friendly and supportive manner helps to build trust and credibility",no,yes,0,0.0
+20180903-111245_955_live,scm,llama70b,True,"Persuader (ER): Hello, have you heard of Save The Children? [Initiate conversation and introduce the topic of Save The Children]
+Persuadee (EE): I think so, it sounds familiar. [Express familiarity with the topic]
+Persuadee (EE): it is a nonprofit charity if i recall. [Confirm understanding of the organization as a nonprofit charity]
+Persuadee (EE): What exactly do they do? [Seek more detailed information about the organization's activities]
+Persuader (ER): Save The Children helps kids from around the world by taking contributions from generous patrons. Kids from countries that have been stricken by poverty, violence, and other blights. [Provide detailed information about the organization's mission and activities]
+Persuadee (EE): What countries has the charity worked in recently? [Inquire about specific countries where the charity has recently worked]
+Persuader (ER): Well, we have programs set up in 120 countries in total right now. [Provide information about the scope of the organization's programs]
+Persuader (ER): Some of our most recent campaigns involve Myanmar - in Rohingya where parents and their children have been forced to flee because of violence to surrounding countries. In the largest refugee camp stationed in Bangladesh, there are an estimated 915,000 children and adults taking shelter. [Give specific examples of recent campaigns and their impact]
+Persuadee (EE): Wow that sounds like a really robust program. [Express admiration for the organization's efforts]
+Persuadee (EE): How long has Save the Children been around? [Inquire about the history of the organization]
+Persuader (ER): It was founded in 1919, on April 15th in London - UK. [Provide historical information about the organization's founding]
+Persuadee (EE): Do you work for Save the Children or do you just volunteer for the charity? [Inquire about the speaker's relationship with the organization]
+Persuader (ER): I do not work for them, I work on behalf of them. [Clarify the nature of their involvement with the organization]
+Persuader (ER): That is why I'm talking to you today. [Explain the purpose of the current conversation]
+Persuader (ER): These children need help, and could use it from generous people like you. [Emphasize the need for help and appeal for support]
+Persuader (ER): A meal, an education, an opportunity like everyone else, that is all these kids want. [Highlight the basic needs of the children the organization helps]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello, have you heard of Save The Children? [Initiate conversation and introduce the topic of Save The Children]
+Persuadee (EE): I think so, it sounds familiar. [Express familiarity with the topic]
+Persuadee (EE): it is a nonprofit charity if i recall. [Confirm understanding of the organization as a nonprofit charity]
+Persuadee (EE): What exactly do they do? [Seek more detailed information about the organization's activities]
+Persuader (ER): Save The Children helps kids from around the world by taking contributions from generous patrons. Kids from countries that have been stricken by poverty, violence, and other blights. [Provide detailed information about the organization's mission and activities]
+Persuadee (EE): What countries has the charity worked in recently? [Inquire about specific countries where the charity has recently worked]
+Persuader (ER): Well, we have programs set up in 120 countries in total right now. [Provide information about the scope of the organization's programs]
+Persuader (ER): Some of our most recent campaigns involve Myanmar - in Rohingya where parents and their children have been forced to flee because of violence to surrounding countries. In the largest refugee camp stationed in Bangladesh, there are an estimated 915,000 children and adults taking shelter. [Give specific examples of recent campaigns and their impact]
+Persuadee (EE): Wow that sounds like a really robust program. [Express admiration for the organization's efforts]
+Persuadee (EE): How long has Save the Children been around? [Inquire about the history of the organization]
+Persuader (ER): It was founded in 1919, on April 15th in London - UK. [Provide historical information about the organization's founding]
+Persuadee (EE): Do you work for Save the Children or do you just volunteer for the charity? [Inquire about the speaker's relationship with the organization]
+Persuader (ER): I do not work for them, I work on behalf of them. [Clarify the nature of their involvement with the organization]
+Persuader (ER): That is why I'm talking to you today. [Explain the purpose of the current conversation]
+Persuader (ER): These children need help, and could use it from generous people like you. [Emphasize the need for help and appeal for support]
+Persuader (ER): A meal, an education, an opportunity like everyone else, that is all these kids want. [Highlight the basic needs of the children the organization helps] user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates high warmth by expressing concern for children in need and encouraging generosity. Their competence is high as they provide detailed information about the charity's operations, history, and current efforts, indicating a strong understanding of the organization's work.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE shows high warmth by engaging positively and expressing interest in the charity's work. Their competence is high as they ask relevant questions and acknowledge the robustness of the program, indicating an understanding and appreciation of the information provided.","assistant<|end_header_id|>
+
+DONATION: YES
+
+Reasoning: 
+
+* The persuadee (EE) has shown high warmth and engagement throughout the conversation, asking questions and expressing admiration for the organization's efforts.
+* The persuader (ER) has provided detailed and competent information about the charity, its mission, and its impact, which has likely built trust and credibility with the persuadee.
+* The persuadee has also demonstrated an understanding and appreciation of the information provided, which suggests that they are receptive to the message.
+* The persuader's appeal for support is emotional and emphasizes the basic needs of the children, which is likely to resonate with the persuadee's high warmth and empathy.
+* The conversation has a positive and collaborative tone, with both parties showing high warmth and competence, which increases the likelihood of a successful persuasion outcome.",yes,yes,1,1.0
+20180903-132332_521_live,scm,llama70b,True,"Persuader (ER): hi there! [Greeting]
+Persuader (ER): How was your weekend? [Initiate small talk]
+Persuadee (EE): It was pretty good, hot weather but still nice and yours? [Respond to small talk and reciprocate question]
+Persuader (ER): hot here too. [Share personal experience]
+Persuader (ER): I did a 5k fun for save the children charity. [Share personal activity]
+Persuader (ER): have you ever heard of it? [Inquire about familiarity]
+Persuadee (EE): No, I can't say I have. [Express lack of knowledge]
+Persuadee (EE): What is it about? [Request information]
+Persuader (ER): I'm excited to tell you about it! it is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries. [Express enthusiasm and provide information]
+Persuadee (EE): In what way does it support children? [Request further details]
+Persuader (ER): There is a lack of support for children in developing countries, especially in war zones. [Provide context]
+Persuader (ER): For instance, millions of Syrian children have grown up facing the daily threat of violence. [Provide specific example]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): hi there! [Greeting]
+Persuader (ER): How was your weekend? [Initiate small talk]
+Persuadee (EE): It was pretty good, hot weather but still nice and yours? [Respond to small talk and reciprocate question]
+Persuader (ER): hot here too. [Share personal experience]
+Persuader (ER): I did a 5k fun for save the children charity. [Share personal activity]
+Persuader (ER): have you ever heard of it? [Inquire about familiarity]
+Persuadee (EE): No, I can't say I have. [Express lack of knowledge]
+Persuadee (EE): What is it about? [Request information]
+Persuader (ER): I'm excited to tell you about it! it is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries. [Express enthusiasm and provide information]
+Persuadee (EE): In what way does it support children? [Request further details]
+Persuader (ER): There is a lack of support for children in developing countries, especially in war zones. [Provide context]
+Persuader (ER): For instance, millions of Syrian children have grown up facing the daily threat of violence. [Provide specific example] user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER initiates the conversation with a friendly greeting and shares personal experiences, indicating high warmth. ER also provides detailed information about a charity and its impact, demonstrating high competence.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE engages in the conversation with polite responses and shows interest in learning more about the charity, reflecting high warmth. EE's questions about the charity's operations suggest a desire for understanding, indicating high competence.","assistant<|end_header_id|>
+
+DONATION: YES",no,yes,0,0.0
+20180903-134122_237_live,scm,llama70b,True,"Persuader (ER): Donate to Save the Children, please. [Requesting donation]
+Persuader (ER): Think about those poor kids. [Appealing to empathy]
+Persuadee (EE): Well tell me a little bit more about the charity. [Requesting more information]
+Persuader (ER): It's really all in the name. [Deflecting request for information]
+Persuader (ER): You have a moral responsibility. [Appealing to moral responsibility]
+Persuadee (EE): A lot of charities are just a name and they don't do what they promise. [Expressing skepticism]
+Persuadee (EE): How do I know my money will go where it supposed to? [Seeking assurance about fund allocation]
+Persuader (ER): They're a world-famous trustworthy charity. [Providing assurance about trustworthiness]
+Persuader (ER): If they were fraudulent or misallocating funds, surely there'd have been a scandal. [Providing rationale for trustworthiness]
+Persuadee (EE): Ok. [Indicating tentative agreement]
+Persuadee (EE): So why do they deserve my money as opposed to other charities like St Judes or the Red Cross> [Questioning the uniqueness of the charity]
+Persuader (ER): Of course you can donate to other charities. [Conceding the possibility of donating to other charities]
+Persuader (ER): It's not necessarily a zero-sum game. [Clarifying that donations are not mutually exclusive]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Donate to Save the Children, please. [Requesting donation]
+Persuader (ER): Think about those poor kids. [Appealing to empathy]
+Persuadee (EE): Well tell me a little bit more about the charity. [Requesting more information]
+Persuader (ER): It's really all in the name. [Deflecting request for information]
+Persuader (ER): You have a moral responsibility. [Appealing to moral responsibility]
+Persuadee (EE): A lot of charities are just a name and they don't do what they promise. [Expressing skepticism]
+Persuadee (EE): How do I know my money will go where it supposed to? [Seeking assurance about fund allocation]
+Persuader (ER): They're a world-famous trustworthy charity. [Providing assurance about trustworthiness]
+Persuader (ER): If they were fraudulent or misallocating funds, surely there'd have been a scandal. [Providing rationale for trustworthiness]
+Persuadee (EE): Ok. [Indicating tentative agreement]
+Persuadee (EE): So why do they deserve my money as opposed to other charities like St Judes or the Red Cross> [Questioning the uniqueness of the charity]
+Persuader (ER): Of course you can donate to other charities. [Conceding the possibility of donating to other charities]
+Persuader (ER): It's not necessarily a zero-sum game. [Clarifying that donations are not mutually exclusive] user1 (ER):
+  warmth: low
+  competence: low
+  explanation: ER's approach lacks warmth due to the use of moral pressure and dismissive responses. Competence is perceived as low because ER fails to provide detailed information about the charity, relying on its reputation rather than offering substantive evidence or reasoning.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE maintains a high level of warmth by expressing interest and asking questions rather than outright rejecting ER's request. EE's competence is high as they critically evaluate the situation, seeking more information and comparing options before making a decision.","assistant<|end_header_id|>
+
+DONATION: NO
+
+Reasoning:
+
+While the persuadee (EE) indicates tentative agreement and asks questions that suggest they are considering the request, their skepticism and critical evaluation of the charity suggest that they are unlikely to make a donation on the spot. EE's high competence and critical thinking lead them to seek more information and compare options, which may delay or prevent a donation.
+
+Additionally, the persuader's (ER) low warmth and competence may have created a negative impression, making EE less likely to trust the charity and make a donation. ER's dismissive responses and reliance on the charity's reputation rather than providing substantive evidence may have raised more concerns than they alleviated.",yes,no,0,0.2
+20180903-145436_470_live,scm,llama70b,True,"Persuader (ER): Hello [Greeting]
+Persuadee (EE): hi! [Greeting]
+Persuader (ER): How's it going? [Inquiring about well-being]
+Persuadee (EE): It is going alright, thanks [Responding to inquiry about well-being]
+Persuader (ER): Did you have any interesting dreams? [Inquiring about dreams]
+Persuadee (EE): I did actually, but i can't remember the. [Responding to inquiry about dreams]
+Persuadee (EE): what donations are we talking about? [Requesting clarification about donations]
+Persuader (ER): It\'s for ""Save the Children"" [Providing information about donations]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello [Greeting]
+Persuadee (EE): hi! [Greeting]
+Persuader (ER): How's it going? [Inquiring about well-being]
+Persuadee (EE): It is going alright, thanks [Responding to inquiry about well-being]
+Persuader (ER): Did you have any interesting dreams? [Inquiring about dreams]
+Persuadee (EE): I did actually, but i can't remember the. [Responding to inquiry about dreams]
+Persuadee (EE): what donations are we talking about? [Requesting clarification about donations]
+Persuader (ER): It\'s for ""Save the Children"" [Providing information about donations] user1 (ER):
+  warmth: high
+  competence: high
+  explanation: User1 initiates the conversation with a friendly greeting and shows interest in user2's well-being and dreams, indicating high warmth. They also provide clear information about the donations, suggesting high competence.
+
+user2 (EE):
+  warmth: high
+  competence: low
+  explanation: User2 responds warmly with a friendly greeting and engages in the conversation, indicating high warmth. However, they express uncertainty about their dreams and ask for clarification on the topic, suggesting lower competence in this context.","assistant<|end_header_id|>
+
+Based on the conversation and the analysis of the persuader's and persuadee's traits, I predict:
+
+DONATION: NO
+
+The persuader (ER) has established a warm and competent tone, which is conducive to building trust and rapport. However, the persuadee (EE) has not shown strong engagement with the topic of donations, and their request for clarification suggests that they may not be fully invested in the conversation. Additionally, the persuadee's low competence in this context may indicate that they are not confident in their decision-making ability, making them less likely to make a donation on the spot.",no,no,1,0.0
+20180904-004818_580_live,scm,llama70b,True,"Persuader (ER): Have you heard of the charity Save the Children? [To inquire if the other person is aware of the charity Save the Children.]
+Persuadee (EE): Yes I have, but I don't know a lot about it. [To acknowledge awareness but express limited knowledge about the charity.]
+Persuader (ER): They promote children's rights, provides relief, and helps support children in developing countries. [To provide information about the charity's mission and activities.]
+Persuadee (EE): That sounds like a very nice cause. [To express a positive opinion about the charity's cause.]
+Persuader (ER): Yes, it\'s a great cause. [To agree and reinforce the positive opinion about the charity.]
+Persuader (ER): And the charity is highly rated with many positive rewards. [To add credibility by mentioning the charity's high ratings and positive rewards.]
+Persuader (ER): Including an ""A"" rating from the American Institute of Philanthropy. [To provide specific information about the charity's rating from a reputable organization.]
+Persuadee (EE): That's awesome! [To express admiration and approval.]
+Persuadee (EE): Do you know when the charity began? [To inquire about the history of the charity.]
+Persuader (ER): It was founded way back on April 15, 1919! [To provide information about the founding date of the charity.]
+Persuader (ER): A charity with that kind of history shows that it has made an amazing impact. [To emphasize the charity's long history and its impact.]
+Persuader (ER): Just last year they helped a total of 155 million children! [To provide a recent statistic to highlight the charity's effectiveness.]
+Persuadee (EE): That is very impressive. [To express being impressed by the charity's achievements.]
+Persuadee (EE): Do you know on average how much money the charity makes per year? [To inquire about the charity's average annual revenue.]
+Persuader (ER): The total operating revenue was $807,412 in 2017, and 9 out of every 10  dollars they make goes straight into the programs and services to help children and families in need. [To provide detailed financial information about the charity's revenue and expenditure.]
+Persuadee (EE): That is awesome. [To express admiration for the charity's financial transparency.]
+Persuader (ER): I know I was surprised by those numbers. [To share a personal reaction to the financial information.]
+Persuader (ER): A lot of widely known charities aren't as open and honest about where their finances go, but you can easily find Save the Children's financial reports online. [To highlight the charity's transparency compared to other organizations.]
+Persuader (ER): That's important to me in a charity. [To express personal values regarding charity transparency.]
+Persuadee (EE): Yes, definitely. [To agree with the importance of transparency.]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Have you heard of the charity Save the Children? [To inquire if the other person is aware of the charity Save the Children.]
+Persuadee (EE): Yes I have, but I don't know a lot about it. [To acknowledge awareness but express limited knowledge about the charity.]
+Persuader (ER): They promote children's rights, provides relief, and helps support children in developing countries. [To provide information about the charity's mission and activities.]
+Persuadee (EE): That sounds like a very nice cause. [To express a positive opinion about the charity's cause.]
+Persuader (ER): Yes, it\'s a great cause. [To agree and reinforce the positive opinion about the charity.]
+Persuader (ER): And the charity is highly rated with many positive rewards. [To add credibility by mentioning the charity's high ratings and positive rewards.]
+Persuader (ER): Including an ""A"" rating from the American Institute of Philanthropy. [To provide specific information about the charity's rating from a reputable organization.]
+Persuadee (EE): That's awesome! [To express admiration and approval.]
+Persuadee (EE): Do you know when the charity began? [To inquire about the history of the charity.]
+Persuader (ER): It was founded way back on April 15, 1919! [To provide information about the founding date of the charity.]
+Persuader (ER): A charity with that kind of history shows that it has made an amazing impact. [To emphasize the charity's long history and its impact.]
+Persuader (ER): Just last year they helped a total of 155 million children! [To provide a recent statistic to highlight the charity's effectiveness.]
+Persuadee (EE): That is very impressive. [To express being impressed by the charity's achievements.]
+Persuadee (EE): Do you know on average how much money the charity makes per year? [To inquire about the charity's average annual revenue.]
+Persuader (ER): The total operating revenue was $807,412 in 2017, and 9 out of every 10  dollars they make goes straight into the programs and services to help children and families in need. [To provide detailed financial information about the charity's revenue and expenditure.]
+Persuadee (EE): That is awesome. [To express admiration for the charity's financial transparency.]
+Persuader (ER): I know I was surprised by those numbers. [To share a personal reaction to the financial information.]
+Persuader (ER): A lot of widely known charities aren't as open and honest about where their finances go, but you can easily find Save the Children's financial reports online. [To highlight the charity's transparency compared to other organizations.]
+Persuader (ER): That's important to me in a charity. [To express personal values regarding charity transparency.]
+Persuadee (EE): Yes, definitely. [To agree with the importance of transparency.] user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates high warmth by expressing enthusiasm and support for the charity, highlighting its positive impact and transparency. Their competence is high as well, shown by providing detailed information about the charity's history, ratings, and financials, indicating a well-informed perspective.
+
+user2 (EE):
+  warmth: high
+  competence: low
+  explanation: EE shows high warmth by expressing interest and positive reactions to the information shared by ER, indicating a supportive and engaged demeanor. However, their competence appears low as they rely on ER for information and do not contribute additional knowledge or insights to the conversation.","assistant<|end_header_id|>
+
+DONATION: YES
+
+Reasoning: 
+
+The conversation indicates a high level of warmth and engagement from both parties, with the Persuadee (EE) expressing admiration and approval for the charity's mission and activities. The Persuader (ER) effectively provides detailed information about the charity's history, ratings, and financials, showcasing their competence. 
+
+The Persuadee's low competence is not a significant concern in this context, as they are not expected to be experts on the charity. Instead, their high warmth and engagement suggest that they are receptive to the Persuader's message. The Persuader's emphasis on the charity's transparency and effectiveness, combined with the Persuadee's positive reactions, create a persuasive environment that is likely to result in a donation.",yes,yes,1,0.25
+20180904-012828_299_live,scm,llama70b,True,"Persuader (ER): Hello [Greeting the other person]
+Persuadee (EE): Hi there how are you? [Inquiring about the other person's well-being]
+Persuader (ER): Great and you [Responding positively and reciprocating the inquiry]
+Persuadee (EE): I am doing fine, thanks for asking. [Expressing well-being and gratitude]
+Persuader (ER): Can I ask you a question? [Requesting permission to ask a question]
+Persuadee (EE): You sure can [Granting permission to ask a question]
+Persuader (ER): Do you have any kids? [Inquiring about the other person's family status]
+Persuadee (EE): I don't have any children but there are many children in my family. [Providing information about family status]
+Persuader (ER): Im sure you love them as your own, I have a big family do you? [Expressing empathy and sharing personal information]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello [Greeting the other person]
+Persuadee (EE): Hi there how are you? [Inquiring about the other person's well-being]
+Persuader (ER): Great and you [Responding positively and reciprocating the inquiry]
+Persuadee (EE): I am doing fine, thanks for asking. [Expressing well-being and gratitude]
+Persuader (ER): Can I ask you a question? [Requesting permission to ask a question]
+Persuadee (EE): You sure can [Granting permission to ask a question]
+Persuader (ER): Do you have any kids? [Inquiring about the other person's family status]
+Persuadee (EE): I don't have any children but there are many children in my family. [Providing information about family status]
+Persuader (ER): Im sure you love them as your own, I have a big family do you? [Expressing empathy and sharing personal information] user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER engages politely, expresses interest in EE's life, and shares personal information, indicating warmth. Their ability to maintain a coherent and engaging conversation suggests competence.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE responds positively, reciprocates inquiries, and provides personal information, demonstrating warmth. EE's clear and responsive communication indicates competence.","assistant<|end_header_id|>
+
+DONATION: NO
+
+Explanation: Although both ER and EE demonstrate high warmth and competence, the conversation does not seem to be heading towards a specific ask or a clear purpose related to a donation. The conversation is more of a casual, friendly exchange, and there is no indication that ER is building up to a request for a donation. Without a clear connection to a cause or a specific ask, it is unlikely that EE will make a donation on the spot.",no,no,1,0.0
+20180904-025026_901_live,scm,llama70b,True,"Persuader (ER): Hello. [Greeting the other person.]
+Persuader (ER): How are you today? [Inquiring about the other person's well-being.]
+Persuader (ER): If you have the time, I would like to talk with you about a charity. [Introducing the topic of discussion about a charity.]
+Persuadee (EE): I am well today thank you. [Responding to the inquiry about well-being.]
+Persuadee (EE): I would be happy to listen. [Expressing willingness to listen.]
+Persuader (ER): Thank you. [Expressing gratitude.]
+Persuader (ER): Do you know the organization Save the Children? [Inquiring about the other person's knowledge of a specific organization.]
+Persuadee (EE): I do not. [Indicating lack of knowledge about the organization.]
+Persuadee (EE): What do they do? [Asking for more information about the organization.]
+Persuader (ER): Save the Children is an international non-governmental organization. [Providing basic information about the organization.]
+Persuader (ER): They work for children's rights, helps support children in developing countries. [Explaining the organization's mission and activities.]
+Persuadee (EE): That sounds like a great cause. [Expressing approval of the organization's cause.]
+Persuader (ER): It really is. [Agreeing with the positive sentiment.]
+Persuader (ER): They work so the chieldren can have access to health, education, safety. [Providing additional details about the organization's work.]
+Persuader (ER): In developing countries like Syria, millions of children have grown up facing the daily threat of violence. [Highlighting the specific issues faced by children in developing countries.]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello. [Greeting the other person.]
+Persuader (ER): How are you today? [Inquiring about the other person's well-being.]
+Persuader (ER): If you have the time, I would like to talk with you about a charity. [Introducing the topic of discussion about a charity.]
+Persuadee (EE): I am well today thank you. [Responding to the inquiry about well-being.]
+Persuadee (EE): I would be happy to listen. [Expressing willingness to listen.]
+Persuader (ER): Thank you. [Expressing gratitude.]
+Persuader (ER): Do you know the organization Save the Children? [Inquiring about the other person's knowledge of a specific organization.]
+Persuadee (EE): I do not. [Indicating lack of knowledge about the organization.]
+Persuadee (EE): What do they do? [Asking for more information about the organization.]
+Persuader (ER): Save the Children is an international non-governmental organization. [Providing basic information about the organization.]
+Persuader (ER): They work for children's rights, helps support children in developing countries. [Explaining the organization's mission and activities.]
+Persuadee (EE): That sounds like a great cause. [Expressing approval of the organization's cause.]
+Persuader (ER): It really is. [Agreeing with the positive sentiment.]
+Persuader (ER): They work so the chieldren can have access to health, education, safety. [Providing additional details about the organization's work.]
+Persuader (ER): In developing countries like Syria, millions of children have grown up facing the daily threat of violence. [Highlighting the specific issues faced by children in developing countries.] user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates high warmth by initiating the conversation with a friendly greeting and expressing gratitude. ER also shows high competence by providing clear, informative responses about the organization and its mission, indicating knowledge and confidence in the topic.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE displays high warmth by responding politely and expressing willingness to listen. EE also shows high competence by engaging with the information provided, asking relevant questions, and acknowledging the importance of the cause, indicating understanding and interest.","assistant<|end_header_id|>
+
+DONATION: YES",yes,yes,1,0.3
+20180904-030739_178_live,scm,llama70b,True,"Persuader (ER): Do you ever donate to charity? [Initiate conversation about charity donations]
+Persuadee (EE): Yes, I support a few causes that I personally believe in very much. [Express personal support for charitable causes]
+Persuader (ER): Have you ever heard of Save the Children? [Inquire about familiarity with a specific charity]
+Persuadee (EE): Yes, but I don't know a lot about them. [Acknowledge awareness but express limited knowledge]
+Persuadee (EE): What is their mission? [Request information about the charity's mission]
+Persuader (ER): Their mission is to promote children's rights, and provide relief and support to children in developing countries. [Provide information about the charity's mission]
+Persuadee (EE): That sounds interesting. [Express interest in the charity's mission]
+Persuadee (EE): What countries do they work in? [Request more specific information about the charity's operations]
+Persuader (ER): They work in many countries across the world. [Provide general information about the charity's operational scope]
+Persuader (ER): For example, millions of children in Syria grow up facing the daily threat of violence. [Give a specific example of the charity's work]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Do you ever donate to charity? [Initiate conversation about charity donations]
+Persuadee (EE): Yes, I support a few causes that I personally believe in very much. [Express personal support for charitable causes]
+Persuader (ER): Have you ever heard of Save the Children? [Inquire about familiarity with a specific charity]
+Persuadee (EE): Yes, but I don't know a lot about them. [Acknowledge awareness but express limited knowledge]
+Persuadee (EE): What is their mission? [Request information about the charity's mission]
+Persuader (ER): Their mission is to promote children's rights, and provide relief and support to children in developing countries. [Provide information about the charity's mission]
+Persuadee (EE): That sounds interesting. [Express interest in the charity's mission]
+Persuadee (EE): What countries do they work in? [Request more specific information about the charity's operations]
+Persuader (ER): They work in many countries across the world. [Provide general information about the charity's operational scope]
+Persuader (ER): For example, millions of children in Syria grow up facing the daily threat of violence. [Give a specific example of the charity's work] user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates high warmth by engaging in a conversation about charitable activities and providing information about a charity's mission, showing a willingness to share knowledge. ER's competence is also high, as they provide specific details about the charity's work and its global reach, indicating a well-informed position.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE shows high warmth by expressing interest in charitable causes and asking questions to learn more, indicating openness and engagement. EE's competence is high, as they actively participate in the conversation with thoughtful questions, demonstrating an eagerness to understand and potentially support the charity.","assistant<|end_header_id|>
+
+DONATION: YES",no,yes,0,0.0
+20180904-032932_423_live,scm,llama70b,True,"Persuader (ER): Hello. [Greeting the other participant.]
+Persuader (ER): Would you like to donate a portion of your reward to a charity called Save the Children? [Requesting a donation to a specific charity.]
+Persuadee (EE): I think I would be willing to donate a portion. [Expressing willingness to donate.]
+Persuader (ER): Excellent! [Expressing approval and encouragement.]
+Persuader (ER): Would you like to know more about the charity first? [Offering additional information about the charity.]
+Persuadee (EE): Yes, that was going to be my next question. [Confirming interest in more information.]
+Persuader (ER): Save the Children promotes children's rights, and helps children from developing countries. [Providing information about the charity's mission.]
+Persuadee (EE): What types of children's rights? [Requesting specific details about the charity's focus.]
+Persuader (ER): Your donation would help ensure children's rights to health, education, and safety. [Clarifying the specific rights the charity supports.]
+Persuader (ER): Many of these children live in developing or war-torn areas where these basic necessities are hard to come by. [Providing context about the children's living conditions.]
+Persuadee (EE): What type of people or who manages this fund? [Inquiring about the management of the charity.]
+Persuader (ER): Save the Children has excellent credentials and is managed by a board of commercial CEOs and business leaders without any government or religious affiliation. [Providing information about the charity's management and credentials.]
+Persuadee (EE): Does Save the Children help children in the United States? [Asking if the charity helps children in the United States.]
+Persuader (ER): Yes! [Confirming that the charity helps children in the United States.]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello. [Greeting the other participant.]
+Persuader (ER): Would you like to donate a portion of your reward to a charity called Save the Children? [Requesting a donation to a specific charity.]
+Persuadee (EE): I think I would be willing to donate a portion. [Expressing willingness to donate.]
+Persuader (ER): Excellent! [Expressing approval and encouragement.]
+Persuader (ER): Would you like to know more about the charity first? [Offering additional information about the charity.]
+Persuadee (EE): Yes, that was going to be my next question. [Confirming interest in more information.]
+Persuader (ER): Save the Children promotes children's rights, and helps children from developing countries. [Providing information about the charity's mission.]
+Persuadee (EE): What types of children's rights? [Requesting specific details about the charity's focus.]
+Persuader (ER): Your donation would help ensure children's rights to health, education, and safety. [Clarifying the specific rights the charity supports.]
+Persuader (ER): Many of these children live in developing or war-torn areas where these basic necessities are hard to come by. [Providing context about the children's living conditions.]
+Persuadee (EE): What type of people or who manages this fund? [Inquiring about the management of the charity.]
+Persuader (ER): Save the Children has excellent credentials and is managed by a board of commercial CEOs and business leaders without any government or religious affiliation. [Providing information about the charity's management and credentials.]
+Persuadee (EE): Does Save the Children help children in the United States? [Asking if the charity helps children in the United States.]
+Persuader (ER): Yes! [Confirming that the charity helps children in the United States.] user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER demonstrates high warmth by engaging positively and encouraging EE's interest in donating. ER also provides detailed and informative responses about the charity, indicating high competence in communicating relevant information effectively.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE shows high warmth by expressing willingness to donate and asking thoughtful questions. EE's inquiries reflect high competence, as they seek to understand the charity's operations and impact before committing to a donation.","assistant<|end_header_id|>
+
+DONATION: YES
+
+Reasoning: 
+
+* The persuadee (EE) initially expressed willingness to donate, setting a positive tone for the conversation.
+* EE asked thoughtful and informed questions about the charity, indicating a genuine interest in understanding the organization before making a decision.
+* The persuader (ER) provided detailed and reassuring information about the charity, addressing EE's concerns and demonstrating high warmth and competence.
+* EE's questions and ER's responses created a collaborative and transparent conversation, building trust and increasing the likelihood of a donation.
+* The conversation ended without any major objections or concerns from EE, suggesting that they are likely to follow through on their initial willingness to donate.",yes,yes,1,1.0
+20180904-043300_214_live,scm,llama70b,True,"Persuader (ER): Hi! [Greeting]
+Persuader (ER): How are you doing today? [Inquiring about well-being]
+Persuadee (EE): I'm doing very well. [Responding to inquiry]
+Persuadee (EE): Just recovering from the long weekend. [Providing additional personal information]
+Persuadee (EE): How about yourself? [Returning the inquiry]
+Persuader (ER): I am doing well thank you and same here [Responding to inquiry and sharing personal information]
+Persuadee (EE): Awesome. [Expressing positive sentiment]
+Persuadee (EE): What are some of your hobbies? [Inquiring about personal interests]
+Persuader (ER): Well one hobby is volunteering. [Sharing personal interest]
+Persuader (ER): I wanted to talk to you about a charity Save the Children, have you heard of it? [Introducing a topic and inquiring about familiarity]
+Persuadee (EE): Only in name. [Expressing limited familiarity]
+Persuadee (EE): I haven't heard too much about it though. [Providing additional context]
+Persuadee (EE): Can you tell me more? [Requesting more information]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi! [Greeting]
+Persuader (ER): How are you doing today? [Inquiring about well-being]
+Persuadee (EE): I'm doing very well. [Responding to inquiry]
+Persuadee (EE): Just recovering from the long weekend. [Providing additional personal information]
+Persuadee (EE): How about yourself? [Returning the inquiry]
+Persuader (ER): I am doing well thank you and same here [Responding to inquiry and sharing personal information]
+Persuadee (EE): Awesome. [Expressing positive sentiment]
+Persuadee (EE): What are some of your hobbies? [Inquiring about personal interests]
+Persuader (ER): Well one hobby is volunteering. [Sharing personal interest]
+Persuader (ER): I wanted to talk to you about a charity Save the Children, have you heard of it? [Introducing a topic and inquiring about familiarity]
+Persuadee (EE): Only in name. [Expressing limited familiarity]
+Persuadee (EE): I haven't heard too much about it though. [Providing additional context]
+Persuadee (EE): Can you tell me more? [Requesting more information] user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER initiates the conversation with a friendly greeting and expresses interest in EE's well-being, indicating high warmth. ER also shares a personal hobby and introduces a charity, suggesting a proactive and knowledgeable approach, reflecting high competence.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE responds positively and reciprocates the inquiry about well-being, showing high warmth. EE also expresses curiosity and openness to learning more about the charity, indicating a willingness to engage and understand, reflecting high competence.","assistant<|end_header_id|>
+
+Based on the conversation, I would predict:
+
+DONATION: YES
+
+Reasoning:
+
+1. **Established rapport**: The persuader (ER) successfully establishes a rapport with the persuadee (EE) through friendly greetings, inquiring about well-being, and sharing personal interests. This creates a positive atmosphere, increasing the likelihood of a donation.
+2. **Mutual warmth and competence**: Both ER and EE exhibit high warmth and competence, indicating a strong connection and a willingness to engage with each other. This mutual respect and understanding can facilitate a positive outcome.
+3. **EE's curiosity and openness**: EE shows genuine interest in learning more about the charity, asking questions and requesting information. This openness suggests that EE is receptive to the persuader's message and may be more likely to make a donation.
+4. **ER's proactive approach**: ER takes the initiative to introduce the charity and share personal experiences, demonstrating a proactive and knowledgeable approach. This can help build trust and credibility,",no,yes,0,0.0
+20180904-045349_715_live,scm,llama70b,True,"Persuader (ER): Good morning. [Greeting the other person]
+Persuader (ER): How are you doing today? [Inquiring about the other person's well-being]
+Persuadee (EE): Hi. [Greeting the other person]
+Persuadee (EE): I am doing good. [Responding to the inquiry about well-being]
+Persuadee (EE): How about you? [Inquiring about the other person's well-being]
+Persuader (ER): I'm doing pretty good for a Tuesday morning. [Responding to the inquiry about well-being]
+Persuadee (EE): Haha. [Expressing amusement]
+Persuadee (EE): Same here, but it really feels like a Monday. [Sharing a personal feeling about the day]
+Persuader (ER): Ugh yes it does! [Agreeing with the shared feeling]
+Persuadee (EE): I can not believe how warm it is already. [Commenting on the weather]
+Persuader (ER): Where are you from? [Inquiring about the other person's location]
+Persuadee (EE): I am from the Midwest. [Responding to the location inquiry]
+Persuadee (EE): What about you? [Inquiring about the other person's location]
+Persuader (ER): I'm from the South East. [Responding to the location inquiry]
+Persuader (ER): It's always warm here. [Providing additional information about the weather in their location]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Good morning. [Greeting the other person]
+Persuader (ER): How are you doing today? [Inquiring about the other person's well-being]
+Persuadee (EE): Hi. [Greeting the other person]
+Persuadee (EE): I am doing good. [Responding to the inquiry about well-being]
+Persuadee (EE): How about you? [Inquiring about the other person's well-being]
+Persuader (ER): I'm doing pretty good for a Tuesday morning. [Responding to the inquiry about well-being]
+Persuadee (EE): Haha. [Expressing amusement]
+Persuadee (EE): Same here, but it really feels like a Monday. [Sharing a personal feeling about the day]
+Persuader (ER): Ugh yes it does! [Agreeing with the shared feeling]
+Persuadee (EE): I can not believe how warm it is already. [Commenting on the weather]
+Persuader (ER): Where are you from? [Inquiring about the other person's location]
+Persuadee (EE): I am from the Midwest. [Responding to the location inquiry]
+Persuadee (EE): What about you? [Inquiring about the other person's location]
+Persuader (ER): I'm from the South East. [Responding to the location inquiry]
+Persuader (ER): It's always warm here. [Providing additional information about the weather in their location] user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER initiates the conversation with a friendly greeting and maintains a positive tone throughout, indicating high warmth. Their responses are clear and relevant, showing understanding and engagement, which suggests high competence.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE responds promptly and reciprocates the friendly tone, demonstrating high warmth. Their ability to engage in the conversation and provide relevant information about themselves indicates high competence.","assistant<|end_header_id|>
+
+DONATION: NO",no,no,1,0.0
+20180904-073734_888_live,scm,llama70b,True,"Persuader (ER): Good morning. [Greeting the other person]
+Persuadee (EE): Good morning, how are you doing? [Returning the greeting and inquiring about the other person's well-being]
+Persuader (ER): I'm great, thank you for asking! [Responding positively to the inquiry and expressing gratitude]
+Persuader (ER): Do you have some time today to talk about an amazing charity I am part of? [Requesting time to discuss a charity]
+Persuadee (EE): Sure, I'd love to hear what charity you participate in [Expressing willingness to listen and showing interest in the charity]
+Persuader (ER): It's called Save the Children and we work towards helping disadvantaged children around the world have adequate food, shelter and healthcare. [Providing information about the charity and its mission]
+Persuadee (EE): Sounds wonderful! [Expressing approval and interest]
+Persuadee (EE): Do you only work in the US? [Asking for more specific information about the charity's operations]","You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Good morning. [Greeting the other person]
+Persuadee (EE): Good morning, how are you doing? [Returning the greeting and inquiring about the other person's well-being]
+Persuader (ER): I'm great, thank you for asking! [Responding positively to the inquiry and expressing gratitude]
+Persuader (ER): Do you have some time today to talk about an amazing charity I am part of? [Requesting time to discuss a charity]
+Persuadee (EE): Sure, I'd love to hear what charity you participate in [Expressing willingness to listen and showing interest in the charity]
+Persuader (ER): It's called Save the Children and we work towards helping disadvantaged children around the world have adequate food, shelter and healthcare. [Providing information about the charity and its mission]
+Persuadee (EE): Sounds wonderful! [Expressing approval and interest]
+Persuadee (EE): Do you only work in the US? [Asking for more specific information about the charity's operations] user1 (ER):
+  warmth: high
+  competence: high
+  explanation: ER initiates the conversation with a friendly greeting and expresses enthusiasm about discussing a charity, indicating high warmth. ER's ability to clearly articulate the charity's mission suggests high competence.
+
+user2 (EE):
+  warmth: high
+  competence: high
+  explanation: EE responds with a friendly greeting and shows genuine interest in ER's charity work, indicating high warmth. EE's engagement and relevant questions demonstrate an understanding of the topic, reflecting high competence.","assistant<|end_header_id|>
+
+DONATION: YES",no,yes,0,0.0
