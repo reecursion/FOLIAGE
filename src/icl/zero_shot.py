@@ -48,7 +48,7 @@ class ConversationForecastingWithIntentions:
         elif self.include_intentions and self.summary_type != "none":
             self.output_dir = os.path.join(base_output_dir, "dualscaffolding")
         else:
-            self.output_dir = base_output_dir
+            self.output_dir = os.path.join(base_output_dir, "baseline")
         
         # API keys
         try:

@@ -2157,3 +2157,1079 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
 OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,
+103,none,llama70b,False,"Agent 1: Hi there.. we're looking forward to this camping trip.. hope you are, too!  Is there anything in particular you guys need / want out of the extra stockpile we've got?
+Agent 2: Hello! Which item do you need the most?
+Agent 1: Well we actually really NEED all three items.. but I know you might, too - so I want to make a deal that's fair for you.. is there anything in particular your family needs for the trip?
+Agent 2: Well, there has to be an item that you need the most. If you tell me what you need the most, we can try to make a deal around it.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: water, Low priority: firewood
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation:
+Agent 1: Hi there.. we're looking forward to this camping trip.. hope you are, too!  Is there anything in particular you guys need / want out of the extra stockpile we've got?
+Agent 2: Hello! Which item do you need the most?
+Agent 1: Well we actually really NEED all three items.. but I know you might, too - so I want to make a deal that's fair for you.. is there anything in particular your family needs for the trip?
+Agent 2: Well, there has to be an item that you need the most. If you tell me what you need the most, we can try to make a deal around it.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:2, water:1, firewood:0}, agent2:{food:1, water:2, firewood:3}}",2.0,2.0,2.0,1.0,0.0,0.0,1.0,1.0,1.0,2.0,3.0,3.0,14.0,25.0,18.0,16.0,22.0
+104,none,llama70b,False,"Agent 1: Hello how are you today? 🙂 Do you have any initial ideas on how to split everything?
+Agent 2: I was thinking maybe I could have a majority of the fire food and you can have a majority of the water and food.
+Agent 1: What exactly do you mean by majority? As in everything ?
+Agent 2: I was more thinking 2 Firewood for me , 1 food and 1 water? The rest would be yours.
+Agent 1: That is a promising bargain but I want at least 2 firewood, it makes for a fun time for my group.
+Agent 2: Interesting , because my group feels the same way though. How does your group feel about water though?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: food, Low priority: water
+Agent 2: High priority: firewood, Medium priority: water, Low priority: food
+
+Conversation:
+Agent 1: Hello how are you today? 🙂 Do you have any initial ideas on how to split everything?
+Agent 2: I was thinking maybe I could have a majority of the fire food and you can have a majority of the water and food.
+Agent 1: What exactly do you mean by majority? As in everything ?
+Agent 2: I was more thinking 2 Firewood for me , 1 food and 1 water? The rest would be yours.
+Agent 1: That is a promising bargain but I want at least 2 firewood, it makes for a fun time for my group.
+Agent 2: Interesting , because my group feels the same way though. How does your group feel about water though?
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[2], firewood:[1]}, agent2:{food:[1], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,
+105,none,llama70b,False,"Agent 2: Hello, I want to keep 3 packages of the water and 2 packages of the food and 1 package of the fire wood , and you can keep 1 package of the food and 2 packages of the firewood.
+Agent 1: Could I get 1 package of the water just to be entirely safe?? I really appreciate the 2 packages of firewood as it has been very wet and rainy where I will be going.  There will be a lot of standing water, so my chances for having safe water to drink might be a little iffy.
+Agent 2: Well I planned on spending a few extra days here at this camping site with my family so the extra water will really come in handy for me over the next few days.  I can offer you an extra package of firewood to keep the 3 packages of water.
+Agent 1: That makes total sense.  I will let you keep all 3 of the water packages.  If I take the extra firewood for all 3 packages then I can probably boil a lot of the water to get the harmful bacteria out.  I really appreciate your generosity 🙂.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: food, Low priority: water
+Agent 2: High priority: water, Medium priority: food, Low priority: firewood
+
+Conversation:
+Agent 2: Hello, I want to keep 3 packages of the water and 2 packages of the food and 1 package of the fire wood , and you can keep 1 package of the food and 2 packages of the firewood.
+Agent 1: Could I get 1 package of the water just to be entirely safe?? I really appreciate the 2 packages of firewood as it has been very wet and rainy where I will be going.  There will be a lot of standing water, so my chances for having safe water to drink might be a little iffy.
+Agent 2: Well I planned on spending a few extra days here at this camping site with my family so the extra water will really come in handy for me over the next few days.  I can offer you an extra package of firewood to keep the 3 packages of water.
+Agent 1: That makes total sense.  I will let you keep all 3 of the water packages.  If I take the extra firewood for all 3 packages then I can probably boil a lot of the water to get the harmful bacteria out.  I really appreciate your generosity 🙂.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:1, water:0, firewood:3}, agent2:{food:2, water:3, firewood:0}}",1.0,1.0,0.0,0.0,2.0,3.0,2.0,2.0,3.0,3.0,1.0,0.0,19.0,23.0,14.0,25.0,26.0
+106,none,llama70b,False,"Agent 1: Hi! How are you doing?
+Agent 2: I'm well! Excited for this camping trip.
+Agent 1: Same! I'm a little worried about some of my supplies though. What about you?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: firewood, Low priority: water
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation:
+Agent 1: Hi! How are you doing?
+Agent 2: I'm well! Excited for this camping trip.
+Agent 1: Same! I'm a little worried about some of my supplies though. What about you?
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,
+107,none,llama70b,False,"Agent 2: Hello
+Agent 1: HI how are you today?
+Agent 2: Good. I am diabetic so would like to take 3 of the food
+Agent 1: I would do that but our meat spoiled because the ice box was not properly closed. How about you get 2 of the meat, and I get 3 of the water?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: water, Low priority: firewood
+Agent 2: High priority: food, Medium priority: firewood, Low priority: water
+
+Conversation:
+Agent 2: Hello
+Agent 1: HI how are you today?
+Agent 2: Good. I am diabetic so would like to take 3 of the food
+Agent 1: I would do that but our meat spoiled because the ice box was not properly closed. How about you get 2 of the meat, and I get 3 of the water?
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[1], water:[3], firewood:[3]}, agent2:{food:[2], water:[0], firewood:[0]}}",,,,,,,,,,,,,,,,,
+108,none,llama70b,False,"Agent 1: Hello
+Agent 2: Hi there!
+Agent 1: Im really low in food, is it ok if I get 3 Food, 1 water & 1 firewood? What do you think?
+Agent 2: With the cool weather in degrees lower than expected, my family of 7 are consuming firewood faster than expected. Thus, I would like all the firewood in exchange for the food","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: water, Low priority: firewood
+Agent 2: High priority: firewood, Medium priority: water, Low priority: food
+
+Conversation:
+Agent 1: Hello
+Agent 2: Hi there!
+Agent 1: Im really low in food, is it ok if I get 3 Food, 1 water & 1 firewood? What do you think?
+Agent 2: With the cool weather in degrees lower than expected, my family of 7 are consuming firewood faster than expected. Thus, I would like all the firewood in exchange for the food
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[3], water:[1], firewood:[0]}, agent2:{food:[0], water:[2], firewood:[3]}}",,,,,,,,,,,,,,,,,
+109,none,llama70b,False,"Agent 1: How many of each extra package are you thinking you need?
+Agent 2: I would prefer to take all of the firewood, split the food, and you could have all of the water.  What do you need the most?
+Agent 1: Splitting the food is what I was thinking as well, but I'd also like to split the firewood. We can split the water or I'm fine taking all of that.
+Agent 2: I would be willing to take 2 firewood, 3 food, and 1 water if that would work for you.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: firewood, Low priority: water
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation:
+Agent 1: How many of each extra package are you thinking you need?
+Agent 2: I would prefer to take all of the firewood, split the food, and you could have all of the water.  What do you need the most?
+Agent 1: Splitting the food is what I was thinking as well, but I'd also like to split the firewood. We can split the water or I'm fine taking all of that.
+Agent 2: I would be willing to take 2 firewood, 3 food, and 1 water if that would work for you.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:1, water:2, firewood:1}, agent2:{food:2, water:1, firewood:2}}",2.0,1.0,2.0,2.0,1.0,1.0,1.0,2.0,1.0,1.0,2.0,2.0,15.0,21.0,20.0,25.0,17.0
+110,none,llama70b,False,"Agent 2: Hello, how are you today?
+Agent 1: I am doing good. How about yourself?
+Agent 2: I am great, i am really excited about going camping, how about you?
+Agent 1: Yeah, I want to make sure i am prepared. What do you think are the bests options?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: firewood, Low priority: water
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation:
+Agent 2: Hello, how are you today?
+Agent 1: I am doing good. How about yourself?
+Agent 2: I am great, i am really excited about going camping, how about you?
+Agent 1: Yeah, I want to make sure i am prepared. What do you think are the bests options?
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[3], firewood:[0]}, agent2:{food:[1], water:[0], firewood:[3]}}",,,,,,,,,,,,,,,,,
+111,none,llama70b,False,"Agent 2: Hello, what is your preference for supplies?  I would prefer to have as much extra firewood as possible, but am relatively indifferent to the rest.
+Agent 1: yes we have to supply more how much you want
+Agent 2: I would like 3 firewood, and 2 food.  You can have 1 food and all of the water.
+Agent 1: oh okay I will send you what are the materials you have","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: food, Low priority: water
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation:
+Agent 2: Hello, what is your preference for supplies?  I would prefer to have as much extra firewood as possible, but am relatively indifferent to the rest.
+Agent 1: yes we have to supply more how much you want
+Agent 2: I would like 3 firewood, and 2 food.  You can have 1 food and all of the water.
+Agent 1: oh okay I will send you what are the materials you have
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[1], water:[3], firewood:[0]}, agent2:{food:[2], water:[0], firewood:[3]}}",,,,,,,,,,,,,,,,,
+112,none,llama70b,False,"Agent 1: hello
+Agent 2: Hello, there. Should we discuss how to divide up the items for the camping trip?
+Agent 1: yeah. i need 2 firewood, 1 water and 1 food","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: water, Low priority: food
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation:
+Agent 1: hello
+Agent 2: Hello, there. Should we discuss how to divide up the items for the camping trip?
+Agent 1: yeah. i need 2 firewood, 1 water and 1 food
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:1, water:1, firewood:2}, agent2:{food:2, water:2, firewood:1}}",1.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,17.0,19.0,16.0,1.0,21.0
+113,none,llama70b,False,"Agent 2: Hi! How is your camping trip going?
+Agent 1: It's going good we could use some more supplies such as food and firewood, though.
+Agent 2: Same here haha. Is water your lowest priority item too?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: firewood, Low priority: water
+Agent 2: High priority: food, Medium priority: firewood, Low priority: water
+
+Conversation:
+Agent 2: Hi! How is your camping trip going?
+Agent 1: It's going good we could use some more supplies such as food and firewood, though.
+Agent 2: Same here haha. Is water your lowest priority item too?
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[0], firewood:[1]}, agent2:{food:[1], water:[3], firewood:[2]}}",,,,,,,,,,,,,,,,,
+114,none,llama70b,False,"Agent 2: Hello, I'm in a strong need for food and water. Please let me have a few packages of food and water. I'd gladly trade all my firewood for it.
+Agent 1: Hello. Wow! That does not sound good. My sister just called and let me know she will be coming tonight. She is bringing food so i have plenty to share. 🙂
+Agent 2: That's some good news. 🙂 Are you sure she is going to be bringing food with her?
+Agent 1: Yea She is bring tons of food. So don't worry we have plenty of food to spare. 🙂 She did forget to get water. I didn't know she was coming so i didn't grab any and I forgot the 3 packages of water for myself at the store. ☹️
+Agent 2: Yikes, that's not good. Water is very important, especially if you now have to take care of two people at your campsite now. I do have 3 packages of water but I don't think I can spare it all.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: firewood, Low priority: food
+Agent 2: High priority: food, Medium priority: water, Low priority: firewood
+
+Conversation:
+Agent 2: Hello, I'm in a strong need for food and water. Please let me have a few packages of food and water. I'd gladly trade all my firewood for it.
+Agent 1: Hello. Wow! That does not sound good. My sister just called and let me know she will be coming tonight. She is bringing food so i have plenty to share. 🙂
+Agent 2: That's some good news. 🙂 Are you sure she is going to be bringing food with her?
+Agent 1: Yea She is bring tons of food. So don't worry we have plenty of food to spare. 🙂 She did forget to get water. I didn't know she was coming so i didn't grab any and I forgot the 3 packages of water for myself at the store. ☹️
+Agent 2: Yikes, that's not good. Water is very important, especially if you now have to take care of two people at your campsite now. I do have 3 packages of water but I don't think I can spare it all.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[3], water:[1], firewood:[0]}, agent2:{food:[0], water:[2], firewood:[3]}}",,,,,,,,,,,,,,,,,
+115,none,llama70b,False,"Agent 1: Hi!  The weather is going to be a lot colder than I anticipated, so I need extra firewood.  Would you be willing to give some to me?
+Agent 2: Sure, but I need 2 packs of firewood and 2 packs of food and water
+Agent 1: That doesn't really sound fair to me ☹️","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: food, Low priority: water
+Agent 2: High priority: firewood, Medium priority: water, Low priority: food
+
+Conversation:
+Agent 1: Hi!  The weather is going to be a lot colder than I anticipated, so I need extra firewood.  Would you be willing to give some to me?
+Agent 2: Sure, but I need 2 packs of firewood and 2 packs of food and water
+Agent 1: That doesn't really sound fair to me ☹️
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[1], water:[1], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,
+116,none,llama70b,False,"Agent 1: Hi! I'm exited to negotiate a deal with you today. How are you doing?
+Agent 2: I am doing well! Excited to be on this camping trip! I am glad we have all the basic supplies already.
+Agent 1: Agreed! I am running low on firewood, unfortunately, which I need to cook food and stay warm.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: food, Low priority: water
+Agent 2: High priority: food, Medium priority: water, Low priority: firewood
+
+Conversation:
+Agent 1: Hi! I'm exited to negotiate a deal with you today. How are you doing?
+Agent 2: I am doing well! Excited to be on this camping trip! I am glad we have all the basic supplies already.
+Agent 1: Agreed! I am running low on firewood, unfortunately, which I need to cook food and stay warm.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:1, water:1, firewood:2}, agent2:{food:2, water:2, firewood:1}}",0.0,1.0,1.0,1.0,3.0,2.0,3.0,2.0,2.0,2.0,0.0,1.0,17.0,21.0,18.0,1.0,23.0
+117,none,llama70b,False,"Agent 1: Hi I would like to trade you food for some water 🙂
+Agent 2: How many food would you like to trade for water?
+Agent 1: How about 2 Water for 3 food?
+Agent 2: That sounds like a good deal but I could use some firewood as well. Would you throw one of those in as well?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: firewood, Low priority: food
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation:
+Agent 1: Hi I would like to trade you food for some water 🙂
+Agent 2: How many food would you like to trade for water?
+Agent 1: How about 2 Water for 3 food?
+Agent 2: That sounds like a good deal but I could use some firewood as well. Would you throw one of those in as well?
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:0, water:2, firewood:2}, agent2:{food:3, water:1, firewood:1}}",2.0,0.0,3.0,2.0,0.0,2.0,1.0,3.0,0.0,1.0,3.0,1.0,18.0,20.0,21.0,9.0,19.0
+118,none,llama70b,False,"Agent 1: Hi. I'd like to have all the food packages for my children and two of firewood. Will you accept it🙂🙂🙂
+Agent 2: I apologize but that will not work. I have a diabetic and need to make sure they will have enough food for a hike. So I would like to take two food packages, one water, and two firewood.
+Agent 1: That won't work. Because, we are planning for a campfire. And so, we are in need of fire wood. I hope you understand.🙂🙂🙂","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: firewood, Low priority: water
+Agent 2: High priority: firewood, Medium priority: water, Low priority: food
+
+Conversation:
+Agent 1: Hi. I'd like to have all the food packages for my children and two of firewood. Will you accept it🙂🙂🙂
+Agent 2: I apologize but that will not work. I have a diabetic and need to make sure they will have enough food for a hike. So I would like to take two food packages, one water, and two firewood.
+Agent 1: That won't work. Because, we are planning for a campfire. And so, we are in need of fire wood. I hope you understand.🙂🙂🙂
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:1, water:2, firewood:2}, agent2:{food:2, water:1, firewood:1}}",2.0,1.0,1.0,2.0,1.0,2.0,1.0,2.0,2.0,1.0,2.0,1.0,19.0,15.0,17.0,4.0,21.0
+119,none,llama70b,False,"Agent 2: Camping yay!
+Agent 1: Hello! how are you? hoping today is finding you well. I was wondering if I can get all 3 of your Firewood, I am willing to trade for all 3 waters. I am camping with 40 kids, its our annual youth camp. its rainy season too, I really want to ensure I have enough dried wood with us. need lots of firewood for the amount of cooking I will be doing, keep the camp warm, and specially to keep those pesky bugs away. what do you think?
+Agent 2: I could really use the firewood too, it will be very cold where we are going. Since it will be cold, we will not be drinking much water. How about 2 firewood for you, 3 food for me?,","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: food, Low priority: water
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation:
+Agent 2: Camping yay!
+Agent 1: Hello! how are you? hoping today is finding you well. I was wondering if I can get all 3 of your Firewood, I am willing to trade for all 3 waters. I am camping with 40 kids, its our annual youth camp. its rainy season too, I really want to ensure I have enough dried wood with us. need lots of firewood for the amount of cooking I will be doing, keep the camp warm, and specially to keep those pesky bugs away. what do you think?
+Agent 2: I could really use the firewood too, it will be very cold where we are going. Since it will be cold, we will not be drinking much water. How about 2 firewood for you, 3 food for me?,
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[0], water:[3], firewood:[2]}, agent2:{food:[3], water:[0], firewood:[1]}}",,,,,,,,,,,,,,,,,
+120,none,llama70b,False,"Agent 2: hi 🙂
+Agent 1: I was thinking that you could give me 3 food packages and i will give you 3 water? What do you think?
+Agent 2: If I do that I would also like all three firewood","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: firewood, Low priority: water
+Agent 2: High priority: food, Medium priority: water, Low priority: firewood
+
+Conversation:
+Agent 2: hi 🙂
+Agent 1: I was thinking that you could give me 3 food packages and i will give you 3 water? What do you think?
+Agent 2: If I do that I would also like all three firewood
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[3], water:[0], firewood:[0]}, agent2:{food:[0], water:[3], firewood:[3]}}",,,,,,,,,,,,,,,,,
+121,none,llama70b,False,"Agent 1: Hello!  I'm going to be heading out on a big camping trip and will need to take some extra supplies.  Are you going camping as well?
+Agent 2: I am also going camping! What do you think you're going to need the most of? What are your preferences?
+Agent 1: It's going to be hot during the day where I'm going so I'll need some extra hydration.  So water is my main priority.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: firewood, Low priority: food
+Agent 2: High priority: food, Medium priority: water, Low priority: firewood
+
+Conversation:
+Agent 1: Hello!  I'm going to be heading out on a big camping trip and will need to take some extra supplies.  Are you going camping as well?
+Agent 2: I am also going camping! What do you think you're going to need the most of? What are your preferences?
+Agent 1: It's going to be hot during the day where I'm going so I'll need some extra hydration.  So water is my main priority.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[0], water:[2], firewood:[1]}, agent2:{food:[3], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,
+122,none,llama70b,False,"Agent 1: hello how are you
+Agent 2: i'm good thank you, How are you doing today?
+Agent 1: I am good, let's plan our camping trips. I am diabetes, so water is very important to me. what about you?
+Agent 2: I need water too","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: food, Low priority: firewood
+Agent 2: High priority: water, Medium priority: firewood, Low priority: food
+
+Conversation:
+Agent 1: hello how are you
+Agent 2: i'm good thank you, How are you doing today?
+Agent 1: I am good, let's plan our camping trips. I am diabetes, so water is very important to me. what about you?
+Agent 2: I need water too
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[0]}, agent2:{food:[2], water:[1], firewood:[1]}}",,,,,,,,,,,,,,,,,
+123,none,llama70b,False,"Agent 1: Hello. I'm going to do a lot of hiking on my camping trip and need as much water as possible. I'm also planning a bonfire with fellow campers in the area, so I'd like as much firewood as possible. How about I keep the water and firewood and you keep the food?
+Agent 2: That doesn't work for me. I will also need extra water because I drink a lot. How about we start by saying you get the firewood, and I'll take the food?
+Agent 1: OK, but how do we split up the water? Because it sounds like we both need some. What if you take all the food and I take all the firewood and then I get two waters and you get one extra?
+Agent 2: I would prefer to have 2 waters since I agreed to give you all the firewood.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: firewood, Low priority: food
+Agent 2: High priority: water, Medium priority: food, Low priority: firewood
+
+Conversation:
+Agent 1: Hello. I'm going to do a lot of hiking on my camping trip and need as much water as possible. I'm also planning a bonfire with fellow campers in the area, so I'd like as much firewood as possible. How about I keep the water and firewood and you keep the food?
+Agent 2: That doesn't work for me. I will also need extra water because I drink a lot. How about we start by saying you get the firewood, and I'll take the food?
+Agent 1: OK, but how do we split up the water? Because it sounds like we both need some. What if you take all the food and I take all the firewood and then I get two waters and you get one extra?
+Agent 2: I would prefer to have 2 waters since I agreed to give you all the firewood.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[0], water:[1], firewood:[3]}, agent2:{food:[3], water:[2], firewood:[0]}}",,,,,,,,,,,,,,,,,
+124,none,llama70b,False,"Agent 1: Hello there! I look forward to striking up a deal that's good for both of us. 🙂
+Agent 2: hello, me too. what is most valued to you?
+Agent 1: I just want to make sure that I get a lot of firewood. It's going to be freezing cold on my trip, and I need to make sure I can stay warm. What's most valued to you?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: firewood, Low priority: food
+Agent 2: High priority: food, Medium priority: firewood, Low priority: water
+
+Conversation:
+Agent 1: Hello there! I look forward to striking up a deal that's good for both of us. 🙂
+Agent 2: hello, me too. what is most valued to you?
+Agent 1: I just want to make sure that I get a lot of firewood. It's going to be freezing cold on my trip, and I need to make sure I can stay warm. What's most valued to you?
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[0], water:[3], firewood:[2]}, agent2:{food:[3], water:[0], firewood:[1]}}",,,,,,,,,,,,,,,,,
+125,none,llama70b,False,"Agent 1: Hello, How is your camping experience so far 🙂
+Agent 2: It's going well.  🙂  How is yours?
+Agent 1: It was going great until a bear came and took all of our food 😮","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: firewood, Low priority: water
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation:
+Agent 1: Hello, How is your camping experience so far 🙂
+Agent 2: It's going well.  🙂  How is yours?
+Agent 1: It was going great until a bear came and took all of our food 😮
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,
+126,none,llama70b,False,"Agent 2: Hello🙂
+Agent 1: Hi! I'm going camping soon with my family at a lake! We're looking forward to it so much since we haven't been able to get out due to Covid. Are you going camping too?
+Agent 2: Yes! I am also going with my family. My husband and I are essential workers but his hours all got cut. I got laid off from my job for part of the time.
+Agent 1: oh man that sucks ☹️! I know Congress is currently debating all of the unemployment stuff too. Where do you plan to be going camping?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: firewood, Low priority: food
+Agent 2: High priority: water, Medium priority: food, Low priority: firewood
+
+Conversation:
+Agent 2: Hello🙂
+Agent 1: Hi! I'm going camping soon with my family at a lake! We're looking forward to it so much since we haven't been able to get out due to Covid. Are you going camping too?
+Agent 2: Yes! I am also going with my family. My husband and I are essential workers but his hours all got cut. I got laid off from my job for part of the time.
+Agent 1: oh man that sucks ☹️! I know Congress is currently debating all of the unemployment stuff too. Where do you plan to be going camping?
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[2]}, agent2:{food:[2], water:[1], firewood:[1]}}",,,,,,,,,,,,,,,,,
+127,none,llama70b,False,"Agent 2: Hello, great to see a fellow camper.  Planing on doing any hikes.  My family and mother-in-law are down getting some new trail maps.  We are looking forward to the long camping weekend.  Our bad luck was the airline loss two of our bags that had our food and water.  So i am hoping to get some more.🙂
+Agent 1: Hello! Thats terrible that the airline lost your bags! I'm planning on have a large group of friends with me so we need lots of snacks with us. We are scared of fires so we don't want to make campfires.
+Agent 2: Well maybe we can work something out between us.  Our food and water was in the bags they loss so I really need those.  Do you think you could make do with 1 food and some water?
+Agent 1: I really need 2 foods. I can do with 1 water or if you are in a giving mood then maybe I can have 2 waters? 🙂
+Agent 2: Looks like we both really need the food.  If you get 2 food I would need 1 food, 2 water and 3 firewood.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: water, Low priority: firewood
+Agent 2: High priority: food, Medium priority: water, Low priority: firewood
+
+Conversation:
+Agent 2: Hello, great to see a fellow camper.  Planing on doing any hikes.  My family and mother-in-law are down getting some new trail maps.  We are looking forward to the long camping weekend.  Our bad luck was the airline loss two of our bags that had our food and water.  So i am hoping to get some more.🙂
+Agent 1: Hello! Thats terrible that the airline lost your bags! I'm planning on have a large group of friends with me so we need lots of snacks with us. We are scared of fires so we don't want to make campfires.
+Agent 2: Well maybe we can work something out between us.  Our food and water was in the bags they loss so I really need those.  Do you think you could make do with 1 food and some water?
+Agent 1: I really need 2 foods. I can do with 1 water or if you are in a giving mood then maybe I can have 2 waters? 🙂
+Agent 2: Looks like we both really need the food.  If you get 2 food I would need 1 food, 2 water and 3 firewood.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:2, water:1, firewood:0}, agent2:{food:1, water:2, firewood:3}}",2.0,2.0,1.0,1.0,1.0,0.0,1.0,1.0,2.0,2.0,2.0,3.0,14.0,22.0,17.0,9.0,19.0
+128,none,llama70b,False,"Agent 2: Hi! I was hoping to get 2 packages of firewood, 2 packages of water and 1 package of food and you can have the rest.
+Agent 1: Hello. Is there a reason you prefer more water and firewood to food?
+Agent 2: I get cold very easily and also get thirsty a lot. What are your preferences?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: water, Low priority: firewood
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation:
+Agent 2: Hi! I was hoping to get 2 packages of firewood, 2 packages of water and 1 package of food and you can have the rest.
+Agent 1: Hello. Is there a reason you prefer more water and firewood to food?
+Agent 2: I get cold very easily and also get thirsty a lot. What are your preferences?
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:2, water:1, firewood:0}, agent2:{food:1, water:2, firewood:2}}",2.0,2.0,2.0,1.0,0.0,0.0,1.0,1.0,1.0,2.0,3.0,2.0,14.0,20.0,18.0,16.0,22.0
+129,none,llama70b,False,"Agent 2: Hi, I would like two firewoods and two food. You can take everything else. Does that work for you?
+Agent 1: That might work. What reasons do you have for needing those?
+Agent 2: I want to make smores and a nice dinner
+Agent 1: I feel like I might need more firewood, I'm staying in the desert and it gets cold at night.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: firewood, Low priority: food
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation:
+Agent 2: Hi, I would like two firewoods and two food. You can take everything else. Does that work for you?
+Agent 1: That might work. What reasons do you have for needing those?
+Agent 2: I want to make smores and a nice dinner
+Agent 1: I feel like I might need more firewood, I'm staying in the desert and it gets cold at night.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:1, water:3, firewood:1}, agent2:{food:2, water:0, firewood:2}}",1.0,1.0,3.0,3.0,1.0,1.0,2.0,2.0,0.0,0.0,2.0,2.0,22.0,18.0,22.0,0.0,18.0
+130,none,llama70b,False,"Agent 2: Hey, would you like to take more firewood in exchange I'll get more food? Just in case I get lost and would need to ration out my portions.
+Agent 1: I understand where you're coming from. I would really need the most water.
+Agent 2: I am willing to give you the most water if I am able to have the most food.
+Agent 1: Well I need some food because what if I get lost as well?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: food, Low priority: firewood
+Agent 2: High priority: water, Medium priority: food, Low priority: firewood
+
+Conversation:
+Agent 2: Hey, would you like to take more firewood in exchange I'll get more food? Just in case I get lost and would need to ration out my portions.
+Agent 1: I understand where you're coming from. I would really need the most water.
+Agent 2: I am willing to give you the most water if I am able to have the most food.
+Agent 1: Well I need some food because what if I get lost as well?
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:1, water:2, firewood:2}, agent2:{food:2, water:1, firewood:1}}",1.0,1.0,3.0,2.0,0.0,2.0,2.0,2.0,0.0,1.0,3.0,1.0,20.0,16.0,19.0,1.0,17.0
+131,none,llama70b,False,"Agent 2: Hello hood to see a fellow camper.  How are you doing today?🙂
+Agent 1: Hey! I'm doing great, how are you?
+Agent 2: Looking forward to doing some serious hiking with the family.  bad luck on the way here we flew in and the airline loss or bags with some of our supplies and sleeping bags.☹️","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: food, Low priority: firewood
+Agent 2: High priority: water, Medium priority: firewood, Low priority: food
+
+Conversation:
+Agent 2: Hello hood to see a fellow camper.  How are you doing today?🙂
+Agent 1: Hey! I'm doing great, how are you?
+Agent 2: Looking forward to doing some serious hiking with the family.  bad luck on the way here we flew in and the airline loss or bags with some of our supplies and sleeping bags.☹️
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[0]}, agent2:{food:[2], water:[1], firewood:[3]}}",,,,,,,,,,,,,,,,,
+132,none,llama70b,False,"Agent 2: hello friend i will like to sugest if i can have 2 packages of food and 1 firewood,you can have i food 2 firewood and 3 water,let me know what you think?
+Agent 1: I don't think that's going to work for me, but I'm sure we can come up with an agreement.
+Agent 2: okay friend you can have 3 firewood and 3 water is that good enough?
+Agent 1: I am going to need some food of course.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: water, Low priority: firewood
+Agent 2: High priority: food, Medium priority: firewood, Low priority: water
+
+Conversation:
+Agent 2: hello friend i will like to sugest if i can have 2 packages of food and 1 firewood,you can have i food 2 firewood and 3 water,let me know what you think?
+Agent 1: I don't think that's going to work for me, but I'm sure we can come up with an agreement.
+Agent 2: okay friend you can have 3 firewood and 3 water is that good enough?
+Agent 1: I am going to need some food of course.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,
+133,none,llama70b,False,"Agent 1: Hello, I would like 3 water and 3 firewood packages. You can have 3 food packages.
+Agent 2: Hello, i need 2 water , 1 food and 1 firewood packages
+Agent 1: I need prefer water the most since my mouth is dry a lot. I need 3 water, 1 firewood ,and 0 food packages
+Agent 2: yeah you are right, but water is essential for all !☹️, you must consider that too
+Agent 1: I agree water is needed. I can do 2 water 2 firewood and 0 food
+Agent 2: you consider me giving one of your water package and collect food package, if you are lucky you can get liquid foods too🙂
+Agent 1: I don't like food. my stomach is always full. I only drink water since im thirsty most of the time.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: firewood, Low priority: food
+Agent 2: High priority: water, Medium priority: food, Low priority: firewood
+
+Conversation:
+Agent 1: Hello, I would like 3 water and 3 firewood packages. You can have 3 food packages.
+Agent 2: Hello, i need 2 water , 1 food and 1 firewood packages
+Agent 1: I need prefer water the most since my mouth is dry a lot. I need 3 water, 1 firewood ,and 0 food packages
+Agent 2: yeah you are right, but water is essential for all !☹️, you must consider that too
+Agent 1: I agree water is needed. I can do 2 water 2 firewood and 0 food
+Agent 2: you consider me giving one of your water package and collect food package, if you are lucky you can get liquid foods too🙂
+Agent 1: I don't like food. my stomach is always full. I only drink water since im thirsty most of the time.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:0, water:2, firewood:2}, agent2:{food:1, water:1, firewood:1}}",1.0,0.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,1.0,1.0,1.0,18.0,12.0,21.0,9.0,16.0
+134,none,llama70b,False,"Agent 1: Hi!
+Agent 2: Howdy! How are you?
+Agent 1: I am dong just fine! and you?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: firewood, Low priority: water
+Agent 2: High priority: water, Medium priority: firewood, Low priority: food
+
+Conversation:
+Agent 1: Hi!
+Agent 2: Howdy! How are you?
+Agent 1: I am dong just fine! and you?
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[0], firewood:[2]}, agent2:{food:[1], water:[3], firewood:[1]}}",,,,,,,,,,,,,,,,,
+135,none,llama70b,False,"Agent 2: What are your preference what would you need most?
+Agent 1: I need to keep the fire burning so i need firewood most. What about you?
+Agent 2: I dont need the firewood as much.
+Agent 1: That is great for me. I guess i will take all three.🙂","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: water, Low priority: food
+Agent 2: High priority: firewood, Medium priority: water, Low priority: food
+
+Conversation:
+Agent 2: What are your preference what would you need most?
+Agent 1: I need to keep the fire burning so i need firewood most. What about you?
+Agent 2: I dont need the firewood as much.
+Agent 1: That is great for me. I guess i will take all three.🙂
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[0], water:[0], firewood:[3]}, agent2:{food:[3], water:[3], firewood:[0]}}",,,,,,,,,,,,,,,,,
+136,none,llama70b,False,"Agent 2: Hello!
+Agent 1: hi
+Agent 2: Looking forward to camping","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: food, Low priority: firewood
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation:
+Agent 2: Hello!
+Agent 1: hi
+Agent 2: Looking forward to camping
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[2], firewood:[0]}, agent2:{food:[1], water:[1], firewood:[3]}}",,,,,,,,,,,,,,,,,
+137,none,llama70b,False,"Agent 2: Hello how are you today? 🙂
+Agent 1: Fine.
+Agent 2: You aren't very talkative are you? What preferences do you have for packages?😮😮😮","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: firewood, Low priority: food
+Agent 2: High priority: water, Medium priority: food, Low priority: firewood
+
+Conversation:
+Agent 2: Hello how are you today? 🙂
+Agent 1: Fine.
+Agent 2: You aren't very talkative are you? What preferences do you have for packages?😮😮😮
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[0], water:[2], firewood:[1]}, agent2:{food:[3], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,
+138,none,llama70b,False,"Agent 1: I'm looking forward to my camping trip! What are you trying to collect for your trip?
+Agent 2: Me too! It will be great to finally get out of town for a few days. I mostly need more firewood to keep the wife nice and toasty. How about you?
+Agent 1: oh it turns out I need firewood too!🙂","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: food, Low priority: water
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation:
+Agent 1: I'm looking forward to my camping trip! What are you trying to collect for your trip?
+Agent 2: Me too! It will be great to finally get out of town for a few days. I mostly need more firewood to keep the wife nice and toasty. How about you?
+Agent 1: oh it turns out I need firewood too!🙂
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[1], water:[1], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,
+139,none,llama70b,False,"Agent 1: Hi, I hope we can work together to get an offer that benefits both of us.🙂
+Agent 2: I agree! Nice to meet you... I have two boys who always eat! Any chance I canget 2 food?
+Agent 1: Food is the item of greatest value to you?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: food, Low priority: firewood
+Agent 2: High priority: food, Medium priority: firewood, Low priority: water
+
+Conversation:
+Agent 1: Hi, I hope we can work together to get an offer that benefits both of us.🙂
+Agent 2: I agree! Nice to meet you... I have two boys who always eat! Any chance I canget 2 food?
+Agent 1: Food is the item of greatest value to you?
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[2]}, agent2:{food:[2], water:[1], firewood:[1]}}",,,,,,,,,,,,,,,,,
+140,none,llama70b,False,"Agent 2: Hi, I brought some water with me. How much do you need?
+Agent 1: I want 2 liters of water
+Agent 2: Okay, you can take two and I will take one.
+Agent 1: Okay that's great
+Agent 2: Can I take all three bundles of firewood so I can boil some of the water?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: food, Low priority: water
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation:
+Agent 2: Hi, I brought some water with me. How much do you need?
+Agent 1: I want 2 liters of water
+Agent 2: Okay, you can take two and I will take one.
+Agent 1: Okay that's great
+Agent 2: Can I take all three bundles of firewood so I can boil some of the water?
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[0], water:[2], firewood:[0]}, agent2:{food:[3], water:[1], firewood:[3]}}",,,,,,,,,,,,,,,,,
+141,none,llama70b,False,"Agent 2: Hey, Nice getting to interact with you. I would need additional packages of food as I'm camping with Family and my kids tend to get hungry often.
+Agent 1: I also have a family I am camping with several small childern and my wife who is pregnant. I need plenty of firewood and water.
+Agent 2: I get it, in that case and to be a fair deal. I will have 2 of food, 1 of water and firewood each.
+Agent 1: That seems fair however I would like to have plenty of food also. I think it would be fair to have 2 firewood, 1 food and 2 water
+Agent 2: I ain't sure if you want 1 or 2 packages of food","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: water, Low priority: food
+Agent 2: High priority: food, Medium priority: water, Low priority: firewood
+
+Conversation:
+Agent 2: Hey, Nice getting to interact with you. I would need additional packages of food as I'm camping with Family and my kids tend to get hungry often.
+Agent 1: I also have a family I am camping with several small childern and my wife who is pregnant. I need plenty of firewood and water.
+Agent 2: I get it, in that case and to be a fair deal. I will have 2 of food, 1 of water and firewood each.
+Agent 1: That seems fair however I would like to have plenty of food also. I think it would be fair to have 2 firewood, 1 food and 2 water
+Agent 2: I ain't sure if you want 1 or 2 packages of food
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:1, water:2, firewood:2}, agent2:{food:2, water:1, firewood:1}}",1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,1.0,1.0,21.0,17.0,21.0,0.0,17.0
+143,none,llama70b,False,"Agent 2: hai friend. i am in some trouble i need some help from you. can you help me?
+Agent 1: Hi there sorry your having trouble
+Agent 2: yes friend. i going to trip with my team.in my team old age sicked people and kid are there so i need some favor in extra package
+Agent 1: Well i am also going on a trip, in a very cold climate, unfortunately i have a medical condition where i need to stay hydrated and warm or i can have siezures
+Agent 2: i understand friend. i need 2 pack of water and 3 pack of food and 2 pack of fire wood. can you please help me
+Agent 1: No way can you have everything, I will need 3 packs of firewood 2 backs of water then you can have all the food","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: water, Low priority: food
+Agent 2: High priority: food, Medium priority: water, Low priority: firewood
+
+Conversation:
+Agent 2: hai friend. i am in some trouble i need some help from you. can you help me?
+Agent 1: Hi there sorry your having trouble
+Agent 2: yes friend. i going to trip with my team.in my team old age sicked people and kid are there so i need some favor in extra package
+Agent 1: Well i am also going on a trip, in a very cold climate, unfortunately i have a medical condition where i need to stay hydrated and warm or i can have siezures
+Agent 2: i understand friend. i need 2 pack of water and 3 pack of food and 2 pack of fire wood. can you please help me
+Agent 1: No way can you have everything, I will need 3 packs of firewood 2 backs of water then you can have all the food
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[0], water:[2], firewood:[3]}, agent2:{food:[3], water:[1], firewood:[0]}}",,,,,,,,,,,,,,,,,
+144,none,llama70b,False,"Agent 2: Hi fellow camper! What are your needs for the extra provisions.
+Agent 1: Hi i'm really excited for camping. I am looking for food and water
+Agent 2: Yes, a much needed getaway. Oh my, we need the same provisions! How would you be with receiving two waters, one food package, and two of the firewood?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: water, Low priority: firewood
+Agent 2: High priority: food, Medium priority: water, Low priority: firewood
+
+Conversation:
+Agent 2: Hi fellow camper! What are your needs for the extra provisions.
+Agent 1: Hi i'm really excited for camping. I am looking for food and water
+Agent 2: Yes, a much needed getaway. Oh my, we need the same provisions! How would you be with receiving two waters, one food package, and two of the firewood?
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[0]}, agent2:{food:[2], water:[1], firewood:[3]}}",,,,,,,,,,,,,,,,,
+145,none,llama70b,False,"Agent 1: Hi, I really need water to stay hydrated during my camping trip because my food supplies are low. Do you have any to spare?
+Agent 2: Hi.  I can't do that right now.
+Agent 1: Is there anything that you might need?
+Agent 2: I would be interested in firewood.  Can I ask you, what are your primary concerns on this trip?
+Agent 1: My primary concerns are staying hydrated, I have been feeling sick and throwing up from being so high up in the mountains.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: food, Low priority: firewood
+Agent 2: High priority: firewood, Medium priority: water, Low priority: food
+
+Conversation:
+Agent 1: Hi, I really need water to stay hydrated during my camping trip because my food supplies are low. Do you have any to spare?
+Agent 2: Hi.  I can't do that right now.
+Agent 1: Is there anything that you might need?
+Agent 2: I would be interested in firewood.  Can I ask you, what are your primary concerns on this trip?
+Agent 1: My primary concerns are staying hydrated, I have been feeling sick and throwing up from being so high up in the mountains.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[3], water:[2], firewood:[0]}, agent2:{food:[0], water:[1], firewood:[3]}}",,,,,,,,,,,,,,,,,
+146,none,llama70b,False,"Agent 2: Ok, so I like water a lot.
+Agent 1: Yes, water is a necessity for being out camping 🙂
+Agent 2: I agree.
+Agent 1: I myself love food, so food is a big deal to me.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: firewood, Low priority: water
+Agent 2: High priority: water, Medium priority: firewood, Low priority: food
+
+Conversation:
+Agent 2: Ok, so I like water a lot.
+Agent 1: Yes, water is a necessity for being out camping 🙂
+Agent 2: I agree.
+Agent 1: I myself love food, so food is a big deal to me.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[2]}, agent2:{food:[1], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,
+147,none,llama70b,False,"Agent 2: Hello my friend! Are you ready to go camping?
+Agent 1: Getting there, just need some more supplies to be safe.
+Agent 2: Got you! I really need firewood to make smores and I don't think we have enough to last the whole night!
+Agent 1: I was hoping to pick up a lot of wood. It has rained around here and the wood is soggy in the forest.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: food, Low priority: water
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation:
+Agent 2: Hello my friend! Are you ready to go camping?
+Agent 1: Getting there, just need some more supplies to be safe.
+Agent 2: Got you! I really need firewood to make smores and I don't think we have enough to last the whole night!
+Agent 1: I was hoping to pick up a lot of wood. It has rained around here and the wood is soggy in the forest.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[1], water:[1], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,
+148,none,llama70b,False,"Agent 1: Hello, how are you?
+Agent 2: Hello, I am doing well, I am excited about my upcoming camping trip, how are you ?
+Agent 1: I good thank you.  Yes, I am excited about this trip but I have been worrying about how I can get more firewood.  A raccoon came and stole mine this morning from the campsite.  So would it be alright if I kept all 3 firewoods?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: food, Low priority: water
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation:
+Agent 1: Hello, how are you?
+Agent 2: Hello, I am doing well, I am excited about my upcoming camping trip, how are you ?
+Agent 1: I good thank you.  Yes, I am excited about this trip but I have been worrying about how I can get more firewood.  A raccoon came and stole mine this morning from the campsite.  So would it be alright if I kept all 3 firewoods?
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[1], water:[1], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,
+149,none,llama70b,False,"Agent 1: Hi! I'm really hoping to get a lot of water. I love outdoor activities like hiking and kayaking so I'll need to stay hydrated on the trip.
+Agent 2: Hi! I really need water also. I'm trying out a few new recipes, and they call for a lot of water.
+Agent 1: Okay, maybe we can split the water and then divy up the rest. What else are you interested in?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: food, Low priority: firewood
+Agent 2: High priority: water, Medium priority: food, Low priority: firewood
+
+Conversation:
+Agent 1: Hi! I'm really hoping to get a lot of water. I love outdoor activities like hiking and kayaking so I'll need to stay hydrated on the trip.
+Agent 2: Hi! I really need water also. I'm trying out a few new recipes, and they call for a lot of water.
+Agent 1: Okay, maybe we can split the water and then divy up the rest. What else are you interested in?
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[0]}, agent2:{food:[2], water:[1], firewood:[0]}}",,,,,,,,,,,,,,,,,
+150,none,llama70b,False,"Agent 1: Hello!  I'm looking forward to a big camping trip I've been planning for a long time this weekend.  How about you? Do you have any plans?
+Agent 2: Me too!!! I love camping! All that activity gets me wanting to indulge on snacks and then water to quench my thirst!
+Agent 1: Same here.  It looks like we both can use some water and snacks.  Do you have any preferences of how much you will need?  I was hoping to get 2 or 3 waters and 1 or 2 foods?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: food, Low priority: firewood
+Agent 2: High priority: water, Medium priority: food, Low priority: firewood
+
+Conversation:
+Agent 1: Hello!  I'm looking forward to a big camping trip I've been planning for a long time this weekend.  How about you? Do you have any plans?
+Agent 2: Me too!!! I love camping! All that activity gets me wanting to indulge on snacks and then water to quench my thirst!
+Agent 1: Same here.  It looks like we both can use some water and snacks.  Do you have any preferences of how much you will need?  I was hoping to get 2 or 3 waters and 1 or 2 foods?
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[2], firewood:[0]}, agent2:{food:[1], water:[1], firewood:[3]}}",,,,,,,,,,,,,,,,,
+151,none,llama70b,False,"Agent 2: Hello!
+Agent 1: Hi, how are you today?
+Agent 2: I'm good! I'm looking forward to my camping trip this weekend. How about you?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: firewood, Low priority: water
+Agent 2: High priority: water, Medium priority: food, Low priority: firewood
+
+Conversation:
+Agent 2: Hello!
+Agent 1: Hi, how are you today?
+Agent 2: I'm good! I'm looking forward to my camping trip this weekend. How about you?
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[0], firewood:[2]}, agent2:{food:[1], water:[3], firewood:[1]}}",,,,,,,,,,,,,,,,,
+152,none,llama70b,False,"Agent 2: Hello! I am looking to get more items for the trip.
+Agent 1: Hello there. I am as well. What items were you looking for specifically?🙂
+Agent 2: I am looking for one of each. Food I am especially looking for.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: food, Low priority: water
+Agent 2: High priority: food, Medium priority: water, Low priority: firewood
+
+Conversation:
+Agent 2: Hello! I am looking to get more items for the trip.
+Agent 1: Hello there. I am as well. What items were you looking for specifically?🙂
+Agent 2: I am looking for one of each. Food I am especially looking for.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:0, water:2, firewood:2}, agent2:{food:3, water:1, firewood:1}}",0.0,0.0,2.0,2.0,3.0,2.0,3.0,3.0,1.0,1.0,0.0,1.0,16.0,22.0,21.0,25.0,19.0
+153,none,llama70b,False,"Agent 1: hello
+Agent 2: Hello I hope we can work together to find an offer that satisfies both of us.
+Agent 1: yes we can
+Agent 2: Ok, could you tell me which item you need more and which one you need less?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: firewood, Low priority: food
+Agent 2: High priority: food, Medium priority: water, Low priority: firewood
+
+Conversation:
+Agent 1: hello
+Agent 2: Hello I hope we can work together to find an offer that satisfies both of us.
+Agent 1: yes we can
+Agent 2: Ok, could you tell me which item you need more and which one you need less?
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[0], water:[3], firewood:[1]}, agent2:{food:[3], water:[0], firewood:[2]}}",,,,,,,,,,,,,,,,,
