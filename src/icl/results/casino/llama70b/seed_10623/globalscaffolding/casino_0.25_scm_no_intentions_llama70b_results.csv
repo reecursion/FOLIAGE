@@ -1,0 +1,655 @@
+dialogue_id,summary_type,model_type,include_intentions,conversation,prompt,response,agent1_food_actual,agent1_food_pred,agent1_water_actual,agent1_water_pred,agent1_firewood_actual,agent1_firewood_pred,agent2_food_actual,agent2_food_pred,agent2_water_actual,agent2_water_pred,agent2_firewood_actual,agent2_firewood_pred,agent1_utility_pred,agent2_utility_pred,agent1_utility_actual,utility_mse,agent2_utility_actual
+0,scm,llama70b,False,"Agent 1: Hello! 🙂 Let's work together on a deal for these packages, shall we? What are you most interested in?
+Agent 2: Hey! I'd like some more firewood to keep my doggo warm. What do you need?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: food, Low priority: water
+Agent 2: High priority: firewood, Medium priority: water, Low priority: food
+
+Conversation:
+Agent 1: Hello! 🙂 Let's work together on a deal for these packages, shall we? What are you most interested in?
+Agent 2: Hey! I'd like some more firewood to keep my doggo warm. What do you need? mturk_agent_1:  
+  warmth: high  
+  competence: high  
+  explanation: mturk_agent_1 opens the conversation with a friendly greeting and a smiley, indicating a warm and approachable demeanor. They also express a willingness to collaborate on a deal, suggesting competence in negotiation and problem-solving.
+
+mturk_agent_2:  
+  warmth: high  
+  competence: high  
+  explanation: mturk_agent_2 responds with a friendly greeting and uses informal language (""doggo""), which conveys warmth and relatability. They clearly articulate their needs, demonstrating competence in communication and understanding of the situation.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,
+1,scm,llama70b,False,"Agent 2: Hello. How are you?
+Agent 1: I am good. I am pretty excited for the trip this weekend. what about you?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: firewood, Low priority: water
+Agent 2: High priority: food, Medium priority: firewood, Low priority: water
+
+Conversation:
+Agent 2: Hello. How are you?
+Agent 1: I am good. I am pretty excited for the trip this weekend. what about you? mturk_agent_2:  
+  warmth: high  
+  competence: high  
+  explanation: mturk_agent_2 initiates the conversation with a friendly greeting, indicating high warmth. Their ability to engage in a social interaction smoothly suggests high competence.
+
+mturk_agent_1:  
+  warmth: high  
+  competence: high  
+  explanation: mturk_agent_1 responds positively and shares personal excitement, showing openness and friendliness, which indicates high warmth. Their clear communication and engagement in the conversation reflect high competence.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,
+2,scm,llama70b,False,"Agent 2: Hey there!
+Agent 1: Hi! How are you?! You excited for your camping trip??! I sure am ready to go on mine!","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: food, Low priority: firewood
+Agent 2: High priority: water, Medium priority: firewood, Low priority: food
+
+Conversation:
+Agent 2: Hey there!
+Agent 1: Hi! How are you?! You excited for your camping trip??! I sure am ready to go on mine! user1 (mturk_agent_2):
+  warmth: high
+  competence: low
+  explanation: User1 initiates the conversation with a friendly greeting, indicating high warmth. However, there is no additional information or context provided to assess competence, leading to a low rating.
+
+user2 (mturk_agent_1):
+  warmth: high
+  competence: low
+  explanation: User2 responds enthusiastically with multiple exclamations and shares personal excitement, suggesting high warmth. Similar to user1, there is no substantive content or context to evaluate competence, resulting in a low rating.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:1, water:2, firewood:0}, agent2:{food:2, water:1, firewood:1}}",1.0,1.0,2.0,2.0,0.0,0.0,2.0,2.0,1.0,1.0,3.0,1.0,14.0,15.0,14.0,0.0,23.0
+3,scm,llama70b,False,"Agent 2: Hi, I'd like 3 packages of food. I have diabetes and my blood sugar could drop.
+Agent 1: oh dear, I am sorry to hear that my son is type one, I am okay with giving you all the food if you could give me all the firewood. I have hypothyroidism and it makes me get cold.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: water, Low priority: food
+Agent 2: High priority: food, Medium priority: water, Low priority: firewood
+
+Conversation:
+Agent 2: Hi, I'd like 3 packages of food. I have diabetes and my blood sugar could drop.
+Agent 1: oh dear, I am sorry to hear that my son is type one, I am okay with giving you all the food if you could give me all the firewood. I have hypothyroidism and it makes me get cold. user1 (mturk_agent_2):
+  warmth: high
+  competence: high
+  explanation: User1 expresses a personal health concern and makes a clear request, indicating a willingness to communicate openly and effectively. Their approach is direct yet considerate, suggesting both warmth in sharing personal information and competence in articulating their needs.
+
+user2 (mturk_agent_1):
+  warmth: high
+  competence: high
+  explanation: User2 responds empathetically by sharing a personal connection to the issue, demonstrating understanding and relatability. They propose a fair exchange, showing problem-solving skills and negotiation ability, which reflects both warmth in their empathetic response and competence in their strategic thinking.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:0, water:0, firewood:3}, agent2:{food:3, water:0, firewood:0}}",0.0,0.0,2.0,0.0,3.0,3.0,3.0,3.0,1.0,0.0,0.0,0.0,15.0,15.0,23.0,64.0,19.0
+4,scm,llama70b,False,"Agent 2: What are you most interested in getting?
+Agent 1: I think food is my highest priority, What about you?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: firewood, Low priority: water
+Agent 2: High priority: food, Medium priority: firewood, Low priority: water
+
+Conversation:
+Agent 2: What are you most interested in getting?
+Agent 1: I think food is my highest priority, What about you? user1 (mturk_agent_2):
+  warmth: high
+  competence: high
+  explanation: User1 initiates the conversation with an open-ended question, indicating interest and engagement, suggesting high warmth. The question is clear and direct, reflecting high competence.
+
+user2 (mturk_agent_1):
+  warmth: high
+  competence: high
+  explanation: User2 responds with a personal preference and reciprocates the question, showing openness and willingness to engage, indicating high warmth. The response is straightforward and relevant, demonstrating high competence.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,
+5,scm,llama70b,False,"Agent 1: Hello, what are your preferences for extra supplies?  I am greatly in need of food and water.  We will be doing a lot of activity in a hot, dry climate.🙂
+Agent 2: I prefer firewood because I will get cold at night. I forgot blankets ☹️","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: water, Low priority: firewood
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation:
+Agent 1: Hello, what are your preferences for extra supplies?  I am greatly in need of food and water.  We will be doing a lot of activity in a hot, dry climate.🙂
+Agent 2: I prefer firewood because I will get cold at night. I forgot blankets ☹️ user1:
+  warmth: high
+  competence: high
+  explanation: User1 initiates the conversation with a friendly greeting and a smiley emoji, indicating openness and friendliness. They clearly articulate their needs, demonstrating an understanding of the situation and the necessary supplies, which suggests competence.
+
+user2:
+  warmth: high
+  competence: high
+  explanation: User2 responds with a personal preference and an emoticon expressing regret, which adds a personal touch and friendliness. They identify a specific need (firewood) and explain the reason (cold nights), indicating awareness and practical thinking, reflecting competence.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[2], firewood:[0]}, agent2:{food:[1], water:[1], firewood:[3]}}",,,,,,,,,,,,,,,,,
+6,scm,llama70b,False,"Agent 2: Hi, are you excited for the camping trip?
+Agent 1: Hello! I am very excited!🙂 How about you?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: food, Low priority: water
+Agent 2: High priority: food, Medium priority: firewood, Low priority: water
+
+Conversation:
+Agent 2: Hi, are you excited for the camping trip?
+Agent 1: Hello! I am very excited!🙂 How about you? mturk_agent_2:  
+  warmth: high  
+  competence: high  
+  explanation: mturk_agent_2 initiates the conversation with a friendly question, indicating openness and friendliness, which suggests high warmth. The ability to engage in a social interaction effectively suggests high competence.
+
+mturk_agent_1:  
+  warmth: high  
+  competence: high  
+  explanation: mturk_agent_1 responds enthusiastically with a positive expression and reciprocates the question, demonstrating friendliness and social engagement, indicating high warmth. The clear and prompt response suggests high competence.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[1], water:[0], firewood:[3]}, agent2:{food:[2], water:[3], firewood:[0]}}",,,,,,,,,,,,,,,,,
+7,scm,llama70b,False,"Agent 2: Hello!
+Agent 1: Hello, how are you doing today?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: firewood, Low priority: food
+Agent 2: High priority: food, Medium priority: water, Low priority: firewood
+
+Conversation:
+Agent 2: Hello!
+Agent 1: Hello, how are you doing today? mturk_agent_2:
+  warmth: high
+  competence: low
+  explanation: The greeting ""Hello!"" is friendly and polite, indicating high warmth. However, without further information or context about their abilities or expertise, their competence cannot be assessed as high.
+
+mturk_agent_1:
+  warmth: high
+  competence: low
+  explanation: By asking ""How are you doing today?"" mturk_agent_1 demonstrates friendliness and interest in mturk_agent_2's well-being, indicating high warmth. Similar to mturk_agent_2, there is no information provided to assess their competence as high.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[0], water:[2], firewood:[1]}, agent2:{food:[3], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,
+8,scm,llama70b,False,"Agent 2: How are you today? Did you have any preferences on the supplies we will be trading?
+Agent 1: I am good. How about yourself? I think I would like some firewood to start off with. We like to have bigger fires. What about you?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: firewood, Low priority: water
+Agent 2: High priority: water, Medium priority: food, Low priority: firewood
+
+Conversation:
+Agent 2: How are you today? Did you have any preferences on the supplies we will be trading?
+Agent 1: I am good. How about yourself? I think I would like some firewood to start off with. We like to have bigger fires. What about you? user1 (mturk_agent_2):
+  warmth: high
+  competence: high
+  explanation: User1 initiates the conversation with a friendly greeting and inquires about preferences, indicating attentiveness and consideration, which suggests high warmth. The structured approach to discussing trade preferences also reflects high competence.
+
+user2 (mturk_agent_1):
+  warmth: high
+  competence: high
+  explanation: User2 reciprocates the friendly tone by asking about user1's well-being, showing high warmth. Their clear expression of trade preferences and rationale for wanting firewood demonstrates high competence.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[0], firewood:[2]}, agent2:{food:[1], water:[3], firewood:[1]}}",,,,,,,,,,,,,,,,,
+9,scm,llama70b,False,"Agent 2: Hello, how are you today? 🙂
+Agent 1: good, how are you 🙂","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: food, Low priority: water
+Agent 2: High priority: food, Medium priority: firewood, Low priority: water
+
+Conversation:
+Agent 2: Hello, how are you today? 🙂
+Agent 1: good, how are you 🙂 mturk_agent_2:  
+  warmth: high  
+  competence: low  
+  explanation: The participant initiates the conversation with a friendly greeting and an emoji, indicating high warmth. However, the message lacks substantive content or demonstration of skills, leading to a perception of low competence.
+
+mturk_agent_1:  
+  warmth: high  
+  competence: low  
+  explanation: The participant responds positively with a similar friendly tone and emoji, showing high warmth. Like the other participant, the response is brief and lacks depth, suggesting low competence.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[1], water:[1], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,
+10,scm,llama70b,False,"Agent 2: hello!
+Agent 1: Hello.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: firewood, Low priority: food
+Agent 2: High priority: water, Medium priority: firewood, Low priority: food
+
+Conversation:
+Agent 2: hello!
+Agent 1: Hello. Based on the provided conversation:
+
+mturk_agent_2:
+  warmth: high
+  competence: not enough information
+  explanation: The greeting ""hello!"" suggests a friendly and approachable demeanor, indicating high warmth. However, there is insufficient information to assess competence from this single word.
+
+mturk_agent_1:
+  warmth: high
+  competence: not enough information
+  explanation: The response ""Hello."" is polite and acknowledges the other participant, suggesting high warmth. Like mturk_agent_2, there is not enough information to evaluate competence from this brief interaction.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:1, water:2, firewood:1}, agent2:{food:2, water:1, firewood:2}}",0.0,1.0,2.0,2.0,2.0,1.0,3.0,2.0,1.0,1.0,1.0,2.0,17.0,19.0,18.0,1.0,18.0
+11,scm,llama70b,False,"Agent 1: hi how are you are you ready for your trip
+Agent 2: I'm ready, I just would like to have a little extra stuff. How about you?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: firewood, Low priority: water
+Agent 2: High priority: food, Medium priority: firewood, Low priority: water
+
+Conversation:
+Agent 1: hi how are you are you ready for your trip
+Agent 2: I'm ready, I just would like to have a little extra stuff. How about you? mturk_agent_1:
+  warmth: high
+  competence: low
+  explanation: mturk_agent_1 initiates the conversation with a friendly greeting and shows interest in mturk_agent_2's readiness, indicating high warmth. However, there is no display of competence-related behavior, such as providing information or solutions.
+
+mturk_agent_2:
+  warmth: high
+  competence: low
+  explanation: mturk_agent_2 responds positively and reciprocates the inquiry, showing high warmth. The mention of wanting ""a little extra stuff"" suggests a lack of preparation, indicating low competence in this context.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,
+12,scm,llama70b,False,"Agent 1: Hi. I'm most interested in water. What's your highest priority?
+Agent 2: I really need water too. I have a young baby and will do a lot of washing.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: firewood, Low priority: food
+Agent 2: High priority: water, Medium priority: firewood, Low priority: food
+
+Conversation:
+Agent 1: Hi. I'm most interested in water. What's your highest priority?
+Agent 2: I really need water too. I have a young baby and will do a lot of washing. ```plaintext
+mturk_agent_1:
+  warmth: high
+  competence: high
+  explanation: mturk_agent_1 initiates the conversation with a friendly greeting and expresses interest in understanding the other participant's priorities, indicating high warmth. Their direct communication and focus on priorities suggest high competence.
+
+mturk_agent_2:
+  warmth: high
+  competence: high
+  explanation: mturk_agent_2 shares personal information about their situation, which fosters a sense of trust and empathy, indicating high warmth. Their clear articulation of needs and understanding of the situation demonstrate high competence.
+```
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[3], water:[1], firewood:[2]}, agent2:{food:[0], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,
+13,scm,llama70b,False,"Agent 2: Hello there...! Are you excited for the camp
+Agent 1: Hey, I am really excited! 🙂
+Agent 2: Wow.. Cool","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: firewood, Low priority: food
+Agent 2: High priority: food, Medium priority: water, Low priority: firewood
+
+Conversation:
+Agent 2: Hello there...! Are you excited for the camp
+Agent 1: Hey, I am really excited! 🙂
+Agent 2: Wow.. Cool user1 (mturk_agent_2):
+  warmth: high
+  competence: low
+  explanation: User1 initiates the conversation with a friendly greeting and expresses enthusiasm, indicating high warmth. However, their responses are brief and lack depth, suggesting lower competence in the context of this interaction.
+
+user2 (mturk_agent_1):
+  warmth: high
+  competence: high
+  explanation: User2 responds positively with excitement and uses an emoji, showing high warmth. Their clear and enthusiastic response also reflects high competence in engaging with the conversation.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[0], water:[2], firewood:[1]}, agent2:{food:[3], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,
+14,scm,llama70b,False,"Agent 1: n
+Agent 2: Hello there I was just thinking of the upcoming camping trip.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: food, Low priority: firewood
+Agent 2: High priority: firewood, Medium priority: water, Low priority: food
+
+Conversation:
+Agent 1: n
+Agent 2: Hello there I was just thinking of the upcoming camping trip. mturk_agent_1:
+  warmth: low
+  competence: low
+  explanation: The response ""n"" is minimal and lacks engagement, suggesting low warmth due to the absence of friendliness or interest. It also implies low competence as it does not contribute meaningfully to the conversation.
+
+mturk_agent_2:
+  warmth: high
+  competence: high
+  explanation: The greeting and mention of a shared activity indicate friendliness and engagement, reflecting high warmth. The ability to initiate a topic of conversation demonstrates social competence and the ability to maintain dialogue.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[0]}, agent2:{food:[2], water:[1], firewood:[3]}}",,,,,,,,,,,,,,,,,
+15,scm,llama70b,False,"Agent 2: Hi.  I am looking at possibly taking 3 of the food packages, 2 of the water packages and one of the firewood.
+Agent 1: Hi. Why do you need so many food packages?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: firewood, Low priority: water
+Agent 2: High priority: food, Medium priority: water, Low priority: firewood
+
+Conversation:
+Agent 2: Hi.  I am looking at possibly taking 3 of the food packages, 2 of the water packages and one of the firewood.
+Agent 1: Hi. Why do you need so many food packages? mturk_agent_2:  
+  warmth: high  
+  competence: high  
+  explanation: mturk_agent_2 initiates the conversation with a polite greeting and clearly states their needs, indicating a friendly demeanor and an organized approach to the transaction.
+
+mturk_agent_1:  
+  warmth: low  
+  competence: high  
+  explanation: mturk_agent_1 responds with a question that could be perceived as challenging or skeptical, which may come across as less warm, but demonstrates an interest in understanding the situation, indicating competence.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[2]}, agent2:{food:[2], water:[1], firewood:[1]}}",,,,,,,,,,,,,,,,,
+16,scm,llama70b,False,"Agent 1: Hi, this is my first time camping and I want to make sure I have enough stuff.  I would like three food, three firewood, and two water.  What do you think?
+Agent 2: I have been camping a few times and pretty much know what I need to be comfortable and healthy.  Warmth and hydration are important for me.  So, I am thinking 2 firewood, 2 water and 0 food.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: firewood, Low priority: water
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation:
+Agent 1: Hi, this is my first time camping and I want to make sure I have enough stuff.  I would like three food, three firewood, and two water.  What do you think?
+Agent 2: I have been camping a few times and pretty much know what I need to be comfortable and healthy.  Warmth and hydration are important for me.  So, I am thinking 2 firewood, 2 water and 0 food. user1:
+  warmth: high
+  competence: low
+  explanation: User1 expresses a friendly and open demeanor by sharing their inexperience and seeking advice, indicating high warmth. However, their request for supplies seems arbitrary and lacks a clear understanding of camping needs, suggesting low competence.
+
+user2:
+  warmth: high
+  competence: high
+  explanation: User2 responds with a helpful and informative tone, sharing personal experience and emphasizing important camping needs, which indicates high warmth. Their specific focus on essential items like warmth and hydration demonstrates a good understanding of camping requirements, reflecting high competence.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,
+17,scm,llama70b,False,"Agent 1: Hello, how are you today?
+Agent 2: hello, I am good, I am very excited about this trip. how are you?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: water, Medium priority: firewood, Low priority: food
+Agent 2: High priority: water, Medium priority: food, Low priority: firewood
+
+Conversation:
+Agent 1: Hello, how are you today?
+Agent 2: hello, I am good, I am very excited about this trip. how are you? mturk_agent_1:
+  warmth: high
+  competence: low
+  explanation: The greeting ""Hello, how are you today?"" demonstrates a friendly and polite demeanor, indicating high warmth. However, the lack of additional information or context about their own state or activities suggests low competence in this brief exchange.
+
+mturk_agent_2:
+  warmth: high
+  competence: high
+  explanation: The response is friendly and reciprocates the greeting, showing high warmth. The mention of being ""excited about this trip"" adds a personal touch and provides context, indicating high competence in engaging in the conversation.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:0, water:2, firewood:1}, agent2:{food:3, water:1, firewood:0}}",0.0,0.0,2.0,2.0,2.0,1.0,3.0,3.0,1.0,1.0,1.0,0.0,14.0,17.0,18.0,16.0,20.0
+18,scm,llama70b,False,"Agent 1: Hello, what are your preferences for food, water, and firewood?
+Agent 2: Hey, nice getting to interact with you. I would like to have additional packages of firewood and water
+Agent 1: Okay, I would like to have additional packages of food and water.
+Agent 2: I would take 2 packages of firewood and 1 each of water and food. Let me know your thoughts.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: water, Low priority: firewood
+Agent 2: High priority: firewood, Medium priority: water, Low priority: food
+
+Conversation:
+Agent 1: Hello, what are your preferences for food, water, and firewood?
+Agent 2: Hey, nice getting to interact with you. I would like to have additional packages of firewood and water
+Agent 1: Okay, I would like to have additional packages of food and water.
+Agent 2: I would take 2 packages of firewood and 1 each of water and food. Let me know your thoughts. user1 (mturk_agent_1):
+  warmth: high
+  competence: high
+  explanation: User1 initiates the conversation politely and clearly states their preferences, indicating a cooperative and respectful approach. Their ability to communicate their needs effectively demonstrates competence.
+
+user2 (mturk_agent_2):
+  warmth: high
+  competence: high
+  explanation: User2 responds warmly, expressing pleasure in the interaction and clearly stating their preferences. They propose a fair distribution and invite feedback, showing both social warmth and competent negotiation skills.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[0]}, agent2:{food:[1], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,
+20,scm,llama70b,False,"Agent 2: hi there🙂
+Agent 1: Hello, I hope we can reach a good deal. I am in desperate need of firewoood and water
+Agent 2: I also need water.  You would not believe how much my family and I sweat!","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: water, Low priority: food
+Agent 2: High priority: water, Medium priority: food, Low priority: firewood
+
+Conversation:
+Agent 2: hi there🙂
+Agent 1: Hello, I hope we can reach a good deal. I am in desperate need of firewoood and water
+Agent 2: I also need water.  You would not believe how much my family and I sweat! user1 (mturk_agent_1):
+  warmth: high
+  competence: high
+  explanation: User1 opens the conversation with a polite greeting and expresses a clear need, indicating a willingness to negotiate and collaborate. Their direct communication about their needs suggests competence in articulating their situation.
+
+user2 (mturk_agent_2):
+  warmth: high
+  competence: high
+  explanation: User2 responds with a friendly greeting and humor, showing warmth and approachability. They also clearly express their own needs, demonstrating competence in communicating their priorities effectively.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[1], water:[1], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,
+21,scm,llama70b,False,"Agent 2: Hello! how are you doing? are you excited to go camping
+Agent 1: Yep! Been closed up too long with this Covid-19 stuff.😡Wish it would like the Prez sez ""go away""","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: food, Low priority: water
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation:
+Agent 2: Hello! how are you doing? are you excited to go camping
+Agent 1: Yep! Been closed up too long with this Covid-19 stuff.😡Wish it would like the Prez sez ""go away"" user1 (mturk_agent_2):
+  warmth: high
+  competence: high
+  explanation: User1 initiates the conversation with a friendly greeting and expresses interest in the other person's feelings, indicating high warmth. The question about camping suggests engagement and understanding of the context, reflecting high competence.
+
+user2 (mturk_agent_1):
+  warmth: low
+  competence: low
+  explanation: User2 responds with frustration and a dismissive attitude towards the situation, showing low warmth. The informal language and reliance on external opinions without elaboration suggest low competence in the conversation.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[1], water:[1], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,
+22,scm,llama70b,False,"Agent 1: Hello, i will offer you as much food as you want for all of your fire wood.
+Agent 2: Hello, how are you?","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: water, Low priority: firewood
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation:
+Agent 1: Hello, i will offer you as much food as you want for all of your fire wood.
+Agent 2: Hello, how are you? user1 (mturk_agent_1):
+  warmth: low
+  competence: high
+  explanation: user1's direct offer without pleasantries suggests a transactional approach, indicating low warmth. However, the clear and straightforward proposal reflects high competence in negotiation.
+
+user2 (mturk_agent_2):
+  warmth: high
+  competence: low
+  explanation: user2's greeting and inquiry about well-being demonstrate high warmth, showing friendliness and politeness. However, the lack of engagement with the offer suggests lower competence in addressing the negotiation.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[3], water:[0], firewood:[3]}, agent2:{food:[0], water:[0], firewood:[0]}}",,,,,,,,,,,,,,,,,
+23,scm,llama70b,False,"Agent 1: Hi
+Agent 2: Hi how are you","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: water, Low priority: firewood
+Agent 2: High priority: firewood, Medium priority: food, Low priority: water
+
+Conversation:
+Agent 1: Hi
+Agent 2: Hi how are you mturk_agent_1:
+  warmth: low
+  competence: low
+  explanation: The participant's response is minimal and lacks engagement, which suggests low warmth. The brevity and lack of elaboration also imply low competence in contributing to the conversation.
+
+mturk_agent_2:
+  warmth: high
+  competence: high
+  explanation: The participant initiates a polite inquiry, indicating a friendly and engaging demeanor, which suggests high warmth. The ability to continue the conversation with a question demonstrates social competence.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[2], firewood:[0]}, agent2:{food:[1], water:[1], firewood:[3]}}",,,,,,,,,,,,,,,,,
+24,scm,llama70b,False,"Agent 2: Hello there.
+Agent 1: hi","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: food, Medium priority: water, Low priority: firewood
+Agent 2: High priority: water, Medium priority: firewood, Low priority: food
+
+Conversation:
+Agent 2: Hello there.
+Agent 1: hi I'm unable to provide a detailed analysis of the conversation's warmth and competence based on the limited exchange provided. The conversation consists only of greetings, which do not offer enough context to assess the participants' warmth or competence accurately. If more dialogue is available, I can offer a more comprehensive evaluation.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,
+25,scm,llama70b,False,"Agent 1: I would like to ask for 3 firewood, 1 water and 0 food. I will be in an area where no extra wood will be available and I need the wood to cook all the food that I will already have.
+Agent 2: I understand where you're coming from but I'm afraid that is not acceptable.  My family's comfort is my top priority and I will be needing at least 2 firewoods to make sure they are kept warm.  I would also request some extra water.","You are helping analyze a negotiation conversation where two agents are discussing the allocation of resources. Each resource has exactly three units that must be divided between the two agents. The total amount of each resource allocated to both agents must add up to three. 
+
+Agent Preferences:
+Agent 1: High priority: firewood, Medium priority: water, Low priority: food
+Agent 2: High priority: firewood, Medium priority: water, Low priority: food
+
+Conversation:
+Agent 1: I would like to ask for 3 firewood, 1 water and 0 food. I will be in an area where no extra wood will be available and I need the wood to cook all the food that I will already have.
+Agent 2: I understand where you're coming from but I'm afraid that is not acceptable.  My family's comfort is my top priority and I will be needing at least 2 firewoods to make sure they are kept warm.  I would also request some extra water. user1:
+  warmth: low
+  competence: high
+  explanation: User1 demonstrates competence by clearly articulating their needs and reasoning for the request. However, their focus on personal requirements without acknowledging user2's needs suggests lower warmth.
+
+user2:
+  warmth: high
+  competence: high
+  explanation: User2 shows competence by understanding user1's position and clearly stating their own needs. They also express warmth by acknowledging user1's perspective and prioritizing their family's comfort, indicating empathy and consideration.
+
+Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
+
+OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
+
+Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
+
+OUTCOME: {agent1:{food:[0], water:[2], firewood:[1]}, agent2:{food:[3], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,
