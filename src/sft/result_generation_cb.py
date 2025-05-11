@@ -6,7 +6,7 @@ from scipy.stats import pearsonr
 import re
 
 # Path to the directory containing the CSV files
-base_dir = "/home/gganeshl/FOLIAGE/src/sft/results/craigslistbargain"
+base_dir = "/home/rithviks/FOLIAGE/src/sft/results/craigslistbargain/"
 
 # Function to calculate metrics for a single file
 def analyze_file(filepath):
@@ -138,10 +138,14 @@ def map_file_to_config_type(filename):
         return '(iii) Utterance + SCD Summary'
     elif '_global_scm_predictions' in filename:
         return '(iv) Utterance + SCM Summary'
+    elif '_global_traditional_predictions' in filename:
+        return '(v) Utterance + Traditional Summary'
     elif '_both_scd_predictions' in filename:
-        return '(v) Utt + Intentions + SCD Summary'
+        return '(vi) Utt + Intentions + SCD Summary'
     elif '_both_scm_predictions' in filename:
-        return '(vi) Utt + Intentions + SCM Summary'
+        return '(vii) Utt + Intentions + SCM Summary'
+    elif '_both_traditional_predictions' in filename:
+        return '(viii) Utt + Intentions + Traditional Summary'
     else:
         return 'Unknown'
 
@@ -188,8 +192,10 @@ def process_all_files():
             '(ii) Utterance + Intentions',
             '(iii) Utterance + SCD Summary',
             '(iv) Utterance + SCM Summary',
-            '(v) Utt + Intentions + SCD Summary',
-            '(vi) Utt + Intentions + SCM Summary'
+            '(v) Utterance + Traditional Summary',
+            '(vi) Utt + Intentions + SCD Summary',
+            '(vii) Utt + Intentions + SCM Summary',
+            '(viii) Utt + Intentions + Traditional Summary'
         ]
         
         ratios = ['0.25', '0.375', '0.5', '0.625', '0.75']
@@ -203,7 +209,7 @@ def process_all_files():
                 table_data[metric_type][config_type] = {}
                 
                 for ratio in ratios:
-                    table_data[metric_type][config_type][ratio] = None
+                    table_data[metric_type][config_type][ratio] = 0
         
         # Fill in table data
         for result in results:
@@ -217,15 +223,20 @@ def process_all_files():
                 continue
             
             # Fill mean values
-            table_data['successRMSE'][config_type][ratio] = result['avg_metrics']['successRMSE']
-            table_data['successPearson'][config_type][ratio] = result['avg_metrics']['successPearson']
-            table_data['rawPriceNMSE'][config_type][ratio] = result['avg_metrics']['rawPriceNMSE']
+            table_data['successRMSE'][config_type][ratio] +=  result['avg_metrics']['successRMSE']
+            table_data['successPearson'][config_type][ratio] += result['avg_metrics']['successPearson']
+            table_data['rawPriceNMSE'][config_type][ratio] += result['avg_metrics']['rawPriceNMSE']
             
             # Fill standard deviation values
-            table_data['successRMSE_std'][config_type][ratio] = result['avg_metrics']['successRMSE_std']
-            table_data['successPearson_std'][config_type][ratio] = result['avg_metrics']['successPearson_std']
-            table_data['rawPriceNMSE_std'][config_type][ratio] = result['avg_metrics']['rawPriceNMSE_std']
+            table_data['successRMSE_std'][config_type][ratio] += result['avg_metrics']['successRMSE_std']
+            table_data['successPearson_std'][config_type][ratio] += result['avg_metrics']['successPearson_std']
+            table_data['rawPriceNMSE_std'][config_type][ratio] += result['avg_metrics']['rawPriceNMSE_std']
         
+        for metric in table_data:
+            for config_type in table_data[metric]:
+                for ratio in table_data[metric][config_type]:
+                    table_data[metric][config_type][ratio] /= 3
+
         # Generate combined LaTeX table
         print("\n--- Combined Table for All Metrics ---")
         generate_combined_latex_table(table_data, ratios)
