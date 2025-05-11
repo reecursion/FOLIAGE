@@ -266,7 +266,7 @@ def parse_arguments():
     parser.add_argument("--output_dir", type=str, default="/data/user_data/gganeshl/output",
                         help="Directory to save model checkpoints")
     parser.add_argument("--batch_size", type=int, default=4, help="Training batch size per device")
-    parser.add_argument("--epochs", type=int, default=15, help="Number of training epochs")
+    parser.add_argument("--epochs", type=int, default=10, help="Number of training epochs")
     parser.add_argument("--n_folds", type=int, default=5, help="Number of folds for cross-validation")
     parser.add_argument("--max_length", type=int, default=1024, help="Maximum sequence length")
     parser.add_argument("--rank", type=int, default=8, help="LoRA rank")
