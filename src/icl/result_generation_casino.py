@@ -5,19 +5,19 @@ import re
 from sklearn.metrics import mean_squared_error
 
 # Path to the directory containing the CSV files
-base_dir = "/home/gganeshl/FOLIAGE/src/icl/results/casino"  
+base_dir = "/home/rithviks/FOLIAGE/src/icl/results/casino"  
 
-preferences_csv_path = "/home/gganeshl/FOLIAGE/datasets/casino/final/ratio_0.5.csv"
+preferences_csv_path = "/home/rithviks/FOLIAGE/datasets/casino/final/ratio_0.5.csv"
 
 # Command line argument parsing
 import argparse
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description='Process casino dataset metrics.')
-    parser.add_argument('--results_dir', type=str, default="/home/gganeshl/FOLIAGE/src/icl/results/casino",
+    parser.add_argument('--results_dir', type=str, default="/home/rithviks/FOLIAGE/src/icl/results/casino",
                         help='Directory containing result CSV files')
     parser.add_argument('--preferences_file', type=str, 
-                        default="/home/gganeshl/FOLIAGE/datasets/casino/final/ratio_0.5.csv",
+                        default="/home/rithviks/FOLIAGE/datasets/casino/final/ratio_0.5.csv",
                         help='CSV file with agent preferences')
     parser.add_argument('--output_file', type=str, default=None,
                         help='Output file path for LaTeX table (default: {results_dir}/casino_metrics_table.tex)')
@@ -260,6 +260,8 @@ def map_file_to_config_type(filepath, filename):
         summary_prefix = '(ii)'
     elif 'scm' in filename:
         summary_prefix = '(iii)'
+    elif 'traditional' in filename:
+        summary_prefix = '(iv)'
     else:
         summary_prefix = '(?)'
     
@@ -279,12 +281,17 @@ def map_file_to_config_type(filepath, filename):
         if 'no Intentions' in intentions_suffix:
             config_type = '(iii) Utterance + SCD'
         else:
-            config_type = '(v) Utterance + SCD + Intentions'
+            config_type = '(vi) Utterance + SCD + Intentions'
     elif summary_prefix == '(iii)':
         if 'no Intentions' in intentions_suffix:
             config_type = '(iv) Utterance + SCM'
         else:
-            config_type = '(vi) Utterance + SCM + Intentions'
+            config_type = '(vii) Utterance + SCM + Intentions'
+    elif summary_prefix == '(iv)':
+        if 'no Intentions' in intentions_suffix:
+            config_type = '(v) Utterance + Traditional'
+        else:
+            config_type = '(viii) Utterance + Traditional + Intentions'
     
     return config_type
 
@@ -414,8 +421,7 @@ def process_all_files():
         output_file = os.path.join(base_dir, 'casino_metrics_ratio_table.tex')
         
         # Write LaTeX table to file
-        with open(output_file, 'w') as f:
-            f.write(latex_table)
+        print(latex_table)
         
         print(f"LaTeX table saved to {output_file}")
         return latex_table
@@ -450,12 +456,12 @@ def generate_latex_table_by_ratio(metrics_tables, model_types, config_types, rat
     mse_metric_names = ['Agent 1 Utility MSE', 'Agent 2 Utility MSE', 'Average Utility MSE']
     
     # Table for match metrics (higher is better)
-    match_metrics = ['food_match', 'water_match', 'firewood_match', 'exact_match', 'resource_match_overall']
-    match_metric_names = ['Food Match Ratio', 'Water Match Ratio', 'Firewood Match Ratio', 'Exact Match Ratio', 'Overall Resource Match']
+    # match_metrics = ['food_match', 'water_match', 'firewood_match', 'exact_match', 'resource_match_overall']
+    # match_metric_names = ['Food Match Ratio', 'Water Match Ratio', 'Firewood Match Ratio', 'Exact Match Ratio', 'Overall Resource Match']
     
     # Combine all metrics
-    all_metrics = mse_metrics + match_metrics
-    all_metric_names = mse_metric_names + match_metric_names
+    all_metrics = mse_metrics
+    all_metric_names = mse_metric_names
     
     # Start the combined table
     latex_table = "\\begin{table*}[ht]\n\\centering\n"
@@ -585,7 +591,6 @@ if __name__ == "__main__":
         output_file = os.path.join(base_dir, 'casino_metrics_ratio_table.tex')
     
     # Write LaTeX table to file
-    with open(output_file, 'w') as f:
-        f.write(latex_table)
+    print(latex_table)
     
     print(f"LaTeX table saved to {output_file}")

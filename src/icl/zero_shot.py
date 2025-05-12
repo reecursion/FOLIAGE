@@ -224,7 +224,7 @@ Remember: Each resource must sum to exactly 3 units across both agents."""
 
     def extract_allocation(self, response):
         """Extract final allocation from model output for Casino dataset."""
-        ALLOCATION_PATTERN = re.compile(r'{agent1:{food:(\d+),\s*water:(\d+),\s*firewood:(\d+)},\s*agent2:{food:(\d+),\s*water:(\d+),\s*firewood:(\d+)}}', re.IGNORECASE)
+        ALLOCATION_PATTERN = re.compile(r'{agent1:{food:\[?(\d+)\]?,\s*water:\[?(\d+)\]?,\s*firewood:\[?(\d+)\]?},\s*agent2:{food:\[?(\d+)\]?,\s*water:\[?(\d+)\]?,\s*firewood:\[?(\d+)\]?}}', re.IGNORECASE)
         try:
             # Quick input validation
             if not response or not isinstance(response, str):
