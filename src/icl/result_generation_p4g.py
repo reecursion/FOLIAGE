@@ -5,7 +5,7 @@ import re
 from sklearn.metrics import precision_score, recall_score, f1_score
 
 # Path to the directory containing the CSV files
-base_dir = "/home/gganeshl/FOLIAGE/src/icl/results/p4g/llama70b/"
+base_dir = "/users/rithviksenthil/desktop/FOLIAGE/src/icl/results/p4g/llama70b/"
 
 # Function to calculate metrics for a single file
 def analyze_file(filepath):

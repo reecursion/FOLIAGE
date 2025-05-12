@@ -94,7 +94,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[0]}, agent2:{food:[2], water:[1], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[0]}, agent2:{food:[2], water:[1], firewood:[3]}}",1.0,1.0,2.0,2.0,0.0,0.0,2.0,2.0,1.0,1.0,3.0,3.0,14.0,23.0,14.0,0.0,23.0,0,0,0,0
 3,scm,llama70b,False,"Agent 2: Hi, I'd like 3 packages of food. I have diabetes and my blood sugar could drop.
 Agent 1: oh dear, I am sorry to hear that my son is type one, I am okay with giving you all the food if you could give me all the firewood. I have hypothyroidism and it makes me get cold.
 Agent 2: That's a deal.
@@ -126,7 +126,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[0], water:[2], firewood:[3]}, agent2:{food:[3], water:[1], firewood:[0]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[0], water:[2], firewood:[3]}, agent2:{food:[3], water:[1], firewood:[0]}}",0.0,0.0,2.0,2.0,3.0,3.0,3.0,3.0,1.0,1.0,0.0,0.0,23.0,19.0,23.0,0.0,19.0,0,0,0,0
 4,scm,llama70b,False,"Agent 2: What are you most interested in getting?
 Agent 1: I think food is my highest priority, What about you?
 Agent 2: Food is also my highest priority, but firewood is also pretty close for me.
@@ -190,7 +190,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[3], firewood:[0]}, agent2:{food:[2], water:[0], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[3], firewood:[0]}, agent2:{food:[2], water:[0], firewood:[3]}}",2.0,1.0,3.0,3.0,0.0,0.0,1.0,2.0,0.0,0.0,3.0,3.0,17.0,23.0,22.0,25.0,19.0,0,0,0,0
 6,scm,llama70b,False,"Agent 2: Hi, are you excited for the camping trip?
 Agent 1: Hello! I am very excited!🙂 How about you?
 Agent 2: Yes!  Would you mind sharing your highest priority item with me?  My most valued item right now is Food actually
@@ -254,7 +254,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[0], water:[2], firewood:[1]}, agent2:{food:[3], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[0], water:[2], firewood:[1]}, agent2:{food:[3], water:[1], firewood:[2]}}",0.0,0.0,2.0,2.0,2.0,1.0,3.0,3.0,1.0,1.0,1.0,2.0,14.0,25.0,18.0,16.0,22.0,0,0,0,0
 8,scm,llama70b,False,"Agent 2: How are you today? Did you have any preferences on the supplies we will be trading?
 Agent 1: I am good. How about yourself? I think I would like some firewood to start off with. We like to have bigger fires. What about you?
 Agent 2: I am good as well. That is good to hear that you like to have bigger fires as we do not care much for that. We would much rather have some extra water.
@@ -286,7 +286,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[2]}, agent2:{food:[1], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[2]}, agent2:{food:[1], water:[2], firewood:[1]}}",2.0,2.0,0.0,1.0,3.0,2.0,1.0,1.0,3.0,2.0,0.0,1.0,21.0,17.0,22.0,1.0,19.0,0,0,0,0
 9,scm,llama70b,False,"Agent 2: Hello, how are you today? 🙂
 Agent 1: good, how are you 🙂
 Agent 2: Great!  I'm on a camping trip with my five children, how about you?
@@ -382,7 +382,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",1.0,2.0,2.0,1.0,2.0,1.0,2.0,1.0,1.0,2.0,1.0,2.0,17.0,19.0,19.0,4.0,17.0,0,0,0,0
 12,scm,llama70b,False,"Agent 1: Hi. I'm most interested in water. What's your highest priority?
 Agent 2: I really need water too. I have a young baby and will do a lot of washing.
 Agent 1: Okay. I'm not especially worried about food. What's your lowest priority?
@@ -450,7 +450,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[0], water:[2], firewood:[1]}, agent2:{food:[3], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[0], water:[2], firewood:[1]}, agent2:{food:[3], water:[1], firewood:[2]}}",0.0,0.0,1.0,2.0,3.0,1.0,3.0,3.0,2.0,1.0,0.0,2.0,14.0,25.0,17.0,9.0,23.0,0,0,0,0
 14,scm,llama70b,False,"Agent 1: n
 Agent 2: Hello there I was just thinking of the upcoming camping trip.
 Agent 1: I'm sorry about that, accidentally hit that send button lol! I was thinking about it as well. I'm pretty excited. How about you?
@@ -482,7 +482,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[3], firewood:[0]}, agent2:{food:[1], water:[0], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[3], firewood:[0]}, agent2:{food:[1], water:[0], firewood:[3]}}",3.0,2.0,1.0,3.0,0.0,0.0,0.0,1.0,2.0,0.0,3.0,3.0,23.0,18.0,17.0,36.0,23.0,0,0,0,0
 15,scm,llama70b,False,"Agent 2: Hi.  I am looking at possibly taking 3 of the food packages, 2 of the water packages and one of the firewood.
 Agent 1: Hi. Why do you need so many food packages?
 Agent 2: Well, I have two teenage boys who will be with me.  In normal circumstances they go through a lot of food.  While camping, hiking and kayaking I know we will need plenty to keep their energy level high to do everything.🙂
@@ -650,7 +650,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[3]}, agent2:{food:[2], water:[1], firewood:[0]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[3]}, agent2:{food:[2], water:[1], firewood:[0]}}",0.0,1.0,2.0,2.0,3.0,3.0,3.0,2.0,1.0,1.0,0.0,0.0,26.0,13.0,23.0,9.0,17.0,0,0,0,0
 21,scm,llama70b,False,"Agent 2: Hello! how are you doing? are you excited to go camping
 Agent 1: Yep! Been closed up too long with this Covid-19 stuff.😡Wish it would like the Prez sez ""go away""
 Agent 2: Yeah, it's very sad these days
@@ -714,7 +714,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[0], firewood:[0]}, agent2:{food:[0], water:[3], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[0], firewood:[0]}, agent2:{food:[0], water:[3], firewood:[3]}}",1.0,3.0,3.0,0.0,0.0,0.0,2.0,0.0,0.0,3.0,3.0,3.0,15.0,24.0,17.0,4.0,23.0,0,0,0,0
 23,scm,llama70b,False,"Agent 1: Hi
 Agent 2: Hi how are you
 Agent 1: I'm doing great. How about you.?
@@ -746,7 +746,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[2], firewood:[1]}, agent2:{food:[1], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[2], firewood:[1]}, agent2:{food:[1], water:[1], firewood:[2]}}",2.0,2.0,1.0,2.0,1.0,1.0,1.0,1.0,2.0,1.0,2.0,2.0,21.0,17.0,17.0,16.0,20.0,0,0,0,0
 24,scm,llama70b,False,"Agent 2: Hello there.
 Agent 1: hi
 Agent 2: So I plan to go hiking a lot this trip and I would appreciate a majority of the water and firewood if possible.
@@ -810,7 +810,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[1], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[1], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",1.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,17.0,19.0,17.0,0.0,19.0,0,0,0,0
 26,scm,llama70b,False,"Agent 1: Hello, what a great time of year to go camping.
 Agent 2: Yes I can't wait! So sick of being stuck at home. 🙂
 Agent 1: It will be nice to get out and explore the great outdoors, even if it is super hot!
@@ -940,7 +940,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[1]}}",1.0,1.0,2.0,2.0,1.0,1.0,2.0,2.0,1.0,1.0,2.0,1.0,17.0,17.0,17.0,0.0,20.0,0,0,0,0
 30,scm,llama70b,False,"Agent 1: hello, how are the preparations coming along?
 Agent 2: Hi There, I'm doing okay with my preparations but I am worried that I don't have enough food or water for the next few days.
 Agent 1: I also worried about those two items, especially water.
@@ -1074,7 +1074,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[2], firewood:[1]}, agent2:{food:[1], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[2], firewood:[1]}, agent2:{food:[1], water:[1], firewood:[2]}}",1.0,2.0,1.0,2.0,2.0,1.0,2.0,1.0,2.0,1.0,1.0,2.0,21.0,15.0,15.0,36.0,21.0,0,0,0,0
 34,scm,llama70b,False,"Agent 2: hi
 Agent 1: hello
 Agent 2: i need a lot of packages from you
@@ -1172,7 +1172,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[2], firewood:[1]}, agent2:{food:[0], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[2], firewood:[1]}, agent2:{food:[0], water:[1], firewood:[2]}}",2.0,3.0,2.0,2.0,0.0,1.0,1.0,0.0,1.0,1.0,3.0,2.0,23.0,14.0,16.0,49.0,22.0,0,0,0,0
 38,scm,llama70b,False,"Agent 2: Hello, how are you doing?
 Agent 1: I’m doing fine. How about you?
 Agent 2: I'm doing well. I was hoping I could have the extra firewood because my group decided to camp for a few extra days and want to make sure we have enough
@@ -1206,7 +1206,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[2], firewood:[1]}, agent2:{food:[1], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[2], firewood:[1]}, agent2:{food:[1], water:[1], firewood:[2]}}",1.0,2.0,1.0,2.0,1.0,1.0,2.0,1.0,2.0,1.0,2.0,2.0,19.0,17.0,12.0,49.0,24.0,0,0,0,0
 39,scm,llama70b,False,"Agent 2: Hi there! How are you today?
 Agent 1: Good!  How are you?
 Agent 2: I'm doing well! Almost ready for my camping trip. Need some more supplies though.
@@ -1238,7 +1238,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[1], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[1], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",3.0,1.0,0.0,1.0,2.0,2.0,0.0,2.0,3.0,2.0,1.0,1.0,17.0,20.0,22.0,25.0,19.0,0,0,0,0
 40,scm,llama70b,False,"Agent 2: I'd like to have 2 extra packages of water and firewood.
 Agent 1: I see. And I would like 2 extra packages of Food and 2 packages of  Water as well.
 Agent 2: I have a great risk of dehydration.  I really need those 2 extra packages of water. You can have all the extra food.
@@ -1272,7 +1272,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[0]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[0]}, agent2:{food:[1], water:[2], firewood:[2]}}",3.0,2.0,1.0,1.0,1.0,0.0,0.0,1.0,2.0,2.0,2.0,2.0,14.0,21.0,22.0,64.0,18.0,0,0,0,0
 41,scm,llama70b,False,"Agent 1: Hello, I need supplies for the trip!🙂
 Agent 2: Yep, me too🙂
 Agent 1: I need 3 water, 2 firewood, and one food. It would be good if I got that!  🙂🙂🙂☹️☹️
@@ -1340,7 +1340,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[0], water:[2], firewood:[2]}, agent2:{food:[3], water:[1], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[0], water:[2], firewood:[2]}, agent2:{food:[3], water:[1], firewood:[1]}}",0.0,0.0,1.0,2.0,3.0,2.0,3.0,3.0,2.0,1.0,0.0,1.0,18.0,20.0,19.0,1.0,18.0,0,0,0,0
 43,scm,llama70b,False,"Agent 2: What are your preferences?  I always love having a big fire at night when I am camping and I do think water is more important than food.
 Agent 1: I like to have a lot of food to keep my energy up, but I might need some firewood to cook that food. I can't wait for my camping trip.🙂
 Agent 2: I love camping also!  Yes, I can see how you would need firewood if you want to cook your food.  So, food is more important to you than water?
@@ -1372,7 +1372,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[2]}, agent2:{food:[1], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[2]}, agent2:{food:[1], water:[2], firewood:[1]}}",2.0,2.0,1.0,1.0,2.0,2.0,1.0,1.0,2.0,2.0,1.0,1.0,21.0,17.0,21.0,0.0,17.0,0,0,0,0
 45,scm,llama70b,False,"Agent 1: Hello! How are you today?
 Agent 2: Good how are you
 Agent 1: I am doing quite good. I enjoy camping. I however did not bring enough food.
@@ -1438,7 +1438,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",2.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,2.0,2.0,1.0,2.0,17.0,21.0,20.0,9.0,17.0,0,0,0,0
 47,scm,llama70b,False,"Agent 2: Hi, how are you, ready for the big camping trip?!
 Agent 1: Yep.  I am excited.  I could really use the decompression and time away from society.
 Agent 2: I agree, can't wait to unplug. As far as supplies go, I think its going to be hot and sunny where I'm going, wouldn't mind a bunch of extra water.
@@ -1470,7 +1470,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[1], firewood:[3]}, agent2:{food:[2], water:[2], firewood:[0]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[1], firewood:[3]}, agent2:{food:[2], water:[2], firewood:[0]}}",1.0,1.0,1.0,1.0,3.0,3.0,2.0,2.0,2.0,2.0,0.0,0.0,20.0,16.0,20.0,0.0,16.0,0,0,0,0
 48,scm,llama70b,False,"Agent 1: Hello. 🙂 What item did you need a little extra of?
 Agent 2: Thank you for asking, I would really like some extra fire wood as I usually get cold and scared at night so I can keep a fire going.
 Agent 1: I'd be willing to give you all my firewood if you could give me all the water.
@@ -1502,7 +1502,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[2], firewood:[0]}, agent2:{food:[0], water:[1], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[2], firewood:[0]}, agent2:{food:[0], water:[1], firewood:[3]}}",3.0,3.0,2.0,2.0,0.0,0.0,0.0,0.0,1.0,1.0,3.0,3.0,22.0,19.0,22.0,0.0,19.0,0,0,0,0
 49,scm,llama70b,False,"Agent 2: Hi, looking forward to camping. Wondering if you could help me out. I really need extra water.🙂
 Agent 1: I also need water.  I can give you 2 waters for 2 foods.
 Agent 2: I can do that. Would you also be able to give me one firewood?
@@ -1570,7 +1570,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[1], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[1], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",2.0,1.0,1.0,1.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0,15.0,20.0,17.0,4.0,19.0,0,0,0,0
 51,scm,llama70b,False,"Agent 1: Hi how are you doing today?
 Agent 2: I'm doing well. I'm very excited about our camping trip!
 Agent 1: I am too! I have a rather large family and we are looking forward to getting out for some time away!
@@ -1604,7 +1604,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[2]}, agent2:{food:[1], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[2]}, agent2:{food:[1], water:[2], firewood:[1]}}",1.0,2.0,0.0,1.0,3.0,2.0,2.0,1.0,3.0,2.0,0.0,1.0,21.0,17.0,17.0,16.0,23.0,0,0,0,0
 52,scm,llama70b,False,"Agent 2: Hi there! Hope your day is going well 🙂
 Agent 1: Doing great!  How about yourself?
 Agent 2: Pretty good, Monday's are always bit of a struggle though!
@@ -1636,7 +1636,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[2]}, agent2:{food:[2], water:[1], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[2]}, agent2:{food:[2], water:[1], firewood:[1]}}",0.0,1.0,2.0,2.0,2.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,21.0,16.0,18.0,9.0,20.0,0,0,0,0
 53,scm,llama70b,False,"Agent 2: how about I give you 2 waters and 1 food package in exchange for all your firewood?
 Agent 1: I'm afraid that will not work for me. I have hypothyroidism, so I am intolerant to cold temperatures. I was also planning on taking a swim in the river. I would prefer to take two firewood & one food package, & you may have the three waters, two food packages, & one firewood.
 Agent 2: I'm afraid I also have need of the firewood. I have anaemia so i get cold easily so I need to make sure I have adequate firewood or i may freeze at night. I also have a thin clothing so they wont provide adequate warmth. How about all of my water and 2 food for all of the firewood?
@@ -1866,7 +1866,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[2]}, agent2:{food:[2], water:[1], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[2]}, agent2:{food:[2], water:[1], firewood:[1]}}",1.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,1.0,19.0,17.0,16.0,9.0,20.0,0,0,0,0
 60,scm,llama70b,False,"Agent 1: Hello fellow camper! I am interested to know your preference in items?
 Agent 2: Hello! Yes I'm excited for the trip. 🙂 My most important is food. How about you?
 Agent 1: I am excited too. I really need food too. What other item is priority for you?
@@ -1898,7 +1898,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[0]}, agent2:{food:[1], water:[2], firewood:[0]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[0]}, agent2:{food:[1], water:[2], firewood:[0]}}",2.0,2.0,1.0,1.0,1.0,0.0,1.0,1.0,2.0,2.0,2.0,0.0,14.0,13.0,17.0,9.0,19.0,0,0,0,0
 61,scm,llama70b,False,"Agent 1: Hi . How is your camping trip going?
 Agent 2: The trip is great, how about you?
 Agent 1: It is great too. However i am feeling very cold i need a lot of firewood to light a fire.
@@ -1936,7 +1936,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[3], firewood:[2]}, agent2:{food:[0], water:[0], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[3], firewood:[2]}, agent2:{food:[0], water:[0], firewood:[1]}}",0.0,3.0,2.0,3.0,2.0,2.0,3.0,0.0,1.0,0.0,1.0,1.0,31.0,5.0,18.0,169.0,20.0,0,0,0,0
 62,scm,llama70b,False,"Agent 2: Hi. Water is very important to me.
 Agent 1: Hello, I don't really need water
 Agent 2: What is it that you need?
@@ -2102,7 +2102,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[3], firewood:[2]}, agent2:{food:[2], water:[0], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[3], firewood:[2]}, agent2:{food:[2], water:[0], firewood:[1]}}",1.0,1.0,2.0,3.0,2.0,2.0,2.0,2.0,1.0,0.0,1.0,1.0,26.0,14.0,21.0,25.0,17.0,0,0,0,0
 67,scm,llama70b,False,"Agent 2: hello, how do you suggest we share the items?
 Agent 1: Hi there! Well first I was wondering what item you think you'd like or need the most?
 Agent 2: I like firewood and water most
@@ -2134,7 +2134,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[0], firewood:[2]}, agent2:{food:[0], water:[3], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[0], firewood:[2]}, agent2:{food:[0], water:[3], firewood:[1]}}",3.0,3.0,0.0,0.0,1.0,2.0,0.0,0.0,3.0,3.0,2.0,1.0,22.0,17.0,17.0,25.0,22.0,0,0,0,0
 68,scm,llama70b,False,"Agent 1: Hey!  I hope you're having a good week and staying well.  So we are negotiating on supplies! 🙂
 Agent 2: Yes. Hoping we can make a good deal.
 Agent 1: Me too!  I'm hoping for two food items and one water.  I'm diabetic so if my blood sugar drops, I may need the extra carbs.  And water because water is important! 🙂
@@ -2236,7 +2236,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[3], firewood:[0]}, agent2:{food:[1], water:[0], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[3], firewood:[0]}, agent2:{food:[1], water:[0], firewood:[3]}}",1.0,2.0,3.0,3.0,0.0,0.0,2.0,1.0,0.0,0.0,3.0,3.0,23.0,19.0,19.0,16.0,23.0,0,0,0,0
 71,scm,llama70b,False,"Agent 2: I have a medical condition that causes my veins to close up when I get too cold. I will thus need the 3 firewood.
 Agent 1: ☹️Oh, that sounds awful. Are you sure you need all three packages of firewood?
 Agent 2: I might be able to get by with just two... I'm on a diet though, so I don't need as much food.
@@ -2336,7 +2336,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[2]}, agent2:{food:[2], water:[1], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[2]}, agent2:{food:[2], water:[1], firewood:[1]}}",0.0,1.0,2.0,2.0,0.0,2.0,3.0,2.0,1.0,1.0,3.0,1.0,19.0,17.0,6.0,169.0,28.0,0,0,0,0
 74,scm,llama70b,False,"Agent 1: Hello How are you? 🙂
 Agent 2: Hello there I'm well. How about yourself?
 Agent 1: I'm good. I'm excited for the camping trip. I have been planning this for a few weeks. I'm excited to get out into the woods.
@@ -2370,7 +2370,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",1.0,2.0,1.0,1.0,2.0,1.0,2.0,1.0,2.0,2.0,1.0,2.0,16.0,21.0,17.0,1.0,19.0,0,0,0,0
 75,scm,llama70b,False,"Agent 1: I have to get food as high while water is low.
 Agent 2: Ok, I have enough food, but I need firewood to keep warm and water because one of my containers leaked.  So, why don't you take all the food and I get everything else.
 Agent 1: Sure, I'll agree with it!
@@ -2444,7 +2444,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[1], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[1], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",2.0,1.0,1.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0,17.0,19.0,20.0,9.0,16.0,0,0,0,0
 77,scm,llama70b,False,"Agent 2: Hi, it is nice to be going camping. I do not have a very good sleeping bag and I can get cold at night. It would be nice to have extra firewood. I dont eat much so I do not need much extra food. Would you be willing to give me two packages of firewood for a package of food?
 Agent 1: I enjoy camping as well. However, my campsite seems to be a bit chilly at night. I'd be willing to part with some firewood, yet I'd need quite a bit of food to compensate. I also have a stream nearby so water is plentiful if you need that as well.
 Agent 2: I may be able to do something with regards to food. Do you have enough water?
@@ -2574,7 +2574,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[0], water:[0], firewood:[3]}, agent2:{food:[3], water:[3], firewood:[0]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[0], water:[0], firewood:[3]}, agent2:{food:[3], water:[3], firewood:[0]}}",1.0,0.0,0.0,0.0,3.0,3.0,2.0,3.0,3.0,3.0,0.0,0.0,15.0,27.0,19.0,16.0,23.0,0,0,0,0
 81,scm,llama70b,False,"Agent 1: Hello!
 Agent 2: Hello, I'm excited for the camping trip! I am unfortunately low on water
 Agent 1: I'm excited too! I am an avid fisherman so I can't wait to catch plenty of fish for us to eat.
@@ -2606,7 +2606,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[2], firewood:[1]}, agent2:{food:[0], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[2], firewood:[1]}, agent2:{food:[0], water:[1], firewood:[2]}}",0.0,3.0,2.0,2.0,1.0,1.0,3.0,0.0,1.0,1.0,2.0,2.0,23.0,11.0,14.0,81.0,23.0,0,0,0,0
 82,scm,llama70b,False,"Agent 1: Hello.
 Agent 2: Hello there, fellow camper!  🙂
 Agent 1: I would like 3 packages of food, 2 packages of firewood, and 1 package of water.
@@ -2712,7 +2712,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[2]}, agent2:{food:[1], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[2]}, agent2:{food:[1], water:[2], firewood:[1]}}",1.0,2.0,2.0,1.0,1.0,2.0,2.0,1.0,1.0,2.0,2.0,1.0,19.0,17.0,17.0,4.0,19.0,0,0,0,0
 85,scm,llama70b,False,"Agent 1: The weather is going to be really hot. Could I have 2 water in exchange for you receiving 2 food and 2 firewood?
 Agent 2: I have a low immune system and need to stay warm how about I get all 3 firewood in exchange for the 2 water.
 Agent 1: I will agree to 3 firewood for 2 water. Maybe I should extra food though so 2 food for me🙂
@@ -2812,7 +2812,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",1.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,1.0,1.0,2.0,16.0,21.0,19.0,9.0,17.0,0,0,0,0
 88,scm,llama70b,False,"Agent 2: Hello, I'm excited for our camping trip!
 Agent 1: Hey buddy, yes I'm so pumped for it.
 Agent 2: Okay so I'm planning this super cool backpacking expedition up the waterfall but I'm going to need all the additional water and food for everyone.
@@ -2846,7 +2846,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[0], water:[2], firewood:[3]}, agent2:{food:[3], water:[1], firewood:[0]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[0], water:[2], firewood:[3]}, agent2:{food:[3], water:[1], firewood:[0]}}",1.0,0.0,1.0,2.0,2.0,3.0,2.0,3.0,2.0,1.0,1.0,0.0,22.0,19.0,16.0,36.0,21.0,0,0,0,0
 89,scm,llama70b,False,"Agent 1: HI! Are you excited to go on this trip?
 Agent 2: I am
 Agent 1: Me too! Is this your first time?
@@ -2916,7 +2916,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[2]}, agent2:{food:[1], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[2]}, agent2:{food:[1], water:[2], firewood:[1]}}",1.0,2.0,1.0,1.0,3.0,2.0,2.0,1.0,2.0,2.0,0.0,1.0,21.0,16.0,20.0,1.0,18.0,0,0,0,0
 91,scm,llama70b,False,"Agent 2: Hello! I am a mother of two and I have two kids who need extra food and water
 Agent 1: Okay, I need food and water too unfortunately. We can discuss this.🙂
 Agent 2: Alright... my baby is on formula and needs water for her bottles. My son snacks all day and really needs food. Otherwise, he will starve and won't thrive
@@ -3016,7 +3016,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[3]}, agent2:{food:[1], water:[2], firewood:[0]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[3]}, agent2:{food:[1], water:[2], firewood:[0]}}",1.0,2.0,1.0,1.0,3.0,3.0,2.0,1.0,2.0,2.0,0.0,0.0,25.0,14.0,22.0,9.0,18.0,0,0,0,0
 94,scm,llama70b,False,"Agent 2: How are you enjoying the camping trip so far?
 Agent 1: Hi. It’s great, but very cold here. How about you?
 Agent 2: Yes the cold is hard to adjust to I can't seem to shake the chill.
@@ -3120,7 +3120,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",0.0,1.0,3.0,2.0,1.0,1.0,3.0,2.0,0.0,1.0,2.0,2.0,17.0,19.0,18.0,1.0,18.0,0,0,0,0
 97,scm,llama70b,False,"Agent 1: Hello there! How are you today?
 Agent 2: I am fine . How about you?
 Agent 1: I am doing well so far. 🙂 What items are of preference for you today?
@@ -3192,7 +3192,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[2], firewood:[0]}, agent2:{food:[0], water:[1], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[2], firewood:[0]}, agent2:{food:[0], water:[1], firewood:[3]}}",1.0,3.0,3.0,2.0,0.0,0.0,2.0,0.0,0.0,1.0,3.0,3.0,19.0,19.0,18.0,1.0,21.0,0,0,0,0
 99,scm,llama70b,False,"Agent 2: Hello, how are you doing today?
 Agent 1: Hey there, I'm doing well! I'm excited to choose camping supplies.
 Agent 2: Me too🙂. I packed a lot of food so I have plenty to spare
@@ -3356,7 +3356,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[2], firewood:[0]}, agent2:{food:[0], water:[1], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[2], firewood:[0]}, agent2:{food:[0], water:[1], firewood:[3]}}",2.0,3.0,2.0,2.0,0.0,0.0,1.0,0.0,1.0,1.0,3.0,3.0,23.0,18.0,18.0,25.0,22.0,0,0,0,0
 104,scm,llama70b,False,"Agent 1: Hello how are you today? 🙂 Do you have any initial ideas on how to split everything?
 Agent 2: I was thinking maybe I could have a majority of the fire food and you can have a majority of the water and food.
 Agent 1: What exactly do you mean by majority? As in everything ?
@@ -3458,7 +3458,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",3.0,2.0,0.0,1.0,1.0,1.0,0.0,1.0,3.0,2.0,2.0,2.0,17.0,20.0,19.0,4.0,19.0,0,0,0,0
 107,scm,llama70b,False,"Agent 2: Hello
 Agent 1: HI how are you today?
 Agent 2: Good. I am diabetic so would like to take 3 of the food
@@ -3490,7 +3490,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[3], firewood:[1]}, agent2:{food:[2], water:[0], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[3], firewood:[1]}, agent2:{food:[2], water:[0], firewood:[2]}}",1.0,1.0,3.0,3.0,1.0,1.0,2.0,2.0,0.0,0.0,2.0,2.0,20.0,18.0,20.0,0.0,18.0,0,0,0,0
 108,scm,llama70b,False,"Agent 1: Hello
 Agent 2: Hi there!
 Agent 1: Im really low in food, is it ok if I get 3 Food, 1 water & 1 firewood? What do you think?
@@ -3522,7 +3522,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[2], firewood:[0]}, agent2:{food:[0], water:[1], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[2], firewood:[0]}, agent2:{food:[0], water:[1], firewood:[3]}}",3.0,3.0,2.0,2.0,0.0,0.0,0.0,0.0,1.0,1.0,3.0,3.0,23.0,19.0,23.0,0.0,19.0,0,0,0,0
 109,scm,llama70b,False,"Agent 1: How many of each extra package are you thinking you need?
 Agent 2: I would prefer to take all of the firewood, split the food, and you could have all of the water.  What do you need the most?
 Agent 1: Splitting the food is what I was thinking as well, but I'd also like to split the firewood. We can split the water or I'm fine taking all of that.
@@ -3588,7 +3588,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[2], firewood:[1]}, agent2:{food:[1], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[2], firewood:[1]}, agent2:{food:[1], water:[1], firewood:[2]}}",2.0,2.0,2.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,2.0,2.0,20.0,17.0,20.0,0.0,17.0,0,0,0,0
 111,scm,llama70b,False,"Agent 2: Hello, what is your preference for supplies?  I would prefer to have as much extra firewood as possible, but am relatively indifferent to the rest.
 Agent 1: yes we have to supply more how much you want
 Agent 2: I would like 3 firewood, and 2 food.  You can have 1 food and all of the water.
@@ -3688,7 +3688,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",2.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0,17.0,19.0,17.0,0.0,19.0,0,0,0,0
 114,scm,llama70b,False,"Agent 2: Hello, I'm in a strong need for food and water. Please let me have a few packages of food and water. I'd gladly trade all my firewood for it.
 Agent 1: Hello. Wow! That does not sound good. My sister just called and let me know she will be coming tonight. She is bringing food so i have plenty to share. 🙂
 Agent 2: That's some good news. 🙂 Are you sure she is going to be bringing food with her?
@@ -3724,7 +3724,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[2], firewood:[0]}, agent2:{food:[0], water:[1], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[2], firewood:[0]}, agent2:{food:[0], water:[1], firewood:[3]}}",0.0,3.0,3.0,2.0,1.0,0.0,3.0,0.0,0.0,1.0,2.0,3.0,19.0,13.0,19.0,0.0,21.0,0,0,0,0
 115,scm,llama70b,False,"Agent 1: Hi!  The weather is going to be a lot colder than I anticipated, so I need extra firewood.  Would you be willing to give some to me?
 Agent 2: Sure, but I need 2 packs of firewood and 2 packs of food and water
 Agent 1: That doesn't really sound fair to me ☹️
@@ -3888,7 +3888,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[1], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[1], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",2.0,1.0,0.0,1.0,2.0,2.0,1.0,2.0,3.0,2.0,1.0,1.0,17.0,19.0,18.0,1.0,18.0,0,0,0,0
 120,scm,llama70b,False,"Agent 2: hi 🙂
 Agent 1: I was thinking that you could give me 3 food packages and i will give you 3 water? What do you think?
 Agent 2: If I do that I would also like all three firewood
@@ -3920,7 +3920,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[0], firewood:[0]}, agent2:{food:[0], water:[3], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[0], firewood:[0]}, agent2:{food:[0], water:[3], firewood:[3]}}",2.0,3.0,1.0,0.0,1.0,0.0,1.0,0.0,2.0,3.0,2.0,3.0,15.0,21.0,17.0,4.0,19.0,0,0,0,0
 121,scm,llama70b,False,"Agent 1: Hello!  I'm going to be heading out on a big camping trip and will need to take some extra supplies.  Are you going camping as well?
 Agent 2: I am also going camping! What do you think you're going to need the most of? What are your preferences?
 Agent 1: It's going to be hot during the day where I'm going so I'll need some extra hydration.  So water is my main priority.
@@ -3986,7 +3986,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[0]}, agent2:{food:[2], water:[1], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[0]}, agent2:{food:[2], water:[1], firewood:[1]}}",3.0,1.0,1.0,2.0,2.0,0.0,0.0,2.0,2.0,1.0,1.0,1.0,14.0,15.0,23.0,81.0,14.0,0,0,0,0
 123,scm,llama70b,False,"Agent 1: Hello. I'm going to do a lot of hiking on my camping trip and need as much water as possible. I'm also planning a bonfire with fellow campers in the area, so I'd like as much firewood as possible. How about I keep the water and firewood and you keep the food?
 Agent 2: That doesn't work for me. I will also need extra water because I drink a lot. How about we start by saying you get the firewood, and I'll take the food?
 Agent 1: OK, but how do we split up the water? Because it sounds like we both need some. What if you take all the food and I take all the firewood and then I get two waters and you get one extra?
@@ -4018,7 +4018,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[1], firewood:[3]}, agent2:{food:[2], water:[2], firewood:[0]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[1], firewood:[3]}, agent2:{food:[2], water:[2], firewood:[0]}}",1.0,1.0,1.0,1.0,3.0,3.0,2.0,2.0,2.0,2.0,0.0,0.0,20.0,18.0,20.0,0.0,18.0,0,0,0,0
 124,scm,llama70b,False,"Agent 1: Hello there! I look forward to striking up a deal that's good for both of us. 🙂
 Agent 2: hello, me too. what is most valued to you?
 Agent 1: I just want to make sure that I get a lot of firewood. It's going to be freezing cold on my trip, and I need to make sure I can stay warm. What's most valued to you?
@@ -4050,7 +4050,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[0], water:[2], firewood:[1]}, agent2:{food:[3], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[0], water:[2], firewood:[1]}, agent2:{food:[3], water:[1], firewood:[2]}}",0.0,0.0,3.0,2.0,1.0,1.0,3.0,3.0,0.0,1.0,2.0,2.0,14.0,26.0,19.0,25.0,23.0,0,0,0,0
 125,scm,llama70b,False,"Agent 1: Hello, How is your camping experience so far 🙂
 Agent 2: It's going well.  🙂  How is yours?
 Agent 1: It was going great until a bear came and took all of our food 😮
@@ -4216,7 +4216,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[0], water:[3], firewood:[2]}, agent2:{food:[3], water:[0], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[0], water:[3], firewood:[2]}, agent2:{food:[3], water:[0], firewood:[1]}}",1.0,0.0,3.0,3.0,1.0,2.0,2.0,3.0,0.0,0.0,2.0,1.0,23.0,17.0,22.0,1.0,18.0,0,0,0,0
 130,scm,llama70b,False,"Agent 2: Hey, would you like to take more firewood in exchange I'll get more food? Just in case I get lost and would need to ration out my portions.
 Agent 1: I understand where you're coming from. I would really need the most water.
 Agent 2: I am willing to give you the most water if I am able to have the most food.
@@ -4280,7 +4280,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[0]}, agent2:{food:[2], water:[1], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[0]}, agent2:{food:[2], water:[1], firewood:[3]}}",3.0,1.0,1.0,2.0,0.0,0.0,0.0,2.0,2.0,1.0,3.0,3.0,14.0,23.0,17.0,9.0,22.0,0,0,0,0
 132,scm,llama70b,False,"Agent 2: hello friend i will like to sugest if i can have 2 packages of food and 1 firewood,you can have i food 2 firewood and 3 water,let me know what you think?
 Agent 1: I don't think that's going to work for me, but I'm sure we can come up with an agreement.
 Agent 2: okay friend you can have 3 firewood and 3 water is that good enough?
@@ -4354,7 +4354,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",1.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,1.0,1.0,2.0,17.0,19.0,21.0,16.0,16.0,0,0,0,0
 134,scm,llama70b,False,"Agent 1: Hi!
 Agent 2: Howdy! How are you?
 Agent 1: I am dong just fine! and you?
@@ -4386,7 +4386,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[0], firewood:[1]}, agent2:{food:[0], water:[3], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[0], firewood:[1]}, agent2:{food:[0], water:[3], firewood:[2]}}",3.0,3.0,0.0,0.0,2.0,1.0,0.0,0.0,3.0,3.0,1.0,2.0,19.0,23.0,23.0,16.0,19.0,0,0,0,0
 135,scm,llama70b,False,"Agent 2: What are your preference what would you need most?
 Agent 1: I need to keep the fire burning so i need firewood most. What about you?
 Agent 2: I dont need the firewood as much.
@@ -4420,7 +4420,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[0], water:[3], firewood:[3]}, agent2:{food:[3], water:[0], firewood:[0]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[0], water:[3], firewood:[3]}, agent2:{food:[3], water:[0], firewood:[0]}}",1.0,0.0,2.0,3.0,3.0,3.0,2.0,3.0,1.0,0.0,0.0,0.0,27.0,9.0,26.0,1.0,10.0,0,0,0,0
 136,scm,llama70b,False,"Agent 2: Hello!
 Agent 1: hi
 Agent 2: Looking forward to camping
@@ -4452,7 +4452,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[3], firewood:[0]}, agent2:{food:[2], water:[0], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[3], firewood:[0]}, agent2:{food:[2], water:[0], firewood:[3]}}",2.0,1.0,3.0,3.0,0.0,0.0,1.0,2.0,0.0,0.0,3.0,3.0,19.0,23.0,23.0,16.0,19.0,0,0,0,0
 137,scm,llama70b,False,"Agent 2: Hello how are you today? 🙂
 Agent 1: Fine.
 Agent 2: You aren't very talkative are you? What preferences do you have for packages?😮😮😮
@@ -4548,7 +4548,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",1.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,1.0,1.0,2.0,17.0,21.0,20.0,9.0,17.0,0,0,0,0
 140,scm,llama70b,False,"Agent 2: Hi, I brought some water with me. How much do you need?
 Agent 1: I want 2 liters of water
 Agent 2: Okay, you can take two and I will take one.
@@ -4584,7 +4584,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",1.0,1.0,2.0,2.0,3.0,1.0,2.0,2.0,1.0,1.0,0.0,2.0,15.0,21.0,25.0,100.0,11.0,0,0,0,0
 141,scm,llama70b,False,"Agent 2: Hey, Nice getting to interact with you. I would need additional packages of food as I'm camping with Family and my kids tend to get hungry often.
 Agent 1: I also have a family I am camping with several small childern and my wife who is pregnant. I need plenty of firewood and water.
 Agent 2: I get it, in that case and to be a fair deal. I will have 2 of food, 1 of water and firewood each.
@@ -4760,7 +4760,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",1.0,2.0,1.0,1.0,2.0,1.0,2.0,1.0,2.0,2.0,1.0,2.0,17.0,21.0,16.0,1.0,20.0,0,0,0,0
 147,scm,llama70b,False,"Agent 2: Hello my friend! Are you ready to go camping?
 Agent 1: Getting there, just need some more supplies to be safe.
 Agent 2: Got you! I really need firewood to make smores and I don't think we have enough to last the whole night!
@@ -4824,7 +4824,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[2], firewood:[2]}, agent2:{food:[1], water:[1], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[2], firewood:[2]}, agent2:{food:[1], water:[1], firewood:[1]}}",2.0,2.0,2.0,2.0,1.0,2.0,1.0,1.0,1.0,1.0,2.0,1.0,24.0,12.0,19.0,25.0,17.0,0,0,0,0
 149,scm,llama70b,False,"Agent 1: Hi! I'm really hoping to get a lot of water. I love outdoor activities like hiking and kayaking so I'll need to stay hydrated on the trip.
 Agent 2: Hi! I really need water also. I'm trying out a few new recipes, and they call for a lot of water.
 Agent 1: Okay, maybe we can split the water and then divy up the rest. What else are you interested in?
@@ -4920,7 +4920,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",3.0,2.0,0.0,1.0,2.0,1.0,0.0,1.0,3.0,2.0,1.0,2.0,17.0,20.0,23.0,36.0,18.0,0,0,0,0
 152,scm,llama70b,False,"Agent 2: Hello! I am looking to get more items for the trip.
 Agent 1: Hello there. I am as well. What items were you looking for specifically?🙂
 Agent 2: I am looking for one of each. Food I am especially looking for.
@@ -4988,7 +4988,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[0], water:[3], firewood:[0]}, agent2:{food:[3], water:[0], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[0], water:[3], firewood:[0]}, agent2:{food:[3], water:[0], firewood:[3]}}",1.0,0.0,2.0,3.0,1.0,0.0,2.0,3.0,1.0,0.0,2.0,3.0,15.0,24.0,17.0,4.0,20.0,0,0,0,0
 154,scm,llama70b,False,"Agent 1: Hey! For the camping trip it would be awesome if I could have 3 packages of food. My friend is gluten and dairy free and we need as many options as possible for her.
 Agent 2: Aww I'm sorry to hear that, it sounds like it might be better to have her bring her own food. I'll be bringing my teenage son so it would be awesome to get any extra food for him that I can. You know how they be! 🙂
 Agent 1: What about I take 2 of the packages and you take 1? I know teenagers also drink a lot of water haha 🙂
@@ -5126,7 +5126,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[2]}, agent2:{food:[2], water:[1], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[2]}, agent2:{food:[2], water:[1], firewood:[1]}}",1.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,1.0,20.0,16.0,17.0,9.0,19.0,0,0,0,0
 158,scm,llama70b,False,"Agent 2: I need the food and water.  You can have all the firewood.
 Agent 1: hello how are you?  I need the food the most because I ran off and left mine sitting on my kitchen counter.  I think we can agree upon you having 2 water but I need 2 food
 Agent 2: I'm going hiking, and I really need food, it works up an appetite.
@@ -5196,7 +5196,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[2]}, agent2:{food:[1], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[2]}, agent2:{food:[1], water:[2], firewood:[1]}}",2.0,2.0,0.0,1.0,3.0,2.0,1.0,1.0,3.0,2.0,0.0,1.0,20.0,17.0,19.0,1.0,19.0,0,0,0,0
 160,scm,llama70b,False,"Agent 1: Good afternoon, how are doing today? Let's get this thing going. What items are you most interested?
 Agent 2: Hello , i am well. i dont need much so i would say an equal amount.
 Agent 1: I have a medical condition that require me to drink a ton of water. I also can only eat certain foods and I have 3 kids. The more food and water the better for us.
@@ -5292,7 +5292,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",0.0,1.0,3.0,2.0,2.0,1.0,3.0,2.0,0.0,1.0,1.0,2.0,17.0,21.0,21.0,16.0,19.0,0,0,0,0
 163,scm,llama70b,False,"Agent 1: I need some firewood because I did not bring enough, I was thinking I could take 2 firewood, 1 food, and 2 water. What do you think?
 Agent 2: I can do that for you!
 Agent 1: Ok, so you must prefer water and food over firewood. We might have lucked out as far as our priorities go!🙂
@@ -5324,7 +5324,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[1], firewood:[3]}, agent2:{food:[2], water:[2], firewood:[0]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[1], firewood:[3]}, agent2:{food:[2], water:[2], firewood:[0]}}",1.0,1.0,1.0,1.0,2.0,3.0,2.0,2.0,2.0,2.0,1.0,0.0,22.0,18.0,17.0,25.0,21.0,0,0,0,0
 164,scm,llama70b,False,"Agent 2: Hi there!  I'm so excited to be going camping this weekend.  I haven't been able to do anything because of the pandemic.  Do you have any plans for the weekend?
 Agent 1: No, I don't have any plans for this weekend. Can we camp together?
 Agent 2: If you want to tag along, sure.  lol  I'll be heading to the mountains so it's going to be hot during the day and cold during the night.
@@ -5456,7 +5456,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[3], firewood:[0]}, agent2:{food:[1], water:[0], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[3], firewood:[0]}, agent2:{food:[1], water:[0], firewood:[3]}}",2.0,2.0,3.0,3.0,0.0,0.0,1.0,1.0,0.0,0.0,3.0,3.0,23.0,19.0,23.0,0.0,19.0,0,0,0,0
 168,scm,llama70b,False,"Agent 2: Hey there!
 Agent 1: Hi! What are your preferences?
 Agent 2: Food is of the highest preference for me! I am a diabetic and always need to be able to eat if I'm experiencing a low! How about you?
@@ -5660,7 +5660,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",2.0,2.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,2.0,2.0,2.0,17.0,19.0,20.0,9.0,16.0,0,0,0,0
 174,scm,llama70b,False,"Agent 1: How do you feel about giving me 3 of the waters, 2 of the firewoods and just 1 of the food items?🙂
 Agent 2: Hello! I am happy to give you two of the waters and one of the fire wood. Would that work for you?
 Agent 1: I could go for 2 of the waters-I get dehydrated easily so must have those. Would you consider 2 waters and 1 firewood?🙂
@@ -5724,7 +5724,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[1], firewood:[3]}, agent2:{food:[2], water:[2], firewood:[0]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[1], firewood:[3]}, agent2:{food:[2], water:[2], firewood:[0]}}",0.0,1.0,1.0,1.0,3.0,3.0,3.0,2.0,2.0,2.0,0.0,0.0,22.0,18.0,19.0,9.0,23.0,0,0,0,0
 176,scm,llama70b,False,"Agent 2: Good evening, how are you doing today?
 Agent 1: Welcome to the camping trip Dude!
 Agent 2: Welcome! I'm really concerned about our water supply, we are desperately low. We don't have much food, a few protein bars. how are things looking your way?
@@ -5758,7 +5758,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[1], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[1], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",0.0,1.0,1.0,1.0,3.0,2.0,3.0,2.0,2.0,2.0,0.0,1.0,16.0,21.0,17.0,1.0,22.0,0,0,0,0
 177,scm,llama70b,False,"Agent 2: hi, how are you? my main need is water. how bout you?
 Agent 1: Hey hi, nice getting to interact with you. I'm doing good, thank you. Wish it's the same with you. I get dehydrated quickly and need additional packages of water.
 Agent 2: we both have the same high value priority. what is number 2 for you? thanks
@@ -5856,7 +5856,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",2.0,2.0,2.0,1.0,0.0,1.0,1.0,1.0,1.0,2.0,3.0,2.0,16.0,21.0,18.0,4.0,20.0,0,0,0,0
 180,scm,llama70b,False,"Agent 2: Hello, I would like to have three packages of food. We've decided to stay an extra night but need more food to do so.
 Agent 1: I would be open to that if you could give me three packages of water 🙂
 Agent 2: Hmmm...I'm pretty muddy due to clumsiness, so I may need one extra. I could give you two waters and all of the firewood. What do you think? 🙂
@@ -5924,7 +5924,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",2.0,2.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,2.0,2.0,2.0,17.0,21.0,20.0,9.0,17.0,0,0,0,0
 182,scm,llama70b,False,"Agent 1: Hello, how are you? Looking forward to camping?
 Agent 2: Oh yeah, that's for sure. What camping item do you prioritize?
 Agent 1: I'm going to need some extra wood because I'm somewhat injured and can't really gather more.
@@ -5990,7 +5990,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",1.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,1.0,1.0,2.0,17.0,19.0,21.0,16.0,15.0,0,0,0,0
 184,scm,llama70b,False,"Agent 1: Hi there! I can't wait to go camping! How about you?
 Agent 2: I am sooooo excited too! I can't wait to sit by the fire! 🙂
 Agent 1: Me too!!!! That is what I am most excited about. I was actually hoping you might have some firewood to spare?
@@ -6022,7 +6022,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[0], water:[3], firewood:[3]}, agent2:{food:[3], water:[0], firewood:[0]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[0], water:[3], firewood:[3]}, agent2:{food:[3], water:[0], firewood:[0]}}",0.0,0.0,2.0,3.0,3.0,3.0,3.0,3.0,1.0,0.0,0.0,0.0,24.0,12.0,21.0,9.0,15.0,0,0,0,0
 185,scm,llama70b,False,"Agent 1: hi how are you
 Agent 2: Hi, I am good. How about you? 🙂
 Agent 1: same, can I get 3 food, 2 firewood and 0 water, I need 3 food because i need food to survive
@@ -6088,7 +6088,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",1.0,1.0,3.0,2.0,0.0,1.0,2.0,2.0,0.0,1.0,3.0,2.0,17.0,21.0,18.0,1.0,23.0,0,0,0,0
 187,scm,llama70b,False,"Agent 1: Hi how are you? I have a few medical issue and do need to stay warm so fire wood is important to me. What is important to you?
 Agent 2: Hello! I also need firewood. It is my highest priority. Then, I need water next as a prority. 🙂
 Agent 1: Yes that matches with my needs as well I need to stay warm due to health conditions and need plenty of water due to medicines.
@@ -6278,7 +6278,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",1.0,2.0,0.0,1.0,1.0,1.0,2.0,1.0,3.0,2.0,2.0,2.0,17.0,19.0,9.0,64.0,27.0,0,0,0,0
 216,scm,llama70b,False,"Agent 2: Hello!
 Agent 1: Hey there. How are you doing?
 Agent 2: Great! What do you look for most when camping?
@@ -6312,7 +6312,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[2], firewood:[1]}, agent2:{food:[0], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[2], firewood:[1]}, agent2:{food:[0], water:[1], firewood:[2]}}",2.0,3.0,2.0,2.0,0.0,1.0,1.0,0.0,1.0,1.0,3.0,2.0,25.0,14.0,18.0,49.0,22.0,0,0,0,0
 217,scm,llama70b,False,"Agent 2: Hello, how are you? 🙂
 Agent 1: I'm good, how are you doing today?
 Agent 2: I'm doing great!  I'm on the first camping trip with my five children.
@@ -6348,7 +6348,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[3]}, agent2:{food:[1], water:[2], firewood:[0]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[3]}, agent2:{food:[1], water:[2], firewood:[0]}}",2.0,2.0,1.0,1.0,2.0,3.0,1.0,1.0,2.0,2.0,1.0,0.0,22.0,14.0,19.0,9.0,17.0,0,0,0,0
 218,scm,llama70b,False,"Agent 2: Hello I would like to have two bottles of water and in trade will take 1 food and firewood for a higher amount of water.
 Agent 1: Hello. I would consider giving you 2 waters for 3 firewood and 2 food. I have a large family so the additional firewood will help with warmth and cooking food. 🙂
 Agent 2: That sounds like you could  really use the extra warmth for your family
@@ -6446,7 +6446,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",2.0,1.0,1.0,2.0,3.0,1.0,1.0,2.0,2.0,1.0,0.0,2.0,17.0,19.0,22.0,25.0,14.0,0,0,0,0
 417,scm,llama70b,False,"Agent 2: Hi! I am interesting in claiming all 3 of the water, as well as 2 firewood and 1 food. Does this work for you?
 Agent 1: No I need more firewood
 Agent 2: Okay, can I ask why the firewood is important for you? 🙂
@@ -6512,7 +6512,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[0], firewood:[3]}, agent2:{food:[0], water:[3], firewood:[0]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[0], firewood:[3]}, agent2:{food:[0], water:[3], firewood:[0]}}",3.0,3.0,0.0,0.0,2.0,3.0,0.0,0.0,3.0,3.0,1.0,0.0,24.0,15.0,21.0,9.0,19.0,0,0,0,0
 419,scm,llama70b,False,"Agent 1: Hi - I'm so excited for our camping trip.  I'm most excited about getting to eat food that I normally don't when I am home
 Agent 2: Ooh what kind of food?! Like MRE? I'm going to need lots of water because I'm going to the High Desert.
 Agent 1: Hello! camper, how are you? I need us to make a deal where we all benefit.
@@ -6716,7 +6716,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[0], firewood:[1]}, agent2:{food:[0], water:[3], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[0], firewood:[1]}, agent2:{food:[0], water:[3], firewood:[2]}}",3.0,3.0,1.0,0.0,1.0,1.0,0.0,0.0,2.0,3.0,2.0,2.0,17.0,22.0,20.0,9.0,18.0,0,0,0,0
 425,scm,llama70b,False,"Agent 1: Hi! How are you today?
 Agent 2: I'm doing well! How are you?
 Agent 1: I am doing quite well myself. Why are you camping today?
@@ -6750,7 +6750,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[2]}, agent2:{food:[1], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[2]}, agent2:{food:[1], water:[2], firewood:[1]}}",3.0,2.0,1.0,1.0,1.0,2.0,0.0,1.0,2.0,2.0,2.0,1.0,19.0,17.0,20.0,1.0,16.0,0,0,0,0
 426,scm,llama70b,False,"Agent 2: HI. I'd love to get 2 additional packs of firewood. The weather forecast was for much warmer weather here and I just didn't bring enough with me. I also left my additional sweatshirt at home. I'd be happy to give you one additional water and two of food.  🙂🙂
 Agent 1: Well I had a really great day fishing today and I would like to have some extra firewood so I can cook all of this fish.  How about I take the 3 packages of firewood and you can keep 2 additional food packages in return.
 Agent 2: You really did have a good day didn't you! Sounds like fun. How many fish can one person eat? If I don't have the extra firewood I'm going to be really cold tonight. ☹️
@@ -6820,7 +6820,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[0], water:[2], firewood:[2]}, agent2:{food:[3], water:[1], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[0], water:[2], firewood:[2]}, agent2:{food:[3], water:[1], firewood:[1]}}",2.0,0.0,1.0,2.0,0.0,2.0,1.0,3.0,2.0,1.0,3.0,1.0,18.0,20.0,11.0,49.0,23.0,0,0,0,0
 429,scm,llama70b,False,"Agent 1: Hi there, I really need some water because I don't have enough to get by
 Agent 2: Good afternoon. Ok, water is a medium need for me. I have some to get by. I really need firewood. It's cold.
 Agent 1: I'd be willing to give up all the firewood in exchange for the water. I also am low on Food and would need at least 2.
@@ -6920,7 +6920,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[0], firewood:[1]}, agent2:{food:[0], water:[3], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[0], firewood:[1]}, agent2:{food:[0], water:[3], firewood:[2]}}",3.0,3.0,0.0,0.0,2.0,1.0,0.0,0.0,3.0,3.0,1.0,2.0,19.0,23.0,23.0,16.0,19.0,0,0,0,0
 432,scm,llama70b,False,"Agent 2: Hi, 🙂 can we make a deal for me having 3 water, 2 food, and 2 firewood?
 Agent 1: no what about this, I get 3 firewood then rest is yours
 Agent 2: I think can highly consider it, why do you prefer the firewood?
@@ -6984,7 +6984,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[3], firewood:[1]}, agent2:{food:[1], water:[0], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[3], firewood:[1]}, agent2:{food:[1], water:[0], firewood:[2]}}",2.0,2.0,3.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,2.0,2.0,25.0,13.0,25.0,0.0,13.0,0,0,0,0
 434,scm,llama70b,False,"Agent 2: Hello. I really just need firewood for my wife and daughter and some extra water for myself.
 Agent 1: Hello, i also need firewood, i have a medical condition where it is very hard to maintain my body temperature.
 Agent 2: My wife is in the same boat. That sucks. I wonder if it will be cold.
@@ -7016,7 +7016,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[0], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[0], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",2.0,1.0,2.0,0.0,1.0,2.0,1.0,2.0,1.0,2.0,2.0,1.0,14.0,19.0,19.0,25.0,17.0,0,0,0,0
 435,scm,llama70b,False,"Agent 1: Hi!  I am excited to go camping!  I would love to get 3 extra food and 3 water since we will be canoe camping and won't be able to purchase more.
 Agent 2: I am going camping too.  May I ask where you are going canoe camping?
 Agent 1: We are going to camp in Oregon.  We are looking forward to it.  The views and scenery should be gorgeous.  How about you?
@@ -7080,7 +7080,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[3]}, agent2:{food:[2], water:[1], firewood:[0]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[3]}, agent2:{food:[2], water:[1], firewood:[0]}}",0.0,1.0,3.0,2.0,2.0,3.0,3.0,2.0,0.0,1.0,1.0,0.0,26.0,13.0,22.0,16.0,19.0,0,0,0,0
 437,scm,llama70b,False,"Agent 1: Hi, how is your trip going? hopefully better than mine
 Agent 2: My trip is going pretty so so too  im sorry to hear that about yours!! sounds like we both are gonna need some extra stuff? I was wondering if we could start with the water? any chance i could have it all and you can have all of something else? thoughts? im open to discussion
 Agent 1: I am actually very much in need of water. I fell while I was hiking during this trip. I have a really bad wound I need to clean on my leg.
@@ -7148,7 +7148,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[2]}, agent2:{food:[2], water:[1], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[2]}, agent2:{food:[2], water:[1], firewood:[1]}}",0.0,1.0,2.0,2.0,2.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,20.0,17.0,16.0,16.0,22.0,0,0,0,0
 439,scm,llama70b,False,"Agent 1: Hello! Do you have any sort of preference regarding the 3 camping items?
 Agent 2: Hello there! It's nice to meet you. Truthfully, I need to get some food and some firewood. What do you need?
 Agent 1: The main thing I like to do when camping is a lot of hiking (pretty much all day), so I was hoping to get as much food as possible so I can remain active.
@@ -7282,7 +7282,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[2], firewood:[2]}, agent2:{food:[1], water:[1], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[2], firewood:[2]}, agent2:{food:[1], water:[1], firewood:[1]}}",3.0,2.0,3.0,2.0,0.0,2.0,0.0,1.0,0.0,1.0,3.0,1.0,24.0,12.0,21.0,9.0,15.0,0,0,0,0
 443,scm,llama70b,False,"Agent 1: food is necessary for all living beings.
 Agent 2: I am traveling with a big group so we need more water.
 Agent 1: lots of water only for when u have thirsty
@@ -7382,7 +7382,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[0], water:[1], firewood:[2]}, agent2:{food:[3], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[0], water:[1], firewood:[2]}, agent2:{food:[3], water:[2], firewood:[1]}}",2.0,0.0,0.0,1.0,3.0,2.0,1.0,3.0,3.0,2.0,0.0,1.0,13.0,25.0,18.0,25.0,19.0,0,0,0,0
 446,scm,llama70b,False,"Agent 1: Hey how's it going
 Agent 2: Good, looking forward to my camping trip.
 Agent 1: Nice, I am too. I'm actually looking to gather up some extra supplies, what about you?
@@ -7516,7 +7516,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",1.0,1.0,2.0,2.0,1.0,1.0,2.0,2.0,1.0,1.0,2.0,2.0,17.0,20.0,17.0,0.0,20.0,0,0,0,0
 450,scm,llama70b,False,"Agent 1: Hi  - nice to meet you!  I hope we can work out a deal that is good for both of us.
 Agent 2: Hi, 🙂 It's nice to meet you as well: I also hope we can work something out: Food is my excess trip priority, What is yours?
 Agent 1: Mine is firewood with second being food.
@@ -7652,7 +7652,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[0]}, agent2:{food:[2], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[0]}, agent2:{food:[2], water:[1], firewood:[2]}}",2.0,1.0,2.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,2.0,2.0,14.0,19.0,21.0,49.0,16.0,0,0,0,0
 454,scm,llama70b,False,"Agent 1: Hi! I'm very excited for the upcoming camping trip!! 🙂
 Agent 2: Me too! 🙂 What do you think about the extra supplies?
 Agent 1: I recently bought two new puppies, and they are coming on the trip. I could really use the extra water for them!
@@ -7716,7 +7716,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[2]}, agent2:{food:[2], water:[1], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[2]}, agent2:{food:[2], water:[1], firewood:[1]}}",0.0,1.0,1.0,2.0,2.0,2.0,3.0,2.0,2.0,1.0,1.0,1.0,21.0,15.0,14.0,49.0,22.0,0,0,0,0
 456,scm,llama70b,False,"Agent 1: Hello! We're going camping and need some additional supplies. The primary need right now is firewood! We can spare water, but some additional food for the six kids is needed!
 Agent 2: Wow. You took six kids on this trip? I would say you will definitely need food!
 Agent 1: Yup! But we did think ahead and ordered extra rations for them. Food is second priority, so maybe we could have 2 of those? You could have all of the water rations.
@@ -7848,7 +7848,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",1.0,1.0,2.0,2.0,1.0,1.0,2.0,2.0,1.0,1.0,2.0,2.0,17.0,19.0,17.0,0.0,19.0,0,0,0,0
 460,scm,llama70b,False,"Agent 2: Hello, I think that I should get all of the water packages, 2 firewood and you can have all of the food.🙂
 Agent 1: Hi there, i appreciate your initial offer.
 Agent 2: What is your offer on the additional packages?
@@ -7880,7 +7880,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[1], firewood:[0]}, agent2:{food:[0], water:[2], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[1], firewood:[0]}, agent2:{food:[0], water:[2], firewood:[3]}}",3.0,3.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,2.0,3.0,3.0,19.0,22.0,19.0,0.0,22.0,0,0,0,0
 461,scm,llama70b,False,"Agent 2: hi! i would love to take my kids camping to teach them about the outdoors, to do this how about i take all of the food and 2 of the waters, you can have the rest
 Agent 1: Hello there.  That deal most definitely will not work for me.
 Agent 2: OK, If i take all 3 of the foods and 1 of the waters you can have the remaining packages
@@ -7944,7 +7944,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[2]}, agent2:{food:[1], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[2]}, agent2:{food:[1], water:[2], firewood:[1]}}",3.0,2.0,0.0,1.0,1.0,2.0,0.0,1.0,3.0,2.0,2.0,1.0,21.0,16.0,19.0,4.0,18.0,0,0,0,0
 463,scm,llama70b,False,"Agent 1: Hi there. Hope you too are looking forward to this much needed camping trip. What are your needs in terms of extra packages?
 Agent 2: Since this is the first time for the family to be camping, having plenty of food for everyone is on the top of my list.
 Agent 1: I am fine with you having the 3 foods. Is it okay if I have 3 water units We are fasting and need lots of hydration.
@@ -7978,7 +7978,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[0], water:[2], firewood:[3]}, agent2:{food:[3], water:[1], firewood:[0]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[0], water:[2], firewood:[3]}, agent2:{food:[3], water:[1], firewood:[0]}}",0.0,0.0,3.0,2.0,1.0,3.0,3.0,3.0,0.0,1.0,2.0,0.0,22.0,18.0,19.0,9.0,23.0,0,0,0,0
 464,scm,llama70b,False,"Agent 2: Hello I'm interested in obtaining more of the water and food, but don't need any extra firewood🙂
 Agent 1: Well I am really in the same position as you are. Suppose I take 2 waters and only 1 food?
 Agent 2: I get really sweaty when I hike, so I really need to get at least 2 of the waters.
@@ -8078,7 +8078,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[0], water:[1], firewood:[3]}, agent2:{food:[3], water:[2], firewood:[0]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[0], water:[1], firewood:[3]}, agent2:{food:[3], water:[2], firewood:[0]}}",1.0,0.0,1.0,1.0,3.0,3.0,2.0,3.0,2.0,2.0,0.0,0.0,17.0,22.0,20.0,9.0,18.0,0,0,0,0
 467,scm,llama70b,False,"Agent 1: hello, I need plenty of food, I have lots of friends we are camping together.
 Agent 2: bro i need aslo food, it is  my first priority
 Agent 1: what is is your second item in your priority list?
@@ -8126,7 +8126,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[2], firewood:[1]}, agent2:{food:[1], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[2], firewood:[1]}, agent2:{food:[1], water:[1], firewood:[2]}}",1.0,2.0,1.0,2.0,2.0,1.0,2.0,1.0,2.0,1.0,1.0,2.0,20.0,16.0,16.0,16.0,20.0,0,0,0,0
 468,scm,llama70b,False,"Agent 1: Hi, I would like to get 3 firewood, 2 waters and 1 food pack.
 Agent 2: Hello, I am in need of more water than just one,could you possibly allow me to have two and the other items are fine
 Agent 1: I have a bunch of kids and need extra water. I can give you 2 food packs instead.
@@ -8192,7 +8192,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[3], firewood:[0]}, agent2:{food:[2], water:[0], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[3], firewood:[0]}, agent2:{food:[2], water:[0], firewood:[3]}}",1.0,1.0,3.0,3.0,2.0,0.0,2.0,2.0,0.0,0.0,1.0,3.0,17.0,22.0,23.0,36.0,14.0,0,0,0,0
 470,scm,llama70b,False,"Agent 2: Hello, what do you need the most for your camping trip?
 Agent 1: ideally some firewood, it got soaked due to me being caught in the rain. what do you need the most?
 Agent 2: I also need more firewood.  I thought I would be able to find enough around the campsite but I guess that rain got us both 😮
@@ -8224,7 +8224,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[0], firewood:[2]}, agent2:{food:[0], water:[3], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[0], firewood:[2]}, agent2:{food:[0], water:[3], firewood:[1]}}",2.0,3.0,0.0,0.0,2.0,2.0,1.0,0.0,3.0,3.0,1.0,1.0,22.0,17.0,18.0,16.0,20.0,0,0,0,0
 471,scm,llama70b,False,"Agent 2: Hello, I was wondering if you might want to split up the extra supplies with me. I was hoping for some food as I would have trouble gathering it up.
 Agent 1: Hello! I don't mind giving you more of the food as long as I could have more of the water and firewood. 🙂
 Agent 2: Well, I do need some of each, what about I take 3 food and 1 each of the other two?
@@ -8290,7 +8290,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",3.0,2.0,0.0,1.0,1.0,1.0,0.0,1.0,3.0,2.0,2.0,2.0,17.0,21.0,19.0,4.0,23.0,0,0,0,0
 473,scm,llama70b,False,"Agent 2: Hello, can we make a deal?
 Agent 1: Of course! Are you going camping too?
 Agent 2: Yes.  I have 2 children so I was thinking that I will need extra water. 🙂
@@ -8388,7 +8388,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[0], firewood:[2]}, agent2:{food:[0], water:[3], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[0], firewood:[2]}, agent2:{food:[0], water:[3], firewood:[1]}}",2.0,3.0,1.0,0.0,2.0,2.0,1.0,0.0,2.0,3.0,1.0,1.0,19.0,19.0,20.0,1.0,17.0,0,0,0,0
 476,scm,llama70b,False,"Agent 1: Hi there! Ready to go camping?
 Agent 2: Yes I am
 Agent 1: Great! I'll be going to the Catskills, in NY. Where are you planning on going?
@@ -8492,7 +8492,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[0], water:[2], firewood:[2]}, agent2:{food:[3], water:[1], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[0], water:[2], firewood:[2]}, agent2:{food:[3], water:[1], firewood:[1]}}",0.0,0.0,2.0,2.0,2.0,2.0,3.0,3.0,1.0,1.0,1.0,1.0,18.0,20.0,18.0,0.0,20.0,0,0,0,0
 479,scm,llama70b,False,"Agent 1: hi  i was wondering if i could get 3 packages of firewood?
 Agent 2: Hey there, unfortunately, I'm in a bit of a quandary with firewood too, as I am going to a place where it's fairly cold and will need more for heat.
 Agent 1: thats terrible! i broke my leg and wont be able to collect my own firewood , could i maybe get 2 packages? ☹️
@@ -8594,7 +8594,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[0]}, agent2:{food:[1], water:[2], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[0]}, agent2:{food:[1], water:[2], firewood:[3]}}",2.0,2.0,1.0,1.0,2.0,0.0,1.0,1.0,2.0,2.0,1.0,3.0,14.0,23.0,20.0,36.0,17.0,0,0,0,0
 482,scm,llama70b,False,"Agent 2: Hi there. Have you ever been camping?
 Agent 1: I have, i love camping! How about you?
 Agent 2: I have not, but I don't really have an interest for it, either.
@@ -8626,7 +8626,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",3.0,2.0,1.0,1.0,0.0,1.0,0.0,1.0,2.0,2.0,3.0,2.0,17.0,20.0,19.0,4.0,19.0,0,0,0,0
 483,scm,llama70b,False,"Agent 1: Hi! How about I receive 3 food, 2 firewood, and 1 water?
 Agent 2: I can't do that. It would leave me with no food at all. How about I take 2 food, and 1 firewood, and 1 water?
 Agent 1: I really need more food than 1. I am worried about running out. I could take 2 food, and give you 1 food, 2 firewood, and 2 water.
@@ -8692,7 +8692,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[2]}, agent2:{food:[2], water:[1], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[2]}, agent2:{food:[2], water:[1], firewood:[1]}}",1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,1.0,1.0,19.0,17.0,19.0,0.0,17.0,0,0,0,0
 485,scm,llama70b,False,"Agent 2: Hey there - looks like we are both going camping!  I'm from the South so firewood and water are a high priority for me.
 Agent 1: Wow, thats awesome! Yes, I am! Well, that's great because water isn't super important for me. Firewood is though.
 Agent 2: That sounds awesome - I'm sure we can come to an agreement on how to allocate that works for both of us.
@@ -8788,7 +8788,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[2], firewood:[1]}, agent2:{food:[0], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[2], firewood:[1]}, agent2:{food:[0], water:[1], firewood:[2]}}",3.0,3.0,0.0,2.0,1.0,1.0,0.0,0.0,3.0,1.0,2.0,2.0,26.0,13.0,18.0,64.0,23.0,0,0,0,0
 488,scm,llama70b,False,"Agent 2: Good morning
 Agent 1: Hi, how goes it?
 Agent 2: It's going alright. What do you need the most to trade?
@@ -8822,7 +8822,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[2], firewood:[0]}, agent2:{food:[1], water:[1], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[2], firewood:[0]}, agent2:{food:[1], water:[1], firewood:[3]}}",1.0,2.0,2.0,2.0,0.0,0.0,2.0,1.0,1.0,1.0,3.0,3.0,18.0,18.0,14.0,16.0,22.0,0,0,0,0
 489,scm,llama70b,False,"Agent 1: Hello 🙂
 Agent 2: Hello!
 Agent 1: Which item do you need the most?
@@ -9066,7 +9066,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[3], firewood:[0]}, agent2:{food:[0], water:[0], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[3], firewood:[0]}, agent2:{food:[0], water:[0], firewood:[3]}}",1.0,3.0,3.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,3.0,3.0,24.0,15.0,18.0,36.0,21.0,0,0,0,0
 496,scm,llama70b,False,"Agent 2: Hi there.  I'm hoping we can make a deal about me getting firewood.  I get really cold at night and I'd love to have my fire still going in the morning for coffee - I'd gladly share some if you pop by my campsite.
 Agent 1: I am in dire need of firewood myself. I was planning on bringing food that needed to be cooked over flame. 😮
 Agent 2: Well maybe we can find a way to split it!  This isn't a problem we can't solve.  Are you in need of food too, then?
@@ -9132,7 +9132,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[0], water:[2], firewood:[1]}, agent2:{food:[3], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[0], water:[2], firewood:[1]}, agent2:{food:[3], water:[1], firewood:[2]}}",0.0,0.0,2.0,2.0,2.0,1.0,3.0,3.0,1.0,1.0,1.0,2.0,14.0,23.0,18.0,16.0,20.0,0,0,0,0
 498,scm,llama70b,False,"Agent 2: Hey how's it going?
 Agent 1: Not bad, yourself?
 Agent 2: Pretty good. The kids are looking forward to this weekend's camping trip.
@@ -9170,7 +9170,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[1], firewood:[2]}, agent2:{food:[0], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[1], firewood:[2]}, agent2:{food:[0], water:[2], firewood:[1]}}",2.0,3.0,1.0,1.0,2.0,2.0,1.0,0.0,2.0,2.0,1.0,1.0,22.0,14.0,19.0,9.0,17.0,0,0,0,0
 499,scm,llama70b,False,"Agent 1: Hello 🙂What would you like to do with this deal?
 Agent 2: My friend ended up having a medical emergency and couldn't go to the store when I asked her to get food. Because of that, I would like 3 food packages. I had to go help her with the medical forms and didn't have time to shop
 Agent 1: Yes I can give you the three food but I need 2 water. I can become very thirsty.
@@ -9202,7 +9202,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[0], water:[2], firewood:[2]}, agent2:{food:[3], water:[1], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[0], water:[2], firewood:[2]}, agent2:{food:[3], water:[1], firewood:[1]}}",0.0,0.0,2.0,2.0,2.0,2.0,3.0,3.0,1.0,1.0,1.0,1.0,18.0,22.0,18.0,0.0,22.0,0,0,0,0
 500,scm,llama70b,False,"Agent 1: It's been so cold these last few days, I'm worried that I didn't bring enough wood for the next few nights.
 Agent 2: That is unfortunate. How about I give you are my firewood for all your food?
 Agent 1: That is a very generous offer but I think I need to keep some food to be safe. Do you need any water?
@@ -9268,7 +9268,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[2]}, agent2:{food:[1], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[2]}, agent2:{food:[1], water:[2], firewood:[1]}}",3.0,2.0,0.0,1.0,1.0,2.0,0.0,1.0,3.0,2.0,2.0,1.0,21.0,15.0,19.0,4.0,17.0,0,0,0,0
 502,scm,llama70b,False,"Agent 1: Hi there, how are you doing today?
 Agent 2: I am doing well, thanks!
 Agent 1: That's good to hear. I am going camping this weekend and need some extra supplies. What about you?
@@ -9336,7 +9336,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[0], water:[3], firewood:[2]}, agent2:{food:[3], water:[0], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[0], water:[3], firewood:[2]}, agent2:{food:[3], water:[0], firewood:[1]}}",0.0,0.0,3.0,3.0,2.0,2.0,3.0,3.0,0.0,0.0,1.0,1.0,23.0,19.0,23.0,0.0,19.0,0,0,0,0
 504,scm,llama70b,False,"Agent 2: hi
 Agent 1: hi there! ready to go hiking? Where will you be going, I'll be going to NY, the Catskills mountains.
 Agent 2: yes im ready rocky mountains
@@ -9368,7 +9368,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[2]}, agent2:{food:[1], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[2]}, agent2:{food:[1], water:[2], firewood:[1]}}",1.0,2.0,2.0,1.0,3.0,2.0,2.0,1.0,1.0,2.0,0.0,1.0,21.0,15.0,23.0,4.0,13.0,0,0,0,0
 505,scm,llama70b,False,"Agent 1: hello
 Agent 2: Hey there. How are you?
 Agent 1: not soo good, i am hungry
@@ -9400,7 +9400,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[0]}, agent2:{food:[1], water:[2], firewood:[0]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[0]}, agent2:{food:[1], water:[2], firewood:[0]}}",2.0,2.0,0.0,1.0,2.0,0.0,1.0,1.0,3.0,2.0,1.0,0.0,14.0,14.0,16.0,4.0,22.0,0,0,0,0
 506,scm,llama70b,False,"Agent 2: Hello, How are you? My children love to eat and have fires daily. I hope this deal works for you.🙂
 Agent 1: Hello, I'm fine. I understand your need. I have health issue I can't stand without food and water.I hope you will understand my situation.
 Agent 2: I completely understand where you are coming from. How much food do you need?
@@ -9470,7 +9470,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[1], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[1], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",3.0,1.0,1.0,1.0,1.0,2.0,0.0,2.0,2.0,2.0,2.0,1.0,17.0,19.0,20.0,9.0,18.0,0,0,0,0
 508,scm,llama70b,False,"Agent 1: I would really like some extra firewood to keep the chill off on those cold  nights.🙂
 Agent 2: Me too. It has been rather cold lately! But I am also really interested in water.
 Agent 1: I don't need the water as much.  How about I get 2 firewood and you get 2 water?
@@ -9568,7 +9568,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[0], firewood:[2]}, agent2:{food:[1], water:[3], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[0], firewood:[2]}, agent2:{food:[1], water:[3], firewood:[1]}}",3.0,2.0,0.0,0.0,2.0,2.0,0.0,1.0,3.0,3.0,1.0,1.0,18.0,22.0,23.0,25.0,19.0,0,0,0,0
 511,scm,llama70b,False,"Agent 1: I'm thinking I'l get 2 firewood, and 2 water and 1 food. I'm not sure what you need, but we can figure it out.
 Agent 2: my highest priority is water, i need it to stay hydrated from the camping beers
 Agent 1: Who doesn't? I need more wood. I'm skinny. I get cold easily. Beer hidrates dude 🙂
@@ -9666,7 +9666,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[1], firewood:[1]}, agent2:{food:[0], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[1], firewood:[1]}, agent2:{food:[0], water:[2], firewood:[2]}}",2.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,2.0,2.0,2.0,2.0,22.0,14.0,17.0,25.0,19.0,0,0,0,0
 514,scm,llama70b,False,"Agent 2: hi there🙂
 Agent 1: Hello. How are you today? 🙂
 Agent 2: Pretty good!  I am looking forward to going on this camping trip with my family.
@@ -9698,7 +9698,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",2.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0,17.0,19.0,17.0,0.0,19.0,0,0,0,0
 515,scm,llama70b,False,"Agent 2: Hello
 Agent 1: hello, so what is your most important thing that you want?
 Agent 2: my priority is firewood. What's yours?
@@ -9828,7 +9828,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[2], firewood:[0]}, agent2:{food:[1], water:[1], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[2], firewood:[0]}, agent2:{food:[1], water:[1], firewood:[3]}}",2.0,2.0,2.0,2.0,1.0,0.0,1.0,1.0,1.0,1.0,2.0,3.0,18.0,22.0,21.0,9.0,17.0,0,0,0,0
 519,scm,llama70b,False,"Agent 2: Hello
 Agent 1: Hi can I ask what camping supplies you most need?
 Agent 2: I would like the 3 food packages because my sister forgot to pack any food items for the trip. You can have all the water and firewood.
@@ -9930,7 +9930,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[1], firewood:[3]}, agent2:{food:[2], water:[2], firewood:[0]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[1], firewood:[3]}, agent2:{food:[2], water:[2], firewood:[0]}}",2.0,1.0,2.0,1.0,3.0,3.0,1.0,2.0,1.0,2.0,0.0,0.0,22.0,18.0,29.0,49.0,9.0,0,0,0,0
 522,scm,llama70b,False,"Agent 2: We wantto do a lot of hiking on our trip and therefore I need extra water to make sure we stay hydrated.
 Agent 1: hi! thats awesome i am going camping too, but not a lot of hiking. I am bringing 2 teenage boys so food will be very important for us
 Agent 2: I definitely understand that, kids can eat a lot. I  can spare 2 extra food for all the water.
@@ -10028,7 +10028,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[0]}, agent2:{food:[2], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[0]}, agent2:{food:[2], water:[1], firewood:[2]}}",2.0,1.0,3.0,2.0,0.0,0.0,1.0,2.0,0.0,1.0,3.0,2.0,14.0,21.0,23.0,81.0,19.0,0,0,0,0
 525,scm,llama70b,False,"Agent 2: hi there, i'm hoping we can come to an agreement on these extra items 🙂
 Agent 1: Hello, I would really like more food for my trip. If I can have all the food, and firewood, you can have all the water
 Agent 2: Oh, that won't really work for me.  I was hoping to get extra food and water for this trip since I need water to take medication and would love the food to plan a special meal.  I'd like say, 2 food, 3 water and 1 firewood
@@ -10268,7 +10268,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[2], firewood:[1]}, agent2:{food:[1], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[2], firewood:[1]}, agent2:{food:[1], water:[1], firewood:[2]}}",3.0,2.0,2.0,2.0,0.0,1.0,0.0,1.0,1.0,1.0,3.0,2.0,20.0,17.0,21.0,1.0,18.0,0,0,0,0
 532,scm,llama70b,False,"Agent 1: Hey, how are you doing today? are you excited to go camping?
 Agent 2: I am good. How about you?  Yes, I love camping!
 Agent 1: I am doing great! camping is super enjoyable
@@ -10334,7 +10334,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",3.0,2.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,2.0,2.0,2.0,16.0,21.0,20.0,16.0,18.0,0,0,0,0
 534,scm,llama70b,False,"Agent 2: Hello! And happy camping! 🙂 To start off, I am thinking that I will need at least 3 firewood, 2 water and 1 food. Last time my axe broke and we ran out of wood! What do you think/need?
 Agent 1: I also was really needing some firewood. It's supposed to get pretty cold at night where we are camping and I need to make sure I can keep my kids warm.
 Agent 2: Hmm.. well let's see! What is your second priority? I would be willing to give up all of that, if I could get at least 2 firewood. You're right, it sure does get chilly ☹️
@@ -10596,7 +10596,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[0], water:[2], firewood:[1]}, agent2:{food:[3], water:[1], firewood:[0]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[0], water:[2], firewood:[1]}, agent2:{food:[3], water:[1], firewood:[0]}}",0.0,0.0,1.0,2.0,3.0,1.0,3.0,3.0,2.0,1.0,0.0,0.0,14.0,19.0,17.0,9.0,23.0,0,0,0,0
 542,scm,llama70b,False,"Agent 2: Hi! Which items are important to you?
 Agent 1: Food is the most important to me because I need to eat more often so that I can take my medications.
 Agent 2: Yeah, that is important. I do not have a problem letting you have more food than me.
@@ -10628,7 +10628,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[2], firewood:[1]}, agent2:{food:[1], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[2], firewood:[1]}, agent2:{food:[1], water:[1], firewood:[2]}}",2.0,2.0,1.0,2.0,1.0,1.0,1.0,1.0,2.0,1.0,2.0,2.0,21.0,17.0,17.0,16.0,21.0,0,0,0,0
 543,scm,llama70b,False,"Agent 2: Hello, I'd like to get all of the water, an extra firewood and 2 of the food
 Agent 1: Hi there.  That hardly leaves me with anything and doesn't really work for me.  I was hoping to make a campsite feast and get the extra food.  If we can do that, I'd be happy to give you all the water and that extra firewood.
 Agent 2: I am a big guy, so I will need some more food, how about you give me an extra food while you hold on to two
@@ -10900,7 +10900,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[3], firewood:[0]}, agent2:{food:[0], water:[0], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[3], firewood:[0]}, agent2:{food:[0], water:[0], firewood:[3]}}",2.0,3.0,2.0,3.0,0.0,0.0,1.0,0.0,1.0,0.0,3.0,3.0,27.0,12.0,18.0,81.0,20.0,0,0,0,0
 551,scm,llama70b,False,"Agent 2: Hi:  I  have invited friends from a nearby campsite for dinner and i heard it is going to be really cold tonight. I would prefer to have some extra fire wood for sure. lly cold tonight.
 Agent 1: Hi I am also going camping. Unfortunately I need as much firewood and water as possible too. I need to be able to cook our food and stay warm all night
 Agent 2: Can I ask how many people are camping with you? Are you planning on hiking the mountain?
@@ -11004,7 +11004,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[0], water:[3], firewood:[2]}, agent2:{food:[3], water:[0], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[0], water:[3], firewood:[2]}, agent2:{food:[3], water:[0], firewood:[1]}}",0.0,0.0,3.0,3.0,2.0,2.0,3.0,3.0,0.0,0.0,1.0,1.0,23.0,19.0,23.0,0.0,19.0,0,0,0,0
 554,scm,llama70b,False,"Agent 1: Hello.  I hope you are well.  I would like to have all of the water, 2 of the firewood and 1 of the food.
 Agent 2: Hello.  I'm actually not doing too well.  There have been a few problems and I will need some of the extra packages.  I'll need two of the waters, 2 of the firewood and 2 of the food.
 Agent 1: I'm sorry to hear that you are not doing well.  I've also have some issues.  On the way up to the camp site, all of my clean water spilled in the car.  I was really hoping to be able to get all of the available water.  Why aren't you well?  I hope it's not serious.  ☹️
@@ -11106,7 +11106,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[0], water:[2], firewood:[2]}, agent2:{food:[3], water:[1], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[0], water:[2], firewood:[2]}, agent2:{food:[3], water:[1], firewood:[1]}}",0.0,0.0,1.0,2.0,3.0,2.0,3.0,3.0,2.0,1.0,0.0,1.0,18.0,22.0,19.0,1.0,23.0,0,0,0,0
 557,scm,llama70b,False,"Agent 1: Hai friend.. my group going to a trip my team members are have some sick and i all have a kid so i need some more package. can you help me?
 Agent 2: More packages of what exactly? I ave IBD so I tend to drink more than I eat when camping. So I enjoy water.
 Agent 1: friend i need 3 pack of water and 2 pack of fire wood and 2 pack of food can you please help me. ii a kids to so i need this please.
@@ -11178,7 +11178,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[0]}, agent2:{food:[2], water:[1], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[0]}, agent2:{food:[2], water:[1], firewood:[3]}}",1.0,1.0,2.0,2.0,0.0,0.0,2.0,2.0,1.0,1.0,3.0,3.0,13.0,26.0,13.0,0.0,26.0,0,0,0,0
 559,scm,llama70b,False,"Agent 1: Hi 🙂 I'd like to have more water because the location that I'm going to is really dry. I'll need water to stay hydrated.
 Agent 2: Sure you can give me firewood in place of water
 Agent 1: Thank you 🙂 That works for me. I'm also in my first trimester so I'll need a bit of extra food since I'm feeding my little one. Is that alright with you?
@@ -11242,7 +11242,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[3], firewood:[2]}, agent2:{food:[2], water:[0], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[3], firewood:[2]}, agent2:{food:[2], water:[0], firewood:[1]}}",3.0,1.0,3.0,3.0,2.0,2.0,0.0,2.0,0.0,0.0,1.0,1.0,25.0,13.0,31.0,36.0,5.0,0,0,0,0
 561,scm,llama70b,False,"Agent 1: hello, lets share these items. I really need the firewood. I have asthma and I have to stay warm
 Agent 2: How much firewood do you need?
 Agent 1: i need two food items and one water
@@ -11370,7 +11370,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[0], firewood:[3]}, agent2:{food:[1], water:[3], firewood:[0]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[0], firewood:[3]}, agent2:{food:[1], water:[3], firewood:[0]}}",2.0,2.0,0.0,0.0,3.0,3.0,1.0,1.0,3.0,3.0,0.0,0.0,23.0,17.0,23.0,0.0,17.0,0,0,0,0
 565,scm,llama70b,False,"Agent 1: Hello there, how are you doing today?
 Agent 2: Doing well how are you?
 Agent 1: Great thank you. I am looking for primarily some firewood and food for my camping trip soon.
@@ -11436,7 +11436,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[2]}, agent2:{food:[1], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[2]}, agent2:{food:[1], water:[2], firewood:[1]}}",2.0,2.0,1.0,1.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,21.0,15.0,17.0,16.0,19.0,0,0,0,0
 567,scm,llama70b,False,"Agent 2: Hello, lets get things started. How would you like to split items?
 Agent 1: Hello! Hope your after noon is going well! I have 2 kids so I feel like the water is the most important for them. Need to keep they hydrated, ya know? 🙂
 Agent 2: I also need water with my medical condition I have to take lots of meds. I can give you extra firewood so you can boil more water easily.
@@ -11702,7 +11702,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",3.0,2.0,2.0,1.0,0.0,1.0,0.0,1.0,1.0,2.0,3.0,2.0,17.0,21.0,21.0,16.0,19.0,0,0,0,0
 575,scm,llama70b,False,"Agent 2: Hello!  I've been super thirsty and as a result I was wondering if I could get all 3 packages of water?
 Agent 1: I like to hike and will need additional water. Can I take one package and you can have the other two?
 Agent 2: That sounds good to me.  Do you have any kind of preference for firewood or food?
@@ -11766,7 +11766,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[0], water:[3], firewood:[1]}, agent2:{food:[3], water:[0], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[0], water:[3], firewood:[1]}, agent2:{food:[3], water:[0], firewood:[2]}}",0.0,0.0,3.0,3.0,1.0,1.0,3.0,3.0,0.0,0.0,2.0,2.0,18.0,21.0,18.0,0.0,21.0,0,0,0,0
 577,scm,llama70b,False,"Agent 1: Hello - I would love be able to split some supplies with you🙂. I could use some extra firewood so maybe i could take 3 and maybe you could have some extra food?
 Agent 2: Maybe I could take 2 firewood 2 food and 0 waters?
 Agent 1: I was planning on staying up all night and keeping my fire going all night.  Honestly I could give you all the extra food if that helps you if I could please have the 3 firewood?  We could split the waters
@@ -11998,7 +11998,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[2], firewood:[0]}, agent2:{food:[1], water:[1], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[2], firewood:[0]}, agent2:{food:[1], water:[1], firewood:[3]}}",2.0,2.0,2.0,2.0,0.0,0.0,1.0,1.0,1.0,1.0,3.0,3.0,16.0,22.0,16.0,0.0,22.0,0,0,0,0
 584,scm,llama70b,False,"Agent 2: Hello 🙂 What do you need most??
 Agent 1: I would say between firewood and food, eating and comfort is important to me
 Agent 2: I can understand that. I know I really need the food the most. I'm already worried I'm going to run out. I also have blood sugar problems, so I cannot run out ☹️
@@ -12162,7 +12162,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[1], firewood:[1]}, agent2:{food:[0], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[1], firewood:[1]}, agent2:{food:[0], water:[2], firewood:[2]}}",1.0,3.0,1.0,1.0,2.0,1.0,2.0,0.0,2.0,2.0,1.0,2.0,20.0,18.0,17.0,9.0,20.0,0,0,0,0
 589,scm,llama70b,False,"Agent 2: Hi there, how are you doing?
 Agent 1: I am great. Excited to go camping. How much food do you need?
 Agent 2: I could use some extra food, I'll be hosting a get-together at my campsite later and will need some to entertain the guests. I'd like 2.
@@ -12232,7 +12232,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[0], firewood:[2]}, agent2:{food:[1], water:[3], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[0], firewood:[2]}, agent2:{food:[1], water:[3], firewood:[1]}}",3.0,2.0,2.0,0.0,1.0,2.0,0.0,1.0,1.0,3.0,2.0,1.0,18.0,20.0,23.0,25.0,14.0,0,0,0,0
 591,scm,llama70b,False,"Agent 1: Hello!
 Agent 2: Hello there! How are you?
 Agent 1: I'm doing well! Just want to have some open communication on the packages for our camping trip! I'm very excited for it!
@@ -12264,7 +12264,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",2.0,2.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,2.0,2.0,2.0,17.0,21.0,20.0,9.0,17.0,0,0,0,0
 592,scm,llama70b,False,"Agent 1: I get to go camping this weekend. 🙂
 Agent 2: Awesome! I do too! 🙂 I'm excited but kind of nervous too!
 Agent 1: Don't be nervous. What can go wrong?
@@ -12298,7 +12298,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",3.0,2.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,2.0,2.0,2.0,16.0,21.0,20.0,16.0,18.0,0,0,0,0
 593,scm,llama70b,False,"Agent 2: Hi there! How are you?
 Agent 1: Hello good morning I'm well thank you.
 Agent 2: Let's talk about what we need. First, I don't eat meat, so I really feel like I'd need a little extra food, as I couldn't hunt or forage for food at all. I feel like I could survive without a ton of water, but would need water, as I hike a lot and cant trust any sources
@@ -12394,7 +12394,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[2], firewood:[1]}, agent2:{food:[1], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[2], firewood:[1]}, agent2:{food:[1], water:[1], firewood:[2]}}",2.0,2.0,3.0,2.0,0.0,1.0,1.0,1.0,0.0,1.0,3.0,2.0,21.0,16.0,22.0,1.0,17.0,0,0,0,0
 597,scm,llama70b,False,"Agent 1: Hello, are there any of the three items that you want to be sure you have enough of? 🙂
 Agent 2: I want to be sure that I have enough firewood.  I want to relax, sit around the campfire, and roast hot dogs and marshmallows.  What about you?
 Agent 1: That sounds great! I like all three items, but I definitely want to make sure I have enough water, especially to drink and stay hydrated and full of as much energy as possible. I require a lot of liquid as a 6-foot-4, 260-pound guy!
@@ -12426,7 +12426,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[0]}, agent2:{food:[2], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[0]}, agent2:{food:[2], water:[1], firewood:[2]}}",1.0,1.0,2.0,2.0,0.0,0.0,2.0,2.0,1.0,1.0,3.0,2.0,13.0,21.0,13.0,0.0,26.0,0,0,0,0
 598,scm,llama70b,False,"Agent 2: Hello
 Agent 1: Hello! I am excited for my upcoming camping trip. Mostly I will need water. How about you?
 Agent 2: I would need more firewood for my camping trip.
@@ -12458,7 +12458,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[1], firewood:[0]}, agent2:{food:[0], water:[2], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[1], firewood:[0]}, agent2:{food:[0], water:[2], firewood:[3]}}",3.0,3.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,2.0,3.0,3.0,19.0,23.0,19.0,0.0,23.0,0,0,0,0
 599,scm,llama70b,False,"Agent 1: Will you give me 2 packages of food and i give you 1 package of water?
 Agent 2: Hello! I can give you 2 packages of food of you give me 3 packages of water
 Agent 1: Let me give you 2 packages of water for 3 packages of food.
@@ -12494,7 +12494,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[0], firewood:[3]}, agent2:{food:[0], water:[3], firewood:[0]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[0], firewood:[3]}, agent2:{food:[0], water:[3], firewood:[0]}}",2.0,3.0,1.0,0.0,1.0,3.0,1.0,0.0,2.0,3.0,2.0,0.0,27.0,12.0,17.0,100.0,19.0,0,0,0,0
 600,scm,llama70b,False,"Agent 1: Hello, I'd like to bring three packages of firewood because I'll be making tons of BBQ for the camping trip.
 Agent 2: Can I get 3 packages of food?
 Agent 1: What do you need it for?
@@ -12590,7 +12590,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[0]}, agent2:{food:[2], water:[1], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[0]}, agent2:{food:[2], water:[1], firewood:[3]}}",2.0,1.0,1.0,2.0,2.0,0.0,1.0,2.0,2.0,1.0,1.0,3.0,14.0,22.0,19.0,25.0,17.0,0,0,0,0
 603,scm,llama70b,False,"Agent 2: hi are you getting ready for your camping trip too?
 Agent 1: I am! I am looking forward to it so much since I haven't been able to go on any vacation due to Covid. I'm going camping with my husband and kids. Where do you plan to be camping?
 Agent 2: we are going up to the mountain near the lake and it just me and my boyfriend glad to get out as well
@@ -12626,7 +12626,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[1], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[1], firewood:[2]}, agent2:{food:[2], water:[2], firewood:[1]}}",0.0,1.0,2.0,1.0,3.0,2.0,3.0,2.0,1.0,2.0,0.0,1.0,17.0,19.0,23.0,36.0,13.0,0,0,0,0
 604,scm,llama70b,False,"Agent 1: Hi
 Agent 2: Hi! 🙂
 Agent 1: So what are you thinking about how we should split this? i really want firewood, as i am anemic and have a hard time in the cold weather during the nights here
@@ -12694,7 +12694,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[3], water:[0], firewood:[0]}, agent2:{food:[1], water:[1], firewood:[3]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[3], water:[0], firewood:[0]}, agent2:{food:[1], water:[1], firewood:[3]}}",2.0,3.0,2.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,2.0,3.0,15.0,22.0,20.0,25.0,17.0,0,0,0,0
 607,scm,llama70b,False,"Agent 1: Hello I need a lot of water to survive
 Agent 2: I have a lot of water around me I can use. So I can give you a lot of extra.
 Agent 1: Ok nice I will give you 3 food if you give me 3 water
@@ -12758,7 +12758,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[2], water:[1], firewood:[1]}, agent2:{food:[1], water:[2], firewood:[2]}}",2.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0,17.0,19.0,17.0,0.0,19.0,0,0,0,0
 609,scm,llama70b,False,"Agent 1: I will need 2 firewood, 2 water and 1 food
 Agent 2: How about you take all the firewood because I have the skills necessary to chop down more. I also will need three packages of food because I will be climbing a very tall mountain.
 Agent 1: well i do need alot of firewood since i need it to start a fire
@@ -12824,7 +12824,7 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",2.0,1.0,2.0,2.0,0.0,1.0,1.0,2.0,1.0,1.0,3.0,2.0,17.0,19.0,18.0,1.0,20.0,0,0,0,0
 611,scm,llama70b,False,"Agent 2: hello
 Agent 1: Hello how are you, I was wondering if its okay with you, If i can get 3 waters, 2 firewoods, and 1 food? what are your thoughts?
 Agent 2: i cant afford to give you all 3 waters because i would need some for myself
@@ -12958,4 +12958,4 @@ OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{foo
 
 Remember: Each resource must sum to exactly 3 units across both agents.","assistant<|end_header_id|>
 
-OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",,,,,,,,,,,,,,,,,,0,0,0,0
+OUTCOME: {agent1:{food:[1], water:[2], firewood:[1]}, agent2:{food:[2], water:[1], firewood:[2]}}",1.0,1.0,2.0,2.0,1.0,1.0,2.0,2.0,1.0,1.0,2.0,2.0,17.0,20.0,17.0,0.0,20.0,0,0,0,0
