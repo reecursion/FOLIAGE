@@ -5,7 +5,7 @@ import re
 from sklearn.metrics import precision_score, recall_score, f1_score
 
 # Path to the directory containing the CSV files
-base_dir = "/home/gganeshl/FOLIAGE/src/icl/results/p4g/llama70b"
+base_dir = "/home/gganeshl/FOLIAGE/src/icl/results/p4g/llama70b/"
 
 # Function to calculate metrics for a single file
 def analyze_file(filepath):
@@ -47,38 +47,50 @@ def analyze_file(filepath):
 
 # Map file pattern to configuration type based on both directory and filename
 def map_file_to_config_type(filepath, filename):
-    # Extract the subdirectory information
-    if 'baseline' in filepath:
-        if 'none_no_intentions' in filename:
-            return '(i) Utterance'
-        elif 'none_with_intentions' in filename:
-            return '(ii) Utterance + Intentions'
-    elif 'globalscaffolding' in filepath:
-        if 'scd_no_intentions' in filename:
-            return '(iii) Utterance + SCD Summary'
-        elif 'scm_no_intentions' in filename:
-            return '(iv) Utterance + SCM Summary'
-    elif 'dualscaffolding' in filepath or 'localscaffolding' in filepath:
-        if 'scd_with_intentions' in filename:
-            return '(v) Utterance + Intentions + SCD'
-        elif 'scm_with_intentions' in filename:
-            return '(vi) Utterance + Intentions + SCM'
+    # Extract configuration based on filename and filepath patterns
+    config_type = 'Unknown'
     
-    # Fallback to just filename-based mapping if directory structure doesn't match expected
-    if 'none_no_intentions' in filename:
-        return '(i) Utterance'
-    elif 'none_with_intentions' in filename:
-        return '(ii) Utterance + Intentions'
-    elif 'scd_no_intentions' in filename:
-        return '(iii) Utterance + SCD Summary'
-    elif 'scm_no_intentions' in filename:
-        return '(iv) Utterance + SCM Summary'
-    elif 'scd_with_intentions' in filename:
-        return '(v) Utterance + Intentions + SCD'
-    elif 'scm_with_intentions' in filename:
-        return '(vi) Utterance + Intentions + SCM'
+    # Extract summary type
+    if 'none' in filename:
+        summary_prefix = '(i)'
+    elif 'scd' in filename:
+        summary_prefix = '(ii)'
+    elif 'scm' in filename:
+        summary_prefix = '(iii)'
+    elif 'traditional' in filename:
+        summary_prefix = '(iv)'
+    else:
+        summary_prefix = '(?)'
     
-    return 'Unknown'
+    # Extract intentions information
+    if 'with_intentions' in filename or '_true' in filename:
+        intentions_suffix = 'with Intentions'
+    else:
+        intentions_suffix = 'no Intentions'
+    
+    # Combine for full config label
+    if summary_prefix == '(i)':
+        if 'no Intentions' in intentions_suffix:
+            config_type = '(i) Utterance'
+        else:
+            config_type = '(ii) Utterance + Intentions'
+    elif summary_prefix == '(ii)':
+        if 'no Intentions' in intentions_suffix:
+            config_type = '(iii) Utterance + SCD'
+        else:
+            config_type = '(vi) Utterance + Intentions + SCD'
+    elif summary_prefix == '(iii)':
+        if 'no Intentions' in intentions_suffix:
+            config_type = '(iv) Utterance + SCM'
+        else:
+            config_type = '(vii) Utterance + Intentions + SCM'
+    elif summary_prefix == '(iv)':
+        if 'no Intentions' in intentions_suffix:
+            config_type = '(v) Utterance + Traditional'
+        else:
+            config_type = '(viii) Utterance + Intentions + Traditional'
+
+    return config_type
 
 # Extract ratio from filename
 def extract_ratio(filename):
@@ -119,10 +131,12 @@ def process_all_files():
         config_types = [
             '(i) Utterance',
             '(ii) Utterance + Intentions',
-            '(iii) Utterance + SCD Summary',
-            '(iv) Utterance + SCM Summary',
-            '(v) Utterance + Intentions + SCD',
-            '(vi) Utterance + Intentions + SCM'
+            '(iii) Utterance + SCD',
+            '(iv) Utterance + SCM',
+            '(v) Utterance + Traditional',
+            '(vi) Utterance + Intentions + SCD',
+            '(vii) Utterance + Intentions + SCM',
+            '(viii) Utterance + Intentions + Traditional'
         ]
         
         ratios = ['0.25', '0.375', '0.5', '0.625', '0.75']
@@ -135,7 +149,7 @@ def process_all_files():
                 table_data[metric_type][config_type] = {}
                 
                 for ratio in ratios:
-                    table_data[metric_type][config_type][ratio] = None
+                    table_data[metric_type][config_type][ratio] = 0
         
         # Fill in table data
         for result in results:
@@ -149,7 +163,12 @@ def process_all_files():
                 continue
             
             for metric in ['precision', 'recall', 'f1']:
-                table_data[metric][config_type][ratio] = result['metrics'][metric]
+                table_data[metric][config_type][ratio] += result['metrics'][metric]
+
+        for metric in table_data:
+            for config_type in table_data[metric]:
+                for ratio in table_data[metric][config_type]:
+                        table_data[metric][config_type][ratio] /= 3
         
         # Generate combined LaTeX table
         print("\n--- Combined Table for All Metrics ---")
