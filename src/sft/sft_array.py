@@ -693,11 +693,11 @@ def perform_kfold_cross_validation(args):
     # Create output directories
     os.makedirs(args.output_dir, exist_ok=True)
     if args.dataset_type == "cb":
-        results_dir = f"/home/gganeshl/FOLIAGE/src/sft/results/craigslistbargain/seed_{args.seed}"
+        results_dir = f"/home/gganeshl/FOLIAGE/src/sft/results/array/craigslistbargain/seed_{args.seed}"
     elif args.dataset_type == "p4g":
-        results_dir = f"/home/gganeshl/FOLIAGE/src/sft/results/persuasionforgood/seed_{args.seed}"
+        results_dir = f"/home/gganeshl/FOLIAGE/src/sft/results/array/persuasionforgood/seed_{args.seed}"
     elif args.dataset_type == "casino":
-        results_dir = f"/home/gganeshl/FOLIAGE/src/sft/results/casino/seed_{args.seed}"
+        results_dir = f"/home/gganeshl/FOLIAGE/src/sft/results/array/casino/seed_{args.seed}"
     os.makedirs(results_dir, exist_ok=True)
     
     # Extract ratio from filename
@@ -710,7 +710,7 @@ def perform_kfold_cross_validation(args):
         experiment_name += f"_{args.summary_type}"
     
     # Initialize predictions CSV
-    predictions_file = os.path.join(results_dir, f"{experiment_name}_predictions.csv")
+    predictions_file = os.path.join(results_dir, f"fold{args.fold}_{experiment_name}_predictions.csv")
     
     # Initialize empty DataFrame if file doesn't exist
     if not os.path.exists(predictions_file):
