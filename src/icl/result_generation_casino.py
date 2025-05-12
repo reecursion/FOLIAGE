@@ -5,19 +5,19 @@ import re
 from sklearn.metrics import mean_squared_error
 
 # Path to the directory containing the CSV files
-base_dir = "/home/rithviks/FOLIAGE/src/icl/results/casino"  
+base_dir = "/users/rithviksenthil/desktop/FOLIAGE/src/icl/results/casino"  
 
-preferences_csv_path = "/home/rithviks/FOLIAGE/datasets/casino/final/ratio_0.5.csv"
+preferences_csv_path = "/users/rithviksenthil/desktop/FOLIAGE/datasets/casino/final/ratio_0.5.csv"
 
 # Command line argument parsing
 import argparse
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description='Process casino dataset metrics.')
-    parser.add_argument('--results_dir', type=str, default="/home/rithviks/FOLIAGE/src/icl/results/casino",
+    parser.add_argument('--results_dir', type=str, default="/users/rithviksenthil/desktop/FOLIAGE/src/icl/results/casino",
                         help='Directory containing result CSV files')
     parser.add_argument('--preferences_file', type=str, 
-                        default="/home/rithviks/FOLIAGE/datasets/casino/final/ratio_0.5.csv",
+                        default="/users/rithviksenthil/desktop/FOLIAGE/datasets/casino/final/ratio_0.5.csv",
                         help='CSV file with agent preferences')
     parser.add_argument('--output_file', type=str, default=None,
                         help='Output file path for LaTeX table (default: {results_dir}/casino_metrics_table.tex)')
@@ -384,7 +384,7 @@ def process_all_files():
                     metrics_tables[metric_type][config_type][ratio] = {}
                     
                     for model_type in model_types:
-                        metrics_tables[metric_type][config_type][ratio][model_type] = None
+                        metrics_tables[metric_type][config_type][ratio][model_type] = 0
         
         # Fill in table data
         for result in results:
@@ -412,7 +412,13 @@ def process_all_files():
                 if ratio not in metrics_tables[metric][config_type]:
                     metrics_tables[metric][config_type][ratio] = {}
                 
-                metrics_tables[metric][config_type][ratio][model_type] = result['metrics'][metric]
+                metrics_tables[metric][config_type][ratio][model_type] += result['metrics'][metric]
+            
+        for metric in metrics_tables:
+            for config_type in metrics_tables[metric]:
+                for ratio in metrics_tables[metric][config_type]:
+                    for model_type in metrics_tables[metric][config_type][ratio]:
+                        metrics_tables[metric][config_type][ratio][model_type] /= 3
         
         # Generate LaTeX table by ratio
         latex_table = generate_latex_table_by_ratio(metrics_tables, model_types, config_types, ratios)
