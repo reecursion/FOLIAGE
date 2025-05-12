@@ -111,10 +111,7 @@ def map_file_to_config_type(filepath, filename):
             config_type = '(v) Utterance + Traditional'
         else:
             config_type = '(viii) Utterance + Intentions + Traditional'
-    
-    if config_type =='Unknown':
-        print("HOLA")
-        print(filename)
+
     return config_type
 
 # Extract ratio from filename
@@ -174,7 +171,7 @@ def process_all_files():
                 table_data[metric_type][config_type] = {}
                 
                 for ratio in ratios:
-                    table_data[metric_type][config_type][ratio] = None
+                    table_data[metric_type][config_type][ratio] = 0
         
         # Fill in table data
         for result in results:
@@ -189,7 +186,12 @@ def process_all_files():
                 continue
             
             for metric in ['successRMSE', 'successPearson', 'rawPriceNMSE']:
-                table_data[metric][config_type][ratio] = result['metrics'][metric]
+                table_data[metric][config_type][ratio] += result['metrics'][metric]
+
+        for metric in table_data:
+            for config_type in table_data[metric]:
+                for ratio in table_data[metric][config_type]:
+                        table_data[metric][config_type][ratio] /= 3
 
  
         
