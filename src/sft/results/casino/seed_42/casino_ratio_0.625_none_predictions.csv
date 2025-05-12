@@ -44,7 +44,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:2, water:1, firewood:2}, agent2:{food:1, water:2, firewood:1}}<|eot_id|>",1,0,3,2,3,0,2,1,2,1,2,1,19,18,21,16,4
+OUTCOME: {agent1:{food:3, water:1, firewood:1}, agent2:{food:0, water:2, firewood:2}}<|eot_id|>",1,0,3,2,3,0,3,1,1,0,2,2,19,18,20,18,1
 3,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -182,7 +182,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:1, water:2, firewood:3}, agent2:{food:2, water:1, firewood:0}}<|eot_id|>",1,1,2,2,2,1,1,2,3,2,1,0,17,20,25,13,64
+OUTCOME: {agent1:{food:1, water:1, firewood:2}, agent2:{food:2, water:2, firewood:1}}<|eot_id|>",1,1,2,2,2,1,1,1,2,2,2,1,17,20,17,20,0
 15,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -228,7 +228,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:1, water:1, firewood:2}, agent2:{food:2, water:2, firewood:1}}<|eot_id|>",1,2,2,2,1,1,1,1,2,2,2,1,19,17,16,21,9
+OUTCOME: {agent1:{food:1, water:2, firewood:1}, agent2:{food:2, water:1, firewood:2}}<|eot_id|>",1,2,2,2,1,1,1,2,1,2,1,2,19,17,15,20,16
 18,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -274,7 +274,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:3, water:1, firewood:0}, agent2:{food:0, water:2, firewood:3}}<|eot_id|>",2,2,1,1,1,2,3,1,0,0,2,3,21,17,19,23,4
+OUTCOME: {agent1:{food:3, water:1, firewood:1}, agent2:{food:0, water:2, firewood:2}}<|eot_id|>",2,2,1,1,1,2,3,1,1,0,2,2,21,17,22,18,1
 23,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -320,7 +320,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:1, water:2, firewood:1}, agent2:{food:2, water:1, firewood:2}}<|eot_id|>",2,1,1,1,2,2,1,2,1,2,1,2,17,20,16,21,1
+OUTCOME: {agent1:{food:2, water:2, firewood:1}, agent2:{food:1, water:1, firewood:2}}<|eot_id|>",2,1,1,1,2,2,2,2,1,1,1,2,17,20,21,17,16
 26,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -366,7 +366,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:2, water:1, firewood:2}, agent2:{food:1, water:2, firewood:1}}<|eot_id|>",1,2,0,2,1,3,2,1,2,1,2,1,14,23,19,17,25
+OUTCOME: {agent1:{food:3, water:1, firewood:0}, agent2:{food:0, water:2, firewood:3}}<|eot_id|>",1,2,0,2,1,3,3,1,0,0,2,3,14,23,17,22,9
 31,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -550,7 +550,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:1, water:2, firewood:1}, agent2:{food:2, water:1, firewood:2}}<|eot_id|>",0,3,0,3,0,3,1,2,1,2,1,2,15,21,17,19,4
+OUTCOME: {agent1:{food:2, water:2, firewood:1}, agent2:{food:1, water:1, firewood:2}}<|eot_id|>",0,3,0,3,0,3,2,2,1,1,1,2,15,21,20,16,25
 45,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -596,7 +596,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:2, water:0, firewood:2}, agent2:{food:1, water:3, firewood:1}}<|eot_id|>",2,0,2,1,3,1,2,0,2,1,3,1,18,20,18,20,0
+OUTCOME: {agent1:{food:2, water:1, firewood:1}, agent2:{food:1, water:2, firewood:2}}<|eot_id|>",2,0,2,1,3,1,2,1,1,1,2,2,18,20,17,19,1
 48,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -688,7 +688,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:2, water:1, firewood:1}, agent2:{food:1, water:2, firewood:2}}<|eot_id|>",2,1,1,1,2,2,2,1,1,1,2,2,16,21,16,21,0
+OUTCOME: {agent1:{food:2, water:1, firewood:0}, agent2:{food:1, water:2, firewood:3}}<|eot_id|>",2,1,1,1,2,2,2,1,0,1,2,3,16,21,13,25,9
 58,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -826,7 +826,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:2, water:1, firewood:1}, agent2:{food:1, water:2, firewood:2}}<|eot_id|>",2,1,1,1,2,2,2,1,1,1,2,2,17,19,17,19,0
+OUTCOME: {agent1:{food:1, water:1, firewood:2}, agent2:{food:2, water:2, firewood:1}}<|eot_id|>",2,1,1,1,2,2,1,1,2,2,2,1,17,19,15,21,4
 75,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -964,7 +964,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:2, water:3, firewood:0}, agent2:{food:1, water:0, firewood:3}}<|eot_id|>",2,2,0,1,1,3,2,3,0,1,0,3,18,20,22,17,16
+OUTCOME: {agent1:{food:2, water:2, firewood:1}, agent2:{food:1, water:1, firewood:2}}<|eot_id|>",2,2,0,1,1,3,2,2,1,1,1,2,18,20,21,16,9
 80,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -1056,7 +1056,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:2, water:1, firewood:2}, agent2:{food:1, water:2, firewood:1}}<|eot_id|>",0,2,1,3,1,2,2,1,2,1,2,1,14,23,19,17,25
+OUTCOME: {agent1:{food:0, water:2, firewood:1}, agent2:{food:3, water:1, firewood:2}}<|eot_id|>",0,2,1,3,1,2,0,2,1,3,1,2,14,23,14,23,0
 85,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -1148,7 +1148,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:1, water:3, firewood:0}, agent2:{food:2, water:0, firewood:3}}<|eot_id|>",1,2,2,2,1,1,1,3,0,2,0,3,19,17,17,22,4
+OUTCOME: {agent1:{food:1, water:2, firewood:1}, agent2:{food:2, water:1, firewood:2}}<|eot_id|>",1,2,2,2,1,1,1,2,1,2,1,2,19,17,16,21,9
 93,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -1240,7 +1240,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:2, water:3, firewood:0}, agent2:{food:1, water:0, firewood:3}}<|eot_id|>",0,3,1,3,0,2,2,3,0,1,0,3,18,18,23,13,25
+OUTCOME: {agent1:{food:1, water:2, firewood:1}, agent2:{food:2, water:1, firewood:2}}<|eot_id|>",0,3,1,3,0,2,1,2,1,2,1,2,18,18,17,19,1
 97,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -1332,7 +1332,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:1, water:3, firewood:0}, agent2:{food:2, water:0, firewood:3}}<|eot_id|>",1,3,1,2,0,2,1,3,0,2,0,3,20,18,17,22,9
+OUTCOME: {agent1:{food:2, water:3, firewood:0}, agent2:{food:1, water:0, firewood:3}}<|eot_id|>",1,3,1,2,0,2,2,3,0,1,0,3,20,18,22,17,4
 111,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -1378,7 +1378,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:1, water:3, firewood:0}, agent2:{food:2, water:0, firewood:3}}<|eot_id|>",1,3,0,2,0,3,1,3,0,2,0,3,13,23,13,23,0
+OUTCOME: {agent1:{food:1, water:2, firewood:0}, agent2:{food:2, water:1, firewood:3}}<|eot_id|>",1,3,0,2,0,3,1,2,0,2,1,3,13,23,10,26,9
 113,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -1470,7 +1470,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:1, water:1, firewood:3}, agent2:{food:2, water:2, firewood:0}}<|eot_id|>",0,1,3,3,2,0,1,1,3,2,2,0,18,23,22,18,16
+OUTCOME: {agent1:{food:0, water:1, firewood:3}, agent2:{food:3, water:2, firewood:0}}<|eot_id|>",0,1,3,3,2,0,0,1,3,3,2,0,18,23,18,23,0
 117,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -1516,7 +1516,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:0, water:2, firewood:2}, agent2:{food:3, water:1, firewood:1}}<|eot_id|>",2,3,0,1,0,3,0,2,2,3,1,1,21,19,18,20,9
+OUTCOME: {agent1:{food:0, water:2, firewood:1}, agent2:{food:3, water:1, firewood:2}}<|eot_id|>",2,3,0,1,0,3,0,2,1,3,1,2,21,19,14,25,49
 119,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -1608,7 +1608,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:0, water:3, firewood:1}, agent2:{food:3, water:0, firewood:2}}<|eot_id|>",1,3,1,2,0,2,0,3,1,3,0,2,22,18,19,22,9
+OUTCOME: {agent1:{food:0, water:3, firewood:2}, agent2:{food:3, water:0, firewood:1}}<|eot_id|>",1,3,1,2,0,2,0,3,2,3,0,1,22,18,23,17,1
 143,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -1700,7 +1700,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:2, water:2, firewood:0}, agent2:{food:1, water:1, firewood:3}}<|eot_id|>",3,1,0,0,2,3,2,2,0,1,1,3,17,23,18,22,1
+OUTCOME: {agent1:{food:1, water:2, firewood:0}, agent2:{food:2, water:1, firewood:3}}<|eot_id|>",3,1,0,0,2,3,1,2,0,2,1,3,17,23,14,25,9
 152,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -1746,7 +1746,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:1, water:1, firewood:2}, agent2:{food:2, water:2, firewood:1}}<|eot_id|>",0,2,3,3,1,0,1,1,2,2,2,1,21,19,17,21,16
+OUTCOME: {agent1:{food:0, water:1, firewood:2}, agent2:{food:3, water:2, firewood:1}}<|eot_id|>",0,2,3,3,1,0,0,1,2,3,2,1,21,19,13,26,64
 156,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -1792,7 +1792,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:1, water:1, firewood:1}, agent2:{food:2, water:2, firewood:2}}<|eot_id|>",1,1,0,2,2,3,1,1,1,2,2,2,7,29,12,24,25
+OUTCOME: {agent1:{food:1, water:2, firewood:0}, agent2:{food:2, water:1, firewood:3}}<|eot_id|>",1,1,0,2,2,3,1,2,0,2,1,3,7,29,10,26,9
 157,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -2160,7 +2160,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:1, water:2, firewood:3}, agent2:{food:2, water:1, firewood:0}}<|eot_id|>",0,2,3,3,1,0,1,2,3,2,1,0,21,15,25,11,16
+OUTCOME: {agent1:{food:2, water:1, firewood:3}, agent2:{food:1, water:2, firewood:0}}<|eot_id|>",0,2,3,3,1,0,2,1,3,1,2,0,21,15,26,10,25
 185,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -2344,7 +2344,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:1, water:0, firewood:3}, agent2:{food:2, water:3, firewood:0}}<|eot_id|>",0,0,3,3,3,0,1,0,3,2,3,0,15,27,18,23,9
+OUTCOME: {agent1:{food:1, water:1, firewood:3}, agent2:{food:2, water:2, firewood:0}}<|eot_id|>",0,0,3,3,3,0,1,1,3,2,2,0,15,27,22,18,49
 442,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -2390,7 +2390,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:1, water:1, firewood:1}, agent2:{food:2, water:2, firewood:2}}<|eot_id|>",3,3,0,0,0,3,1,1,1,2,2,2,21,15,12,24,81
+OUTCOME: {agent1:{food:2, water:1, firewood:1}, agent2:{food:1, water:2, firewood:2}}<|eot_id|>",3,3,0,0,0,3,2,1,1,1,2,2,21,15,15,21,36
 461,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -2482,7 +2482,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:2, water:1, firewood:2}, agent2:{food:1, water:2, firewood:1}}<|eot_id|>",1,1,2,2,2,1,2,1,2,1,2,1,17,19,20,15,9
+OUTCOME: {agent1:{food:1, water:1, firewood:2}, agent2:{food:2, water:2, firewood:1}}<|eot_id|>",1,1,2,2,2,1,1,1,2,2,2,1,17,19,17,19,0
 479,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -2712,7 +2712,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:1, water:1, firewood:2}, agent2:{food:2, water:2, firewood:1}}<|eot_id|>",1,2,3,2,1,0,1,1,2,2,2,1,23,13,16,20,49
+OUTCOME: {agent1:{food:1, water:2, firewood:2}, agent2:{food:2, water:1, firewood:1}}<|eot_id|>",1,2,3,2,1,0,1,2,2,2,1,1,23,13,19,17,16
 508,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -2758,7 +2758,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:1, water:1, firewood:2}, agent2:{food:2, water:2, firewood:1}}<|eot_id|>",1,0,3,2,3,0,1,1,2,2,2,1,18,18,17,19,1
+OUTCOME: {agent1:{food:1, water:0, firewood:3}, agent2:{food:2, water:3, firewood:0}}<|eot_id|>",1,0,3,2,3,0,1,0,3,2,3,0,18,18,18,18,0
 520,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -2850,7 +2850,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:1, water:1, firewood:2}, agent2:{food:2, water:2, firewood:1}}<|eot_id|>",1,2,2,2,1,1,1,1,2,2,2,1,19,17,15,21,16
+OUTCOME: {agent1:{food:2, water:1, firewood:1}, agent2:{food:1, water:2, firewood:2}}<|eot_id|>",1,2,2,2,1,1,2,1,1,1,2,2,19,17,17,19,4
 526,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -2988,7 +2988,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:0, water:2, firewood:2}, agent2:{food:3, water:1, firewood:1}}<|eot_id|>",0,3,2,3,0,1,0,2,2,3,1,1,23,18,18,22,25
+OUTCOME: {agent1:{food:0, water:2, firewood:3}, agent2:{food:3, water:1, firewood:0}}<|eot_id|>",0,3,2,3,0,1,0,2,3,3,1,0,23,18,22,19,1
 547,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -3080,7 +3080,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:0, water:2, firewood:2}, agent2:{food:3, water:1, firewood:1}}<|eot_id|>",0,3,2,3,0,1,0,2,2,3,1,1,23,19,18,22,25
+OUTCOME: {agent1:{food:0, water:3, firewood:1}, agent2:{food:3, water:0, firewood:2}}<|eot_id|>",0,3,2,3,0,1,0,3,1,3,0,2,23,19,19,23,16
 560,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -3126,7 +3126,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:3, water:2, firewood:1}, agent2:{food:0, water:1, firewood:2}}<|eot_id|>",3,3,2,0,0,1,3,2,1,0,1,2,31,5,22,13,81
+OUTCOME: {agent1:{food:3, water:1, firewood:1}, agent2:{food:0, water:2, firewood:2}}<|eot_id|>",3,3,2,0,0,1,3,1,1,0,2,2,31,5,18,16,169
 561,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -3310,7 +3310,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:2, water:1, firewood:1}, agent2:{food:1, water:2, firewood:2}}<|eot_id|>",3,2,0,0,1,3,2,1,1,1,2,2,21,19,17,21,16
+OUTCOME: {agent1:{food:3, water:0, firewood:1}, agent2:{food:0, water:3, firewood:2}}<|eot_id|>",3,2,0,0,1,3,3,0,1,0,3,2,21,19,19,22,4
 582,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -3494,7 +3494,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:1, water:2, firewood:1}, agent2:{food:2, water:1, firewood:2}}<|eot_id|>",2,1,2,1,2,1,1,2,1,2,1,2,19,17,17,19,4
+OUTCOME: {agent1:{food:2, water:1, firewood:2}, agent2:{food:1, water:2, firewood:1}}<|eot_id|>",2,1,2,1,2,1,2,1,2,1,2,1,19,17,19,17,0
 611,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -3540,7 +3540,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:1, water:3, firewood:0}, agent2:{food:2, water:0, firewood:3}}<|eot_id|>",1,3,0,2,0,3,1,3,0,2,0,3,18,21,18,21,0
+OUTCOME: {agent1:{food:1, water:2, firewood:1}, agent2:{food:2, water:1, firewood:2}}<|eot_id|>",1,3,0,2,0,3,1,2,1,2,1,2,18,21,17,20,1
 613,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
