@@ -551,8 +551,11 @@ def generate_latex_table_by_ratio(metrics_tables, model_types, config_types, rat
                             if config == baseline_type or ratio not in baseline_values:
                                 cells.append(formatted_value)
                             else:
-                                is_better = value > baseline_values[ratio]
-                                color_cmd = '\\cellcolor{green!25}' if is_better else '\\cellcolor{red!25}'
+                                if value == baseline_values[ratio]:
+                                    color_cmd = '\\cellcolor{yellow!25}'
+                                else:
+                                    is_better = value > baseline_values[ratio]
+                                    color_cmd = '\\cellcolor{green!25}' if is_better else '\\cellcolor{red!25}'
                                 cells.append(f"{color_cmd}{formatted_value}")
                 
                 row += " & ".join(cells) + " \\\\\n"

@@ -268,13 +268,16 @@ def generate_combined_latex_table(data, ratios):
                         cells.append(formatted_value)
                     else:
                         # For all these metrics, higher is better
-                        is_improvement = metric_key == 'successPearson'
-                        if is_improvement:
-                            is_better = value > baseline_values[ratio]
+                        if value == baseline_values[ratio]:
+                            color_cmd = '\\cellcolor{yellow!25}'
                         else:
-                            is_better = value < baseline_values[ratio]
-                        
-                        color_cmd = '\\cellcolor{green!25}' if is_better else '\\cellcolor{red!25}'
+                            is_improvement = metric_key == 'successPearson'
+                            if is_improvement:
+                                is_better = value > baseline_values[ratio]
+                            else:
+                                is_better = value < baseline_values[ratio]
+                            
+                            color_cmd = '\\cellcolor{green!25}' if is_better else '\\cellcolor{red!25}'
                         cells.append(f"{color_cmd}{{{formatted_value}}}")
             
             row += " & ".join(cells) + " \\\\\n"

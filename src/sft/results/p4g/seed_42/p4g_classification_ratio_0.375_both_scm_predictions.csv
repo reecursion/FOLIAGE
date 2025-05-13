@@ -21,7 +21,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE expresses concern and willingness to help, indicating high warmth. They ask questions to understand how they can contribute effectively, demonstrating high competence in seeking actionable information and showing genuine interest in the cause.",0,0,True,0.8330078125
+  explanation: EE expresses concern and willingness to help, indicating high warmth. They ask questions to understand how they can contribute effectively, demonstrating high competence in seeking actionable information and showing genuine interest in the cause.",0,0,True,0.99755859375
 20180723-042342_809_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -54,7 +54,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: low
-  explanation: EE dismisses ER's points without providing evidence, showing low competence. Their repeated skepticism and lack of engagement with ER's arguments suggest a lack of warmth.",0,1,False,0.81591796875
+  explanation: EE dismisses ER's points without providing evidence, showing low competence. Their repeated skepticism and lack of engagement with ER's arguments suggest a lack of warmth.",0,1,False,0.587890625
 20180723-042344_940_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -76,7 +76,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE exhibits high warmth by participating amicably in the conversation and expressing appreciation for the charity's work. Their competence is high as they respond thoughtfully and show openness to learning about new topics.",0,0,True,0.78466796875
+  explanation: EE exhibits high warmth by participating amicably in the conversation and expressing appreciation for the charity's work. Their competence is high as they respond thoughtfully and show openness to learning about new topics.",0,0,True,0.998046875
 20180723-052203_936_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -104,7 +104,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing interest in ER's activities and valuing the importance of children's welfare. Their competence is high, as they ask insightful questions about involvement and acknowledge the charity's positive impact, indicating understanding and engagement.",1,1,True,0.74072265625
+  explanation: EE shows high warmth by expressing interest in ER's activities and valuing the importance of children's welfare. Their competence is high, as they ask insightful questions about involvement and acknowledge the charity's positive impact, indicating understanding and engagement.",1,1,True,0.599609375
 20180723-094242_630_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -127,7 +127,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE reciprocates the greeting and shows interest in learning more about ER's work, indicating high warmth. Their questions are straightforward and demonstrate a willingness to engage and understand, suggesting high competence.",1,0,False,0.99951171875
+  explanation: EE reciprocates the greeting and shows interest in learning more about ER's work, indicating high warmth. Their questions are straightforward and demonstrate a willingness to engage and understand, suggesting high competence.",1,0,False,1.0
 20180808-022005_838_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -154,7 +154,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by responding courteously and expressing interest despite skepticism. Their competence is high, as they articulate specific concerns about charity organizations, indicating critical thinking and awareness.",0,1,False,0.95703125
+  explanation: EE shows high warmth by responding courteously and expressing interest despite skepticism. Their competence is high, as they articulate specific concerns about charity organizations, indicating critical thinking and awareness.",0,1,False,0.8427734375
 20180808-040435_931_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -176,7 +176,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: low
-  explanation: User2's warmth is low, as they respond with a somewhat dismissive tone and focus on their own needs without reciprocating empathy. Their competence appears low due to a lack of engagement with user1's information and not demonstrating understanding or knowledge about the charity mentioned.",0,0,True,0.9716796875
+  explanation: User2's warmth is low, as they respond with a somewhat dismissive tone and focus on their own needs without reciprocating empathy. Their competence appears low due to a lack of engagement with user1's information and not demonstrating understanding or knowledge about the charity mentioned.",0,0,True,0.9990234375
 20180808-042339_620_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -195,7 +195,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: low
-  explanation: EE's responses suggest low warmth, as they express skepticism and focus on cost rather than empathy. Their competence appears low due to a lack of engagement with the details provided and not contributing meaningful information to the conversation.",0,0,True,0.88330078125
+  explanation: EE's responses suggest low warmth, as they express skepticism and focus on cost rather than empathy. Their competence appears low due to a lack of engagement with the details provided and not contributing meaningful information to the conversation.",0,0,True,0.998046875
 20180808-070517_921_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -217,7 +217,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: User2 demonstrates high warmth by readily agreeing to donate and expressing a positive attitude towards helping. Their competence is also high, as they clearly confirm their willingness to donate the entire amount, showing understanding and decisiveness.",1,1,True,0.77001953125
+  explanation: User2 demonstrates high warmth by readily agreeing to donate and expressing a positive attitude towards helping. Their competence is also high, as they clearly confirm their willingness to donate the entire amount, showing understanding and decisiveness.",1,1,True,0.69482421875
 20180808-074917_388_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -244,7 +244,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by reciprocating the friendly tone and expressing empathy towards charitable causes. Their competence is perceived as high through familiarity with multiple organizations and the emotional impact of charity commercials, reflecting awareness and understanding.",0,0,True,0.9873046875
+  explanation: EE shows high warmth by reciprocating the friendly tone and expressing empathy towards charitable causes. Their competence is perceived as high through familiarity with multiple organizations and the emotional impact of charity commercials, reflecting awareness and understanding.",0,0,True,0.99658203125
 20180808-075748_956_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -270,7 +270,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE exhibits high warmth through friendly greetings and enthusiasm about the organization's mission. EE also displays high competence by indicating prior experience with donations and promptly asking how to proceed with another donation.",0,0,True,0.568359375
+  explanation: EE exhibits high warmth through friendly greetings and enthusiasm about the organization's mission. EE also displays high competence by indicating prior experience with donations and promptly asking how to proceed with another donation.",0,0,True,0.9599609375
 20180808-075816_12_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -302,7 +302,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE shows high warmth by expressing understanding and agreement with ER's sentiments and sharing their own donation habits. However, EE's competence is low, as they initially lack knowledge about the organization and provide limited information or insight beyond personal actions.",0,0,True,0.646484375
+  explanation: EE shows high warmth by expressing understanding and agreement with ER's sentiments and sharing their own donation habits. However, EE's competence is low, as they initially lack knowledge about the organization and provide limited information or insight beyond personal actions.",0,0,True,0.74609375
 20180808-081317_142_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -325,7 +325,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE responds politely and shows interest in learning more, indicating warmth. However, their lack of awareness about the charity's broader activities and reliance on ER for information suggests lower competence in this context.",0,1,False,0.9404296875
+  explanation: EE responds politely and shows interest in learning more, indicating warmth. However, their lack of awareness about the charity's broader activities and reliance on ER for information suggests lower competence in this context.",0,0,True,0.9619140625
 20180824-121026_498_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -350,7 +350,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by engaging politely and expressing interest in charitable activities. Their competence is high as they communicate clearly and show thoughtful consideration about where to donate, indicating a reflective and informed approach.",0,1,False,0.70947265625
+  explanation: EE shows high warmth by engaging politely and expressing interest in charitable activities. Their competence is high as they communicate clearly and show thoughtful consideration about where to donate, indicating a reflective and informed approach.",0,0,True,0.77734375
 20180825-042845_49_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -373,7 +373,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE expresses empathy and concern for children in war zones, indicating high warmth. EE's competence is high, as they engage with the information provided by ER, ask relevant questions, and recall past knowledge about similar programs, showing understanding and interest.",1,1,True,0.70703125
+  explanation: EE expresses empathy and concern for children in war zones, indicating high warmth. EE's competence is high, as they engage with the information provided by ER, ask relevant questions, and recall past knowledge about similar programs, showing understanding and interest.",1,0,False,0.9814453125
 20180825-043229_970_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -400,7 +400,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE reciprocates the friendly tone, shows interest in ER's activities, and asks relevant questions, indicating high warmth. Their inquiries about the charity and donation reflect an understanding and engagement with the topic, suggesting high competence.",0,1,False,0.98486328125
+  explanation: EE reciprocates the friendly tone, shows interest in ER's activities, and asks relevant questions, indicating high warmth. Their inquiries about the charity and donation reflect an understanding and engagement with the topic, suggesting high competence.",0,1,False,0.99365234375
 20180825-044613_233_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -428,7 +428,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds politely and shares personal information, indicating high warmth. EE also shows awareness of global issues and engages in the conversation with informed responses, reflecting high competence.",1,1,True,0.99755859375
+  explanation: EE responds politely and shares personal information, indicating high warmth. EE also shows awareness of global issues and engages in the conversation with informed responses, reflecting high competence.",1,1,True,0.998046875
 20180825-050306_247_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -452,7 +452,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by engaging in a friendly conversation and expressing interest in charitable activities. Their competence is high as they ask relevant questions, indicating an interest in understanding and potentially participating in charitable activities.",0,0,True,0.74072265625
+  explanation: EE shows high warmth by engaging in a friendly conversation and expressing interest in charitable activities. Their competence is high as they ask relevant questions, indicating an interest in understanding and potentially participating in charitable activities.",0,0,True,0.99609375
 20180825-053544_897_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -477,7 +477,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by engaging in polite conversation and expressing interest in ER's cause. Their competence is high as they ask relevant, detailed questions about the charity, indicating an understanding and a desire to learn more.",0,0,True,0.541015625
+  explanation: EE shows high warmth by engaging in polite conversation and expressing interest in ER's cause. Their competence is high as they ask relevant, detailed questions about the charity, indicating an understanding and a desire to learn more.",0,0,True,0.94921875
 20180825-064038_102_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -501,7 +501,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: User2 responds politely and engages in the conversation about the charity, showing interest and familiarity with the topic, which suggests high warmth. Their knowledge about the charity and ability to maintain the dialogue indicate high competence.",0,0,True,0.8505859375
+  explanation: User2 responds politely and engages in the conversation about the charity, showing interest and familiarity with the topic, which suggests high warmth. Their knowledge about the charity and ability to maintain the dialogue indicate high competence.",0,0,True,0.99609375
 20180825-070857_925_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -529,7 +529,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE exhibits high warmth by expressing empathy and concern for the situation and by sharing personal values about giving back. Their competence is high, as they engage thoughtfully in the discussion, express curiosity about solutions, and demonstrate an understanding of the situation's severity.",0,0,True,0.767578125
+  explanation: EE exhibits high warmth by expressing empathy and concern for the situation and by sharing personal values about giving back. Their competence is high, as they engage thoughtfully in the discussion, express curiosity about solutions, and demonstrate an understanding of the situation's severity.",0,0,True,0.82958984375
 20180825-071459_643_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -550,7 +550,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing agreement on the importance of nutrition and willingness to donate locally. EE's competence is high, as evidenced by a cautious approach to unfamiliar charities and a thoughtful consideration of how donations are used.",1,1,True,0.99560546875
+  explanation: EE shows high warmth by expressing agreement on the importance of nutrition and willingness to donate locally. EE's competence is high, as evidenced by a cautious approach to unfamiliar charities and a thoughtful consideration of how donations are used.",1,1,True,0.947265625
 20180825-082635_438_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -586,7 +586,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows empathy and agreement with ER's concerns, reflecting high warmth. They engage constructively in the conversation, ask clarifying questions, and express understanding of the complexity of the issues, indicating high competence.",1,1,True,0.6923828125
+  explanation: EE shows empathy and agreement with ER's concerns, reflecting high warmth. They engage constructively in the conversation, ask clarifying questions, and express understanding of the complexity of the issues, indicating high competence.",1,1,True,0.6298828125
 20180825-102556_172_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -611,7 +611,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing interest in the cause and willingness to donate. Their competence is high as they engage thoughtfully, ask clarifying questions, and reflect on the ethical implications of their actions, indicating a well-considered approach.",1,1,True,0.97021484375
+  explanation: EE shows high warmth by expressing interest in the cause and willingness to donate. Their competence is high as they engage thoughtfully, ask clarifying questions, and reflect on the ethical implications of their actions, indicating a well-considered approach.",1,1,True,0.861328125
 20180825-112615_516_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -639,7 +639,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing interest in the charity and discussing their values openly. Their competence is high as they articulate their criteria for supporting organizations and engage thoughtfully with ER's information, indicating a well-considered approach.",0,0,True,0.96826171875
+  explanation: EE shows high warmth by expressing interest in the charity and discussing their values openly. Their competence is high as they articulate their criteria for supporting organizations and engage thoughtfully with ER's information, indicating a well-considered approach.",0,0,True,0.95654296875
 20180826-011431_343_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -661,7 +661,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds affirmatively and shares personal actions, indicating openness and friendliness, which suggests high warmth. Their ability to provide specific information about their donation reflects high competence in the context of the conversation.",0,0,True,0.90673828125
+  explanation: EE responds affirmatively and shares personal actions, indicating openness and friendliness, which suggests high warmth. Their ability to provide specific information about their donation reflects high competence in the context of the conversation.",0,0,True,0.994140625
 20180826-020520_686_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -685,7 +685,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: high
-  explanation: EE responds with skepticism and a critical perspective, which suggests low warmth. However, EE demonstrates an understanding of the broader context of the issue, indicating high competence.",0,0,True,0.68896484375
+  explanation: EE responds with skepticism and a critical perspective, which suggests low warmth. However, EE demonstrates an understanding of the broader context of the issue, indicating high competence.",0,0,True,0.9091796875
 20180826-044626_167_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -714,7 +714,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: moderate
   competence: moderate
-  explanation: EE's warmth is moderate as they show some interest and concern by asking questions, though they are initially uninformed. Their competence is moderate, as they acknowledge their lack of knowledge but engage with the information provided, showing a willingness to learn.",0,1,False,0.7958984375
+  explanation: EE's warmth is moderate as they show some interest and concern by asking questions, though they are initially uninformed. Their competence is moderate, as they acknowledge their lack of knowledge but engage with the information provided, showing a willingness to learn.",0,1,False,0.6796875
 20180826-053845_531_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -741,7 +741,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing concern for children's well-being and a willingness to donate. Their competence is high, as they critically consider the effectiveness of donations and engage in thoughtful dialogue about the charity's impact.",1,1,True,0.93359375
+  explanation: EE shows high warmth by expressing concern for children's well-being and a willingness to donate. Their competence is high, as they critically consider the effectiveness of donations and engage in thoughtful dialogue about the charity's impact.",1,1,True,0.900390625
 20180826-055352_947_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -775,7 +775,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE displays high warmth by expressing interest in learning more about the charity and sharing personal financial challenges openly. Their competence is high, as they articulate their situation clearly and recognize the charity from previous exposure, indicating awareness and understanding.",0,1,False,0.8349609375
+  explanation: EE displays high warmth by expressing interest in learning more about the charity and sharing personal financial challenges openly. Their competence is high, as they articulate their situation clearly and recognize the charity from previous exposure, indicating awareness and understanding.",0,1,False,0.7275390625
 20180826-061949_863_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -800,7 +800,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing interest and support for the charity's cause, asking questions to learn more, and responding positively to ER's involvement. EE's competence is high as they engage in the conversation with curiosity and seek to understand the charity's scope.",0,0,True,0.8779296875
+  explanation: EE shows high warmth by expressing interest and support for the charity's cause, asking questions to learn more, and responding positively to ER's involvement. EE's competence is high as they engage in the conversation with curiosity and seek to understand the charity's scope.",0,0,True,0.99853515625
 20180826-062736_188_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -823,7 +823,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: User2 responds politely and shows interest in the conversation, indicating high warmth. They ask relevant questions about the charity's operations, which reflects high competence in engaging with the topic.",0,0,True,0.99658203125
+  explanation: User2 responds politely and shows interest in the conversation, indicating high warmth. They ask relevant questions about the charity's operations, which reflects high competence in engaging with the topic.",0,0,True,1.0
 20180826-174459_637_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -843,7 +843,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds politely and shows openness to learning about the charity. By expressing past donation experiences and interest in the charity's website, EE demonstrates a willingness to engage and consider the information, reflecting both warmth and competence.",0,0,True,0.6591796875
+  explanation: EE responds politely and shows openness to learning about the charity. By expressing past donation experiences and interest in the charity's website, EE demonstrates a willingness to engage and consider the information, reflecting both warmth and competence.",0,0,True,0.99853515625
 20180826-180314_928_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -879,7 +879,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE reciprocates ER's warmth by engaging in friendly conversation and sharing personal experiences. EE's competence is high, shown by their commitment to using the platform effectively and their thoughtful approach to charitable contributions.",0,0,True,0.9501953125
+  explanation: EE reciprocates ER's warmth by engaging in friendly conversation and sharing personal experiences. EE's competence is high, shown by their commitment to using the platform effectively and their thoughtful approach to charitable contributions.",0,0,True,0.734375
 20180826-181742_58_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -900,7 +900,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds positively and shows genuine interest in the conversation, indicating high warmth. EE also asks relevant questions and expresses a desire to contribute, demonstrating high competence.",0,0,True,0.8212890625
+  explanation: EE responds positively and shows genuine interest in the conversation, indicating high warmth. EE also asks relevant questions and expresses a desire to contribute, demonstrating high competence.",0,0,True,0.9892578125
 20180826-182522_887_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -928,7 +928,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds politely and shows interest in the conversation by asking questions and expressing familiarity with the topic. Their engagement and acknowledgment of the information provided reflect both warmth and competence.",1,1,True,0.884765625
+  explanation: EE responds politely and shows interest in the conversation by asking questions and expressing familiarity with the topic. Their engagement and acknowledgment of the information provided reflect both warmth and competence.",1,1,True,0.95556640625
 20180827-004200_630_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -961,7 +961,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing a desire to help and empathy for disadvantaged children. EE's competence is high, as they communicate their financial limitations while still contributing meaningfully and supporting a child monthly, reflecting a thoughtful and responsible approach.",1,0,False,0.939453125
+  explanation: EE shows high warmth by expressing a desire to help and empathy for disadvantaged children. EE's competence is high, as they communicate their financial limitations while still contributing meaningfully and supporting a child monthly, reflecting a thoughtful and responsible approach.",1,0,False,0.96533203125
 20180827-032811_159_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -984,7 +984,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE shows high warmth by agreeing to donate and expressing positive reactions to ER's charitable actions. However, EE's competence appears low due to limited knowledge about the charity's activities, as indicated by their admission of knowing only a little about it.",1,1,True,0.5537109375
+  explanation: EE shows high warmth by agreeing to donate and expressing positive reactions to ER's charitable actions. However, EE's competence appears low due to limited knowledge about the charity's activities, as indicated by their admission of knowing only a little about it.",1,0,False,0.96240234375
 20180827-041027_973_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1007,7 +1007,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE exhibits high warmth by responding politely and showing interest in the topic. Their competence is high as they ask relevant questions, indicating a desire to understand more and engage thoughtfully in the conversation.",0,0,True,0.81884765625
+  explanation: EE exhibits high warmth by responding politely and showing interest in the topic. Their competence is high as they ask relevant questions, indicating a desire to understand more and engage thoughtfully in the conversation.",0,0,True,0.99951171875
 20180903-103835_253_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1032,7 +1032,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE responds positively and expresses enthusiasm about the charity's work, indicating high warmth. However, their limited knowledge about the charity and reliance on ER for information suggest lower competence.",0,0,True,0.6865234375
+  explanation: EE responds positively and expresses enthusiasm about the charity's work, indicating high warmth. However, their limited knowledge about the charity and reliance on ER for information suggest lower competence.",0,0,True,0.99755859375
 20180904-043300_214_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1057,7 +1057,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds positively and reciprocates the inquiry about well-being, showing high warmth. EE also expresses curiosity and openness to learning more about the charity, indicating a willingness to engage and understand, reflecting high competence.",0,0,True,0.9482421875
+  explanation: EE responds positively and reciprocates the inquiry about well-being, showing high warmth. EE also expresses curiosity and openness to learning more about the charity, indicating a willingness to engage and understand, reflecting high competence.",0,0,True,0.99658203125
 20180719-122534_38_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1078,7 +1078,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by engaging in the conversation with genuine interest and asking questions to understand better. Their competence is high as they ask specific, relevant questions that indicate a thoughtful and informed approach to the topic.",1,1,True,0.76220703125
+  explanation: EE shows high warmth by engaging in the conversation with genuine interest and asking questions to understand better. Their competence is high as they ask specific, relevant questions that indicate a thoughtful and informed approach to the topic.",1,0,False,0.560546875
 20180719-182453_233_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1098,7 +1098,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: high
-  explanation: EE's responses are brief and somewhat skeptical, which may come across as less warm. However, their questions are direct and focused on understanding the charity's impact, indicating a high level of competence.",0,0,True,0.86328125
+  explanation: EE's responses are brief and somewhat skeptical, which may come across as less warm. However, their questions are direct and focused on understanding the charity's impact, indicating a high level of competence.",0,0,True,0.81298828125
 20180723-034109_263_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1119,7 +1119,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows warmth by expressing interest and asking questions about the organization. EE's inquiries about the donation process and accountability indicate a high level of competence and critical thinking.",1,1,True,0.60009765625
+  explanation: EE shows warmth by expressing interest and asking questions about the organization. EE's inquiries about the donation process and accountability indicate a high level of competence and critical thinking.",1,1,True,0.7490234375
 20180723-055038_776_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1141,7 +1141,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds positively and shows willingness to participate in charity, reflecting high warmth. They ask relevant questions about donation limits, demonstrating competence in understanding the situation.",1,0,False,0.80712890625
+  explanation: EE responds positively and shows willingness to participate in charity, reflecting high warmth. They ask relevant questions about donation limits, demonstrating competence in understanding the situation.",1,0,False,0.79443359375
 20180723-075339_567_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1166,7 +1166,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by reciprocating greetings and expressing interest in the charity. Their competence is high as they ask relevant questions about the charity's focus, indicating an understanding of the topic and a thoughtful approach to selecting a charity to support.",0,0,True,0.69091796875
+  explanation: EE shows high warmth by reciprocating greetings and expressing interest in the charity. Their competence is high as they ask relevant questions about the charity's focus, indicating an understanding of the topic and a thoughtful approach to selecting a charity to support.",0,0,True,0.68408203125
 20180723-082451_335_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1191,7 +1191,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds warmly, showing interest in the conversation by asking questions and expressing enthusiasm about the organization's mission. Their engagement and willingness to learn more indicate competence in understanding and processing information.",0,0,True,0.71923828125
+  explanation: EE responds warmly, showing interest in the conversation by asking questions and expressing enthusiasm about the organization's mission. Their engagement and willingness to learn more indicate competence in understanding and processing information.",0,0,True,0.80126953125
 20180723-091508_49_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1215,7 +1215,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: User2 shows high warmth by agreeing to donate and expressing interest in the charity's activities. Their competence is high as they ask relevant questions about the charity's use of funds, indicating a thoughtful and informed approach to their donation.",0,1,False,0.5068359375
+  explanation: User2 shows high warmth by agreeing to donate and expressing interest in the charity's activities. Their competence is high as they ask relevant questions about the charity's use of funds, indicating a thoughtful and informed approach to their donation.",0,1,False,0.64501953125
 20180723-100140_767_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1239,7 +1239,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: moderate
-  explanation: EE shows high warmth by expressing empathy and acknowledging their own fortune. Their competence is moderate as they admit to limited knowledge about certain topics but engage thoughtfully by questioning the legitimacy of a charity, indicating some level of critical thinking.",0,0,True,0.97314453125
+  explanation: EE shows high warmth by expressing empathy and acknowledging their own fortune. Their competence is moderate as they admit to limited knowledge about certain topics but engage thoughtfully by questioning the legitimacy of a charity, indicating some level of critical thinking.",0,0,True,0.8544921875
 20180723-113128_856_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1263,7 +1263,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE shows high warmth by expressing interest and positive reactions to the information shared by ER. However, EE's competence is low, as they initially admit to knowing nothing about the organization and primarily ask questions rather than provide information.",1,0,False,0.52197265625
+  explanation: EE shows high warmth by expressing interest and positive reactions to the information shared by ER. However, EE's competence is low, as they initially admit to knowing nothing about the organization and primarily ask questions rather than provide information.",1,0,False,0.72314453125
 20180723-121545_265_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1290,7 +1290,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by engaging in the conversation with interest and asking questions to understand more about the charity. Their competence is high as they critically assess the charity's uniqueness and effectiveness, indicating an analytical approach to the information provided.",0,1,False,0.9013671875
+  explanation: EE shows high warmth by engaging in the conversation with interest and asking questions to understand more about the charity. Their competence is high as they critically assess the charity's uniqueness and effectiveness, indicating an analytical approach to the information provided.",0,0,True,0.56640625
 20180808-004203_194_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1311,7 +1311,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds politely and shows interest in the cause, indicating high warmth. They ask for more specific information, which reflects a thoughtful and discerning approach, demonstrating high competence.",0,0,True,0.8369140625
+  explanation: EE responds politely and shows interest in the cause, indicating high warmth. They ask for more specific information, which reflects a thoughtful and discerning approach, demonstrating high competence.",0,0,True,0.880859375
 20180808-011341_389_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1343,7 +1343,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: moderate
-  explanation: EE shows high warmth by expressing support and empathy for ER's actions and sharing personal values of kindness and charity. EE's competence is moderate, as they engage in the conversation with supportive comments but provide less specific information or evidence of knowledge compared to ER.",1,0,False,0.873046875
+  explanation: EE shows high warmth by expressing support and empathy for ER's actions and sharing personal values of kindness and charity. EE's competence is moderate, as they engage in the conversation with supportive comments but provide less specific information or evidence of knowledge compared to ER.",1,1,True,0.9921875
 20180808-032354_369_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1364,7 +1364,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows warmth by expressing concern and sharing a personal connection to the issue. EE also demonstrates competence by actively contributing to the solution through donations, indicating a proactive approach.",0,0,True,0.68603515625
+  explanation: EE shows warmth by expressing concern and sharing a personal connection to the issue. EE also demonstrates competence by actively contributing to the solution through donations, indicating a proactive approach.",0,0,True,0.82763671875
 20180808-062753_12_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1386,7 +1386,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: low
-  explanation: EE shows low warmth by providing minimal engagement and lacking empathetic responses. Their competence is low, as they admit to not knowing details about the charity and do not contribute substantial information or insights to the conversation.",0,0,True,0.85791015625
+  explanation: EE shows low warmth by providing minimal engagement and lacking empathetic responses. Their competence is low, as they admit to not knowing details about the charity and do not contribute substantial information or insights to the conversation.",0,0,True,0.59814453125
 20180824-022709_450_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1408,7 +1408,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE shows high warmth by expressing willingness to donate and concern for the cause, indicating empathy and kindness. However, their competence appears low as they seem uncertain about the details and impact of their potential donation, asking basic questions about the need.",0,0,True,0.72314453125
+  explanation: EE shows high warmth by expressing willingness to donate and concern for the cause, indicating empathy and kindness. However, their competence appears low as they seem uncertain about the details and impact of their potential donation, asking basic questions about the need.",0,0,True,0.7607421875
 20180824-120504_474_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1430,7 +1430,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing agreement and willingness to help, indicating empathy and openness. EE also demonstrates high competence by asking for more information and clearly communicating their limitations regarding the donation request.",0,1,False,0.59521484375
+  explanation: EE shows high warmth by expressing agreement and willingness to help, indicating empathy and openness. EE also demonstrates high competence by asking for more information and clearly communicating their limitations regarding the donation request.",0,0,True,0.8759765625
 20180825-061105_792_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1462,7 +1462,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by engaging empathetically with the topic and expressing personal conflict about the crisis. Their competence is high, as they provide a nuanced perspective on global responsibility and articulate concerns about the effectiveness of donations.",1,0,False,0.9111328125
+  explanation: EE shows high warmth by engaging empathetically with the topic and expressing personal conflict about the crisis. Their competence is high, as they provide a nuanced perspective on global responsibility and articulate concerns about the effectiveness of donations.",1,1,True,0.88037109375
 20180825-063117_677_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1485,7 +1485,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE engages in the conversation with humor and openness, showing willingness to contribute and explaining personal circumstances, which reflects high warmth. EE also demonstrates understanding of their financial limitations and engages thoughtfully, indicating high competence.",1,0,False,0.76904296875
+  explanation: EE engages in the conversation with humor and openness, showing willingness to contribute and explaining personal circumstances, which reflects high warmth. EE also demonstrates understanding of their financial limitations and engages thoughtfully, indicating high competence.",1,0,False,0.5029296875
 20180825-064838_945_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1507,7 +1507,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE reciprocates the greeting warmly and engages in the conversation with thoughtful questions and agreement, showing high warmth. Their inquiry about motivations for donating demonstrates an understanding of the topic, indicating high competence.",0,0,True,0.83154296875
+  explanation: EE reciprocates the greeting warmly and engages in the conversation with thoughtful questions and agreement, showing high warmth. Their inquiry about motivations for donating demonstrates an understanding of the topic, indicating high competence.",0,0,True,0.68798828125
 20180825-070900_49_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1537,7 +1537,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by reciprocating greetings and expressing empathy towards children. Their competence is high, as they actively engage in the conversation, express thoughtful consideration about donating, and ask relevant questions about the charity.",1,1,True,0.9736328125
+  explanation: EE shows high warmth by reciprocating greetings and expressing empathy towards children. Their competence is high, as they actively engage in the conversation, express thoughtful consideration about donating, and ask relevant questions about the charity.",1,0,False,0.6650390625
 20180825-071727_819_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1559,7 +1559,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: high
-  explanation: EE's responses are brief and lack emotional engagement, suggesting low warmth. However, their competence is high, as they ask clarifying questions and engage with the topic, indicating a focused and analytical approach.",1,0,False,0.68798828125
+  explanation: EE's responses are brief and lack emotional engagement, suggesting low warmth. However, their competence is high, as they ask clarifying questions and engage with the topic, indicating a focused and analytical approach.",1,0,False,0.8818359375
 20180825-080131_220_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1584,7 +1584,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE shows high warmth by engaging in the conversation, expressing interest, and agreeing to make a donation. However, their competence is low, as they initially express uncertainty about the organization and rely on ER for information.",1,1,True,0.705078125
+  explanation: EE shows high warmth by engaging in the conversation, expressing interest, and agreeing to make a donation. However, their competence is low, as they initially express uncertainty about the organization and rely on ER for information.",1,0,False,0.74609375
 20180825-080436_824_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1608,7 +1608,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: high
-  explanation: EE's warmth is low due to their direct and probing questions, which may come across as skeptical. However, their competence is high as they ask relevant, detailed questions to understand the charity's operations and financials, indicating a critical and analytical approach.",1,1,True,0.95703125
+  explanation: EE's warmth is low due to their direct and probing questions, which may come across as skeptical. However, their competence is high as they ask relevant, detailed questions to understand the charity's operations and financials, indicating a critical and analytical approach.",1,1,True,0.9638671875
 20180825-081502_364_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1636,7 +1636,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE reciprocates the friendly tone and shares personal plans, indicating high warmth. They show competence by expressing discernment regarding charities and asking informed questions about ER's charity involvement, demonstrating curiosity and critical thinking.",0,1,False,0.9453125
+  explanation: EE reciprocates the friendly tone and shares personal plans, indicating high warmth. They show competence by expressing discernment regarding charities and asking informed questions about ER's charity involvement, demonstrating curiosity and critical thinking.",0,0,True,0.9169921875
 20180825-084657_775_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1657,7 +1657,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: low
-  explanation: EE's responses are brief and non-committal, showing uncertainty and a lack of engagement, which suggests low competence. The lack of enthusiasm or personal connection in their responses also indicates low warmth.",0,0,True,0.77783203125
+  explanation: EE's responses are brief and non-committal, showing uncertainty and a lack of engagement, which suggests low competence. The lack of enthusiasm or personal connection in their responses also indicates low warmth.",0,0,True,0.68359375
 20180825-085214_779_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1678,7 +1678,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: low
-  explanation: User2's responses are brief and lack engagement, suggesting low warmth. The lack of detailed questions or comments about the charity indicates low competence in the context of the conversation.",0,0,True,0.9228515625
+  explanation: User2's responses are brief and lack engagement, suggesting low warmth. The lack of detailed questions or comments about the charity indicates low competence in the context of the conversation.",0,0,True,0.73388671875
 20180825-085908_923_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1703,7 +1703,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE initiates the conversation warmly and expresses agreement and personal involvement in charitable activities, indicating high warmth. EE's knowledge of specific charities and thoughtful donation preferences suggest high competence.",0,0,True,0.7177734375
+  explanation: EE initiates the conversation warmly and expresses agreement and personal involvement in charitable activities, indicating high warmth. EE's knowledge of specific charities and thoughtful donation preferences suggest high competence.",0,1,False,0.6337890625
 20180825-091558_618_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1724,7 +1724,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: moderate
   competence: low
-  explanation: EE shows interest in charities but lacks prior knowledge, which suggests low competence. Their responses are neutral to positive, indicating moderate warmth, especially when they express willingness to support local initiatives.",0,0,True,0.79345703125
+  explanation: EE shows interest in charities but lacks prior knowledge, which suggests low competence. Their responses are neutral to positive, indicating moderate warmth, especially when they express willingness to support local initiatives.",0,0,True,0.8828125
 20180826-052222_969_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1747,7 +1747,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE exhibits warmth by initiating the conversation with a friendly greeting and expressing interest in the topic. However, EE's competence appears low due to a lack of engagement with the details provided by ER, as they do not ask further questions or clarify their understanding of the charity.",1,1,True,0.642578125
+  explanation: EE exhibits warmth by initiating the conversation with a friendly greeting and expressing interest in the topic. However, EE's competence appears low due to a lack of engagement with the details provided by ER, as they do not ask further questions or clarify their understanding of the charity.",1,0,False,0.58056640625
 20180826-054028_444_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1781,7 +1781,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds positively and shares personal details, showing openness and friendliness, which indicates high warmth. Their willingness to contribute to the charity and engage in the discussion reflects high competence.",1,1,True,0.5302734375
+  explanation: EE responds positively and shares personal details, showing openness and friendliness, which indicates high warmth. Their willingness to contribute to the charity and engage in the discussion reflects high competence.",1,1,True,0.873046875
 20180826-061846_932_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1809,7 +1809,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by responding positively and agreeing with ER's sentiments about the organization. Their competence is high as they acknowledge familiarity with the organization and contribute thoughtfully to the conversation about its impact.",1,0,False,0.8203125
+  explanation: EE shows high warmth by responding positively and agreeing with ER's sentiments about the organization. Their competence is high as they acknowledge familiarity with the organization and contribute thoughtfully to the conversation about its impact.",1,0,False,0.5205078125
 20180826-174933_275_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1834,7 +1834,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds politely and reciprocates questions, showing interest in ER's life, which indicates high warmth. EE's responses are clear and relevant, demonstrating high competence in maintaining the conversation.",0,0,True,0.88818359375
+  explanation: EE responds politely and reciprocates questions, showing interest in ER's life, which indicates high warmth. EE's responses are clear and relevant, demonstrating high competence in maintaining the conversation.",0,0,True,0.880859375
 20180826-175233_4_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1857,7 +1857,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds positively and reciprocates the inquiry about well-being, showing high warmth. EE's mention of donating to various charities demonstrates knowledge and engagement in charitable activities, indicating high competence.",0,0,True,0.7685546875
+  explanation: EE responds positively and reciprocates the inquiry about well-being, showing high warmth. EE's mention of donating to various charities demonstrates knowledge and engagement in charitable activities, indicating high competence.",0,1,False,0.6162109375
 20180826-182047_49_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1888,7 +1888,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth through friendly engagement and expressing interest in learning and donating. Their competence is high, as they actively participate in the conversation, show initiative in researching, and make informed decisions about donations.",0,0,True,0.849609375
+  explanation: EE shows high warmth through friendly engagement and expressing interest in learning and donating. Their competence is high, as they actively participate in the conversation, show initiative in researching, and make informed decisions about donations.",0,1,False,0.99951171875
 20180826-184708_183_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1910,7 +1910,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE exhibits high warmth through polite and interested engagement, asking questions to understand the charity better. Their competence is high, as they ask insightful questions that reflect a desire to make informed decisions, demonstrating critical thinking.",0,0,True,0.62939453125
+  explanation: EE exhibits high warmth through polite and interested engagement, asking questions to understand the charity better. Their competence is high, as they ask insightful questions that reflect a desire to make informed decisions, demonstrating critical thinking.",0,1,False,0.54833984375
 20180826-220838_141_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1931,7 +1931,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE shows high warmth by expressing interest and willingness to help, maintaining a friendly tone. However, their competence appears low due to their reliance on ER for information and guidance on how to proceed.",0,1,False,0.59423828125
+  explanation: EE shows high warmth by expressing interest and willingness to help, maintaining a friendly tone. However, their competence appears low due to their reliance on ER for information and guidance on how to proceed.",0,0,True,0.84716796875
 20180827-024612_480_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1950,7 +1950,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: User2 shows high warmth through polite responses and reciprocal inquiries about well-being. However, their competence appears low as they admit to lacking knowledge about the organization discussed, indicating limited information on the topic.",0,0,True,0.88916015625
+  explanation: User2 shows high warmth through polite responses and reciprocal inquiries about well-being. However, their competence appears low as they admit to lacking knowledge about the organization discussed, indicating limited information on the topic.",0,0,True,0.83447265625
 20180903-094545_472_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -1976,7 +1976,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by engaging in the conversation politely and expressing interest in the cause. Their competence is high, as they ask pertinent questions about the charity's legitimacy and financial allocation, indicating critical thinking and a desire for transparency.",0,0,True,0.994140625
+  explanation: EE shows high warmth by engaging in the conversation politely and expressing interest in the cause. Their competence is high, as they ask pertinent questions about the charity's legitimacy and financial allocation, indicating critical thinking and a desire for transparency.",0,1,False,0.8447265625
 20180903-132332_521_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2000,7 +2000,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE engages in the conversation with polite responses and shows interest in learning more about the charity, reflecting high warmth. EE's questions about the charity's operations suggest a desire for understanding, indicating high competence.",0,0,True,0.62109375
+  explanation: EE engages in the conversation with polite responses and shows interest in learning more about the charity, reflecting high warmth. EE's questions about the charity's operations suggest a desire for understanding, indicating high competence.",0,0,True,0.72705078125
 20180904-012828_299_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2021,7 +2021,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds positively, reciprocates inquiries, and provides personal information, demonstrating warmth. EE's clear and responsive communication indicates competence.",0,0,True,0.63330078125
+  explanation: EE responds positively, reciprocates inquiries, and provides personal information, demonstrating warmth. EE's clear and responsive communication indicates competence.",0,0,True,0.7060546875
 20180904-030739_178_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2043,7 +2043,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing interest in charitable causes and asking questions to learn more, indicating openness and engagement. EE's competence is high, as they actively participate in the conversation with thoughtful questions, demonstrating an eagerness to understand and potentially support the charity.",0,0,True,0.623046875
+  explanation: EE shows high warmth by expressing interest in charitable causes and asking questions to learn more, indicating openness and engagement. EE's competence is high, as they actively participate in the conversation with thoughtful questions, demonstrating an eagerness to understand and potentially support the charity.",0,0,True,0.80078125
 20180717-200206_41_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2064,7 +2064,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: high
-  explanation: EE's warmth is low due to their curt responses and lack of engagement with ER's suggestions. However, EE's competence is high as they assert their existing contributions to children's welfare, indicating awareness and involvement in relevant activities.",1,1,True,0.5859375
+  explanation: EE's warmth is low due to their curt responses and lack of engagement with ER's suggestions. However, EE's competence is high as they assert their existing contributions to children's welfare, indicating awareness and involvement in relevant activities.",1,1,True,0.5791015625
 20180719-181845_211_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2095,7 +2095,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE displays high warmth by reciprocating greetings, expressing concern, and showing empathy towards ER's personal story. EE also exhibits high competence by providing thoughtful responses and articulating their stance on donations clearly, indicating a well-considered perspective.",0,1,False,0.9833984375
+  explanation: EE displays high warmth by reciprocating greetings, expressing concern, and showing empathy towards ER's personal story. EE also exhibits high competence by providing thoughtful responses and articulating their stance on donations clearly, indicating a well-considered perspective.",0,1,False,0.98388671875
 20180719-204358_391_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2119,7 +2119,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds positively and openly to ER's questions, indicating high warmth. EE also communicates clearly about their background, suggesting high competence. Their willingness to share personal information contributes to a constructive interaction.",0,0,True,0.705078125
+  explanation: EE responds positively and openly to ER's questions, indicating high warmth. EE also communicates clearly about their background, suggesting high competence. Their willingness to share personal information contributes to a constructive interaction.",0,0,True,0.697265625
 20180723-025150_733_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2140,7 +2140,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds politely and provides specific information about their charitable giving, demonstrating transparency and engagement, which reflects high warmth. The ability to provide detailed responses indicates high competence.",1,0,False,0.7861328125
+  explanation: EE responds politely and provides specific information about their charitable giving, demonstrating transparency and engagement, which reflects high warmth. The ability to provide detailed responses indicates high competence.",1,0,False,0.78369140625
 20180723-031022_254_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2162,7 +2162,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: high
-  explanation: EE's warmth is low due to their abrupt and somewhat skeptical questioning. However, their competence is high as they ask specific, relevant questions to gather detailed information about the donation and its impact.",1,0,False,0.6796875
+  explanation: EE's warmth is low due to their abrupt and somewhat skeptical questioning. However, their competence is high as they ask specific, relevant questions to gather detailed information about the donation and its impact.",1,0,False,0.673828125
 20180723-073908_711_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2212,7 +2212,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE shows high warmth by engaging positively and expressing empathy. However, their competence appears low due to minimal contribution to the conversation's depth and reliance on brief, simple responses.",0,1,False,0.53271484375
+  explanation: EE shows high warmth by engaging positively and expressing empathy. However, their competence appears low due to minimal contribution to the conversation's depth and reliance on brief, simple responses.",0,1,False,0.54296875
 20180723-091419_371_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2236,7 +2236,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing interest and enthusiasm about the organization. Their competence is high as they ask relevant questions and express understanding and appreciation for the information provided, indicating engagement and comprehension.",1,1,True,0.50048828125
+  explanation: EE shows high warmth by expressing interest and enthusiasm about the organization. Their competence is high as they ask relevant questions and express understanding and appreciation for the information provided, indicating engagement and comprehension.",1,1,True,0.51171875
 20180723-101530_805_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2261,7 +2261,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shares personal experiences and engages in a friendly manner, indicating high warmth. EE also demonstrates knowledge about the volunteering process and requirements, reflecting high competence.",1,0,False,0.71337890625
+  explanation: EE shares personal experiences and engages in a friendly manner, indicating high warmth. EE also demonstrates knowledge about the volunteering process and requirements, reflecting high competence.",1,0,False,0.7099609375
 20180723-103902_895_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2286,7 +2286,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing interest in donating to charities and gratitude for the information provided. Their competence is high as they ask relevant questions to understand the organization better and seek further information by requesting the website.",0,1,False,0.95068359375
+  explanation: EE shows high warmth by expressing interest in donating to charities and gratitude for the information provided. Their competence is high as they ask relevant questions to understand the organization better and seek further information by requesting the website.",0,1,False,0.9521484375
 20180723-113700_19_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2311,7 +2311,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE displays high warmth by reciprocating ER’s inquiries about well-being and expressing interest in the charity. EE also shows high competence by being informed about the charity and engaging in the conversation with relevant responses.",1,1,True,0.59326171875
+  explanation: EE displays high warmth by reciprocating ER’s inquiries about well-being and expressing interest in the charity. EE also shows high competence by being informed about the charity and engaging in the conversation with relevant responses.",1,1,True,0.59814453125
 20180808-001810_178_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2339,7 +2339,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE shows high warmth through shared empathy and support for the charity's cause. However, their competence is low as they express uncertainty about the charity's specifics and mention not having donated before, indicating less direct involvement or knowledge.",0,0,True,0.7021484375
+  explanation: EE shows high warmth through shared empathy and support for the charity's cause. However, their competence is low as they express uncertainty about the charity's specifics and mention not having donated before, indicating less direct involvement or knowledge.",0,0,True,0.69775390625
 20180808-020257_457_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2364,7 +2364,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: User2 shows high warmth by reciprocating polite conversation and sharing personal charitable activities. Their competence is high, as they express awareness of various charities and a willingness to learn more about new ones.",1,1,True,0.75634765625
+  explanation: User2 shows high warmth by reciprocating polite conversation and sharing personal charitable activities. Their competence is high, as they express awareness of various charities and a willingness to learn more about new ones.",1,1,True,0.76708984375
 20180808-022730_384_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2389,7 +2389,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing empathy and concern for the situation. Their competence is high as they inquire about charities and suggest a specific amount that could help, indicating knowledge and a proactive approach to addressing the issue.",0,0,True,0.52880859375
+  explanation: EE shows high warmth by expressing empathy and concern for the situation. Their competence is high as they inquire about charities and suggest a specific amount that could help, indicating knowledge and a proactive approach to addressing the issue.",0,0,True,0.52587890625
 20180808-063034_444_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2416,7 +2416,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE reciprocates the friendly tone, asks questions, and laughs, indicating high warmth. However, EE expresses confusion about the conversation's purpose and seems unsure about the context, suggesting lower competence.",0,0,True,0.68212890625
+  explanation: EE reciprocates the friendly tone, asks questions, and laughs, indicating high warmth. However, EE expresses confusion about the conversation's purpose and seems unsure about the context, suggesting lower competence.",0,0,True,0.6689453125
 20180808-064212_144_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2436,7 +2436,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing interest in the charity's work and concern about donation efficacy. Their competence is high as they ask relevant questions to understand the charity's scope and effectiveness before making a decision.",0,0,True,0.693359375
+  explanation: EE shows high warmth by expressing interest in the charity's work and concern about donation efficacy. Their competence is high as they ask relevant questions to understand the charity's scope and effectiveness before making a decision.",0,0,True,0.6943359375
 20180808-065307_529_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2459,7 +2459,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: User2 reciprocates the greeting and expresses understanding, showing warmth. They inquire about the charity, indicating an interest in learning more, which reflects competence.",0,0,True,0.939453125
+  explanation: User2 reciprocates the greeting and expresses understanding, showing warmth. They inquire about the charity, indicating an interest in learning more, which reflects competence.",0,0,True,0.94189453125
 20180824-015242_301_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2480,7 +2480,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: User2 responds warmly by asking about User1's well-being and shows competence by actively participating in the discussion about the donation amount, despite a minor typo. They correct themselves, indicating attention to detail and engagement.",0,0,True,0.9052734375
+  explanation: User2 responds warmly by asking about User1's well-being and shows competence by actively participating in the discussion about the donation amount, despite a minor typo. They correct themselves, indicating attention to detail and engagement.",0,0,True,0.90234375
 20180824-130121_505_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2504,7 +2504,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds politely and shows genuine interest in the charity discussion, indicating high warmth. They demonstrate competence by actively engaging with the information provided and considering a donation despite financial constraints.",1,0,False,0.931640625
+  explanation: EE responds politely and shows genuine interest in the charity discussion, indicating high warmth. They demonstrate competence by actively engaging with the information provided and considering a donation despite financial constraints.",1,0,False,0.93212890625
 20180825-052611_640_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2526,7 +2526,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE demonstrates high warmth by showing interest in learning more about the charity, suggesting a willingness to engage positively. Their competence is high as they ask relevant questions that highlight the need for transparency and information before making a donation decision.",0,1,False,0.716796875
+  explanation: EE demonstrates high warmth by showing interest in learning more about the charity, suggesting a willingness to engage positively. Their competence is high as they ask relevant questions that highlight the need for transparency and information before making a donation decision.",0,1,False,0.71630859375
 20180825-073813_141_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2551,7 +2551,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE shows high warmth by expressing interest and asking questions about the organization, indicating a willingness to learn. However, their competence appears low due to a lack of prior knowledge about the organization and reliance on ER for information.",0,0,True,0.62744140625
+  explanation: EE shows high warmth by expressing interest and asking questions about the organization, indicating a willingness to learn. However, their competence appears low due to a lack of prior knowledge about the organization and reliance on ER for information.",0,0,True,0.60498046875
 20180825-075658_709_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2607,7 +2607,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE demonstrates high warmth by responding positively and showing understanding when ER makes errors. Their competence is also high, as they ask clarifying questions and engage thoughtfully with the information provided, despite their limited financial capacity to donate.",1,1,True,0.580078125
+  explanation: EE demonstrates high warmth by responding positively and showing understanding when ER makes errors. Their competence is also high, as they ask clarifying questions and engage thoughtfully with the information provided, despite their limited financial capacity to donate.",1,1,True,0.58056640625
 20180825-080802_964_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2637,7 +2637,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE displays high warmth by engaging in the conversation with interest and expressing a willingness to learn more and potentially donate. EE's competence is high, as evidenced by their thoughtful questions and consideration of additional information before making a decision.",1,0,False,0.96826171875
+  explanation: EE displays high warmth by engaging in the conversation with interest and expressing a willingness to learn more and potentially donate. EE's competence is high, as evidenced by their thoughtful questions and consideration of additional information before making a decision.",1,0,False,0.9677734375
 20180825-084254_215_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2665,7 +2665,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE exhibits high warmth by expressing willingness to donate and engaging positively in the conversation. Their competence is high as they ask relevant questions and agree to a practical solution, showing understanding and thoughtful engagement.",1,1,True,0.97412109375
+  explanation: EE exhibits high warmth by expressing willingness to donate and engaging positively in the conversation. Their competence is high as they ask relevant questions and agree to a practical solution, showing understanding and thoughtful engagement.",1,1,True,0.974609375
 20180825-112434_860_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2693,7 +2693,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE exhibits high warmth by expressing interest and positive sentiment towards the charity. EE's competence is high as they ask relevant questions and express thoughtful consideration about donating, indicating an understanding of the topic and a desire for more information.",0,0,True,0.60009765625
+  explanation: EE exhibits high warmth by expressing interest and positive sentiment towards the charity. EE's competence is high as they ask relevant questions and express thoughtful consideration about donating, indicating an understanding of the topic and a desire for more information.",0,0,True,0.595703125
 20180826-053811_708_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2719,7 +2719,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by agreeing with ER and sharing their own charitable actions, indicating empathy and community involvement. Their competence is high as they consistently participate in organized charitable activities, demonstrating reliability and effectiveness.",1,0,False,0.658203125
+  explanation: EE shows high warmth by agreeing with ER and sharing their own charitable actions, indicating empathy and community involvement. Their competence is high as they consistently participate in organized charitable activities, demonstrating reliability and effectiveness.",1,0,False,0.6630859375
 20180826-061500_476_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2740,7 +2740,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing interest in charitable causes and considering donations. Their competence is high as they engage thoughtfully, ask relevant questions, and suggest alternative charities, indicating an understanding of the broader context of charitable needs.",0,0,True,0.52783203125
+  explanation: EE shows high warmth by expressing interest in charitable causes and considering donations. Their competence is high as they engage thoughtfully, ask relevant questions, and suggest alternative charities, indicating an understanding of the broader context of charitable needs.",0,0,True,0.52490234375
 20180826-062356_655_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2762,7 +2762,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds politely and shows interest in ER's topic, indicating high warmth. EE asks clarifying questions to understand ER's statements better, demonstrating high competence in communication.",0,0,True,0.55859375
+  explanation: EE responds politely and shows interest in ER's topic, indicating high warmth. EE asks clarifying questions to understand ER's statements better, demonstrating high competence in communication.",0,0,True,0.541015625
 20180826-064412_288_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2785,7 +2785,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing appreciation for ER's honesty and engaging in a considerate manner. Their competence is high as they thoughtfully consider the proposal and respond with understanding, indicating a capacity for reflection and decision-making.",0,0,True,0.5029296875
+  explanation: EE shows high warmth by expressing appreciation for ER's honesty and engaging in a considerate manner. Their competence is high as they thoughtfully consider the proposal and respond with understanding, indicating a capacity for reflection and decision-making.",0,0,True,0.5078125
 20180826-072151_442_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2809,7 +2809,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE expresses concern and empathy by asking questions and showing interest in ER's story, indicating high warmth. However, EE's responses lack depth or follow-up, suggesting lower competence in engaging with the situation effectively.",1,0,False,0.6435546875
+  explanation: EE expresses concern and empathy by asking questions and showing interest in ER's story, indicating high warmth. However, EE's responses lack depth or follow-up, suggesting lower competence in engaging with the situation effectively.",1,0,False,0.6474609375
 20180826-175345_318_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2835,7 +2835,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing interest and enthusiasm in ER's suggestions. Their competence is high as they ask informed questions and engage in a meaningful dialogue about the charity and sponsorship details.",0,0,True,0.52197265625
+  explanation: EE shows high warmth by expressing interest and enthusiasm in ER's suggestions. Their competence is high as they ask informed questions and engage in a meaningful dialogue about the charity and sponsorship details.",0,0,True,0.51171875
 20180826-181249_805_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2856,7 +2856,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: low
-  explanation: EE exhibits low warmth, responding minimally and without enthusiasm to ER's appeals. Their competence appears low due to the lack of engagement or thoughtful contribution to the conversation, indicating a disinterest or lack of understanding.",0,0,True,0.70849609375
+  explanation: EE exhibits low warmth, responding minimally and without enthusiasm to ER's appeals. Their competence appears low due to the lack of engagement or thoughtful contribution to the conversation, indicating a disinterest or lack of understanding.",0,0,True,0.70751953125
 20180826-181903_395_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2881,7 +2881,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE shows high warmth by expressing a desire to help children and acknowledging the importance of aid. However, their competence appears low as they provide limited information and initially avoid answering ER's question about prior experience.",0,0,True,0.802734375
+  explanation: EE shows high warmth by expressing a desire to help children and acknowledging the importance of aid. However, their competence appears low as they provide limited information and initially avoid answering ER's question about prior experience.",0,0,True,0.80517578125
 20180826-182048_519_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2902,7 +2902,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE demonstrates high warmth by initiating the conversation with a friendly greeting and sharing personal charitable activities. Their competence is high, as they articulate their long-term commitment to sponsoring a child and engage ER in a discussion about charitable organizations.",0,0,True,0.75048828125
+  explanation: EE demonstrates high warmth by initiating the conversation with a friendly greeting and sharing personal charitable activities. Their competence is high, as they articulate their long-term commitment to sponsoring a child and engage ER in a discussion about charitable organizations.",0,0,True,0.74951171875
 20180826-204907_535_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2929,7 +2929,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE displays high warmth through polite responses, agreement, and shared values regarding the importance of children. However, EE's competence appears low as they lack prior knowledge about the charity and rely on ER for information, indicating limited expertise in the subject discussed.",1,1,True,0.5361328125
+  explanation: EE displays high warmth through polite responses, agreement, and shared values regarding the importance of children. However, EE's competence appears low as they lack prior knowledge about the charity and rely on ER for information, indicating limited expertise in the subject discussed.",1,1,True,0.5419921875
 20180827-051440_378_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -2956,7 +2956,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: low
-  explanation: User2's responses are brief and lack engagement, showing minimal emotional involvement or empathy. They do not contribute additional information or solutions, suggesting a lack of initiative or understanding, which reflects low competence.",0,1,False,0.869140625
+  explanation: User2's responses are brief and lack engagement, showing minimal emotional involvement or empathy. They do not contribute additional information or solutions, suggesting a lack of initiative or understanding, which reflects low competence.",0,1,False,0.87255859375
 20180828-165639_960_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3000,7 +3000,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE maintains a high level of warmth by expressing interest and asking questions rather than outright rejecting ER's request. EE's competence is high as they critically evaluate the situation, seeking more information and comparing options before making a decision.",1,1,True,0.61376953125
+  explanation: EE maintains a high level of warmth by expressing interest and asking questions rather than outright rejecting ER's request. EE's competence is high as they critically evaluate the situation, seeking more information and comparing options before making a decision.",1,1,True,0.62060546875
 20180903-145436_470_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3020,7 +3020,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: User2 responds warmly with a friendly greeting and engages in the conversation, indicating high warmth. However, they express uncertainty about their dreams and ask for clarification on the topic, suggesting lower competence in this context.",0,0,True,0.8798828125
+  explanation: User2 responds warmly with a friendly greeting and engages in the conversation, indicating high warmth. However, they express uncertainty about their dreams and ask for clarification on the topic, suggesting lower competence in this context.",0,0,True,0.87841796875
 20180904-025026_901_live,3,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3073,7 +3073,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: low
-  explanation: EE's responses are brief and somewhat dismissive, showing limited engagement and interest, which may be perceived as lacking warmth and competence.",0,0,True,0.98974609375
+  explanation: EE's responses are brief and somewhat dismissive, showing limited engagement and interest, which may be perceived as lacking warmth and competence.",0,0,True,0.986328125
 20180719-211253_768_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3102,7 +3102,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds positively and engages in the conversation with openness, reflecting high warmth. EE also shares personal experiences and reciprocates questions, demonstrating competence in maintaining a balanced and insightful dialogue.",1,0,False,0.88037109375
+  explanation: EE responds positively and engages in the conversation with openness, reflecting high warmth. EE also shares personal experiences and reciprocates questions, demonstrating competence in maintaining a balanced and insightful dialogue.",1,0,False,0.8125
 20180719-211301_463_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3130,7 +3130,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing sadness about the situation and a desire to help. EE's competence is high, as they actively engage in the conversation, ask relevant questions, and share their own charitable experiences.",0,1,False,0.68017578125
+  explanation: EE shows high warmth by expressing sadness about the situation and a desire to help. EE's competence is high, as they actively engage in the conversation, ask relevant questions, and share their own charitable experiences.",0,1,False,0.74658203125
 20180723-034654_121_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3153,7 +3153,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: moderate
   competence: moderate
-  explanation: EE shows moderate warmth by participating in the conversation and expressing some interest in social issues. Their competence is moderate, as they acknowledge familiarity with well-known organizations but provide limited detail or initiative in their responses.",0,0,True,0.51318359375
+  explanation: EE shows moderate warmth by participating in the conversation and expressing some interest in social issues. Their competence is moderate, as they acknowledge familiarity with well-known organizations but provide limited detail or initiative in their responses.",0,0,True,0.75537109375
 20180723-042421_113_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3177,7 +3177,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth through genuine interest in understanding how the organization helps children. Competence is high, as EE asks specific, relevant questions to gather detailed information, demonstrating analytical thinking and a desire to comprehend the situation fully.",0,0,True,0.66943359375
+  explanation: EE shows high warmth through genuine interest in understanding how the organization helps children. Competence is high, as EE asks specific, relevant questions to gather detailed information, demonstrating analytical thinking and a desire to comprehend the situation fully.",0,0,True,0.83251953125
 20180723-074147_879_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3204,7 +3204,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE displays high warmth by sharing personal feelings and showing interest in the conversation about children. However, EE's competence appears low as they do not provide detailed responses or solutions, focusing more on emotional reactions.",0,1,False,0.9873046875
+  explanation: EE displays high warmth by sharing personal feelings and showing interest in the conversation about children. However, EE's competence appears low as they do not provide detailed responses or solutions, focusing more on emotional reactions.",0,1,False,0.98486328125
 20180723-080158_200_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3229,7 +3229,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds positively and engages in the conversation with empathy, expressing sadness about the issues discussed. Their willingness to participate and express genuine concern indicates high warmth, while their articulate responses suggest high competence.",0,0,True,0.91162109375
+  explanation: EE responds positively and engages in the conversation with empathy, expressing sadness about the issues discussed. Their willingness to participate and express genuine concern indicates high warmth, while their articulate responses suggest high competence.",0,0,True,0.9501953125
 20180723-105210_403_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3258,7 +3258,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by responding positively to ER's suggestions and increasing their donation. EE's competence is high, as they engage with the information provided and make informed decisions based on new insights.",0,0,True,0.591796875
+  explanation: EE shows high warmth by responding positively to ER's suggestions and increasing their donation. EE's competence is high, as they engage with the information provided and make informed decisions based on new insights.",0,0,True,0.544921875
 20180723-122005_335_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3278,7 +3278,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by engaging in the conversation with interest and acknowledging the importance of the charity's work. EE's competence is high as they inquire about the charity's trustworthiness, suggesting a thoughtful and discerning approach to evaluating organizations.",0,0,True,0.6064453125
+  explanation: EE shows high warmth by engaging in the conversation with interest and acknowledging the importance of the charity's work. EE's competence is high as they inquire about the charity's trustworthiness, suggesting a thoughtful and discerning approach to evaluating organizations.",0,0,True,0.60498046875
 20180808-013755_350_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3303,7 +3303,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE responds with a friendly greeting and shows willingness to help, indicating warmth. However, their responses are brief and lack detail, which may suggest lower competence in driving the conversation or providing substantial information.",1,0,False,0.68798828125
+  explanation: EE responds with a friendly greeting and shows willingness to help, indicating warmth. However, their responses are brief and lack detail, which may suggest lower competence in driving the conversation or providing substantial information.",1,0,False,0.93408203125
 20180808-030338_328_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3327,7 +3327,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: low
-  explanation: EE's warmth is low due to their brief and somewhat dismissive responses, lacking engagement or empathy. Their competence is also low, as they do not provide any substantial information or insight into the topic, relying on minimal acknowledgment without elaboration.",0,1,False,0.6455078125
+  explanation: EE's warmth is low due to their brief and somewhat dismissive responses, lacking engagement or empathy. Their competence is also low, as they do not provide any substantial information or insight into the topic, relying on minimal acknowledgment without elaboration.",0,0,True,0.59912109375
 20180808-032041_562_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3349,7 +3349,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE agrees with ER's positive view of the charity, showing high warmth. They also share their donation habits, demonstrating an understanding of personal financial management and charitable giving, indicating high competence.",0,0,True,0.6787109375
+  explanation: EE agrees with ER's positive view of the charity, showing high warmth. They also share their donation habits, demonstrating an understanding of personal financial management and charitable giving, indicating high competence.",0,0,True,0.8271484375
 20180808-034448_815_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3375,7 +3375,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE shows high warmth by expressing empathy and a willingness to help, indicating a caring attitude. However, EE's competence appears low, as they admit to not thinking about these issues and provide minimal input beyond agreeing with ER's points.",0,0,True,0.6044921875
+  explanation: EE shows high warmth by expressing empathy and a willingness to help, indicating a caring attitude. However, EE's competence appears low, as they admit to not thinking about these issues and provide minimal input beyond agreeing with ER's points.",0,0,True,0.6552734375
 20180808-052501_689_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3396,7 +3396,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: low
-  explanation: EE shows low warmth by focusing on personal connections and expressing skepticism about the request. Their competence appears low due to misunderstanding the type of donation being requested and not engaging constructively with the information provided by ER.",1,1,True,0.71728515625
+  explanation: EE shows low warmth by focusing on personal connections and expressing skepticism about the request. Their competence appears low due to misunderstanding the type of donation being requested and not engaging constructively with the information provided by ER.",1,1,True,0.59033203125
 20180824-022557_24_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3419,7 +3419,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE shows high warmth through polite and positive responses, expressing enthusiasm and congratulations. However, their competence appears low as they contribute minimally to the conversation and do not provide additional information or insights.",0,1,False,0.9658203125
+  explanation: EE shows high warmth through polite and positive responses, expressing enthusiasm and congratulations. However, their competence appears low as they contribute minimally to the conversation and do not provide additional information or insights.",0,1,False,0.943359375
 20180825-043516_619_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3446,7 +3446,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE displays warmth by engaging positively and expressing interest in helping. Their competence is evident in their willingness to learn and contribute, as well as in their proactive approach to asking relevant questions about the charity.",0,1,False,0.52734375
+  explanation: EE displays warmth by engaging positively and expressing interest in helping. Their competence is evident in their willingness to learn and contribute, as well as in their proactive approach to asking relevant questions about the charity.",0,0,True,0.568359375
 20180825-044358_663_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3470,7 +3470,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: low
-  explanation: EE's responses lack warmth, as they focus on skepticism and transactional aspects rather than empathy. Their competence appears low due to the informal language and lack of engagement with the information provided by ER.",0,0,True,0.75341796875
+  explanation: EE's responses lack warmth, as they focus on skepticism and transactional aspects rather than empathy. Their competence appears low due to the informal language and lack of engagement with the information provided by ER.",0,0,True,0.78369140625
 20180825-045559_409_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3490,7 +3490,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds positively and openly, indicating high warmth. EE's willingness to consider donating and the thoughtful engagement with ER's questions suggest high competence in understanding and processing the conversation's implications.",0,0,True,0.66259765625
+  explanation: EE responds positively and openly, indicating high warmth. EE's willingness to consider donating and the thoughtful engagement with ER's questions suggest high competence in understanding and processing the conversation's implications.",0,1,False,0.580078125
 20180825-060251_387_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3542,7 +3542,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE responds politely and reciprocates the inquiry about ER's well-being, showing high warmth. However, EE shows a lack of knowledge about the charity and does not provide additional information or insights, indicating low competence.",0,0,True,0.77587890625
+  explanation: EE responds politely and reciprocates the inquiry about ER's well-being, showing high warmth. However, EE shows a lack of knowledge about the charity and does not provide additional information or insights, indicating low competence.",0,0,True,0.8564453125
 20180825-064001_264_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3566,7 +3566,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE shows high warmth through agreement and empathetic responses to ER's concerns about children. However, their competence appears low as they mainly express emotional reactions and ask questions without contributing additional information or solutions.",1,0,False,0.80224609375
+  explanation: EE shows high warmth through agreement and empathetic responses to ER's concerns about children. However, their competence appears low as they mainly express emotional reactions and ask questions without contributing additional information or solutions.",1,0,False,0.83056640625
 20180825-074318_984_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3619,7 +3619,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE exhibits high warmth by expressing interest in donating and asking thoughtful questions, indicating a caring attitude. Competence is high as well, as EE engages in the conversation with relevant inquiries, demonstrating an understanding of the topic and a desire for deeper insight.",0,0,True,0.75732421875
+  explanation: EE exhibits high warmth by expressing interest in donating and asking thoughtful questions, indicating a caring attitude. Competence is high as well, as EE engages in the conversation with relevant inquiries, demonstrating an understanding of the topic and a desire for deeper insight.",0,0,True,0.71142578125
 20180825-092012_333_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3641,7 +3641,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE demonstrates high warmth by expressing a willingness to learn more and showing concern for the effectiveness of the charity. Their competence is high, as they ask pertinent questions and provide examples of reputable charities, indicating a thoughtful and informed approach to charitable giving.",0,0,True,0.74951171875
+  explanation: EE demonstrates high warmth by expressing a willingness to learn more and showing concern for the effectiveness of the charity. Their competence is high, as they ask pertinent questions and provide examples of reputable charities, indicating a thoughtful and informed approach to charitable giving.",0,0,True,0.72216796875
 20180825-111850_152_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3670,7 +3670,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE displays high warmth through their enthusiastic and supportive responses, expressing interest and admiration for the charity's work. However, their competence is low as they admit to having limited knowledge about the organization and rely on ER for information.",0,1,False,0.70654296875
+  explanation: EE displays high warmth through their enthusiastic and supportive responses, expressing interest and admiration for the charity's work. However, their competence is low as they admit to having limited knowledge about the organization and rely on ER for information.",0,1,False,0.66748046875
 20180826-013831_953_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3693,7 +3693,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing interest in the cause and willingness to learn more. Their competence is high as they ask relevant questions about the charity and tax implications, indicating a thoughtful and informed approach to the conversation.",1,1,True,0.54931640625
+  explanation: EE shows high warmth by expressing interest in the cause and willingness to learn more. Their competence is high as they ask relevant questions about the charity and tax implications, indicating a thoughtful and informed approach to the conversation.",1,1,True,0.7607421875
 20180826-023807_40_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3724,7 +3724,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE exhibits high warmth by expressing interest in the welfare of children and acknowledging the importance of small contributions. Their competence is high as they ask insightful questions about transparency and ratings, indicating a thoughtful approach to charitable giving.",1,0,False,0.64111328125
+  explanation: EE exhibits high warmth by expressing interest in the welfare of children and acknowledging the importance of small contributions. Their competence is high as they ask insightful questions about transparency and ratings, indicating a thoughtful approach to charitable giving.",1,0,False,0.5439453125
 20180826-060201_521_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3746,7 +3746,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE shows high warmth by engaging politely and expressing agreement with ER's points. However, EE's competence appears low due to a lack of prior knowledge about the organization and reliance on ER for information.",0,0,True,0.75732421875
+  explanation: EE shows high warmth by engaging politely and expressing agreement with ER's points. However, EE's competence appears low due to a lack of prior knowledge about the organization and reliance on ER for information.",0,1,False,0.61181640625
 20180826-173836_197_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3771,7 +3771,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by responding positively and expressing interest in the charity. Their competence is high as well, as they engage in the conversation thoughtfully and acknowledge the importance of the charity's mission, despite their personal stance on donations.",0,1,False,0.66650390625
+  explanation: EE shows high warmth by responding positively and expressing interest in the charity. Their competence is high as well, as they engage in the conversation thoughtfully and acknowledge the importance of the charity's mission, despite their personal stance on donations.",0,1,False,0.72216796875
 20180826-174957_757_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3792,7 +3792,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE agrees with ER and emphasizes the importance of funding for children, reflecting high warmth. They also ask insightful questions and affirm the need for support, indicating a high level of competence in understanding and discussing the issue.",1,1,True,0.55029296875
+  explanation: EE agrees with ER and emphasizes the importance of funding for children, reflecting high warmth. They also ask insightful questions and affirm the need for support, indicating a high level of competence in understanding and discussing the issue.",1,0,False,0.8759765625
 20180826-175706_443_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3817,7 +3817,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE displays high warmth by expressing interest in helping children and considering a donation. Their competence is also high, as they emphasize the importance of researching an organization thoroughly before making a financial commitment, indicating a thoughtful and informed approach.",0,0,True,0.70703125
+  explanation: EE displays high warmth by expressing interest in helping children and considering a donation. Their competence is also high, as they emphasize the importance of researching an organization thoroughly before making a financial commitment, indicating a thoughtful and informed approach.",0,0,True,0.62841796875
 20180826-180009_407_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3841,7 +3841,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE responds positively and shows willingness to learn, indicating high warmth. However, their limited engagement and lack of detailed contributions suggest lower competence in the context of the conversation.",0,0,True,0.76318359375
+  explanation: EE responds positively and shows willingness to learn, indicating high warmth. However, their limited engagement and lack of detailed contributions suggest lower competence in the context of the conversation.",0,0,True,0.76953125
 20180826-194841_403_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3874,7 +3874,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds positively and engages in the conversation with openness. EE shares personal experiences and actions related to charity, indicating competence in understanding and acting on social issues. EE's willingness to share personal stories and express interest in the topic reflects high warmth.",1,0,False,0.94091796875
+  explanation: EE responds positively and engages in the conversation with openness. EE shares personal experiences and actions related to charity, indicating competence in understanding and acting on social issues. EE's willingness to share personal stories and express interest in the topic reflects high warmth.",1,0,False,0.8798828125
 20180827-021816_456_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3900,7 +3900,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE shows high warmth by expressing a shared interest in helping children and agreeing with ER's sentiments. However, EE's competence appears low due to grammatical errors and a lack of detailed knowledge about the charity, which suggests limited familiarity.",1,0,False,0.95947265625
+  explanation: EE shows high warmth by expressing a shared interest in helping children and agreeing with ER's sentiments. However, EE's competence appears low due to grammatical errors and a lack of detailed knowledge about the charity, which suggests limited familiarity.",1,0,False,0.9580078125
 20180827-034056_964_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3923,7 +3923,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: high
-  explanation: User2 exhibits low warmth by disagreeing abruptly and prioritizing local needs over a global cause, which may come across as dismissive. Their competence is high, as they clearly articulate their awareness and opinion about the organization and local issues.",0,0,True,0.7109375
+  explanation: User2 exhibits low warmth by disagreeing abruptly and prioritizing local needs over a global cause, which may come across as dismissive. Their competence is high, as they clearly articulate their awareness and opinion about the organization and local issues.",0,0,True,0.552734375
 20180827-035202_980_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3951,7 +3951,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: low
-  explanation: EE exhibits low warmth by being dismissive and uninterested in the information provided. EE's competence appears low as they do not engage deeply with the conversation or show understanding of the organization's work.",0,0,True,0.9921875
+  explanation: EE exhibits low warmth by being dismissive and uninterested in the information provided. EE's competence appears low as they do not engage deeply with the conversation or show understanding of the organization's work.",0,0,True,0.9892578125
 20180827-050740_909_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3977,7 +3977,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: high
-  explanation: EE responds briefly and does not reciprocate the initial greeting, suggesting lower warmth. However, EE provides a clear and honest explanation of their financial situation and charitable preferences, indicating high competence in communicating personal circumstances.",0,1,False,0.84033203125
+  explanation: EE responds briefly and does not reciprocate the initial greeting, suggesting lower warmth. However, EE provides a clear and honest explanation of their financial situation and charitable preferences, indicating high competence in communicating personal circumstances.",0,0,True,0.58935546875
 20180827-053243_818_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4008,7 +4008,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE exhibits high warmth by expressing interest in the charity and sharing personal experiences of helping others, which shows empathy and community spirit. EE also displays high competence by indicating a need to verify information before donating, reflecting a thoughtful and discerning approach.",0,1,False,0.98779296875
+  explanation: EE exhibits high warmth by expressing interest in the charity and sharing personal experiences of helping others, which shows empathy and community spirit. EE also displays high competence by indicating a need to verify information before donating, reflecting a thoughtful and discerning approach.",0,1,False,0.98388671875
 20180828-151914_101_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4028,7 +4028,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: high
-  explanation: EE's warmth is perceived as low due to their direct and transactional approach, which lacks expressions of empathy or personal connection. However, their competence is high as they ask specific, relevant questions that show critical thinking and a desire to understand the implications of the donation.",1,1,True,0.78173828125
+  explanation: EE's warmth is perceived as low due to their direct and transactional approach, which lacks expressions of empathy or personal connection. However, their competence is high as they ask specific, relevant questions that show critical thinking and a desire to understand the implications of the donation.",1,1,True,0.73095703125
 20180902-222227_892_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4053,7 +4053,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds politely and shows awareness of the charity, indicating competence. They also express interest in learning more, which suggests openness and warmth. Their engagement in the conversation is constructive and supportive.",1,0,False,0.91943359375
+  explanation: EE responds politely and shows awareness of the charity, indicating competence. They also express interest in learning more, which suggests openness and warmth. Their engagement in the conversation is constructive and supportive.",1,0,False,0.95654296875
 20180904-045349_715_live,4,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4080,7 +4080,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds promptly and reciprocates the friendly tone, demonstrating high warmth. Their ability to engage in the conversation and provide relevant information about themselves indicates high competence.",0,0,True,0.81640625
+  explanation: EE responds promptly and reciprocates the friendly tone, demonstrating high warmth. Their ability to engage in the conversation and provide relevant information about themselves indicates high competence.",0,0,True,0.9580078125
 20180719-120436_413_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4105,7 +4105,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing appreciation for the charity's existence and acknowledging the importance of donations. Their competence is high as they engage in the conversation with relevant questions and affirmations, indicating understanding and interest.",0,1,False,0.84765625
+  explanation: EE shows high warmth by expressing appreciation for the charity's existence and acknowledging the importance of donations. Their competence is high as they engage in the conversation with relevant questions and affirmations, indicating understanding and interest.",0,1,False,0.88134765625
 20180723-042226_724_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4135,7 +4135,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds positively and reciprocates personal sharing, showing interest in ER's topics, indicating high warmth. EE also shows awareness of charitable activities and expresses interest in learning more, suggesting high competence.",1,1,True,0.99462890625
+  explanation: EE responds positively and reciprocates personal sharing, showing interest in ER's topics, indicating high warmth. EE also shows awareness of charitable activities and expresses interest in learning more, suggesting high competence.",1,1,True,0.9970703125
 20180723-061928_535_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4159,7 +4159,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing interest in donating and discussing the importance of children's welfare. EE's competence is high, as evidenced by clear communication and the ability to engage in a meaningful discussion about charity involvement.",1,1,True,0.802734375
+  explanation: EE shows high warmth by expressing interest in donating and discussing the importance of children's welfare. EE's competence is high, as evidenced by clear communication and the ability to engage in a meaningful discussion about charity involvement.",1,1,True,0.7587890625
 20180723-070336_48_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4183,7 +4183,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds positively and engages in the conversation, showing openness and willingness to discuss personal experiences, which indicates high warmth. EE's ability to articulate their past experiences and readiness to engage in a meaningful discussion reflects high competence.",0,1,False,0.50341796875
+  explanation: EE responds positively and engages in the conversation, showing openness and willingness to discuss personal experiences, which indicates high warmth. EE's ability to articulate their past experiences and readiness to engage in a meaningful discussion reflects high competence.",0,1,False,0.53759765625
 20180723-120746_371_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4207,7 +4207,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing interest in the organization and acknowledging its positive impact. Their competence is high as they ask relevant questions about the organization’s background, indicating a thoughtful and informed approach to the conversation.",0,1,False,0.9921875
+  explanation: EE shows high warmth by expressing interest in the organization and acknowledging its positive impact. Their competence is high as they ask relevant questions about the organization’s background, indicating a thoughtful and informed approach to the conversation.",0,1,False,0.9794921875
 20180808-030454_242_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4234,7 +4234,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: User2 shows high warmth through their interest in charitable activities and positive reactions to the information shared. However, their competence appears low due to limited knowledge about the charity and general inquiries about its operations.",1,1,True,0.869140625
+  explanation: User2 shows high warmth through their interest in charitable activities and positive reactions to the information shared. However, their competence appears low due to limited knowledge about the charity and general inquiries about its operations.",1,1,True,0.93798828125
 20180808-032124_114_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4260,7 +4260,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: high
-  explanation: EE maintains a firm stance on personal financial decisions, showing low warmth due to a lack of empathy in the context of the conversation. However, their clear reasoning and regular charitable contributions indicate high competence.",0,1,False,0.8203125
+  explanation: EE maintains a firm stance on personal financial decisions, showing low warmth due to a lack of empathy in the context of the conversation. However, their clear reasoning and regular charitable contributions indicate high competence.",0,1,False,0.72607421875
 20180808-032545_201_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4283,7 +4283,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: User2 engages politely and shows interest in the topic, indicating high warmth. They ask relevant questions and express a thoughtful opinion, demonstrating high competence in the conversation.",0,0,True,0.63623046875
+  explanation: User2 engages politely and shows interest in the topic, indicating high warmth. They ask relevant questions and express a thoughtful opinion, demonstrating high competence in the conversation.",0,1,False,0.50537109375
 20180808-035715_390_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4337,7 +4337,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: high
-  explanation: EE exhibits low warmth by being cautious and somewhat skeptical about the donation request, focusing more on obtaining specific information. However, they show high competence by asking clarifying questions and seeking detailed information about the organization before making a decision.",1,0,False,0.99658203125
+  explanation: EE exhibits low warmth by being cautious and somewhat skeptical about the donation request, focusing more on obtaining specific information. However, they show high competence by asking clarifying questions and seeking detailed information about the organization before making a decision.",1,0,False,0.99365234375
 20180808-050533_601_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4364,7 +4364,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing empathy towards the plight of children and engaging in the conversation with genuine interest. Their competence is high as they ask insightful questions about the organization's operations and express a thoughtful concern about donation transparency.",0,0,True,0.9482421875
+  explanation: EE shows high warmth by expressing empathy towards the plight of children and engaging in the conversation with genuine interest. Their competence is high as they ask insightful questions about the organization's operations and express a thoughtful concern about donation transparency.",0,0,True,0.90869140625
 20180808-064649_236_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4386,7 +4386,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: User2 maintains a polite and engaging tone, asking questions and expressing interest, which indicates high warmth. Their competence is high as they actively seek information and express a clear intention to donate.",0,1,False,0.6005859375
+  explanation: User2 maintains a polite and engaging tone, asking questions and expressing interest, which indicates high warmth. Their competence is high as they actively seek information and express a clear intention to donate.",0,1,False,0.6376953125
 20180824-020419_695_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4408,7 +4408,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing interest in the charity and acknowledging its noble cause. Their competence is high as they engage with relevant questions and demonstrate awareness of the charity, indicating understanding and attentiveness.",1,1,True,0.57568359375
+  explanation: EE shows high warmth by expressing interest in the charity and acknowledging its noble cause. Their competence is high as they engage with relevant questions and demonstrate awareness of the charity, indicating understanding and attentiveness.",1,1,True,0.5556640625
 20180824-023730_85_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4429,7 +4429,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: User2 responds politely and expresses interest in personal topics, showing friendliness. However, their responses are brief and lack depth, indicating limited engagement or expertise in the conversation's subject matter.",0,1,False,0.849609375
+  explanation: User2 responds politely and expresses interest in personal topics, showing friendliness. However, their responses are brief and lack depth, indicating limited engagement or expertise in the conversation's subject matter.",0,1,False,0.86669921875
 20180825-054948_621_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4458,7 +4458,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE shows high warmth by engaging politely and expressing interest in learning more. However, their competence is low as they express a lack of knowledge about the charity and ask basic questions, indicating limited understanding.",1,0,False,0.9677734375
+  explanation: EE shows high warmth by engaging politely and expressing interest in learning more. However, their competence is low as they express a lack of knowledge about the charity and ask basic questions, indicating limited understanding.",1,0,False,0.95703125
 20180825-055034_34_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4480,7 +4480,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: high
-  explanation: EE's warmth is low due to their direct and somewhat skeptical questioning, which lacks expressions of empathy or friendliness. However, EE shows high competence by asking specific, relevant questions about the financial aspects of the donation, indicating a thoughtful and analytical approach.",0,1,False,0.68603515625
+  explanation: EE's warmth is low due to their direct and somewhat skeptical questioning, which lacks expressions of empathy or friendliness. However, EE shows high competence by asking specific, relevant questions about the financial aspects of the donation, indicating a thoughtful and analytical approach.",0,1,False,0.86376953125
 20180825-063009_943_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4504,7 +4504,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: low
   competence: high
-  explanation: EE exhibits low warmth by focusing on personal financial priorities and skepticism about the charity. However, EE shows high competence by articulating a clear rationale for their decision, asking pertinent questions, and demonstrating awareness of financial responsibilities.",0,0,True,0.94921875
+  explanation: EE exhibits low warmth by focusing on personal financial priorities and skepticism about the charity. However, EE shows high competence by articulating a clear rationale for their decision, asking pertinent questions, and demonstrating awareness of financial responsibilities.",0,0,True,0.87890625
 20180825-071316_761_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4527,7 +4527,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE maintains a polite and interested tone, asking questions and expressing interest, which suggests high warmth. However, their lack of prior knowledge about the charity and reliance on ER for information suggests lower competence.",0,1,False,0.55517578125
+  explanation: EE maintains a polite and interested tone, asking questions and expressing interest, which suggests high warmth. However, their lack of prior knowledge about the charity and reliance on ER for information suggests lower competence.",0,0,True,0.5009765625
 20180825-073559_995_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4552,7 +4552,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds politely to ER's inquiries and shows interest in learning about the charity, reflecting high warmth. EE's engagement and follow-up question about donations suggest attentiveness and understanding, indicating high competence.",0,0,True,0.7041015625
+  explanation: EE responds politely to ER's inquiries and shows interest in learning about the charity, reflecting high warmth. EE's engagement and follow-up question about donations suggest attentiveness and understanding, indicating high competence.",0,0,True,0.6796875
 20180825-073629_433_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4575,7 +4575,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE's warmth is high, as they engage in the conversation with curiosity and politeness, asking questions to understand more about the charity. Their competence is high, as they ask relevant and specific questions, showing an interest in understanding the charity's scope and purpose.",0,1,False,0.849609375
+  explanation: EE's warmth is high, as they engage in the conversation with curiosity and politeness, asking questions to understand more about the charity. Their competence is high, as they ask relevant and specific questions, showing an interest in understanding the charity's scope and purpose.",0,1,False,0.87451171875
 20180825-075627_48_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4600,7 +4600,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by reciprocating greetings and expressing interest. Their competence is high as they ask specific, relevant questions about the charity's history, ratings, and financial details, indicating a thoughtful and analytical approach.",0,0,True,0.93017578125
+  explanation: EE shows high warmth by reciprocating greetings and expressing interest. Their competence is high as they ask specific, relevant questions about the charity's history, ratings, and financial details, indicating a thoughtful and analytical approach.",0,0,True,0.80615234375
 20180825-075630_493_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4627,7 +4627,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE exhibits high warmth by reciprocating ER's friendly inquiries and maintaining a polite and engaging tone. EE also shows high competence by participating in the discussion about the charity, indicating awareness and thoughtful consideration of the topic.",1,1,True,0.52978515625
+  explanation: EE exhibits high warmth by reciprocating ER's friendly inquiries and maintaining a polite and engaging tone. EE also shows high competence by participating in the discussion about the charity, indicating awareness and thoughtful consideration of the topic.",1,1,True,0.60498046875
 20180825-083745_516_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4652,7 +4652,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by engaging in friendly conversation and expressing interest in the cause. Their competence is high as they ask relevant questions and acknowledge the value of the organization's work, demonstrating understanding and thoughtful engagement.",1,1,True,0.57080078125
+  explanation: EE shows high warmth by engaging in friendly conversation and expressing interest in the cause. Their competence is high as they ask relevant questions and acknowledge the value of the organization's work, demonstrating understanding and thoughtful engagement.",1,1,True,0.6669921875
 20180825-090032_956_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4679,7 +4679,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by reciprocating the greeting and engaging in the conversation. Their competence is high as they ask insightful questions about the charity's effectiveness and structure, indicating a thoughtful and analytical approach.",0,0,True,0.71240234375
+  explanation: EE shows high warmth by reciprocating the greeting and engaging in the conversation. Their competence is high as they ask insightful questions about the charity's effectiveness and structure, indicating a thoughtful and analytical approach.",0,0,True,0.6787109375
 20180826-013036_595_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4703,7 +4703,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: moderate
   competence: high
-  explanation: EE shows moderate warmth by engaging in the conversation and considering a donation, though their initial reluctance and focus on American children suggest a more self-focused perspective. Their competence is high, as they ask relevant questions and articulate their reasoning clearly.",0,0,True,0.55712890625
+  explanation: EE shows moderate warmth by engaging in the conversation and considering a donation, though their initial reluctance and focus on American children suggest a more self-focused perspective. Their competence is high, as they ask relevant questions and articulate their reasoning clearly.",0,1,False,0.59423828125
 20180826-013529_897_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4722,7 +4722,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: User2 expresses eagerness to contribute and offers a generous amount, reflecting high warmth. They also show competence by confidently deciding on a donation amount and engaging constructively in the conversation.",1,0,False,0.607421875
+  explanation: User2 expresses eagerness to contribute and offers a generous amount, reflecting high warmth. They also show competence by confidently deciding on a donation amount and engaging constructively in the conversation.",1,1,True,0.54931640625
 20180826-043247_456_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4758,7 +4758,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds positively and shows interest in the topic, indicating high warmth. EE also expresses a thoughtful approach to donating, showing discernment and understanding, which reflects high competence.",0,0,True,0.51708984375
+  explanation: EE responds positively and shows interest in the topic, indicating high warmth. EE also expresses a thoughtful approach to donating, showing discernment and understanding, which reflects high competence.",0,1,False,0.50341796875
 20180826-073320_803_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4786,7 +4786,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth through their interest in helping children and expressing empathy towards their situation. Their competence is high as they ask relevant questions to understand the organization's work better and express a willingness to contribute meaningfully.",0,0,True,0.98681640625
+  explanation: EE shows high warmth through their interest in helping children and expressing empathy towards their situation. Their competence is high as they ask relevant questions to understand the organization's work better and express a willingness to contribute meaningfully.",0,0,True,0.99169921875
 20180826-174120_426_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4810,7 +4810,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing interest and appreciation for the information shared. Their competence is high as they ask relevant questions about financial details, indicating an understanding and critical engagement with the information provided.",1,0,False,0.912109375
+  explanation: EE shows high warmth by expressing interest and appreciation for the information shared. Their competence is high as they ask relevant questions about financial details, indicating an understanding and critical engagement with the information provided.",1,0,False,0.8935546875
 20180826-175705_624_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4831,7 +4831,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by engaging politely and expressing interest in learning more. EE's competence is high, as they ask relevant questions to gain a better understanding of the charity's work.",0,1,False,0.79833984375
+  explanation: EE shows high warmth by engaging politely and expressing interest in learning more. EE's competence is high, as they ask relevant questions to gain a better understanding of the charity's work.",0,1,False,0.759765625
 20180826-180300_663_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4860,7 +4860,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth through polite engagement and openness to suggestions. Their competence is high as they critically question and consider the focus of charitable efforts, ultimately reaching a thoughtful compromise that reflects an understanding of both domestic and international needs.",0,0,True,0.91357421875
+  explanation: EE shows high warmth through polite engagement and openness to suggestions. Their competence is high as they critically question and consider the focus of charitable efforts, ultimately reaching a thoughtful compromise that reflects an understanding of both domestic and international needs.",0,0,True,0.8447265625
 20180826-190151_488_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4885,7 +4885,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE reciprocates the friendly tone and engages in the conversation with interest, demonstrating high warmth. EE's responses are thoughtful and informed, asking relevant questions about charitable activities, which indicates high competence.",0,0,True,0.8291015625
+  explanation: EE reciprocates the friendly tone and engages in the conversation with interest, demonstrating high warmth. EE's responses are thoughtful and informed, asking relevant questions about charitable activities, which indicates high competence.",0,0,True,0.7919921875
 20180826-193546_146_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4905,7 +4905,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing interest and willingness to learn more. Their competence is high as they ask relevant questions to gather information before making a decision, indicating thoughtful consideration.",0,0,True,0.61572265625
+  explanation: EE shows high warmth by expressing interest and willingness to learn more. Their competence is high as they ask relevant questions to gather information before making a decision, indicating thoughtful consideration.",0,0,True,0.5146484375
 20180827-034916_910_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4933,7 +4933,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: User2 reciprocates the friendly tone and engages in the conversation about work and charity, showing high warmth. Their preference for local charities and thoughtful reasoning reflect high competence in making informed decisions about donations.",1,0,False,0.9609375
+  explanation: User2 reciprocates the friendly tone and engages in the conversation about work and charity, showing high warmth. Their preference for local charities and thoughtful reasoning reflect high competence in making informed decisions about donations.",1,0,False,0.95703125
 20180829-082113_449_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4958,7 +4958,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: moderate
   competence: moderate
-  explanation: EE responds politely but with minimal enthusiasm, indicating moderate warmth. Their brief and straightforward replies suggest moderate competence, as they engage but do not elaborate much.",1,1,True,0.591796875
+  explanation: EE responds politely but with minimal enthusiasm, indicating moderate warmth. Their brief and straightforward replies suggest moderate competence, as they engage but do not elaborate much.",1,1,True,0.6630859375
 20180829-084042_694_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -4983,7 +4983,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE maintains a polite and inquisitive tone, asking relevant questions and showing willingness to participate. Their responses indicate thoughtfulness and an interest in understanding the situation, reflecting both warmth and competence.",0,0,True,0.560546875
+  explanation: EE maintains a polite and inquisitive tone, asking relevant questions and showing willingness to participate. Their responses indicate thoughtfulness and an interest in understanding the situation, reflecting both warmth and competence.",0,0,True,0.529296875
 20180903-111245_955_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -5011,7 +5011,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by engaging positively and expressing interest in the charity's work. Their competence is high as they ask relevant questions and acknowledge the robustness of the program, indicating an understanding and appreciation of the information provided.",1,0,False,0.95654296875
+  explanation: EE shows high warmth by engaging positively and expressing interest in the charity's work. Their competence is high as they ask relevant questions and acknowledge the robustness of the program, indicating an understanding and appreciation of the information provided.",1,0,False,0.90966796875
 20180904-004818_580_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -5043,7 +5043,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: low
-  explanation: EE shows high warmth by expressing interest and positive reactions to the information shared by ER, indicating a supportive and engaged demeanor. However, their competence appears low as they rely on ER for information and do not contribute additional knowledge or insights to the conversation.",1,0,False,0.93994140625
+  explanation: EE shows high warmth by expressing interest and positive reactions to the information shared by ER, indicating a supportive and engaged demeanor. However, their competence appears low as they rely on ER for information and do not contribute additional knowledge or insights to the conversation.",1,0,False,0.90380859375
 20180904-032932_423_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -5069,7 +5069,7 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE shows high warmth by expressing willingness to donate and asking thoughtful questions. EE's inquiries reflect high competence, as they seek to understand the charity's operations and impact before committing to a donation.",1,1,True,0.97705078125
+  explanation: EE shows high warmth by expressing willingness to donate and asking thoughtful questions. EE's inquiries reflect high competence, as they seek to understand the charity's operations and impact before committing to a donation.",1,1,True,0.94287109375
 20180904-073734_888_live,5,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -5089,4 +5089,4 @@ Summary: user1 (ER):
 user2 (EE):
   warmth: high
   competence: high
-  explanation: EE responds with a friendly greeting and shows genuine interest in ER's charity work, indicating high warmth. EE's engagement and relevant questions demonstrate an understanding of the topic, reflecting high competence.",0,0,True,0.595703125
+  explanation: EE responds with a friendly greeting and shows genuine interest in ER's charity work, indicating high warmth. EE's engagement and relevant questions demonstrate an understanding of the topic, reflecting high competence.",0,0,True,0.66015625
