@@ -867,13 +867,13 @@ def perform_kfold_cross_validation(args):
             train_result = trainer.train()
             
             print(f"Evaluating fold {fold+1}...")
-            eval_result = trainer.evaluate()
+            # eval_result = trainer.evaluate()
             
             # Save results for this fold
             fold_result = {
                 "fold": fold + 1,
                 "train_loss": train_result.training_loss,
-                "eval_loss": eval_result["eval_loss"],
+                # "eval_loss": eval_result["eval_loss"],
             }
             
             # Save the model

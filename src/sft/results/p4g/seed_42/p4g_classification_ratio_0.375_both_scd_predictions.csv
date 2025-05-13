@@ -1,735 +1,4 @@
 dialogue_id,fold,text,label,predicted_label,correct,confidence_score
-20180719-211846_176_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): hi, how are you? [Initiate conversation and greet]
-Persuadee (EE): I'm doing well thank you [Respond to greeting and provide a status update]
-Persuader (ER): that good You knew that for every minute that passes, a child under the age of 5 dies as a result of the war in the Middle East [Introduce a serious issue to raise awareness]
-Persuadee (EE): That is absolutely terrible. [Express concern and empathy]
-Persuadee (EE): Are there any good charities that are helping on this issue? [Inquire about potential solutions or actions]
-Persuader (ER): I recently read from an organization called Save a Children, which works hard to protect these children and needs financial help to continue [Provide information about a specific charity]
-Persuadee (EE): How can someone help? [Seek further information on how to help]
-Persuadee (EE): I would be willing to donate my time and perhaps some money. [Express willingness to contribute]
-Persuader (ER): you can help by donating what you can, you can even help with your win in mturk, I think these children need us now [Encourage donation and suggest a specific way to help]
-Persuadee (EE): How exactly does the money help the cause? [Request detailed information on the impact of donations]
-Persuadee (EE): What's it spent on? [Seek clarification on the allocation of funds]
-Summary: The conversation begins with a polite exchange of greetings, quickly shifting to a serious tone as ER introduces a distressing issue. EE responds with empathy and curiosity, expressing a willingness to contribute. ER suggests a specific charity and encourages financial support, while EE seeks more information about the charity's use of funds. The dialogue reflects a progression from awareness to a desire for action, with EE's inquiries indicating a thoughtful consideration of how best to contribute.",0,1,False,0.69140625
-20180723-042342_809_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hello how do you feel about the Save the Children charity? [Initiate conversation and gauge opinion on Save the Children charity]
-Persuadee (EE): I think it's a scam [Express skepticism and negative opinion about the charity]
-Persuader (ER): Oh no not at all they do tons of good  is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries. [Defend the charity and provide information about its mission]
-Persuadee (EE): I don't believe it. [Express disbelief in the charity's legitimacy]
-Persuadee (EE): There is no way to prove where all those funds go. [Question the transparency of the charity's fund allocation]
-Persuadee (EE): Plus there are starving children right here in america [Highlight local issues to counter the charity's focus]
-Persuader (ER): This is a great organization and I am sure that they would not be allowed to continue the way they do if the money was not going where it is suppose to and every penny being accounted for. [Reaffirm trust in the charity's accountability and transparency]
-Persuader (ER): They do so much good in the world yes there are hungry kids here but millions of Syrian children have grown up facing the daily threat of violence. [Emphasize the charity's global impact and the severity of issues it addresses]
-Persuader (ER): In the first two months of 2018 alone, 1,000 children were reportedly killed or injured in intensifying violence. [Provide specific data to support the charity's impact]
-Persuadee (EE): That is all your opinion. [Dismiss the provided information as opinion]
-Persuadee (EE): You have no facts to back that up. [Challenge the credibility of the information provided]
-Persuader (ER): Yes part of the money does go to pay for things like advertising and all that but over 88% of the donations they recieve are sent where they are needed and that includes in the United States believe it or not. [Clarify the allocation of donations and provide supporting data]
-Persuader (ER): This is according to a website that breaks down info on different charities [Cite a source to back up the information provided]
-Persuadee (EE): Like I said those are opinions. [Reiterate that the information provided is opinion-based]
-Persuadee (EE): There are no facts that prove that to be true. [Assert the lack of factual evidence supporting the charity's claims]
-Persuadee (EE): There are no laws that stop them from lying to people either. [Claim that there are no regulations preventing the charity from being dishonest]
-Persuadee (EE): I have never meet anyone who has been aided by that organization. [Express personal lack of evidence of the charity's impact]
-Persuadee (EE): Infomercials don't impress me. [Discredit the charity's promotional efforts]
-Persuader (ER): How about the fact that they have been around for over 100 years scams do not stay around that long [Argue the charity's long-standing presence as evidence of its legitimacy]
-Persuadee (EE): Yes they do. [Disagree with the argument presented]
-Persuadee (EE): Have you ever heard of evangelism? [Draw a parallel with evangelism to question the charity's legitimacy]
-Summary: The conversation begins with ER expressing a positive view of a charity, while EE is skeptical and dismissive, believing it to be a scam. ER attempts to persuade EE by providing information and emphasizing the charity's impact and longevity. Despite ER's efforts to present evidence and counterarguments, EE remains unconvinced and challenges ER's claims, maintaining a skeptical stance throughout. The exchange highlights a persistent disagreement, with ER employing factual appeals and EE questioning the credibility of those facts.",0,1,False,0.79736328125
-20180723-042344_940_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): How much money do you spend daily on extras like a coffee or treat? [Initiate conversation about daily spending on non-essentials]
-Persuadee (EE): I spend about 5 dollars a day, you? [Respond to question and reciprocate inquiry]
-Persuader (ER): About 1 dollar per day. [Provide personal spending information]
-Persuader (ER): Do you think that amount of money would make a difference in a needy child's life? [Prompt reflection on the impact of spending on a needy child]
-Persuadee (EE): I think it would in many places [Express belief in the positive impact of the money]
-Persuader (ER): I agree. [Express agreement]
-Persuader (ER): Are you familiar with a charity called Save the Children? [Introduce the topic of a specific charity]
-Persuadee (EE): No i am not can you explain? [Express lack of knowledge and request more information]
-Persuader (ER): Save the Children is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries. [Provide detailed information about the charity]
-Persuadee (EE): Wow thats great. [Express positive reaction]
-Summary: The conversation begins with a casual inquiry about daily spending habits, with both speakers sharing their expenditures. The conversation then shifts to a reflective tone as ER introduces a moral consideration regarding the impact of such spending on needy children. EE acknowledges the potential impact, leading ER to introduce the charity ""Save the Children."" EE expresses interest and appreciation, indicating a shift from casual discussion to a more engaged and thoughtful exchange about charitable giving.",0,0,True,0.646484375
-20180723-052203_936_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hello! How are you doing today? [Greeting and initiating conversation]
-Persuadee (EE): I'm doing very well thank you! [Responding positively to greeting]
-Persuadee (EE): How is your day going so far? [Inquiring about the other person's well-being]
-Persuader (ER): I am doing well. [Responding to inquiry about well-being]
-Persuader (ER): My day has been busy visiting different places to speak about the charity I support. [Providing information about their day and charity work]
-Persuader (ER): Have you heard of Save the Children? [Introducing the charity ""Save the Children""]
-Persuadee (EE): It sounds familiar to me, could you tell me more about it? [Expressing familiarity and requesting more information]
-Persuader (ER): Helping children in countries that are very war torn or in some form of conflict is what we help in. [Explaining the charity's mission]
-Persuader (ER): Everyday 16,000 children die before their 5th birthday, 1 out of 80 flee the country and risk everything, and 1 out of 6 kids aren't enrolled in a school or getting education that they need [Providing statistics to emphasize the charity's importance]
-Persuadee (EE): The charity sounds like it is doing some good work in an area that badly needs it. [Acknowledging the charity's good work]
-Persuadee (EE): Children should be our top priority all across the world. [Expressing a belief in the importance of children's welfare]
-Persuadee (EE): How can someone get involved and help out with this charity? [Inquiring about ways to get involved with the charity]
-Persuader (ER): Oh there are quiet a few ways. [Indicating there are multiple ways to help]
-Persuader (ER): For roughly a dollar a day you can sponsor a child, you can choose a gift to spend to a child through our catalog, you could start a fundraiser, or you can just simply donate. [Listing specific ways to support the charity]
-Persuader (ER): With that, keep in mind if you ever decide to make a monetary donation, 86% goes directly to the children, 9% fundraising, and 5% management and general. [Providing details about the allocation of donations]
-Persuader (ER): Just so you can have an idea that we use 9 out of 10 dollars directly on the children. [Reinforcing the efficient use of donations]
-Summary: The conversation begins with a friendly exchange of pleasantries, establishing a positive tone. As the conversation progresses, ER shifts to a more informative and persuasive strategy, sharing details about a charity and its impact. EE responds with interest and support, prompting ER to elaborate on ways to get involved. ER maintains a persuasive approach, emphasizing the charity's efficiency and impact, while EE remains receptive and engaged throughout the discussion.",1,1,True,0.52392578125
-20180723-094242_630_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hi, how are you today? [Initiate conversation and establish rapport]
-Persuadee (EE): I am okay. [Respond to greeting]
-Persuadee (EE): How are you? [Inquire about the other person's well-being]
-Persuader (ER): i'm doing great! [Respond positively and continue the conversation]
-Persuader (ER): I'm working for Save The Children organisation, have you heard about it? [Introduce the organization and gauge familiarity]
-Persuadee (EE): No, I haven't. [Express lack of knowledge about the organization]
-Persuadee (EE): Can you tell me more about it? [Request more information about the organization]
-Persuader (ER): sure. [Agree to provide more information]
-Persuader (ER): Save the Children is an international NGO that promotes children's rights and provides relief and helps support children in developing countries [Provide a brief overview of the organization's mission and activities]
-Persuadee (EE): What types of programs does it offer? [Inquire about specific programs offered by the organization]
-Persuader (ER): they ensure children's rights to health ,education and safety. [Provide information about the types of programs]
-Summary: The conversation begins with a polite exchange of greetings, establishing a friendly tone. ER then introduces their affiliation with an organization, prompting curiosity from EE. As the conversation progresses, ER takes on an informative role, providing details about the organization's mission and programs. EE's responses indicate interest and engagement, maintaining a collaborative and inquisitive atmosphere throughout the interaction.",1,0,False,0.82666015625
-20180808-022005_838_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hello, how are you today. [Greeting and initiating conversation]
-Persuadee (EE): Very well, thank you. [Responding to greeting]
-Persuadee (EE): And you? [Inquiring about the other person's well-being]
-Persuader (ER): I'm great, thank you. [Responding to inquiry and expressing well-being]
-Persuader (ER): I'm wondering if I can have a moment of your time to talk to you about a charity program I work with? [Requesting time to discuss a charity program]
-Persuadee (EE): Sure. [Agreeing to listen]
-Persuadee (EE): Go right ahead. [Encouraging the speaker to proceed]
-Persuader (ER): Thank you. [Expressing gratitude]
-Persuader (ER): I'm hoping you would like to donate some of your task payment to the charity 'Save the Children', and organization that promotes children's rights and supports children in developing countries. [Requesting a donation and providing information about the charity]
-Persuadee (EE): I would be interested in doing do, however I must tell you I am generally very skeptical about charity orginizations in general. [Expressing interest but also skepticism about charities]
-Persuadee (EE): I know of many that I do not support due to the 6 figure salaries of the CEO. [Providing reasons for skepticism]
-Persuadee (EE): And the fact that not much of the donation actually get to the ""cause"". [Further elaborating on reasons for skepticism]
-Persuader (ER): I completely understand the skepticism due to a tenfold of shady organizations these days. [Acknowledging and understanding the skepticism]
-Persuader (ER): However, I can guarantee you Save the Children is a professional organization that promises their donations go to a trustable fund to support international children's causes. [Assuring the credibility of the charity]
-Persuadee (EE): You have my attention, however this HIT is running Very long for 2 bucks already. [Expressing interest but concern about the time spent]
-Summary: The conversation begins with a polite exchange of pleasantries, establishing a friendly tone. ER then introduces a charitable cause, aiming to persuade EE to donate. EE expresses interest but also skepticism about charities, citing concerns about financial transparency. ER acknowledges these concerns and reassures EE of the charity's credibility. Despite ER's efforts to maintain engagement, EE signals time constraints, indicating a shift in focus from the conversation's content to practical considerations.",0,0,True,0.80517578125
-20180808-040435_931_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Good Morning! [Greeting the other person]
-Persuader (ER): I'm hoping you can help me out to today. [Expressing hope for assistance]
-Persuadee (EE): Sure, as long as you can help me out as well... you see, I have a child that is overseas, in a warzone. [Agreeing to help with a condition and sharing a personal concern]
-Persuadee (EE): they are hungry and injured and also short [Providing more details about the child's condition]
-Persuader (ER): I'm so sorry, what a terrible thing. [Expressing sympathy]
-Persuader (ER): Well not being short, that's fine. [Attempting to lighten the mood]
-Persuadee (EE): yeah, i mean, i guess [Showing uncertainty or mild agreement]
-Persuader (ER): I am also here to help children in underprivileged areas, by supporting the Save the Children Charity [Explaining their purpose and introducing the charity]
-Persuadee (EE): what is save the children [Asking for more information about the charity]
-Persuader (ER): Save the Children promotes rights and provides support for children in serious situations. [Providing information about the charity's mission]
-Summary: The conversation begins with a polite greeting and a request for assistance, which is met with a conditional agreement contingent on mutual help. The exchange takes a somber turn as one speaker shares a personal concern about their child in a difficult situation, prompting empathy from the other. The conversation shifts towards a charitable focus, with one speaker introducing a charity they support, maintaining a tone of concern and assistance throughout.",0,1,False,0.8232421875
-20180808-042339_620_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): save the children is a non profit organization helping children around the world [Informing about the organization and its mission]
-Persuadee (EE): wow that is neat [Expressing interest and admiration]
-Persuader (ER): for just a small amount you can help a child starving in Africa, and other children who are homeless [Encouraging donation by highlighting the impact]
-Persuadee (EE): that sounds expensive [Expressing concern about the cost]
-Persuader (ER): just a few dollars, while lyou can donate as much as you like, every little bit means a better life for these children [Clarifying the affordability and impact of small donations]
-Persuadee (EE): how much do you give [Inquiring about the speaker's personal contribution]
-Persuader (ER): 2=3 dollars a month [Sharing personal donation amount]
-Summary: The conversation begins with ER introducing a nonprofit organization, aiming to evoke empathy and interest from EE. EE initially responds with curiosity but expresses concern about potential costs. ER reassures EE by emphasizing the affordability and impact of small donations, maintaining a persuasive and encouraging tone. EE's inquiry about ER's personal contribution suggests a shift towards evaluating the credibility and sincerity of ER's appeal, while ER's response aims to reinforce the accessibility of participation.",0,1,False,0.50927734375
-20180808-070517_921_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hello. [Greeting the other participant.]
-Persuader (ER): Are you willing to donate to Save the Children charity from your pyament from this task? [Inquiring about the willingness to donate to a specific charity.]
-Persuadee (EE): Hello, yes I am willing to donate my payment from this task for the Save the Children charity [Confirming willingness to donate to the charity.]
-Persuader (ER): It is a good charity and i is international. [Providing information about the charity.]
-Persuader (ER): How about donating the entore $2. [Encouraging a specific donation amount.]
-Persuader (ER): Every bit helps? [Emphasizing the importance of any contribution.]
-Persuadee (EE): I have no problem donating the entire $2, and I agree, every bit does help! [Agreeing to donate the specified amount and acknowledging the importance of contributions.]
-Persuader (ER): To be clear, how much are you willing to donate? [Seeking confirmation of the exact donation amount.]
-Persuadee (EE): All of my payment, the entire $2. [Clarifying the donation amount.]
-Persuader (ER): Good. [Expressing approval of the donation.]
-Summary: The conversation begins with a straightforward request for a donation, which is met with immediate agreement and willingness from the other party. The initiator emphasizes the charity's positive impact and suggests a specific donation amount, reinforcing the importance of even small contributions. The responder consistently expresses readiness to donate the full amount, maintaining a cooperative and agreeable tone. The conversation concludes with the initiator confirming the commitment, reflecting satisfaction with the outcome.",1,1,True,0.59765625
-20180808-074917_388_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hi, how are you today? [Initiate conversation and establish rapport]
-Persuadee (EE): okay..and how are you [Respond to greeting and reciprocate inquiry]
-Persuader (ER): I'm doing great. [Provide a positive personal update]
-Persuader (ER): Out of curiousity, have you heard of the organization Save the Children? [Introduce the topic of Save the Children]
-Persuadee (EE): yes..i am very familiar.. [Express familiarity with the organization]
-Persuadee (EE): are you involved with charity [Inquire about ER's involvement with charity]
-Persuader (ER): Yes! [Confirm involvement with charity]
-Persuader (ER): I really prefer local charities but some nationwide and international ones are very dear to my heart. [Share personal preference for local and some international charities]
-Persuader (ER): Whenever we have the opportunity to donate from our task rewards I always try to give a little bit. [Explain personal donation habits]
-Persuadee (EE): me too..i see many commercials for charity on TV and it breaks my heart.. [Express empathy and shared sentiment towards charity]
-Persuadee (EE): i am also a follower of Unicef, are you familiar [Share personal involvement with Unicef and inquire about ER's familiarity]
-Persuader (ER): Yes, I've heard of Unicef. [Confirm familiarity with Unicef]
-Persuader (ER): Another great organization. [Express positive opinion about Unicef]
-Persuader (ER): One thing I love about Save the Children is that they have very high ratings from third-party reportings. [Highlight a positive aspect of Save the Children]
-Persuader (ER): I know when I donate to them that my money is being used wisely! [Express trust in the organization's use of donations]
-Summary: The conversation begins with a polite exchange of greetings, establishing a friendly tone. As the dialogue progresses, both speakers express a shared interest in charitable organizations, revealing a mutual sentiment of compassion and a desire to contribute positively. The conversation maintains a collaborative and supportive atmosphere, with each speaker affirming the other's involvement in charitable activities. The speakers employ a strategy of mutual acknowledgment and shared values, reinforcing their connection through common charitable interests.",0,0,True,0.9833984375
-20180808-075748_956_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hello! [Greeting]
-Persuadee (EE): HI there! [Greeting]
-Persuadee (EE): Are you having a good day? [Inquiring about ER's well-being]
-Persuader (ER): Doing well! [Responding positively to EE's inquiry]
-Persuader (ER): I hope your day is the same! [Expressing hope for EE's well-being]
-Persuader (ER): So I gave been assigned the role here to get you to make a donation to the Save The Children Foundation. [Introducing the purpose of the conversation (donation request)]
-Persuadee (EE): OK, i have donated to them before!! [Expressing familiarity and past participation with the organization]
-Persuader (ER): Oh really! [Expressing surprise and interest]
-Persuader (ER): That's great. [Expressing approval]
-Persuader (ER): I am checking out their website and they look like a great organization. [Providing additional information about the organization]
-Persuader (ER): Much of the funds donated go to help children dealing in the war torn violence of Syria. [Highlighting the impact of donations]
-Persuadee (EE): That sounds fantastic! [Expressing approval and interest]
-Persuadee (EE): How do I make the donation? [Inquiring about the donation process]
-Persuader (ER): How much do you like to donate to the charity now? [Asking for the donation amount]
-Summary: The conversation begins with a friendly exchange of greetings and well-wishes, establishing a positive tone. ER then transitions to a persuasive strategy, introducing a charitable cause and expressing enthusiasm about the organization. EE responds positively, indicating prior support and interest in contributing again. ER maintains a supportive and encouraging tone, providing information about the charity's impact. The conversation concludes with EE expressing willingness to donate and ER facilitating the donation process.",0,1,False,0.5771484375
-20180808-075816_12_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Have you heard of the Save the Children non profit organization? [To introduce the topic of the Save the Children organization]
-Persuadee (EE): Hello, yes I have but I am not sure what the charity works towards [To acknowledge familiarity with the organization and express uncertainty about its mission]
-Persuader (ER): It is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries. [To provide information about the organization's mission and activities]
-Persuadee (EE): Ah ok very nice. [To express understanding and approval]
-Persuadee (EE): It sounds like a good charity. [To express a positive opinion about the charity]
-Persuadee (EE): Are you thinking of donating to it? [To inquire about ER's intentions regarding donating to the charity]
-Persuader (ER): I am thinking about it. [To express personal consideration of donating]
-Persuader (ER): I was hoping you would think about it too. [To encourage EE to consider donating as well]
-Persuader (ER): It just sucks that millions of Syrian children have grown up facing the daily threat of violence. [To highlight the plight of Syrian children to evoke empathy]
-Persuader (ER): In the first two months of 2018 alone, 1,000 children were reportedly killed or injured in intensifying violence. [To provide a specific statistic to emphasize the severity of the situation]
-Persuader (ER): This makes me angry and was wondering if it did the same for you? [To express personal emotional response and seek EE's emotional response]
-Persuadee (EE): Yes, I definitely understand you. [To express empathy and understanding]
-Persuadee (EE): It is very difficult to see on the news what is happening in Syria and the violence and terrorism that is going on in the country [To elaborate on the emotional difficulty of witnessing the situation in Syria]
-Persuader (ER): I know it is crazy. [To agree and express disbelief]
-Persuader (ER): Sometimes I think about the little things I buy. [To reflect on personal spending habits]
-Persuader (ER): Like yesterday I had a craving for candy so I bought a bag of smarties for $2.79. [To provide a specific example of personal spending]
-Persuader (ER): Sometimes I wonder how much it could help someone else instead of just satisfying my cravings. [To express contemplation about the impact of personal spending versus helping others]
-Persuadee (EE): Yes that is very true. [To agree with ER's reflection]
-Persuadee (EE): I usually donate $1.00 or $2.00 at restaurants or stores whenever they ask me if I would like to donate. [To share personal habit of donating small amounts]
-Persuadee (EE): I think it is the least I could do. [To express a sense of duty in donating]
-Summary: The conversation begins with ER introducing a nonprofit organization and explaining its mission to EE, who responds with mild interest. ER then shifts to a more persuasive approach, sharing emotional and impactful statistics about children in conflict zones, aiming to evoke empathy and prompt action from EE. EE acknowledges the gravity of the situation and shares their own small-scale charitable actions. Throughout, ER maintains a passionate tone, while EE remains receptive and reflective, considering ER's perspective.",0,0,True,0.7255859375
-20180808-081317_142_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hello new friend! [Initiate conversation and establish a friendly tone]
-Persuadee (EE): Hello, how are you today? [Respond to greeting and inquire about ER's well-being]
-Persuader (ER): Not bad. [Provide a brief update on personal state]
-Persuader (ER): I'm here to talk to you today about Save The Children. [Introduce the topic of Save The Children]
-Persuadee (EE): Ok, please explain, sounds like a wonderful charity [Express interest and invite further explanation]
-Persuader (ER): Well they do a lot of good work in Africa, but you might be suprised how much work they actually do right here in the US. [Provide information about the charity's work in the US]
-Persuadee (EE): I was not aware there were many children in need of help in the US [Express surprise and lack of awareness about the issue in the US]
-Persuader (ER): Have you ever seen the rate of illiteracy ? [Prompt EE to consider the issue of illiteracy]
-Persuadee (EE): No, I thought Save The Children was about food distribution to those that are hungry. [Express a misconception about the charity's focus]
-Persuader (ER): They do everything. [Clarify the charity's broad scope of work]
-Persuader (ER): Food is just one part of it. [Reiterate that food distribution is just one aspect]
-Summary: The conversation begins with a friendly exchange before transitioning into a discussion about a charity. ER takes on an informative and persuasive role, aiming to broaden EE's understanding of the charity's work. EE shows curiosity and openness, asking questions and expressing surprise. ER maintains a consistent strategy of providing information to correct misconceptions, while EE remains engaged and receptive, indicating a willingness to learn more about the charity's broader activities.",0,0,True,0.51025390625
-20180824-121026_498_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hello,  Have you heard of the save a children charity? [Introduce the charity and initiate conversation]
-Persuadee (EE): Why yes I have. [Acknowledge familiarity with the charity]
-Persuadee (EE): Do you represent them? [Inquire about the speaker's affiliation with the charity]
-Persuader (ER): Yes I do. [Confirm affiliation with the charity]
-Persuader (ER): I go aroudn telling people about the charity to see if they would like to help out. [Explain the purpose of their outreach]
-Persuadee (EE): I've been thinking of donating to charity, but I could never find the right one. [Express interest in donating to charity but mention difficulty in choosing one]
-Persuader (ER): This one is great. [Endorse the charity]
-Persuader (ER): We help out poor children. [Provide information about the charity's mission]
-Persuader (ER): We assist in all sorts of ways. [Elaborate on the types of assistance provided]
-Persuader (ER): Education, health care, vaccinations etc. [Give specific examples of assistance]
-Persuader (ER): We cover all aspects of it. [Reiterate the comprehensive nature of the charity's work]
-Persuader (ER): Did you know you can donate the money you were getting from this HIT to save the children? [Inform about the option to donate earnings from the HIT]
-Persuadee (EE): Oh really? [Express surprise and curiosity]
-Summary: The conversation begins with ER introducing a charity and EE expressing familiarity and interest. ER adopts a persuasive strategy, providing information and emphasizing the charity's comprehensive support for children. EE shows openness to donating, indicating a potential alignment with ER's intentions. ER continues to build on this interest by suggesting a specific way EE could contribute, maintaining a positive and informative tone throughout, while EE remains engaged and curious about the opportunity.",0,1,False,0.79736328125
-20180825-042845_49_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hello, are you interested in protection of rights of children? [Initiate conversation and gauge interest in children's rights protection]
-Persuadee (EE): Yes, definitely. [Express interest and agreement]
-Persuadee (EE): What do you have in mind? [Seek more information]
-Persuader (ER): There is organisation called Save the Children and donations are essential to ensure children's rights to health,education and safety. [Provide information about the organization and its purpose]
-Persuadee (EE): Is this the same group where people used to ""sponsor"" a child? [Clarify understanding and seek confirmation]
-Persuader (ER): Here is their website, URL [Provide a resource for further information]
-Persuader (ER): They help children all around the world. [Highlight the organization's global impact]
-Persuader (ER): For instance, millions of Syrian children have grown up facing the daily threat of violence. [Provide a specific example to illustrate the organization's work]
-Persuader (ER): In the first two months of 2018 alone, 1,000 children were reportedly killed or injured in intensifying violence. [Emphasize the urgency and severity of the situation]
-Persuadee (EE): I can't imagine how terrible it must be for a child to grow up inside a war zone. [Express empathy and understanding]
-Persuader (ER): As you mentioned,this organisation has different programs,and one of them is to ""sponsor"" child. [Confirm the organization's programs and address the previous question]
-Summary: The conversation begins with ER introducing the topic of children's rights, to which EE responds with interest. ER then shifts to promoting a specific organization, Save the Children, emphasizing its global impact and need for donations. EE shows curiosity about the organization's methods, recalling a past initiative. ER provides additional information and examples to underscore the organization's importance. EE expresses empathy for affected children, while ER continues to highlight the organization's programs, maintaining a persuasive tone throughout.",1,1,True,0.54833984375
-20180825-043229_970_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hello how are  you doing today? [Initiate conversation and establish rapport]
-Persuadee (EE): I'm good, how are you? [Respond to greeting and reciprocate inquiry]
-Persuader (ER): I am well. [Respond to inquiry and maintain rapport]
-Persuader (ER): Just enjoying the sunny day and trying to help out a charity I am working on, Save the Children. [Share personal activity and introduce charity topic]
-Persuadee (EE): I wish I had some sun. [Express personal sentiment and engage in conversation]
-Persuadee (EE): Please tell me more about this charity [Show interest and request more information about the charity]
-Persuader (ER): This charity is n international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries. [Provide detailed information about the charity]
-Persuader (ER): I have recently donated some money to it. [Share personal involvement to build credibility]
-Persuader (ER): Would you be interested in how much I donated? [Engage interest by offering more personal information]
-Persuadee (EE): Yes please. [Express interest and request specific information]
-Persuadee (EE): And also, was the donation mandatory or voluntary? [Seek clarification on the nature of the donation]
-Persuader (ER): I donate about $15 a month and it is all voluntary. [Provide specific details about personal donation and its voluntary nature]
-Persuader (ER): I rather put my money into this charity then church offering because I know it directly helps children. [Explain personal preference and rationale for donating to the charity]
-Persuader (ER): Would you like to know how I know it helps? [Offer additional information to support the charity's impact]
-Persuadee (EE): That sounds like a reasonable amount. [Express approval of the donation amount]
-Summary: The conversation begins with a friendly exchange of pleasantries, establishing a positive tone. ER introduces a topic of personal interest, aiming to engage EE by sharing involvement in a charity. EE expresses curiosity, prompting ER to elaborate on their charitable actions and motivations. ER uses a persuasive strategy, offering personal insights and inviting further inquiry. EE responds with interest and agreement, maintaining a supportive tone throughout the interaction. The conversation remains focused on ER's charitable activities and intentions.",0,0,True,0.73486328125
-20180825-044613_233_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hello. [Greeting the other person.]
-Persuader (ER): Do you have children? [Inquiring about the other person's family status.]
-Persuadee (EE): Yes, 2. [Responding to the inquiry about children.]
-Persuadee (EE): You? [Returning the question about children.]
-Persuader (ER): No, but I do enjoy their company. [Sharing personal information and expressing a positive sentiment towards children.]
-Persuader (ER): Are you aware of the large amount of children in developing countries that could use assitance? [Introducing the topic of children in need in developing countries.]
-Persuadee (EE): I am. [Confirming awareness of the issue.]
-Persuadee (EE): I tend to read news articles from aboard. BBC, ect. [Providing additional context about their information sources.]
-Persuadee (EE): I read that their are quite a few places that could use help. [Reiterating the awareness of the need for help in various places.]
-Persuader (ER): Yes there are. [Agreeing with the statement and confirming the need for help.]
-Persuader (ER): Have you ever heard of the organization Save the Children and are you aware of what they do? [Inquiring about the other person's knowledge of a specific organization.]
-Persuadee (EE): I have heard of them, but have not looked into what they do. [Confirming partial knowledge of the organization.]
-Persuader (ER): Well they have a presence in every continent except Antarctica. [Providing information about the organization's global presence.]
-Persuader (ER): Domestically, they provide early education, literacy, and health and disaster preparedness programs. [Detailing the organization's domestic programs.]
-Persuadee (EE): That's very interesting, sounds like they do good work. [Expressing interest and positive sentiment towards the organization's work.]
-Persuader (ER): They are very renowned. [Affirming the organization's reputation.]
-Summary: The conversation begins with a casual exchange about children, with ER expressing a general fondness for them. ER then shifts the focus to a more serious topic, aiming to raise awareness about children in need in developing countries. EE shows awareness and a willingness to engage by mentioning their news consumption habits. ER introduces the organization Save the Children, highlighting its global presence and programs. EE responds with interest, acknowledging the organization's positive impact. ER concludes by affirming the organization's reputation.",1,1,True,0.544921875
-20180825-050306_247_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hi [Greeting]
-Persuadee (EE): Hello [Greeting]
-Persuader (ER): How are you? [Inquiring about well-being]
-Persuadee (EE): Are you aware of any childrens charities? [Shifting topic to children's charities]
-Persuader (ER): Yes. [Confirming knowledge of children's charities]
-Persuader (ER): I've heard of Save the Children [Providing specific example of a charity]
-Persuadee (EE): Awesome. [Expressing approval]
-Persuadee (EE): I don't think i've heard of that. [Expressing unfamiliarity]
-Persuadee (EE): Do you donate/participate in any way to that charity? [Inquiring about participation in the charity]
-Persuader (ER): Yes, I donate money to them monthly. [Confirming participation and specifying type]
-Persuadee (EE): What encourages you to donate monthly [Inquiring about motivation for participation]
-Persuader (ER): There are poor children all over the world who don't have enough food to eat and Save the Children goes out to help them. [Explaining motivation for donating]
-Summary: The conversation begins with a casual greeting but quickly shifts to a more focused discussion on children's charities. EE expresses curiosity and seeks information, while ER responds with knowledge and personal involvement. EE's questions guide the conversation, showing interest in ER's motivations. ER maintains a consistent, empathetic tone, emphasizing their commitment to the cause. The interaction is characterized by EE's inquisitive approach and ER's informative and compassionate responses.",0,0,True,0.55419921875
-20180825-053544_897_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hi! [Greeting]
-Persuader (ER): Good morning! [Greeting]
-Persuadee (EE): Good morning! [Greeting]
-Persuadee (EE): How are you doing today? [Inquiring about well-being]
-Persuader (ER): I am good! [Responding to inquiry]
-Persuader (ER): I am trying to get my friends and others to donate their payment from this task to Save the Children. [Introducing donation initiative]
-Persuader (ER): Save the Children is reputable and every dollar they raise goes to feed families. [Providing information about the charity]
-Persuadee (EE): What else can you tell me about the charity? [Requesting more information about the charity]
-Persuadee (EE): Which countries do they work in? [Inquiring about the charity's operational regions]
-Persuader (ER): Save the Children works for 18 countries in Africa, 5 countries in the Middle East and India and Pakistan. [Providing specific information about the charity's operational regions]
-Persuadee (EE): How much of a donation would one have to make to feed a family for a week? [Inquiring about the cost to feed a family]
-Persuader (ER): 5.00 a week would feed one family for a week. [Providing specific cost information]
-Persuader (ER): Do you spend 5.00 a week on a coffee? [Drawing a comparison to common expenses]
-Summary: The conversation begins with a friendly exchange of greetings and quickly transitions into ER's intention to persuade EE to donate to a charity. ER maintains a positive and informative tone, providing details about the charity's operations and impact. EE shows interest by asking questions, which ER answers with specific information. ER employs a relatable comparison to emphasize the affordability of the donation, aiming to persuade EE to consider contributing. The conversation remains focused on the charitable cause throughout.",0,1,False,0.56298828125
-20180825-064038_102_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hi how are you? [Initiate conversation and greet]
-Persuadee (EE): Fine how are you? [Respond to greeting and reciprocate]
-Persuader (ER): I am well [Respond to inquiry and provide personal status]
-Persuadee (EE): What is your favorite childrens charity [Inquire about the other person's favorite children's charity]
-Persuader (ER): Well I recently heard about Save the Children Charity. [Introduce a specific charity]
-Persuader (ER): They donate money to help children in developing countries. [Provide information about the charity's activities]
-Persuader (ER): Have you heard about them? [Inquire if the other person is familiar with the charity]
-Persuadee (EE): Yes I have heard of them. [Acknowledge familiarity with the charity]
-Persuadee (EE): They do a lot for kids [Express positive opinion about the charity's work]
-Persuader (ER): Yes they do. [Agree with the positive opinion]
-Persuader (ER): They help out a great deal. [Reiterate the charity's positive impact]
-Persuader (ER): My job today is to see if you would be willing to donate any of your earnings to the charity [State the purpose of the conversation (soliciting donations)]
-Summary: The conversation begins with polite greetings and quickly shifts to a discussion about a children's charity. ER introduces the charity with positive sentiment and provides information about its mission. EE acknowledges familiarity with the charity, maintaining a positive tone. ER then transitions to a persuasive strategy, revealing their intention to solicit a donation from EE, indicating a shift from informational to action-oriented communication.",0,0,True,0.69873046875
-20180825-070857_925_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hello. [Greeting the other person]
-Persuader (ER): I hope you are well today. [Expressing hope for the other person's well-being]
-Persuader (ER): I am wondering if you regularly give to charity? [Inquiring about the other person's charitable habits]
-Persuadee (EE): Yes I do. [Confirming regular charitable giving]
-Persuadee (EE): I find it very fulfilling to give back [Expressing personal fulfillment from giving]
-Persuader (ER): I agree with you on that. [Agreeing with the other person's sentiment]
-Persuader (ER): I am just now watching the news about the hurricane in Hawaii and seeing the damage already done. [Sharing information about a current event (hurricane in Hawaii)]
-Persuadee (EE): It is very scary to think about. [Expressing concern about the situation]
-Persuadee (EE): Not only are they ravaged by the volcano, now a hurricane. [Highlighting the compounded natural disasters in Hawaii]
-Persuader (ER): I know. [Expressing agreement and empathy]
-Persuader (ER): I actually have family living there. [Revealing personal connection to the situation (family in Hawaii)]
-Persuader (ER): The rains over the past two days have been awful. [Describing the severity of the situation (rainfall)]
-Persuadee (EE): I am curious what we can do to help. [Expressing curiosity about ways to help]
-Persuader (ER): I have been looking into ways to help. [Indicating personal research into ways to help]
-Persuader (ER): I see that an organization called Save the Children is already mobilizing to help. [Providing information about an organization (Save the Children) mobilizing to help]
-Persuadee (EE): Do you know anything about how they are helping the children? [Inquiring about the organization's specific actions to help children]
-Summary: The conversation begins with a polite exchange and quickly moves into a discussion about charitable giving, with both speakers expressing positive sentiments towards it. As the conversation shifts to the impact of a natural disaster, the speakers share concerns and personal connections, maintaining a tone of empathy and urgency. They collaboratively explore ways to contribute to relief efforts, with one speaker providing information about an organization involved in the response, prompting further inquiry from the other.",0,0,True,0.65234375
-20180825-071459_643_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Do you feel it is improtant to help the children of the world to get them a good meal atleast 2 times a day [Initiate conversation and introduce the topic of helping children with meals]
-Persuadee (EE): Yes. [Express agreement]
-Persuadee (EE): Nutrition is important [Provide a reason for agreement]
-Persuader (ER): so will you donate to keep the children nourished and kept safe [Request a donation]
-Persuadee (EE): I typically donate to local charities by giving food or cash. [Explain current donation habits]
-Persuadee (EE): I sometimes question charities that I don't really know [Express skepticism about unknown charities]
-Persuader (ER): well with this charity we all know it is to help to save the children and I agree you should question other donations because together we can help keep the children nourished [Reassure and align with the skepticism while promoting the charity]
-Persuadee (EE): I just worry money I donate doesn't get to the children. [Express concern about the effectiveness of donations]
-Persuader (ER): I agree because as you have seen the commercials of the individual holding a little child asking for donations and all he is doing is getting to play with peoples emotions well with our organization we cut the cost of an actor and use that money to help the children [Address the concern by explaining the charity's approach]
-Summary: The conversation begins with ER expressing a strong sentiment about the importance of helping children, aiming to persuade EE to donate. EE agrees on the importance of nutrition but expresses skepticism about unfamiliar charities. ER acknowledges this concern and attempts to reassure EE by emphasizing the transparency and direct impact of their organization. Throughout, ER maintains a persuasive tone, while EE remains cautious, focusing on ensuring donations are effectively used.",1,1,True,0.90185546875
-20180825-082635_438_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): I am so livid I just can't stand it right now. [Expressing strong emotion and frustration]
-Persuader (ER): Parts of this world are so dark... [Commenting on the negative aspects of the world]
-Persuader (ER): how can we sit here and do nothing? [Questioning inaction in the face of suffering]
-Persuadee (EE): Do nothing about what? [Seeking clarification]
-Persuader (ER): These poor suffering children! [Highlighting the issue of suffering children]
-Persuader (ER): Did you know that 5.6 million children die each year due to treatable AND preventable diseases? [Providing a shocking statistic to emphasize the issue]
-Persuadee (EE): That's awful. [Expressing sympathy]
-Persuadee (EE): Are you talking about around the world or in the states? [Seeking clarification on the scope of the issue]
-Persuader (ER): Around the world! [Clarifying the scope as global]
-Persuader (ER): There is so much that could be done.. [Expressing the potential for positive action]
-Persuader (ER): between preventing the spread of aids, reducing the infant mortality rate with proper education and vaccinations, and ensuring access and aid to proper nutrition so many children could be saved. [Listing specific actions that could help]
-Persuadee (EE): I totally agree. [Agreeing with the points made]
-Persuadee (EE): There are people helping but its a drop in the bucket. [Acknowledging efforts but noting their insufficiency]
-Persuadee (EE): The kids dying is really disturbing. [Expressing disturbance at the situation]
-Persuadee (EE): They didn't choose that life. [Empathizing with the children]
-Persuader (ER): You are absolutely right. [Agreeing with EE's point]
-Persuader (ER): It is disturbing! [Reiterating the disturbing nature of the issue]
-Persuader (ER): And yes, it could seem like the aid is a drop in a bucket. [Acknowledging the perception of aid as minimal]
-Persuader (ER): However, if we can move the scale one iota and can consider that what that represents is one child having a week of meals or a healthy 3 months than wouldn't you agree that that would be worth any aid that we could provide? [Arguing that even small contributions are valuable]
-Persuadee (EE): Absolutely! [Agreeing strongly]
-Persuadee (EE): I think every little bit helps but as a whole it's not enough. [Reiterating that small efforts help but are not enough]
-Persuadee (EE): Have you ever donated? [Inquiring about ER's personal involvement]
-Persuader (ER): I have! [Confirming personal involvement]
-Persuader (ER): And it feels incredible knowing that I have been a part of something greater than myself. [Describing the positive feelings from contributing]
-Summary: The conversation begins with ER expressing intense frustration and urgency about a global issue, highlighting a sense of helplessness and moral responsibility. EE responds with curiosity and agreement, showing empathy and concern. As the conversation progresses, both speakers align in their sentiments, acknowledging the severity of the issue and the insufficiency of current efforts. ER shifts from expressing anger to advocating for incremental change, while EE maintains supportive agreement, culminating in a shared sense of purpose and personal involvement.",1,0,False,0.81103515625
-20180825-102556_172_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): It would be really great if we gave some money to save the children [Propose a charitable action]
-Persuadee (EE): Can you tell me more about what they do? [Request more information]
-Persuader (ER): Save the Children is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries. [Provide information about the charity]
-Persuadee (EE): Sounds like they accomplish great things. [Express approval of the charity's work]
-Persuadee (EE): Are you thinking of a one time donation? [Inquire about the nature of the donation]
-Persuader (ER): yes it would be a one time donation that will be taken from the payment from the task. [Clarify the nature of the donation]
-Persuader (ER): You can decide to give part of the payment to save the children and keep part for yourself. [Explain the donation options]
-Persuadee (EE): I see, so I am thinking of donating half. [State a personal decision regarding the donation]
-Persuadee (EE): What are your thoughts? [Seek the other person's opinion]
-Persuader (ER): I think half is a good idea I will do the same thing [Agree with the proposed donation amount]
-Persuadee (EE): I think it is important to do all we can to help children. [Express the importance of helping children]
-Persuadee (EE): Are we being selfish by keeping half? [Express concern about the ethics of keeping part of the money]
-Persuader (ER): maybe there are children who may die without this money [Highlight the potential impact of the donation]
-Summary: The conversation begins with ER suggesting a charitable donation, prompting EE to inquire about the organization's purpose. EE expresses admiration for the organization's work and considers a donation strategy. ER proposes a one-time donation from a payment, allowing EE to choose how much to donate. EE decides to donate half, seeking ER's opinion, who agrees. EE then reflects on the moral implications of keeping part of the money, to which ER responds with a consideration of the potential impact.",1,1,True,0.80810546875
-20180825-112615_516_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hi. [Greeting]
-Persuader (ER): Are you familiar with Save the Children? [Initiating topic]
-Persuadee (EE): Hello. [Greeting]
-Persuadee (EE): I am not familiar with Save the Children [Expressing lack of knowledge]
-Persuader (ER): It is worldwide and helps to feed, shelter and educate underprivileged kids around the world. [Providing information]
-Persuadee (EE): I think that is a very good charity that appears to be doing good work. [Expressing approval]
-Persuadee (EE): Do you currently volunteer with this charity? [Inquiring about personal involvement]
-Persuader (ER): I do. [Confirming involvement]
-Persuader (ER): I help collect donations so the optimum number of children can be helped. [Describing personal contribution]
-Persuader (ER): Will you consider a donation? [Requesting donation]
-Persuadee (EE): I like to support organizations that are Christian based and help further the spread of the Gospel to all of God's children. [Stating personal preference]
-Persuadee (EE): Is this organization Christian or religious based? [Inquiring about religious affiliation]
-Persuader (ER): It is in terms of values. [Clarifying affiliation]
-Persuader (ER): The majority of funds go directly to the basic care needs of children. [Providing additional information]
-Persuader (ER): Many have a better opportunity at life because they are nourished. [Highlighting impact]
-Persuader (ER): What more can we do for the least of these? [Appealing to moral values]
-Summary: The conversation begins with ER introducing the charity Save the Children, aiming to inform and potentially persuade EE to support it. EE expresses initial interest but specifies a preference for Christian-based organizations. ER responds by emphasizing the charity's value-driven mission and its focus on children's basic needs. Throughout, ER maintains a persuasive strategy, appealing to shared values and the impact of the charity's work, while EE remains open yet cautious, aligning support with personal beliefs.",0,1,False,0.9638671875
-20180826-011431_343_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hello, have you ever made a charitable donation? [Initiate conversation and inquire about charitable donations]
-Persuadee (EE): Yes I have [Confirm previous charitable donation]
-Persuader (ER): Which charity have you donated to? [Request specific information about the charity]
-Persuadee (EE): Save the children [Provide the name of the charity]
-Persuader (ER): That is such a great organization isn't it? [Express approval and seek agreement]
-Persuader (ER): I love donating to their worthy cause, don't you? [Share personal experience and seek agreement]
-Persuadee (EE): Yes. Save the children is a very nice organization [Agree and affirm the organization's value]
-Persuader (ER): What is the most that you have donated to them? [Inquire about the amount donated]
-Persuadee (EE): I donated 1000 dollars to them. [Provide specific donation amount]
-Persuader (ER): WOW! [Express amazement]
-Summary: The conversation begins with ER inquiring about EE's charitable donations, maintaining a positive and affirming tone. ER expresses admiration for the chosen charity, ""Save the Children,"" and seeks to build rapport by sharing a similar sentiment. EE responds affirmatively, aligning with ER's enthusiasm. ER then shifts to a more inquisitive approach, asking about the donation amount, and concludes with an expression of surprise and admiration, reinforcing a positive and supportive dynamic throughout.",0,1,False,0.51416015625
-20180826-020520_686_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hello! [Greeting the other person]
-Persuader (ER): What if i told you that you have the opportunity of a lifetime to make a change in the world? [Introducing an intriguing opportunity]
-Persuader (ER): Would you take it? [Prompting for a response]
-Persuadee (EE): i will like to know about the opportunity first [Requesting more information]
-Persuader (ER): Well, the opportunity would be able to help fight world hunger by donating to Save the Children. [Providing details about the opportunity]
-Persuader (ER): Would you do it now? [Prompting for immediate action]
-Persuadee (EE): powerful people cause war and war cause hunger, and we average people sit on our chair try to donate some money to the poor [Expressing skepticism and frustration]
-Persuader (ER): It benefits every where not just war torn countries [Clarifying the benefits of the opportunity]
-Persuadee (EE): i get that. [Showing understanding]
-Persuader (ER): The best part is knowing that you can help make a change in a person's life who is currently unable to financially [Highlighting the positive impact of the opportunity]
-Persuadee (EE): yeah i know how donation works. [Indicating familiarity with the concept of donation]
-Persuadee (EE): I have 300000 immigrants in my country. [Providing context about local issues]
-Summary: The conversation begins with ER enthusiastically presenting an opportunity to make a positive impact, aiming to persuade EE to take immediate action. EE responds with cautious interest, seeking more information before committing. As ER continues to emphasize the broader benefits of the opportunity, EE expresses skepticism about the effectiveness of donations given systemic issues. Despite ER's persistent encouragement, EE remains unconvinced, highlighting local challenges and demonstrating a more pragmatic perspective on the situation.",0,1,False,0.6669921875
-20180826-044626_167_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Morning! [Greeting the other person]
-Persuader (ER): Have you considered donating to Save the Children? [Introducing the topic of donating to Save the Children]
-Persuader (ER): It's a great organization and doesn't cost much to help a child in need. [Providing additional information to persuade the other person]
-Persuadee (EE): I have not. [Responding to indicate lack of prior consideration]
-Persuadee (EE): I am not sure I know what Save the Children is. [Expressing lack of knowledge about the organization]
-Persuader (ER): It's an  international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries. [Providing detailed information about the organization]
-Persuader (ER): It has done wonderful things and is a big part of many organizations employee giving drives. [Highlighting the organization's positive impact]
-Persuadee (EE): Oh cool. [Expressing interest]
-Persuadee (EE): Do they help people here in the USA? [Inquiring about the organization's activities in the USA]
-Persuader (ER): Right now they're concentrating at an international level. [Clarifying the organization's current focus]
-Persuader (ER): Did you know that in the first two months of 2018, over 1,000 children were reportedly killed or injured in Syria alone? [Providing a specific example to emphasize the need]
-Persuader (ER): They also appeal to stop hunger issues abroad. [Adding another example of the organization's efforts]
-Persuadee (EE): Yes, I know about Syria. [Showing awareness of the situation in Syria]
-Persuadee (EE): I know hunger is a big issue for a lot of people in other countries. [Acknowledging the issue of hunger in other countries]
-Persuadee (EE): Do they provide food for these people? [Asking for specifics about the organization's aid]
-Persuader (ER): They provide whatever is needed. [Clarifying the scope of the organization's aid]
-Persuader (ER): AND, in relation to the US, they are currently working on the Hurricane Lane situation in Hawaii. [Connecting the organization's efforts to a current US event]
-Summary: The conversation begins with ER initiating a friendly greeting and introducing the idea of donating to a charity. ER employs a persuasive strategy by highlighting the organization's impact and addressing EE's inquiries with informative responses. EE initially expresses unfamiliarity and curiosity, which gradually shifts to a more informed and engaged stance as ER provides detailed explanations. ER maintains a consistent persuasive approach, emphasizing the organization's international efforts and recent domestic involvement, while EE shows increasing interest and understanding.",0,1,False,0.94873046875
-20180826-053845_531_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Save the Children is an amazing charity that helps kids who are in desperate need. [Expressing admiration for the charity]
-Persuader (ER): They can help with safety, education and more. [Providing information about the charity's services]
-Persuader (ER): You can donate some of your earnings to this amazing charity. [Encouraging donation]
-Persuadee (EE): I believe in this charity, but still wonder how much of the money I donate actually helps. [Expressing belief in the charity but voicing concern]
-Persuader (ER): Every little bit makes a difference. [Reassuring the impact of donations]
-Persuader (ER): When you have people who are so poor, it's amazing what a tiny amount can do. [Emphasizing the value of small contributions]
-Persuadee (EE): I would gladly give my earnings to this charity. [Expressing willingness to donate]
-Persuadee (EE): Children hold the future of the world. [Highlighting the importance of children]
-Persuader (ER): It is really so heartbreaking when you see all of these kids not having enough to eat. [Expressing empathy for the children's plight]
-Persuader (ER): It really breaks the heart. [Reiterating emotional impact]
-Persuader (ER): They are so little. [Emphasizing the vulnerability of children]
-Persuadee (EE): I know, it always amazes me how many children are suffering around the world. [Expressing amazement at the extent of suffering]
-Persuadee (EE): It is so sad. [Expressing sadness]
-Persuader (ER): Even the little bit you donate from your earnings can go a long way to making a difference for a child. [Reiterating the impact of small donations]
-Persuadee (EE): Though MTurk they should raise quite a bit. [Speculating on the potential total donations]
-Summary: The conversation begins with ER expressing strong support for a charity, emphasizing its positive impact and encouraging donations. EE initially expresses skepticism about the effectiveness of donations but gradually aligns with ER's sentiment, acknowledging the charity's importance. ER maintains a compassionate and persuasive tone throughout, focusing on the charity's impact on children. EE's sentiment evolves from doubt to agreement, ultimately expressing willingness to contribute and recognizing the broader significance of supporting children in need.",1,1,True,0.875
-20180826-055352_947_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hello! [Greeting the other participant.]
-Persuadee (EE): Hello [Responding to the greeting.]
-Persuader (ER): So it looks like you have the option to donate some of your earnings from this task to Save the Children. [Informing about the option to donate earnings to Save the Children.]
-Persuader (ER): Have you heard of that charity before? [Inquiring if the other participant has heard of the charity.]
-Persuadee (EE): Know I have not. [Stating lack of knowledge about the charity.]
-Persuadee (EE): Please explain to me in detail [Requesting detailed information about the charity.]
-Persuader (ER): Please explain to me in detail [Repeating the request for detailed information.]
-Persuader (ER): It's an international organization that supports children in developing countries. [Providing information about the charity's mission.]
-Persuader (ER): It helps children get access to health, education, safety, etc. [Elaborating on the charity's activities.]
-Persuadee (EE): Okay. [Acknowledging the information.]
-Persuadee (EE): What is the organization called? [Asking for the name of the organization.]
-Persuader (ER): It's called Save the Children. [Providing the name of the organization.]
-Persuader (ER): It's a rather large organization and well known, you can search for it outside this chat. [Assuring the participant of the organization's legitimacy.]
-Persuader (ER): It's not just a made up organization for the sake of the chat. [Reiterating the legitimacy of the organization.]
-Persuader (ER): Do you donate much to charity now? [Inquiring about the participant's current donation habits.]
-Persuadee (EE): O I have heard of Save the children. [Recognizing the charity.]
-Persuadee (EE): I think I have seen commercials on tv advertising the charity. [Recalling seeing advertisements for the charity.]
-Persuadee (EE): Currently I do not donate to charities. [Stating current non-donation status.]
-Persuadee (EE): I wish to and I like the idea of charity donantions, but personal donations is not within my current budget. [Expressing a desire to donate but citing financial constraints.]
-Persuadee (EE): I am a single mother and fiances are pretty tight at the moment. [Explaining personal financial situation.]
-Persuader (ER): I understand. [Expressing understanding.]
-Persuader (ER): I'm in a similar situation, and I'm hoping to buy a house soon with my boyfriend. [Sharing personal financial goals.]
-Summary: The conversation begins with ER introducing the option to donate to a charity, aiming to inform and possibly persuade EE. Initially, EE is unfamiliar with the charity, prompting ER to provide more details. As the conversation progresses, EE recalls having heard of the organization but explains financial constraints prevent current donations. Both speakers express understanding and empathy for each other's financial situations, shifting the conversation from persuasion to mutual sharing of personal circumstances.",0,1,False,0.64990234375
-20180826-061949_863_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Do you know about Save the Children? [Inquire about the other person's knowledge of a specific charity]
-Persuadee (EE): I have not heard of this charity before! [Express lack of knowledge about the charity]
-Persuadee (EE): Have you? [Inquire if the other person is familiar with the charity]
-Persuader (ER): I have. [Confirm familiarity with the charity]
-Persuader (ER): I actually a  monthly donor [Share personal involvement with the charity]
-Persuadee (EE): That's great! [Express approval and encouragement]
-Persuadee (EE): Would you mind explaining what the charity does? [Request more information about the charity's activities]
-Persuader (ER): The charity collects donation from people like you and me and help children in need [Provide information about the charity's mission]
-Persuadee (EE): Sounds like quite the worthy cause. [Express approval of the charity's cause]
-Persuadee (EE): Are the children in need all across the world? [Inquire about the geographical scope of the charity's work]
-Persuadee (EE): Or just the United States? [Seek clarification on the geographical scope]
-Persuader (ER): all over the world. [Clarify the global reach of the charity]
-Persuader (ER): I saw a children died from hunger and it tears my heart apart. [Share a personal emotional experience related to the charity's cause]
-Summary: The conversation begins with ER introducing the topic of a charity, with EE expressing unfamiliarity and curiosity. ER shares personal involvement, prompting EE to show interest and request more information. As ER explains the charity's global reach and emotional impact, EE's responses remain supportive and inquisitive. Throughout, ER maintains a compassionate tone, while EE's interest grows, showing a shift from initial unfamiliarity to engagement and empathy towards the cause.",0,0,True,0.60107421875
-20180826-062736_188_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hi there! [Greeting the other person]
-Persuader (ER): Can I tell you all [Initiating a conversation]
-Persuadee (EE): Hello how are [Responding to the greeting]
-Persuader (ER): sorry it cut me off... [Apologizing for the interruption]
-Persuader (ER): can I tell you about a charity called Save the Children? [Requesting permission to talk about a charity]
-Persuadee (EE): Yes pleas do [Granting permission and showing interest]
-Persuader (ER): They help children make sure they have access to health resources, education, and safe environments. [Providing information about the charity's mission]
-Persuadee (EE): Sounds like a good charity. [Expressing approval of the charity]
-Persuadee (EE): What countries do they provide service to? [Inquiring about the geographical scope of the charity's services]
-Persuader (ER): mainly children in developing countries. [Providing specific information about the charity's focus areas]
-Persuader (ER): Did you know over 1,000 children were killed in Syria in just the first 2 months of 2018. [Highlighting a specific issue to emphasize the charity's importance]
-Summary: The conversation begins with ER attempting to introduce a topic, which is briefly interrupted. EE responds with openness and curiosity. ER then provides information about a charity, maintaining a factual and informative tone. EE shows interest and asks for more details, indicating engagement. ER continues with a focus on impactful statistics to emphasize the charity's importance, suggesting a shift towards a more persuasive strategy to evoke concern and empathy from EE.",0,0,True,0.76318359375
-20180826-174459_637_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): HI, have you ever heard of Save The Children? [Initiate conversation and introduce the topic of Save The Children]
-Persuadee (EE): I haven't, is that a charity? [Express lack of knowledge and seek clarification]
-Persuader (ER): It is and a very reputable one. [Confirm and endorse the charity's reputation]
-Persuader (ER): Have you ever donated to one before? [Inquire about past donation behavior]
-Persuadee (EE): I've donated to a few in the past [Share past donation experience]
-Persuader (ER): Maybe I can get to do it again, Save the Children is international and non-governmental. Would you be interested in donating? [Encourage donation to Save The Children and gauge interest]
-Persuadee (EE): Possibly, do they have a website? [Show potential interest and request more information]
-Persuader (ER): They do, it's  URL by donating you are helping children and their families. [Provide website information and emphasize the impact of donations]
-Summary: The conversation begins with ER introducing a charity, aiming to inform and persuade EE to consider donating. EE shows initial unfamiliarity but expresses openness by acknowledging past donations. ER maintains a persuasive approach, emphasizing the charity's credibility and impact. EE's interest grows as they inquire about further information, leading ER to provide a website link, reinforcing the call to action. The dialogue reflects a shift from initial inquiry to potential engagement.",0,1,False,0.6728515625
-20180826-180314_928_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hi. [Greeting]
-Persuader (ER): How are you? [Inquiring about well-being]
-Persuadee (EE): Hello, I'm fine. [Responding to greeting and sharing well-being]
-Persuadee (EE): How are you? [Inquiring about well-being]
-Persuader (ER): I'm doing well. Thanks. [Responding to inquiry and expressing gratitude]
-Persuader (ER): Have you been using MTurk long? [Inquiring about experience with MTurk]
-Persuader (ER): I've only just started in the last few days and I love it. [Sharing personal experience with MTurk]
-Persuader (ER): It's pretty easy money most of the time. [Commenting on the ease of earning money]
-Persuader (ER): I'm Tommy, by the way. [Introducing self]
-Persuadee (EE): Hi Tommy I'm Cassidy. [Responding to introduction and introducing self]
-Persuadee (EE): I've been using mTurk on and off for about half a year but the past month I've really commmited to doing tasks everyday. [Sharing personal experience with MTurk]
-Persuadee (EE): It's great to earn extra money here and there. [Expressing positive sentiment about earning extra money]
-Persuadee (EE): I'm glad you're enjoying it. [Expressing gladness for ER's enjoyment]
-Persuader (ER): Well thanks, Cassidy. [Expressing gratitude]
-Persuader (ER): It definitely seems like a fun way to make some extra money. [Agreeing with positive sentiment about MTurk]
-Persuader (ER): I feel like sometimes people don't understand how even just a few dollars can make a difference in people's lives. [Commenting on the impact of small amounts of money]
-Persuader (ER): For example, I like to give a little money to charity each month. [Sharing personal charitable activity]
-Persuader (ER): And you'd be surprised how far even just a little bit of money goes in some impoverished countries. [Emphasizing the impact of small donations]
-Persuader (ER): How about you, Cassidy? [Inquiring about EE's charitable activities]
-Persuader (ER): Do you like giving to charities? [Specifically asking about donating to charities]
-Persuadee (EE): I do enjoy donating to charities. [Confirming enjoyment of donating to charities]
-Persuadee (EE): I don't usually have a ton of extra money so it's not an every month kind of thing for me but I try to give at least once a year. [Explaining frequency and limitations of donations]
-Persuadee (EE): And when I can't give monetarily donate food, my time, and go to blood drives on my university [Sharing alternative ways of contributing]
-Persuader (ER): Aww, that's really considerate of you. [Complimenting EE's consideration]
-Summary: The conversation begins with a polite exchange of greetings and mutual inquiries about well-being, establishing a friendly tone. As the dialogue progresses, the speakers share personal experiences and sentiments about using MTurk, with ER expressing enthusiasm and EE sharing a more seasoned perspective. The conversation shifts to discussing charitable giving, with ER introducing the topic and EE responding positively, highlighting personal contributions. Throughout, the speakers maintain a supportive and appreciative tone, fostering a sense of camaraderie and shared values.",0,0,True,0.634765625
-20180826-181742_58_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): hello, are you interested in charities? [Initiate conversation and gauge interest in charities]
-Persuadee (EE): yes i am are you? [Express interest and reciprocate the question]
-Persuader (ER): of course i am, do you know save the children charity? [Confirm interest and introduce a specific charity]
-Persuadee (EE): no can you tell me a little about it [Request more information about the charity]
-Persuader (ER): of course, save the children is a non-profit organization that helps the children all over the world. [Provide a brief description of the charity]
-Persuadee (EE): that sounds great. [Express approval]
-Persuadee (EE): i feel like i need to do something like that [Express a desire to get involved]
-Persuader (ER): are you interested in helpin childrens? [Inquire about interest in helping children]
-Persuadee (EE): how can i help them? [Ask for ways to help]
-Summary: The conversation begins with a mutual interest in charities, establishing a positive and open tone. ER introduces a specific charity, prompting curiosity and engagement from EE. As ER provides information, EE's interest deepens, shifting towards a desire to take action. ER then encourages this inclination by asking about EE's interest in helping children, leading to EE seeking guidance on how to contribute, indicating a transition from curiosity to actionable intent.",0,0,True,0.7626953125
-20180826-182522_887_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hello there! [Greeting the other person]
-Persuader (ER): Where are you from? [Inquiring about the other person's location]
-Persuadee (EE): Hi, I'm in Hawaii! [Responding to the inquiry with their location]
-Persuadee (EE): What kind of children's charities do you know about? [Asking for information about children's charities]
-Persuader (ER): I've recently been informed of Save the Children. [Providing information about a specific charity]
-Persuader (ER): Have you heard of this organization? [Asking if the other person is familiar with the charity]
-Persuadee (EE): It sounds familiar. [Indicating partial recognition of the charity]
-Persuadee (EE): What do they do? [Requesting more information about the charity's activities]
-Persuader (ER): Through the help of sponsorships and donations, they're working to help children... [Explaining the charity's activities]
-Persuader (ER): I'm learning about this myself now, too. [Sharing that they are also learning about the charity]
-Persuader (ER): Education, poverty issues, healthcare, emergency response. [Listing specific areas the charity focuses on]
-Persuader (ER): That's not all...would you like to check out their website? [Offering to provide a link to the charity's website]
-Persuadee (EE): Sure, what is it? [Accepting the offer and asking for the website link]
-Persuader (ER): Here is the link  URL [Providing the link to the charity's website]
-Persuadee (EE): They look really good. [Expressing a positive impression of the charity]
-Persuadee (EE): I think I've seen their commercials. [Recalling seeing the charity's commercials]
-Summary: The conversation begins with a friendly exchange of greetings and a question about location, establishing a casual tone. It quickly shifts to a discussion about children's charities, with ER introducing Save the Children and sharing information about its mission. ER maintains an informative and collaborative approach, inviting EE to explore further. EE shows interest and familiarity, expressing a willingness to learn more. The conversation concludes with EE acknowledging the charity's positive impression and potential recognition from commercials.",1,1,True,0.96435546875
-20180827-004200_630_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hello [Greeting the other person.]
-Persuadee (EE): Hi. [Responding to the greeting.]
-Persuader (ER): Are you willing to donate to Save the Children? [Inquiring about willingness to donate.]
-Persuadee (EE): Yes. [Expressing willingness to donate.]
-Persuadee (EE): I would very much like to donate. [Reaffirming the intention to donate.]
-Persuader (ER): how much are you willing to donate? [Asking for the amount of donation.]
-Persuadee (EE): Well, I don't have much money right now. [Explaining financial limitations.]
-Persuadee (EE): All I can afford is $5.00. [Stating the amount they can afford to donate.]
-Persuader (ER): I think that is an excellent amount and would benefit Save the Children. [Validating the donation amount and encouraging the donor.]
-Persuader (ER): For example,millions of Syrian children have grown up facing the daily threat of violence. [Providing context about the cause.]
-Persuader (ER): In the first two months of 2018 alone, 1,000 children were reportedly killed or injured in intensifying violence. [Highlighting the urgency and severity of the situation.]
-Persuader (ER): Your donation will make an impact to better childrens' live around the world. [Emphasizing the impact of the donation.]
-Persuadee (EE): That's so horrible. [Expressing empathy and concern.]
-Persuadee (EE): I wish I could give more. [Expressing a desire to contribute more.]
-Persuadee (EE): I sponsor a poor child in India every month for $40. [Sharing personal involvement in charitable activities.]
-Persuadee (EE): I wish I could help all the children in the world. [Expressing a broader wish to help.]
-Persuader (ER): I would like to personally thank you for that. [Expressing gratitude for the donor's contributions.]
-Persuader (ER): It is very thoughtful to donate to causes that benefit disadvantaged children. [Commending the donor's thoughtfulness.]
-Persuader (ER): Your donation means a lot to that child in India [Reiterating the importance of the donor's contributions.]
-Persuadee (EE): It is the least I can do for him. [Minimizing their own contributions.]
-Persuadee (EE): Most people take for granted what they have in their lives, while there are so many thousands who do not even have the basic necessities. [Reflecting on societal disparities.]
-Summary: The conversation begins with a straightforward request for a donation, to which the respondent agrees but expresses financial limitations. The requester positively reinforces the small donation and provides impactful information to emphasize the importance of the contribution. The respondent expresses empathy and a desire to do more, sharing their existing charitable efforts. The requester acknowledges and appreciates these efforts, reinforcing the value of the respondent's contributions. The conversation maintains a tone of mutual respect and shared concern for global issues.",1,0,False,0.7685546875
-20180827-032811_159_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): I think it would be good to donate your payment to Save the Children, it could help alot of kids out [Suggesting a charitable action]
-Persuadee (EE): yes i will. [Agreeing to the suggestion]
-Persuader (ER): That's very good since they do so much for children. [Affirming the value of the action]
-Persuadee (EE): Sure, Do you like donations? [Inquiring about the other person's interest in donations]
-Persuader (ER): Yes I think donating to charity is a very honorable thing to do. [Expressing personal belief in the value of donations]
-Persuadee (EE): Definitely, Are you interested in such things? [Seeking further confirmation of the other person's interest]
-Persuader (ER): Yes I donate to charity every month through my paychecks. [Sharing personal habit of donating]
-Persuadee (EE): Oh! [Expressing surprise]
-Persuadee (EE): this is so good. [Expressing approval]
-Persuader (ER): Are you aware of what save te children does? [Checking the other person's awareness about the charity]
-Persuadee (EE): I know a little bit. [Admitting limited knowledge]
-Summary: The conversation begins with ER suggesting a charitable action, which EE readily agrees to. ER expresses approval and shares a personal commitment to charity, reinforcing a positive sentiment towards donations. EE shows curiosity about ER's interest in donations and responds positively to ER's charitable habits. The conversation maintains a supportive and agreeable tone, with EE expressing mild surprise and interest in learning more about the charity discussed.",1,1,True,0.59326171875
-20180827-041027_973_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): hi how are you [Greeting and initiating conversation]
-Persuadee (EE): I'm well, thanks [Responding to greeting]
-Persuader (ER): do you know what is the save the children [Inquiring about the other person's knowledge of a specific organization]
-Persuadee (EE): I've heard of it. [Indicating some familiarity with the organization]
-Persuadee (EE): It's a charity, right? [Seeking confirmation about the nature of the organization]
-Persuadee (EE): What do they do? [Requesting more information about the organization's activities]
-Persuader (ER): yes it is a organization do you know more info [Confirming the nature of the organization and probing for more information]
-Persuadee (EE): I'd like more information, yes. [Expressing interest in learning more]
-Persuader (ER): The Save the Children Fund, commonly known as Save the Children, is an international non-governmental organisation that promotes children's rights, provides relief and helps support children in developing countries. [Providing detailed information about the organization]
-Persuadee (EE): That's nice. [Acknowledging the information]
-Persuadee (EE): What kind of things do they help with? [Requesting specific details about the organization's activities]
-Summary: The conversation begins with a polite exchange of greetings, establishing a friendly tone. The initiator, ER, introduces a topic of interest, prompting curiosity from EE. As the conversation progresses, EE expresses a desire to learn more, showing openness and engagement. ER provides information, maintaining an informative and supportive approach. EE responds positively, asking further questions, which indicates sustained interest and a collaborative dynamic, with ER guiding the discussion and EE actively participating.",0,0,True,0.87841796875
-20180903-103835_253_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hello there, how are you? [Initiate conversation and establish rapport]
-Persuadee (EE): Hi [Respond to greeting]
-Persuader (ER): How much do you know about Save the Children? [Inquire about EE's knowledge of Save the Children]
-Persuadee (EE): I know that it is a charity. [Provide basic information about Save the Children]
-Persuadee (EE): I think I have seen some commercials for it in my lifetime. [Share personal experience related to Save the Children]
-Persuader (ER): Were you aware that Save the Children assists both children in the U.S. as well as foreign countries? [Provide additional information about Save the Children's scope]
-Persuadee (EE): No. [Express lack of awareness]
-Persuadee (EE): I figured they just tried to help children in under developed countries. [Share assumption about Save the Children's focus]
-Persuadee (EE): That's great that they help people in the U.S. as well! [Express approval of Save the Children's broader scope]
-Persuadee (EE): I think it's important to help children from our country and also others. [Share personal belief about the importance of helping children]
-Persuader (ER): Yes, not only do we help out with literacy and school related causes, but also with feeding, shelter, and disaster relief for children all over the world. [Provide detailed information about Save the Children's activities]
-Persuadee (EE): That's wonderful! [Express approval]
-Persuadee (EE): Are you a top rated charity? [Inquire about the charity's rating]
-Summary: The conversation begins with a neutral tone as ER initiates a discussion about Save the Children, aiming to inform EE. Initially, EE's responses are brief and show limited awareness. As ER provides more information, EE's interest and enthusiasm grow, reflecting a positive shift in sentiment. ER maintains a persuasive and informative approach throughout, while EE becomes increasingly engaged and supportive, culminating in a positive acknowledgment of the charity's efforts and a question about its reputation.",0,1,False,0.720703125
-20180904-043300_214_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
-
-Conversation:
-Persuader (ER): Hi! [Greeting]
-Persuader (ER): How are you doing today? [Inquiring about well-being]
-Persuadee (EE): I'm doing very well. [Responding to inquiry]
-Persuadee (EE): Just recovering from the long weekend. [Providing additional personal information]
-Persuadee (EE): How about yourself? [Returning the inquiry]
-Persuader (ER): I am doing well thank you and same here [Responding to inquiry and sharing personal information]
-Persuadee (EE): Awesome. [Expressing positive sentiment]
-Persuadee (EE): What are some of your hobbies? [Inquiring about personal interests]
-Persuader (ER): Well one hobby is volunteering. [Sharing personal interest]
-Persuader (ER): I wanted to talk to you about a charity Save the Children, have you heard of it? [Introducing a topic and inquiring about familiarity]
-Persuadee (EE): Only in name. [Expressing limited familiarity]
-Persuadee (EE): I haven't heard too much about it though. [Providing additional context]
-Persuadee (EE): Can you tell me more? [Requesting more information]
-Summary: The conversation begins with a friendly exchange of pleasantries, establishing a positive and open tone. Both speakers express mutual well-being and shared experiences. As the conversation progresses, ER smoothly transitions into discussing a personal interest in volunteering, specifically introducing a charity. EE shows curiosity and openness, inviting ER to elaborate further, indicating a willingness to engage and learn more about the topic introduced by ER.",0,0,True,0.85009765625
 20180719-122534_38_live,2,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
 
 Conversation:
@@ -3458,3 +2727,734 @@ Persuader (ER): It's called Save the Children and we work towards helping disadv
 Persuadee (EE): Sounds wonderful! [Expressing approval and interest]
 Persuadee (EE): Do you only work in the US? [Asking for more specific information about the charity's operations]
 Summary: The conversation begins with a polite exchange of greetings, establishing a friendly tone. ER introduces a charity topic with enthusiasm, aiming to engage EE's interest. EE responds positively and expresses willingness to learn more, maintaining a supportive and curious stance. As ER provides information about the charity, EE's questions indicate genuine interest and a desire to understand the scope of the charity's work, suggesting an open and receptive attitude throughout the exchange.",0,0,True,0.9990234375
+20180719-211846_176_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): hi, how are you? [Initiate conversation and greet]
+Persuadee (EE): I'm doing well thank you [Respond to greeting and provide a status update]
+Persuader (ER): that good You knew that for every minute that passes, a child under the age of 5 dies as a result of the war in the Middle East [Introduce a serious issue to raise awareness]
+Persuadee (EE): That is absolutely terrible. [Express concern and empathy]
+Persuadee (EE): Are there any good charities that are helping on this issue? [Inquire about potential solutions or actions]
+Persuader (ER): I recently read from an organization called Save a Children, which works hard to protect these children and needs financial help to continue [Provide information about a specific charity]
+Persuadee (EE): How can someone help? [Seek further information on how to help]
+Persuadee (EE): I would be willing to donate my time and perhaps some money. [Express willingness to contribute]
+Persuader (ER): you can help by donating what you can, you can even help with your win in mturk, I think these children need us now [Encourage donation and suggest a specific way to help]
+Persuadee (EE): How exactly does the money help the cause? [Request detailed information on the impact of donations]
+Persuadee (EE): What's it spent on? [Seek clarification on the allocation of funds]
+Summary: The conversation begins with a polite exchange of greetings, quickly shifting to a serious tone as ER introduces a distressing issue. EE responds with empathy and curiosity, expressing a willingness to contribute. ER suggests a specific charity and encourages financial support, while EE seeks more information about the charity's use of funds. The dialogue reflects a progression from awareness to a desire for action, with EE's inquiries indicating a thoughtful consideration of how best to contribute.",0,1,False,0.69140625
+20180723-042342_809_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello how do you feel about the Save the Children charity? [Initiate conversation and gauge opinion on Save the Children charity]
+Persuadee (EE): I think it's a scam [Express skepticism and negative opinion about the charity]
+Persuader (ER): Oh no not at all they do tons of good  is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries. [Defend the charity and provide information about its mission]
+Persuadee (EE): I don't believe it. [Express disbelief in the charity's legitimacy]
+Persuadee (EE): There is no way to prove where all those funds go. [Question the transparency of the charity's fund allocation]
+Persuadee (EE): Plus there are starving children right here in america [Highlight local issues to counter the charity's focus]
+Persuader (ER): This is a great organization and I am sure that they would not be allowed to continue the way they do if the money was not going where it is suppose to and every penny being accounted for. [Reaffirm trust in the charity's accountability and transparency]
+Persuader (ER): They do so much good in the world yes there are hungry kids here but millions of Syrian children have grown up facing the daily threat of violence. [Emphasize the charity's global impact and the severity of issues it addresses]
+Persuader (ER): In the first two months of 2018 alone, 1,000 children were reportedly killed or injured in intensifying violence. [Provide specific data to support the charity's impact]
+Persuadee (EE): That is all your opinion. [Dismiss the provided information as opinion]
+Persuadee (EE): You have no facts to back that up. [Challenge the credibility of the information provided]
+Persuader (ER): Yes part of the money does go to pay for things like advertising and all that but over 88% of the donations they recieve are sent where they are needed and that includes in the United States believe it or not. [Clarify the allocation of donations and provide supporting data]
+Persuader (ER): This is according to a website that breaks down info on different charities [Cite a source to back up the information provided]
+Persuadee (EE): Like I said those are opinions. [Reiterate that the information provided is opinion-based]
+Persuadee (EE): There are no facts that prove that to be true. [Assert the lack of factual evidence supporting the charity's claims]
+Persuadee (EE): There are no laws that stop them from lying to people either. [Claim that there are no regulations preventing the charity from being dishonest]
+Persuadee (EE): I have never meet anyone who has been aided by that organization. [Express personal lack of evidence of the charity's impact]
+Persuadee (EE): Infomercials don't impress me. [Discredit the charity's promotional efforts]
+Persuader (ER): How about the fact that they have been around for over 100 years scams do not stay around that long [Argue the charity's long-standing presence as evidence of its legitimacy]
+Persuadee (EE): Yes they do. [Disagree with the argument presented]
+Persuadee (EE): Have you ever heard of evangelism? [Draw a parallel with evangelism to question the charity's legitimacy]
+Summary: The conversation begins with ER expressing a positive view of a charity, while EE is skeptical and dismissive, believing it to be a scam. ER attempts to persuade EE by providing information and emphasizing the charity's impact and longevity. Despite ER's efforts to present evidence and counterarguments, EE remains unconvinced and challenges ER's claims, maintaining a skeptical stance throughout. The exchange highlights a persistent disagreement, with ER employing factual appeals and EE questioning the credibility of those facts.",0,1,False,0.79736328125
+20180723-042344_940_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): How much money do you spend daily on extras like a coffee or treat? [Initiate conversation about daily spending on non-essentials]
+Persuadee (EE): I spend about 5 dollars a day, you? [Respond to question and reciprocate inquiry]
+Persuader (ER): About 1 dollar per day. [Provide personal spending information]
+Persuader (ER): Do you think that amount of money would make a difference in a needy child's life? [Prompt reflection on the impact of spending on a needy child]
+Persuadee (EE): I think it would in many places [Express belief in the positive impact of the money]
+Persuader (ER): I agree. [Express agreement]
+Persuader (ER): Are you familiar with a charity called Save the Children? [Introduce the topic of a specific charity]
+Persuadee (EE): No i am not can you explain? [Express lack of knowledge and request more information]
+Persuader (ER): Save the Children is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries. [Provide detailed information about the charity]
+Persuadee (EE): Wow thats great. [Express positive reaction]
+Summary: The conversation begins with a casual inquiry about daily spending habits, with both speakers sharing their expenditures. The conversation then shifts to a reflective tone as ER introduces a moral consideration regarding the impact of such spending on needy children. EE acknowledges the potential impact, leading ER to introduce the charity ""Save the Children."" EE expresses interest and appreciation, indicating a shift from casual discussion to a more engaged and thoughtful exchange about charitable giving.",0,0,True,0.646484375
+20180723-052203_936_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello! How are you doing today? [Greeting and initiating conversation]
+Persuadee (EE): I'm doing very well thank you! [Responding positively to greeting]
+Persuadee (EE): How is your day going so far? [Inquiring about the other person's well-being]
+Persuader (ER): I am doing well. [Responding to inquiry about well-being]
+Persuader (ER): My day has been busy visiting different places to speak about the charity I support. [Providing information about their day and charity work]
+Persuader (ER): Have you heard of Save the Children? [Introducing the charity ""Save the Children""]
+Persuadee (EE): It sounds familiar to me, could you tell me more about it? [Expressing familiarity and requesting more information]
+Persuader (ER): Helping children in countries that are very war torn or in some form of conflict is what we help in. [Explaining the charity's mission]
+Persuader (ER): Everyday 16,000 children die before their 5th birthday, 1 out of 80 flee the country and risk everything, and 1 out of 6 kids aren't enrolled in a school or getting education that they need [Providing statistics to emphasize the charity's importance]
+Persuadee (EE): The charity sounds like it is doing some good work in an area that badly needs it. [Acknowledging the charity's good work]
+Persuadee (EE): Children should be our top priority all across the world. [Expressing a belief in the importance of children's welfare]
+Persuadee (EE): How can someone get involved and help out with this charity? [Inquiring about ways to get involved with the charity]
+Persuader (ER): Oh there are quiet a few ways. [Indicating there are multiple ways to help]
+Persuader (ER): For roughly a dollar a day you can sponsor a child, you can choose a gift to spend to a child through our catalog, you could start a fundraiser, or you can just simply donate. [Listing specific ways to support the charity]
+Persuader (ER): With that, keep in mind if you ever decide to make a monetary donation, 86% goes directly to the children, 9% fundraising, and 5% management and general. [Providing details about the allocation of donations]
+Persuader (ER): Just so you can have an idea that we use 9 out of 10 dollars directly on the children. [Reinforcing the efficient use of donations]
+Summary: The conversation begins with a friendly exchange of pleasantries, establishing a positive tone. As the conversation progresses, ER shifts to a more informative and persuasive strategy, sharing details about a charity and its impact. EE responds with interest and support, prompting ER to elaborate on ways to get involved. ER maintains a persuasive approach, emphasizing the charity's efficiency and impact, while EE remains receptive and engaged throughout the discussion.",1,1,True,0.52392578125
+20180723-094242_630_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi, how are you today? [Initiate conversation and establish rapport]
+Persuadee (EE): I am okay. [Respond to greeting]
+Persuadee (EE): How are you? [Inquire about the other person's well-being]
+Persuader (ER): i'm doing great! [Respond positively and continue the conversation]
+Persuader (ER): I'm working for Save The Children organisation, have you heard about it? [Introduce the organization and gauge familiarity]
+Persuadee (EE): No, I haven't. [Express lack of knowledge about the organization]
+Persuadee (EE): Can you tell me more about it? [Request more information about the organization]
+Persuader (ER): sure. [Agree to provide more information]
+Persuader (ER): Save the Children is an international NGO that promotes children's rights and provides relief and helps support children in developing countries [Provide a brief overview of the organization's mission and activities]
+Persuadee (EE): What types of programs does it offer? [Inquire about specific programs offered by the organization]
+Persuader (ER): they ensure children's rights to health ,education and safety. [Provide information about the types of programs]
+Summary: The conversation begins with a polite exchange of greetings, establishing a friendly tone. ER then introduces their affiliation with an organization, prompting curiosity from EE. As the conversation progresses, ER takes on an informative role, providing details about the organization's mission and programs. EE's responses indicate interest and engagement, maintaining a collaborative and inquisitive atmosphere throughout the interaction.",1,0,False,0.82666015625
+20180808-022005_838_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello, how are you today. [Greeting and initiating conversation]
+Persuadee (EE): Very well, thank you. [Responding to greeting]
+Persuadee (EE): And you? [Inquiring about the other person's well-being]
+Persuader (ER): I'm great, thank you. [Responding to inquiry and expressing well-being]
+Persuader (ER): I'm wondering if I can have a moment of your time to talk to you about a charity program I work with? [Requesting time to discuss a charity program]
+Persuadee (EE): Sure. [Agreeing to listen]
+Persuadee (EE): Go right ahead. [Encouraging the speaker to proceed]
+Persuader (ER): Thank you. [Expressing gratitude]
+Persuader (ER): I'm hoping you would like to donate some of your task payment to the charity 'Save the Children', and organization that promotes children's rights and supports children in developing countries. [Requesting a donation and providing information about the charity]
+Persuadee (EE): I would be interested in doing do, however I must tell you I am generally very skeptical about charity orginizations in general. [Expressing interest but also skepticism about charities]
+Persuadee (EE): I know of many that I do not support due to the 6 figure salaries of the CEO. [Providing reasons for skepticism]
+Persuadee (EE): And the fact that not much of the donation actually get to the ""cause"". [Further elaborating on reasons for skepticism]
+Persuader (ER): I completely understand the skepticism due to a tenfold of shady organizations these days. [Acknowledging and understanding the skepticism]
+Persuader (ER): However, I can guarantee you Save the Children is a professional organization that promises their donations go to a trustable fund to support international children's causes. [Assuring the credibility of the charity]
+Persuadee (EE): You have my attention, however this HIT is running Very long for 2 bucks already. [Expressing interest but concern about the time spent]
+Summary: The conversation begins with a polite exchange of pleasantries, establishing a friendly tone. ER then introduces a charitable cause, aiming to persuade EE to donate. EE expresses interest but also skepticism about charities, citing concerns about financial transparency. ER acknowledges these concerns and reassures EE of the charity's credibility. Despite ER's efforts to maintain engagement, EE signals time constraints, indicating a shift in focus from the conversation's content to practical considerations.",0,0,True,0.80517578125
+20180808-040435_931_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Good Morning! [Greeting the other person]
+Persuader (ER): I'm hoping you can help me out to today. [Expressing hope for assistance]
+Persuadee (EE): Sure, as long as you can help me out as well... you see, I have a child that is overseas, in a warzone. [Agreeing to help with a condition and sharing a personal concern]
+Persuadee (EE): they are hungry and injured and also short [Providing more details about the child's condition]
+Persuader (ER): I'm so sorry, what a terrible thing. [Expressing sympathy]
+Persuader (ER): Well not being short, that's fine. [Attempting to lighten the mood]
+Persuadee (EE): yeah, i mean, i guess [Showing uncertainty or mild agreement]
+Persuader (ER): I am also here to help children in underprivileged areas, by supporting the Save the Children Charity [Explaining their purpose and introducing the charity]
+Persuadee (EE): what is save the children [Asking for more information about the charity]
+Persuader (ER): Save the Children promotes rights and provides support for children in serious situations. [Providing information about the charity's mission]
+Summary: The conversation begins with a polite greeting and a request for assistance, which is met with a conditional agreement contingent on mutual help. The exchange takes a somber turn as one speaker shares a personal concern about their child in a difficult situation, prompting empathy from the other. The conversation shifts towards a charitable focus, with one speaker introducing a charity they support, maintaining a tone of concern and assistance throughout.",0,1,False,0.8232421875
+20180808-042339_620_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): save the children is a non profit organization helping children around the world [Informing about the organization and its mission]
+Persuadee (EE): wow that is neat [Expressing interest and admiration]
+Persuader (ER): for just a small amount you can help a child starving in Africa, and other children who are homeless [Encouraging donation by highlighting the impact]
+Persuadee (EE): that sounds expensive [Expressing concern about the cost]
+Persuader (ER): just a few dollars, while lyou can donate as much as you like, every little bit means a better life for these children [Clarifying the affordability and impact of small donations]
+Persuadee (EE): how much do you give [Inquiring about the speaker's personal contribution]
+Persuader (ER): 2=3 dollars a month [Sharing personal donation amount]
+Summary: The conversation begins with ER introducing a nonprofit organization, aiming to evoke empathy and interest from EE. EE initially responds with curiosity but expresses concern about potential costs. ER reassures EE by emphasizing the affordability and impact of small donations, maintaining a persuasive and encouraging tone. EE's inquiry about ER's personal contribution suggests a shift towards evaluating the credibility and sincerity of ER's appeal, while ER's response aims to reinforce the accessibility of participation.",0,1,False,0.50927734375
+20180808-070517_921_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello. [Greeting the other participant.]
+Persuader (ER): Are you willing to donate to Save the Children charity from your pyament from this task? [Inquiring about the willingness to donate to a specific charity.]
+Persuadee (EE): Hello, yes I am willing to donate my payment from this task for the Save the Children charity [Confirming willingness to donate to the charity.]
+Persuader (ER): It is a good charity and i is international. [Providing information about the charity.]
+Persuader (ER): How about donating the entore $2. [Encouraging a specific donation amount.]
+Persuader (ER): Every bit helps? [Emphasizing the importance of any contribution.]
+Persuadee (EE): I have no problem donating the entire $2, and I agree, every bit does help! [Agreeing to donate the specified amount and acknowledging the importance of contributions.]
+Persuader (ER): To be clear, how much are you willing to donate? [Seeking confirmation of the exact donation amount.]
+Persuadee (EE): All of my payment, the entire $2. [Clarifying the donation amount.]
+Persuader (ER): Good. [Expressing approval of the donation.]
+Summary: The conversation begins with a straightforward request for a donation, which is met with immediate agreement and willingness from the other party. The initiator emphasizes the charity's positive impact and suggests a specific donation amount, reinforcing the importance of even small contributions. The responder consistently expresses readiness to donate the full amount, maintaining a cooperative and agreeable tone. The conversation concludes with the initiator confirming the commitment, reflecting satisfaction with the outcome.",1,1,True,0.59765625
+20180808-074917_388_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi, how are you today? [Initiate conversation and establish rapport]
+Persuadee (EE): okay..and how are you [Respond to greeting and reciprocate inquiry]
+Persuader (ER): I'm doing great. [Provide a positive personal update]
+Persuader (ER): Out of curiousity, have you heard of the organization Save the Children? [Introduce the topic of Save the Children]
+Persuadee (EE): yes..i am very familiar.. [Express familiarity with the organization]
+Persuadee (EE): are you involved with charity [Inquire about ER's involvement with charity]
+Persuader (ER): Yes! [Confirm involvement with charity]
+Persuader (ER): I really prefer local charities but some nationwide and international ones are very dear to my heart. [Share personal preference for local and some international charities]
+Persuader (ER): Whenever we have the opportunity to donate from our task rewards I always try to give a little bit. [Explain personal donation habits]
+Persuadee (EE): me too..i see many commercials for charity on TV and it breaks my heart.. [Express empathy and shared sentiment towards charity]
+Persuadee (EE): i am also a follower of Unicef, are you familiar [Share personal involvement with Unicef and inquire about ER's familiarity]
+Persuader (ER): Yes, I've heard of Unicef. [Confirm familiarity with Unicef]
+Persuader (ER): Another great organization. [Express positive opinion about Unicef]
+Persuader (ER): One thing I love about Save the Children is that they have very high ratings from third-party reportings. [Highlight a positive aspect of Save the Children]
+Persuader (ER): I know when I donate to them that my money is being used wisely! [Express trust in the organization's use of donations]
+Summary: The conversation begins with a polite exchange of greetings, establishing a friendly tone. As the dialogue progresses, both speakers express a shared interest in charitable organizations, revealing a mutual sentiment of compassion and a desire to contribute positively. The conversation maintains a collaborative and supportive atmosphere, with each speaker affirming the other's involvement in charitable activities. The speakers employ a strategy of mutual acknowledgment and shared values, reinforcing their connection through common charitable interests.",0,0,True,0.9833984375
+20180808-075748_956_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello! [Greeting]
+Persuadee (EE): HI there! [Greeting]
+Persuadee (EE): Are you having a good day? [Inquiring about ER's well-being]
+Persuader (ER): Doing well! [Responding positively to EE's inquiry]
+Persuader (ER): I hope your day is the same! [Expressing hope for EE's well-being]
+Persuader (ER): So I gave been assigned the role here to get you to make a donation to the Save The Children Foundation. [Introducing the purpose of the conversation (donation request)]
+Persuadee (EE): OK, i have donated to them before!! [Expressing familiarity and past participation with the organization]
+Persuader (ER): Oh really! [Expressing surprise and interest]
+Persuader (ER): That's great. [Expressing approval]
+Persuader (ER): I am checking out their website and they look like a great organization. [Providing additional information about the organization]
+Persuader (ER): Much of the funds donated go to help children dealing in the war torn violence of Syria. [Highlighting the impact of donations]
+Persuadee (EE): That sounds fantastic! [Expressing approval and interest]
+Persuadee (EE): How do I make the donation? [Inquiring about the donation process]
+Persuader (ER): How much do you like to donate to the charity now? [Asking for the donation amount]
+Summary: The conversation begins with a friendly exchange of greetings and well-wishes, establishing a positive tone. ER then transitions to a persuasive strategy, introducing a charitable cause and expressing enthusiasm about the organization. EE responds positively, indicating prior support and interest in contributing again. ER maintains a supportive and encouraging tone, providing information about the charity's impact. The conversation concludes with EE expressing willingness to donate and ER facilitating the donation process.",0,1,False,0.5771484375
+20180808-075816_12_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Have you heard of the Save the Children non profit organization? [To introduce the topic of the Save the Children organization]
+Persuadee (EE): Hello, yes I have but I am not sure what the charity works towards [To acknowledge familiarity with the organization and express uncertainty about its mission]
+Persuader (ER): It is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries. [To provide information about the organization's mission and activities]
+Persuadee (EE): Ah ok very nice. [To express understanding and approval]
+Persuadee (EE): It sounds like a good charity. [To express a positive opinion about the charity]
+Persuadee (EE): Are you thinking of donating to it? [To inquire about ER's intentions regarding donating to the charity]
+Persuader (ER): I am thinking about it. [To express personal consideration of donating]
+Persuader (ER): I was hoping you would think about it too. [To encourage EE to consider donating as well]
+Persuader (ER): It just sucks that millions of Syrian children have grown up facing the daily threat of violence. [To highlight the plight of Syrian children to evoke empathy]
+Persuader (ER): In the first two months of 2018 alone, 1,000 children were reportedly killed or injured in intensifying violence. [To provide a specific statistic to emphasize the severity of the situation]
+Persuader (ER): This makes me angry and was wondering if it did the same for you? [To express personal emotional response and seek EE's emotional response]
+Persuadee (EE): Yes, I definitely understand you. [To express empathy and understanding]
+Persuadee (EE): It is very difficult to see on the news what is happening in Syria and the violence and terrorism that is going on in the country [To elaborate on the emotional difficulty of witnessing the situation in Syria]
+Persuader (ER): I know it is crazy. [To agree and express disbelief]
+Persuader (ER): Sometimes I think about the little things I buy. [To reflect on personal spending habits]
+Persuader (ER): Like yesterday I had a craving for candy so I bought a bag of smarties for $2.79. [To provide a specific example of personal spending]
+Persuader (ER): Sometimes I wonder how much it could help someone else instead of just satisfying my cravings. [To express contemplation about the impact of personal spending versus helping others]
+Persuadee (EE): Yes that is very true. [To agree with ER's reflection]
+Persuadee (EE): I usually donate $1.00 or $2.00 at restaurants or stores whenever they ask me if I would like to donate. [To share personal habit of donating small amounts]
+Persuadee (EE): I think it is the least I could do. [To express a sense of duty in donating]
+Summary: The conversation begins with ER introducing a nonprofit organization and explaining its mission to EE, who responds with mild interest. ER then shifts to a more persuasive approach, sharing emotional and impactful statistics about children in conflict zones, aiming to evoke empathy and prompt action from EE. EE acknowledges the gravity of the situation and shares their own small-scale charitable actions. Throughout, ER maintains a passionate tone, while EE remains receptive and reflective, considering ER's perspective.",0,0,True,0.7255859375
+20180808-081317_142_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello new friend! [Initiate conversation and establish a friendly tone]
+Persuadee (EE): Hello, how are you today? [Respond to greeting and inquire about ER's well-being]
+Persuader (ER): Not bad. [Provide a brief update on personal state]
+Persuader (ER): I'm here to talk to you today about Save The Children. [Introduce the topic of Save The Children]
+Persuadee (EE): Ok, please explain, sounds like a wonderful charity [Express interest and invite further explanation]
+Persuader (ER): Well they do a lot of good work in Africa, but you might be suprised how much work they actually do right here in the US. [Provide information about the charity's work in the US]
+Persuadee (EE): I was not aware there were many children in need of help in the US [Express surprise and lack of awareness about the issue in the US]
+Persuader (ER): Have you ever seen the rate of illiteracy ? [Prompt EE to consider the issue of illiteracy]
+Persuadee (EE): No, I thought Save The Children was about food distribution to those that are hungry. [Express a misconception about the charity's focus]
+Persuader (ER): They do everything. [Clarify the charity's broad scope of work]
+Persuader (ER): Food is just one part of it. [Reiterate that food distribution is just one aspect]
+Summary: The conversation begins with a friendly exchange before transitioning into a discussion about a charity. ER takes on an informative and persuasive role, aiming to broaden EE's understanding of the charity's work. EE shows curiosity and openness, asking questions and expressing surprise. ER maintains a consistent strategy of providing information to correct misconceptions, while EE remains engaged and receptive, indicating a willingness to learn more about the charity's broader activities.",0,0,True,0.51025390625
+20180824-121026_498_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello,  Have you heard of the save a children charity? [Introduce the charity and initiate conversation]
+Persuadee (EE): Why yes I have. [Acknowledge familiarity with the charity]
+Persuadee (EE): Do you represent them? [Inquire about the speaker's affiliation with the charity]
+Persuader (ER): Yes I do. [Confirm affiliation with the charity]
+Persuader (ER): I go aroudn telling people about the charity to see if they would like to help out. [Explain the purpose of their outreach]
+Persuadee (EE): I've been thinking of donating to charity, but I could never find the right one. [Express interest in donating to charity but mention difficulty in choosing one]
+Persuader (ER): This one is great. [Endorse the charity]
+Persuader (ER): We help out poor children. [Provide information about the charity's mission]
+Persuader (ER): We assist in all sorts of ways. [Elaborate on the types of assistance provided]
+Persuader (ER): Education, health care, vaccinations etc. [Give specific examples of assistance]
+Persuader (ER): We cover all aspects of it. [Reiterate the comprehensive nature of the charity's work]
+Persuader (ER): Did you know you can donate the money you were getting from this HIT to save the children? [Inform about the option to donate earnings from the HIT]
+Persuadee (EE): Oh really? [Express surprise and curiosity]
+Summary: The conversation begins with ER introducing a charity and EE expressing familiarity and interest. ER adopts a persuasive strategy, providing information and emphasizing the charity's comprehensive support for children. EE shows openness to donating, indicating a potential alignment with ER's intentions. ER continues to build on this interest by suggesting a specific way EE could contribute, maintaining a positive and informative tone throughout, while EE remains engaged and curious about the opportunity.",0,1,False,0.79736328125
+20180825-042845_49_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello, are you interested in protection of rights of children? [Initiate conversation and gauge interest in children's rights protection]
+Persuadee (EE): Yes, definitely. [Express interest and agreement]
+Persuadee (EE): What do you have in mind? [Seek more information]
+Persuader (ER): There is organisation called Save the Children and donations are essential to ensure children's rights to health,education and safety. [Provide information about the organization and its purpose]
+Persuadee (EE): Is this the same group where people used to ""sponsor"" a child? [Clarify understanding and seek confirmation]
+Persuader (ER): Here is their website, URL [Provide a resource for further information]
+Persuader (ER): They help children all around the world. [Highlight the organization's global impact]
+Persuader (ER): For instance, millions of Syrian children have grown up facing the daily threat of violence. [Provide a specific example to illustrate the organization's work]
+Persuader (ER): In the first two months of 2018 alone, 1,000 children were reportedly killed or injured in intensifying violence. [Emphasize the urgency and severity of the situation]
+Persuadee (EE): I can't imagine how terrible it must be for a child to grow up inside a war zone. [Express empathy and understanding]
+Persuader (ER): As you mentioned,this organisation has different programs,and one of them is to ""sponsor"" child. [Confirm the organization's programs and address the previous question]
+Summary: The conversation begins with ER introducing the topic of children's rights, to which EE responds with interest. ER then shifts to promoting a specific organization, Save the Children, emphasizing its global impact and need for donations. EE shows curiosity about the organization's methods, recalling a past initiative. ER provides additional information and examples to underscore the organization's importance. EE expresses empathy for affected children, while ER continues to highlight the organization's programs, maintaining a persuasive tone throughout.",1,1,True,0.54833984375
+20180825-043229_970_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello how are  you doing today? [Initiate conversation and establish rapport]
+Persuadee (EE): I'm good, how are you? [Respond to greeting and reciprocate inquiry]
+Persuader (ER): I am well. [Respond to inquiry and maintain rapport]
+Persuader (ER): Just enjoying the sunny day and trying to help out a charity I am working on, Save the Children. [Share personal activity and introduce charity topic]
+Persuadee (EE): I wish I had some sun. [Express personal sentiment and engage in conversation]
+Persuadee (EE): Please tell me more about this charity [Show interest and request more information about the charity]
+Persuader (ER): This charity is n international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries. [Provide detailed information about the charity]
+Persuader (ER): I have recently donated some money to it. [Share personal involvement to build credibility]
+Persuader (ER): Would you be interested in how much I donated? [Engage interest by offering more personal information]
+Persuadee (EE): Yes please. [Express interest and request specific information]
+Persuadee (EE): And also, was the donation mandatory or voluntary? [Seek clarification on the nature of the donation]
+Persuader (ER): I donate about $15 a month and it is all voluntary. [Provide specific details about personal donation and its voluntary nature]
+Persuader (ER): I rather put my money into this charity then church offering because I know it directly helps children. [Explain personal preference and rationale for donating to the charity]
+Persuader (ER): Would you like to know how I know it helps? [Offer additional information to support the charity's impact]
+Persuadee (EE): That sounds like a reasonable amount. [Express approval of the donation amount]
+Summary: The conversation begins with a friendly exchange of pleasantries, establishing a positive tone. ER introduces a topic of personal interest, aiming to engage EE by sharing involvement in a charity. EE expresses curiosity, prompting ER to elaborate on their charitable actions and motivations. ER uses a persuasive strategy, offering personal insights and inviting further inquiry. EE responds with interest and agreement, maintaining a supportive tone throughout the interaction. The conversation remains focused on ER's charitable activities and intentions.",0,0,True,0.73486328125
+20180825-044613_233_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello. [Greeting the other person.]
+Persuader (ER): Do you have children? [Inquiring about the other person's family status.]
+Persuadee (EE): Yes, 2. [Responding to the inquiry about children.]
+Persuadee (EE): You? [Returning the question about children.]
+Persuader (ER): No, but I do enjoy their company. [Sharing personal information and expressing a positive sentiment towards children.]
+Persuader (ER): Are you aware of the large amount of children in developing countries that could use assitance? [Introducing the topic of children in need in developing countries.]
+Persuadee (EE): I am. [Confirming awareness of the issue.]
+Persuadee (EE): I tend to read news articles from aboard. BBC, ect. [Providing additional context about their information sources.]
+Persuadee (EE): I read that their are quite a few places that could use help. [Reiterating the awareness of the need for help in various places.]
+Persuader (ER): Yes there are. [Agreeing with the statement and confirming the need for help.]
+Persuader (ER): Have you ever heard of the organization Save the Children and are you aware of what they do? [Inquiring about the other person's knowledge of a specific organization.]
+Persuadee (EE): I have heard of them, but have not looked into what they do. [Confirming partial knowledge of the organization.]
+Persuader (ER): Well they have a presence in every continent except Antarctica. [Providing information about the organization's global presence.]
+Persuader (ER): Domestically, they provide early education, literacy, and health and disaster preparedness programs. [Detailing the organization's domestic programs.]
+Persuadee (EE): That's very interesting, sounds like they do good work. [Expressing interest and positive sentiment towards the organization's work.]
+Persuader (ER): They are very renowned. [Affirming the organization's reputation.]
+Summary: The conversation begins with a casual exchange about children, with ER expressing a general fondness for them. ER then shifts the focus to a more serious topic, aiming to raise awareness about children in need in developing countries. EE shows awareness and a willingness to engage by mentioning their news consumption habits. ER introduces the organization Save the Children, highlighting its global presence and programs. EE responds with interest, acknowledging the organization's positive impact. ER concludes by affirming the organization's reputation.",1,1,True,0.544921875
+20180825-050306_247_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi [Greeting]
+Persuadee (EE): Hello [Greeting]
+Persuader (ER): How are you? [Inquiring about well-being]
+Persuadee (EE): Are you aware of any childrens charities? [Shifting topic to children's charities]
+Persuader (ER): Yes. [Confirming knowledge of children's charities]
+Persuader (ER): I've heard of Save the Children [Providing specific example of a charity]
+Persuadee (EE): Awesome. [Expressing approval]
+Persuadee (EE): I don't think i've heard of that. [Expressing unfamiliarity]
+Persuadee (EE): Do you donate/participate in any way to that charity? [Inquiring about participation in the charity]
+Persuader (ER): Yes, I donate money to them monthly. [Confirming participation and specifying type]
+Persuadee (EE): What encourages you to donate monthly [Inquiring about motivation for participation]
+Persuader (ER): There are poor children all over the world who don't have enough food to eat and Save the Children goes out to help them. [Explaining motivation for donating]
+Summary: The conversation begins with a casual greeting but quickly shifts to a more focused discussion on children's charities. EE expresses curiosity and seeks information, while ER responds with knowledge and personal involvement. EE's questions guide the conversation, showing interest in ER's motivations. ER maintains a consistent, empathetic tone, emphasizing their commitment to the cause. The interaction is characterized by EE's inquisitive approach and ER's informative and compassionate responses.",0,0,True,0.55419921875
+20180825-053544_897_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi! [Greeting]
+Persuader (ER): Good morning! [Greeting]
+Persuadee (EE): Good morning! [Greeting]
+Persuadee (EE): How are you doing today? [Inquiring about well-being]
+Persuader (ER): I am good! [Responding to inquiry]
+Persuader (ER): I am trying to get my friends and others to donate their payment from this task to Save the Children. [Introducing donation initiative]
+Persuader (ER): Save the Children is reputable and every dollar they raise goes to feed families. [Providing information about the charity]
+Persuadee (EE): What else can you tell me about the charity? [Requesting more information about the charity]
+Persuadee (EE): Which countries do they work in? [Inquiring about the charity's operational regions]
+Persuader (ER): Save the Children works for 18 countries in Africa, 5 countries in the Middle East and India and Pakistan. [Providing specific information about the charity's operational regions]
+Persuadee (EE): How much of a donation would one have to make to feed a family for a week? [Inquiring about the cost to feed a family]
+Persuader (ER): 5.00 a week would feed one family for a week. [Providing specific cost information]
+Persuader (ER): Do you spend 5.00 a week on a coffee? [Drawing a comparison to common expenses]
+Summary: The conversation begins with a friendly exchange of greetings and quickly transitions into ER's intention to persuade EE to donate to a charity. ER maintains a positive and informative tone, providing details about the charity's operations and impact. EE shows interest by asking questions, which ER answers with specific information. ER employs a relatable comparison to emphasize the affordability of the donation, aiming to persuade EE to consider contributing. The conversation remains focused on the charitable cause throughout.",0,1,False,0.56298828125
+20180825-064038_102_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi how are you? [Initiate conversation and greet]
+Persuadee (EE): Fine how are you? [Respond to greeting and reciprocate]
+Persuader (ER): I am well [Respond to inquiry and provide personal status]
+Persuadee (EE): What is your favorite childrens charity [Inquire about the other person's favorite children's charity]
+Persuader (ER): Well I recently heard about Save the Children Charity. [Introduce a specific charity]
+Persuader (ER): They donate money to help children in developing countries. [Provide information about the charity's activities]
+Persuader (ER): Have you heard about them? [Inquire if the other person is familiar with the charity]
+Persuadee (EE): Yes I have heard of them. [Acknowledge familiarity with the charity]
+Persuadee (EE): They do a lot for kids [Express positive opinion about the charity's work]
+Persuader (ER): Yes they do. [Agree with the positive opinion]
+Persuader (ER): They help out a great deal. [Reiterate the charity's positive impact]
+Persuader (ER): My job today is to see if you would be willing to donate any of your earnings to the charity [State the purpose of the conversation (soliciting donations)]
+Summary: The conversation begins with polite greetings and quickly shifts to a discussion about a children's charity. ER introduces the charity with positive sentiment and provides information about its mission. EE acknowledges familiarity with the charity, maintaining a positive tone. ER then transitions to a persuasive strategy, revealing their intention to solicit a donation from EE, indicating a shift from informational to action-oriented communication.",0,0,True,0.69873046875
+20180825-070857_925_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello. [Greeting the other person]
+Persuader (ER): I hope you are well today. [Expressing hope for the other person's well-being]
+Persuader (ER): I am wondering if you regularly give to charity? [Inquiring about the other person's charitable habits]
+Persuadee (EE): Yes I do. [Confirming regular charitable giving]
+Persuadee (EE): I find it very fulfilling to give back [Expressing personal fulfillment from giving]
+Persuader (ER): I agree with you on that. [Agreeing with the other person's sentiment]
+Persuader (ER): I am just now watching the news about the hurricane in Hawaii and seeing the damage already done. [Sharing information about a current event (hurricane in Hawaii)]
+Persuadee (EE): It is very scary to think about. [Expressing concern about the situation]
+Persuadee (EE): Not only are they ravaged by the volcano, now a hurricane. [Highlighting the compounded natural disasters in Hawaii]
+Persuader (ER): I know. [Expressing agreement and empathy]
+Persuader (ER): I actually have family living there. [Revealing personal connection to the situation (family in Hawaii)]
+Persuader (ER): The rains over the past two days have been awful. [Describing the severity of the situation (rainfall)]
+Persuadee (EE): I am curious what we can do to help. [Expressing curiosity about ways to help]
+Persuader (ER): I have been looking into ways to help. [Indicating personal research into ways to help]
+Persuader (ER): I see that an organization called Save the Children is already mobilizing to help. [Providing information about an organization (Save the Children) mobilizing to help]
+Persuadee (EE): Do you know anything about how they are helping the children? [Inquiring about the organization's specific actions to help children]
+Summary: The conversation begins with a polite exchange and quickly moves into a discussion about charitable giving, with both speakers expressing positive sentiments towards it. As the conversation shifts to the impact of a natural disaster, the speakers share concerns and personal connections, maintaining a tone of empathy and urgency. They collaboratively explore ways to contribute to relief efforts, with one speaker providing information about an organization involved in the response, prompting further inquiry from the other.",0,0,True,0.65234375
+20180825-071459_643_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Do you feel it is improtant to help the children of the world to get them a good meal atleast 2 times a day [Initiate conversation and introduce the topic of helping children with meals]
+Persuadee (EE): Yes. [Express agreement]
+Persuadee (EE): Nutrition is important [Provide a reason for agreement]
+Persuader (ER): so will you donate to keep the children nourished and kept safe [Request a donation]
+Persuadee (EE): I typically donate to local charities by giving food or cash. [Explain current donation habits]
+Persuadee (EE): I sometimes question charities that I don't really know [Express skepticism about unknown charities]
+Persuader (ER): well with this charity we all know it is to help to save the children and I agree you should question other donations because together we can help keep the children nourished [Reassure and align with the skepticism while promoting the charity]
+Persuadee (EE): I just worry money I donate doesn't get to the children. [Express concern about the effectiveness of donations]
+Persuader (ER): I agree because as you have seen the commercials of the individual holding a little child asking for donations and all he is doing is getting to play with peoples emotions well with our organization we cut the cost of an actor and use that money to help the children [Address the concern by explaining the charity's approach]
+Summary: The conversation begins with ER expressing a strong sentiment about the importance of helping children, aiming to persuade EE to donate. EE agrees on the importance of nutrition but expresses skepticism about unfamiliar charities. ER acknowledges this concern and attempts to reassure EE by emphasizing the transparency and direct impact of their organization. Throughout, ER maintains a persuasive tone, while EE remains cautious, focusing on ensuring donations are effectively used.",1,1,True,0.90185546875
+20180825-082635_438_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): I am so livid I just can't stand it right now. [Expressing strong emotion and frustration]
+Persuader (ER): Parts of this world are so dark... [Commenting on the negative aspects of the world]
+Persuader (ER): how can we sit here and do nothing? [Questioning inaction in the face of suffering]
+Persuadee (EE): Do nothing about what? [Seeking clarification]
+Persuader (ER): These poor suffering children! [Highlighting the issue of suffering children]
+Persuader (ER): Did you know that 5.6 million children die each year due to treatable AND preventable diseases? [Providing a shocking statistic to emphasize the issue]
+Persuadee (EE): That's awful. [Expressing sympathy]
+Persuadee (EE): Are you talking about around the world or in the states? [Seeking clarification on the scope of the issue]
+Persuader (ER): Around the world! [Clarifying the scope as global]
+Persuader (ER): There is so much that could be done.. [Expressing the potential for positive action]
+Persuader (ER): between preventing the spread of aids, reducing the infant mortality rate with proper education and vaccinations, and ensuring access and aid to proper nutrition so many children could be saved. [Listing specific actions that could help]
+Persuadee (EE): I totally agree. [Agreeing with the points made]
+Persuadee (EE): There are people helping but its a drop in the bucket. [Acknowledging efforts but noting their insufficiency]
+Persuadee (EE): The kids dying is really disturbing. [Expressing disturbance at the situation]
+Persuadee (EE): They didn't choose that life. [Empathizing with the children]
+Persuader (ER): You are absolutely right. [Agreeing with EE's point]
+Persuader (ER): It is disturbing! [Reiterating the disturbing nature of the issue]
+Persuader (ER): And yes, it could seem like the aid is a drop in a bucket. [Acknowledging the perception of aid as minimal]
+Persuader (ER): However, if we can move the scale one iota and can consider that what that represents is one child having a week of meals or a healthy 3 months than wouldn't you agree that that would be worth any aid that we could provide? [Arguing that even small contributions are valuable]
+Persuadee (EE): Absolutely! [Agreeing strongly]
+Persuadee (EE): I think every little bit helps but as a whole it's not enough. [Reiterating that small efforts help but are not enough]
+Persuadee (EE): Have you ever donated? [Inquiring about ER's personal involvement]
+Persuader (ER): I have! [Confirming personal involvement]
+Persuader (ER): And it feels incredible knowing that I have been a part of something greater than myself. [Describing the positive feelings from contributing]
+Summary: The conversation begins with ER expressing intense frustration and urgency about a global issue, highlighting a sense of helplessness and moral responsibility. EE responds with curiosity and agreement, showing empathy and concern. As the conversation progresses, both speakers align in their sentiments, acknowledging the severity of the issue and the insufficiency of current efforts. ER shifts from expressing anger to advocating for incremental change, while EE maintains supportive agreement, culminating in a shared sense of purpose and personal involvement.",1,0,False,0.81103515625
+20180825-102556_172_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): It would be really great if we gave some money to save the children [Propose a charitable action]
+Persuadee (EE): Can you tell me more about what they do? [Request more information]
+Persuader (ER): Save the Children is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries. [Provide information about the charity]
+Persuadee (EE): Sounds like they accomplish great things. [Express approval of the charity's work]
+Persuadee (EE): Are you thinking of a one time donation? [Inquire about the nature of the donation]
+Persuader (ER): yes it would be a one time donation that will be taken from the payment from the task. [Clarify the nature of the donation]
+Persuader (ER): You can decide to give part of the payment to save the children and keep part for yourself. [Explain the donation options]
+Persuadee (EE): I see, so I am thinking of donating half. [State a personal decision regarding the donation]
+Persuadee (EE): What are your thoughts? [Seek the other person's opinion]
+Persuader (ER): I think half is a good idea I will do the same thing [Agree with the proposed donation amount]
+Persuadee (EE): I think it is important to do all we can to help children. [Express the importance of helping children]
+Persuadee (EE): Are we being selfish by keeping half? [Express concern about the ethics of keeping part of the money]
+Persuader (ER): maybe there are children who may die without this money [Highlight the potential impact of the donation]
+Summary: The conversation begins with ER suggesting a charitable donation, prompting EE to inquire about the organization's purpose. EE expresses admiration for the organization's work and considers a donation strategy. ER proposes a one-time donation from a payment, allowing EE to choose how much to donate. EE decides to donate half, seeking ER's opinion, who agrees. EE then reflects on the moral implications of keeping part of the money, to which ER responds with a consideration of the potential impact.",1,1,True,0.80810546875
+20180825-112615_516_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi. [Greeting]
+Persuader (ER): Are you familiar with Save the Children? [Initiating topic]
+Persuadee (EE): Hello. [Greeting]
+Persuadee (EE): I am not familiar with Save the Children [Expressing lack of knowledge]
+Persuader (ER): It is worldwide and helps to feed, shelter and educate underprivileged kids around the world. [Providing information]
+Persuadee (EE): I think that is a very good charity that appears to be doing good work. [Expressing approval]
+Persuadee (EE): Do you currently volunteer with this charity? [Inquiring about personal involvement]
+Persuader (ER): I do. [Confirming involvement]
+Persuader (ER): I help collect donations so the optimum number of children can be helped. [Describing personal contribution]
+Persuader (ER): Will you consider a donation? [Requesting donation]
+Persuadee (EE): I like to support organizations that are Christian based and help further the spread of the Gospel to all of God's children. [Stating personal preference]
+Persuadee (EE): Is this organization Christian or religious based? [Inquiring about religious affiliation]
+Persuader (ER): It is in terms of values. [Clarifying affiliation]
+Persuader (ER): The majority of funds go directly to the basic care needs of children. [Providing additional information]
+Persuader (ER): Many have a better opportunity at life because they are nourished. [Highlighting impact]
+Persuader (ER): What more can we do for the least of these? [Appealing to moral values]
+Summary: The conversation begins with ER introducing the charity Save the Children, aiming to inform and potentially persuade EE to support it. EE expresses initial interest but specifies a preference for Christian-based organizations. ER responds by emphasizing the charity's value-driven mission and its focus on children's basic needs. Throughout, ER maintains a persuasive strategy, appealing to shared values and the impact of the charity's work, while EE remains open yet cautious, aligning support with personal beliefs.",0,1,False,0.9638671875
+20180826-011431_343_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello, have you ever made a charitable donation? [Initiate conversation and inquire about charitable donations]
+Persuadee (EE): Yes I have [Confirm previous charitable donation]
+Persuader (ER): Which charity have you donated to? [Request specific information about the charity]
+Persuadee (EE): Save the children [Provide the name of the charity]
+Persuader (ER): That is such a great organization isn't it? [Express approval and seek agreement]
+Persuader (ER): I love donating to their worthy cause, don't you? [Share personal experience and seek agreement]
+Persuadee (EE): Yes. Save the children is a very nice organization [Agree and affirm the organization's value]
+Persuader (ER): What is the most that you have donated to them? [Inquire about the amount donated]
+Persuadee (EE): I donated 1000 dollars to them. [Provide specific donation amount]
+Persuader (ER): WOW! [Express amazement]
+Summary: The conversation begins with ER inquiring about EE's charitable donations, maintaining a positive and affirming tone. ER expresses admiration for the chosen charity, ""Save the Children,"" and seeks to build rapport by sharing a similar sentiment. EE responds affirmatively, aligning with ER's enthusiasm. ER then shifts to a more inquisitive approach, asking about the donation amount, and concludes with an expression of surprise and admiration, reinforcing a positive and supportive dynamic throughout.",0,1,False,0.51416015625
+20180826-020520_686_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello! [Greeting the other person]
+Persuader (ER): What if i told you that you have the opportunity of a lifetime to make a change in the world? [Introducing an intriguing opportunity]
+Persuader (ER): Would you take it? [Prompting for a response]
+Persuadee (EE): i will like to know about the opportunity first [Requesting more information]
+Persuader (ER): Well, the opportunity would be able to help fight world hunger by donating to Save the Children. [Providing details about the opportunity]
+Persuader (ER): Would you do it now? [Prompting for immediate action]
+Persuadee (EE): powerful people cause war and war cause hunger, and we average people sit on our chair try to donate some money to the poor [Expressing skepticism and frustration]
+Persuader (ER): It benefits every where not just war torn countries [Clarifying the benefits of the opportunity]
+Persuadee (EE): i get that. [Showing understanding]
+Persuader (ER): The best part is knowing that you can help make a change in a person's life who is currently unable to financially [Highlighting the positive impact of the opportunity]
+Persuadee (EE): yeah i know how donation works. [Indicating familiarity with the concept of donation]
+Persuadee (EE): I have 300000 immigrants in my country. [Providing context about local issues]
+Summary: The conversation begins with ER enthusiastically presenting an opportunity to make a positive impact, aiming to persuade EE to take immediate action. EE responds with cautious interest, seeking more information before committing. As ER continues to emphasize the broader benefits of the opportunity, EE expresses skepticism about the effectiveness of donations given systemic issues. Despite ER's persistent encouragement, EE remains unconvinced, highlighting local challenges and demonstrating a more pragmatic perspective on the situation.",0,1,False,0.6669921875
+20180826-044626_167_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Morning! [Greeting the other person]
+Persuader (ER): Have you considered donating to Save the Children? [Introducing the topic of donating to Save the Children]
+Persuader (ER): It's a great organization and doesn't cost much to help a child in need. [Providing additional information to persuade the other person]
+Persuadee (EE): I have not. [Responding to indicate lack of prior consideration]
+Persuadee (EE): I am not sure I know what Save the Children is. [Expressing lack of knowledge about the organization]
+Persuader (ER): It's an  international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries. [Providing detailed information about the organization]
+Persuader (ER): It has done wonderful things and is a big part of many organizations employee giving drives. [Highlighting the organization's positive impact]
+Persuadee (EE): Oh cool. [Expressing interest]
+Persuadee (EE): Do they help people here in the USA? [Inquiring about the organization's activities in the USA]
+Persuader (ER): Right now they're concentrating at an international level. [Clarifying the organization's current focus]
+Persuader (ER): Did you know that in the first two months of 2018, over 1,000 children were reportedly killed or injured in Syria alone? [Providing a specific example to emphasize the need]
+Persuader (ER): They also appeal to stop hunger issues abroad. [Adding another example of the organization's efforts]
+Persuadee (EE): Yes, I know about Syria. [Showing awareness of the situation in Syria]
+Persuadee (EE): I know hunger is a big issue for a lot of people in other countries. [Acknowledging the issue of hunger in other countries]
+Persuadee (EE): Do they provide food for these people? [Asking for specifics about the organization's aid]
+Persuader (ER): They provide whatever is needed. [Clarifying the scope of the organization's aid]
+Persuader (ER): AND, in relation to the US, they are currently working on the Hurricane Lane situation in Hawaii. [Connecting the organization's efforts to a current US event]
+Summary: The conversation begins with ER initiating a friendly greeting and introducing the idea of donating to a charity. ER employs a persuasive strategy by highlighting the organization's impact and addressing EE's inquiries with informative responses. EE initially expresses unfamiliarity and curiosity, which gradually shifts to a more informed and engaged stance as ER provides detailed explanations. ER maintains a consistent persuasive approach, emphasizing the organization's international efforts and recent domestic involvement, while EE shows increasing interest and understanding.",0,1,False,0.94873046875
+20180826-053845_531_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Save the Children is an amazing charity that helps kids who are in desperate need. [Expressing admiration for the charity]
+Persuader (ER): They can help with safety, education and more. [Providing information about the charity's services]
+Persuader (ER): You can donate some of your earnings to this amazing charity. [Encouraging donation]
+Persuadee (EE): I believe in this charity, but still wonder how much of the money I donate actually helps. [Expressing belief in the charity but voicing concern]
+Persuader (ER): Every little bit makes a difference. [Reassuring the impact of donations]
+Persuader (ER): When you have people who are so poor, it's amazing what a tiny amount can do. [Emphasizing the value of small contributions]
+Persuadee (EE): I would gladly give my earnings to this charity. [Expressing willingness to donate]
+Persuadee (EE): Children hold the future of the world. [Highlighting the importance of children]
+Persuader (ER): It is really so heartbreaking when you see all of these kids not having enough to eat. [Expressing empathy for the children's plight]
+Persuader (ER): It really breaks the heart. [Reiterating emotional impact]
+Persuader (ER): They are so little. [Emphasizing the vulnerability of children]
+Persuadee (EE): I know, it always amazes me how many children are suffering around the world. [Expressing amazement at the extent of suffering]
+Persuadee (EE): It is so sad. [Expressing sadness]
+Persuader (ER): Even the little bit you donate from your earnings can go a long way to making a difference for a child. [Reiterating the impact of small donations]
+Persuadee (EE): Though MTurk they should raise quite a bit. [Speculating on the potential total donations]
+Summary: The conversation begins with ER expressing strong support for a charity, emphasizing its positive impact and encouraging donations. EE initially expresses skepticism about the effectiveness of donations but gradually aligns with ER's sentiment, acknowledging the charity's importance. ER maintains a compassionate and persuasive tone throughout, focusing on the charity's impact on children. EE's sentiment evolves from doubt to agreement, ultimately expressing willingness to contribute and recognizing the broader significance of supporting children in need.",1,1,True,0.875
+20180826-055352_947_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello! [Greeting the other participant.]
+Persuadee (EE): Hello [Responding to the greeting.]
+Persuader (ER): So it looks like you have the option to donate some of your earnings from this task to Save the Children. [Informing about the option to donate earnings to Save the Children.]
+Persuader (ER): Have you heard of that charity before? [Inquiring if the other participant has heard of the charity.]
+Persuadee (EE): Know I have not. [Stating lack of knowledge about the charity.]
+Persuadee (EE): Please explain to me in detail [Requesting detailed information about the charity.]
+Persuader (ER): Please explain to me in detail [Repeating the request for detailed information.]
+Persuader (ER): It's an international organization that supports children in developing countries. [Providing information about the charity's mission.]
+Persuader (ER): It helps children get access to health, education, safety, etc. [Elaborating on the charity's activities.]
+Persuadee (EE): Okay. [Acknowledging the information.]
+Persuadee (EE): What is the organization called? [Asking for the name of the organization.]
+Persuader (ER): It's called Save the Children. [Providing the name of the organization.]
+Persuader (ER): It's a rather large organization and well known, you can search for it outside this chat. [Assuring the participant of the organization's legitimacy.]
+Persuader (ER): It's not just a made up organization for the sake of the chat. [Reiterating the legitimacy of the organization.]
+Persuader (ER): Do you donate much to charity now? [Inquiring about the participant's current donation habits.]
+Persuadee (EE): O I have heard of Save the children. [Recognizing the charity.]
+Persuadee (EE): I think I have seen commercials on tv advertising the charity. [Recalling seeing advertisements for the charity.]
+Persuadee (EE): Currently I do not donate to charities. [Stating current non-donation status.]
+Persuadee (EE): I wish to and I like the idea of charity donantions, but personal donations is not within my current budget. [Expressing a desire to donate but citing financial constraints.]
+Persuadee (EE): I am a single mother and fiances are pretty tight at the moment. [Explaining personal financial situation.]
+Persuader (ER): I understand. [Expressing understanding.]
+Persuader (ER): I'm in a similar situation, and I'm hoping to buy a house soon with my boyfriend. [Sharing personal financial goals.]
+Summary: The conversation begins with ER introducing the option to donate to a charity, aiming to inform and possibly persuade EE. Initially, EE is unfamiliar with the charity, prompting ER to provide more details. As the conversation progresses, EE recalls having heard of the organization but explains financial constraints prevent current donations. Both speakers express understanding and empathy for each other's financial situations, shifting the conversation from persuasion to mutual sharing of personal circumstances.",0,1,False,0.64990234375
+20180826-061949_863_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Do you know about Save the Children? [Inquire about the other person's knowledge of a specific charity]
+Persuadee (EE): I have not heard of this charity before! [Express lack of knowledge about the charity]
+Persuadee (EE): Have you? [Inquire if the other person is familiar with the charity]
+Persuader (ER): I have. [Confirm familiarity with the charity]
+Persuader (ER): I actually a  monthly donor [Share personal involvement with the charity]
+Persuadee (EE): That's great! [Express approval and encouragement]
+Persuadee (EE): Would you mind explaining what the charity does? [Request more information about the charity's activities]
+Persuader (ER): The charity collects donation from people like you and me and help children in need [Provide information about the charity's mission]
+Persuadee (EE): Sounds like quite the worthy cause. [Express approval of the charity's cause]
+Persuadee (EE): Are the children in need all across the world? [Inquire about the geographical scope of the charity's work]
+Persuadee (EE): Or just the United States? [Seek clarification on the geographical scope]
+Persuader (ER): all over the world. [Clarify the global reach of the charity]
+Persuader (ER): I saw a children died from hunger and it tears my heart apart. [Share a personal emotional experience related to the charity's cause]
+Summary: The conversation begins with ER introducing the topic of a charity, with EE expressing unfamiliarity and curiosity. ER shares personal involvement, prompting EE to show interest and request more information. As ER explains the charity's global reach and emotional impact, EE's responses remain supportive and inquisitive. Throughout, ER maintains a compassionate tone, while EE's interest grows, showing a shift from initial unfamiliarity to engagement and empathy towards the cause.",0,0,True,0.60107421875
+20180826-062736_188_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi there! [Greeting the other person]
+Persuader (ER): Can I tell you all [Initiating a conversation]
+Persuadee (EE): Hello how are [Responding to the greeting]
+Persuader (ER): sorry it cut me off... [Apologizing for the interruption]
+Persuader (ER): can I tell you about a charity called Save the Children? [Requesting permission to talk about a charity]
+Persuadee (EE): Yes pleas do [Granting permission and showing interest]
+Persuader (ER): They help children make sure they have access to health resources, education, and safe environments. [Providing information about the charity's mission]
+Persuadee (EE): Sounds like a good charity. [Expressing approval of the charity]
+Persuadee (EE): What countries do they provide service to? [Inquiring about the geographical scope of the charity's services]
+Persuader (ER): mainly children in developing countries. [Providing specific information about the charity's focus areas]
+Persuader (ER): Did you know over 1,000 children were killed in Syria in just the first 2 months of 2018. [Highlighting a specific issue to emphasize the charity's importance]
+Summary: The conversation begins with ER attempting to introduce a topic, which is briefly interrupted. EE responds with openness and curiosity. ER then provides information about a charity, maintaining a factual and informative tone. EE shows interest and asks for more details, indicating engagement. ER continues with a focus on impactful statistics to emphasize the charity's importance, suggesting a shift towards a more persuasive strategy to evoke concern and empathy from EE.",0,0,True,0.76318359375
+20180826-174459_637_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): HI, have you ever heard of Save The Children? [Initiate conversation and introduce the topic of Save The Children]
+Persuadee (EE): I haven't, is that a charity? [Express lack of knowledge and seek clarification]
+Persuader (ER): It is and a very reputable one. [Confirm and endorse the charity's reputation]
+Persuader (ER): Have you ever donated to one before? [Inquire about past donation behavior]
+Persuadee (EE): I've donated to a few in the past [Share past donation experience]
+Persuader (ER): Maybe I can get to do it again, Save the Children is international and non-governmental. Would you be interested in donating? [Encourage donation to Save The Children and gauge interest]
+Persuadee (EE): Possibly, do they have a website? [Show potential interest and request more information]
+Persuader (ER): They do, it's  URL by donating you are helping children and their families. [Provide website information and emphasize the impact of donations]
+Summary: The conversation begins with ER introducing a charity, aiming to inform and persuade EE to consider donating. EE shows initial unfamiliarity but expresses openness by acknowledging past donations. ER maintains a persuasive approach, emphasizing the charity's credibility and impact. EE's interest grows as they inquire about further information, leading ER to provide a website link, reinforcing the call to action. The dialogue reflects a shift from initial inquiry to potential engagement.",0,1,False,0.6728515625
+20180826-180314_928_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi. [Greeting]
+Persuader (ER): How are you? [Inquiring about well-being]
+Persuadee (EE): Hello, I'm fine. [Responding to greeting and sharing well-being]
+Persuadee (EE): How are you? [Inquiring about well-being]
+Persuader (ER): I'm doing well. Thanks. [Responding to inquiry and expressing gratitude]
+Persuader (ER): Have you been using MTurk long? [Inquiring about experience with MTurk]
+Persuader (ER): I've only just started in the last few days and I love it. [Sharing personal experience with MTurk]
+Persuader (ER): It's pretty easy money most of the time. [Commenting on the ease of earning money]
+Persuader (ER): I'm Tommy, by the way. [Introducing self]
+Persuadee (EE): Hi Tommy I'm Cassidy. [Responding to introduction and introducing self]
+Persuadee (EE): I've been using mTurk on and off for about half a year but the past month I've really commmited to doing tasks everyday. [Sharing personal experience with MTurk]
+Persuadee (EE): It's great to earn extra money here and there. [Expressing positive sentiment about earning extra money]
+Persuadee (EE): I'm glad you're enjoying it. [Expressing gladness for ER's enjoyment]
+Persuader (ER): Well thanks, Cassidy. [Expressing gratitude]
+Persuader (ER): It definitely seems like a fun way to make some extra money. [Agreeing with positive sentiment about MTurk]
+Persuader (ER): I feel like sometimes people don't understand how even just a few dollars can make a difference in people's lives. [Commenting on the impact of small amounts of money]
+Persuader (ER): For example, I like to give a little money to charity each month. [Sharing personal charitable activity]
+Persuader (ER): And you'd be surprised how far even just a little bit of money goes in some impoverished countries. [Emphasizing the impact of small donations]
+Persuader (ER): How about you, Cassidy? [Inquiring about EE's charitable activities]
+Persuader (ER): Do you like giving to charities? [Specifically asking about donating to charities]
+Persuadee (EE): I do enjoy donating to charities. [Confirming enjoyment of donating to charities]
+Persuadee (EE): I don't usually have a ton of extra money so it's not an every month kind of thing for me but I try to give at least once a year. [Explaining frequency and limitations of donations]
+Persuadee (EE): And when I can't give monetarily donate food, my time, and go to blood drives on my university [Sharing alternative ways of contributing]
+Persuader (ER): Aww, that's really considerate of you. [Complimenting EE's consideration]
+Summary: The conversation begins with a polite exchange of greetings and mutual inquiries about well-being, establishing a friendly tone. As the dialogue progresses, the speakers share personal experiences and sentiments about using MTurk, with ER expressing enthusiasm and EE sharing a more seasoned perspective. The conversation shifts to discussing charitable giving, with ER introducing the topic and EE responding positively, highlighting personal contributions. Throughout, the speakers maintain a supportive and appreciative tone, fostering a sense of camaraderie and shared values.",0,0,True,0.634765625
+20180826-181742_58_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): hello, are you interested in charities? [Initiate conversation and gauge interest in charities]
+Persuadee (EE): yes i am are you? [Express interest and reciprocate the question]
+Persuader (ER): of course i am, do you know save the children charity? [Confirm interest and introduce a specific charity]
+Persuadee (EE): no can you tell me a little about it [Request more information about the charity]
+Persuader (ER): of course, save the children is a non-profit organization that helps the children all over the world. [Provide a brief description of the charity]
+Persuadee (EE): that sounds great. [Express approval]
+Persuadee (EE): i feel like i need to do something like that [Express a desire to get involved]
+Persuader (ER): are you interested in helpin childrens? [Inquire about interest in helping children]
+Persuadee (EE): how can i help them? [Ask for ways to help]
+Summary: The conversation begins with a mutual interest in charities, establishing a positive and open tone. ER introduces a specific charity, prompting curiosity and engagement from EE. As ER provides information, EE's interest deepens, shifting towards a desire to take action. ER then encourages this inclination by asking about EE's interest in helping children, leading to EE seeking guidance on how to contribute, indicating a transition from curiosity to actionable intent.",0,0,True,0.7626953125
+20180826-182522_887_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello there! [Greeting the other person]
+Persuader (ER): Where are you from? [Inquiring about the other person's location]
+Persuadee (EE): Hi, I'm in Hawaii! [Responding to the inquiry with their location]
+Persuadee (EE): What kind of children's charities do you know about? [Asking for information about children's charities]
+Persuader (ER): I've recently been informed of Save the Children. [Providing information about a specific charity]
+Persuader (ER): Have you heard of this organization? [Asking if the other person is familiar with the charity]
+Persuadee (EE): It sounds familiar. [Indicating partial recognition of the charity]
+Persuadee (EE): What do they do? [Requesting more information about the charity's activities]
+Persuader (ER): Through the help of sponsorships and donations, they're working to help children... [Explaining the charity's activities]
+Persuader (ER): I'm learning about this myself now, too. [Sharing that they are also learning about the charity]
+Persuader (ER): Education, poverty issues, healthcare, emergency response. [Listing specific areas the charity focuses on]
+Persuader (ER): That's not all...would you like to check out their website? [Offering to provide a link to the charity's website]
+Persuadee (EE): Sure, what is it? [Accepting the offer and asking for the website link]
+Persuader (ER): Here is the link  URL [Providing the link to the charity's website]
+Persuadee (EE): They look really good. [Expressing a positive impression of the charity]
+Persuadee (EE): I think I've seen their commercials. [Recalling seeing the charity's commercials]
+Summary: The conversation begins with a friendly exchange of greetings and a question about location, establishing a casual tone. It quickly shifts to a discussion about children's charities, with ER introducing Save the Children and sharing information about its mission. ER maintains an informative and collaborative approach, inviting EE to explore further. EE shows interest and familiarity, expressing a willingness to learn more. The conversation concludes with EE acknowledging the charity's positive impression and potential recognition from commercials.",1,1,True,0.96435546875
+20180827-004200_630_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello [Greeting the other person.]
+Persuadee (EE): Hi. [Responding to the greeting.]
+Persuader (ER): Are you willing to donate to Save the Children? [Inquiring about willingness to donate.]
+Persuadee (EE): Yes. [Expressing willingness to donate.]
+Persuadee (EE): I would very much like to donate. [Reaffirming the intention to donate.]
+Persuader (ER): how much are you willing to donate? [Asking for the amount of donation.]
+Persuadee (EE): Well, I don't have much money right now. [Explaining financial limitations.]
+Persuadee (EE): All I can afford is $5.00. [Stating the amount they can afford to donate.]
+Persuader (ER): I think that is an excellent amount and would benefit Save the Children. [Validating the donation amount and encouraging the donor.]
+Persuader (ER): For example,millions of Syrian children have grown up facing the daily threat of violence. [Providing context about the cause.]
+Persuader (ER): In the first two months of 2018 alone, 1,000 children were reportedly killed or injured in intensifying violence. [Highlighting the urgency and severity of the situation.]
+Persuader (ER): Your donation will make an impact to better childrens' live around the world. [Emphasizing the impact of the donation.]
+Persuadee (EE): That's so horrible. [Expressing empathy and concern.]
+Persuadee (EE): I wish I could give more. [Expressing a desire to contribute more.]
+Persuadee (EE): I sponsor a poor child in India every month for $40. [Sharing personal involvement in charitable activities.]
+Persuadee (EE): I wish I could help all the children in the world. [Expressing a broader wish to help.]
+Persuader (ER): I would like to personally thank you for that. [Expressing gratitude for the donor's contributions.]
+Persuader (ER): It is very thoughtful to donate to causes that benefit disadvantaged children. [Commending the donor's thoughtfulness.]
+Persuader (ER): Your donation means a lot to that child in India [Reiterating the importance of the donor's contributions.]
+Persuadee (EE): It is the least I can do for him. [Minimizing their own contributions.]
+Persuadee (EE): Most people take for granted what they have in their lives, while there are so many thousands who do not even have the basic necessities. [Reflecting on societal disparities.]
+Summary: The conversation begins with a straightforward request for a donation, to which the respondent agrees but expresses financial limitations. The requester positively reinforces the small donation and provides impactful information to emphasize the importance of the contribution. The respondent expresses empathy and a desire to do more, sharing their existing charitable efforts. The requester acknowledges and appreciates these efforts, reinforcing the value of the respondent's contributions. The conversation maintains a tone of mutual respect and shared concern for global issues.",1,0,False,0.7685546875
+20180827-032811_159_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): I think it would be good to donate your payment to Save the Children, it could help alot of kids out [Suggesting a charitable action]
+Persuadee (EE): yes i will. [Agreeing to the suggestion]
+Persuader (ER): That's very good since they do so much for children. [Affirming the value of the action]
+Persuadee (EE): Sure, Do you like donations? [Inquiring about the other person's interest in donations]
+Persuader (ER): Yes I think donating to charity is a very honorable thing to do. [Expressing personal belief in the value of donations]
+Persuadee (EE): Definitely, Are you interested in such things? [Seeking further confirmation of the other person's interest]
+Persuader (ER): Yes I donate to charity every month through my paychecks. [Sharing personal habit of donating]
+Persuadee (EE): Oh! [Expressing surprise]
+Persuadee (EE): this is so good. [Expressing approval]
+Persuader (ER): Are you aware of what save te children does? [Checking the other person's awareness about the charity]
+Persuadee (EE): I know a little bit. [Admitting limited knowledge]
+Summary: The conversation begins with ER suggesting a charitable action, which EE readily agrees to. ER expresses approval and shares a personal commitment to charity, reinforcing a positive sentiment towards donations. EE shows curiosity about ER's interest in donations and responds positively to ER's charitable habits. The conversation maintains a supportive and agreeable tone, with EE expressing mild surprise and interest in learning more about the charity discussed.",1,1,True,0.59326171875
+20180827-041027_973_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): hi how are you [Greeting and initiating conversation]
+Persuadee (EE): I'm well, thanks [Responding to greeting]
+Persuader (ER): do you know what is the save the children [Inquiring about the other person's knowledge of a specific organization]
+Persuadee (EE): I've heard of it. [Indicating some familiarity with the organization]
+Persuadee (EE): It's a charity, right? [Seeking confirmation about the nature of the organization]
+Persuadee (EE): What do they do? [Requesting more information about the organization's activities]
+Persuader (ER): yes it is a organization do you know more info [Confirming the nature of the organization and probing for more information]
+Persuadee (EE): I'd like more information, yes. [Expressing interest in learning more]
+Persuader (ER): The Save the Children Fund, commonly known as Save the Children, is an international non-governmental organisation that promotes children's rights, provides relief and helps support children in developing countries. [Providing detailed information about the organization]
+Persuadee (EE): That's nice. [Acknowledging the information]
+Persuadee (EE): What kind of things do they help with? [Requesting specific details about the organization's activities]
+Summary: The conversation begins with a polite exchange of greetings, establishing a friendly tone. The initiator, ER, introduces a topic of interest, prompting curiosity from EE. As the conversation progresses, EE expresses a desire to learn more, showing openness and engagement. ER provides information, maintaining an informative and supportive approach. EE responds positively, asking further questions, which indicates sustained interest and a collaborative dynamic, with ER guiding the discussion and EE actively participating.",0,0,True,0.87841796875
+20180903-103835_253_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hello there, how are you? [Initiate conversation and establish rapport]
+Persuadee (EE): Hi [Respond to greeting]
+Persuader (ER): How much do you know about Save the Children? [Inquire about EE's knowledge of Save the Children]
+Persuadee (EE): I know that it is a charity. [Provide basic information about Save the Children]
+Persuadee (EE): I think I have seen some commercials for it in my lifetime. [Share personal experience related to Save the Children]
+Persuader (ER): Were you aware that Save the Children assists both children in the U.S. as well as foreign countries? [Provide additional information about Save the Children's scope]
+Persuadee (EE): No. [Express lack of awareness]
+Persuadee (EE): I figured they just tried to help children in under developed countries. [Share assumption about Save the Children's focus]
+Persuadee (EE): That's great that they help people in the U.S. as well! [Express approval of Save the Children's broader scope]
+Persuadee (EE): I think it's important to help children from our country and also others. [Share personal belief about the importance of helping children]
+Persuader (ER): Yes, not only do we help out with literacy and school related causes, but also with feeding, shelter, and disaster relief for children all over the world. [Provide detailed information about Save the Children's activities]
+Persuadee (EE): That's wonderful! [Express approval]
+Persuadee (EE): Are you a top rated charity? [Inquire about the charity's rating]
+Summary: The conversation begins with a neutral tone as ER initiates a discussion about Save the Children, aiming to inform EE. Initially, EE's responses are brief and show limited awareness. As ER provides more information, EE's interest and enthusiasm grow, reflecting a positive shift in sentiment. ER maintains a persuasive and informative approach throughout, while EE becomes increasingly engaged and supportive, culminating in a positive acknowledgment of the charity's efforts and a question about its reputation.",0,1,False,0.720703125
+20180904-043300_214_live,1,"You are helping analyze a persuasion conversation with intentions. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'
+
+Conversation:
+Persuader (ER): Hi! [Greeting]
+Persuader (ER): How are you doing today? [Inquiring about well-being]
+Persuadee (EE): I'm doing very well. [Responding to inquiry]
+Persuadee (EE): Just recovering from the long weekend. [Providing additional personal information]
+Persuadee (EE): How about yourself? [Returning the inquiry]
+Persuader (ER): I am doing well thank you and same here [Responding to inquiry and sharing personal information]
+Persuadee (EE): Awesome. [Expressing positive sentiment]
+Persuadee (EE): What are some of your hobbies? [Inquiring about personal interests]
+Persuader (ER): Well one hobby is volunteering. [Sharing personal interest]
+Persuader (ER): I wanted to talk to you about a charity Save the Children, have you heard of it? [Introducing a topic and inquiring about familiarity]
+Persuadee (EE): Only in name. [Expressing limited familiarity]
+Persuadee (EE): I haven't heard too much about it though. [Providing additional context]
+Persuadee (EE): Can you tell me more? [Requesting more information]
+Summary: The conversation begins with a friendly exchange of pleasantries, establishing a positive and open tone. Both speakers express mutual well-being and shared experiences. As the conversation progresses, ER smoothly transitions into discussing a personal interest in volunteering, specifically introducing a charity. EE shows curiosity and openness, inviting ER to elaborate further, indicating a willingness to engage and learn more about the topic introduced by ER.",0,0,True,0.85009765625
