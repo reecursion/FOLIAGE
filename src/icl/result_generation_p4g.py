@@ -242,8 +242,11 @@ def generate_combined_latex_table(data, ratios):
                         cells.append(formatted_value)
                     else:
                         # For all these metrics, higher is better
-                        is_better = value > baseline_values[ratio]
-                        color_cmd = '\\cellcolor{green!25}' if is_better else '\\cellcolor{red!25}'
+                        if value == baseline_values[ratio]:
+                            color_cmd = '\\cellcolor{yellow!25}'
+                        else:
+                            is_better = value > baseline_values[ratio]
+                            color_cmd = '\\cellcolor{green!25}' if is_better else '\\cellcolor{red!25}'
                         cells.append(f"{color_cmd}{{{formatted_value}}}")
             
             row += " & ".join(cells) + " \\\\\n"

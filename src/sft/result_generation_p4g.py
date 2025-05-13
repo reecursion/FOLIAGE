@@ -5,7 +5,7 @@ import re
 from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
 
 # Path to the directory containing the CSV files
-base_dir = "/home/rithviks/FOLIAGE/src/sft/results/p4g"
+base_dir = "/Users/rithviksenthil/Desktop/FOLIAGE/src/sft/results/p4g"
 
 # Function to calculate metrics for a single file
 def analyze_file(filepath):
@@ -293,8 +293,11 @@ def generate_combined_latex_table(data, ratios):
                         cells.append(formatted_value)
                     else:
                         # For all these metrics, higher is better
-                        is_better = value > baseline_values[ratio]
-                        color_cmd = '\\cellcolor{green!25}' if is_better else '\\cellcolor{red!25}'
+                        if value == baseline_values[ratio]:
+                            color_cmd = '\\cellcolor{yellow!25}'
+                        else:
+                            is_better = value > baseline_values[ratio]
+                            color_cmd = '\\cellcolor{green!25}' if is_better else '\\cellcolor{red!25}'
                         cells.append(f"{color_cmd}{formatted_value}")
             
             row += " & ".join(cells) + " \\\\\n"
