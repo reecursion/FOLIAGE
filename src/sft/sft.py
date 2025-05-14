@@ -99,7 +99,7 @@ def compute_metrics(_, tokenizer, model, eval_dataset, dialogue_info, dataset_ty
                     total_metrics["success_rmse_sum"] = 0.0
                 
                 if predicted_price is None:
-                    print(f"DEBUG: Failed to extract price from: {pred_text}")
+                    # print(f"DEBUG: Failed to extract price from: {pred_text}")
                     skipped_count += 1
                     continue                
 
@@ -124,7 +124,7 @@ def compute_metrics(_, tokenizer, model, eval_dataset, dialogue_info, dataset_ty
                 
                 # Skip if no valid prediction
                 if pred_decision == "NULL":
-                    print(f"DEBUG: Failed to extract donation decision from: {pred_text}")
+                    # print(f"DEBUG: Failed to extract donation decision from: {pred_text}")
                     skipped_count += 1
                     continue
                 
@@ -159,7 +159,7 @@ def compute_metrics(_, tokenizer, model, eval_dataset, dialogue_info, dataset_ty
                 
                 # If extraction failed, calculate worst-case utility
                 if predicted_allocation is None:
-                    print(f"DEBUG: Failed to extract allocation from: {pred_text}")
+                    # print(f"DEBUG: Failed to extract allocation from: {pred_text}")
                     
                     # Get the actual resources for agent1 and calculate the worst-case allocation
                     # (the opposite of what they got - 3 minus their actual allocation)
@@ -185,7 +185,7 @@ def compute_metrics(_, tokenizer, model, eval_dataset, dialogue_info, dataset_ty
                     invalid_count += 1
                     total_metrics["invalid_count"] += 1
                     
-                    print(f"DEBUG: Calculated worst-case utility MSE: {utility_mse}")
+                    # print(f"DEBUG: Calculated worst-case utility MSE: {utility_mse}")
                 else:
                     # Calculate utility scores for prediction as before
                     pred_agent1_utility = calculate_utility_score({'agent1': predicted_allocation['agent1']}, preferences)
@@ -1103,10 +1103,10 @@ def perform_kfold_cross_validation(args):
     if fold_results:
         # Calculate aggregate metrics
         mean_train_loss = np.mean([result["train_loss"] for result in fold_results])
-        mean_eval_loss = np.mean([result["eval_loss"] for result in fold_results])
+        # mean_eval_loss = np.mean([result["eval_loss"] for result in fold_results])
         
         print(f"Mean Training Loss: {mean_train_loss:.4f}")
-        print(f"Mean Evaluation Loss: {mean_eval_loss:.4f}")
+        # print(f"Mean Evaluation Loss: {mean_eval_loss:.4f}")
         
         # Print individual fold results
         for result in fold_results:
