@@ -1111,7 +1111,7 @@ def perform_kfold_cross_validation(args):
         
         # Print individual fold results
         for result in fold_results:
-            metrics_str = f"Train Loss = {result['train_loss']:.4f}, Eval Loss = {result['eval_loss']:.4f}"
+            metrics_str = f"Train Loss = {result['train_loss']:.4f}"
             
             if args.dataset_type == "cb":
                 if "price_nmse" in result:
