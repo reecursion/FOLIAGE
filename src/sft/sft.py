@@ -15,6 +15,7 @@ from transformers import (AutoModelForCausalLM, AutoTokenizer,
                          EarlyStoppingCallback)  # Added EarlyStoppingCallback
 from trl import SFTTrainer
 import re
+import math
 
 def preprocess_logits_for_metrics(logits, labels):
     """
