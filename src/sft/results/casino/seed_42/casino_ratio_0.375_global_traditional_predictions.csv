@@ -1750,7 +1750,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food: 1, water: 1, firewood: 2}, agent2:{food: 2, water: 2, firewood: 1}}<|eot_id|>",0,2,3,3,1,0,3.0,1.0,0.0,0.0,2.0,3.0,21,19,,,
+OUTCOME: {agent1:{food: 1, water: 1, firewood: 2}, agent2:{food: 2, water: 2, firewood: 1}}<|eot_id|>",0,2,3,3,1,0,3.0,1.0,0.0,0.0,2.0,3.0,21,19,15.0,17.0,36.0
 156,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -3104,7 +3104,7 @@ Agent 1: Hi, I'm going to need a lot of water, firewood and food. I'm going to b
 
             Remember: Each resource must sum to exactly 3 units across both agents. }
 
-            Note: Since one party is camping with their family and needs supplies for hiking, they may require more resources. The other party prioritizes water and food for hiking, suggesting a potential imbalance in resource distribution. Provide a negotiation outcome that addresses these needs while ensuring each resource totals exactly 3 units across both agents.<|eot_id|>",0,3,2,3,0,1,3.0,0.0,1.0,0.0,3.0,2.0,23,19,,,
+            Note: Since one party is camping with their family and needs supplies for hiking, they may require more resources. The other party prioritizes water and food for hiking, suggesting a potential imbalance in resource distribution. Provide a negotiation outcome that addresses these needs while ensuring each resource totals exactly 3 units across both agents.<|eot_id|>",0,3,2,3,0,1,3.0,0.0,1.0,0.0,3.0,2.0,23,19,13.0,17.0,100.0
 560,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -4008,7 +4008,7 @@ Today Date: 26 Jul 2024
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,1,1,2,2,2,2.0,2.0,2.0,1.0,1.0,1.0,12,24,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,1,1,2,2,2,2.0,2.0,2.0,1.0,1.0,1.0,12,24,24.0,12.0,144.0
 62,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -4744,7 +4744,7 @@ Today Date: 26 Jul 2024
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,0,2,0,3,1,0.0,3.0,1.0,3.0,0.0,2.0,23,19,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,0,2,0,3,1,0.0,3.0,1.0,3.0,0.0,2.0,23,19,13.0,17.0,100.0
 135,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -4884,7 +4884,7 @@ Today Date: 26 Jul 2024
 
 OffsetTable: {agent1:{food: 2, water: 1, firewood: 2}, agent2:{food: 1, water: 2, firewood: 1}}
 
-            Based on the negotiation, Agent 2 initially suggested a plan where they receive two waters, one food package, and two firewood. Since both parties need food and water, this plan accommodates both needs. Agent 1 accepted this proposal, indicating a mutually beneficial agreement. The final resource allocation reflects this agreement, with Agent 1 receiving two units of food, one unit of water, and two units of firewood, while Agent 2 receives one unit of food, two units of water, and one unit of firewood. This distribution ensures each resource sums to exactly three units across both agents.<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,19,17,,,
+            Based on the negotiation, Agent 2 initially suggested a plan where they receive two waters, one food package, and two firewood. Since both parties need food and water, this plan accommodates both needs. Agent 1 accepted this proposal, indicating a mutually beneficial agreement. The final resource allocation reflects this agreement, with Agent 1 receiving two units of food, one unit of water, and two units of firewood, while Agent 2 receives one unit of food, two units of water, and one unit of firewood. This distribution ensures each resource sums to exactly three units across both agents.<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,19,17,17.0,19.0,4.0
 149,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -4994,7 +4994,7 @@ Today Date: 26 Jul 2024
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",0,1,3,3,2,0,3.0,2.0,0.0,0.0,1.0,3.0,15,23,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",0,1,3,3,2,0,3.0,2.0,0.0,0.0,1.0,3.0,15,23,21.0,13.0,36.0
 161,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -5557,7 +5557,7 @@ OffsetTable: {agent1:{food: 1, water: 2, firewood: 1}, agent2:{food: 2, water: 1
 
             Based on the negotiation, it is clear that both individuals prioritize water due to their unique circumstances. One is traveling with a newborn, while the other is in a hot area without a water source. They agree on the importance of having extra supplies. The final resource allocation reflects this prioritization, with one person receiving two units of water, and the other receiving one. Both individuals also negotiate the distribution of firewood, with one receiving one unit and the other two units. The distribution of food is also divided, with one person receiving one unit and the other two units. This allocation ensures that each resource sums to exactly three units across both individuals. 
 
-            OUTCOME: {agent1:{food: 1, water: 2, firewood: 1}, agent2:{food: 2, water: 1, firewood: 2}}<|eot_id|>",2,2,1,1,1,2,1.0,1.0,2.0,2.0,2.0,1.0,21,16,,,
+            OUTCOME: {agent1:{food: 1, water: 2, firewood: 1}, agent2:{food: 2, water: 1, firewood: 2}}<|eot_id|>",2,2,1,1,1,2,1.0,1.0,2.0,2.0,2.0,1.0,21,16,15.0,20.0,36.0
 455,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -5680,7 +5680,7 @@ Today Date: 26 Jul 2024
 
             Remember: Each resource must sum to exactly 3 units across both agents., [Summary: Based on the negotiation, where one participant agrees to give away food and water, the final resource allocation is predicted. Each resource must sum to exactly 3 units across both agents.]
 
-<|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|start_header_id|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|>",2,1,2,1,2,1,1.0,2.0,1.0,2.0,1.0,2.0,21,16,,,
+<|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|start_header_id|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|>",2,1,2,1,2,1,1.0,2.0,1.0,2.0,1.0,2.0,21,16,15.0,20.0,36.0
 458,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -6132,7 +6132,7 @@ system<|begin_of_text|><|start_header_id|>
 
 Outcome: {agent1:{food:1, water:2, firewood:1}, agent2:{food:2, water:1, firewood:2}
 
-            Explanation: Based on the negotiation, one person is in dire need of firewood for warmth and cooking, while the other is willing to share firewood for coffee. They agree to split the firewood. One person needs food for cooking, so they offer to bring food to share. The other person accepts this offer, and they agree to split the food. The total amount of each resource must sum to exactly 3 units across both agents. Therefore, one person receives 1 unit of food, 2 units of water, and 1 unit of firewood, while the other person receives 2 units of food, 1 unit of water, and 2 units of firewood.<|eot_id|>",0,1,2,3,2,1,3.0,2.0,1.0,0.0,1.0,2.0,14,23,,,
+            Explanation: Based on the negotiation, one person is in dire need of firewood for warmth and cooking, while the other is willing to share firewood for coffee. They agree to split the firewood. One person needs food for cooking, so they offer to bring food to share. The other person accepts this offer, and they agree to split the food. The total amount of each resource must sum to exactly 3 units across both agents. Therefore, one person receives 1 unit of food, 2 units of water, and 1 unit of firewood, while the other person receives 2 units of food, 1 unit of water, and 2 units of firewood.<|eot_id|>",0,1,2,3,2,1,3.0,2.0,1.0,0.0,1.0,2.0,14,23,22.0,13.0,64.0
 506,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -6240,7 +6240,7 @@ Today Date: 26 Jul 2024
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,1,1,0,2,2,0.0,2.0,2.0,3.0,1.0,1.0,20,18,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,1,1,0,2,2,0.0,2.0,2.0,3.0,1.0,1.0,20,18,16.0,18.0,16.0
 509,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -6292,7 +6292,7 @@ Today Date: 26 Jul 2024
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,17,19,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,17,19,19.0,17.0,4.0
 510,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -6679,7 +6679,7 @@ Outlet: mturk
 
             Remember: Each resource must sum to exactly 3 units across both agents.
 
-            Hint: mturk_agent_0, mturk_agent_1, mturk_agent_2, mturk_agent_3, mturk_agent_4, mturk_agent_5, mturk_agent_6, mturk_agent_7, mturk_agent_8, mturk_agent_9, mturk_agent_10, mturk_agent_11, mturk_agent_12, mturk_agent_13, mturk_agent_14, mturk_agent_15, mturk_agent_16, mturk_agent_17, mturk_agent_18, mturk_agent_19, mturk_agent_20, mturk_agent_21, mturk_agent_22, mturk_agent_23, mturk_agent_24, mturk_agent_25, mturk_agent_26, mturk_agent_27, mturk_agent_28, mturk_agent_29, mturk_agent_30, mturk_agent_31, mturk_agent_32, mturk_agent_33, mturk_agent_34, mturk_agent_35, mturk_agent_36, mturk_agent_37, mturk_agent_38, mturk_agent_39, mturk_agent_40, mturk_agent_41, mturk_agent_42, mturk_agent_43, mturk_agent_44, mturk_agent_45, mturk_agent_46, mturk_agent_47, mturk_agent_48, mturk_agent_49, mturk_agent_50, mturk_agent_51, mturk_agent_52, mturk_agent_53, mturk_agent_54, mturk_agent_55, mturk_agent_56, mturk_agent_57, mturk_agent_58, mturk_agent_59, mturk_agent_60, mturk_agent_61, mturk_agent_62, mturk_agent_63, mturk_agent_64, mturk_agent_65, mturk_agent_66, mturk_agent_67, mturk_agent_68, mturk_agent_69, mturk_agent_70, mturk_agent_71, mturk_agent_72, mturk_agent_73, mturk_agent_74, mturk_agent_75, mturk_agent_76, mturk_agent_77, mturk_agent_78, mturk_agent_79, mturk_agent_80, mturk_agent_81, mturk_agent_82, mturk_agent_83, mturk_agent_84, mturk_agent_85, mturk_agent_86, mturk_agent_87, mturk_agent_88, mturk_agent_89, mturk_agent_90, mturk_agent_91, mturk_agent_92, mturk_agent_93, mturk_agent_94, mturk_agent_95, mturk_agent_96, mturk_agent_97, mturk_agent_98, mturk_agent_99, mturk_agent_100, mturk_agent_101",1,1,2,2,2,1,2.0,2.0,1.0,1.0,1.0,2.0,17,21,,,
+            Hint: mturk_agent_0, mturk_agent_1, mturk_agent_2, mturk_agent_3, mturk_agent_4, mturk_agent_5, mturk_agent_6, mturk_agent_7, mturk_agent_8, mturk_agent_9, mturk_agent_10, mturk_agent_11, mturk_agent_12, mturk_agent_13, mturk_agent_14, mturk_agent_15, mturk_agent_16, mturk_agent_17, mturk_agent_18, mturk_agent_19, mturk_agent_20, mturk_agent_21, mturk_agent_22, mturk_agent_23, mturk_agent_24, mturk_agent_25, mturk_agent_26, mturk_agent_27, mturk_agent_28, mturk_agent_29, mturk_agent_30, mturk_agent_31, mturk_agent_32, mturk_agent_33, mturk_agent_34, mturk_agent_35, mturk_agent_36, mturk_agent_37, mturk_agent_38, mturk_agent_39, mturk_agent_40, mturk_agent_41, mturk_agent_42, mturk_agent_43, mturk_agent_44, mturk_agent_45, mturk_agent_46, mturk_agent_47, mturk_agent_48, mturk_agent_49, mturk_agent_50, mturk_agent_51, mturk_agent_52, mturk_agent_53, mturk_agent_54, mturk_agent_55, mturk_agent_56, mturk_agent_57, mturk_agent_58, mturk_agent_59, mturk_agent_60, mturk_agent_61, mturk_agent_62, mturk_agent_63, mturk_agent_64, mturk_agent_65, mturk_agent_66, mturk_agent_67, mturk_agent_68, mturk_agent_69, mturk_agent_70, mturk_agent_71, mturk_agent_72, mturk_agent_73, mturk_agent_74, mturk_agent_75, mturk_agent_76, mturk_agent_77, mturk_agent_78, mturk_agent_79, mturk_agent_80, mturk_agent_81, mturk_agent_82, mturk_agent_83, mturk_agent_84, mturk_agent_85, mturk_agent_86, mturk_agent_87, mturk_agent_88, mturk_agent_89, mturk_agent_90, mturk_agent_91, mturk_agent_92, mturk_agent_93, mturk_agent_94, mturk_agent_95, mturk_agent_96, mturk_agent_97, mturk_agent_98, mturk_agent_99, mturk_agent_100, mturk_agent_101",1,1,2,2,2,1,2.0,2.0,1.0,1.0,1.0,2.0,17,21,19.0,15.0,4.0
 540,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -6733,7 +6733,7 @@ Today Date: 26 Jul 2024
 
             Remember: Each resource must sum to exactly 3 units across both agents. }
 
-            Note: You are assuming the negotiation will reach a mutually beneficial agreement. If you doubt this, you can instead predict the negotiation's likely outcome based on the provided exchange.<|eot_id|>",1,1,3,2,2,0,2.0,2.0,0.0,1.0,1.0,3.0,22,18,,,
+            Note: You are assuming the negotiation will reach a mutually beneficial agreement. If you doubt this, you can instead predict the negotiation's likely outcome based on the provided exchange.<|eot_id|>",1,1,3,2,2,0,2.0,2.0,0.0,1.0,1.0,3.0,22,18,14.0,18.0,64.0
 550,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -6797,7 +6797,7 @@ Today Date: 26 Jul 2024
 
             Note: You are assuming the negotiation will reach a successful outcome where both agents are satisfied. If you believe the negotiation is unlikely to reach a successful outcome, you can instead predict the final allocation based on the most favorable outcome for one agent, labeling the other agent's allocation as 0. ]
 
-            Remember: Each resource must sum to exactly 3 units across both agents.🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂",2,2,0,1,1,3,1.0,1.0,3.0,2.0,2.0,0.0,18,20,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂",2,2,0,1,1,3,1.0,1.0,3.0,2.0,2.0,0.0,18,20,18.0,16.0,0.0
 562,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -7457,7 +7457,7 @@ Today Date: 26 Jul 2024
 
             Remember: Each resource must sum to exactly 3 units across both agents. },
 
-            Note: The total amount of each resource must sum to exactly 3 units across both agents. Provide only your final answer.<|eot_id|>",1,1,3,2,2,0,2.0,2.0,0.0,1.0,1.0,3.0,22,18,,,
+            Note: The total amount of each resource must sum to exactly 3 units across both agents. Provide only your final answer.<|eot_id|>",1,1,3,2,2,0,2.0,2.0,0.0,1.0,1.0,3.0,22,18,14.0,18.0,64.0
 610,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -7511,7 +7511,7 @@ Today Date: 26 Jul 2024
 
             Remember: Each resource must sum to exactly 3 units across both agents. 
 
-            Note: You may need to make assumptions about the total amount of each resource each participant initially has. If you're unsure, you can ask for clarification.<|eot_id|>",2,2,0,1,1,3,1.0,1.0,3.0,2.0,2.0,0.0,18,20,,,
+            Note: You may need to make assumptions about the total amount of each resource each participant initially has. If you're unsure, you can ask for clarification.<|eot_id|>",2,2,0,1,1,3,1.0,1.0,3.0,2.0,2.0,0.0,18,20,18.0,16.0,0.0
 2,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -8098,7 +8098,7 @@ Today Date: 26 Jul 2024
 
             [Summary: Two people are discussing their excitement about an upcoming trip. Both have been camping before, but it's been a while since their last experience. One prioritizes food, while the other prioritizes firewood. They are both eager to ensure they have enough resources to enjoy their trip together.] 
 
-            Based on the negotiation, it",2,3,0,1,0,3,1.0,0.0,3.0,2.0,3.0,0.0,22,18,,,
+            Based on the negotiation, it",2,3,0,1,0,3,1.0,0.0,3.0,2.0,3.0,0.0,22,18,14.0,18.0,64.0
 92,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -8332,7 +8332,7 @@ Unable to provide a final answer as the negotiation is ongoing and additional in
 
 After the additional information is provided, I will do my best to predict the final resource allocation. 
 
-Please provide the necessary details to assist in resolving the negotiation.<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,20,15,,,
+Please provide the necessary details to assist in resolving the negotiation.<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,20,15,16.0,21.0,16.0
 118,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -8568,7 +8568,7 @@ Unable to provide a final answer because the negotiation conversation does not p
 
 To provide a more accurate answer, additional context or details about the negotiation, such as the total amount of each resource available or the specific needs and preferences of each participant, are necessary. 
 
-If you have any further information or clarification, please provide it, and I'll do my best to assist you in predicting the final resource allocation.<|eot_id|>",0,3,2,3,0,1,3.0,0.0,1.0,0.0,3.0,2.0,23,15,,,
+If you have any further information or clarification, please provide it, and I'll do my best to assist you in predicting the final resource allocation.<|eot_id|>",0,3,2,3,0,1,3.0,0.0,1.0,0.0,3.0,2.0,23,15,13.0,21.0,100.0
 128,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -8754,7 +8754,7 @@ Today Date: 26 Jul 2024
 
 <|begin_of_text|><|start_header_id|><|start_header_id|>user<|end_header_id|><|begin_of_text|><|start_header_id|>6system<|end_header_id|><|begin_of_text|><|start_header_id|>
 
-            OUTCOME: {agent1:{food: 0, water: 2, firewood: 3}, agent2:{food: 3, water: 1, firewood: 0}}<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,20,17,,,
+            OUTCOME: {agent1:{food: 0, water: 2, firewood: 3}, agent2:{food: 3, water: 1, firewood: 0}}<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,20,17,16.0,19.0,16.0
 147,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -9370,7 +9370,7 @@ Today Date: 26 Jul 2024
 
 Unable to predict the final allocation of resources based on the provided negotiation. The negotiation does not provide sufficient information to accurately determine the final agreement. 
 
-            OUTCOME: {}<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,21,15,,,
+            OUTCOME: {}<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,21,15,15.0,21.0,36.0
 417,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -10127,7 +10127,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Unable to provide a final answer as the negotiation is still ongoing. Please provide additional conversation details to determine the final resource allocation.<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,16,21,,,
+Unable to provide a final answer as the negotiation is still ongoing. Please provide additional conversation details to determine the final resource allocation.<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,16,21,20.0,15.0,16.0
 492,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -10431,7 +10431,7 @@ Today Date: 26 Jul 2024
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,17,19,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,17,19,19.0,17.0,4.0
 518,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -17998,7 +17998,7 @@ Today Date: 26 Jul 2024
 
             Remember: Each resource must sum to exactly 3 units across both agents. }
 
-            Note: Please ensure the total number of items for each resource across both agents sums to 3.<|eot_id|>",1,1,3,2,2,0,2.0,2.0,0.0,1.0,1.0,3.0,20,18,,,
+            Note: Please ensure the total number of items for each resource across both agents sums to 3.<|eot_id|>",1,1,3,2,2,0,2.0,2.0,0.0,1.0,1.0,3.0,20,18,16.0,18.0,16.0
 572,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023

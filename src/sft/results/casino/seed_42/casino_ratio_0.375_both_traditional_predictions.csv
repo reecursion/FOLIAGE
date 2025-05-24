@@ -182,7 +182,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food: 1, water: 2, firewood: 2}, agent2:{food: 2, water: 1, firewood: 1}}<|eot_id|>",1,1,2,2,2,1,2.0,2.0,1.0,1.0,1.0,2.0,17,20,,,
+OUTCOME: {agent1:{food: 1, water: 2, firewood: 2}, agent2:{food: 2, water: 1, firewood: 1}}<|eot_id|>",1,1,2,2,2,1,2.0,2.0,1.0,1.0,1.0,2.0,17,20,19.0,16.0,4.0
 15,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -16716,7 +16716,7 @@ Today Date: 26 Jul 2024
 
             Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation.
 
-            OUTCOME: {agent1:{food",1,2,0,2,1,3,2.0,1.0,3.0,1.0,2.0,0.0,14,22,,,
+            OUTCOME: {agent1:{food",1,2,0,2,1,3,2.0,1.0,3.0,1.0,2.0,0.0,14,22,22.0,14.0,64.0
 493,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -17590,7 +17590,7 @@ Today Date: 26 Jul 2024
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents. ]<|eot_id|>",1,1,3,2,2,0,2.0,2.0,0.0,1.0,1.0,3.0,20,18,,,
+            Remember: Each resource must sum to exactly 3 units across both agents. ]<|eot_id|>",1,1,3,2,2,0,2.0,2.0,0.0,1.0,1.0,3.0,20,18,16.0,18.0,16.0
 572,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023

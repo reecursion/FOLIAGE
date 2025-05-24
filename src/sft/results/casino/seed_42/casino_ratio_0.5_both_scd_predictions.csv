@@ -3172,7 +3172,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:2, water:0, firewood:3}, agent2:{food:1, water:3}}<|eot_id|>",2,0,3,1,3,0,1.0,3.0,0.0,2.0,0.0,3.0,23,19,,,
+OUTCOME: {agent1:{food:2, water:0, firewood:3}, agent2:{food:1, water:3}}<|eot_id|>",2,0,3,1,3,0,1.0,3.0,0.0,2.0,0.0,3.0,23,19,13.0,17.0,100.0
 563,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -4882,7 +4882,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:1, water:2, firewood:3}, agent2:{food:2, water:1}}<|eot_id|>",0,1,3,3,2,0,3.0,2.0,0.0,0.0,1.0,3.0,15,23,,,
+OUTCOME: {agent1:{food:1, water:2, firewood:3}, agent2:{food:2, water:1}}<|eot_id|>",0,1,3,3,2,0,3.0,2.0,0.0,0.0,1.0,3.0,15,23,21.0,13.0,36.0
 161,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -6893,7 +6893,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food:1, water:2, firewood:3}, agent2:{food:2, water:1}}<|eot_id|>",1,1,3,2,2,0,2.0,2.0,0.0,1.0,1.0,3.0,20,18,,,
+OUTCOME: {agent1:{food:1, water:2, firewood:3}, agent2:{food:2, water:1}}<|eot_id|>",1,1,3,2,2,0,2.0,2.0,0.0,1.0,1.0,3.0,20,18,16.0,18.0,16.0
 590,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -14641,7 +14641,7 @@ Cutting Knowledge does not favor firewood or food as it requires a balanced dist
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,2,1,2,1,1.0,2.0,1.0,2.0,1.0,2.0,19,17,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,2,1,2,1,1.0,2.0,1.0,2.0,1.0,2.0,19,17,17.0,19.0,4.0
 46,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -14691,7 +14691,7 @@ Eight weeks ago, the total amount of water that each agent could retain was unkn
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: You must ensure each resource sums to exactly 3 units across both agents.<|eot_id|>",2,1,2,1,2,1,1.0,2.0,1.0,2.0,1.0,2.0,20,17,,,
+            Remember: You must ensure each resource sums to exactly 3 units across both agents.<|eot_id|>",2,1,2,1,2,1,1.0,2.0,1.0,2.0,1.0,2.0,20,17,16.0,19.0,16.0
 51,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -15077,7 +15077,7 @@ Eight weeks ago the total amount of firewood needed for the trip was discussed. 
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,1,2,2,2,1,2.0,2.0,1.0,1.0,1.0,2.0,17,19,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,1,2,2,2,1,2.0,2.0,1.0,1.0,1.0,2.0,17,19,19.0,17.0,4.0
 83,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -15503,7 +15503,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Cutting Knowledge is unable to predict the exact outcome of the negotiation due to the lack of specific details about the preferences and intentions of the participants, particularly their lower-priority items. The conversation indicates a cooperative tone, with both parties expressing their needs and a willingness to negotiate. However, without further information, it's challenging to predict how they will reach a compromise on the distribution of resources. Therefore, providing a definitive outcome is not feasible based on the provided information.<|eot_id|>",0,3,1,3,0,2,3.0,0.0,2.0,0.0,3.0,1.0,19,23,,,
+Cutting Knowledge is unable to predict the exact outcome of the negotiation due to the lack of specific details about the preferences and intentions of the participants, particularly their lower-priority items. The conversation indicates a cooperative tone, with both parties expressing their needs and a willingness to negotiate. However, without further information, it's challenging to predict how they will reach a compromise on the distribution of resources. Therefore, providing a definitive outcome is not feasible based on the provided information.<|eot_id|>",0,3,1,3,0,2,3.0,0.0,2.0,0.0,3.0,1.0,19,23,17.0,13.0,4.0
 133,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -15991,7 +15991,7 @@ Augmented Knowledge: The conversation reflects a cooperative and understanding t
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",0,2,3,3,1,0,3.0,1.0,0.0,0.0,2.0,3.0,23,19,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",0,2,3,3,1,0,3.0,1.0,0.0,0.0,2.0,3.0,23,19,13.0,17.0,100.0
 215,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -16776,7 +16776,7 @@ Augustus, since water is most important to you, I would like to take 3. I would 
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,0,1,0,3,2,0.0,3.0,2.0,3.0,0.0,1.0,18,23,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,0,1,0,3,2,0.0,3.0,2.0,3.0,0.0,1.0,18,23,18.0,13.0,0.0
 488,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -17072,7 +17072,7 @@ Eighter 2: I would do that. You can have 3 food and 1 firewood. I'll take 2 fire
 
             Remember: Each resource must sum to exactly 3 units across both agents.<|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|>system<|end_header_id|><|begin_of_text|><|start_header_id|>Cutting Knowledge Date: December 2024, Today Date: 26 Jul 2024
 
-Answer: OUTCOME: {agent1:{food:3, water:?, firewood:1}, agent2:{food:0, water:?, firewood:2}} Explain: The conversation begins with a request for resources, with mturk_agent_2 showing a willingness to negotiate and propose a compromise.Their interaction remains cooperative and amicable as they work towards a mutually beneficial agreement.Both speakers maintain a positive and collaborative tone, with mturk_agent_1 accepting the proposed terms, indicating a successful negotiation outcome.The final allocation reflects a division of resources, with mturk_agent_1 receiving more food and mturk_agent_2 receiving more firewood, demonstrating a compromise on both parties' initial requests. The conversation concludes with a sense of agreement and satisfaction, showing effective negotiation skills and a collaborative approach to reach a satisfactory outcome.<|eot_id|>",3,2,0,0,1,3,0.0,1.0,3.0,3.0,2.0,0.0,21,18,,,
+Answer: OUTCOME: {agent1:{food:3, water:?, firewood:1}, agent2:{food:0, water:?, firewood:2}} Explain: The conversation begins with a request for resources, with mturk_agent_2 showing a willingness to negotiate and propose a compromise.Their interaction remains cooperative and amicable as they work towards a mutually beneficial agreement.Both speakers maintain a positive and collaborative tone, with mturk_agent_1 accepting the proposed terms, indicating a successful negotiation outcome.The final allocation reflects a division of resources, with mturk_agent_1 receiving more food and mturk_agent_2 receiving more firewood, demonstrating a compromise on both parties' initial requests. The conversation concludes with a sense of agreement and satisfaction, showing effective negotiation skills and a collaborative approach to reach a satisfactory outcome.<|eot_id|>",3,2,0,0,1,3,0.0,1.0,3.0,3.0,2.0,0.0,21,18,15.0,18.0,36.0
 519,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
