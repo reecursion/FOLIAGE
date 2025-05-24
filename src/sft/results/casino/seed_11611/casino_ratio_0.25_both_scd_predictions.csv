@@ -746,7 +746,7 @@ Today Date: 26 Jul 2024
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents., [Summary: The conversation reflects a cooperative and resourceful dynamic, with participants showing",1,2,2,2,1,1,,,,,,,21,17,,,
+            Remember: Each resource must sum to exactly 3 units across both agents., [Summary: The conversation reflects a cooperative and resourceful dynamic, with participants showing",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,21,17,,,
 77,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -1146,7 +1146,7 @@ Today Date: 26 Jul 2024
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,0,2,2,3,1,,,,,,,14,26,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,0,2,2,3,1,2.0,3.0,1.0,1.0,0.0,2.0,14,26,,,
 114,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -1480,7 +1480,7 @@ Today Date: 26 Jul 2024
             Agent 1: High priority: food, Medium priority: firewood, Low priority: water
             Agent 2: High priority: water, Medium priority: firewood, Low priority: food
 
-            Update: Based on the provided preferences and the initial negotiation, it seems that mturk_agent_1 is prioritizing food, while mturk_agent_2 is focused on water. The conversation suggests a transactional approach, with mturk_agent_1 seeking supplies for a camping trip. Given the priorities, mturk_agent_2 may be more willing to negotiate for water in exchange for other items, as water is their highest priority. The final allocation will likely reflect a balance between mturk_agent_1's need for food and mturk_agent_2's need for water, with mturk_agent_2 potentially leveraging their higher priority to secure more water.]<|eot_id|>",3,0,2,0,3,1,,,,,,,23,19,,,
+            Update: Based on the provided preferences and the initial negotiation, it seems that mturk_agent_1 is prioritizing food, while mturk_agent_2 is focused on water. The conversation suggests a transactional approach, with mturk_agent_1 seeking supplies for a camping trip. Given the priorities, mturk_agent_2 may be more willing to negotiate for water in exchange for other items, as water is their highest priority. The final allocation will likely reflect a balance between mturk_agent_1's need for food and mturk_agent_2's need for water, with mturk_agent_2 potentially leveraging their higher priority to secure more water.]<|eot_id|>",3,0,2,0,3,1,0.0,3.0,1.0,3.0,0.0,2.0,23,19,,,
 136,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -6575,7 +6575,7 @@ Today Date: 26 Jul 2024
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,1,1,2,2,,,,,,,17,21,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,17,21,,,
 531,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023

@@ -5231,7 +5231,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Outcome: {agent1:{food: 1, water: 2, firewood: 2}, agent2:{food: 2, water: 1, firewood: 1}}<|eot_id|>",2,2,1,1,1,2,,,,,,,20,16,,,
+Outcome: {agent1:{food: 1, water: 2, firewood: 2}, agent2:{food: 2, water: 1, firewood: 1}}<|eot_id|>",2,2,1,1,1,2,1.0,1.0,2.0,2.0,2.0,1.0,20,16,,,
 176,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -6711,7 +6711,7 @@ Today Date: 26 Jul 2024
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",0,1,3,3,2,0,,,,,,,19,22,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",0,1,3,3,2,0,3.0,2.0,0.0,0.0,1.0,3.0,19,22,,,
 558,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -11187,7 +11187,7 @@ Today Date: 26 Jul 2024
 
 <|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|>
 
-System cannot provide a final answer as the negotiation has not been fully resolved. It is unable to predict the final allocation of resources based on the provided information. Provide additional context or a more detailed negotiation to determine the final outcome.<|eot_id|>",0,3,0,3,0,3,,,,,,,15,21,,,
+System cannot provide a final answer as the negotiation has not been fully resolved. It is unable to predict the final allocation of resources based on the provided information. Provide additional context or a more detailed negotiation to determine the final outcome.<|eot_id|>",0,3,0,3,0,3,3.0,0.0,3.0,0.0,3.0,0.0,15,21,,,
 48,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -14529,7 +14529,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Outcome: {agent1:{food: 1, water: 2, firewood: 2}, agent2:{food: 2, water: 1, firewood: 1}}<|eot_id|>",2,1,1,1,2,2,,,,,,,17,19,,,
+Outcome: {agent1:{food: 1, water: 2, firewood: 2}, agent2:{food: 2, water: 1, firewood: 1}}<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,17,19,,,
 25,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -15987,7 +15987,7 @@ Today Date: 26 Jul 2024
 
 _Output: {agent1:{food: 0, water: 2, firewood: 3}, agent2:{food: 3, water: 1, firewood: 0}} 
 
-            In this outcome, Agent 1 receives all three units of firewood, two units of water, and no food. Agent 2 receives all three units of food, one unit of water, and no firewood, satisfying the condition where each resource sums to exactly three units across both agents.<|eot_id|>",0,1,3,3,2,0,,,,,,,19,23,,,
+            In this outcome, Agent 1 receives all three units of firewood, two units of water, and no food. Agent 2 receives all three units of food, one unit of water, and no firewood, satisfying the condition where each resource sums to exactly three units across both agents.<|eot_id|>",0,1,3,3,2,0,3.0,2.0,0.0,0.0,1.0,3.0,19,23,,,
 178,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -16543,7 +16543,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Outcome: {agent1:{food: 1, water: 1, firewood: 2}, agent2:{food: 2, water: 2, firewood: 1}}<|eot_id|>",1,2,2,2,1,1,,,,,,,20,17,,,
+Outcome: {agent1:{food: 1, water: 1, firewood: 2}, agent2:{food: 2, water: 2, firewood: 1}}<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,20,17,,,
 463,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -16589,7 +16589,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Outcome: {agent1:{food: 0, water: 3, firewood: 2}, agent2:{food: 3, water: 0, firewood: 1}}<|eot_id|>",0,3,1,3,0,2,,,,,,,19,23,,,
+Outcome: {agent1:{food: 0, water: 3, firewood: 2}, agent2:{food: 3, water: 0, firewood: 1}}<|eot_id|>",0,3,1,3,0,2,3.0,0.0,2.0,0.0,3.0,1.0,19,23,,,
 465,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -17145,7 +17145,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Outcome: {agent1:{food: 1, water: 1, firewood: 2}, agent2:{food: 2, water: 2, firewood: 1}}<|eot_id|>",1,2,3,2,1,0,,,,,,,23,13,,,
+Outcome: {agent1:{food: 1, water: 1, firewood: 2}, agent2:{food: 2, water: 2, firewood: 1}}<|eot_id|>",1,2,3,2,1,0,2.0,1.0,0.0,1.0,2.0,3.0,23,13,,,
 505,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023

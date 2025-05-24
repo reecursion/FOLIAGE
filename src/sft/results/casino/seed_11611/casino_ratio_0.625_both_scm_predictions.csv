@@ -8612,7 +8612,7 @@ Based on this negotiation, predict the final allocation of resources. Provide on
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,2,0,0,1,3,,,,,,,21,18,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,2,0,0,1,3,0.0,1.0,3.0,3.0,2.0,0.0,21,18,,,
 534,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -9462,7 +9462,7 @@ mturk_agent_2:
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,2,1,0,1,2,,,,,,,23,14,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,2,1,0,1,2,0.0,1.0,2.0,3.0,2.0,1.0,23,14,,,
 595,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -14985,7 +14985,7 @@ user2 (mturk_agent_2):
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food: 0, water: 3, firewood: 2}, agent2:{food: 3, water: 0, firewood: 1}}<|eot_id|>",0,2,2,3,1,1,,,,,,,18,22,,,
+OUTCOME: {agent1:{food: 0, water: 3, firewood: 2}, agent2:{food: 3, water: 0, firewood: 1}}<|eot_id|>",0,2,2,3,1,1,3.0,1.0,1.0,0.0,2.0,2.0,18,22,,,
 10,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -16543,7 +16543,7 @@ user2:
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food: 1, water: 3, firewood: 0}, agent2:{food: 2, water: 0, firewood: 3}}<|eot_id|>",1,3,1,2,0,2,,,,,,,20,18,,,
+OUTCOME: {agent1:{food: 1, water: 3, firewood: 0}, agent2:{food: 2, water: 0, firewood: 3}}<|eot_id|>",1,3,1,2,0,2,2.0,0.0,2.0,1.0,3.0,1.0,20,18,,,
 110,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -16667,7 +16667,7 @@ user2:
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food: 0, water: 2, firewood: 1}, agent2:{food: 3, water: 1, firewood: 2}}<|eot_id|>",1,2,1,2,1,2,,,,,,,16,21,,,
+OUTCOME: {agent1:{food: 0, water: 2, firewood: 1}, agent2:{food: 3, water: 1, firewood: 2}}<|eot_id|>",1,2,1,2,1,2,2.0,1.0,2.0,1.0,2.0,1.0,16,21,,,
 115,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -16915,7 +16915,7 @@ user2:
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food: 0, water: 3, firewood: 1}, agent2:{food: 3, water: 0, firewood: 2}}<|eot_id|>",1,2,2,2,1,1,,,,,,,20,17,,,
+OUTCOME: {agent1:{food: 0, water: 3, firewood: 1}, agent2:{food: 3, water: 0, firewood: 2}}<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,20,17,,,
 140,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -17851,7 +17851,7 @@ Today Date: 26 Jul 2024
 
 Overall, mturk_agent_1 is giving 2 firewood, 1 water, and mturk_agent_2 is giving 3 food. Based on this, we can predict the final allocation of resources as follows:
 
-OUTCOME: {agent1:{food: 0, water: 1, firewood: 2}, agent2:{food: 3, water: 2, firewood: 1}}<|eot_id|>",0,3,2,3,0,1,,,,,,,22,19,,,
+OUTCOME: {agent1:{food: 0, water: 1, firewood: 2}, agent2:{food: 3, water: 2, firewood: 1}}<|eot_id|>",0,3,2,3,0,1,3.0,0.0,1.0,0.0,3.0,2.0,22,19,,,
 457,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -18421,7 +18421,7 @@ user2:
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food: 0, water: 2, firewood: 0}, agent2:{food: 3, water: 1, firewood: 3}}<|eot_id|>",2,2,1,1,1,2,,,,,,,19,17,,,
+OUTCOME: {agent1:{food: 0, water: 2, firewood: 0}, agent2:{food: 3, water: 1, firewood: 3}}<|eot_id|>",2,2,1,1,1,2,1.0,1.0,2.0,2.0,2.0,1.0,19,17,,,
 503,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -19227,7 +19227,7 @@ user2 (mturk_agent_2):
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food: 1, water: 2, firewood: 0}, agent2:{food: 2, water: 1, firewood: 3}}<|eot_id|>",2,2,0,1,1,3,,,,,,,16,22,,,
+OUTCOME: {agent1:{food: 1, water: 2, firewood: 0}, agent2:{food: 2, water: 1, firewood: 3}}<|eot_id|>",2,2,0,1,1,3,1.0,1.0,3.0,2.0,2.0,0.0,16,22,,,
 585,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -19548,7 +19548,7 @@ user2:
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food: 0, water: 2, firewood: 3}, agent2:{food: 3, water: 1, firewood: 0}}<|eot_id|>",1,1,3,2,2,0,,,,,,,22,18,,,
+OUTCOME: {agent1:{food: 0, water: 2, firewood: 3}, agent2:{food: 3, water: 1, firewood: 0}}<|eot_id|>",1,1,3,2,2,0,2.0,2.0,0.0,1.0,1.0,3.0,22,18,,,
 611,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -24201,7 +24201,7 @@ mturk_agent_2:
   mturk_agent_2: cringe ☹️. Ill take one firewood and two of both water and food, mturk_agent_1: How about I take all the wood, give you all the food, you can have 2 waters and I can have one.  Having a little extra water will help me with all the hiking we will be doing, plus since i wont be eating much I want to stay hydrated.  Will that work for you>>🙂, mturk_agent_2: cringe ☹️. Ill take one firewood and two of both water and food 
 
 mturk_agent_1:
-  mturk_agent_1: How about I take all the wood, give you all the food, you can have 2 waters and I can have one.  Having a little extra water will help me with all the hiking we will be doing, plus since i wont be eating much I want to stay hydrated.  Will that work for you>>🙂, mturk_agent_2: cringe ☹️. Ill take one firewood and two of both water and food, mturk_agent_1: I was",0,2,2,3,1,1,,,,,,,18,20,,,
+  mturk_agent_1: How about I take all the wood, give you all the food, you can have 2 waters and I can have one.  Having a little extra water will help me with all the hiking we will be doing, plus since i wont be eating much I want to stay hydrated.  Will that work for you>>🙂, mturk_agent_2: cringe ☹️. Ill take one firewood and two of both water and food, mturk_agent_1: I was",0,2,2,3,1,1,3.0,1.0,1.0,0.0,2.0,2.0,18,20,,,
 582,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
