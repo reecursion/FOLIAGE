@@ -462,7 +462,7 @@ If you provide the final negotiation outcome, I would be happy to help predict t
 
 OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,2,0,1,1,3,,,,,,,16,22,,,
+Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,2,0,1,1,3,1.0,1.0,3.0,2.0,2.0,0.0,16,22,,,
 52,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -562,7 +562,7 @@ Today Date: 26 Jul 2024
 
 Unfortunately, based on the negotiation, I cannot determine a predictable final allocation of resources. The conversation involves two individuals with specific medical needs, and they are trying to reach a mutually beneficial agreement. However, the negotiation does not provide enough information to accurately predict the final allocation of resources, as the participants are still discussing and adjusting their offers. Therefore, I cannot provide a definitive outcome.
 
-If you have any additional information or clarification about the negotiation, I may be able to provide a more informed prediction.<|eot_id|>",2,2,1,1,1,2,,,,,,,19,17,,,
+If you have any additional information or clarification about the negotiation, I may be able to provide a more informed prediction.<|eot_id|>",2,2,1,1,1,2,1.0,1.0,2.0,2.0,2.0,1.0,19,17,,,
 56,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -1586,7 +1586,7 @@ Unfortunately, I don't have enough information to accurately predict the final a
 
 However, based on the conversation, it seems that Agent 1 prioritizes water and receives more of it, while Agent 2 is open to sharing resources and receiving food packages. If you have any additional context or clarification, I may be able to provide a more accurate prediction. 
 
-Please provide more information or clarify the negotiation summary if you need further assistance.<|eot_id|>",1,2,2,2,1,1,,,,,,,21,16,,,
+Please provide more information or clarify the negotiation summary if you need further assistance.<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,21,16,,,
 137,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -2250,7 +2250,7 @@ However, based on the provided information, it seems that both individuals have 
 
 To provide a more accurate prediction, I would need additional information about the negotiation, such as any agreements or concessions made by the participants. 
 
-Provide more context or details if you have them, and I'll do my best to predict the final resource allocation based on the negotiation.<|eot_id|>",1,2,1,2,1,2,,,,,,,15,20,,,
+Provide more context or details if you have them, and I'll do my best to predict the final resource allocation based on the negotiation.<|eot_id|>",1,2,1,2,1,2,2.0,1.0,2.0,1.0,2.0,1.0,15,20,,,
 451,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -2560,7 +2560,7 @@ Unfortunately, I don't have enough information to accurately predict the final a
 
 However, based on the provided information, it seems likely that Agent 1 will receive more food due to its higher priority, while Agent 2 may receive more water due to its higher priority. The firewood allocation is not explicitly discussed, so it's challenging to predict its final distribution.
 
-If you provide additional context or information about the negotiation, I can attempt to provide a more accurate prediction of the final resource allocation.<|eot_id|>",2,1,2,1,2,1,,,,,,,20,17,,,
+If you provide additional context or information about the negotiation, I can attempt to provide a more accurate prediction of the final resource allocation.<|eot_id|>",2,1,2,1,2,1,1.0,2.0,1.0,2.0,1.0,2.0,20,17,,,
 485,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -2818,7 +2818,7 @@ However, based on the provided conversation, it seems that one agent has childre
 
 If you provide more context or the final agreement, I can help predict the correct allocation of resources. 
 
-Provide additional context or the final agreement if possible. I will do my best to provide an accurate answer.<|eot_id|>",2,1,1,1,2,2,,,,,,,17,19,,,
+Provide additional context or the final agreement if possible. I will do my best to provide an accurate answer.<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,17,19,,,
 521,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -3168,7 +3168,7 @@ Today Date: 26 Jul 2024
 
 Unfortunately, I cannot provide a final answer as the negotiation is incomplete. The conversation only discusses the needs of the participants, but no agreement or allocation of resources is reached. Provide more information or complete the negotiation to receive a final answer. 
 
-If you provide the completed negotiation, I can predict the final allocation of resources based on the conversation.<|eot_id|>",0,1,3,3,2,0,,,,,,,17,23,,,
+If you provide the completed negotiation, I can predict the final allocation of resources based on the conversation.<|eot_id|>",0,1,3,3,2,0,3.0,2.0,0.0,0.0,1.0,3.0,17,23,,,
 543,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -3412,7 +3412,7 @@ Unfortunately, I don't have enough information to accurately predict the final a
 
 However, based on the given negotiation, it seems that both agents are willing to negotiate and find a balanced distribution of resources. One agent needs more firewood, while the other needs more water. They are discussing a trade-off where one gets more firewood in exchange for more food and a fair split of water.
 
-If you provide more context or the final negotiation summary, I can try to predict the final allocation of resources.<|eot_id|>",1,1,2,2,2,1,,,,,,,17,19,,,
+If you provide more context or the final negotiation summary, I can try to predict the final allocation of resources.<|eot_id|>",1,1,2,2,2,1,2.0,2.0,1.0,1.0,1.0,2.0,17,19,,,
 567,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -3818,7 +3818,7 @@ However, based on the provided negotiation, it appears that both agents are prio
 
 If you provide more context or the final agreement, I can help predict the final allocation of resources. 
 
-Provide more information if you need further assistance.<|eot_id|>",2,1,1,1,2,2,,,,,,,17,19,,,
+Provide more information if you need further assistance.<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,17,19,,,
 600,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -4224,7 +4224,7 @@ Today Date: 26 Jul 2024
 
 Unfortunately, I cannot provide a final answer as the negotiation is ongoing. The conversation only includes the initial exchange where both participants express a need for packages, specifically firewood, food, and water, without reaching a final agreement. To predict the final allocation of resources, I would need more information about the negotiation's progression or additional exchanges between the participants. 
 
-If you provide the complete negotiation conversation, I can offer a more accurate prediction of the final resource allocation based on the mturk_agent_1 and mturk_agent_2 preferences.<|eot_id|>",1,0,2,2,3,1,,,,,,,14,22,,,
+If you provide the complete negotiation conversation, I can offer a more accurate prediction of the final resource allocation based on the mturk_agent_1 and mturk_agent_2 preferences.<|eot_id|>",1,0,2,2,3,1,2.0,3.0,1.0,1.0,0.0,2.0,14,22,,,
 42,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -4374,7 +4374,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Unfortunately, I cannot provide a final answer as the negotiation is still ongoing and more information is needed to accurately predict the final allocation of resources. The conversation only provides a summary of the discussion, but not the final agreement. Can you provide more context or information about the negotiation to help me better understand the preferences and needs of the participants?<|eot_id|>",1,2,1,2,1,2,,,,,,,17,21,,,
+Unfortunately, I cannot provide a final answer as the negotiation is still ongoing and more information is needed to accurately predict the final allocation of resources. The conversation only provides a summary of the discussion, but not the final agreement. Can you provide more context or information about the negotiation to help me better understand the preferences and needs of the participants?<|eot_id|>",1,2,1,2,1,2,2.0,1.0,2.0,1.0,2.0,1.0,17,21,,,
 57,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -4420,7 +4420,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Unfortunately, I cannot provide a final answer as the negotiation is still ongoing. The conversation does not provide enough information to predict the final allocation of resources. Can you provide more context or information about the negotiation? I'll be happy to help with the final answer.<|eot_id|>",2,1,1,1,2,2,,,,,,,16,21,,,
+Unfortunately, I cannot provide a final answer as the negotiation is still ongoing. The conversation does not provide enough information to predict the final allocation of resources. Can you provide more context or information about the negotiation? I'll be happy to help with the final answer.<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,16,21,,,
 59,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -4518,7 +4518,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Unfortunately, I cannot provide a final answer as the negotiation is incomplete. In the provided conversation, one party decides to leave the deal, but the final allocation of resources is not specified. For a complete answer, more information about the negotiation's conclusion is needed.<|eot_id|>",0,2,2,3,1,1,,,,,,,18,20,,,
+Unfortunately, I cannot provide a final answer as the negotiation is incomplete. In the provided conversation, one party decides to leave the deal, but the final allocation of resources is not specified. For a complete answer, more information about the negotiation's conclusion is needed.<|eot_id|>",0,2,2,3,1,1,3.0,1.0,1.0,0.0,2.0,2.0,18,20,,,
 64,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -4564,7 +4564,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Unfortunately, I cannot provide a final answer as the negotiation is still ongoing. The conversation only provides the initial discussion, and no final agreement has been reached. I need more information to predict the final allocation of resources. If you provide the complete negotiation, I would be happy to help you determine the final outcome.<|eot_id|>",0,2,3,3,1,0,,,,,,,21,18,,,
+Unfortunately, I cannot provide a final answer as the negotiation is still ongoing. The conversation only provides the initial discussion, and no final agreement has been reached. I need more information to predict the final allocation of resources. If you provide the complete negotiation, I would be happy to help you determine the final outcome.<|eot_id|>",0,2,3,3,1,0,3.0,1.0,0.0,0.0,2.0,3.0,21,18,,,
 65,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -4610,7 +4610,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Unfortunately, I cannot provide a final answer as the negotiation is ongoing and not enough information is provided to determine a conclusive allocation of resources. The conversation suggests that one camper is struggling with a lost luggage and proposes sharing supplies, but the exact needs and agreements are not specified. For an accurate prediction, more details about the negotiation, such as the final agreements reached by the campers, are needed.<|eot_id|>",2,2,1,1,1,2,,,,,,,19,16,,,
+Unfortunately, I cannot provide a final answer as the negotiation is ongoing and not enough information is provided to determine a conclusive allocation of resources. The conversation suggests that one camper is struggling with a lost luggage and proposes sharing supplies, but the exact needs and agreements are not specified. For an accurate prediction, more details about the negotiation, such as the final agreements reached by the campers, are needed.<|eot_id|>",2,2,1,1,1,2,1.0,1.0,2.0,2.0,2.0,1.0,19,16,,,
 66,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -4710,7 +4710,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Unfortunately, I don't have enough information to accurately predict the final allocation of resources. The negotiation is ongoing, and more details are needed to determine the final agreement. Provide additional context or the final conversation if you'd like me to try again.<|eot_id|>",1,3,0,2,0,3,,,,,,,19,23,,,
+Unfortunately, I don't have enough information to accurately predict the final allocation of resources. The negotiation is ongoing, and more details are needed to determine the final agreement. Provide additional context or the final conversation if you'd like me to try again.<|eot_id|>",1,3,0,2,0,3,2.0,0.0,3.0,1.0,3.0,0.0,19,23,,,
 74,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -4756,7 +4756,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Unfortunately, I cannot provide a final answer as the negotiation is still in progress. I only have information up to the point where the conversation ends. I need more information to predict the final allocation of resources. If you provide the continuation of the negotiation, I can help you predict the final outcome.<|eot_id|>",1,1,2,2,2,1,,,,,,,17,19,,,
+Unfortunately, I cannot provide a final answer as the negotiation is still in progress. I only have information up to the point where the conversation ends. I need more information to predict the final allocation of resources. If you provide the continuation of the negotiation, I can help you predict the final outcome.<|eot_id|>",1,1,2,2,2,1,2.0,2.0,1.0,1.0,1.0,2.0,17,19,,,
 81,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -4802,7 +4802,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Unfortunately, I cannot provide a final answer as the negotiation is still ongoing. The conversation only provides initial preferences and concerns, but no final agreement is reached. I need more information to predict the final allocation of resources. If you provide additional context or the final negotiation, I would be happy to help predict the outcome.<|eot_id|>",0,2,1,3,1,2,,,,,,,14,23,,,
+Unfortunately, I cannot provide a final answer as the negotiation is still ongoing. The conversation only provides initial preferences and concerns, but no final agreement is reached. I need more information to predict the final allocation of resources. If you provide additional context or the final negotiation, I would be happy to help predict the outcome.<|eot_id|>",0,2,1,3,1,2,3.0,1.0,2.0,0.0,2.0,1.0,14,23,,,
 96,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -4902,7 +4902,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Unfortunately, I cannot provide a final answer as the negotiation is ongoing and additional information is needed to determine the final allocation of resources. Can you provide more details about the negotiation or supply constraints to help predict the final outcome?<|eot_id|>",2,1,1,1,2,2,,,,,,,17,19,,,
+Unfortunately, I cannot provide a final answer as the negotiation is ongoing and additional information is needed to determine the final allocation of resources. Can you provide more details about the negotiation or supply constraints to help predict the final outcome?<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,17,19,,,
 120,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -5210,7 +5210,7 @@ Unfortunately, I cannot provide a final answer as the negotiation is ongoing and
 
 However, based on the provided information, it seems likely that one individual will prioritize firewood and water due to medical needs, while the other will focus on food due to traveling with vulnerable individuals. The final allocation will depend on how they negotiate to meet each other's needs while ensuring each resource totals exactly three units across both agents. 
 
-If you provide more context or the final negotiation, I can offer a more accurate prediction.<|eot_id|>",1,2,2,2,1,1,,,,,,,21,17,,,
+If you provide more context or the final negotiation, I can offer a more accurate prediction.<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,21,17,,,
 144,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -5266,7 +5266,7 @@ Provide the negotiation summary for further assistance., Agent 2: Hi fellow camp
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,2,2,2,1,1,,,,,,,19,17,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,19,17,,,
 145,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -5724,7 +5724,7 @@ Unfortunately, I cannot provide a final answer as the negotiation is still ongoi
 
 However, based on the conversation, it seems that both individuals are prioritizing food and firewood, with one planning to bring dogs and the other expecting to spend more time in the woods. They are trying to reach a compromise on how to split the supplies. To provide an accurate prediction, I would need more information about their final agreement or a clearer indication of their priorities. 
 
-If you have any additional context or clarification, I would be happy to try and provide a more informed prediction.<|eot_id|>",2,2,1,1,1,2,,,,,,,20,16,,,
+If you have any additional context or clarification, I would be happy to try and provide a more informed prediction.<|eot_id|>",2,2,1,1,1,2,1.0,1.0,2.0,2.0,2.0,1.0,20,16,,,
 176,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -5824,7 +5824,7 @@ Unfortunately, I cannot provide a final answer as the negotiation is still ongoi
 
 However, based on the current negotiation, it seems likely that Agent 2 will receive more food, while Agent 1 will receive more water. The final allocation of firewood is uncertain. 
 
-If you have any additional information or clarification on the negotiation, I would be happy to help further.<|eot_id|>",1,2,2,2,1,1,,,,,,,21,17,,,
+If you have any additional information or clarification on the negotiation, I would be happy to help further.<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,21,17,,,
 190,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -6114,7 +6114,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Unfortunately, I cannot provide a final answer as the negotiation is still ongoing. I only have information up to the point where the conversation ended. I need more information to predict the final allocation of resources accurately. If you provide the final conversation, I can assist you in determining the outcome.<|eot_id|>",3,2,1,0,1,2,,,,,,,22,13,,,
+Unfortunately, I cannot provide a final answer as the negotiation is still ongoing. I only have information up to the point where the conversation ended. I need more information to predict the final allocation of resources accurately. If you provide the final conversation, I can assist you in determining the outcome.<|eot_id|>",3,2,1,0,1,2,0.0,1.0,2.0,3.0,2.0,1.0,22,13,,,
 448,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -6426,7 +6426,7 @@ However, based on the current conversation, it seems that both individuals need 
 
 If you provide more context or details, I can attempt to predict the final allocation of resources. 
 
-Please provide additional information or clarify any assumptions you have about the negotiation. I'll do my best to predict the final outcome based on the provided information.<|eot_id|>",2,0,2,1,3,1,,,,,,,18,20,,,
+Please provide additional information or clarify any assumptions you have about the negotiation. I'll do my best to predict the final outcome based on the provided information.<|eot_id|>",2,0,2,1,3,1,1.0,3.0,1.0,2.0,0.0,2.0,18,20,,,
 475,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -6472,7 +6472,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Unfortunately, I cannot provide a final answer as the negotiation is ongoing. Can you provide more information or the final conversation so I can predict the final allocation of resources?,<|eot_id|>",2,1,2,1,2,1,,,,,,,20,17,,,
+Unfortunately, I cannot provide a final answer as the negotiation is ongoing. Can you provide more information or the final conversation so I can predict the final allocation of resources?,<|eot_id|>",2,1,2,1,2,1,1.0,2.0,1.0,2.0,1.0,2.0,20,17,,,
 488,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -6518,7 +6518,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Unfortunately, I cannot provide a final answer as I cannot analyze the negotiation based on the provided snippet. The conversation is ongoing, and more information is needed to determine the final allocation of resources. I can only provide a response based on the provided negotiation. If you provide the complete negotiation, I would be happy to help predict the final outcome.<|eot_id|>",1,2,0,2,1,3,,,,,,,14,22,,,
+Unfortunately, I cannot provide a final answer as I cannot analyze the negotiation based on the provided snippet. The conversation is ongoing, and more information is needed to determine the final allocation of resources. I can only provide a response based on the provided negotiation. If you provide the complete negotiation, I would be happy to help predict the final outcome.<|eot_id|>",1,2,0,2,1,3,2.0,1.0,3.0,1.0,2.0,0.0,14,22,,,
 492,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -6670,7 +6670,7 @@ However, based on the provided negotiation, it appears that both individuals are
 
 If you provide more context or details, I can offer a more informed prediction. 
 
-Provide more information for a more accurate prediction.<|eot_id|>",0,1,2,3,2,1,,,,,,,14,23,,,
+Provide more information for a more accurate prediction.<|eot_id|>",0,1,2,3,2,1,3.0,2.0,1.0,0.0,1.0,2.0,14,23,,,
 510,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -6970,7 +6970,7 @@ However, based on the provided information, it seems that one individual priorit
 
 If you're willing to provide more context or details, I can attempt to predict the final allocation of resources. Otherwise, I'll need more information to provide an accurate answer. 
 
-Provide additional context if needed to predict the final allocation of resources accurately.<|eot_id|>",2,1,1,1,2,2,,,,,,,17,21,,,
+Provide additional context if needed to predict the final allocation of resources accurately.<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,17,21,,,
 532,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -7126,7 +7126,7 @@ Today Date: 26 Jul 2024
 
 Unfortunately, I cannot provide a final answer as the negotiation conversation is incomplete. The conversation ends abruptly, and the final allocation of resources is not agreed upon. To provide an accurate answer, more information about the negotiation outcome is needed. 
 
-However, based on the provided negotiation, it seems that one person is willing to trade more firewood for additional food and water. If you provide the complete negotiation conversation, I can assist you in predicting the final resource allocation.<|eot_id|>",3,2,0,0,1,3,,,,,,,18,19,,,
+However, based on the provided negotiation, it seems that one person is willing to trade more firewood for additional food and water. If you provide the complete negotiation conversation, I can assist you in predicting the final resource allocation.<|eot_id|>",3,2,0,0,1,3,0.0,1.0,3.0,3.0,2.0,0.0,18,19,,,
 542,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -7178,7 +7178,7 @@ However, based on the provided information, it seems that Agent 1 prioritizes fo
 
 Provide additional context or information about the negotiation, and I'll do my best to predict the final allocation of resources based on the provided preferences and conversation. 
 
-If you'd like, you can simulate the negotiation further, and I can provide guidance or answer follow-up questions to help you reach a final agreement.<|eot_id|>",2,1,1,1,2,2,,,,,,,17,21,,,
+If you'd like, you can simulate the negotiation further, and I can provide guidance or answer follow-up questions to help you reach a final agreement.<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,17,21,,,
 545,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -7380,7 +7380,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Unable to provide a final answer as the negotiation is ongoing and more information is needed to accurately predict the final allocation of resources. Provide additional context or continue the negotiation to facilitate a more accurate prediction.<|eot_id|>",1,2,0,2,1,3,,,,,,,13,26,,,
+Unable to provide a final answer as the negotiation is ongoing and more information is needed to accurately predict the final allocation of resources. Provide additional context or continue the negotiation to facilitate a more accurate prediction.<|eot_id|>",1,2,0,2,1,3,2.0,1.0,3.0,1.0,2.0,0.0,13,26,,,
 563,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -7426,7 +7426,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Unfortunately, I cannot provide a final answer as the negotiation conversation is incomplete. Please provide more information or continue the conversation so I can assist you accurately.<|eot_id|>",2,0,2,1,3,1,,,,,,,18,22,,,
+Unfortunately, I cannot provide a final answer as the negotiation conversation is incomplete. Please provide more information or continue the conversation so I can assist you accurately.<|eot_id|>",2,0,2,1,3,1,1.0,3.0,1.0,2.0,0.0,2.0,18,22,,,
 569,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -7838,7 +7838,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Unfortunately, I cannot provide a final answer as the negotiation is still ongoing. I only have information about the conversation up to the point where it was summarized. I don't have enough information to predict the final allocation of resources. If you provide more context or the final negotiation conversation, I would be happy to help predict the final outcome.<|eot_id|>",0,2,3,3,1,0,,,,,,,23,13,,,
+Unfortunately, I cannot provide a final answer as the negotiation is still ongoing. I only have information about the conversation up to the point where it was summarized. I don't have enough information to predict the final allocation of resources. If you provide more context or the final negotiation conversation, I would be happy to help predict the final outcome.<|eot_id|>",0,2,3,3,1,0,3.0,1.0,0.0,0.0,2.0,3.0,23,13,,,
 614,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -7940,7 +7940,7 @@ Today Date: 26 Jul 2024
 
 Unfortunately, based on the negotiation, it's challenging to predict a definitive final allocation of resources. Both participants need firewood, and they are discussing a trade involving firewood, food, and water. However, the conversation does not provide enough information to accurately predict the final allocation of resources.
 
-Given the information provided, we cannot determine the final agreement on the trade, making it impossible to provide a definitive outcome. Therefore, I must apologize, but I cannot accurately predict the final allocation of resources in this negotiation.<|eot_id|>",1,0,3,2,3,0,,,,,,,19,18,,,
+Given the information provided, we cannot determine the final agreement on the trade, making it impossible to provide a definitive outcome. Therefore, I must apologize, but I cannot accurately predict the final allocation of resources in this negotiation.<|eot_id|>",1,0,3,2,3,0,2.0,3.0,0.0,1.0,0.0,3.0,19,18,,,
 3,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -7988,7 +7988,7 @@ Today Date: 26 Jul 2024
 
 Unfortunately, based on the negotiation, I cannot determine a definitive outcome that satisfies the condition of each resource summing to exactly 3 units across both agents. The negotiation only discusses exchanging food and water, with no clear agreement on how the firewood will be divided or how the total amounts will sum to 3 units for each resource.
 
-            OUTCOME: {}<|eot_id|>",0,2,3,3,1,0,,,,,,,23,19,,,
+            OUTCOME: {}<|eot_id|>",0,2,3,3,1,0,3.0,1.0,0.0,0.0,2.0,3.0,23,19,,,
 9,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -8038,7 +8038,7 @@ Unfortunately, I cannot provide a final answer as the negotiation is still in pr
 
 Please provide more context or continue the negotiation to allow me to predict the final allocation of resources. 
 
-If you'd like, I can provide a summary of the current situation or suggest potential negotiation strategies based on the provided information.<|eot_id|>",1,1,2,2,2,1,,,,,,,17,20,,,
+If you'd like, I can provide a summary of the current situation or suggest potential negotiation strategies based on the provided information.<|eot_id|>",1,1,2,2,2,1,2.0,2.0,1.0,1.0,1.0,2.0,17,20,,,
 11,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -8552,7 +8552,7 @@ However, based on the provided information, Agent 2 emphasizes the need for food
 
 If you provide more information or the complete negotiation, I can assist you in predicting the final resource allocation. 
 
-Please provide the additional negotiation details for a more accurate outcome.<|eot_id|>",0,2,0,3,1,3,,,,,,,6,28,,,
+Please provide the additional negotiation details for a more accurate outcome.<|eot_id|>",0,2,0,3,1,3,3.0,1.0,3.0,0.0,2.0,0.0,6,28,,,
 76,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -9259,7 +9259,7 @@ Unfortunately, I don't have enough information to accurately predict the final a
 
 However, based on the provided information, I can offer a general observation: Both participants need firewood and food, and one also requires water. This suggests that the final allocation might involve compromising on these resources to meet both parties' needs. Since no further information is available, I'll refrain from providing a specific outcome. If you provide more context or details about the negotiation, I might be able to offer a more accurate prediction. 
 
-If you'd like, I can provide general insights on negotiation strategies or offer guidance on how to approach a similar situation, but I won't be able to predict the final outcome without additional information.<|eot_id|>",0,3,1,3,0,2,,,,,,,19,23,,,
+If you'd like, I can provide general insights on negotiation strategies or offer guidance on how to approach a similar situation, but I won't be able to predict the final outcome without additional information.<|eot_id|>",0,3,1,3,0,2,3.0,0.0,2.0,0.0,3.0,1.0,19,23,,,
 130,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -9425,7 +9425,7 @@ Based on the negotiation, it seems that Agent 2 prioritizes having more firewood
 
             This final allocation balances the needs of both agents while meeting the total sum requirement for each resource. Agent 2 receives more firewood, Agent 1 has more food and water, and both agents have a fair share of the resources. 
 
-            Remember, this is just a suggestion based on the provided negotiation. The final allocation should consider the specific needs and preferences of the agents involved.<|eot_id|>",2,3,0,1,0,3,,,,,,,23,19,,,
+            Remember, this is just a suggestion based on the provided negotiation. The final allocation should consider the specific needs and preferences of the agents involved.<|eot_id|>",2,3,0,1,0,3,1.0,0.0,3.0,2.0,3.0,0.0,23,19,,,
 147,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -9475,7 +9475,7 @@ Unfortunately, I don't have enough information to accurately predict the final a
 
 However, based on the provided preferences, it seems both agents prioritize firewood, suggesting a potential compromise might involve one agent receiving more firewood while the other receives more food or water. Without additional information, predicting the exact final allocation is not possible. 
 
-If you provide more context or details about the negotiation, I might be able to offer a more informed prediction.<|eot_id|>",1,1,2,2,2,1,,,,,,,17,19,,,
+If you provide more context or details about the negotiation, I might be able to offer a more informed prediction.<|eot_id|>",1,1,2,2,2,1,2.0,2.0,1.0,1.0,1.0,2.0,17,19,,,
 152,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -9579,7 +9579,7 @@ Unfortunately, I don't have enough information to accurately predict the final a
 
 However, based on the provided negotiation, it seems that one person is focusing on food for a friend with dietary restrictions, while the other is prioritizing food for their teenage son. They also discuss trading firewood for additional food, indicating a willingness to negotiate. If you provide more context or clarify the final agreement, I can offer a more informed prediction of the resource allocation. 
 
-If you're unable to provide additional context, I'll do my best to make an educated guess based on the information provided. Please provide any additional details or clarify the final negotiation to help me provide a more accurate answer.<|eot_id|>",0,1,3,3,2,0,,,,,,,15,23,,,
+If you're unable to provide additional context, I'll do my best to make an educated guess based on the information provided. Please provide any additional details or clarify the final negotiation to help me provide a more accurate answer.<|eot_id|>",0,1,3,3,2,0,3.0,2.0,0.0,0.0,1.0,3.0,15,23,,,
 157,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -9783,7 +9783,7 @@ Today Date: 26 Jul 2024
 
 Based on the negotiation, it seems that both agents prioritize food, with one needing it for medical reasons. They agree on a trade where one offers two units of food for one unit, ensuring the other's needs are met. Since both prioritize food, it's reasonable to assume they will split the remaining resources accordingly. Given the priority of food, a fair distribution might be one agent taking two units of food, while the other takes two units of another resource. Considering the firewood is the second priority for both, a split of food and firewood seems plausible. However, the total sum of each resource must equal three units across both agents.
 
-            OUTCOME: {agent1:{food: 1, water: 2, firewood: 2}, agent2:{food: 2, water: 1, firewood: 1}}<|eot_id|>",1,2,2,2,1,1,,,,,,,19,17,,,
+            OUTCOME: {agent1:{food: 1, water: 2, firewood: 2}, agent2:{food: 2, water: 1, firewood: 1}}<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,19,17,,,
 172,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -10509,7 +10509,7 @@ Today Date: 26 Jul 2024
 
 Cannot predict the final allocation of resources based on the provided negotiation. The conversation does not provide enough information about the supplies needed or any trade negotiations. 
 
-            OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}<|eot_id|>",1,2,1,2,1,2,,,,,,,17,20,,,
+            OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}<|eot_id|>",1,2,1,2,1,2,2.0,1.0,2.0,1.0,2.0,1.0,17,20,,,
 455,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -10668,7 +10668,7 @@ Unfortunately, based on the negotiation, it's unclear how the final allocation o
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Since we cannot determine the final allocation based on the provided negotiation, we cannot provide a definitive answer. If you have any additional information or clarification about the negotiation, we might be able to provide a more accurate prediction.<|eot_id|>",0,1,3,3,2,0,,,,,,,17,19,,,
+            Since we cannot determine the final allocation based on the provided negotiation, we cannot provide a definitive answer. If you have any additional information or clarification about the negotiation, we might be able to provide a more accurate prediction.<|eot_id|>",0,1,3,3,2,0,3.0,2.0,0.0,0.0,1.0,3.0,17,19,,,
 477,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -11176,7 +11176,7 @@ However, based on the provided conversation, both agents prioritize firewood, an
 
 If you provide more context or the negotiation outcome, I can help predict the final allocation of resources accordingly. 
 
-Please provide more information or clarify the negotiation's progression to receive a more accurate prediction.<|eot_id|>",3,1,1,0,2,2,,,,,,,20,18,,,
+Please provide more information or clarify the negotiation's progression to receive a more accurate prediction.<|eot_id|>",3,1,1,0,2,2,0.0,2.0,2.0,3.0,1.0,1.0,20,18,,,
 508,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -11335,7 +11335,7 @@ Unfortunately, I don't have enough information to accurately predict the final a
 
 However, based on the conversation, it seems likely that Agent 2 will receive more firewood, as they prioritize it due to the cold nights. Agent 1 is willing to trade food for firewood, suggesting they might receive more food. But without further information, predicting the exact final allocation is challenging. 
 
-If you have any additional context or details, I'd be happy to help further.<|eot_id|>",3,2,0,0,1,3,,,,,,,21,18,,,
+If you have any additional context or details, I'd be happy to help further.<|eot_id|>",3,2,0,0,1,3,0.0,1.0,3.0,3.0,2.0,0.0,21,18,,,
 519,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -11745,7 +11745,7 @@ Unable to predict the final allocation of resources based on the provided negoti
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Please provide more context or details about the negotiation to facilitate an accurate prediction.<|eot_id|>",2,0,3,1,3,0,,,,,,,23,17,,,
+            Please provide more context or details about the negotiation to facilitate an accurate prediction.<|eot_id|>",2,0,3,1,3,0,1.0,3.0,0.0,2.0,0.0,3.0,23,17,,,
 576,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -11943,7 +11943,7 @@ Today Date: 26 Jul 2024
 
 Unfortunately, I don't have enough information to accurately predict the final allocation of resources. The conversation only discusses greetings and a mention of shortages, without providing any details about the negotiation of specific resources. Therefore, I cannot determine a reliable outcome. 
 
-If you provide more context or details about the negotiation, I would be happy to help predict the final allocation of resources.<|eot_id|>",2,2,0,1,1,3,,,,,,,18,20,,,
+If you provide more context or details about the negotiation, I would be happy to help predict the final allocation of resources.<|eot_id|>",2,2,0,1,1,3,1.0,1.0,3.0,2.0,2.0,0.0,18,20,,,
 5,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -12814,7 +12814,7 @@ Unfortunately, I don't have enough information to accurately predict the final a
 
 However, based on the provided negotiation, Agent 1 prioritizes water, while Agent 2 mentions bringing two children with large appetites. This suggests a potential distribution that accommodates both needs, but without the final agreement, I cannot provide a definitive answer. 
 
-If you're able to provide more context or the final negotiation outcome, I would be happy to help with a more accurate prediction.<|eot_id|>",1,2,1,2,1,2,,,,,,,17,21,,,
+If you're able to provide more context or the final negotiation outcome, I would be happy to help with a more accurate prediction.<|eot_id|>",1,2,1,2,1,2,2.0,1.0,2.0,1.0,2.0,1.0,17,21,,,
 97,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -12920,7 +12920,7 @@ Here is a basic structure that could represent a possible outcome, but it requir
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,0,1,0,3,2,,,,,,,19,22,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,0,1,0,3,2,0.0,3.0,2.0,3.0,0.0,1.0,19,22,,,
 101,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -14115,7 +14115,7 @@ Unfortunately, I am unable to provide a final answer as the negotiation conversa
 
 However, based on the provided preferences and the general tone of the negotiation, it seems both parties are interested in obtaining more food and water due to their camping activities. If you have any additional context or details about the negotiation, I would be happy to try and provide a more informed answer. 
 
-If you're able to provide more information or clarify the negotiation, I would be happy to help predict the final resource allocation.<|eot_id|>",2,1,1,1,2,2,,,,,,,17,19,,,
+If you're able to provide more information or clarify the negotiation, I would be happy to help predict the final resource allocation.<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,17,19,,,
 436,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -15562,7 +15562,7 @@ Unfortunately, I don't have enough information to accurately predict the final a
 
 However, based on the provided preferences, it seems both agents prioritize water due to the heat. If one agent is focused on water for hydration, the other might focus on food to maintain energy levels during the hot weather. The firewood priority is less emphasized, but one agent might prioritize it for warmth or cooking. Without more information, predicting the final allocation is uncertain. 
 
-If you're able to provide more context or details about the negotiation, I might be able to offer a more accurate prediction.<|eot_id|>",2,1,2,1,2,1,,,,,,,19,17,,,
+If you're able to provide more context or details about the negotiation, I might be able to offer a more accurate prediction.<|eot_id|>",2,1,2,1,2,1,1.0,2.0,1.0,2.0,1.0,2.0,19,17,,,
 587,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -16078,7 +16078,7 @@ However, based on the provided negotiation, both agents prioritize food and fire
 
 If you need to provide an answer, I would recommend requesting more context or information to ensure an accurate prediction. 
 
-Provide additional context or information if available to help make a more informed prediction.<|eot_id|>",2,1,1,1,2,2,,,,,,,17,19,,,
+Provide additional context or information if available to help make a more informed prediction.<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,17,19,,,
 25,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -16661,7 +16661,7 @@ Unfortunately, I cannot provide a final answer as the negotiation conversation d
 
 However, based on the preferences expressed, it appears that one party prioritizes food due to health reasons, while the other prioritizes water. They also discuss firewood, with one party offering to take less due to the heat. Without more information, it's challenging to predict the final allocation with certainty. 
 
-If you have any additional context or details, I may be able to provide a more accurate prediction.<|eot_id|>",2,1,2,1,2,1,,,,,,,20,16,,,
+If you have any additional context or details, I may be able to provide a more accurate prediction.<|eot_id|>",2,1,2,1,2,1,1.0,2.0,1.0,2.0,1.0,2.0,20,16,,,
 75,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -16763,7 +16763,7 @@ Unfortunately, I don't have enough information to predict the final allocation o
 
 If you provide more context or information about the negotiation, I may be able to offer a more informed prediction. 
 
-Provide more information if you have any.🙂<|eot_id|>",2,0,3,1,3,0,,,,,,,22,19,,,
+Provide more information if you have any.🙂<|eot_id|>",2,0,3,1,3,0,1.0,3.0,0.0,2.0,0.0,3.0,22,19,,,
 84,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -16813,7 +16813,7 @@ Unfortunately, I don't have enough information to predict the final allocation o
 
 However, based on the provided negotiation, it seems that both parties are working towards a compromise. One person needs water due to a lack of a nearby source, while the other requires it for health reasons. They are discussing a potential allocation of firewood and food, considering dietary preferences. If you provide more context or the final agreement, I can help predict the OUTCOME. 
 
-Please provide additional information or clarify the final negotiation to help me predict the correct OUTCOME.<|eot_id|>",1,2,1,2,1,2,,,,,,,17,19,,,
+Please provide additional information or clarify the final negotiation to help me predict the correct OUTCOME.<|eot_id|>",1,2,1,2,1,2,2.0,1.0,2.0,1.0,2.0,1.0,17,19,,,
 91,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -17019,7 +17019,7 @@ Unfortunately, I don't have enough information to accurately predict the final a
 
 However, based on the provided negotiation, it seems that one party is more willing to compromise on firewood due to their preference for cooler temperatures and access to alternative resources. This might lead to a final allocation where one party receives more firewood while the other party focuses on food and water. Without further information, predicting the exact final allocation is challenging. 
 
-If you're able to provide more context or details about the negotiation, I might be able to offer a more informed prediction.<|eot_id|>",2,2,0,1,1,3,,,,,,,18,22,,,
+If you're able to provide more context or details about the negotiation, I might be able to offer a more informed prediction.<|eot_id|>",2,2,0,1,1,3,1.0,1.0,3.0,2.0,2.0,0.0,18,22,,,
 105,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -17121,7 +17121,7 @@ Unfortunately, I don't have enough information to accurately predict the final a
 
 However, based on the provided negotiation, it seems likely that one individual will receive all the firewood, while the other will receive food and water. The exact distribution of water and food is not clear. Without additional context, predicting the final allocation with certainty is challenging. 
 
-If you have any further information or clarification about the negotiation's outcome, I would be happy to try and provide a more definitive answer.<|eot_id|>",3,2,0,0,1,3,,,,,,,23,19,,,
+If you have any further information or clarification about the negotiation's outcome, I would be happy to try and provide a more definitive answer.<|eot_id|>",3,2,0,0,1,3,0.0,1.0,3.0,3.0,2.0,0.0,23,19,,,
 115,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -17171,7 +17171,7 @@ Unfortunately, based on the negotiation, it's not possible to predict a valid fi
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Since the provided negotiation does not result in a valid allocation of resources, where each resource sums to exactly 3 units across both agents, it is not possible to provide a definitive answer.<|eot_id|>",1,2,2,2,1,1,,,,,,,20,15,,,
+            Since the provided negotiation does not result in a valid allocation of resources, where each resource sums to exactly 3 units across both agents, it is not possible to provide a definitive answer.<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,20,15,,,
 125,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -17321,7 +17321,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Unfortunately, I cannot provide a final answer as the negotiation conversation does not provide enough information to predict the final allocation of resources. The conversation only discusses the priorities of the participants but does not reveal how they intend to divide the resources. Without this information, it is not possible to determine the final outcome.<|eot_id|>",1,2,2,2,1,1,,,,,,,20,17,,,
+Unfortunately, I cannot provide a final answer as the negotiation conversation does not provide enough information to predict the final allocation of resources. The conversation only discusses the priorities of the participants but does not reveal how they intend to divide the resources. Without this information, it is not possible to determine the final outcome.<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,20,17,,,
 148,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -17371,7 +17371,7 @@ Unfortunately, I don't have enough information to accurately predict the final a
 
 However, based on the provided conversation, both parties have children and want to maintain a fire for safety and comfort. One party is willing to compromise by taking two firewood, while the other needs to ensure they have enough for the night. Without further details, it's challenging to predict the final allocation of resources. 
 
-If you provide more context or information about the negotiation, I may be able to offer a more accurate prediction.<|eot_id|>",2,2,1,1,1,2,,,,,,,19,17,,,
+If you provide more context or information about the negotiation, I may be able to offer a more accurate prediction.<|eot_id|>",2,2,1,1,1,2,1.0,1.0,2.0,2.0,2.0,1.0,19,17,,,
 149,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -17473,7 +17473,7 @@ Unfortunately, I don't have enough information to accurately predict the final a
 
 However, based on the given negotiation, it seems that both parties are focused on acquiring water and food. One party suggests taking 2 waters and 1 food in exchange for firewood, indicating a need for water and a willingness to trade for firewood. Without additional context, it's challenging to predict the final allocation of resources with certainty. 
 
-If you provide more information or clarify the negotiation, I would be happy to help predict the final outcome.<|eot_id|>",1,2,1,2,1,2,,,,,,,17,19,,,
+If you provide more information or clarify the negotiation, I would be happy to help predict the final outcome.<|eot_id|>",1,2,1,2,1,2,2.0,1.0,2.0,1.0,2.0,1.0,17,19,,,
 159,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -17992,7 +17992,7 @@ Unfortunately, I cannot provide a final answer as the negotiation is still ongoi
 
 However, based on the current conversation, it appears that Agent 1 is in need of water due to a serious leg wound, while Agent 2 also needs water for their group. They are negotiating a trade of two water bottles for two food supplies. The final allocation of resources will depend on the outcome of this negotiation. 
 
-If you'd like, I can provide a possible outcome based on a specific assumption about the negotiation's conclusion. Please provide the assumption, and I'll do my best to predict the final allocation of resources accordingly.<|eot_id|>",2,1,1,1,2,2,,,,,,,16,21,,,
+If you'd like, I can provide a possible outcome based on a specific assumption about the negotiation's conclusion. Please provide the assumption, and I'll do my best to predict the final allocation of resources accordingly.<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,16,21,,,
 438,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -18194,7 +18194,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Unfortunately, it is not possible to predict the final allocation of resources based on the provided negotiation snippet. The conversation is ongoing, and the negotiation is not yet complete. Additionally, the total amount of each resource must sum to exactly 3 units across both agents, but the current offers do not meet this condition. Therefore, more information is needed to determine the final allocation of resources.<|eot_id|>",1,0,2,2,3,1,,,,,,,14,23,,,
+Unfortunately, it is not possible to predict the final allocation of resources based on the provided negotiation snippet. The conversation is ongoing, and the negotiation is not yet complete. Additionally, the total amount of each resource must sum to exactly 3 units across both agents, but the current offers do not meet this condition. Therefore, more information is needed to determine the final allocation of resources.<|eot_id|>",1,0,2,2,3,1,2.0,3.0,1.0,1.0,0.0,2.0,14,23,,,
 454,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -18446,7 +18446,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Unfortunately, I don't have enough information to accurately predict the final allocation of resources. The negotiation conversation does not provide a clear resolution or final agreement on how the supplies will be divided. Both participants are still negotiating and trying to reach a compromise, but the conversation ends without a conclusive outcome. Therefore, I cannot provide a confident prediction of the final allocation of resources.<|eot_id|>",1,1,2,2,2,1,,,,,,,16,20,,,
+Unfortunately, I don't have enough information to accurately predict the final allocation of resources. The negotiation conversation does not provide a clear resolution or final agreement on how the supplies will be divided. Both participants are still negotiating and trying to reach a compromise, but the conversation ends without a conclusive outcome. Therefore, I cannot provide a confident prediction of the final allocation of resources.<|eot_id|>",1,1,2,2,2,1,2.0,2.0,1.0,1.0,1.0,2.0,16,20,,,
 474,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -18596,7 +18596,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Unfortunately, based on the negotiation, it's impossible to predict a valid final allocation of resources because the total amount of each resource does not sum to exactly 3 units across both agents. mturk_agent_1 proposes taking all three food packages and one firewood package, which would leave mturk_agent_2 with no food and only one firewood package, and mturk_agent_2 needs more firewood for heat. mturk_agent_2 initially needs more firewood, while mturk_agent_1 needs more food due to the presence of young children. Therefore, a valid final allocation cannot be determined from the provided negotiation.<|eot_id|>",2,3,1,1,0,2,,,,,,,22,14,,,
+Unfortunately, based on the negotiation, it's impossible to predict a valid final allocation of resources because the total amount of each resource does not sum to exactly 3 units across both agents. mturk_agent_1 proposes taking all three food packages and one firewood package, which would leave mturk_agent_2 with no food and only one firewood package, and mturk_agent_2 needs more firewood for heat. mturk_agent_2 initially needs more firewood, while mturk_agent_1 needs more food due to the presence of young children. Therefore, a valid final allocation cannot be determined from the provided negotiation.<|eot_id|>",2,3,1,1,0,2,1.0,0.0,2.0,2.0,3.0,1.0,22,14,,,
 480,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -18752,7 +18752,7 @@ Unfortunately, I don't have enough information to accurately predict the final a
 
 However, based on the provided preferences, mturk_agent_2 prioritizes water, which might lead to a trade involving water. Since mturk_agent_1 prioritizes food, they may receive more food units. mturk_agent_2 prioritizes firewood, suggesting they might receive more firewood. However, without further details, predicting the exact final allocation is uncertain.
 
-If you're able to provide more context or information about the negotiation's conclusion, I'd be happy to help further.<|eot_id|>",3,0,1,0,3,2,,,,,,,18,23,,,
+If you're able to provide more context or information about the negotiation's conclusion, I'd be happy to help further.<|eot_id|>",3,0,1,0,3,2,0.0,3.0,2.0,3.0,0.0,1.0,18,23,,,
 493,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -19075,7 +19075,7 @@ If you need to make a decision, consider the following possible allocations:
 
 Remember, the total amount of each resource must sum to exactly 3 units across both agents. 
 
-Please provide more information or clarify the negotiation to help me predict a more accurate final allocation.<|eot_id|>",2,1,1,1,2,2,,,,,,,17,19,,,
+Please provide more information or clarify the negotiation to help me predict a more accurate final allocation.<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,17,19,,,
 516,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -19125,7 +19125,7 @@ Unfortunately, based on the negotiation, it's not possible to predict a valid fi
 
 In the negotiation, Agent 2 offers 2 firewood to Agent 1, while keeping all the food and two water. However, this leaves only 1 firewood for Agent 2, 0 food for Agent 1, and 1 water for Agent 2. To meet the requirement, Agent 1 would need to receive additional resources.
 
-To provide a valid outcome, additional information or clarification on the negotiation is needed, such as any further agreements or concessions made by the agents. Without this information, it's challenging to determine a final allocation that satisfies the total sum of each resource being exactly 3 units across both agents.<|eot_id|>",2,1,2,1,2,1,,,,,,,19,15,,,
+To provide a valid outcome, additional information or clarification on the negotiation is needed, such as any further agreements or concessions made by the agents. Without this information, it's challenging to determine a final allocation that satisfies the total sum of each resource being exactly 3 units across both agents.<|eot_id|>",2,1,2,1,2,1,1.0,2.0,1.0,2.0,1.0,2.0,19,15,,,
 518,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -19433,7 +19433,7 @@ Unfortunately, I don't have enough information to accurately predict the final a
 
 However, based on the provided negotiation, it seems that one person needs more food due to health reasons, while the other is flexible with the distribution. They agree on splitting the firewood and water, ensuring both are satisfied with the arrangement. Without more information, it's challenging to predict the final allocation of resources. 
 
-If you provide more context or details about the negotiation, I may be able to offer a more accurate prediction.<|eot_id|>",1,2,1,2,1,2,,,,,,,16,20,,,
+If you provide more context or details about the negotiation, I may be able to offer a more accurate prediction.<|eot_id|>",1,2,1,2,1,2,2.0,1.0,2.0,1.0,2.0,1.0,16,20,,,
 556,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -19537,7 +19537,7 @@ Unfortunately, I don't have enough information to accurately predict the final a
 
 However, based on the provided negotiation, it appears that Agent 1 will receive more food due to their need for a large group, while Agent 2 is willing to share resources to compensate for their limitations. If you have any further information or clarification on the negotiation, I may be able to provide a more definitive answer. 
 
-Please provide any additional context or details that might help predict the final resource allocation.<|eot_id|>",1,1,3,2,2,0,,,,,,,20,18,,,
+Please provide any additional context or details that might help predict the final resource allocation.<|eot_id|>",1,1,3,2,2,0,2.0,2.0,0.0,1.0,1.0,3.0,20,18,,,
 575,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023

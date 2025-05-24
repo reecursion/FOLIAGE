@@ -672,7 +672,7 @@ user2:
 
 Based on this summary, predict the final allocation of resources:
 
-            OUTCOME: {agent1:{food: 0, water: 3, firewood: 2}, agent2:{food: 3, water: 0, firewood: 1}}<|eot_id|>",0,3,2,3,0,1,,,,,,,23,19,,,
+            OUTCOME: {agent1:{food: 0, water: 3, firewood: 2}, agent2:{food: 3, water: 0, firewood: 1}}<|eot_id|>",0,3,2,3,0,1,3.0,0.0,1.0,0.0,3.0,2.0,23,19,,,
 34,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -813,7 +813,7 @@ However, based on the provided information, a possible negotiation strategy coul
 
   This allocation balances the needs of both users, with User1 receiving more water and firewood due to their specific needs, and User2 receiving more food, which they did not specify a strong need for. Remember, this is just one possible negotiation outcome and not a guaranteed final allocation. 
 
-  Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",0,3,0,3,0,3,,,,,,,15,21,,,
+  Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",0,3,0,3,0,3,3.0,0.0,3.0,0.0,3.0,0.0,15,21,,,
 45,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -1168,7 +1168,7 @@ However, based on the current exchange, here is a summary of the proposed alloca
 
             OUTCOME: {agent1:{food: 1, water: 2, firewood: 2}, agent2:{food: 2, water: 1, firewood: 1}}
 
-            Note: This allocation is subject to change based on the final agreement reached by the agents.<|eot_id|>",1,1,2,2,2,1,,,,,,,16,20,,,
+            Note: This allocation is subject to change based on the final agreement reached by the agents.<|eot_id|>",1,1,2,2,2,1,2.0,2.0,1.0,1.0,1.0,2.0,16,20,,,
 60,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -1576,7 +1576,7 @@ However, based on the negotiation, it is possible to provide a general suggestio
 
 This allocation maintains the total amount of each resource at three units across both agents, as required. However, the actual allocation may vary based on the final agreement reached by the agents. 
 
-Remember, this is only a suggestion and not the predicted final outcome. The actual outcome depends on the specific negotiation terms agreed upon by the agents.<|eot_id|>",0,2,1,3,1,2,,,,,,,14,23,,,
+Remember, this is only a suggestion and not the predicted final outcome. The actual outcome depends on the specific negotiation terms agreed upon by the agents.<|eot_id|>",0,2,1,3,1,2,3.0,1.0,2.0,0.0,2.0,1.0,14,23,,,
 85,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -1886,7 +1886,7 @@ Cutting Knowledge is unable to predict the exact final allocation of resources b
 
 To provide a prediction, I would need more information about the negotiation's progression or a final agreement. If you would like to simulate a potential outcome based on the current exchange, I can attempt to do so, but it would be speculative. 
 
-If you'd like, I can provide a simulated prediction based on the current negotiation. Please confirm.<|eot_id|>",0,3,1,3,0,2,,,,,,,18,18,,,
+If you'd like, I can provide a simulated prediction based on the current negotiation. Please confirm.<|eot_id|>",0,3,1,3,0,2,3.0,0.0,2.0,0.0,3.0,1.0,18,18,,,
 97,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -3527,7 +3527,7 @@ However, based on the current conversation, a possible summary of the negotiatio
 
             OUTCOME: {agent1:{food: 0, water: 0, firewood: 3}, agent2:{food: 3, water: 3, firewood: 0}} 
 
-            Please note that this is just a hypothetical prediction and the actual outcome may vary based on the final negotiation agreement.<|eot_id|>",0,0,3,3,3,0,,,,,,,15,27,,,
+            Please note that this is just a hypothetical prediction and the actual outcome may vary based on the final negotiation agreement.<|eot_id|>",0,0,3,3,3,0,3.0,3.0,0.0,0.0,0.0,3.0,15,27,,,
 442,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -4255,7 +4255,7 @@ However, based on the current exchange, a possible interpretation of the final a
 
             This allocation reflects user2's initial offer, where they suggest taking 2 foods and user1 agreeing to it while negotiating the distribution of other resources. 
 
-            Please note that this is a prediction and may not accurately reflect the final agreement, as the negotiation is still in progress.<|eot_id|>",1,2,2,2,1,1,,,,,,,19,17,,,
+            Please note that this is a prediction and may not accurately reflect the final agreement, as the negotiation is still in progress.<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,19,17,,,
 526,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -16462,7 +16462,7 @@ mturk_agent_2:
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,1,1,2,2,,,,,,,17,19,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,17,19,,,
 54,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -17762,7 +17762,7 @@ mturk_agent_2:
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-<|begin_of_text|><|start_header_id|><|start_header_id|>user: mturk_agent_1: Well since we were already given a few supplies before this deal, I was wondering if you could give me all 3 water, and I could give you all the firewood and 2 of the food packages. I only say all the water because we already have some and my medical condition sucks. lol I wish we could camp together! we seem to be a good match. lol! 🙂, mturk_agent_2: I think that's a pretty fair deal. You get what you need, and I get what I need. I think it's only fair. I'm glad we could come to an agreement. It's always good to have some extra supplies on a camping trip. 🙂, mturk_agent_1: Great! I am glad we could come to an agreement. I am really looking forward to this camping trip and I am glad I have you to camp with! 🙂, mturk_agent_2: Same here! It'll be nice to have some company. It's always a little lonely camping by yourself., mturk_agent_1: I know! It's going to be so much fun! I am looking forward to it. I will give you all 3 firewood and 2 food and you give me all 3 water. Is that correct?, mturk_agent_2: That's correct. I'm looking forward to the trip., mturk_agent_1: I am too! I hope we have a great time. 🙂, mturk_agent_2: I'm sure we will. I'm glad we could come to an agreement., mturk_agent_1: I am too! I will be looking forward to the trip. I hope you do too! 🙂, mturk_agent_2: I will be. I'm sure we'll have a great time., mturk_agent_1: So I am going to go ahead and send you all 3 firewood and 2 food and you are going to give me all 3 water. Is that correct?, mturk_agent_2: That's correct. I'm glad we could come to an agreement., mturk_agent_1: I am glad we could come to an agreement. I am looking forward to the trip. I hope you are too! 🙂, mturk_agent_2: I am. I'm glad we were able to come to an agreement. It's always good to have some extra supplies on a camping trip., mturk_agent_1: I am glad we could come to an agreement. I am looking forward to the trip. I am glad we can camp together!, mturk_agent_2: I'm glad we can too. I'm sure we'll have a great time., mturk_agent_1: I am sure we will! I am glad we could come to an agreement. I am looking forward to the trip. I hope you are too! 🙂, mturk_agent_2: I am., mturk_agent_1: Ok, so I am going to go ahead and send you all 3 firewood and 2 food and you are going to give me all 3 water. Is that correct?, mturk_agent_2: Yes. I think we're all set then., mturk_agent_1: I do too! I am glad we could come to an agreement. I am looking forward to the trip. I hope you are too! 🙂, mturk_agent_2: I am., mturk_agent_1: So I am going to go ahead and send you all 3 firewood and 2 food and you are going to give me all 3 water. Is that correct?, mturk_agent_2: Yes. I think we're all set., mturk_agent_1: I am glad we could come to an agreement. I am looking forward to the trip. I hope you are too! 🙂, mturk_agent_2: I am., mturk_agent_1: I am going to go ahead and send you all 3 firewood and 2 food and you are going to give me all 3 water. Is that correct?, mturk_agent_2: Yes. I think we're all set., mturk_agent_1: I am glad we could come to an agreement. I am looking forward to the trip. I hope you are too!, mturk_agent_2: I am., mturk_agent_1: So I am going to go ahead and send you all 3 firewood and 2 food and you are going to give me all 3 water. Is that correct?, mturk_agent",1,2,1,2,1,2,,,,,,,17,21,,,
+<|begin_of_text|><|start_header_id|><|start_header_id|>user: mturk_agent_1: Well since we were already given a few supplies before this deal, I was wondering if you could give me all 3 water, and I could give you all the firewood and 2 of the food packages. I only say all the water because we already have some and my medical condition sucks. lol I wish we could camp together! we seem to be a good match. lol! 🙂, mturk_agent_2: I think that's a pretty fair deal. You get what you need, and I get what I need. I think it's only fair. I'm glad we could come to an agreement. It's always good to have some extra supplies on a camping trip. 🙂, mturk_agent_1: Great! I am glad we could come to an agreement. I am really looking forward to this camping trip and I am glad I have you to camp with! 🙂, mturk_agent_2: Same here! It'll be nice to have some company. It's always a little lonely camping by yourself., mturk_agent_1: I know! It's going to be so much fun! I am looking forward to it. I will give you all 3 firewood and 2 food and you give me all 3 water. Is that correct?, mturk_agent_2: That's correct. I'm looking forward to the trip., mturk_agent_1: I am too! I hope we have a great time. 🙂, mturk_agent_2: I'm sure we will. I'm glad we could come to an agreement., mturk_agent_1: I am too! I will be looking forward to the trip. I hope you do too! 🙂, mturk_agent_2: I will be. I'm sure we'll have a great time., mturk_agent_1: So I am going to go ahead and send you all 3 firewood and 2 food and you are going to give me all 3 water. Is that correct?, mturk_agent_2: That's correct. I'm glad we could come to an agreement., mturk_agent_1: I am glad we could come to an agreement. I am looking forward to the trip. I hope you are too! 🙂, mturk_agent_2: I am. I'm glad we were able to come to an agreement. It's always good to have some extra supplies on a camping trip., mturk_agent_1: I am glad we could come to an agreement. I am looking forward to the trip. I am glad we can camp together!, mturk_agent_2: I'm glad we can too. I'm sure we'll have a great time., mturk_agent_1: I am sure we will! I am glad we could come to an agreement. I am looking forward to the trip. I hope you are too! 🙂, mturk_agent_2: I am., mturk_agent_1: Ok, so I am going to go ahead and send you all 3 firewood and 2 food and you are going to give me all 3 water. Is that correct?, mturk_agent_2: Yes. I think we're all set then., mturk_agent_1: I do too! I am glad we could come to an agreement. I am looking forward to the trip. I hope you are too! 🙂, mturk_agent_2: I am., mturk_agent_1: So I am going to go ahead and send you all 3 firewood and 2 food and you are going to give me all 3 water. Is that correct?, mturk_agent_2: Yes. I think we're all set., mturk_agent_1: I am glad we could come to an agreement. I am looking forward to the trip. I hope you are too! 🙂, mturk_agent_2: I am., mturk_agent_1: I am going to go ahead and send you all 3 firewood and 2 food and you are going to give me all 3 water. Is that correct?, mturk_agent_2: Yes. I think we're all set., mturk_agent_1: I am glad we could come to an agreement. I am looking forward to the trip. I hope you are too!, mturk_agent_2: I am., mturk_agent_1: So I am going to go ahead and send you all 3 firewood and 2 food and you are going to give me all 3 water. Is that correct?, mturk_agent",1,2,1,2,1,2,2.0,1.0,2.0,1.0,2.0,1.0,17,21,,,
 174,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -20339,7 +20339,7 @@ mturk_agent_2:
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,2,2,2,1,1,,,,,,,21,17,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,21,17,,,
 559,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023

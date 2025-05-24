@@ -6238,7 +6238,7 @@ user2 (mturk_agent_2):
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food: 1, water: 3, firewood: 0}, agent2:{food: 2, water: 0, firewood: 3}}<|eot_id|>",1,3,1,2,0,2,,,,,,,22,18,,,
+OUTCOME: {agent1:{food: 1, water: 3, firewood: 0}, agent2:{food: 2, water: 0, firewood: 3}}<|eot_id|>",1,3,1,2,0,2,2.0,0.0,2.0,1.0,3.0,1.0,22,18,,,
 134,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -6988,7 +6988,7 @@ Today Date: 26 Jul 2024
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}]
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,2,1,1,1,2,,,,,,,20,16,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,2,1,1,1,2,1.0,1.0,2.0,2.0,2.0,1.0,20,16,,,
 176,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -7112,7 +7112,7 @@ user2 (mturk_agent_1):
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food: 0, water: 3, firewood: 1}, agent2:{food: 3, water: 0, firewood: 2}}<|eot_id|>",1,2,2,2,1,1,,,,,,,21,17,,,
+OUTCOME: {agent1:{food: 0, water: 3, firewood: 1}, agent2:{food: 3, water: 0, firewood: 2}}<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,21,17,,,
 190,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -11248,7 +11248,7 @@ mturk_agent_2:
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",0,3,1,3,0,2,,,,,,,19,23,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",0,3,1,3,0,2,3.0,0.0,2.0,0.0,3.0,1.0,19,23,,,
 130,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -15178,7 +15178,7 @@ mturk_agent_2:
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,1,1,2,2,,,,,,,17,19,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,17,19,,,
 55,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -15244,7 +15244,7 @@ Cutwood: [user1: 2, user2: 1]
 
             [Summary: Based on the conversation, user1 expresses a need for firewood due to the cold temperature and the scarcity of resources around them, indicating a higher priority for this resource. User2 also mentions a need for firewood, but their focus on its necessity due to the cold suggests a higher priority as well. However, user1's mention of using water and looking for more indicates they might be willing to compromise on water to secure firewood, which aligns with user1's higher priority. Given the total sum of each resource must be exactly 3, this allocation allows for user1 to maintain a higher priority on firewood while ensuring the total amount across both users sums to 3.]
 
-            OUTCOME: {agent1:{food: 1, water: 1, firewood: 2}, agent2:{food: 2, water: 2, firewood: 1}}<|eot_id|>",0,2,2,3,1,1,,,,,,,18,18,,,
+            OUTCOME: {agent1:{food: 1, water: 1, firewood: 2}, agent2:{food: 2, water: 2, firewood: 1}}<|eot_id|>",0,2,2,3,1,1,3.0,1.0,1.0,0.0,2.0,2.0,18,18,,,
 63,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -15386,7 +15386,7 @@ user2 (mturk_agent_2):
 user2 (mturk_agent_2):
   warmth: high
   competence: high
-  explanation: User2 agrees to the terms, demonstrating cooperation and flexibility, which suggests high",2,3,0,1,0,3,,,,,,,23,19,,,
+  explanation: User2 agrees to the terms, demonstrating cooperation and flexibility, which suggests high",2,3,0,1,0,3,1.0,0.0,3.0,2.0,3.0,0.0,23,19,,,
 71,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -15958,7 +15958,7 @@ user2 (mturk_agent_2):
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,2,1,1,1,2,,,,,,,20,17,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,2,1,1,1,2,1.0,1.0,2.0,2.0,2.0,1.0,20,17,,,
 110,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -17156,7 +17156,7 @@ user2 (mturk_agent_1):
 
             Remember: Each resource must sum to exactly 3 units across both agents.]
 
-            Please provide more information or context to facilitate a more accurate prediction.<|eot_id|>",2,2,1,1,1,2,,,,,,,19,17,,,
+            Please provide more information or context to facilitate a more accurate prediction.<|eot_id|>",2,2,1,1,1,2,1.0,1.0,2.0,2.0,2.0,1.0,19,17,,,
 435,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -17995,7 +17995,7 @@ This revised allocation maintains the total sum of each resource at exactly 3 un
   - Food: 1 + 2 = 3
   - Firewood: 1 + 2 = 3
 
-Please note that this is one possible solution based on the provided preferences and the need for each resource to sum to exactly 3 units across both agents. The final allocation may vary based on additional context or further negotiation.<|eot_id|>",0,2,2,3,1,1,,,,,,,18,20,,,
+Please note that this is one possible solution based on the provided preferences and the need for each resource to sum to exactly 3 units across both agents. The final allocation may vary based on additional context or further negotiation.<|eot_id|>",0,2,2,3,1,1,3.0,1.0,1.0,0.0,2.0,2.0,18,20,,,
 503,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -19687,7 +19687,7 @@ user2:
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,1,2,2,2,1,,,,,,,17,19,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,1,2,2,2,1,2.0,2.0,1.0,1.0,1.0,2.0,17,19,,,
 26,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -19887,7 +19887,7 @@ mturk_agent_2:
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,2,1,2,1,,,,,,,19,17,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,2,1,2,1,1.0,2.0,1.0,2.0,1.0,2.0,19,17,,,
 38,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -20041,7 +20041,7 @@ mturk_agent_2: I am sorry to hear that.  I will give you all the food.  You can 
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,1,1,0,2,2,,,,,,,22,18,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,1,1,0,2,2,0.0,2.0,2.0,3.0,1.0,1.0,22,18,,,
 43,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -20247,7 +20247,7 @@ mturk_agent_2:
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,2,1,2,1,,,,,,,20,17,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,2,1,2,1,1.0,2.0,1.0,2.0,1.0,2.0,20,17,,,
 51,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -20323,7 +20323,7 @@ user2 (mturk_agent_2):
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}]
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,0,3,2,3,0,,,,,,,17,23,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,0,3,2,3,0,2.0,3.0,0.0,1.0,0.0,3.0,17,23,,,
 68,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -20587,7 +20587,7 @@ user2 (mturk_agent_1):
 
             Based on this negotiation, predict the final allocation of resources. Provide only your answer using the following format with curly braces, with no explanation:
 
-            OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}<|eot_id|>",1,2,1,2,1,2,,,,,,,17,19,,,
+            OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}<|eot_id|>",1,2,1,2,1,2,2.0,1.0,2.0,1.0,2.0,1.0,17,19,,,
 91,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -20751,7 +20751,7 @@ Today Date: 26 Jul 2024
 
             OUTCOME: {agent1:{food: 2, water: 1, firewood: 1}, agent2:{food: 1, water: 2, firewood: 2}}
 
-            This outcome reflects a fair distribution of resources, with each participant receiving a balanced share of their priority items.<|eot_id|>",1,1,3,2,2,0,,,,,,,22,18,,,
+            This outcome reflects a fair distribution of resources, with each participant receiving a balanced share of their priority items.<|eot_id|>",1,1,3,2,2,0,2.0,2.0,0.0,1.0,1.0,3.0,22,18,,,
 102,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -20889,7 +20889,7 @@ user2:
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,2,0,1,1,3,,,,,,,18,22,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,2,0,1,1,3,1.0,1.0,3.0,2.0,2.0,0.0,18,22,,,
 105,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -21123,7 +21123,7 @@ user2:
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,2,2,2,1,1,,,,,,,20,15,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,20,15,,,
 125,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -21327,7 +21327,7 @@ Today Date: 26 Jul 2024
 
 <|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|>user<|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|>
 
-user: mturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturk",1,2,2,2,1,1,,,,,,,20,17,,,
+user: mturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturkmturk",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,20,17,,,
 148,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -21805,7 +21805,7 @@ user2 (mturk_agent_2):
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",0,1,3,3,2,0,,,,,,,19,23,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",0,1,3,3,2,0,3.0,2.0,0.0,0.0,1.0,3.0,19,23,,,
 178,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -21943,7 +21943,7 @@ user2:
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",0,2,3,3,1,0,,,,,,,21,15,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",0,2,3,3,1,0,3.0,1.0,0.0,0.0,2.0,3.0,21,15,,,
 416,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -22019,7 +22019,7 @@ user2 (mturk_agent_1):
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,3,1,2,0,,,,,,,22,14,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,3,1,2,0,1.0,2.0,0.0,2.0,1.0,3.0,22,14,,,
 425,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -22095,7 +22095,7 @@ user2 (mturk_agent_2):
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,1,1,0,2,2,,,,,,,20,16,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,1,1,0,2,2,0.0,2.0,2.0,3.0,1.0,1.0,20,16,,,
 430,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -22171,7 +22171,7 @@ Today Date: 26 Jul 2024
 
             Provide only your answer using the provided format, with no explanation:
 
-            OUTCOME: {mturk_agent_1:{high: 0, low: 0, neutral: 1}, mturk_agent_2:{high: 0, low: 1, neutral: 0}}<|eot_id|>",1,1,1,2,2,2,,,,,,,12,24,,,
+            OUTCOME: {mturk_agent_1:{high: 0, low: 0, neutral: 1}, mturk_agent_2:{high: 0, low: 1, neutral: 0}}<|eot_id|>",1,1,1,2,2,2,2.0,2.0,2.0,1.0,1.0,1.0,12,24,,,
 437,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -22309,7 +22309,7 @@ mturk_agent_2:
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",0,2,2,3,1,1,,,,,,,16,22,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",0,2,2,3,1,1,3.0,1.0,1.0,0.0,2.0,2.0,16,22,,,
 441,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -22385,7 +22385,7 @@ user2 (mturk_agent_1):
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,2,2,2,1,1,,,,,,,19,17,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,19,17,,,
 444,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -22523,7 +22523,7 @@ user2:
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,0,2,2,3,1,,,,,,,14,23,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,0,2,2,3,1,2.0,3.0,1.0,1.0,0.0,2.0,14,23,,,
 454,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -22709,7 +22709,7 @@ user2:
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",0,3,1,3,0,2,,,,,,,19,23,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",0,3,1,3,0,2,3.0,0.0,2.0,0.0,3.0,1.0,19,23,,,
 465,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -23157,7 +23157,7 @@ user2 (mturk_agent_2):
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,0,3,2,3,0,,,,,,,18,23,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,0,3,2,3,0,2.0,3.0,0.0,1.0,0.0,3.0,18,23,,,
 487,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -23295,7 +23295,7 @@ mturk_agent_2:
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,2,2,2,1,1,,,,,,,20,17,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,20,17,,,
 498,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -23433,7 +23433,7 @@ mturk_agent_2:
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,0,1,0,3,2,,,,,,,19,17,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,0,1,0,3,2,0.0,3.0,2.0,3.0,0.0,1.0,19,17,,,
 504,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -23509,7 +23509,7 @@ user2 (mturk_agent_1):
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,2,3,2,1,0,,,,,,,23,13,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,2,3,2,1,0,2.0,1.0,0.0,1.0,2.0,3.0,23,13,,,
 505,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -23585,7 +23585,7 @@ mturk_agent_2:
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,0,2,1,3,1,,,,,,,16,22,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,0,2,1,3,1,1.0,3.0,1.0,2.0,0.0,2.0,16,22,,,
 509,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -23663,7 +23663,7 @@ user2 (mturk_agent_2):
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}]
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,1,1,2,2,,,,,,,17,19,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,17,19,,,
 516,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -24207,7 +24207,7 @@ user2 (mturk_agent_2):
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",0,1,3,3,2,0,,,,,,,19,23,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",0,1,3,3,2,0,3.0,2.0,0.0,0.0,1.0,3.0,19,23,,,
 568,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -24269,7 +24269,7 @@ mturk_agent_1:
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-<|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|>user<|begin_of_text|><|start_header_id|> mturk_agent_2: I am going to submit my initial offer now. I am going to need 3 food packages, 2 water packages, and 1 firewood package. mturk_agent_1: I need 3 food packages, 1 water package, and 3 firewood packages. mturk_agent_2: I don't think that is fair. mturk_agent_1: I am sorry. I need food for my family. mturk_agent_2: I need food for my family too. mturk_agent_1: Okay. How about 2 food packages, 1 water package and 2 firewood packages? mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that.",1,1,3,2,2,0,,,,,,,20,18,,,
+<|begin_of_text|><|start_header_id|><|begin_of_text|><|start_header_id|>user<|begin_of_text|><|start_header_id|> mturk_agent_2: I am going to submit my initial offer now. I am going to need 3 food packages, 2 water packages, and 1 firewood package. mturk_agent_1: I need 3 food packages, 1 water package, and 3 firewood packages. mturk_agent_2: I don't think that is fair. mturk_agent_1: I am sorry. I need food for my family. mturk_agent_2: I need food for my family too. mturk_agent_1: Okay. How about 2 food packages, 1 water package and 2 firewood packages? mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that. mturk_agent_1: I can accept that. mturk_agent_2: I can accept that.",1,1,3,2,2,0,2.0,2.0,0.0,1.0,1.0,3.0,20,18,,,
 575,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -24345,7 +24345,7 @@ user2 (mturk_agent_2):
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,2,1,2,1,,,,,,,19,17,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,2,1,2,1,1.0,2.0,1.0,2.0,1.0,2.0,19,17,,,
 579,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -24562,7 +24562,7 @@ user2:
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,2,0,1,1,3,,,,,,,16,22,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,2,0,1,1,3,1.0,1.0,3.0,2.0,2.0,0.0,16,22,,,
 585,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -24762,7 +24762,7 @@ user2 (mturk_agent_1):
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,2,1,1,1,2,,,,,,,20,17,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,2,1,1,1,2,1.0,1.0,2.0,2.0,2.0,1.0,20,17,,,
 613,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -24840,4 +24840,4 @@ user2:
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,2,1,0,1,2,,,,,,,26,13,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,2,1,0,1,2,0.0,1.0,2.0,3.0,2.0,1.0,26,13,,,

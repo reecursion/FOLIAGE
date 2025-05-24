@@ -5,19 +5,19 @@ import re
 from sklearn.metrics import mean_squared_error
 
 # Path to the directory containing the CSV files
-base_dir = "/home/rithviks/FOLIAGE/src/sft/results/casino"  
+base_dir = "/Users/rithviksenthil/Desktop/FOLIAGE/src/sft/results/casino"  
 
-preferences_csv_path = "/home/rithviks/FOLIAGE/datasets/casino/final/ratio_0.5.csv"
+preferences_csv_path = "/Users/rithviksenthil/Desktop/FOLIAGE/datasets/casino/final/ratio_0.5.csv"
 
 # Command line argument parsing
 import argparse
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description='Process casino dataset metrics.')
-    parser.add_argument('--results_dir', type=str, default="/home/rithviks/FOLIAGE/src/sft/results/casino",
+    parser.add_argument('--results_dir', type=str, default="/Users/rithviksenthil/Desktop/FOLIAGE/src/sft/results/casino",
                         help='Directory containing result CSV files')
     parser.add_argument('--preferences_file', type=str, 
-                        default="/home/rithviks/FOLIAGE/datasets/casino/final/ratio_0.5.csv",
+                        default="/Users/rithviksenthil/Desktop/FOLIAGE/datasets/casino/final/ratio_0.5.csv",
                         help='CSV file with agent preferences')
     parser.add_argument('--output_file', type=str, default=None,
                         help='Output file path for LaTeX table (default: {results_dir}/casino_metrics_table.tex)')
@@ -317,8 +317,7 @@ def process_all_files():
         ratios = ['0.25', '0.375', '0.5', '0.625', '0.75']
         
         # Initialize empty table
-        for metric_type in ['agent1_utility_mse','agent2_utility_mse','avg_utility_mse','food_match',
-            'water_match', 'firewood_match', 'exact_match', 'resource_match_overall']:
+        for metric_type in ['agent1_utility_mse','agent2_utility_mse','avg_utility_mse']:
             table_data[metric_type] = {}
             
             for config_type in config_types:
@@ -338,8 +337,7 @@ def process_all_files():
             if not config_type or not ratio or ratio not in ratios:
                 continue
             avg_metrics = result['metrics']
-            for metric in ['agent1_utility_mse','agent2_utility_mse','avg_utility_mse','food_match',
-            'water_match', 'firewood_match', 'exact_match', 'resource_match_overall']:
+            for metric in ['agent1_utility_mse','agent2_utility_mse','avg_utility_mse']:
                 if metric in avg_metrics:
                     table_data[metric][config_type][ratio] += avg_metrics[metric]
         
@@ -359,8 +357,8 @@ def process_all_files():
 
 # Generate combined LaTeX table for all metrics with standard deviations
 def generate_combined_latex_table(data, ratios):
-    metric_names = ['Agent 1 Utility MSE', 'Agent 2 Utility MSE', 'Average Utility MSE', 'Food Match Ratio', 'Water Match Ratio', 'Firewood Match Ratio', 'Exact Match Ratio', 'Overall Resource Match']
-    metric_keys = ['agent1_utility_mse', 'agent2_utility_mse', 'avg_utility_mse', 'food_match', 'water_match', 'firewood_match', 'exact_match', 'resource_match_overall']
+    metric_names = ['Agent 1 Utility MSE', 'Agent 2 Utility MSE', 'Average Utility MSE']
+    metric_keys = ['agent1_utility_mse', 'agent2_utility_mse', 'avg_utility_mse']
     
     # Start the table
     latex_table = "\\begin{table*}[ht]\n\\centering\n\\begin{tabular}{ll" + "c" * len(ratios) + "}\n\\hline\n"
@@ -413,7 +411,7 @@ def generate_combined_latex_table(data, ratios):
                         cells.append(formatted_value)
                     else:
                         # For all these metrics, higher is better
-                        is_better = value > baseline_values[ratio]
+                        is_better = value < baseline_values[ratio]
                         color_cmd = '\\cellcolor{green!25}' if is_better else '\\cellcolor{red!25}'
                         cells.append(f"{color_cmd}{formatted_value}")
             
@@ -425,8 +423,8 @@ def generate_combined_latex_table(data, ratios):
             latex_table += "\\midrule\n"
     
     latex_table += "\\hline\n\\end{tabular}\n"
-    latex_table += "\\caption{\\textbf{SFT: }Performance metrics across different conversation lengths and configuration types for \\textbf{Llama-3.1-70B} on the \\textbf{Persuasion for Good} dataset}\n"
-    latex_table += "\\label{tab:combined_metrics_sft_llama_p4g}\n\\end{table*}"
+    latex_table += "\\caption{\\textbf{SFT: }Performance metrics across different conversation lengths and configuration types for \\textbf{Llama-3.1-8B} on the \\textbf{Casino} dataset}\n"
+    latex_table += "\\label{tab:combined_metrics_sft_llama_casino}\n\\end{table*}"
     
     print(latex_table)
     return latex_table
