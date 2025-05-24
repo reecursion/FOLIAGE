@@ -13414,7 +13414,7 @@ mturk_agent_2:
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Outcome: {agent1:{food: 1, water: 2, firewood: 1}, agent2:{food: 2, water: 1, firewood: 2}}<|eot_id|>",0,2,2,3,1,1,3.0,1.0,1.0,0.0,2.0,2.0,18,22,,,
+Outcome: {agent1:{food: 1, water: 2, firewood: 1}, agent2:{food: 2, water: 1, firewood: 2}}<|eot_id|>",0,2,2,3,1,1,3.0,1.0,1.0,0.0,2.0,2.0,18,22,18.0,14.0,0.0
 500,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -15208,7 +15208,7 @@ User2: User2 shows high overall competence by clearly stating their preferences 
 
 Conclusion: Based on the negotiation, both participants exhibit high levels of both competence and warmth, indicating a collaborative and effective communication style. This suggests a positive outcome for the negotiation process. 
 
-Outcome: {user1: {food: 1, water: 2, firewood: 2}, user2: {food: 2, water: 1, firewood: 1}}<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,17,19,,,
+Outcome: {user1: {food: 1, water: 2, firewood: 2}, user2: {food: 2, water: 1, firewood: 1}}<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,17,19,19.0,17.0,4.0
 55,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -15482,7 +15482,7 @@ mturk_agent_2: high warmth: high, high competence: high
 mturk_agent_1: high warmth: high, high competence: high
 mturk_agent_2: high warmth: high, high competence: high
 
-mturk_agent_1: high warmth:",3,2,0,0,1,3,0.0,1.0,3.0,3.0,2.0,0.0,23,19,,,
+mturk_agent_1: high warmth:",3,2,0,0,1,3,0.0,1.0,3.0,3.0,2.0,0.0,23,19,13.0,17.0,100.0
 77,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -15622,7 +15622,7 @@ mturk_agent_2:
   competence: high
   explanation: mturk_agent_2 exhibits low warmth by rejecting mturk_agent_1's proposals and prioritizing their own needs. They display high competence by effectively communicating their position, negotiating assertively, and ensuring they secure a fair share of resources.
 
-Given the lack of warmth and high competence displayed by both agents, the final allocation reflects a balance of resources, with mturk_agent_1 securing a majority of the food and water, while mturk_agent_2 gains control of the firewood and additional water. This outcome reflects each participant's strong negotiation stance and resource prioritization.<|eot_id|>",2,2,0,1,1,3,1.0,1.0,3.0,2.0,2.0,0.0,18,20,,,
+Given the lack of warmth and high competence displayed by both agents, the final allocation reflects a balance of resources, with mturk_agent_1 securing a majority of the food and water, while mturk_agent_2 gains control of the firewood and additional water. This outcome reflects each participant's strong negotiation stance and resource prioritization.<|eot_id|>",2,2,0,1,1,3,1.0,1.0,3.0,2.0,2.0,0.0,18,20,18.0,16.0,0.0
 83,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -15816,7 +15816,7 @@ If you need to solve this problem, I suggest considering the following general a
 2. Balance resource distribution: Ensure that the total amount of each resource allocated to both agents sums to exactly three units. This might involve offering concessions or compromises to achieve a fair distribution.
 3. Consider additional context: Think about any additional information that might influence the negotiation, such as the total amount of each resource each participant starts with or any special needs they may have.
 
-Given the lack of additional context, providing a precise solution is challenging. If you have any further questions or need help with a different problem, feel free to ask!<|eot_id|>",3,0,1,0,3,2,0.0,3.0,2.0,3.0,0.0,1.0,19,22,,,
+Given the lack of additional context, providing a precise solution is challenging. If you have any further questions or need help with a different problem, feel free to ask!<|eot_id|>",3,0,1,0,3,2,0.0,3.0,2.0,3.0,0.0,1.0,19,22,17.0,14.0,4.0
 101,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -16506,7 +16506,7 @@ user2 (mturk_agent_1):
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-<|begin_of_text|><|start_header_id|><|start_header_id|>user: mturk_agent_1: Hi there! I'm super excited for my camping trip this weekend! I'm planning on going to the lake and doing some hiking, mturk_agent_2: I'm super excited too! I'm planning to go to the same lake! I'm planning on going fishing there., mturk_agent_1: That's so cool! I'm not really into fishing but I'm sure it will be fun to see you there!, mturk_agent_2: Awesome. I'm planning to bring a lot of food and firewood. I'm not sure how much water I'll need though., mturk_agent_1: I'm planning on bringing a lot of water because I'm going to be hiking a lot., mturk_agent_2: That's a good idea. I'm sure I'll be able to get some water from the lake., mturk_agent_1: Okay. Well, I'm also planning on bringing a lot of food. I'm going to need a lot of energy for my hikes., mturk_agent_2: That's okay. I'm sure we can share some food., mturk_agent_1: That sounds good. I'm also planning on bringing a lot of firewood., mturk_agent_2: I'm planning on bringing a lot too., mturk_agent_1: Okay. Well, I'm looking forward to seeing you there!, mturk_agent_2: I'm looking forward to seeing you too! 🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂",0,3,2,3,0,1,3.0,0.0,1.0,0.0,3.0,2.0,21,19,,,
+<|begin_of_text|><|start_header_id|><|start_header_id|>user: mturk_agent_1: Hi there! I'm super excited for my camping trip this weekend! I'm planning on going to the lake and doing some hiking, mturk_agent_2: I'm super excited too! I'm planning to go to the same lake! I'm planning on going fishing there., mturk_agent_1: That's so cool! I'm not really into fishing but I'm sure it will be fun to see you there!, mturk_agent_2: Awesome. I'm planning to bring a lot of food and firewood. I'm not sure how much water I'll need though., mturk_agent_1: I'm planning on bringing a lot of water because I'm going to be hiking a lot., mturk_agent_2: That's a good idea. I'm sure I'll be able to get some water from the lake., mturk_agent_1: Okay. Well, I'm also planning on bringing a lot of food. I'm going to need a lot of energy for my hikes., mturk_agent_2: That's okay. I'm sure we can share some food., mturk_agent_1: That sounds good. I'm also planning on bringing a lot of firewood., mturk_agent_2: I'm planning on bringing a lot too., mturk_agent_1: Okay. Well, I'm looking forward to seeing you there!, mturk_agent_2: I'm looking forward to seeing you too! 🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂",0,3,2,3,0,1,3.0,0.0,1.0,0.0,3.0,2.0,21,19,15.0,17.0,36.0
 163,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -16900,7 +16900,7 @@ Here is an example of the correct format for the answer with curly braces, which
 
 OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,0,1,0,3,2,0.0,3.0,2.0,3.0,0.0,1.0,19,23,,,
+Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,0,1,0,3,2,0.0,3.0,2.0,3.0,0.0,1.0,19,23,17.0,13.0,4.0
 186,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -17166,7 +17166,7 @@ user2 (mturk_agent_2):
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,2,1,2,1,2,2.0,1.0,2.0,1.0,2.0,1.0,15,20,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",1,2,1,2,1,2,2.0,1.0,2.0,1.0,2.0,1.0,15,20,21.0,16.0,36.0
 434,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -17228,7 +17228,7 @@ user2 (mturk_agent_1):
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-<|begin_of_text|><|start_header_id|><|start_header_id|>user: mturk_agent_2: I am willing to give you all the water and food, but I need all the firewood. Is that okay with you?, mturk_agent_1: I would prefer to have the firewood. I will be hiking a lot and I will need it to keep warm., mturk_agent_2: I understand. I will need the firewood to stay warm because my wife is pregnant and she is cold., mturk_agent_1: I would be willing to give you all the water and food if I can have 2 firewood., mturk_agent_2: I would be willing to take all the water and food if I can have 3 firewood., mturk_agent_1: I can't do that. I need at least 2 firewood., mturk_agent_2: I can take all the water and food if I can have 2 firewood., mturk_agent_1: I would be willing to give you all the water and food if I can have 2 firewood., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_",2,2,1,1,1,2,1.0,1.0,2.0,2.0,2.0,1.0,19,17,,,
+<|begin_of_text|><|start_header_id|><|start_header_id|>user: mturk_agent_2: I am willing to give you all the water and food, but I need all the firewood. Is that okay with you?, mturk_agent_1: I would prefer to have the firewood. I will be hiking a lot and I will need it to keep warm., mturk_agent_2: I understand. I will need the firewood to stay warm because my wife is pregnant and she is cold., mturk_agent_1: I would be willing to give you all the water and food if I can have 2 firewood., mturk_agent_2: I would be willing to take all the water and food if I can have 3 firewood., mturk_agent_1: I can't do that. I need at least 2 firewood., mturk_agent_2: I can take all the water and food if I can have 2 firewood., mturk_agent_1: I would be willing to give you all the water and food if I can have 2 firewood., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_2: I will take all the water and food and you can have 2 firewood., mturk_agent_1: Sounds good to me., mturk_agent_",2,2,1,1,1,2,1.0,1.0,2.0,2.0,2.0,1.0,19,17,17.0,19.0,4.0
 435,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -17296,7 +17296,7 @@ Overall: user1: High priority: food, Medium priority: water, Low priority: firew
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,17,19,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,17,19,19.0,17.0,4.0
 436,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -17422,7 +17422,7 @@ user2 (mturk_agent_2):
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-<|begin_of_text|><|start_header_id|><|start_header_id|>user: mturk_agent_1: I am going to need 3 food packages. I will need 3 water packages as well. I will only need 1 firewood package., mturk_agent_2: I can give you 3 food packages and 3 water packages. I can give you 1 firewood package., mturk_agent_1: That sounds great!, mturk_agent_2: Sounds good to me., mturk_agent_1: I will need to have 3 food packages. I will need 3 water packages as well. I will only need 1 firewood package., mturk_agent_2: I can give you 3 food packages and 3 water packages. I can give you 1 firewood package., mturk_agent_1: That sounds great!, mturk_agent_2: Sounds good to me., mturk_agent_1: I will need to have 3 food packages. I will need 3 water packages as well. I will only need 1 firewood package., mturk_agent_2: I can give you 3 food packages and 3 water packages. I can give you 1 firewood package., mturk_agent_1: That sounds great!, mturk_agent_2: Sounds good to me., mturk_agent_1: I will need to have 3 food packages. I will need 3 water packages as well. I will only need 1 firewood package., mturk_agent_2: I can give you 3 food packages and 3 water packages. I can give you 1 firewood package., mturk_agent_1: That sounds great!, mturk_agent_2: Sounds good to me., mturk_agent_1: I will need to have 3 food packages. I will need 3 water packages as well. I will only need 1 firewood package., mturk_agent_2: I can give you 3 food packages and 3 water packages. I can give you 1 firewood package., mturk_agent_1: That sounds great!, mturk_agent_2: Sounds good to me., mturk_agent_1: I will need to have 3 food packages. I will need 3 water packages as well. I will only need 1 firewood package., mturk_agent_2: I can give you 3 food packages and 3 water packages. I can give you 1 firewood package., mturk_agent_1: That sounds great!, mturk_agent_2: Sounds good to me., mturk_agent_1: I will need to have 3 food packages. I will need 3 water packages as well. I will only need 1 firewood package., mturk_agent_2: I can give you 3 food packages and 3 water packages. I can give you 1 firewood package., mturk_agent_1: That sounds great!, mturk_agent_2: Sounds good to me., mturk_agent_1: I will need to have 3 food packages. I will need 3 water packages as well. I will only need 1 firewood package., mturk_agent_2: I can give you 3 food packages and 3 water packages. I can give you 1 firewood package., mturk_agent_1: That sounds great!, mturk_agent_2: Sounds good to me., mturk_agent_1: I will need to have 3 food packages. I will need 3 water packages as well. I will only need 1 firewood package., mturk_agent_2: I can give you 3 food packages and 3 water packages. I can give you 1 firewood package., mturk_agent_1: That sounds great!, mturk_agent_2: Sounds good to me., mturk_agent_1: I will need to have 3 food packages. I will need 3 water packages as well. I will only need 1 firewood package., mturk_agent_2: I can give you 3 food packages and 3 water packages. I can give you 1 firewood package., mturk_agent_1: That sounds great!, mturk_agent_2: Sounds good to me., mturk_agent_1: I will need to have 3 food packages. I will need 3 water packages as well. I will only need 1 firewood package., mturk_agent_2",2,3,0,1,0,3,1.0,0.0,3.0,2.0,3.0,0.0,22,14,,,
+<|begin_of_text|><|start_header_id|><|start_header_id|>user: mturk_agent_1: I am going to need 3 food packages. I will need 3 water packages as well. I will only need 1 firewood package., mturk_agent_2: I can give you 3 food packages and 3 water packages. I can give you 1 firewood package., mturk_agent_1: That sounds great!, mturk_agent_2: Sounds good to me., mturk_agent_1: I will need to have 3 food packages. I will need 3 water packages as well. I will only need 1 firewood package., mturk_agent_2: I can give you 3 food packages and 3 water packages. I can give you 1 firewood package., mturk_agent_1: That sounds great!, mturk_agent_2: Sounds good to me., mturk_agent_1: I will need to have 3 food packages. I will need 3 water packages as well. I will only need 1 firewood package., mturk_agent_2: I can give you 3 food packages and 3 water packages. I can give you 1 firewood package., mturk_agent_1: That sounds great!, mturk_agent_2: Sounds good to me., mturk_agent_1: I will need to have 3 food packages. I will need 3 water packages as well. I will only need 1 firewood package., mturk_agent_2: I can give you 3 food packages and 3 water packages. I can give you 1 firewood package., mturk_agent_1: That sounds great!, mturk_agent_2: Sounds good to me., mturk_agent_1: I will need to have 3 food packages. I will need 3 water packages as well. I will only need 1 firewood package., mturk_agent_2: I can give you 3 food packages and 3 water packages. I can give you 1 firewood package., mturk_agent_1: That sounds great!, mturk_agent_2: Sounds good to me., mturk_agent_1: I will need to have 3 food packages. I will need 3 water packages as well. I will only need 1 firewood package., mturk_agent_2: I can give you 3 food packages and 3 water packages. I can give you 1 firewood package., mturk_agent_1: That sounds great!, mturk_agent_2: Sounds good to me., mturk_agent_1: I will need to have 3 food packages. I will need 3 water packages as well. I will only need 1 firewood package., mturk_agent_2: I can give you 3 food packages and 3 water packages. I can give you 1 firewood package., mturk_agent_1: That sounds great!, mturk_agent_2: Sounds good to me., mturk_agent_1: I will need to have 3 food packages. I will need 3 water packages as well. I will only need 1 firewood package., mturk_agent_2: I can give you 3 food packages and 3 water packages. I can give you 1 firewood package., mturk_agent_1: That sounds great!, mturk_agent_2: Sounds good to me., mturk_agent_1: I will need to have 3 food packages. I will need 3 water packages as well. I will only need 1 firewood package., mturk_agent_2: I can give you 3 food packages and 3 water packages. I can give you 1 firewood package., mturk_agent_1: That sounds great!, mturk_agent_2: Sounds good to me., mturk_agent_1: I will need to have 3 food packages. I will need 3 water packages as well. I will only need 1 firewood package., mturk_agent_2: I can give you 3 food packages and 3 water packages. I can give you 1 firewood package., mturk_agent_1: That sounds great!, mturk_agent_2: Sounds good to me., mturk_agent_1: I will need to have 3 food packages. I will need 3 water packages as well. I will only need 1 firewood package., mturk_agent_2",2,3,0,1,0,3,1.0,0.0,3.0,2.0,3.0,0.0,22,14,14.0,22.0,64.0
 445,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -17622,7 +17622,7 @@ user2 (mturk_agent_2):
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,2,1,2,1,1.0,2.0,1.0,2.0,1.0,2.0,21,16,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,2,1,2,1,1.0,2.0,1.0,2.0,1.0,2.0,21,16,15.0,20.0,36.0
 459,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -17693,7 +17693,7 @@ mturk_agent_1: mturk_agent_1 demonstrates high warmth by expressing mutual inter
 
 mturk_agent_2: mturk_agent_2 exhibits high warmth by initiating the conversation with a friendly tone and expressing hope for a mutually beneficial outcome. Their competence is high, as they effectively communicate their needs and propose a solution that considers both parties' interests.
 
-            Outcome: {mturk_agent_1: {food: 0, water: 2, firewood: 3}, mturk_agent_2: {food: 3, water: 1, firewood: 0}}<|eot_id|>",1,2,1,2,1,2,2.0,1.0,2.0,1.0,2.0,1.0,17,19,,,
+            Outcome: {mturk_agent_1: {food: 0, water: 2, firewood: 3}, mturk_agent_2: {food: 3, water: 1, firewood: 0}}<|eot_id|>",1,2,1,2,1,2,2.0,1.0,2.0,1.0,2.0,1.0,17,19,19.0,17.0,4.0
 462,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -17769,7 +17769,7 @@ user2 (mturk_agent_2):
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,0,1,0,3,2,0.0,3.0,2.0,3.0,0.0,1.0,19,18,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,0,1,0,3,2,0.0,3.0,2.0,3.0,0.0,1.0,19,18,17.0,18.0,4.0
 466,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -17909,7 +17909,7 @@ Cutwood: 2, food: 1, water: 2
   competence: high
   explanation: User2's willingness to negotiate and counter-propose reflects high warmth. Their ability to assert their needs effectively shows high competence in the negotiation process.
 
-            Based on the negotiation, User1 focuses on acquiring food and water, while User2 prioritizes food and firewood. Given User2's initial requirement for at least two foods, they negotiate to maintain this balance. User1's insistence on water leads to an allocation where they receive two waters, User2 gets two firewoods, and User1 is allocated one food, as User2 maintains their minimum requirement of two foods. This allocation maintains the total sum of resources at three units per agent.<|eot_id|>",1,3,2,2,0,1,2.0,0.0,1.0,1.0,3.0,2.0,23,14,,,
+            Based on the negotiation, User1 focuses on acquiring food and water, while User2 prioritizes food and firewood. Given User2's initial requirement for at least two foods, they negotiate to maintain this balance. User1's insistence on water leads to an allocation where they receive two waters, User2 gets two firewoods, and User1 is allocated one food, as User2 maintains their minimum requirement of two foods. This allocation maintains the total sum of resources at three units per agent.<|eot_id|>",1,3,2,2,0,1,2.0,0.0,1.0,1.0,3.0,2.0,23,14,13.0,22.0,100.0
 472,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -19038,7 +19038,7 @@ Overall: user1: high user2: high
 
 Summary: Both users demonstrate high levels of overall competence and warmth by engaging in a friendly and effective negotiation, clearly articulating their needs and responding positively to each other's input.
 
-Outcome: {user1: {food: 3, water: 0, firewood: 2}, user2: {food: 0, water: 3, firewood: 1}}<|eot_id|>",3,0,2,0,3,1,0.0,3.0,1.0,3.0,0.0,2.0,23,19,,,
+Outcome: {user1: {food: 3, water: 0, firewood: 2}, user2: {food: 0, water: 3, firewood: 1}}<|eot_id|>",3,0,2,0,3,1,0.0,3.0,1.0,3.0,0.0,2.0,23,19,13.0,17.0,100.0
 581,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -19378,7 +19378,7 @@ user2 (mturk_agent_2):
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,2,1,1,1,2,1.0,1.0,2.0,2.0,2.0,1.0,20,17,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,2,1,1,1,2,1.0,1.0,2.0,2.0,2.0,1.0,20,17,16.0,19.0,16.0
 607,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023

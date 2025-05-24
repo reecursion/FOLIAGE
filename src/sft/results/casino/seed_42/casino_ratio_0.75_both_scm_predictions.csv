@@ -616,7 +616,7 @@ Based on the negotiation, it seems that both parties are willing to compromise a
 
 Given the friendly and cooperative tone of both users, it's likely that they will reach a mutually beneficial agreement. However, without more information or a final statement from the users, it's challenging to predict the exact allocation of resources.
 
-If you'd like, you can provide more context or information about the negotiation, and I can try to provide a more informed answer. Alternatively, you can provide a summary of the final agreement and I can help you validate it based on the negotiation conversation.<|eot_id|>",2,3,0,1,0,3,1.0,0.0,3.0,2.0,3.0,0.0,21,19,,,
+If you'd like, you can provide more context or information about the negotiation, and I can try to provide a more informed answer. Alternatively, you can provide a summary of the final agreement and I can help you validate it based on the negotiation conversation.<|eot_id|>",2,3,0,1,0,3,1.0,0.0,3.0,2.0,3.0,0.0,21,19,15.0,17.0,36.0
 32,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -3577,7 +3577,7 @@ Today Date: 26 Jul 2024
 
 Overall, the negotiation demonstrates a collaborative approach, with both parties showing flexibility and a willingness to reach a mutually beneficial agreement. Based on the final agreement:
 
-OUTCOME: {agent1:{food: 1, water: 2, firewood: 1}, agent2:{food: 2, water: 1, firewood: 2}}<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,19,17,,,
+OUTCOME: {agent1:{food: 1, water: 2, firewood: 1}, agent2:{food: 2, water: 1, firewood: 2}}<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,19,17,17.0,19.0,4.0
 474,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -3977,7 +3977,7 @@ Overall, user1 (mturk_agent_1) and user2 (mturk_agent_2) have a cooperative and 
 
 OUTCOME: {mturk_agent_1:{food:1, water:2, firewood:3}, mturk_agent_2:{food:2, water:1, firewood:0}}
 
-This outcome reflects user1's need for extra food and firewood, while accommodating user2's request for more food and water. Both parties' needs are met, with the total amount of each resource summing to exactly 3 units across both agents.<|eot_id|>",1,2,3,2,1,0,2.0,1.0,0.0,1.0,2.0,3.0,23,13,,,
+This outcome reflects user1's need for extra food and firewood, while accommodating user2's request for more food and water. Both parties' needs are met, with the total amount of each resource summing to exactly 3 units across both agents.<|eot_id|>",1,2,3,2,1,0,2.0,1.0,0.0,1.0,2.0,3.0,23,13,13.0,23.0,100.0
 508,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -4113,7 +4113,7 @@ However, based on the current state of the negotiation, where user1 agrees to th
 
 This distribution sums to exactly 3 units for each resource across both agents. 
 
-OUTCOME: {agent1:{food: 1, water: 1, firewood: 2}, agent2:{food: 2, water: 2, firewood: 1}}<|eot_id|>",1,1,2,2,2,1,2.0,2.0,1.0,1.0,1.0,2.0,17,21,,,
+OUTCOME: {agent1:{food: 1, water: 1, firewood: 2}, agent2:{food: 2, water: 2, firewood: 1}}<|eot_id|>",1,1,2,2,2,1,2.0,2.0,1.0,1.0,1.0,2.0,17,21,19.0,15.0,4.0
 523,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -4532,7 +4532,7 @@ Provide only your answer using the following format with curly braces, with no e
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",0,3,2,3,0,1,3.0,0.0,1.0,0.0,3.0,2.0,23,19,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",0,3,2,3,0,1,3.0,0.0,1.0,0.0,3.0,2.0,23,19,13.0,17.0,100.0
 560,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -5347,7 +5347,7 @@ Overall, user1's warmth is high due to their friendly and accommodating approach
 
 Based on the negotiation, the final allocation of resources is:
 
-OUTCOME: {agent1:{food: 0, water: 3, firewood: 0}, agent2:{food: 3, water: 0, firewood: 3}}<|eot_id|>",1,3,0,2,0,3,2.0,0.0,3.0,1.0,3.0,0.0,18,21,,,
+OUTCOME: {agent1:{food: 0, water: 3, firewood: 0}, agent2:{food: 3, water: 0, firewood: 3}}<|eot_id|>",1,3,0,2,0,3,2.0,0.0,3.0,1.0,3.0,0.0,18,21,18.0,15.0,0.0
 613,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -6828,7 +6828,7 @@ If you would like to simulate a possible outcome, I can provide one based on a p
 
 Respond with one of the following two options:
   1. Provide a simulated outcome with curly braces, as requested.
-  2. Continue the negotiation or provide additional context for a more accurate prediction.<|eot_id|>",3,1,2,0,2,1,0.0,2.0,1.0,3.0,1.0,2.0,23,14,,,
+  2. Continue the negotiation or provide additional context for a more accurate prediction.<|eot_id|>",3,1,2,0,2,1,0.0,2.0,1.0,3.0,1.0,2.0,23,14,13.0,22.0,100.0
 127,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -7163,7 +7163,7 @@ Cutting Knowledge is unable to predict the final allocation of resources based o
 
 However, based on the initial exchange, where both parties express a willingness to compromise and share interests, it's possible that a fair and mutually beneficial agreement could be reached. For the most accurate prediction, additional context or a detailed analysis of the negotiation's progression is needed. 
 
-If you have any further information or would like to simulate the negotiation further, please provide it.<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,19,17,,,
+If you have any further information or would like to simulate the negotiation further, please provide it.<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,19,17,17.0,19.0,4.0
 149,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -10379,7 +10379,7 @@ user2:
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,17,19,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,17,19,19.0,17.0,4.0
 600,2,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -10653,7 +10653,7 @@ mturk_agent_1:
 mturk_agent_2:
   warmth: high
   competence: high
-```<|eot_id|>",2,2,0,1,1,3,1.0,1.0,3.0,2.0,2.0,0.0,18,20,,,
+```<|eot_id|>",2,2,0,1,1,3,1.0,1.0,3.0,2.0,2.0,0.0,18,20,18.0,16.0,0.0
 2,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -18043,7 +18043,7 @@ mturk_agent_1:
 mturk_agent_2:
   warmth: high
   competence: high
-```<|eot_id|>",1,2,1,2,1,2,2.0,1.0,2.0,1.0,2.0,1.0,17,21,,,
+```<|eot_id|>",1,2,1,2,1,2,2.0,1.0,2.0,1.0,2.0,1.0,17,21,19.0,15.0,4.0
 174,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -19066,7 +19066,7 @@ mturk_agent_1:
 mturk_agent_2:
   warmth: high
   competence: high
-  explanation: mturk_agent_2 displays high warmth by reciprocating greetings",1,0,2,2,3,1,2.0,3.0,1.0,1.0,0.0,2.0,14,23,,,
+  explanation: mturk_agent_2 displays high warmth by reciprocating greetings",1,0,2,2,3,1,2.0,3.0,1.0,1.0,0.0,2.0,14,23,22.0,13.0,64.0
 454,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -22132,7 +22132,7 @@ agent1: high priority: water, medium priority: food, low priority: firewood
 agent2: high priority: food, medium priority: firewood, low priority: water
 
 Cutting Knowledge Conversation Summary:
-user1: hi there, user2: Hello.  How are you?, user1: not too bad, looking forward to a good camping trip 🙂, user2: Yes!  This camping trip is going to be great!  I hope to make it very memorable., user1: indeed.  anyways, I would like to divide the extra supplies equitably, user2: I think we can definitely work together and come up with a great solution and both get what we need, user1: do you have a particular item preference?, user2: I do.  I have been looking everything over and feel this won't be to hard to come to an agreement, user1: Well my camp places a premium on water.  How would you feel about for me: 2 water, 1 food, 1 firewood?, user2: I think we're on the right track.  I am bring my 2 kids with me and they eat everything in sight., user1: Would they be okay with 2 food?  Otherwise can give you an extra and I can take either an additional water or firewood 🙂, user2: I have a great offer.  How about I take 2 food, 2 firewood and 1 water and you will get the extra water your camp needs!!, user1: We place a premium on the water.  That's the same amount of water, do you mean we take 3?, user2: I do need some extra water.  So I will need to take 1, but our preference is food and we would need firewood to cook it on.  if you're OK with this, I will submit it.  Its a great deal I think and we'll both get what we need, user1: my counter then is 2 water, 1 food, and 2 firewood for us and we are set 🙂, user2: I think we can come to a deal.  I will take 2 food, 2 firewood and 1 water and you will take 1 food, 1 water and 1 firewood.  I think this is a good deal for both of us, user1: that is a good deal.  I think we can both agree on that 🙂, user2: I think we can.  We can both be happy with this deal and both get what we need., user1: I think we are good., user2: I think so too!  I think we will make a great deal and both get what we need, user1: I think we will.  I am glad we could come to a deal., user2: Me too!  I am glad we could come to an agreement., user1: great.  so what do you think we should do with the deal?, user2: I think we have a deal.  You will get 1 food, 1 water and 1 firewood and I will get 2 food, 2 firewood and 1 water., user1: that sounds like a deal to me., user2: I think it will work for both of us., user1: I do too., user2: So we're good to go then!, user1: yes we are.  so we have 1 food for us, 2 food for you.  1 water for us, 2 water for you, and 1 firewood for us, 2 firewood for you, user2: I think that is correct.  I think we both get what we need., user1: yes., user2: I think that is correct.  I think we both get what we need., user1: I think so., user2: I think we did great!, user1: yes., user2: I think we did., user1: I think we should be good to go., user2: I think we should be., user1: I think we are good., user2: I think so too!, user1: I think we did a good job on this deal., user2: I do too!, user1: I do., user2: I think we should be good to go., user1: yes, user2: I think we did a good job working together., user1: yes, user2: I think we did., user1: I think we did., user2: I think we did a good job., user1: yes, user",1,2,1,2,1,2,2.0,1.0,2.0,1.0,2.0,1.0,17,21,,,
+user1: hi there, user2: Hello.  How are you?, user1: not too bad, looking forward to a good camping trip 🙂, user2: Yes!  This camping trip is going to be great!  I hope to make it very memorable., user1: indeed.  anyways, I would like to divide the extra supplies equitably, user2: I think we can definitely work together and come up with a great solution and both get what we need, user1: do you have a particular item preference?, user2: I do.  I have been looking everything over and feel this won't be to hard to come to an agreement, user1: Well my camp places a premium on water.  How would you feel about for me: 2 water, 1 food, 1 firewood?, user2: I think we're on the right track.  I am bring my 2 kids with me and they eat everything in sight., user1: Would they be okay with 2 food?  Otherwise can give you an extra and I can take either an additional water or firewood 🙂, user2: I have a great offer.  How about I take 2 food, 2 firewood and 1 water and you will get the extra water your camp needs!!, user1: We place a premium on the water.  That's the same amount of water, do you mean we take 3?, user2: I do need some extra water.  So I will need to take 1, but our preference is food and we would need firewood to cook it on.  if you're OK with this, I will submit it.  Its a great deal I think and we'll both get what we need, user1: my counter then is 2 water, 1 food, and 2 firewood for us and we are set 🙂, user2: I think we can come to a deal.  I will take 2 food, 2 firewood and 1 water and you will take 1 food, 1 water and 1 firewood.  I think this is a good deal for both of us, user1: that is a good deal.  I think we can both agree on that 🙂, user2: I think we can.  We can both be happy with this deal and both get what we need., user1: I think we are good., user2: I think so too!  I think we will make a great deal and both get what we need, user1: I think we will.  I am glad we could come to a deal., user2: Me too!  I am glad we could come to an agreement., user1: great.  so what do you think we should do with the deal?, user2: I think we have a deal.  You will get 1 food, 1 water and 1 firewood and I will get 2 food, 2 firewood and 1 water., user1: that sounds like a deal to me., user2: I think it will work for both of us., user1: I do too., user2: So we're good to go then!, user1: yes we are.  so we have 1 food for us, 2 food for you.  1 water for us, 2 water for you, and 1 firewood for us, 2 firewood for you, user2: I think that is correct.  I think we both get what we need., user1: yes., user2: I think that is correct.  I think we both get what we need., user1: I think so., user2: I think we did great!, user1: yes., user2: I think we did., user1: I think we should be good to go., user2: I think we should be., user1: I think we are good., user2: I think so too!, user1: I think we did a good job on this deal., user2: I do too!, user1: I do., user2: I think we should be good to go., user1: yes, user2: I think we did a good job working together., user1: yes, user2: I think we did., user1: I think we did., user2: I think we did a good job., user1: yes, user",1,2,1,2,1,2,2.0,1.0,2.0,1.0,2.0,1.0,17,21,19.0,15.0,4.0
 90,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -22471,7 +22471,7 @@ MTurk Agent 2:
 
 This outcome reflects a fair distribution of resources, considering both agents' needs and the initial proposal. MTurk Agent 1 prioritizes firewood for safety and water boiling, while MTurk Agent 2 maintains a higher priority on water for their extended stay. This final allocation balances both parties' requirements effectively. 
 
-Note: This prediction assumes the negotiation concluded with the provided summary, where both parties agree on the final distribution. If the negotiation continued or ended differently, the actual outcome might vary.<|eot_id|>",1,0,2,2,3,1,2.0,3.0,1.0,1.0,0.0,2.0,14,26,,,
+Note: This prediction assumes the negotiation concluded with the provided summary, where both parties agree on the final distribution. If the negotiation continued or ended differently, the actual outcome might vary.<|eot_id|>",1,0,2,2,3,1,2.0,3.0,1.0,1.0,0.0,2.0,14,26,22.0,10.0,64.0
 108,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -22913,7 +22913,7 @@ Output:
 mturk_agent_1:
   warmth: low
   competence: high
-  explanation: mturk_agent_1 is concise and direct, showing little engagement beyond",0,2,2,3,1,1,3.0,1.0,1.0,0.0,2.0,2.0,18,20,,,
+  explanation: mturk_agent_1 is concise and direct, showing little engagement beyond",0,2,2,3,1,1,3.0,1.0,1.0,0.0,2.0,2.0,18,20,18.0,16.0,0.0
 153,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -24059,7 +24059,7 @@ mturk_agent_2:
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OutCome: {mturk_agent_1: {food: 1, water: 2, firewood: 0}, mturk_agent_2: {food: 2, water: 1, firewood: 3}}<|eot_id|>",1,2,1,2,1,2,2.0,1.0,2.0,1.0,2.0,1.0,17,19,,,
+OutCome: {mturk_agent_1: {food: 1, water: 2, firewood: 0}, mturk_agent_2: {food: 2, water: 1, firewood: 3}}<|eot_id|>",1,2,1,2,1,2,2.0,1.0,2.0,1.0,2.0,1.0,17,19,19.0,17.0,4.0
 465,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023

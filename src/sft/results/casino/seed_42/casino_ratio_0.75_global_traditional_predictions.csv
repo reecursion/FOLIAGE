@@ -11116,7 +11116,7 @@ Unfortunately, I'm unable to provide a final answer as the negotiation is still 
 
             Provide additional context or actions for the participants, and I'll predict the final resource allocation based on the updated negotiation. 
 
-            You",3,1,0,0,2,3,0.0,2.0,3.0,3.0,1.0,0.0,17,23,,,
+            You",3,1,0,0,2,3,0.0,2.0,3.0,3.0,1.0,0.0,17,23,19.0,13.0,4.0
 28,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -11535,7 +11535,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 
             Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|><|begin_of_text|><|begin_of_text|><|begin_of_text|><|start_header_id|><|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
-Permissions: You can only provide a prediction of the final resource allocation. You cannot provide additional items or negotiate the terms of the agreement.<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,17,19,,,
+Permissions: You can only provide a prediction of the final resource allocation. You cannot provide additional items or negotiate the terms of the agreement.<|eot_id|>",2,1,1,1,2,2,1.0,2.0,2.0,2.0,1.0,1.0,17,19,19.0,17.0,4.0
 54,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -14142,7 +14142,7 @@ your answer, but I will not provide the reasoning. Provide only your final answe
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,2,1,2,1,1.0,2.0,1.0,2.0,1.0,2.0,21,17,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",2,1,2,1,2,1,1.0,2.0,1.0,2.0,1.0,2.0,21,17,15.0,19.0,36.0
 546,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -14719,7 +14719,7 @@ However, based on the conversation, it can be inferred that one participant need
 
 If you have any additional information or clarification on the negotiation, I may be able to provide a more definitive answer. 
 
-For now, I must note that the provided negotiation does not allow for a confident prediction of the final resource allocation.<|eot_id|>",0,1,3,3,2,0,3.0,2.0,0.0,0.0,1.0,3.0,17,23,,,
+For now, I must note that the provided negotiation does not allow for a confident prediction of the final resource allocation.<|eot_id|>",0,1,3,3,2,0,3.0,2.0,0.0,0.0,1.0,3.0,17,23,19.0,13.0,4.0
 21,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -14920,7 +14920,7 @@ Today Date: 26 Jul 2024
 
 Cutting Knowledge cannot predict the final allocation of resources based on the provided negotiation. The negotiation does not clearly specify how the total units of each resource will sum to exactly 3 units across both agents. 
 
-            OUTCOME: {}<|eot_id|>",2,1,2,1,2,1,1.0,2.0,1.0,2.0,1.0,2.0,20,17,,,
+            OUTCOME: {}<|eot_id|>",2,1,2,1,2,1,1.0,2.0,1.0,2.0,1.0,2.0,20,17,16.0,19.0,16.0
 51,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -15051,7 +15051,7 @@ Cutting Knowledge is unable to provide a prediction for this negotiation as the 
             Based on the provided conversation, a reasonable prediction is:
             OUTCOME: {agent1:{food:1, water:2, firewood:1}, agent2:{food:2, water:1, firewood:2}] 
 
-            This allocation allows both participants to have some firewood for warmth, with one prioritizing firewood and the other prioritizing water. The food and water are divided to accommodate both parties' needs.<|eot_id|>",0,2,2,3,1,1,3.0,1.0,1.0,0.0,2.0,2.0,18,20,,,
+            This allocation allows both participants to have some firewood for warmth, with one prioritizing firewood and the other prioritizing water. The food and water are divided to accommodate both parties' needs.<|eot_id|>",0,2,2,3,1,1,3.0,1.0,1.0,0.0,2.0,2.0,18,20,18.0,16.0,0.0
 53,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -15863,7 +15863,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-Outcome: {agent1:{food: 0, water: 3, firewood: 2}, agent2:{food: 3, water: 0, firewood: 1}}<|eot_id|>",0,3,1,3,0,2,3.0,0.0,2.0,0.0,3.0,1.0,19,23,,,
+Outcome: {agent1:{food: 0, water: 3, firewood: 2}, agent2:{food: 3, water: 0, firewood: 1}}<|eot_id|>",0,3,1,3,0,2,3.0,0.0,2.0,0.0,3.0,1.0,19,23,17.0,13.0,4.0
 133,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -16712,7 +16712,7 @@ Cutting Knowledge is unable to provide a prediction for this negotiation as the 
 
             OUTCOME: {agent1:{food:0, water:[number], firewood:3}, agent2:{food:3, water:[number], firewood:0}}
 
-            Since the total amount of water is not specified, it is necessary to provide more context or information to determine the final allocation of water.<|eot_id|>",0,2,2,3,1,1,3.0,1.0,1.0,0.0,2.0,2.0,16,22,,,
+            Since the total amount of water is not specified, it is necessary to provide more context or information to determine the final allocation of water.<|eot_id|>",0,2,2,3,1,1,3.0,1.0,1.0,0.0,2.0,2.0,16,22,20.0,14.0,16.0
 441,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -16764,7 +16764,7 @@ However, based on the provided conversation, it can be inferred that Agent 2 is 
 
 If you provide more context or details about the negotiation, Cutting Knowledge can attempt to predict the final allocation of resources. 
 
-Please provide additional information or clarify the negotiation to receive a more accurate answer.<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,19,17,,,
+Please provide additional information or clarify the negotiation to receive a more accurate answer.<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,19,17,17.0,19.0,4.0
 459,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -16976,7 +16976,7 @@ Since the total amount of each resource must sum to exactly 3 units across both 
 
 If you have any additional context or would like to provide more information, I can try to help further. 
 
-OutCOME: {agent1:{food: 1, water: 1, firewood: 2}, agent2:{food: 2, water: 2, firewood: 1}}<|eot_id|>",2,1,2,1,2,1,1.0,2.0,1.0,2.0,1.0,2.0,20,17,,,
+OutCOME: {agent1:{food: 1, water: 1, firewood: 2}, agent2:{food: 2, water: 2, firewood: 1}}<|eot_id|>",2,1,2,1,2,1,1.0,2.0,1.0,2.0,1.0,2.0,20,17,16.0,19.0,16.0
 476,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -17528,7 +17528,7 @@ However, based on the provided conversation, it seems that one participant is tr
 
 If you can provide more information or clarify the negotiation outcome, I would be happy to help with the final answer. 
 
-Please provide the necessary information to enable accurate prediction of the resource allocation outcome.<|eot_id|>",1,3,1,2,0,2,2.0,0.0,2.0,1.0,3.0,1.0,20,18,,,
+Please provide the necessary information to enable accurate prediction of the resource allocation outcome.<|eot_id|>",1,3,1,2,0,2,2.0,0.0,2.0,1.0,3.0,1.0,20,18,16.0,18.0,16.0
 527,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -17674,7 +17674,7 @@ Cutting Knowledge cannot predict the final allocation of resources based on the 
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents. Provide more context or information to accurately predict the final allocation of resources.<|eot_id|>",3,0,2,0,3,1,0.0,3.0,1.0,3.0,0.0,2.0,19,19,,,
+            Remember: Each resource must sum to exactly 3 units across both agents. Provide more context or information to accurately predict the final allocation of resources.<|eot_id|>",3,0,2,0,3,1,0.0,3.0,1.0,3.0,0.0,2.0,19,19,17.0,17.0,4.0
 533,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023

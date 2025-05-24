@@ -12277,7 +12277,7 @@ user2 (mturk_agent_2):
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,1,1,0,2,2,0.0,2.0,2.0,3.0,1.0,1.0,20,16,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",3,1,1,0,2,2,0.0,2.0,2.0,3.0,1.0,1.0,20,16,16.0,20.0,16.0
 427,3,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023

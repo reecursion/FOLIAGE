@@ -15446,7 +15446,7 @@ Today Date: 26 Jul 2024
 
 You didn't provide enough information to accurately predict the final allocation of resources. Some additional context or details about the negotiation are necessary to determine the most likely outcome. 
 
-Unfortunately, I can't provide a reliable answer without making assumptions. If you'd like to provide more information or clarify the negotiation, I'd be happy to help with predicting the final allocation of resources.<|eot_id|>",2,2,0,1,1,3,1.0,1.0,3.0,2.0,2.0,0.0,18,22,,,
+Unfortunately, I can't provide a reliable answer without making assumptions. If you'd like to provide more information or clarify the negotiation, I'd be happy to help with predicting the final allocation of resources.<|eot_id|>",2,2,0,1,1,3,1.0,1.0,3.0,2.0,2.0,0.0,18,22,18.0,14.0,0.0
 105,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -16550,7 +16550,7 @@ Please provide the negotiation with intentions where both agents discuss and agr
 
 If you provide only the final negotiation with intentions, I'll be able to provide the correct answer with curly braces. 
 
-Please provide the negotiation with intentions.<|eot_id|>",1,0,2,2,3,1,2.0,3.0,1.0,1.0,0.0,2.0,14,23,,,
+Please provide the negotiation with intentions.<|eot_id|>",1,0,2,2,3,1,2.0,3.0,1.0,1.0,0.0,2.0,14,23,22.0,13.0,64.0
 454,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -16605,7 +16605,7 @@ Please provide the negotiation with intentions, and I will predict the final all
 
             OUTCOME: {agent1:{food:[number], water:[number], firewood:[number]}, agent2:{food:[number], water:[number], firewood:[number]}}
 
-            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",0,3,2,3,0,1,3.0,0.0,1.0,0.0,3.0,2.0,23,19,,,
+            Remember: Each resource must sum to exactly 3 units across both agents.<|eot_id|>",0,3,2,3,0,1,3.0,0.0,1.0,0.0,3.0,2.0,23,19,13.0,17.0,100.0
 458,5,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023

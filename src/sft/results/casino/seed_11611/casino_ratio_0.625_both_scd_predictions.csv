@@ -556,7 +556,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-You provided only the conversation summary and not the negotiation itself. I need to see how the negotiation progresses to predict the final allocation of resources. Please provide the negotiation conversation where the two agents discuss and agree on the distribution of resources. I'll be happy to help with predicting the outcome based on that information.<|eot_id|>",0,2,2,3,1,1,3.0,1.0,1.0,0.0,2.0,2.0,18,20,,,
+You provided only the conversation summary and not the negotiation itself. I need to see how the negotiation progresses to predict the final allocation of resources. Please provide the negotiation conversation where the two agents discuss and agree on the distribution of resources. I'll be happy to help with predicting the outcome based on that information.<|eot_id|>",0,2,2,3,1,1,3.0,1.0,1.0,0.0,2.0,2.0,18,20,18.0,16.0,0.0
 56,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -2227,7 +2227,7 @@ Today Date: 26 Jul 2024
 
 You provided only the summary of the negotiation, but not the final allocation of resources. To answer the question, I need to know the final agreement reached by the speakers. Please provide this information so I can assist you further.
 
-If you'd like, you can extend the conversation with additional lines to reach a conclusion, and I'll be happy to help you predict the final allocation of resources based on the updated negotiation.<|eot_id|>",2,2,1,1,1,2,1.0,1.0,2.0,2.0,2.0,1.0,21,16,,,
+If you'd like, you can extend the conversation with additional lines to reach a conclusion, and I'll be happy to help you predict the final allocation of resources based on the updated negotiation.<|eot_id|>",2,2,1,1,1,2,1.0,1.0,2.0,2.0,2.0,1.0,21,16,15.0,20.0,36.0
 465,1,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -12659,7 +12659,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food: 1, water: 2, firewood: 0}, agent2:{food: 2, water: 1, firewood: 3}}<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,20,17,,,
+OUTCOME: {agent1:{food: 1, water: 2, firewood: 0}, agent2:{food: 2, water: 1, firewood: 3}}<|eot_id|>",1,2,2,2,1,1,2.0,1.0,1.0,1.0,2.0,2.0,20,17,16.0,19.0,16.0
 166,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
@@ -14085,7 +14085,7 @@ You are helping analyze a negotiation conversation where two agents are discussi
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
 
-OUTCOME: {agent1:{food: 1, water: 2, firewood: 0}, agent2:{food: 2, water: 1, firewood: 3}}<|eot_id|>",2,2,0,1,1,3,1.0,1.0,3.0,2.0,2.0,0.0,16,22,,,
+OUTCOME: {agent1:{food: 1, water: 2, firewood: 0}, agent2:{food: 2, water: 1, firewood: 3}}<|eot_id|>",2,2,0,1,1,3,1.0,1.0,3.0,2.0,2.0,0.0,16,22,20.0,14.0,16.0
 585,4,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Cutting Knowledge Date: December 2023
