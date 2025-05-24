@@ -423,7 +423,7 @@ def generate_combined_latex_table(data, ratios):
             latex_table += "\\midrule\n"
     
     latex_table += "\\hline\n\\end{tabular}\n"
-    latex_table += "\\caption{\\textbf{SFT: }Performance metrics across different conversation lengths and configuration types for \\textbf{Llama-3.1-70B} on the \\textbf{Casino} dataset}\n"
+    latex_table += "\\caption{\\textbf{SFT: }Performance metrics across different conversation lengths and configuration types for \\textbf{Llama-3.1-8B} on the \\textbf{Casino} dataset}\n"
     latex_table += "\\label{tab:combined_metrics_sft_llama_casino}\n\\end{table*}"
     
     print(latex_table)
