@@ -22,7 +22,7 @@ def combine_folds_by_suffix(directory):
 
         # Remove the leading underscore from the suffix for the output filename
         output_filename = suffix[1:]
-        output_path = os.path.join(directory, output_filename)
+        output_path = os.path.join("src/sft/results/casino/seed_10623", output_filename)
 
         combined_df.to_csv(output_path, index=False)
         print(f"Saved combined file: {output_path}")

@@ -6,7 +6,7 @@ from scipy.stats import pearsonr
 import re
 
 # Path to the directory containing the CSV files
-base_dir = "/Users/rithviksenthil/Desktop/FOLIAGE/src/sft/results/craigslistbargain/seed_42"
+base_dir = "/Users/rithviksenthil/Desktop/FOLIAGE/src/sft/results/craigslistbargain"
 
 # Function to calculate metrics for a single file
 def analyze_file(filepath):
@@ -172,10 +172,10 @@ def process_all_files():
             # table_data['successPearson_std'][config_type][ratio] += result['avg_metrics']['successPearson_std']
             # table_data['rawPriceNMSE_std'][config_type][ratio] += result['avg_metrics']['rawPriceNMSE_std']
         
-        # for metric in table_data:
-        #     for config_type in table_data[metric]:
-        #         for ratio in table_data[metric][config_type]:
-        #             table_data[metric][config_type][ratio] /= 3
+        for metric in table_data:
+            for config_type in table_data[metric]:
+                for ratio in table_data[metric][config_type]:
+                    table_data[metric][config_type][ratio] /= 3
 
         # Generate combined LaTeX table
         print("\n--- Combined Table for All Metrics ---")
@@ -231,7 +231,7 @@ def generate_combined_latex_table(data, ratios):
                 if value is None:
                     cells.append('-')
                 else:
-                    formatted_value = f"{value:.2f}"
+                    formatted_value = f"{value:.4f}"
                     
                     if config_type == baseline_type or ratio not in baseline_values:
                         cells.append(formatted_value)
@@ -252,7 +252,7 @@ def generate_combined_latex_table(data, ratios):
             latex_table += "\\midrule\n"
     
     latex_table += "\\hline\n\\end{tabular}\n"
-    latex_table += "\\caption{Performance metrics (mean $\\pm$ standard deviation) across different conversation lengths and configuration types.}\n"
+    latex_table += "\\caption{Performance metrics across different conversation lengths and configuration types.}\n"
     latex_table += "\\label{tab:combined_metrics}\n\\end{table}"
     
     print(latex_table)
@@ -269,7 +269,7 @@ def generate_latex_table(data, metric_name, ratios):
     
     for ratio in ratios:
         if baseline_type in data and ratio in data[baseline_type] and data[baseline_type][ratio] is not None:
-            baseline_values[ratio] = round(data[baseline_type][ratio],2)
+            baseline_values[ratio] = data[baseline_type][ratio]
     
     # Add rows
     for config_type in config_types:
@@ -277,13 +277,13 @@ def generate_latex_table(data, metric_name, ratios):
         
         cells = []
         for ratio in ratios:
-            value = round(data[config_type].get(ratio), 2)
+            value = data[config_type].get(ratio)
             
             if value is None:
                 cells.append('-')
             else:
                 # Format value (round to 2 decimal places)
-                formatted_value = f"{value:.2f}"
+                formatted_value = f"{value:.4f}"
                 
                 # Color compared to baseline
                 if config_type == baseline_type or ratio not in baseline_values:

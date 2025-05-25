@@ -203,8 +203,6 @@ def process_all_files():
                 continue
             
             # Get average metrics across all folds
-            print("HIRES")
-            print(result)
             fold_metrics = result.get('fold_metrics', {})
 
             if 'average' in fold_metrics:
