@@ -6,7 +6,7 @@ from tqdm import tqdm
 import time
 
 api_key =  os.environ['OPENAI_API_KEY']
-client = OpenAI(api_key=api_key,  base_url="https://cmu.litellm.ai")
+client = OpenAI(api_key=api_key)
 
 # === Prompts ===
 PROMPTS = {
@@ -35,8 +35,7 @@ def generate_summary(dialogue, prompt):
             temperature=0.3,
             max_tokens=1000
         )
-        time.sleep(10)  # To avoid hitting rate limits
-        print(f"Response: {response}")
+        print(f"Response: {response.choices[0].message.content.strip()}")
         return response.choices[0].message.content.strip()
     except Exception as e:
         print(f"Error generating summary: {e}")
