@@ -41,6 +41,10 @@ def get_p4g_perfs():
                 try:
                     df       = pd.read_csv(csv_file)
 
+                    y_trues = df['label'].values
+                    y_preds = df['predicted_label'].values
+
+
                     # print(f'
                     # Loaded {csv_file} with shape {df.shape}')
                 except Exception as e:
@@ -49,9 +53,7 @@ def get_p4g_perfs():
 
                 # dialogue_id,fold,text,label,predicted_label,correct,confidence_score
 
-                y_trues = df['label'].values
-                y_preds = df['predicted_label'].values
-
+               
                 mf1     = f1_score(y_trues, y_preds, average='macro')
                 mf1_arr.append(100*mf1)
             
