@@ -36,6 +36,8 @@ class ConversationForecastingWithIntentions:
             self.dataset_dir = "/home/gganeshl/FOLIAGE/datasets/p4g/final"
         elif self.dataset_type == "casino":
             self.dataset_dir = "/home/gganeshl/FOLIAGE/datasets/casino/final"
+        elif self.dataset_type == "cd":
+            self.dataset_dir = "/home/gganeshl/FOLIAGE/datasets/conversationderailment/final"
         
         # Base output directory
         base_output_dir = f"/home/gganeshl/FOLIAGE/src/icl/results/{dataset_type}/{model_type}/seed_{seed}"
@@ -104,6 +106,11 @@ class ConversationForecastingWithIntentions:
                     speaker = "Agent 1"
                 elif speaker == "mturk_agent_2":
                     speaker = "Agent 2"
+            elif self.dataset_type == "cd":
+                if speaker == "S_0":
+                    speaker = "Speaker 1"
+                elif speaker == "S_1":
+                    speaker = "Speaker 2"
             
             if self.include_intentions and 'intention' in row and pd.notna(row['intention']):
                 formatted_conversation.append(f"{speaker}: {row['utterance']} [{row['intention']}]")
@@ -126,9 +133,6 @@ class ConversationForecastingWithIntentions:
         if self.summary_type != "none":
             summary_column = f"{self.summary_type}_summary"
             if summary_column in row and pd.notna(row[summary_column]):
-                if self.dataset_type == "cb":
-                    summary = f"{row[summary_column]}"
-                else:
                     summary = f"{row[summary_column]}"
 
         if self.dataset_type == "cb":
@@ -148,6 +152,11 @@ INPUT: <${buyer_target}, ${seller_target}, [{conversation}]{summary_part}>"""
             summary_part = f" {summary}" if summary else ""  # Format like paste-2
             
             prompt = f"""You are helping analyze a persuasion conversation{intentions_note}. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'\n\nConversation:\n{conversation}{summary_part}"""
+        elif self.dataset_type == "cd":
+            intentions_note = " with intentions" if self.include_intentions else ""
+            summary_part = f" {summary}" if summary else ""  # Format like paste-2
+            
+            prompt = f"""You are an assistant trained to detect early warning signs of toxic behavior in online conversations{intentions_note}. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'\n\nConversation:\n{conversation}{summary_part}"""
         elif self.dataset_type == "casino":
             # Extract agent preferences
             agent1_high = row.get('mturk_agent_1_high_item', '').lower() if pd.notna(row.get('mturk_agent_1_high_item', '')) else 'unknown'
@@ -331,6 +340,25 @@ Remember: Each resource must sum to exactly 3 units across both agents."""
                 if donation_match:
                     donation_decision = donation_match.group(1).upper()
                     return donation_decision
+
+        elif self.dataset_type == "cd":
+            if "assistant" in response:
+            # Extract content after the marker
+                parts = response.split("assistant")
+                if len(parts) > 1:
+                    response = parts[1]
+                
+                # Look for ATTACK: YES or ATTACK: NO pattern
+                attack_match = re.search(r'ATTACK:\s*(YES|NO)', response, re.IGNORECASE)
+                if attack_match:
+                    attack_decision = attack_match.group(1).upper()
+                    return attack_decision
+            else:
+                attack_match = re.search(r'ATTACK:\s*(YES|NO)', response, re.IGNORECASE)
+                if attack_match:
+                    attack_decision = attack_match.group(1).upper()
+                    return attack_decision
+
         elif self.dataset_type == "casino":
             # Use the extract_allocation function for casino dataset
             return self.extract_allocation(response)
@@ -346,6 +374,11 @@ Remember: Each resource must sum to exactly 3 units across both agents."""
             donation_made = row.get('donation_made')
             if donation_made is not None:
                 return "YES" if donation_made==1 else "NO"
+            return None
+        elif self.dataset_type == "cd":
+            personal_attack = row.get('personal_attack')
+            if personal_attack is not None:
+                return "YES" if personal_attack==1 else "NO"
             return None
         elif self.dataset_type == "casino":
             try:
@@ -402,7 +435,7 @@ Remember: Each resource must sum to exactly 3 units across both agents."""
             
         if self.dataset_type == "cb":
             return None
-        elif self.dataset_type == "p4g":
+        elif self.dataset_type == "p4g" or self.dataset_type == "cd":
             return 1 if str(actual).lower() == str(predicted).lower() else 0
         elif self.dataset_type == "casino":
             # For casino, we use utility MSE as a metric
@@ -457,6 +490,14 @@ Remember: Each resource must sum to exactly 3 units across both agents."""
                         'correct': correct,
                         'donation_amount': row.get('donation_amount')
                     })
+
+                elif self.dataset_type == "cd":
+                    result.update({
+                        'actual': actual.lower() if actual else None,
+                        'predicted': prediction.lower() if prediction else None,
+                        'correct': correct
+                    })
+
                 # When adding prediction results to the output
                 elif self.dataset_type == "casino" and isinstance(actual, dict) and isinstance(prediction, dict):
                     try:
@@ -534,12 +575,20 @@ Remember: Each resource must sum to exactly 3 units across both agents."""
                         'seller_target': group['seller_target'].iloc[0] if 'seller_target' in group.columns else None,
                         'sale_price': group['sale_price'].iloc[0] if 'sale_price' in group.columns else None
                     })
+
                 elif self.dataset_type == "p4g":
                     # For the p4g dataset, correctly handle the donation_made column
                     dialogue_row.update({
                         'donation_amount': group['donation_amount'].iloc[0] if 'donation_amount' in group.columns else None,
                         'donation_made': group['donation_made'].iloc[0] if 'donation_made' in group.columns else None
                     })
+
+                elif self.dataset_type == "cd":
+                    # For the conversation derailment dataset, correctly handle the personal_attack column
+                    dialogue_row.update({
+                        'personal_attack': group['personal_attack'].iloc[0] if 'personal_attack' in group.columns else None
+                    })
+
                 elif self.dataset_type == "casino":
                     # Add casino-specific fields
                     casino_fields = [
@@ -620,8 +669,9 @@ Remember: Each resource must sum to exactly 3 units across both agents."""
                                         (row['seller_target'] <= row['predicted_final_price'] <= row['buyer_target']) 
                                    else 0, axis=1)
                     print(f"  Predictions within negotiation range: {df['within_range'].sum()} ({df['within_range'].mean() * 100:.2f}%)")
-            elif self.dataset_type == "p4g":
-                # For p4g dataset with binary prediction
+
+            elif self.dataset_type == "p4g" or self.dataset_type == "cd":
+                # For p4g and cd dataset with binary predictions
                 if 'correct' in df.columns:
                     print(f"  Correct predictions: {df['correct'].sum()} ({df['correct'].mean() * 100:.2f}%)")
                     
@@ -641,6 +691,7 @@ Remember: Each resource must sum to exactly 3 units across both agents."""
                             print(f"  Precision: {precision:.4f}")
                             print(f"  Recall: {recall:.4f}")
                             print(f"  F1 Score: {f1:.4f}")
+
             elif self.dataset_type == "casino":
                 # Calculate utility MSE for casino dataset
                 if 'utility_mse' in df.columns:
@@ -698,8 +749,8 @@ Remember: Each resource must sum to exactly 3 units across both agents."""
 
 def main():
     parser = argparse.ArgumentParser(description="Conversation Forecasting With Intentions")
-    parser.add_argument("--dataset_type", type=str, required=True, choices=["cb", "p4g", "casino"],
-                        help="Type of dataset (cb for Craigslist Bargain, p4g for Persuasion for Good)")
+    parser.add_argument("--dataset_type", type=str, required=True, choices=["cb", "p4g", "cd", "casino"],
+                        help="Type of dataset (cb for Craigslist Bargain, p4g for Persuasion for Good, cd for Conversation Derailment, casino for Casino Negotiation)")
     parser.add_argument("--model_type", type=str, default="gpt", choices=["gpt", "llama8b", "llama70b"],
                         help="Type of model to use (gpt for OpenAI, llama for open source Llama model)")
     parser.add_argument("--summary_type", type=str, default="none",
@@ -713,7 +764,6 @@ def main():
                         help="Include speaker intentions in the conversation format")
     parser.add_argument("--seed", type=int, default=42,
                         help="Seed")
-
 
     args = parser.parse_args()
 
