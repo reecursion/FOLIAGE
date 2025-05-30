@@ -17,6 +17,7 @@ from transformers import (
     Trainer,
     EarlyStoppingCallback
 )
+from huggingface_hub import login
 
 def compute_metrics(eval_preds, val_idx=None, full_dataset=None):
     """
@@ -81,7 +82,7 @@ def parse_arguments():
                         help="Type of summary to use for global intentions")
     
     # Training arguments
-    parser.add_argument("--output_dir", type=str, default="data/user_data/rithviks/",
+    parser.add_argument("--output_dir", type=str, default="data/user_data/gganeshl/",
                         help="Directory to save model checkpoints")
     parser.add_argument("--batch_size", type=int, default=4, help="Training batch size per device")
     parser.add_argument("--epochs", type=int, default=10, help="Number of training epochs")
@@ -263,7 +264,7 @@ def perform_kfold_cross_validation(args):
         experiment_name += f"_{args.summary_type}"
     
     # Initialize predictions CSV
-    predictions_file = os.path.join(f"/home/rithviks/FOLIAGE/src/sft/results/{args.dataset_type}/seed_{args.seed}", f"{experiment_name}_predictions.csv")
+    predictions_file = os.path.join(f"/home/gganeshl/FOLIAGE/src/sft/results/{args.dataset_type}/seed_{args.seed}", f"{experiment_name}_predictions.csv")
     
     # Initialize empty DataFrame if file doesn't exist
     if not os.path.exists(predictions_file):
@@ -632,4 +633,6 @@ def main():
     perform_kfold_cross_validation(args)
 
 if __name__ == "__main__":
+    login("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")
     main()
+    
