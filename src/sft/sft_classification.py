@@ -9,6 +9,7 @@ from datasets import Dataset
 from peft import LoraConfig, get_peft_model
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 from sklearn.model_selection import KFold
+from huggingface_hub import login
 from transformers import (
     AutoModelForSequenceClassification,
     AutoTokenizer,
@@ -633,6 +634,6 @@ def main():
     perform_kfold_cross_validation(args)
 
 if __name__ == "__main__":
-    login("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")
+    login(os.getenv("HF_API_KEY"))
     main()
     
