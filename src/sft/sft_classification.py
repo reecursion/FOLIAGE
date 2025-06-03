@@ -9,6 +9,7 @@ from datasets import Dataset
 from peft import LoraConfig, get_peft_model
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 from sklearn.model_selection import KFold
+from huggingface_hub import login
 from transformers import (
     AutoModelForSequenceClassification,
     AutoTokenizer,
@@ -17,6 +18,7 @@ from transformers import (
     Trainer,
     EarlyStoppingCallback
 )
+from huggingface_hub import login
 
 def compute_metrics(eval_preds, val_idx=None, full_dataset=None):
     """
@@ -70,8 +72,8 @@ def parse_arguments():
     
     # Dataset arguments
     parser.add_argument("--dataset_path", type=str, required=True, help="Path to the CSV dataset file")
-    parser.add_argument("--dataset_type", type=str, required=True, choices=["p4g"],
-                        help="Type of dataset (p4g for Persuasion for Good)")
+    parser.add_argument("--dataset_type", type=str, required=True, choices=["p4g", "cd"],
+                        help="Type of dataset (p4g for Persuasion for Good, cd for Conversational Derailment)")
     
     # Intentions arguments
     parser.add_argument("--scaffolding_type", type=str, required=True, choices=["local", "global", "both", "none"],
@@ -105,7 +107,7 @@ def prepare_dataset(args, tokenizer):
     print(f"Loading dataset from {args.dataset_path}")
     df = pd.read_csv(args.dataset_path)
     
-    if args.dataset_type != "p4g":
+    if args.dataset_type not in ["p4g", "cd"]:
         return None
     
     print("Processing dialogue-level dataset...")
@@ -116,24 +118,41 @@ def prepare_dataset(args, tokenizer):
         # Sort by utterance index
         group = group.sort_values('utterance_idx')
         
-        # Check if donation_made column exists
-        if 'donation_made' not in group.columns:
-            print(f"Warning: donation_made column not found in dialogue {dialogue_id}, skipping")
-            continue
-        
-        # Get donation information (label)
-        donation_made = bool(group['donation_made'].iloc[0])
-        label = 1 if donation_made else 0  # Convert to integer labels
+        if args.dataset_type == "p4g":
+            # Check if donation_made column exists
+            if 'donation_made' not in group.columns:
+                print(f"Warning: donation_made column not found in dialogue {dialogue_id}, skipping")
+                continue
+            # Get donation information (label)
+            donation_made = bool(group['donation_made'].iloc[0])
+            label = 1 if donation_made else 0  # Convert to integer labels
+
+        elif args.dataset_type == "cd":
+            if 'personal_attack' not in group.columns:
+                print(f"Warning: personal_attack column not found in dialogue {dialogue_id}, skipping")
+                continue
+            # Get donation information (label)
+            personal_attack = bool(group['personal_attack'].iloc[0])
+            label = 1 if personal_attack else 0  # Convert to integer labels
         
         # Format conversation
         conversation = []
         for _, row in group.iterrows():
-            # Format speaker role
-            speaker = row['speaker']
-            if speaker == "EE":
-                speaker = "Persuadee (EE)"
-            elif speaker == "ER":
-                speaker = "Persuader (ER)"
+
+            if args.dataset_type == "p4g":
+                # Format speaker role
+                speaker = row['speaker']
+                if speaker == "EE":
+                    speaker = "Persuadee (EE)"
+                elif speaker == "ER":
+                    speaker = "Persuader (ER)"
+
+            elif args.dataset_type == "cd":
+                speaker = row['speaker']
+                if speaker == "S_0":
+                    speaker = "Speaker 1"
+                elif speaker == "S_1":
+                    speaker = "Speaker 2"
             
             # Format with or without intentions based on scaffolding type
             utterance = row['utterance']
@@ -155,7 +174,11 @@ def prepare_dataset(args, tokenizer):
         
         # Create a prompt for classification
         intentions_note = " with intentions" if args.scaffolding_type in ["local", "both"] else ""
-        prompt = f"You are helping analyze a persuasion conversation{intentions_note}. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'\n\nConversation:\n{formatted_conversation}"
+
+        if args.dataset_type == "p4g":
+            prompt = f"You are helping analyze a persuasion conversation{intentions_note}. Predict whether the persuadee will make a donation on the spot at the end of this conversation. Provide your answer in the format 'DONATION: YES/NO'\n\nConversation:\n{formatted_conversation}"
+        elif args.dataset_type == "cd":
+            prompt = f"You are an assistant trained to detect early warning signs of toxic behavior in online conversations{intentions_note}. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'\n\nConversation:\n{formatted_conversation}"
         
         # Add to dataset
         grouped_data.append({
@@ -187,16 +210,18 @@ def prepare_dataset(args, tokenizer):
         print("\nSample input-label pair:")
         sample_idx = 0
         print(f"TEXT:\n{tokenized_dataset[sample_idx]['text']}")
-        print(f"DONATED: {tokenized_dataset[sample_idx]['label']} ({'YES' if tokenized_dataset[sample_idx]['label'] == 1 else 'NO'})")
-    
+        if args.dataset_type == "p4g":
+            print(f"DONATED: {tokenized_dataset[sample_idx]['label']} ({'YES' if tokenized_dataset[sample_idx]['label'] == 1 else 'NO'})")
+        elif args.dataset_type == "cd":
+            print(f"PERSONAL ATTACK: {tokenized_dataset[sample_idx]['label']} ({'YES' if tokenized_dataset[sample_idx]['label'] == 1 else 'NO'})")
     return tokenized_dataset
 
 
 def perform_kfold_cross_validation(args):
     """Perform k-fold cross validation for classification."""
     # Check dataset type
-    if args.dataset_type != "p4g":
-        print(f"This script currently only supports the p4g dataset type. You specified: {args.dataset_type}")
+    if args.dataset_type not in ["p4g", "cd"]:
+        print(f"This script currently only supports the p4g and cd dataset type. You specified: {args.dataset_type}")
         return []
     
     # Set random seed for reproducibility
@@ -603,10 +628,12 @@ def perform_kfold_cross_validation(args):
 
 def main():
     args = parse_arguments()
-    if args.dataset_type != "p4g":
+    if args.dataset_type not in ["p4g", "cd"]:
         return
     
     perform_kfold_cross_validation(args)
 
 if __name__ == "__main__":
+    login(os.getenv("HF_API_KEY"))
     main()
+    
