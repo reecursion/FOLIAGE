@@ -3,7 +3,7 @@ import pandas as pd
 
 # Seeds to check
 seeds = [10623, 11611, 42]
-base_dir = 'src/sft/results/cb'
+base_dir = 'src/sft/results/cd'
 expected_folds = {1, 2, 3, 4, 5}
 
 # Final report dictionary
