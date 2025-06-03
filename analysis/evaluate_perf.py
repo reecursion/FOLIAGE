@@ -173,7 +173,7 @@ def get_cb_perfs():
                         import pdb; pdb.set_trace()
                     
 
-                    print(f'csv_file: {csv_file}, rmse {rmse}, corr {pearson_corr}, nmse {nmse_val}, rmse_price {rmse_price_val}')
+                    # print(f'csv_file: {csv_file}, rmse {rmse}, corr {pearson_corr}, nmse {nmse_val}, rmse_price {rmse_price_val}')
                     
 
                 
