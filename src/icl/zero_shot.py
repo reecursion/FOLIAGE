@@ -21,7 +21,7 @@ def seed_everything(seed):
     torch.cuda.manual_seed_all(seed)
 
 class ConversationForecastingWithIntentions:
-    def __init__(self, dataset_type, model_type="gpt", summary_type="none", 
+    def __init__(self, dataset_type, model_type="llama70b", summary_type="none", 
                  ratio=0.5, batch_size=5, include_intentions=False, seed=42):
         self.dataset_type = dataset_type
         self.model_type = model_type
@@ -63,7 +63,7 @@ class ConversationForecastingWithIntentions:
             self.client = OpenAI(api_key=self.api_key)
         elif self.model_type == "llama70b" or self.model_type == "llama8b":
             self.client = OpenAI(
-                base_url="http://babel-11-13:8081/v1",
+                base_url="http://babel-3-21:8081/v1",
                 api_key="EMPTY"
             )
         
@@ -201,7 +201,7 @@ Remember: Each resource must sum to exactly 3 units across both agents."""
             elif self.model_type == "llama70b":
                 try:
                     response = self.client.chat.completions.create(
-                        model="meta-llama/Llama-3.1-70B-Instruct",
+                        model="/data/user_data/rithviks/Llama-3.1-70B-Instruct",
                         messages=[{"role": "user", "content": prompt}],
                         temperature=0.7,
                         max_tokens=200
@@ -624,6 +624,7 @@ Remember: Each resource must sum to exactly 3 units across both agents."""
         for i in tqdm(range(0, len(df), self.batch_size), desc="Processing", unit="batch"):
             batch = df.iloc[i:i + self.batch_size]
             batch_results = self.process_batch(batch)
+            print(batch_results)
             all_results.extend(batch_results)
             self.save_progress(all_results)
 
@@ -751,7 +752,7 @@ def main():
     parser = argparse.ArgumentParser(description="Conversation Forecasting With Intentions")
     parser.add_argument("--dataset_type", type=str, required=True, choices=["cb", "p4g", "cd", "casino"],
                         help="Type of dataset (cb for Craigslist Bargain, p4g for Persuasion for Good, cd for Conversation Derailment, casino for Casino Negotiation)")
-    parser.add_argument("--model_type", type=str, default="gpt", choices=["gpt", "llama8b", "llama70b"],
+    parser.add_argument("--model_type", type=str, default="llama70b", choices=["gpt", "llama8b", "llama70b"],
                         help="Type of model to use (gpt for OpenAI, llama for open source Llama model)")
     parser.add_argument("--summary_type", type=str, default="none",
                         choices=["none", "traditional", "scd", "relational", "scm", "appraisal_theory", "politeness_theory_stage2"],
