@@ -49,10 +49,10 @@ def seed_everything(seed=0):
 
 def get_arguments():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset',        type=str, default='CB', help='Choosing the CONV Forecasting dataset')
-    parser.add_argument('--input_dir',      type=str, default='../data/', help='The input directory')
-    parser.add_argument('--local_info',     type=str, default='intentions', help='Choice of local_information to use')
-    parser.add_argument('--global_info',    type=str, default='scd_summary', help='Choice of global_information to use')
+    parser.add_argument('--dataset',        type=str, default='cd', help='Choosing the CONV Forecasting dataset')
+    parser.add_argument('--input_dir',      type=str, default='baselines/data/', help='The input directory')
+    parser.add_argument('--local_info',     type=str, default=None, help='Choice of local_information to use')
+    parser.add_argument('--global_info',    type=str, default=None, help='Choice of global_information to use')
     parser.add_argument('--LLM',            type=str, default='gpt-4o', help='The language model to use')
     parser.add_argument('--frac',           type=str, default='ALL', help='The fraction of data to use')
     parser.add_argument('--fold',           type=int, default=0, help='The fold to use')
@@ -67,7 +67,7 @@ def get_arguments():
     parser.add_argument('--gpu',            type=str, default='0', help='The gpu to use')
 
     parser.add_argument('--epochs',         type=int, default=15, help='The number of training epochs')
-    parser.add_argument('--seed',           type=int, default=15232, help='The random seed')
+    parser.add_argument('--seed',           type=int, default=42, help='The random seed')
     parser.add_argument('--learning_rate',  type=float, default=2e-5, help='The learning rate')
     parser.add_argument('--grad_accumulation_steps', type=int, default=1, help='The number of gradient accumulation steps')
     parser.add_argument('--patience',       type=int, default=5, help='The number of patience steps')
@@ -88,10 +88,12 @@ def seen_eval(model, data_loader, device, args, tokenizer):
 
         upd_data           = {
             "utt_ids":      [elem.to(device) for elem in data["utt_ids"]],
-            "utt_masks":     [elem.to(device) for elem in data["utt_masks"]],
-            "global_ids":    data["global_ids"].to(device),
-            "global_masks":  data["global_masks"].to(device),
+            "utt_masks":     [elem.to(device) for elem in data["utt_masks"]]
         }
+        if data["global_ids"] is not None:
+            upd_data["global_ids"] = data["global_ids"].to(device)
+            upd_data["global_masks"] = data["global_masks"].to(device)
+
 
         targets             = data["binary_score"].to(device)
         # forward pass
@@ -109,9 +111,13 @@ def seen_eval(model, data_loader, device, args, tokenizer):
         y_preds.append(y_pred)
         y_trues.append(y_true)
 
-    p, r, f1, _ = precision_recall_fscore_support(y_true, y_pred, average='macro')
+    # Flatten the batches
+    flat_y_true = [label for batch in y_trues for label in batch]
+    flat_y_pred = [label for batch in y_preds for label in batch]
+
+    p, r, f1, _ = precision_recall_fscore_support(flat_y_true, flat_y_pred, average='macro')
     acc = accuracy_score(y_true, y_pred)
-    
+
     return {
         'precision': p,
         'recall': r,
@@ -127,7 +133,7 @@ if __name__ == '__main__':
     args = get_arguments()
     pprint(args)
 
-    if args.dataset == 'CB':
+    if args.dataset == 'cd' or args.dataset == 'p4g':
         args.num_classes = 2
 
 
@@ -140,9 +146,9 @@ if __name__ == '__main__':
 
     tokenizer       = AutoTokenizer.from_pretrained(args.model_name)
 
-    train_data      = json.load(open(f'../data/{args.dataset}/processed/RAT_{args.frac}_{args.fold}_train.json'))
-    dev_data        = json.load(open(f'../data/{args.dataset}/processed/RAT_{args.frac}_{args.fold}_test.json'))
-    test_data       = json.load(open(f'../data/{args.dataset}/processed/RAT_{args.frac}_{args.fold}_test.json'))
+    train_data      = json.load(open(f'baselines/data/{args.dataset}/processed/RAT_{args.frac}_{args.fold}_train.json'))
+    dev_data        = json.load(open(f'baselines/data/{args.dataset}/processed/RAT_{args.frac}_{args.fold}_test.json'))
+    test_data       = json.load(open(f'baselines/data/{args.dataset}/processed/RAT_{args.frac}_{args.fold}_test.json'))
 
     train_loader, dev_loader, test_loader = get_data_loaders(
         train_data,
@@ -157,7 +163,7 @@ if __name__ == '__main__':
 
     CE_loss = nn.CrossEntropyLoss()
 
-    identifiable_file = f'{args.dataset}_{args.LLM}_{args.local_info}_{args.global_info}_{args.frac}_{args.model_name}_{args.trainable}_{args.seed}_{args.fold}'
+    identifiable_file = f'{args.dataset}_classification_ratio_{args.frac}_{args.local_info}_{args.global_info}_{args.model_name}_fold_{args.fold}.txt'
 
 
     if args.do_train == 1:
@@ -170,7 +176,7 @@ if __name__ == '__main__':
         best_p, best_r, best_f1 = 0, 0, 0
         kill_cnt = 0
 
-        checkpoint_file = f'../ckpts/{identifiable_file}.pt'
+        checkpoint_file = f'baselines/ckpts/{identifiable_file}.pt'
 
         for epoch in range(args.epochs):
             print(f"============== TRAINING ON EPOCH {epoch} ==============")
@@ -182,10 +188,11 @@ if __name__ == '__main__':
 
                 upd_data           = {
                     "utt_ids":      [elem.to(device) for elem in data["utt_ids"]],
-                    "utt_masks":     [elem.to(device) for elem in data["utt_masks"]],
-                    "global_ids":    data["global_ids"].to(device),
-                    "global_masks":  data["global_masks"].to(device),
+                    "utt_masks":     [elem.to(device) for elem in data["utt_masks"]]
                 }
+                if data["global_ids"] is not None:
+                    upd_data["global_ids"] = data["global_ids"].to(device)
+                    upd_data["global_masks"] = data["global_masks"].to(device)
 
                 targets             = data["binary_score"].to(device)
                 # forward pass
@@ -245,7 +252,20 @@ if __name__ == '__main__':
         
         print(f"Test data \t Precision: {p_test} \t Recall: {r_test} \t F1: {f1_test}\t Loss: {results['loss']}")
 
+        # Write to a file
+        os.makedirs(f"baselines/results/seed_{args.seed}", exist_ok=True)
+        with open(f"baselines/results/seed_{args.seed}/{identifiable_file}", 'w') as f:
 
+            f.write(f"Dataset: {args.dataset}\n")
+            f.write(f"Local Info: {args.local_info}\n")
+            f.write(f"Global Info: {args.global_info}\n")
+            f.write(f"Model: {args.model_name}\n")
+            f.write(f"Fraction: {args.frac}\n")
+            f.write(f"Seed: {args.seed}\n")
+            f.write(f"Fold: {args.fold}\n")
+            f.write(f"\n")
+
+            f.write(f"Test data \t Precision: {p_test} \t Recall: {r_test} \t F1: {f1_test}\t Loss: {results['loss']}\n")
 
 ### stop thinking about improving performance, but more about improving efficiency. 
 ### create a broader picture of the issue; where it works, why it doesn't work and why does it not work?

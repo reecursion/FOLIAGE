@@ -12,28 +12,26 @@ from transformers import AutoTokenizer
 
 
 def create_mini_batch(samples):
-
-    # 'utt_ids': utt_ids,
-    # 'utt_mask': utt_mask,
-    # 'global_ids': global_ids,
-    # 'global_mask': global_mask,
-    # 'binary_score': binary_score,
-    # 'score': score
-
     utt_ids         = [s["utt_ids"] for s in samples]
     utt_mask        = [s["utt_masks"] for s in samples]
     global_ids      = [s["global_ids"] for s in samples]
     global_mask     = [s["global_masks"] for s in samples]
     binary_score    = [s["binary_score"] for s in samples]
-    score           = [s["score"] for s in samples]
+    
+    # Handle the case where global_ids might contain None values
+    if any(g_id is None for g_id in global_ids):
+        global_ids_tensor = None
+        global_mask_tensor = None
+    else:
+        global_ids_tensor = torch.vstack(global_ids)
+        global_mask_tensor = torch.vstack(global_mask)
     
     return {
         "utt_ids":  utt_ids,
         "utt_masks": utt_mask,
-        "global_ids": torch.vstack(global_ids),
-        "global_masks": torch.vstack(global_mask),
-        "binary_score": torch.LongTensor(binary_score),
-        "score": torch.Tensor(score)
+        "global_ids": global_ids_tensor,
+        "global_masks": global_mask_tensor,
+        "binary_score": torch.LongTensor(binary_score)
     }
 
 
@@ -61,7 +59,6 @@ def conv_encoder(item, tokenizer, local_info=None, global_info=None, num_classes
     #     "scd_summary": "The conversation begins with the buyer expressing interest in the seller's product, indicating a positive and curious sentiment. The seller responds promptly and openly, inviting further engagement by asking if the buyer has any questions. This sets a cooperative tone, with the seller adopting a supportive and accommodating strategy to facilitate the buyer's decision-making process. Both parties appear open and ready to continue the dialogue constructively.",
     #     "politeness_summary": "In this exchange, both participants effectively use face management strategies to maintain a positive social dynamic. The Buyer raises the Seller's positive face by expressing interest, affirming the product's value. The Seller's response invites further engagement, respecting the Buyer's autonomy and minimizing face-threatening acts by allowing the Buyer to guide the conversation. These politeness strategies foster a respectful and cooperative interaction, reinforcing positive interpersonal dynamics and mutual respect, which can lead to a successful transaction.",
     #     "binary_score": 0,
-    #     "score": 0.3125
 
     utt_ids     = []
     utt_mask    = []
@@ -112,7 +109,6 @@ def conv_encoder(item, tokenizer, local_info=None, global_info=None, num_classes
         global_mask = global_encoding['attention_mask']
     
     
-    score           = item['score']
     binary_score    = item['binary_score']
 
 
@@ -122,7 +118,6 @@ def conv_encoder(item, tokenizer, local_info=None, global_info=None, num_classes
         'global_ids': global_ids,
         'global_masks': global_mask,
         'binary_score': binary_score,
-        'score': score
     }
 
     return result
