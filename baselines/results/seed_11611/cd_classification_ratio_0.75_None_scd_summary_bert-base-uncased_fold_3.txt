@@ -1,0 +1,9 @@
+Dataset: cd
+Local Info: None
+Global Info: scd_summary
+Model: bert-base-uncased
+Fraction: 0.75
+Seed: 11611
+Fold: 3
+
+Test data 	 Precision: 0.6454487179487179 	 Recall: 0.6411069651741294 	 F1: 0.6406564386317908	 Loss: 1.4636340107699652
