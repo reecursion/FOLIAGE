@@ -24,11 +24,10 @@ def split_ids2folds(ids, num_folds):
 
 def preprocess_wiki(args):
 
-    # dialogue_id,turn_id,utterance_idx,speaker,utterance,personal_attack,gpt-4o_speaker_intention,traditional_summary,scm_summary,scd_summary
+    # dialogue_id,turn_id,utterance_idx,speaker,utterance,personal_attack,intention,traditional_summary,scm_summary,scd_summary
 
     fracwise_dialogs    = ddict(list)
-
-    df = pd.read_csv(f'datasets/conversationderailment/final/ratio_{args.frac}.csv')
+    df = pd.read_csv(f'/Users/rithviksenthil/Desktop/FOLIAGE/datasets/p4g/final/ratio_{args.frac}.csv')
     # df.rename(columns={'politeness_theory_stage2_summary': 'politeness_summary'}, inplace=True)
     uniq_conversations  = df['dialogue_id'].unique()
 
@@ -39,7 +38,7 @@ def preprocess_wiki(args):
 
     for frac in [0.25, 0.375, 0.5, 0.625, 0.75]:
         
-        df = pd.read_csv(f'datasets/conversationderailment/final/ratio_{frac}.csv')
+        df = pd.read_csv(f'/Users/rithviksenthil/Desktop/FOLIAGE/datasets/p4g/final/ratio_{frac}.csv')
         # df.rename(columns={'politeness_theory_stage2_summary': 'politeness_summary'}, inplace=True)
         uniq_conversations  = df['dialogue_id'].unique()
 
@@ -54,9 +53,6 @@ def preprocess_wiki(args):
                         'speakers': [],\
                         'utterances': [],\
                         'intentions': [],\
-                        'buyer_target':None,\
-                        'seller_target':None,\
-                        'sale_price':None, \
                         'traditional_summary':"", \
                         'scm_summary':"", \
                         'scd_summary':""}
@@ -67,7 +63,7 @@ def preprocess_wiki(args):
                 for idx, row in curr_df.iterrows():
                     curr_data['speakers'].append(row['speaker'])
                     curr_data['utterances'].append(row['utterance'])
-                    curr_data['intentions'].append(row['gpt-4o_speaker_intention'])
+                    curr_data['intentions'].append(row['intention'])
 
                     if curr_data['traditional_summary'] == "":
                         curr_data['traditional_summary'] = row['traditional_summary']
@@ -84,7 +80,7 @@ def preprocess_wiki(args):
                     else:
                         assert row['scd_summary'] == curr_data['scd_summary']
 
-                curr_data['binary_score']  = row["personal_attack"]
+                curr_data['binary_score']  = row["donation_made"]
 
                 if dialog_id in foldwise_conv_ids[fold]:
                     test_conv_data.append(curr_data)
@@ -95,10 +91,10 @@ def preprocess_wiki(args):
                     train_foldwise_data[fold].append(curr_data)
             
 
-            with open(f'baselines/data/{args.dataset}/processed/RAT_{frac}_{fold}_train.json', 'w') as f:
+            with open(f'/Users/rithviksenthil/Desktop/FOLIAGE/baselines/data/{args.dataset}/processed/RAT_{frac}_{fold}_train.json', 'w') as f:
                 json.dump(train_conv_data, f, indent=4)
             
-            with open(f'baselines/data/{args.dataset}/processed/RAT_{frac}_{fold}_test.json', 'w') as f:
+            with open(f'/Users/rithviksenthil/Desktop/FOLIAGE/baselines/data/{args.dataset}/processed/RAT_{frac}_{fold}_test.json', 'w') as f:
                 json.dump(test_conv_data, f, indent=4)
         
             # print("Length of train data: ", len(train_conv_data))
@@ -106,10 +102,10 @@ def preprocess_wiki(args):
     
     for fold in range(args.num_folds):
 
-        with open(f'baselines/data/{args.dataset}/processed/RAT_ALL_{fold}_train.json', 'w') as f:
+        with open(f'/Users/rithviksenthil/Desktop/FOLIAGE/baselines/data/{args.dataset}/processed/RAT_ALL_{fold}_train.json', 'w') as f:
             json.dump(train_foldwise_data[fold], f, indent=4)
         
-        with open(f'baselines/data/{args.dataset}/processed/RAT_ALL_{fold}_test.json', 'w') as f:
+        with open(f'/Users/rithviksenthil/Desktop/FOLIAGE/baselines/data/{args.dataset}/processed/RAT_ALL_{fold}_test.json', 'w') as f:
             json.dump(test_foldwise_data[fold], f, indent=4)
     
 
@@ -118,7 +114,7 @@ def preprocess_wiki(args):
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description='Preprocess the data.')
-    parser.add_argument('--dataset', type=str, default='CB', help='Path to the data directory.')
+    parser.add_argument('--dataset', type=str, default='p4g', help='Path to the data directory.')
     parser.add_argument('--step',    type=str, default='prepare')
     parser.add_argument('--frac',    type=str, default=0.25, help='Fraction of data to use.')
     parser.add_argument('--num_folds', type=int, default=5, help='Number of folds for cross-validation.')
@@ -126,9 +122,3 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     preprocess_wiki(args)
-
-
-
-
-
-

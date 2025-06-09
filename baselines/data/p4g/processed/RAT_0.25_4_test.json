@@ -1,0 +1,1485 @@
+[
+    {
+        "dialogue_id": "20180719-122534_38_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "ER",
+            "ER",
+            "ER",
+            "ER"
+        ],
+        "utterances": [
+            "It would be really helpful if you donated to Save the Children fund!",
+            "What does the money go towards if I donate?",
+            "When crisis strikes and children are most vulnerable, we are always among the first to respond and the last to leave.",
+            "We ensure children's unique needs are met and their voices are heard.",
+            "We deliver lasting results for millions of children, including those hardest to reach.",
+            "We do whatever it takes for children ??\u00c2\u00b8??\u00c2\u00b8 transforming their lives and the future we share ??\u00c2\u00b8??\u00c2\u00b8 because we believe every child deserves a future."
+        ],
+        "intentions": [
+            "Requesting a donation to Save the Children fund",
+            "Inquiring about the allocation of donated money",
+            "Explaining the organization's response during crises",
+            "Emphasizing the focus on children's needs and voices",
+            "Highlighting the impact and reach of their efforts",
+            "Reinforcing the organization's commitment to children's futures"
+        ],
+        "traditional_summary": "ER is encouraging EE to donate to the Save the Children fund, explaining that donations support crisis response, meet children's unique needs, and deliver lasting results for vulnerable children, including those hardest to reach. ER emphasizes the organization's commitment to transforming children's lives and ensuring every child has a future.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER demonstrates high warmth through their passionate appeal for donations and emphasis on helping vulnerable children. Their competence is also high, as they provide detailed information about the organization's efforts and impact, indicating a strong understanding of the cause and its operations.\n\nuser2 (EE):\n  warmth: low\n  competence: high\n  explanation: EE's warmth is low, as their response is limited to a factual inquiry without expressing empathy or support. However, their competence is high, as they ask a relevant question that seeks to understand the allocation of donations, indicating a thoughtful and informed approach.",
+        "scd_summary": "The conversation begins with ER making a direct appeal for a donation, which prompts EE to inquire about the allocation of funds. ER responds with a series of persuasive statements, emphasizing the organization's commitment and impact. ER's strategy is to build trust and convey dedication, maintaining a consistent focus on the organization's mission and values to persuade EE to contribute.",
+        "binary_score": 1
+    },
+    {
+        "dialogue_id": "20180719-211846_176_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "ER",
+            "EE",
+            "EE",
+            "ER",
+            "EE"
+        ],
+        "utterances": [
+            "hi, how are you?",
+            "I'm doing well thank you",
+            "that good You knew that for every minute that passes, a child under the age of 5 dies as a result of the war in the Middle East",
+            "That is absolutely terrible.",
+            "Are there any good charities that are helping on this issue?",
+            "I recently read from an organization called Save a Children, which works hard to protect these children and needs financial help to continue",
+            "How can someone help?"
+        ],
+        "intentions": [
+            "Initiate conversation and greet",
+            "Respond to greeting and provide a status update",
+            "Introduce a serious issue to raise awareness",
+            "Express concern and empathy",
+            "Inquire about potential solutions or actions",
+            "Provide information about a specific charity",
+            "Seek further information on how to help"
+        ],
+        "traditional_summary": "ER and EE are discussing the tragic impact of war on children in the Middle East. ER mentions that a child under five dies every minute due to the conflict and suggests supporting the charity \"Save the Children,\" which aids affected children. EE expresses interest in helping and asks how to contribute.",
+        "scm_summary": "user1 (ER):\n  warmth: low\n  competence: high\n  explanation: ER initiates the conversation with a shocking fact, which may come across as lacking warmth. However, they provide specific information about an organization, indicating competence in the topic discussed.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: EE responds empathetically to the information shared, showing high warmth. They also ask relevant questions about charities and ways to help, demonstrating high competence in engaging with the topic constructively.",
+        "scd_summary": "The conversation begins with a polite exchange of greetings and quickly shifts to a serious topic introduced by ER, highlighting a humanitarian issue. EE responds with empathy and concern, expressing a desire to help. ER provides information about a specific organization addressing the issue, and EE's interest in contributing is evident as they inquire about ways to assist. The conversation maintains a tone of urgency and compassion, with EE's engagement growing throughout.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180723-042421_113_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "ER",
+            "EE",
+            "ER",
+            "EE",
+            "EE",
+            "EE"
+        ],
+        "utterances": [
+            "This site Helps many child",
+            "What kind of children does it help?",
+            "Their motto is to help children's future...that every child deserves a future",
+            "What is the name of the organization?",
+            "Save the Children",
+            "How do they help children?",
+            "Food?",
+            "Clothing?"
+        ],
+        "intentions": [
+            "Provide information about the site",
+            "Seek clarification on the type of children helped",
+            "Explain the organization's motto",
+            "Inquire about the organization's name",
+            "Provide the organization's name",
+            "Ask how the organization helps children",
+            "Suggest food as a form of help",
+            "Suggest clothing as a form of help"
+        ],
+        "traditional_summary": "The conversation is about the organization \"Save the Children,\" which aims to secure a better future for children. The exchange focuses on understanding the types of assistance provided, such as food and clothing, although specific details are not yet provided.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER demonstrates high warmth by expressing a desire to help children and sharing positive information about an organization. Their competence is also high, as they provide clear and relevant information about the organization's mission and name.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: EE shows high warmth by expressing interest in the organization's efforts to help children. Their competence is high as they ask specific, relevant questions to gain a deeper understanding of how the organization operates.",
+        "scd_summary": "The conversation begins with ER introducing an organization focused on helping children, expressing a positive sentiment. EE shows curiosity and seeks more detailed information about the organization and its methods, asking specific questions about its name and how it assists children. ER provides some information but does not elaborate on specifics, leading EE to probe further with questions about the types of aid provided, indicating a persistent interest in understanding the organization's impact.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180723-075339_567_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "EE",
+            "ER",
+            "ER",
+            "ER",
+            "EE",
+            "EE"
+        ],
+        "utterances": [
+            "Hi, how are you today?",
+            "hello!",
+            "pretty good, you?",
+            "i'm doing great!",
+            "I'm helping Save the Children Charity to raise money.",
+            "would you like to know more about this wonderful fund?",
+            "yes please!",
+            "i was just looking for a charity to donate to"
+        ],
+        "intentions": [
+            "Greeting and initiating conversation",
+            "Responding to greeting",
+            "Sharing personal state and inquiring about the other",
+            "Responding positively to inquiry",
+            "Introducing the purpose of the conversation",
+            "Inviting interest in the charity",
+            "Expressing interest",
+            "Indicating a pre-existing interest in donating to a charity"
+        ],
+        "traditional_summary": "ER is promoting a fundraising effort for Save the Children Charity and offers to provide more information. EE expresses interest, mentioning they were already looking for a charity to donate to.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER initiates the conversation with a friendly greeting and expresses enthusiasm about their involvement in a charitable cause, indicating high warmth. Their proactive approach in promoting a charity and offering information suggests high competence.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: EE responds positively and reciprocates the friendly tone, showing high warmth. Their interest in learning more about the charity and intention to donate demonstrate high competence in engaging with the topic.",
+        "scd_summary": "The conversation begins with a friendly exchange of greetings and well-being inquiries. ER introduces a charitable cause with enthusiasm and a persuasive intent. EE responds positively, showing interest and openness to learning more, aligning their intentions with ER's goal. The interaction maintains a cooperative and engaging tone throughout, with EE expressing a readiness to support the cause, indicating a shared sentiment and purpose between the speakers.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180723-080158_200_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "ER",
+            "ER",
+            "EE",
+            "EE",
+            "ER",
+            "ER",
+            "ER"
+        ],
+        "utterances": [
+            "Hey, how's it going?",
+            "Good, how are you?",
+            "Good here as well.",
+            "Do you have a moment to chat about children causes?",
+            "Sure thing.",
+            "What are they?",
+            "I'd like to talk about children who weren't born with the same as opportunities.",
+            "Particularly children who go hungry everyday and have no place to live.",
+            "How does that make you feel?"
+        ],
+        "intentions": [
+            "Initiate conversation",
+            "Respond to greeting and reciprocate question",
+            "Respond to question and affirm well-being",
+            "Request time for discussion on a specific topic",
+            "Agree to discuss",
+            "Seek clarification on the topic",
+            "Introduce the topic of children with fewer opportunities",
+            "Provide specific examples of the issue",
+            "Seek emotional response"
+        ],
+        "traditional_summary": "ER and EE are exchanging greetings before ER introduces a discussion about children's causes, focusing on children lacking opportunities, facing hunger, and homelessness. ER asks EE for their thoughts on the issue.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER initiates the conversation with a friendly greeting and expresses concern for social issues, indicating high warmth. Their ability to articulate the topic and engage EE in a meaningful discussion about important causes demonstrates high competence.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: EE responds politely and shows interest in the conversation, indicating high warmth. Their willingness to engage and ask questions about the topic suggests they are competent and open to understanding the issue being discussed.",
+        "scd_summary": "The conversation begins with a casual exchange of greetings, establishing a friendly tone. ER then shifts the focus to a more serious topic, seeking to engage EE in a discussion about children's issues. ER employs a strategy of eliciting emotional responses by highlighting the challenges faced by disadvantaged children. EE remains open and receptive, indicating a willingness to engage further in the conversation.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180723-091419_371_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "ER",
+            "EE",
+            "ER",
+            "EE",
+            "EE",
+            "ER"
+        ],
+        "utterances": [
+            "Have you ever heard of Save the Children?",
+            "I haven't!",
+            "It's basically what it sounds like",
+            "What kind of situations do they work with?",
+            "The organization helps children around the world with life, protecting them, coming to their aid when a crisis arises, helping them when necessary.",
+            "That sounds like an awesome organization!",
+            "Do you know how someone can get involved?",
+            "They have a website."
+        ],
+        "intentions": [
+            "Introduce the topic of Save the Children",
+            "Express lack of knowledge about Save the Children",
+            "Provide a brief description of Save the Children",
+            "Inquire about the specific situations the organization deals with",
+            "Explain the various types of assistance the organization provides",
+            "Express admiration for the organization",
+            "Ask for information on how to get involved",
+            "Provide a way to get involved (website)"
+        ],
+        "traditional_summary": "The conversation is about the organization Save the Children. ER explains that it helps children globally by providing protection and aid during crises. EE expresses interest and asks how to get involved, to which ER suggests visiting their website.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER demonstrates high warmth by engaging in a friendly and informative manner, sharing information about a charitable organization. Their competence is high as they provide clear, concise information about the organization's purpose and how to get involved.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: EE shows high warmth by expressing interest and enthusiasm about the organization. Their competence is high as they ask relevant questions to gain a better understanding of the organization and how to participate.",
+        "scd_summary": "The conversation begins with ER introducing Save the Children to EE, who is unfamiliar with it. ER provides a brief overview, sparking EE's interest and positive sentiment toward the organization. EE's curiosity leads to a question about involvement, indicating a shift from initial unfamiliarity to engagement. ER maintains an informative and supportive tone, concluding with a practical suggestion for further action. The interaction remains friendly and informative throughout.",
+        "binary_score": 1
+    },
+    {
+        "dialogue_id": "20180723-091508_49_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "ER",
+            "EE",
+            "ER",
+            "ER",
+            "EE",
+            "EE"
+        ],
+        "utterances": [
+            "Would you like to donate some of your earnings to the charity Save the Children?",
+            "Yes, I would be willing to donate a fraction of my earnings to Save the Children.",
+            "How much of the $2 payment for this task would you like to donate?",
+            "I would be okay with donating $0.10 from the task payment towards the charity.",
+            "Sounds good.",
+            "It will (supposedly) be directly taken from your payment and donated to the charity.",
+            "Okay.",
+            "What does the charity do/what are my funds going to be used for?"
+        ],
+        "intentions": [
+            "Requesting a donation to the charity Save the Children",
+            "Agreeing to donate a fraction of earnings to the charity",
+            "Inquiring about the specific amount to be donated",
+            "Stating the amount willing to donate",
+            "Acknowledging the donation amount",
+            "Informing about the donation process",
+            "Expressing understanding",
+            "Inquiring about the charity's activities and fund usage"
+        ],
+        "traditional_summary": "The conversation involves a discussion about donating a portion of earnings to the charity Save the Children. The employee agrees to donate $0.10 from a $2 payment. They inquire about the charity's activities and how the funds will be used.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: User1 demonstrates high warmth by engaging in a charitable initiative and expressing a positive response to user2's willingness to donate. Their competence is high, as they efficiently manage the donation process and communicate clearly about how the donation will be handled.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: User2 exhibits high warmth by agreeing to donate part of their earnings, showing altruism. Their competence is high, as they make a specific decision about the donation amount and inquire further about the charity, indicating thoughtful consideration and responsibility.",
+        "scd_summary": "The conversation begins with a request for a donation, to which the respondent agrees, showing a willingness to contribute. The respondent specifies a modest amount to donate, which is acknowledged by the requester. The conversation remains cordial and cooperative, with the respondent later expressing curiosity about the charity's activities and the use of their donation, indicating a shift from agreement to seeking more information.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180723-094242_630_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "EE",
+            "ER",
+            "ER",
+            "EE",
+            "EE"
+        ],
+        "utterances": [
+            "Hi, how are you today?",
+            "I am okay.",
+            "How are you?",
+            "i'm doing great!",
+            "I'm working for Save The Children organisation, have you heard about it?",
+            "No, I haven't.",
+            "Can you tell me more about it?"
+        ],
+        "intentions": [
+            "Initiate conversation and establish rapport",
+            "Respond to greeting",
+            "Inquire about the other person's well-being",
+            "Respond positively and continue the conversation",
+            "Introduce the organization and gauge familiarity",
+            "Express lack of knowledge about the organization",
+            "Request more information about the organization"
+        ],
+        "traditional_summary": "ER and EE are having a friendly conversation. ER mentions working for Save The Children and asks if EE is familiar with the organization. EE hasn't heard of it and expresses interest in learning more.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER initiates the conversation with a friendly greeting and shares positive personal information, indicating openness and approachability. Mentioning their work with a well-known organization suggests competence and credibility.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: EE reciprocates the greeting and expresses interest in learning more about ER's work, demonstrating politeness and curiosity. Their engagement and willingness to learn suggest competence in communication and understanding.",
+        "scd_summary": "The conversation begins with a polite exchange of greetings and inquiries about well-being, establishing a friendly tone. The initiator, ER, expresses enthusiasm and introduces their affiliation with an organization. EE responds with curiosity and openness, inviting further information. The trajectory shows a shift from casual pleasantries to a more focused and engaging dialogue, with ER aiming to inform and EE showing interest in learning more.",
+        "binary_score": 1
+    },
+    {
+        "dialogue_id": "20180723-103902_895_live",
+        "speakers": [
+            "ER",
+            "ER",
+            "EE",
+            "EE",
+            "ER",
+            "EE",
+            "ER",
+            "EE",
+            "EE"
+        ],
+        "utterances": [
+            "Save the children is a good organization.",
+            "Do you like to donate to charities?",
+            "Yes, I do.",
+            "What does Save the Children do?",
+            "The Save the Children Fund, commonly known as Save the Children, is an international non-governmental organisation that promotes children's rights, provides relief and helps support children in developing countries.",
+            "Can you give me their website, so I can look into them?",
+            "Sure, here is the link.  URL",
+            "Thank you!",
+            "Why are you talking about this charity instead of the others?"
+        ],
+        "intentions": [
+            "Expressing a positive opinion about the organization",
+            "Inquiring about EE's interest in donating to charities",
+            "Confirming interest in donating to charities",
+            "Requesting information about Save the Children",
+            "Providing detailed information about Save the Children",
+            "Requesting the website for further research",
+            "Providing the website link",
+            "Expressing gratitude",
+            "Questioning the focus on this specific charity"
+        ],
+        "traditional_summary": "The conversation involves ER introducing Save the Children, an NGO focused on children's rights and support in developing countries, and EE expressing interest in donating to charities. ER provides a website link for more information. EE then inquires why ER chose to discuss this particular charity over others.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER demonstrates high warmth by expressing interest in charitable activities and providing helpful information about the organization. Their competence is also high, as they provide a clear and informative explanation of the organization's purpose and promptly share the website link.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: EE shows high warmth by expressing interest in donating and gratitude for the information. Their competence is high as they ask relevant questions to gain more understanding of the organization and demonstrate initiative by requesting the website link for further research.",
+        "scd_summary": "The conversation begins with ER expressing a positive sentiment towards a specific charity, aiming to engage EE's interest in charitable donations. EE responds with openness and curiosity, asking for more information. ER provides details and a resource link, maintaining a persuasive and informative tone. EE expresses gratitude but then questions ER's focus on this particular charity, indicating a shift towards seeking understanding of ER's intentions or motivations.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180808-030338_328_live",
+        "speakers": [
+            "ER",
+            "ER",
+            "ER",
+            "ER",
+            "EE",
+            "ER",
+            "ER",
+            "ER"
+        ],
+        "utterances": [
+            "I want to tell you a little about a charity called Save the Children.",
+            "It is a non-profit organization that acts globally to promote children's rights.",
+            "It also helps children in developing countries obtain necessary support and relief from their poverty and other troubles.",
+            "It's truly a great organization that does amazing work.",
+            "Oh yeah, I donate to world vision, its the best for kids",
+            "That's nice.",
+            "It's another good organization.",
+            "Save the Children also a great and very professional organization."
+        ],
+        "intentions": [
+            "Introduce the topic of Save the Children charity",
+            "Provide basic information about the organization",
+            "Explain the organization's mission and activities",
+            "Express a positive opinion about the organization",
+            "Share personal experience with a similar charity",
+            "Acknowledge the listener's contribution",
+            "Agree and validate the listener's choice",
+            "Reiterate the quality of Save the Children"
+        ],
+        "traditional_summary": "The conversation involves ER discussing the charity Save the Children, highlighting its global efforts to support children's rights and provide aid in developing countries. EE mentions donating to World Vision, expressing a preference for it. ER acknowledges this and reiterates the professionalism and impact of Save the Children.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER demonstrates high warmth by expressing positive sentiments about charitable organizations and acknowledging EE's contributions. ER's competence is high due to their detailed and knowledgeable description of the charity's work, indicating a well-informed perspective.\n\nuser2 (EE):\n  warmth: low\n  competence: low\n  explanation: EE's response lacks warmth as it dismisses ER's charity in favor of another without engaging further. Their competence appears low due to the brief, unsupported claim about their preferred organization, suggesting limited knowledge or interest in the broader topic.",
+        "scd_summary": "The conversation begins with ER introducing and praising a charity, aiming to inform and possibly persuade EE of its merits. EE responds by expressing support for a different charity, indicating a preference. ER acknowledges EE's choice positively but reiterates the value of their preferred organization, maintaining a respectful and informative tone while subtly persisting in promoting their initial topic.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180808-052501_689_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "ER",
+            "ER",
+            "ER",
+            "EE"
+        ],
+        "utterances": [
+            "Would you like to donate to a Charity called Save the Children?",
+            "Hi, it all depends on who you really are, if it's for a person very close to me if I'm willing",
+            "It would go to supporting children in developing countries, especially in war zones.",
+            "For instance, millions of Syrian children have grown up facing the daily threat of violence.",
+            "In the first two months of 2018 alone, 1,000 children were reportedly killed or injured in intensifying violence.",
+            "if I would agree with that, and if my organ donated what problems would my body have?"
+        ],
+        "intentions": [
+            "Requesting a donation for a charity",
+            "Expressing conditional willingness to donate based on the identity of the requester",
+            "Providing information about the charity's purpose",
+            "Highlighting the plight of children in war zones",
+            "Emphasizing the urgency and severity of the situation",
+            "Expressing concern about the implications of organ donation"
+        ],
+        "traditional_summary": "The conversation involves a request for a donation to the charity \"Save the Children,\" which supports children in developing countries, particularly in war zones like Syria. The potential donor expresses skepticism and confusion, questioning the legitimacy of the request and mistakenly associating the donation with organ donation.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER demonstrates high warmth by showing concern for children in need and providing detailed information about the charity's cause. Their competence is high, as they present specific statistics and facts to support their request, indicating knowledge and preparedness.\n\nuser2 (EE):\n  warmth: low\n  competence: low\n  explanation: EE's response lacks warmth, as they focus on personal connections and show little empathy for the cause. Their competence appears low due to the irrelevant and confused response about organ donation, indicating a lack of understanding or engagement with the conversation.",
+        "scd_summary": "The conversation begins with a request for a charity donation, met with initial skepticism and a conditional response. The requester employs emotional appeals, highlighting the plight of children in war zones, to persuade the other party. Despite these efforts, the responder remains focused on personal concerns and hypothetical implications, indicating a persistent reluctance and a shift towards discussing personal consequences rather than engaging with the emotional narrative presented.",
+        "binary_score": 1
+    },
+    {
+        "dialogue_id": "20180808-062753_12_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "ER",
+            "EE",
+            "EE",
+            "ER"
+        ],
+        "utterances": [
+            "hello",
+            "hai whats up",
+            "Have you heard of save the children donation and the importance and impact it has on our children and those less fortunate",
+            "i have heard about it.",
+            "i don' known it detailly",
+            "Its a great charity and organization."
+        ],
+        "intentions": [
+            "Greeting the other person",
+            "Greeting and inquiring about the other person's status",
+            "Introducing the topic of Save the Children donation and its importance",
+            "Acknowledging awareness of the charity",
+            "Admitting lack of detailed knowledge about the charity",
+            "Praising the charity and organization"
+        ],
+        "traditional_summary": "ER and EE are discussing the \"Save the Children\" charity. ER introduces the topic, emphasizing its importance and impact on children and the less fortunate. EE is aware of the charity but lacks detailed knowledge about it. ER describes it as a great organization.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER initiates the conversation with a friendly greeting and shares information about a charitable organization, suggesting a caring attitude. Their ability to articulate the importance and impact of the organization indicates competence.\n\nuser2 (EE):\n  warmth: high\n  competence: low\n  explanation: EE responds with a casual and friendly greeting, indicating warmth. However, they admit to not knowing details about the organization, which suggests lower competence in this specific context.",
+        "scd_summary": "The conversation begins with a casual greeting, quickly shifting to ER introducing a topic of charitable interest. ER's intention is to inform and possibly persuade EE about the importance of a specific charity. EE acknowledges some awareness but lacks detailed knowledge, prompting ER to continue promoting the charity's value. ER maintains a positive and informative tone, aiming to engage EE's interest and possibly encourage further inquiry or support.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180808-075748_956_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "EE",
+            "ER",
+            "ER",
+            "ER",
+            "EE",
+            "ER",
+            "ER"
+        ],
+        "utterances": [
+            "Hello!",
+            "HI there!",
+            "Are you having a good day?",
+            "Doing well!",
+            "I hope your day is the same!",
+            "So I gave been assigned the role here to get you to make a donation to the Save The Children Foundation.",
+            "OK, i have donated to them before!!",
+            "Oh really!",
+            "That's great."
+        ],
+        "intentions": [
+            "Greeting",
+            "Greeting",
+            "Inquiring about ER's well-being",
+            "Responding positively to EE's inquiry",
+            "Expressing hope for EE's well-being",
+            "Introducing the purpose of the conversation (donation request)",
+            "Expressing familiarity and past participation with the organization",
+            "Expressing surprise and interest",
+            "Expressing approval"
+        ],
+        "traditional_summary": "ER and EE exchange greetings, and EE asks if ER is having a good day. ER responds positively and mentions their role in encouraging donations to the Save The Children Foundation. EE acknowledges having donated to the foundation before, which ER appreciates.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: User1 demonstrates high warmth by expressing well wishes and appreciation for user2's past actions. Their competence is high as they clearly communicate their role and purpose in the conversation.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: User2 shows high warmth by engaging in friendly greetings and sharing positive past actions. Their competence is high as they promptly and clearly respond to user1\u2019s inquiries and statements.",
+        "scd_summary": "The conversation begins with a friendly exchange of greetings and well-wishes, establishing a positive tone. ER then transitions to a more purposeful approach, revealing their role in encouraging a donation to a charity. EE responds positively, indicating previous support for the cause. ER acknowledges this with enthusiasm, maintaining the friendly and supportive atmosphere throughout the interaction.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180824-015242_301_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "ER",
+            "EE",
+            "ER",
+            "EE"
+        ],
+        "utterances": [
+            "hello",
+            "hi how are you",
+            "I'm good, how are you?",
+            "I'm good...what are we to discuss?",
+            "we are about making a donation to a fund named save the children",
+            "ok are we to decide annamount?"
+        ],
+        "intentions": [
+            "Greeting",
+            "Greeting and inquiry about well-being",
+            "Responding to inquiry and reciprocating the question",
+            "Responding to well-being inquiry and asking about the discussion topic",
+            "Introducing the discussion topic",
+            "Seeking clarification on the discussion topic"
+        ],
+        "traditional_summary": "The conversation involves two participants, ER and EE, discussing a donation to the \"Save the Children\" fund. ER confirms the topic, and EE inquires if they need to decide on an amount.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: User1 initiates the conversation with a friendly greeting and responds positively to User2's inquiry about their well-being, indicating high warmth. They also clearly introduce the topic of discussion, demonstrating high competence.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: User2 reciprocates the greeting and inquires about User1's well-being, showing high warmth. They promptly engage with the topic by asking a relevant question, suggesting high competence.",
+        "scd_summary": "The conversation begins with polite greetings and a mutual exchange of well-being. The speakers then transition to discussing a collaborative task involving a donation, with one speaker introducing the topic and the other seeking clarification on the specifics. The interaction is cooperative, with both participants showing a willingness to engage in the decision-making process regarding the donation.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180824-020419_695_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "ER",
+            "EE",
+            "EE",
+            "ER",
+            "EE"
+        ],
+        "utterances": [
+            "On behalf of this hit i wat to talk to you about a charity",
+            "What specifically would you like to talk about?",
+            "I want to talk to you about a charity called Save the Children",
+            "I've heard of them.",
+            "How much do we have to share with them?",
+            "well let me tell you a little bit about the charity first",
+            "That sounds good."
+        ],
+        "intentions": [
+            "Initiate conversation about charity",
+            "Seek clarification on the topic",
+            "Specify the charity to be discussed",
+            "Acknowledge familiarity with the charity",
+            "Inquire about the financial commitment",
+            "Offer to provide more information about the charity",
+            "Express agreement to hear more"
+        ],
+        "traditional_summary": "The conversation involves ER wanting to discuss the charity \"Save the Children\" with EE. ER intends to provide more information about the charity, while EE is interested in learning more, including how much they might contribute.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER initiates the conversation with a focus on charity, indicating a prosocial intent, which suggests high warmth. They also attempt to provide information about the charity, demonstrating competence in conveying relevant details.\n\nuser2 (EE):\n  warmth: low\n  competence: high\n  explanation: EE's responses are direct and focused on specific details, such as the amount to share, which suggests high competence. However, the lack of expressed enthusiasm or empathy towards the charitable cause implies lower warmth.",
+        "scd_summary": "The conversation begins with ER expressing a desire to discuss a charity, while EE shows openness but seeks specifics. ER introduces the charity, and EE acknowledges familiarity but focuses on financial implications. ER shifts to providing more information about the charity, and EE responds positively, indicating a willingness to listen. Throughout, ER maintains a persuasive approach, while EE remains cautiously receptive, balancing curiosity with practical concerns.",
+        "binary_score": 1
+    },
+    {
+        "dialogue_id": "20180825-044358_663_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "ER",
+            "ER",
+            "ER",
+            "ER",
+            "EE",
+            "ER"
+        ],
+        "utterances": [
+            "Hello, I would like to ask you to consider making a donation to Save the Children, an international NGO committed to promoting children's rights, and providing support for children in developing countries.",
+            "ohh how much donation would yoy expect?",
+            "Your donation can be from $0 to all of the payment for this task.",
+            "But before you decide hastily, I would like to remind you that Save the Children is one of the only charities doing what it does.",
+            "There are children out there now without access to housing, clean water, education, and many other things we often take for granted.",
+            "So please, consider thoughtfully whether you would be willing to make a sacrifice for the children of the world.",
+            "how do i trust the organiation?",
+            "Save the Children is a world-renowned NGO with a trusted history and background."
+        ],
+        "intentions": [
+            "Requesting a donation and introducing the cause",
+            "Inquiring about the expected donation amount",
+            "Providing information on donation range",
+            "Encouraging thoughtful consideration before deciding",
+            "Highlighting the needs of children in developing countries",
+            "Urging thoughtful consideration for making a sacrifice",
+            "Expressing concern about the trustworthiness of the organization",
+            "Reassuring about the organization's credibility"
+        ],
+        "traditional_summary": "The conversation involves ER encouraging EE to consider making a donation to Save the Children, an NGO focused on children's rights and support in developing countries. ER explains the impact of the organization and addresses EE's concern about trust by highlighting Save the Children's reputable history. EE inquires about the expected donation amount and expresses concerns about trusting the organization.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER demonstrates high warmth by expressing concern for children's welfare and encouraging thoughtful consideration of a donation. Their competence is high as they provide information about the NGO's reputation and its unique role, indicating knowledge and credibility.\n\nuser2 (EE):\n  warmth: low\n  competence: high\n  explanation: EE's warmth is low due to their skeptical and transactional approach to the donation request. However, their competence is high as they ask pertinent questions about the donation amount and the trustworthiness of the organization, indicating critical thinking.",
+        "scd_summary": "The conversation begins with ER making a polite request for a donation, emphasizing the importance of the cause. EE responds with curiosity about the expected amount, indicating openness but also caution. ER persists with a persuasive strategy, highlighting the unique role of the NGO and the dire needs of children. EE expresses skepticism about trust, prompting ER to reassure EE by emphasizing the NGO's reputable history. The conversation reflects ER's consistent persuasive efforts and EE's cautious consideration.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180825-045559_409_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "ER",
+            "EE",
+            "ER"
+        ],
+        "utterances": [
+            "Hello!",
+            "Hi!",
+            "Would you consider yourself a giving person?",
+            "Yes, I think that would be accurate.",
+            "Do you like Children?"
+        ],
+        "intentions": [
+            "Greeting the other person",
+            "Responding to the greeting",
+            "Initiating a personal question to understand the other person's nature",
+            "Providing a self-assessment",
+            "Asking another personal question to gauge interest in children"
+        ],
+        "traditional_summary": "The conversation involves ER asking EE if they consider themselves a giving person, to which EE responds affirmatively. ER then asks if EE likes children.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: low\n  explanation: ER initiates the conversation with a friendly greeting and asks personal questions, suggesting a warm demeanor. However, the questions are straightforward and lack depth, indicating lower competence in engaging in a more substantive dialogue.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: EE responds positively and affirmatively, suggesting a warm and open nature. The concise and confident responses indicate a high level of competence in communication, as EE provides clear answers without hesitation.",
+        "scd_summary": "The conversation begins with a friendly greeting, establishing a casual tone. ER then shifts to a more personal inquiry, asking EE about their self-perception regarding generosity. EE responds affirmatively, maintaining a positive and open demeanor. ER continues with another personal question, this time about EE's feelings towards children, suggesting a pattern of probing deeper into EE's personal values and preferences. The trajectory indicates ER's intent to explore EE's character through direct questions, while EE remains receptive.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180825-052611_640_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "ER",
+            "ER",
+            "EE",
+            "ER"
+        ],
+        "utterances": [
+            "I am supposed to get you to donate some of your payment to a children's charity.",
+            "Could you tell me more about the charity?",
+            "It appears to be comething called Save the Children.",
+            "I have no other information.",
+            "Where did you get that information and who specifically is the money going to?",
+            "The information is coming from the person who provided this hit."
+        ],
+        "intentions": [
+            "Introduce the topic of donating to a children's charity",
+            "Request more information about the charity",
+            "Provide the name of the charity",
+            "State lack of additional information",
+            "Seek specific details about the charity and the donation process",
+            "Identify the source of the information"
+        ],
+        "traditional_summary": "ER is asking EE to donate part of their payment to a children's charity called Save the Children but lacks detailed information. EE inquires about the source of the information and the specific beneficiaries. ER mentions the information comes from the person who assigned the task.",
+        "scm_summary": "user1 (ER):\n  warmth: low\n  competence: low\n  explanation: ER demonstrates low warmth by not providing detailed or empathetic information about the charity. Their competence appears low due to the lack of specific knowledge about the charity, which undermines their ability to effectively communicate and persuade.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: EE shows high warmth by expressing interest in learning more about the charity, indicating a willingness to engage. Their competence is high as they ask specific, relevant questions to gain a clearer understanding, demonstrating critical thinking and thoroughness.",
+        "scd_summary": "The conversation begins with ER attempting to persuade EE to donate to a children's charity. EE responds with curiosity, seeking more information about the charity and its beneficiaries. ER admits to having limited details, revealing the source of their information. EE's questions suggest a cautious and inquisitive approach, while ER maintains a straightforward and transparent stance, acknowledging their lack of knowledge about the charity beyond the initial prompt.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180825-062219_874_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "ER",
+            "EE",
+            "EE",
+            "ER"
+        ],
+        "utterances": [
+            "Hello",
+            "hi",
+            "how are you today?",
+            "Doing Good.",
+            "What about You ?",
+            "Have you heard of the charity Save the Children"
+        ],
+        "intentions": [
+            "Greeting",
+            "Greeting",
+            "Inquiring about well-being",
+            "Responding to inquiry",
+            "Returning the inquiry",
+            "Introducing a topic"
+        ],
+        "traditional_summary": "The conversation begins with a casual greeting between two people, ER and EE. They exchange pleasantries, with EE asking how ER is doing. ER then shifts the topic to ask if EE has heard of the charity \"Save the Children.\"",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: User1 initiates the conversation with a friendly greeting and shows interest in user2's well-being, indicating high warmth. They also introduce a topic that suggests awareness and knowledge, indicating high competence.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: User2 responds politely and reciprocates the inquiry about user1's well-being, demonstrating high warmth. Their concise and clear responses suggest they are attentive and capable, indicating high competence.",
+        "scd_summary": "The conversation begins with a polite exchange of greetings and inquiries about well-being, establishing a friendly and cordial tone. The initial focus is on personal pleasantries, suggesting an intention to build rapport. The conversation then shifts as one speaker introduces a new topic, indicating a transition from casual small talk to a potentially more focused or purposeful discussion, possibly aiming to inform or engage the other speaker on a specific subject.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180825-063009_943_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "ER",
+            "ER",
+            "ER",
+            "EE",
+            "ER",
+            "ER"
+        ],
+        "utterances": [
+            "Hi WOuld you like to donate your payment for this task to save the children?",
+            "No, to be honest I am doing this task to save up extra money for myself.",
+            "I understand that.",
+            "But it's only .30 of the money you are saving.",
+            "It could do alot of good for Save the children.",
+            "I appreciate your position, but what exactly is Save the Children and how do I know that money will truly be used to help kids?",
+            "The researchers of this hit will make sure the money goes to save the children.",
+            "Save the Children is a world wide organization that helps kids in war torn areas."
+        ],
+        "intentions": [
+            "Requesting donation for Save the Children",
+            "Declining donation and explaining personal financial motivation",
+            "Expressing understanding",
+            "Minimizing the financial impact of the donation",
+            "Emphasizing the positive impact of the donation",
+            "Requesting more information about Save the Children and expressing skepticism",
+            "Assuring that the money will be used appropriately",
+            "Providing information about Save the Children"
+        ],
+        "traditional_summary": "The conversation involves ER asking EE if they would like to donate their payment to Save the Children. EE declines, explaining they are saving money for themselves and asks for more information about the organization. ER explains that Save the Children is a global organization helping children in war-torn areas and assures that the donation will be used appropriately.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER demonstrates high warmth by understanding EE's position and providing information about the charity. ER's competence is high as they articulate the purpose of the organization clearly and address EE's concerns about the donation's impact.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: EE shows high warmth by expressing appreciation for ER's position and asking thoughtful questions. EE's competence is high as they articulate their financial priorities and seek more information to make an informed decision.",
+        "scd_summary": "The conversation begins with a request for a donation, which is met with a clear refusal due to personal financial goals. The requester acknowledges this but persists, emphasizing the potential impact of a small donation. The respondent remains skeptical, seeking more information about the organization and assurance of the donation's use. The requester provides additional details, aiming to build trust and persuade the respondent by highlighting the organization's global impact and credibility.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180825-064038_102_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "ER",
+            "EE",
+            "ER",
+            "ER",
+            "ER",
+            "EE"
+        ],
+        "utterances": [
+            "Hi how are you?",
+            "Fine how are you?",
+            "I am well",
+            "What is your favorite childrens charity",
+            "Well I recently heard about Save the Children Charity.",
+            "They donate money to help children in developing countries.",
+            "Have you heard about them?",
+            "Yes I have heard of them."
+        ],
+        "intentions": [
+            "Initiate conversation and greet",
+            "Respond to greeting and reciprocate",
+            "Respond to inquiry and provide personal status",
+            "Inquire about the other person's favorite children's charity",
+            "Introduce a specific charity",
+            "Provide information about the charity's activities",
+            "Inquire if the other person is familiar with the charity",
+            "Acknowledge familiarity with the charity"
+        ],
+        "traditional_summary": "The conversation involves two people exchanging greetings and discussing children's charities. The first person mentions Save the Children, highlighting its focus on helping children in developing countries, and asks if the second person is familiar with it. The second person confirms they have heard of the charity.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: User1 initiates the conversation with a friendly greeting and shares information about a charity, indicating a willingness to engage and inform. This suggests high warmth. Their ability to provide specific details about the charity reflects high competence.\n\nuser2 (EE):\n  warmth: high\n  competence: low\n  explanation: User2 reciprocates the greeting and acknowledges familiarity with the charity, showing politeness and engagement, which indicates high warmth. However, they do not contribute additional information or details, suggesting lower competence in the context of the conversation.",
+        "scd_summary": "The conversation begins with a polite exchange of greetings, establishing a friendly tone. ER then shifts the focus to a specific topic, expressing interest and sharing information about a charity. ER's approach is informative and slightly persuasive, aiming to engage EE in the topic. EE responds affirmatively, indicating familiarity with the subject, maintaining a neutral and agreeable stance throughout the exchange. The conversation remains cordial and informative, with no significant change in sentiment.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180825-070900_49_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "EE",
+            "ER",
+            "ER",
+            "EE",
+            "EE",
+            "ER",
+            "ER",
+            "EE",
+            "EE",
+            "ER"
+        ],
+        "utterances": [
+            "Hi there how are you doing today?",
+            "Hey I'm fine.",
+            "How are you doing?",
+            "I am doing really good.",
+            "So, what are you up to today?",
+            "I've been thinking about donating to a children's charity.",
+            "I can't decide which onne.",
+            "I was going to ask you if you would be interested in donating to Save the Children.",
+            "How do you feel about this charity?",
+            "I have heard about it but I can't remember it's mission.",
+            "Do you know that charity's mission?",
+            "They provide kids with the basic things they need like food and clothing."
+        ],
+        "intentions": [
+            "Initiate conversation and inquire about the other person's well-being",
+            "Respond to greeting and provide a status update",
+            "Inquire about the other person's well-being",
+            "Respond to inquiry and provide a status update",
+            "Inquire about the other person's activities for the day",
+            "Share current thoughts and activities",
+            "Express indecision and seek input",
+            "Introduce a specific charity and suggest participation",
+            "Seek the other person's opinion on the charity",
+            "Express familiarity but lack of detailed knowledge",
+            "Request information about the charity's mission",
+            "Provide information about the charity's mission"
+        ],
+        "traditional_summary": "ER and EE are discussing charitable donations. EE is considering donating to a children's charity but is undecided on which one. ER suggests Save the Children and explains that the charity's mission is to provide kids with essentials like food and clothing.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: User1 initiates the conversation with friendly inquiries and expresses interest in user2's activities, suggesting a high level of warmth. They also provide information about a charity, indicating knowledge and the ability to contribute meaningfully to the discussion, which suggests high competence.\n\nuser2 (EE):\n  warmth: high\n  competence: low\n  explanation: User2 reciprocates the friendly tone by asking about user1's well-being and expressing interest in charitable activities, indicating high warmth. However, they express uncertainty and lack specific knowledge about the charity, which suggests lower competence in this context.",
+        "scd_summary": "The conversation begins with a friendly exchange of pleasantries, establishing a positive tone. As the dialogue progresses, the focus shifts to a discussion about charitable donations, with one speaker expressing indecision and the other suggesting a specific charity. The conversation maintains a collaborative and informative tone, with one speaker providing details to help the other make an informed decision. The interaction remains supportive and focused on mutual understanding.",
+        "binary_score": 1
+    },
+    {
+        "dialogue_id": "20180825-071727_819_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "EE",
+            "ER",
+            "EE",
+            "EE",
+            "ER"
+        ],
+        "utterances": [
+            "Hi, How are you doing this morning?",
+            "I am doing well.",
+            "You?",
+            "I'm doing great and am really looking forward to our chat!",
+            "Excellent.",
+            "Sounds good.",
+            "I was just thinking about all the kids going back to school and saw a story about places to drop off school supplies for kids in need"
+        ],
+        "intentions": [
+            "Initiate conversation and greet",
+            "Respond to greeting",
+            "Inquire about the other person's well-being",
+            "Express enthusiasm for the conversation",
+            "Acknowledge the other person's enthusiasm",
+            "Express agreement",
+            "Introduce a topic for discussion"
+        ],
+        "traditional_summary": "ER and EE exchange greetings and express mutual well-being. ER mentions looking forward to their conversation and brings up the topic of children returning to school, highlighting a story about locations for donating school supplies to kids in need.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER initiates the conversation with a friendly greeting and expresses enthusiasm for the chat, indicating high warmth. Their mention of community involvement and awareness of current events suggests high competence.\n\nuser2 (EE):\n  warmth: low\n  competence: high\n  explanation: EE responds with minimal engagement and provides short, factual replies, indicating low warmth. However, their concise and clear responses suggest they are competent in communication.",
+        "scd_summary": "The conversation begins with a friendly exchange of greetings, establishing a positive and enthusiastic tone. ER expresses eagerness for the discussion, which EE reciprocates with agreement, maintaining a cooperative atmosphere. ER then shifts the conversation towards a broader, socially-conscious topic, indicating an intention to discuss community support, while EE remains receptive and engaged, suggesting a shared interest in the topic. The interaction is characterized by mutual positivity and a focus on collaborative dialogue.",
+        "binary_score": 1
+    },
+    {
+        "dialogue_id": "20180825-073629_433_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "EE",
+            "ER",
+            "ER",
+            "EE",
+            "EE"
+        ],
+        "utterances": [
+            "Have you ever though about donating to Save the Children?",
+            "I have thought about it before.",
+            "I've been approached by people on the street.",
+            "It is a really great charity.",
+            "It helps children who have been in crisis.",
+            "Is the charity international?",
+            "Or do they operate primarily in America?"
+        ],
+        "intentions": [
+            "Initiate conversation about donating to Save the Children",
+            "Express prior consideration of the topic",
+            "Provide context of previous encounters related to the topic",
+            "Promote the charity",
+            "Explain the charity's mission",
+            "Seek information about the charity's scope",
+            "Clarify the charity's operational focus"
+        ],
+        "traditional_summary": "The conversation involves ER encouraging EE to consider donating to Save the Children, highlighting its role in helping children in crisis. EE mentions previous encounters with street fundraisers and inquires about the charity's international or American focus.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER demonstrates high warmth by expressing enthusiasm for a charitable cause and providing positive information about it. Their competence is high as they share relevant details about the charity's impact, suggesting knowledge and understanding of the organization.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: EE shows high warmth by engaging in the conversation and expressing prior consideration of the charity. Their competence is high as they ask specific, relevant questions about the charity's operations, indicating an interest in understanding its scope and impact.",
+        "scd_summary": "The conversation begins with ER introducing the idea of donating to a charity, Save the Children, and expressing positive sentiments about its impact. EE initially acknowledges prior consideration of the charity and shares a past experience of being approached for donations. As ER continues to emphasize the charity's benefits, EE shifts to seeking more information, indicating curiosity and a desire to understand the charity's scope and operations.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180825-073813_141_live",
+        "speakers": [
+            "ER",
+            "ER",
+            "EE",
+            "EE",
+            "ER",
+            "ER",
+            "EE",
+            "EE"
+        ],
+        "utterances": [
+            "Have you ever heard of \"Save the Children\"?",
+            "It an agency that helps children in underdeveloped and developing countries.",
+            "No, I actually haven't .",
+            "Do you have any more information about the organization that you could tell me?",
+            "it is not sponsored or supported by any governmental agencies and it helps children abroad and within the US.",
+            "You would be shocked at how many children live in poverty here in the United States.",
+            "I have an idea.",
+            "Whats a more specific idea of what you do?"
+        ],
+        "intentions": [
+            "Introduce the topic of \"Save the Children\"",
+            "Provide basic information about the organization",
+            "Express lack of prior knowledge about the organization",
+            "Request more information about the organization",
+            "Provide additional details about the organization\u2019s operations",
+            "Highlight the issue of child poverty in the United States",
+            "Acknowledge understanding of the issue",
+            "Request more specific information about the organization's activities"
+        ],
+        "traditional_summary": "ER introduces \"Save the Children,\" an independent agency aiding children in underdeveloped and developing countries, including the US. EE is unfamiliar with the organization and asks for more details about its activities. ER emphasizes the prevalence of child poverty in the US.",
+        "scm_summary": "user1 (ER):  \n  warmth: high  \n  competence: high  \n  explanation: ER demonstrates high warmth by showing concern for children and sharing information about a charitable organization. Their competence is high as they provide detailed information about the organization and its operations, indicating knowledge and understanding.\n\nuser2 (EE):  \n  warmth: high  \n  competence: high  \n  explanation: EE shows high warmth by expressing interest and asking for more information, indicating openness and engagement. Their competence is high as they ask specific questions, demonstrating a desire to understand the organization better.",
+        "scd_summary": "The conversation begins with ER introducing a charitable organization and providing some initial information. EE expresses unfamiliarity but shows interest by asking for more details. ER continues to share information, emphasizing the organization's independence and scope. EE's curiosity grows, leading them to inquire about specific activities. Throughout, ER maintains an informative tone, while EE's engagement and interest increase as they seek a deeper understanding of the organization's work.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180825-075630_493_live",
+        "speakers": [
+            "ER",
+            "ER",
+            "EE",
+            "EE",
+            "ER",
+            "ER",
+            "EE",
+            "EE",
+            "EE",
+            "ER"
+        ],
+        "utterances": [
+            "Hi!",
+            "How are you doing today?",
+            "I'm doing well.",
+            "How about you?",
+            "I am great, just enjoying some coffee on my deck.",
+            "How is the weather for you?",
+            "It's cloudy a lot, but otherwise fine.",
+            "I was just looking through the morning mail.",
+            "A request by a children's charity for a donation.",
+            "Which charity was the flyer from?"
+        ],
+        "intentions": [
+            "Greeting",
+            "Inquiring about well-being",
+            "Responding to inquiry",
+            "Returning the inquiry",
+            "Sharing personal state",
+            "Inquiring about weather",
+            "Responding to weather inquiry",
+            "Sharing current activity",
+            "Providing additional detail about activity",
+            "Inquiring about specific charity"
+        ],
+        "traditional_summary": "ER and EE are having a casual conversation. ER is enjoying coffee on the deck and asks about EE's weather, which is cloudy. EE mentions looking through the morning mail and receiving a donation request from a children's charity. ER inquires about the charity's name.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER initiates the conversation with a friendly greeting and shows interest in EE's well-being and activities, indicating high warmth. ER also maintains the flow of conversation smoothly and asks relevant questions, suggesting high competence.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: EE responds politely and reciprocates the inquiry about ER's well-being, reflecting high warmth. EE provides clear and relevant responses about their activities, demonstrating high competence in communication.",
+        "scd_summary": "The conversation begins with a friendly exchange of greetings and inquiries about each other's well-being. ER shares a personal detail about enjoying coffee, which maintains a warm and casual tone. EE responds with a neutral comment about the weather and shifts to discussing their morning activity. ER shows interest in EE's activity by asking for more details, indicating a desire to engage further in the conversation.",
+        "binary_score": 1
+    },
+    {
+        "dialogue_id": "20180825-085908_923_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "EE",
+            "EE",
+            "ER",
+            "ER",
+            "ER",
+            "EE",
+            "EE"
+        ],
+        "utterances": [
+            "Hi how are you today?",
+            "I'm good!",
+            "How are you doing?",
+            "What's your feelings about giving to children's charities?",
+            "It depends on the charity.",
+            "Some of them are scams I think.",
+            "Do u donate?",
+            "I agree that you have to be careful.",
+            "I do donate to Ronald McDonald House and St Jude."
+        ],
+        "intentions": [
+            "Initiate conversation and greet",
+            "Respond to greeting",
+            "Inquire about the other person's well-being",
+            "Introduce the topic of children's charities",
+            "Express conditional support for children's charities",
+            "Express skepticism about some charities",
+            "Inquire about the other person's donation habits",
+            "Express agreement and caution",
+            "Share personal donation habits"
+        ],
+        "traditional_summary": "The conversation involves two people discussing their well-being and their views on donating to children's charities. They express caution about potential scams, with one person mentioning they donate to Ronald McDonald House and St. Jude.",
+        "scm_summary": "user1 (ER):\n  warmth: low\n  competence: high\n  explanation: ER's responses are direct and cautious, indicating a focus on assessing the situation critically. The skepticism about charities suggests a high level of competence in evaluating information. However, the lack of engagement or empathy in the conversation, such as not reciprocating personal inquiries, suggests lower warmth.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: EE demonstrates high warmth by engaging in friendly greetings and showing interest in ER's feelings. EE also exhibits high competence by agreeing with the need for caution and providing specific examples of reputable charities, indicating informed decision-making.",
+        "scd_summary": "The conversation begins with a friendly exchange of greetings, establishing a positive tone. EE then shifts to a more inquisitive approach, probing ER's views on children's charities. ER responds cautiously, expressing skepticism about some charities. EE acknowledges this concern, aligning with ER's sentiment, and shares personal donation practices, which may serve to build trust and credibility. The dialogue maintains a respectful and open tone throughout, with both parties expressing their perspectives thoughtfully.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180825-112615_516_live",
+        "speakers": [
+            "ER",
+            "ER",
+            "EE",
+            "EE",
+            "ER",
+            "EE",
+            "EE",
+            "ER",
+            "ER",
+            "ER",
+            "EE"
+        ],
+        "utterances": [
+            "Hi.",
+            "Are you familiar with Save the Children?",
+            "Hello.",
+            "I am not familiar with Save the Children",
+            "It is worldwide and helps to feed, shelter and educate underprivileged kids around the world.",
+            "I think that is a very good charity that appears to be doing good work.",
+            "Do you currently volunteer with this charity?",
+            "I do.",
+            "I help collect donations so the optimum number of children can be helped.",
+            "Will you consider a donation?",
+            "I like to support organizations that are Christian based and help further the spread of the Gospel to all of God's children."
+        ],
+        "intentions": [
+            "Greeting",
+            "Initiating topic",
+            "Greeting",
+            "Expressing lack of knowledge",
+            "Providing information",
+            "Expressing approval",
+            "Inquiring about personal involvement",
+            "Confirming involvement",
+            "Describing personal contribution",
+            "Requesting donation",
+            "Stating personal preference"
+        ],
+        "traditional_summary": "ER introduces Save the Children to EE, explaining its mission to support underprivileged children globally. ER volunteers by collecting donations and asks if EE would consider donating. EE expresses a preference for supporting Christian-based organizations that promote the Gospel.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER demonstrates high warmth by engaging politely and expressing a commitment to helping children. Their competence is high as they provide clear information about their involvement with the charity and its global impact.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: EE shows high warmth by responding politely and expressing positive regard for the charity's work. Their competence is high as they articulate their personal criteria for supporting organizations, indicating thoughtful decision-making.",
+        "scd_summary": "The conversation begins with ER introducing the topic and providing information about a charity, aiming to engage EE's interest. EE responds positively, expressing approval of the charity's mission. ER then shares personal involvement to build credibility and encourages EE to donate. However, EE shifts the focus by expressing a preference for supporting Christian-based organizations, indicating a divergence in priorities. The conversation reflects ER's persuasive intent and EE's principled stance, leading to a respectful yet unresolved conclusion.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180826-013529_897_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "ER",
+            "EE"
+        ],
+        "utterances": [
+            "Hey, do some good, give some money to kids.",
+            "Sure.I would be glad to. How much money do you think I should give?",
+            "oh, could you afford maybe fifteen cents?",
+            "I can afford $5.00"
+        ],
+        "intentions": [
+            "Initiate a request for a donation",
+            "Express willingness to donate and seek guidance on the amount",
+            "Propose a specific donation amount",
+            "Offer a higher donation amount"
+        ],
+        "traditional_summary": "ER asks EE to donate money to help children. EE agrees and asks how much to give. ER suggests fifteen cents, but EE offers to donate $5.00 instead.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: low\n  explanation: ER initiates the conversation with a friendly suggestion to help children, indicating high warmth. However, the suggestion of a small amount (fifteen cents) may reflect low competence in understanding the potential impact or expectations of charitable giving.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: EE responds positively and is willing to contribute, showing high warmth. By offering a significantly larger amount than suggested, EE demonstrates high competence in assessing the situation and making a meaningful contribution.",
+        "scd_summary": "The conversation begins with ER making a simple request for a charitable donation, suggesting a modest amount. EE responds positively, expressing willingness to contribute and inquiring about the suggested amount. ER proposes a very small donation, perhaps underestimating EE's willingness to give. EE then surprises ER by offering a significantly larger amount, demonstrating generosity and exceeding expectations. The exchange reflects a shift from a modest request to a more substantial offer, highlighting EE's charitable intent.",
+        "binary_score": 1
+    },
+    {
+        "dialogue_id": "20180826-054028_444_live",
+        "speakers": [
+            "ER",
+            "ER",
+            "EE",
+            "EE",
+            "EE",
+            "ER",
+            "ER",
+            "ER",
+            "EE",
+            "EE",
+            "EE",
+            "EE",
+            "ER",
+            "ER",
+            "ER"
+        ],
+        "utterances": [
+            "Good Morning!",
+            "How are you today?",
+            "I am good.",
+            "It's really nice outside where I am so I am sitting outdoors.",
+            "How are you",
+            "Oh, that sounds nice.",
+            "I am well. It looks nice here today as well.",
+            "What are your plans today?",
+            "I have to go to work at 11:30-6.",
+            "But its ok, I work every Sunday.",
+            "So we are supposed to chat about a children's charity.",
+            "What are your feelings?",
+            "Yes, I was just reading about the charity myself.",
+            "I was going to make a plea and ask if you would be willing to donate to Save the Children.",
+            "It helps kids in need."
+        ],
+        "intentions": [
+            "Greeting the other person",
+            "Inquiring about the other person's well-being",
+            "Responding to the inquiry about well-being",
+            "Sharing personal information about current activity",
+            "Inquiring about the other person's well-being",
+            "Expressing interest in the other person's activity",
+            "Responding to the inquiry about well-being and sharing personal information",
+            "Inquiring about the other person's plans for the day",
+            "Sharing information about work schedule",
+            "Providing additional context about work routine",
+            "Introducing the topic of the conversation (children's charity)",
+            "Inquiring about the other person's feelings on the topic",
+            "Confirming familiarity with the topic",
+            "Expressing intention to make a plea for donation",
+            "Providing information about the charity's purpose"
+        ],
+        "traditional_summary": "The conversation begins with a friendly exchange about the weather and personal well-being. The participants then discuss their plans for the day, with EE mentioning work. The conversation shifts to discussing a children's charity, with ER suggesting a donation to Save the Children to help kids in need.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER initiates the conversation with a friendly greeting and shows interest in EE's day, indicating high warmth. ER also demonstrates competence by discussing the charity and suggesting a donation, showing awareness and initiative.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: EE responds positively and shares personal details about their day, indicating high warmth. EE also engages in the conversation about the charity, showing understanding and willingness to discuss the topic, which reflects high competence.",
+        "scd_summary": "The conversation begins with a friendly exchange of greetings and personal updates, establishing a positive and cordial tone. Both speakers express contentment with their current situations, which creates a relaxed atmosphere. The conversation then transitions to discussing a children's charity, with one speaker introducing the topic and the other expressing openness to the discussion. The tone remains cooperative as one speaker makes a gentle plea for support, indicating a shift towards a persuasive approach.",
+        "binary_score": 1
+    },
+    {
+        "dialogue_id": "20180826-055352_947_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "ER",
+            "ER",
+            "EE",
+            "EE",
+            "ER",
+            "ER",
+            "ER",
+            "EE",
+            "EE",
+            "ER",
+            "ER",
+            "ER",
+            "ER"
+        ],
+        "utterances": [
+            "Hello!",
+            "Hello",
+            "So it looks like you have the option to donate some of your earnings from this task to Save the Children.",
+            "Have you heard of that charity before?",
+            "Know I have not.",
+            "Please explain to me in detail",
+            "Please explain to me in detail",
+            "It's an international organization that supports children in developing countries.",
+            "It helps children get access to health, education, safety, etc.",
+            "Okay.",
+            "What is the organization called?",
+            "It's called Save the Children.",
+            "It's a rather large organization and well known, you can search for it outside this chat.",
+            "It's not just a made up organization for the sake of the chat.",
+            "Do you donate much to charity now?"
+        ],
+        "intentions": [
+            "Greeting the other participant.",
+            "Responding to the greeting.",
+            "Informing about the option to donate earnings to Save the Children.",
+            "Inquiring if the other participant has heard of the charity.",
+            "Stating lack of knowledge about the charity.",
+            "Requesting detailed information about the charity.",
+            "Repeating the request for detailed information.",
+            "Providing information about the charity's mission.",
+            "Elaborating on the charity's activities.",
+            "Acknowledging the information.",
+            "Asking for the name of the organization.",
+            "Providing the name of the organization.",
+            "Assuring the participant of the organization's legitimacy.",
+            "Reiterating the legitimacy of the organization.",
+            "Inquiring about the participant's current donation habits."
+        ],
+        "traditional_summary": "The conversation involves ER informing EE about the option to donate earnings to the charity \"Save the Children.\" EE is unfamiliar with the organization and asks for details. ER explains that it is an international organization supporting children in developing countries with health, education, and safety. ER reassures EE of its legitimacy and inquires about EE's current charitable donations.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER demonstrates high warmth by engaging in a friendly manner and providing detailed information about the charity. Their competence is high as they effectively communicate the purpose and credibility of the organization, encouraging informed decision-making.\n\nuser2 (EE):\n  warmth: low\n  competence: low\n  explanation: EE's responses are brief and lack engagement, which suggests low warmth. Their competence appears low as they require repeated explanations and do not demonstrate understanding or initiative in the conversation.",
+        "scd_summary": "The conversation begins with a polite greeting and quickly transitions into an informative exchange where ER introduces the option to donate to a charity. EE expresses unfamiliarity and requests more information, prompting ER to provide a brief explanation of the charity's purpose. ER maintains a persuasive and informative tone, aiming to build trust and credibility. EE's responses are brief and inquisitive, indicating openness to learning more. The conversation remains focused on informing and potentially persuading EE to consider donating.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180826-061500_476_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "ER",
+            "EE",
+            "ER",
+            "EE"
+        ],
+        "utterances": [
+            "Hi would you be willing to donate to Save the Children?",
+            "I'm not sure, what do they do for children?",
+            "They help support children in warzones  and it helps provide them with things they need",
+            "sounds like a good charity.",
+            "It is a good charity and any little bit will help",
+            "I would consider it."
+        ],
+        "intentions": [
+            "Initiate conversation and request donation",
+            "Seek information about the charity's activities",
+            "Provide information about the charity's work",
+            "Express tentative approval of the charity",
+            "Reinforce the charity's value and encourage donation",
+            "Express consideration of the donation"
+        ],
+        "traditional_summary": "The conversation involves a representative (ER) asking the other person (EE) to donate to Save the Children, a charity supporting children in warzones. EE expresses interest and acknowledges the charity's positive impact, indicating they would consider donating.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER demonstrates high warmth by politely engaging and expressing a desire to help children. Their competence is high as they provide clear, concise information about the charity's purpose and impact, effectively communicating its value.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: EE shows high warmth by expressing interest and consideration in the cause. Their competence is high as they ask relevant questions to understand the charity better, indicating thoughtful engagement and decision-making.",
+        "scd_summary": "The conversation begins with ER making a direct request for a donation, to which EE responds with curiosity and a need for more information. ER provides a brief explanation, appealing to EE's sense of empathy. EE acknowledges the charity's positive impact, and ER reinforces this sentiment by emphasizing the importance of any contribution. EE's stance shifts from uncertainty to openness, indicating a willingness to consider donating, influenced by ER's persuasive and informative approach.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180826-064412_288_live",
+        "speakers": [
+            "ER",
+            "ER",
+            "EE",
+            "ER",
+            "ER",
+            "EE",
+            "ER"
+        ],
+        "utterances": [
+            "Hi.",
+            "Would you consider donating to Save the Children?",
+            "I might consider",
+            "Okay that's a start.",
+            "Well Save the Children is a very reputable organization and your donation would be used for a good purpose.",
+            "do you donate?",
+            "No, honestly I don't but I would feel like my money would go to a good cause if I were to"
+        ],
+        "intentions": [
+            "Greeting",
+            "Request for donation",
+            "Expression of consideration",
+            "Encouragement",
+            "Providing information",
+            "Inquiry about personal action",
+            "Admission and justification"
+        ],
+        "traditional_summary": "ER is encouraging EE to consider donating to Save the Children, highlighting its reputation and good cause. EE shows some interest and asks if ER donates, to which ER admits they don't but believes it would be worthwhile.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER initiates the conversation politely and provides information about the organization, demonstrating helpfulness and knowledge. Despite not donating personally, ER is honest about it, which can be seen as trustworthy and transparent, contributing to perceived warmth.\n\nuser2 (EE):\n  warmth: low\n  competence: low\n  explanation: EE's responses are brief and lack engagement, which might be perceived as indifferent or uninterested. EE does not provide additional information or show initiative in the conversation, leading to a perception of lower competence.",
+        "scd_summary": "The conversation begins with ER initiating a request for a donation, displaying a persuasive and hopeful tone. EE shows initial openness but remains non-committal. ER continues with a persuasive strategy, emphasizing the organization's reputation and the positive impact of donations. EE questions ER's personal involvement, shifting the focus. ER responds candidly, maintaining a positive stance about the cause despite personal non-participation, which slightly shifts the dynamic to a more honest and reflective exchange.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180826-173836_197_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "EE",
+            "ER",
+            "ER",
+            "EE",
+            "ER",
+            "ER",
+            "EE"
+        ],
+        "utterances": [
+            "Hi, How are you today?",
+            "Hi!",
+            "I'm great, how are you?",
+            "I'm terrific!",
+            "I wanted to talk to you today about a charity I am really involved in",
+            "Okay, please tell me about the charity.",
+            "This charity is called Save the Children and is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries.",
+            "Do you ever donate to charity organizations?",
+            "I almost never donate."
+        ],
+        "intentions": [
+            "Greeting and initiating conversation",
+            "Responding to greeting",
+            "Sharing personal state and inquiring about the other",
+            "Sharing personal state",
+            "Introducing the main topic of conversation",
+            "Expressing interest and inviting more information",
+            "Providing detailed information about the charity",
+            "Inquiring about the other person's charitable habits",
+            "Sharing personal habit regarding donations"
+        ],
+        "traditional_summary": "ER and EE exchange greetings before ER introduces a charity called Save the Children, which focuses on children's rights and support in developing countries. ER inquires about EE's donation habits, to which EE responds that they almost never donate.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER initiates the conversation with a friendly greeting and expresses enthusiasm about discussing a charity, indicating high warmth. Their ability to articulate the charity's mission suggests high competence.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: EE responds positively and shows interest in learning about the charity, indicating high warmth. Their engagement and willingness to listen reflect high competence, despite their admission of rarely donating.",
+        "scd_summary": "The conversation begins with a friendly exchange of pleasantries, establishing a positive tone. ER then shifts to a more purposeful approach, introducing a charity they are passionate about. EE responds with openness, inviting more information. However, when ER inquires about EE's personal donation habits, EE's response is straightforward and somewhat disengaged, indicating a lack of personal involvement in charitable activities. The conversation transitions from mutual friendliness to a more one-sided interest in the charity topic.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180826-174957_757_live",
+        "speakers": [
+            "ER",
+            "ER",
+            "EE",
+            "ER",
+            "EE",
+            "ER"
+        ],
+        "utterances": [
+            "I think out of all charities saving the children is most important one as children make the future.",
+            "Hope you agree",
+            "I definitely agree",
+            "this is good as you agree with opinion as everyone should do the same",
+            "Yes - providing funding for children is a top priority, whatever the need may be",
+            "I usually put some money for this cause yearly"
+        ],
+        "intentions": [
+            "Expressing a personal belief about the importance of children's charities",
+            "Seeking agreement from the other speaker",
+            "Agreeing with the previous statement",
+            "Expressing satisfaction with the agreement and encouraging others to do the same",
+            "Reinforcing the importance of funding for children's needs",
+            "Sharing a personal habit of donating to children's charities"
+        ],
+        "traditional_summary": "The conversation centers around the importance of supporting children's charities. ER believes saving children is crucial for the future and is pleased that EE agrees. EE emphasizes the priority of funding children's needs, and ER mentions contributing annually to this cause.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER demonstrates high warmth by expressing concern for children's welfare and seeking agreement, indicating a cooperative attitude. Their competence is high as they articulate a clear, reasoned stance on the importance of supporting children and mention personal contributions, suggesting reliability and capability.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: EE shows high warmth by agreeing with ER and supporting the cause, indicating empathy and alignment. Their competence is high as they emphasize the importance of funding for children, reflecting an understanding of priorities and a proactive approach.",
+        "scd_summary": "The conversation begins with ER expressing a strong opinion about the importance of supporting children's charities, seeking agreement from EE. EE readily concurs, reinforcing the sentiment and emphasizing the priority of funding children's needs. ER appreciates the agreement and shares a personal commitment to the cause, suggesting a sense of shared values and mutual understanding. The dialogue maintains a positive and affirming tone throughout, with both speakers aligned in their views and intentions.",
+        "binary_score": 1
+    },
+    {
+        "dialogue_id": "20180826-181742_58_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "ER",
+            "EE",
+            "ER",
+            "EE"
+        ],
+        "utterances": [
+            "hello, are you interested in charities?",
+            "yes i am are you?",
+            "of course i am, do you know save the children charity?",
+            "no can you tell me a little about it",
+            "of course, save the children is a non-profit organization that helps the children all over the world.",
+            "that sounds great."
+        ],
+        "intentions": [
+            "Initiate conversation and gauge interest in charities",
+            "Express interest and reciprocate the question",
+            "Confirm interest and introduce a specific charity",
+            "Request more information about the charity",
+            "Provide a brief description of the charity",
+            "Express approval"
+        ],
+        "traditional_summary": "ER and EE are discussing their interest in charities. ER introduces the \"Save the Children\" charity to EE, explaining it as a non-profit organization that helps children globally. EE expresses interest in the charity.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER demonstrates high warmth by engaging positively and expressing interest in common values. Their competence is high as they provide clear information about the charity, indicating knowledge and the ability to communicate effectively.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: EE shows high warmth by expressing interest and engaging in a friendly manner. Their competence is high as they ask relevant questions and respond positively, indicating an understanding and willingness to learn more.",
+        "scd_summary": "The conversation begins with mutual interest in charities, establishing a positive and engaged tone. ER takes on an informative role, introducing a specific charity and providing a brief overview. EE responds with curiosity and openness, encouraging further explanation. The interaction maintains a friendly and cooperative atmosphere, with ER acting as the knowledgeable guide and EE as the receptive listener, showing appreciation for the information shared.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180826-182047_49_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "EE",
+            "EE",
+            "ER",
+            "ER",
+            "ER",
+            "EE",
+            "EE",
+            "ER",
+            "ER",
+            "EE"
+        ],
+        "utterances": [
+            "Hi, how are you?",
+            "Great!",
+            "I have been research the Make-A-Wish foundation.",
+            "Are you familiar with it?",
+            "That's great!",
+            "Yes, I am familiar with them.",
+            "Are you familiar with Save the Children?",
+            "I have heard of it but don't know much about what they do.",
+            "will you tell me?",
+            "I would love to.",
+            "Save the Children helps to ensure children's rights to health, education, and safety. Is this something that you care about?",
+            "that sounds meaningful."
+        ],
+        "intentions": [
+            "Initiate conversation and greet",
+            "Respond to greeting",
+            "Share personal activity",
+            "Inquire about the other person's familiarity with a topic",
+            "Express approval and encouragement",
+            "Confirm familiarity with the topic",
+            "Introduce a new topic and inquire about familiarity",
+            "Express limited knowledge",
+            "Request information",
+            "Express willingness to provide information",
+            "Provide detailed information and inquire about interest",
+            "Express positive sentiment"
+        ],
+        "traditional_summary": "ER and EE are discussing charitable organizations. EE has been researching the Make-A-Wish Foundation and asks ER about it. ER is familiar with it and introduces Save the Children, explaining its mission to ensure children's rights to health, education, and safety. EE expresses interest in the cause.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER demonstrates high warmth by engaging in friendly conversation and expressing interest in EE's knowledge. ER also shows high competence by providing clear, informative details about Save the Children, indicating a good understanding of the topic.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: EE exhibits high warmth by responding positively and showing interest in ER's knowledge. EE also displays high competence by engaging in research and expressing curiosity about new information, indicating a willingness to learn and understand.",
+        "scd_summary": "The conversation begins with a friendly exchange and quickly shifts to discussing charitable organizations. EE expresses enthusiasm and curiosity about the Make-A-Wish Foundation, prompting ER to introduce Save the Children. ER takes on an informative role, while EE shows openness and interest in learning more. The dialogue maintains a positive and engaging tone, with both participants expressing mutual interest in meaningful causes.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180827-004200_630_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "ER",
+            "EE",
+            "EE",
+            "ER",
+            "EE",
+            "EE",
+            "ER",
+            "ER",
+            "ER",
+            "ER",
+            "EE",
+            "EE"
+        ],
+        "utterances": [
+            "Hello",
+            "Hi.",
+            "Are you willing to donate to Save the Children?",
+            "Yes.",
+            "I would very much like to donate.",
+            "how much are you willing to donate?",
+            "Well, I don't have much money right now.",
+            "All I can afford is $5.00.",
+            "I think that is an excellent amount and would benefit Save the Children.",
+            "For example,millions of Syrian children have grown up facing the daily threat of violence.",
+            "In the first two months of 2018 alone, 1,000 children were reportedly killed or injured in intensifying violence.",
+            "Your donation will make an impact to better childrens' live around the world.",
+            "That's so horrible.",
+            "I wish I could give more."
+        ],
+        "intentions": [
+            "Greeting the other person.",
+            "Responding to the greeting.",
+            "Inquiring about willingness to donate.",
+            "Expressing willingness to donate.",
+            "Reaffirming the intention to donate.",
+            "Asking for the amount of donation.",
+            "Explaining financial limitations.",
+            "Stating the amount they can afford to donate.",
+            "Validating the donation amount and encouraging the donor.",
+            "Providing context about the cause.",
+            "Highlighting the urgency and severity of the situation.",
+            "Emphasizing the impact of the donation.",
+            "Expressing empathy and concern.",
+            "Expressing a desire to contribute more."
+        ],
+        "traditional_summary": "The conversation involves a representative (ER) from Save the Children discussing a donation with a potential donor (EE). The donor expresses a willingness to contribute $5, despite financial constraints. The representative appreciates the donation and explains its impact, highlighting the plight of Syrian children affected by violence. The donor expresses sympathy and a desire to give more.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: ER demonstrates high warmth by expressing appreciation for EE's willingness to donate and by providing empathetic information about the cause. ER's competence is high, as they effectively communicate the impact of donations and provide specific examples to illustrate the need.\n\nuser2 (EE):\n  warmth: high\n  competence: low\n  explanation: EE shows high warmth by expressing a strong desire to help despite financial constraints and reacting empathetically to the situation described by ER. However, EE's competence appears low as they express financial limitations and do not engage further in problem-solving or offering alternative support.",
+        "scd_summary": "The conversation begins with a straightforward request for a donation, met with a positive but financially constrained response. The donor expresses willingness but is limited by their current financial situation. The requester acknowledges the contribution's value and provides emotionally charged examples to emphasize the impact of the donation. This evokes a sympathetic reaction from the donor, who expresses a desire to contribute more, demonstrating a shift from initial willingness to a deeper emotional engagement with the cause.",
+        "binary_score": 1
+    },
+    {
+        "dialogue_id": "20180828-165639_960_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "ER",
+            "EE",
+            "ER"
+        ],
+        "utterances": [
+            "Hey, how are you?",
+            "Fine and you?",
+            "I am well.",
+            "Good, so what's up?",
+            "Have you heard about Save the Children?"
+        ],
+        "intentions": [
+            "Initiate conversation and greet",
+            "Respond to greeting and reciprocate question",
+            "Respond to inquiry about well-being",
+            "Express satisfaction and inquire about the purpose of the conversation",
+            "Introduce the topic of Save the Children"
+        ],
+        "traditional_summary": "ER and EE exchange greetings, and ER asks if EE has heard about Save the Children, suggesting a shift in the conversation towards discussing this organization.",
+        "scm_summary": "user1 (ER):\n  warmth: high\n  competence: high\n  explanation: User1 initiates the conversation with a friendly greeting and expresses interest in user2's well-being, indicating high warmth. Their mention of an organization suggests awareness and engagement, reflecting high competence.\n\nuser2 (EE):\n  warmth: high\n  competence: high\n  explanation: User2 responds politely and reciprocates the inquiry about user1's well-being, showing high warmth. Their engagement in the conversation and prompt responses indicate attentiveness and understanding, reflecting high competence.",
+        "scd_summary": "The conversation begins with a polite exchange of greetings, establishing a friendly tone. The speakers express mutual well-being, maintaining a positive and open atmosphere. The initiator then shifts the focus to a specific topic, signaling a transition from casual pleasantries to a more purposeful discussion. This suggests an intention to engage the other speaker in a potentially informative or persuasive dialogue about the topic introduced.",
+        "binary_score": 0
+    },
+    {
+        "dialogue_id": "20180903-145436_470_live",
+        "speakers": [
+            "ER",
+            "EE",
+            "ER",
+            "EE",
+            "ER"
+        ],
+        "utterances": [
+            "Hello",
+            "hi!",
+            "How's it going?",
+            "It is going alright, thanks",
+            "Did you have any interesting dreams?"
+        ],
+        "intentions": [
+            "Greeting",
+            "Greeting",
+            "Inquiring about well-being",
+            "Responding to inquiry about well-being",
+            "Inquiring about dreams"
+        ],
+        "traditional_summary": "The conversation is a casual exchange between two people. ER greets EE and asks how they are doing. EE responds positively, and ER then inquires if EE has had any interesting dreams.",
+        "scm_summary": "To assess the conversation using the Stereotype Content Model:\n\nuser1 (ER):\n  warmth: high\n  competence: low\n  explanation: ER initiates the conversation with a friendly greeting and shows interest in EE's well-being and experiences, indicating high warmth. However, the lack of substantive content or demonstration of skill or knowledge suggests low competence.\n\nuser2 (EE):\n  warmth: high\n  competence: low\n  explanation: EE responds positively and politely, which reflects high warmth. Like ER, EE's responses are brief and do not convey any specific skills or expertise, indicating low competence.",
+        "scd_summary": "The conversation begins with a polite and friendly exchange of greetings, establishing a casual and open tone. ER initiates the conversation with a question about EE's well-being, indicating an interest in EE's personal experiences. EE responds positively, maintaining the friendly atmosphere. ER then shifts the focus to a more specific and personal topic, suggesting an intention to deepen the conversation and engage EE in sharing more personal insights or experiences.",
+        "binary_score": 0
+    }
+]

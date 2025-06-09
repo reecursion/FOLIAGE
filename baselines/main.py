@@ -49,7 +49,7 @@ def seed_everything(seed=0):
 
 def get_arguments():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset',        type=str, default='cd', help='Choosing the CONV Forecasting dataset')
+    parser.add_argument('--dataset',        type=str, default='p4g', help='Choosing the CONV Forecasting dataset')
     parser.add_argument('--input_dir',      type=str, default='baselines/data/', help='The input directory')
     parser.add_argument('--local_info',     type=str, default=None, help='Choice of local_information to use')
     parser.add_argument('--global_info',    type=str, default=None, help='Choice of global_information to use')

@@ -187,7 +187,7 @@ def get_data_loaders(
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset', type=str, default='CB')
+    parser.add_argument('--dataset', type=str, default='p4g')
     parser.add_argument('--local_info', type=str, default='intentions')
     parser.add_argument('--global_info', type=str, default='scd_summary')
     parser.add_argument('--batch_size', type=int, default=8)
