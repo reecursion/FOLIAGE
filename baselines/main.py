@@ -253,8 +253,8 @@ if __name__ == '__main__':
         print(f"Test data \t Precision: {p_test} \t Recall: {r_test} \t F1: {f1_test}\t Loss: {results['loss']}")
 
         # Write to a file
-        os.makedirs(f"baselines/results/seed_{args.seed}", exist_ok=True)
-        with open(f"baselines/results/seed_{args.seed}/{identifiable_file}", 'w') as f:
+        os.makedirs(f"baselines/results/p4g/seed_{args.seed}", exist_ok=True)
+        with open(f"baselines/results/p4g/seed_{args.seed}/{identifiable_file}", 'w') as f:
 
             f.write(f"Dataset: {args.dataset}\n")
             f.write(f"Local Info: {args.local_info}\n")
