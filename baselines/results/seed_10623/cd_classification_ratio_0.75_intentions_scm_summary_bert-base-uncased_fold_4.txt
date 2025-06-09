@@ -1,0 +1,9 @@
+Dataset: cd
+Local Info: intentions
+Global Info: scm_summary
+Model: bert-base-uncased
+Fraction: 0.75
+Seed: 10623
+Fold: 4
+
+Test data 	 Precision: 0.6405038759689923 	 Recall: 0.6259305210918114 	 F1: 0.6133942161339422	 Loss: 0.8472204732242972
