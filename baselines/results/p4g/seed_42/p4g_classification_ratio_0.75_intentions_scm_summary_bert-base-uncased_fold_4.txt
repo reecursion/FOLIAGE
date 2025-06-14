@@ -1,0 +1,9 @@
+Dataset: p4g
+Local Info: intentions
+Global Info: scm_summary
+Model: bert-base-uncased
+Fraction: 0.75
+Seed: 42
+Fold: 4
+
+Test data 	 Precision: 0.6353383458646616 	 Recall: 0.6607142857142857 	 F1: 0.6131528046421664	 Loss: 0.8681002378463745
