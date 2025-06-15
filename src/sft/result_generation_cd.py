@@ -139,6 +139,8 @@ def process_all_files():
         all_files = []
         for root, dirs, files in os.walk(base_dir):
             for file in files:
+                if 'only' in file:
+                    continue
                 if file.endswith('.csv') and 'predictions' in file:
                     all_files.append(os.path.join(root, file))
         
@@ -216,7 +218,7 @@ def process_all_files():
         for metric in table_data:
             for config_type in table_data[metric]:
                 for ratio in table_data[metric][config_type]:
-                    table_data[metric][config_type][ratio] /= 3
+                    table_data[metric][config_type][ratio] /= 2
 
 
         
