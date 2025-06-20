@@ -50,13 +50,19 @@ class BERT_HierarchicalTransformer(nn.Module):
 
         self.num_classes        = args.num_classes
 
-        self.classifier         = nn.Sequential(
-            nn.Dropout(0.1),
-            nn.Linear(self.output_dim, self.num_classes),
-        )
-        
-        # self.classifier = nn.Linear(self.output_dim, num_classes)
+        if self.num_classes == 1: # Regression task
+            self.classifier         = nn.Sequential(
+                nn.Dropout(0.1),
+                nn.Linear(self.output_dim, 1),
+                nn.Sigmoid()
+            )
+        else:
+            self.classifier         = nn.Sequential(
+                nn.Dropout(0.1),
+                nn.Linear(self.output_dim, self.num_classes),
+            )
 
+        
     def forward(self, data):
 
         input_ids_batch, attention_masks_batch = data['utt_ids'], data['utt_masks']
@@ -83,7 +89,7 @@ class BERT_HierarchicalTransformer(nn.Module):
         # Pass through hierarchical transformer
         transformer_output = self.transformer_encoder(x, src_key_padding_mask=padding_mask)
 
-        if self.global_info is not None:
+        if 'global_ids' in data and data['global_ids'] is not None and self.global_info is not None:
             
             global_ids_batch      = data['global_ids']
             global_masks_batch    = data['global_masks']
