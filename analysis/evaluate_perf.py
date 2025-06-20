@@ -64,6 +64,7 @@ def get_p4g_perfs():
             result  = f'{mf1_mean:.2f} ± {mf1_std:.2f}' 
             
             results_dict[frac].append(result)
+            print(f'Info: {info}, frac: {frac}, mf1: {result}')
 
     # convert the results_dict to a dataframe
     results_df = pd.DataFrame(results_dict)
@@ -78,11 +79,15 @@ def get_cd_perfs():
 
     fracs       = [0.25, 0.375, 0.5, 0.625, 0.75]
 
-    seeds       = ['11611', '10623']
+    seeds       = ['11611', '10623', '42']
 
     infos       = ['none', 'local', 'global_scd', 'global_scm', 'global_traditional', 'both_scd', 'both_scm', 'both_traditional']
 
-    results_dir = f'../src/{args.method}/results/{args.dataset}/'
+    if args.method == 'sft':
+        results_dir = f'../src/{args.method}/results/{args.dataset}/'
+
+    # elif args.method == 'baseline':
+    #     results_dir = f''
 
     # for seed in seeds:
 
@@ -126,6 +131,7 @@ def get_cd_perfs():
             result  = f'{mf1_mean:.2f} ± {mf1_std:.2f}' 
             
             results_dict[frac].append(result)
+            print(f'Info: {info}, frac: {frac}, mf1: {result}')
 
     # convert the results_dict to a dataframe
     results_df = pd.DataFrame(results_dict)
@@ -133,8 +139,6 @@ def get_cd_perfs():
     # save the dataframe to a csv file
     results_df.to_csv(f'../results/{args.method}-{args.dataset}-agg_perfs.csv', index=False)
     
-
-
 
 
 
