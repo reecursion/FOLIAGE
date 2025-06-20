@@ -1,9 +1,0 @@
-Dataset: p4g
-Local Info: None
-Global Info: scm_summary
-Model: bert-base-uncased
-Fraction: 0.625
-Seed: 42
-Fold: 4
-
-Test data 	 Precision: 0.6000000000000001 	 Recall: 0.6190476190476191 	 F1: 0.5833333333333333	 Loss: 1.2255652956664562

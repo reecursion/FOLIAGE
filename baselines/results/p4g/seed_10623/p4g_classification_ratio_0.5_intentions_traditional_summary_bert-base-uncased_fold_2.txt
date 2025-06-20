@@ -1,9 +1,0 @@
-Dataset: p4g
-Local Info: intentions
-Global Info: traditional_summary
-Model: bert-base-uncased
-Fraction: 0.5
-Seed: 10623
-Fold: 2
-
-Test data 	 Precision: 0.7234848484848485 	 Recall: 0.6475 	 F1: 0.646551724137931	 Loss: 1.3893581829113166

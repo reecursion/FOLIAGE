@@ -1,9 +1,0 @@
-Dataset: cd
-Local Info: None
-Global Info: None
-Model: bert-base-uncased
-Fraction: 0.75
-Seed: 42
-Fold: 1
-
-Test data 	 Precision: 0.6234662089134719 	 Recall: 0.621011964107677 	 F1: 0.621044365920691	 Loss: 0.6942251671571285
