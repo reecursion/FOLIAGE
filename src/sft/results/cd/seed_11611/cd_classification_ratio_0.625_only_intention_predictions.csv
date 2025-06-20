@@ -4049,3 +4049,1351 @@ S_1: [The speaker is challenging the other speaker's disregard for process conce
 S_2: [The speaker is justifying their decision by explaining their perception of consensus and the lack of guidelines on discussion duration.]
 S_2: [The speaker is defending their decision by explaining their recognition of consensus and process considerations.]
 S_1: [The speaker is arguing that there was no significant consensus and that the discussion was closed prematurely.]",0,1,False,0.99609375
+100009118.8296.8296,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to offer support and encouragement to S_1 by acknowledging their decision-making abilities and expressing respect for their actions.]",1,0,False,0.59912109375
+102102282.16707.16707,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to request the other person to be more careful when editing the article and to highlight specific issues with misquoting sources and adding unsourced numbers.]",0,0,True,0.68017578125
+103713917.1219.1219,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to criticize the other person for misinterpreting their comments and to express frustration about being blocked  which limits their ability to communicate.]",1,1,True,0.84423828125
+104887604.5394.5394,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker seeks clarification on why their edits were reverted and suggests an alternative approach to include criticism of Farmers Insurance in the article.]
+S_1: [The speaker intends to inform the other speaker about the guidelines for acceptable sources and why the previous edits were reverted.]",0,0,True,0.52294921875
+111356473.3090.3090,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to warn the other person about the consequences of their actions and highlight the potential for equal repercussions.]
+S_1: [The speaker intends to express confidence in their own actions while casting doubt on the other person's actions and suggesting they review Wikipedia guidelines.]",1,1,True,0.91650390625
+113468765.31323.31323,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker is questioning why the 2006 estimates are not used on the current platform  suggesting a desire for updated information.]
+S_1: [The speaker is inquiring about the official publication status of the 2006 estimates  indicating a need for confirmation or verification.]",0,1,False,0.7734375
+114831022.4571.4571,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to propose the idea of setting up an LGBT wiki_link and seeks the listener's thoughts and potential collaboration on the project.]",0,0,True,0.77587890625
+11915549.810.810,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker is seeking confirmation or approval for moving the link back to its original state.]",0,1,False,0.52734375
+120051909.8801.8801,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to request protection for the article due to frustration with a user who is reverting their edits.]
+S_1: [The speaker intends to justify their actions of removing the logo by explaining the reasons related to decoration and distortion.]
+S_0: [The speaker intends to refute the claim that the logo distorts the infobox and to argue that band logos are commonly accepted by providing examples.]",1,1,True,0.53125
+120201689.7250.7250,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to argue that Cena winning with the STFU is not notable and should not be included in the article.]
+S_1: [The speaker intends to correct the previous statement by providing information about Cena's use of the move and explaining the policy for documenting match endings.]",0,1,False,0.7939453125
+12451425.436.436,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform S_1 about the vandalism on their user page and the action taken to revert it.]
+S_1: [The speaker intends to acknowledge the information and express that they are already aware and handling the situation.]",0,1,False,0.69775390625
+124815362.13703.13703,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express amusement and make a comparison to emphasize the humor.]
+S_1: [The speaker intends to question and clarify whether the humor is in the article itself or the concept it describes.]
+S_2: [The speaker intends to express a belief that a certain entity is no longer active and suggests that evidence exists to support this belief.]",0,1,False,0.83984375
+12555064.2026.2026,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to assert their position by emphasizing the evidence and argumentation they have provided  while criticizing the other person's approach as avoidance and lacking evidence.]",1,1,True,0.9072265625
+127296808.516.516,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to communicate their dissatisfaction with the reversion of their edits and seeks a constructive dialogue to resolve disagreements about the content of the 4WD page.]",0,0,True,0.6904296875
+129624154.36120.36120,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express frustration and request that John refrain from moving their comments without permission  highlighting the rudeness and lack of opportunity to respond.]
+S_1: [The speaker intends to justify their actions by explaining their usual process and to express frustration with being blocked  while also pointing out perceived inconsistencies in Smee's behavior.]",1,1,True,0.986328125
+131373413.24835.24835,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to instruct and warn against adding personal information to articles about pornographic actors/actresses.]
+S_1: [The speaker intends to argue against the omission of information and to assert that information cited in other sources should remain included.]",1,1,True,0.90673828125
+131373413.25367.25367,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to instruct the listener not to include personal information in articles about pornographic actors/actresses.]
+S_1: [The speaker intends to argue against the omission of information on Wikipedia  suggesting that information cited in other sources should be included.]",1,1,True,0.8994140625
+138725911.16006.16006,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [the speaker intends to express willingness and confidence in writing the section  emphasizing resource availability.]
+S_1: [the speaker intends to provide corrective feedback and express dissatisfaction with the inaccuracies in the content added by the other speaker.]
+S_0: [the speaker intends to defend their content and sources  while challenging the accuracy of the other speaker's sources.]",1,1,True,0.96728515625
+142361312.144.144,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express frustration and warn the other speaker about potential consequences of their actions  while defending their own edit.]
+S_1: [The speaker intends to refute the other speaker's claim by providing a logical explanation and defending their own position.]
+S_0: [The speaker intends to justify their actions by pointing out a grammar correction and accusing the other speaker of violating a policy.]
+S_1: [The speaker intends to challenge the other speaker to present their case to an authority  while defending the original edit and questioning the other speaker's argument.]
+S_0: [The speaker intends to seek clarification on whether their edit is considered wrong by the other speaker.]
+S_1: [The speaker intends to critique the other speaker's edit as subjective and defend the original edit as objective and comprehensive.]",1,1,True,0.9326171875
+145242928.4828.4828,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express regret and sarcasm about their failed attempt to secretly edit Wikipedia.]
+S_1: [The speaker intends to mockingly inquire about who discovered their plot and to express amusement at how quickly they figured it out.]",0,1,False,0.98193359375
+145469677.9768.9768,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform the other party about the indefinite block on the account and justify the decision by highlighting the account's disruptive behavior and potential connection to a previously blocked account. The speaker also provides information on how to request an unblock.]
+S_1: [The speaker intends to assert their right to question others' votes on a discussion page and to challenge the notion that voting creates rules on Wikipedia.]",1,1,True,0.64453125
+145897597.3994.3994,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to clarify their previous action and provide justification for it  while also inviting feedback or correction.]
+S_1: [The speaker expresses surprise and self-reflection  indicating a realization about their own understanding of UTC and GMT.]",1,1,True,0.8408203125
+146015916.4310.4310,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform the listener about the new toyline and the final form for Den-O  providing specific details about the products and their release dates.]",0,0,True,0.82568359375
+151766668.575.575,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to provide evidence to support a previous claim by sharing a description of a photo.]",1,0,False,0.65966796875
+152213422.465.0,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker is seeking information on how to contact Sakurai and expresses a desire to communicate with him.]",0,0,True,0.6455078125
+157901643.10900.10900,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to suggest that the other person consider archiving their talk page because it is getting lengthy.]
+S_1: [The speaker intends to express their opinion that the current size of the talk page is manageable and does not require archiving yet.]
+S_0: [The speaker intends to clarify their previous suggestion by explaining the inconvenience of scrolling and recommending a method to archive the page.]",1,1,True,0.65234375
+157973374.1252.1252,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [the speaker intends to provide information about an instance involving SineBot signing an already-signed comment.]
+S_1: [the speaker intends to express relief that the situation appears to be a rare or unusual event.]",1,1,True,0.65234375
+158507313.5881.5881,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express frustration and request that the other person stop deleting references they find important.]
+S_1: [The speaker intends to justify their actions by explaining their adherence to Wikipedia policies and guidelines  and challenge the other person to provide a logical reason for not removing the trivia.]
+S_0: [The speaker intends to argue that the references are important to the film's understanding and suggest that removing them harms the article's quality.]",1,1,True,0.8583984375
+159674239.677.485,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to clarify the correct capitalization of the section title and explain the reasoning behind it.]
+S_1: [The speaker intends to assert that the title should be capitalized based on a previous agreement.]
+S_2: [The speaker intends to challenge S_1's claim by requesting evidence from the archives and expressing agreement with another user's point.]
+S_1: [The speaker intends to suggest an alternative title that they believe makes more sense.]
+S_2: [The speaker intends to emphasize the inappropriateness of the suggested title and reiterate the correct usage based on the context.]",1,1,True,0.8251953125
+165192857.0.0,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to initiate a discussion and encourage dialogue.]
+S_1: [The speaker intends to accuse the other person of vandalism and assert authority over the format of the nomination.]",0,1,False,0.970703125
+165213044.1431.1431,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to reprimand the other person for using inappropriate language and to warn them about violating community guidelines.]",1,1,True,0.78857421875
+168037626.2717.2717,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform the audience about the closure of an arbitration case and the decisions made by the Arbitration Committee.]
+S_1: [The speaker intends to express satisfaction with the decision and skepticism about future issues  while also criticizing the administrators' past actions.]
+S_2: [The speaker intends to express agreement and approval of the outcome of the arbitration case.]",1,1,True,0.7666015625
+168899245.6840.6840,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform S_1 about the nomination process for becoming an administrator and guide them on how to proceed with the nomination.]",0,0,True,0.8134765625
+170898748.10814.10814,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform S_1 about the guideline regarding the removal of warnings and notices from user talk pages.]
+S_1: [The speaker intends to express disagreement with S_0's statement and to challenge S_0's authority and credibility.]
+S_0: [The speaker intends to reaffirm their position by quoting the guideline and to suggest that S_1 read it for clarification.]",1,1,True,0.83544921875
+171004609.454.454,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform the listener about the discontinuation of NORAD's tradition of tracking Santa Claus.]",0,0,True,0.87939453125
+174548845.14805.14805,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker is sharing a whimsical and imaginative narrative about their current situation  expressing a desire for comfort and hospitality  and offering a humorous account of their adventures.]",0,0,True,0.72900390625
+174748397.4667.4667,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker seeks clarification on the current rules regarding video game modification articles.]",0,0,True,0.771484375
+175766042.3768.3768,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to question the other speaker's inconsistency in their actions regarding user content on the platform.]
+S_1: [The speaker intends to clarify their stance on the definition of soapboxing and differentiate between different actions related to user content  while also warning the other speaker about potential consequences.]",1,1,True,0.89794921875
+176187691.13668.13668,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to justify the addition of a ""Controversy"" section by providing a rationale and offering an alternative source for verification.]
+S_1: [The speaker intends to explain the removal of the ""Controversy"" section by questioning the reliability of the sources and emphasizing the need for verifiable information.]
+S_0: [The speaker intends to argue that the exclusion of certain candidates from polls may bias the results  using Ron Paul as an example.]",0,1,False,0.7275390625
+177752278.324.324,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform the listener about a content dispute and seeks assistance in evaluating the situation to potentially add a disputed tag.]",0,0,True,0.716796875
+181354148.10893.10893,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express gratitude for the protection of the wiki link and requests a change in the notification template to make it more helpful and informative.]",0,0,True,0.7294921875
+181355177.11047.11047,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker expresses their sadness and seeks sympathy and recognition by requesting a barnstar.]
+S_1: [The speaker intends to assert their stance on not giving barnstars on request and to set a boundary.]",1,1,True,0.78564453125
+184206224.2971.2971,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to seek advice and validation from the other person regarding the organization of content in a wiki article.]",0,0,True,0.68603515625
+184657238.8439.8439,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to criticize the other speaker for not being informed about the issue and suggests they read more before commenting.]",1,1,True,0.755859375
+185258532.16707.16707,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express frustration and request constructive feedback for improving the article instead of just receiving a negative vote.]
+S_1: [The speaker intends to defend themselves against the accusation of bias and provide evidence that they are perceived as impartial.]
+S_2: [The speaker intends to support S_1 by sharing their own experience of S_1's impartiality in reviewing articles.]
+S_0: [The speaker intends to criticize S_1's reviewing style and express skepticism about S_1's willingness to reconsider their objections.]
+S_3: [The speaker intends to clarify the role of reviewers and nominators in the article review process.]
+S_1: [The speaker intends to clarify the expectations of reviewers and nominators and express surprise at S_0's resentment.]",1,1,True,0.826171875
+185691766.8646.8646,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform the listener about the need to provide a fair use rationale for an uploaded image and guide them on how to do it.]",0,0,True,0.86083984375
+186964574.2439.2439,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to challenge the other person to prove their identity and express frustration over past behavior related to a Wikipedia game.]
+S_1: [The speaker intends to introduce a topic about Alqaeda and terrorism  possibly to divert the conversation or change the subject.]
+S_0: [The speaker intends to emphasize the importance of following the rules of the Wikipedia game by pointing out the simplicity of the rules.]",1,1,True,0.81396484375
+187734242.16429.16429,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to request feedback on their work and express gratitude in advance.]
+S_1: [The speaker intends to provide feedback on the work  suggest improvements  and acknowledge the quality of the work.]
+S_0: [The speaker intends to request additional feedback on their editor review and express concern about imposing.]",1,0,False,0.52392578125
+188051991.7650.7650,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker seeks clarification and justification for the edits made by S_1  expressing concern over adherence to guidelines and consistency.]
+S_1: [The speaker intends to justify their edits by explaining the rationale behind them and addressing the concerns raised by S_0.]
+S_0: [The speaker seeks further clarification on S_1's explanations and challenges the reasoning behind the edits  providing counterarguments.]",1,1,True,0.9462890625
+18809733.8741.8741,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to advise the other person to focus on the main issue and avoid personal attacks  warning them of potential consequences on Wikipedia.]",0,0,True,0.83056640625
+191065909.8651.8651,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to argue for a neutral point of view on the Wikipedia page about Natalie Gauci by presenting both positive and negative verified facts.]
+S_1: [The speaker intends to inform that they have initiated a discussion on the article's talk page to seek consensus on the proposed changes.]
+S_2: [The speaker intends to challenge the claim of negative reception by providing evidence of positive audience feedback and questioning the lack of sources for the negative claims.]",1,1,True,0.8203125
+192611046.10336.10336,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to propose two scenarios for maintaining neutrality in the article and to highlight the challenges associated with each scenario.]",0,0,True,0.88232421875
+19306968.47514.47514,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express dissatisfaction with Ben's actions and request the restoration of deleted text.]
+S_1: [The speaker intends to seek clarification on where the deletion occurred.]
+S_0: [The speaker intends to specify the location and content of the deleted text.]",0,0,True,0.607421875
+194531796.10099.10099,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to seek information from Polly about the original poster of the Aptina page.]",0,0,True,0.8671875
+196310789.19335.19335,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to question the reason behind the tag placement and seeks clarification on whether the reference is being questioned.]
+S_1: [The speaker intends to justify their action by comparing it to the other speaker's actions and implies a criticism of the other speaker's behavior.]",1,1,True,0.9833984375
+196614506.567.567,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to welcome the new member and provide guidance on how to participate in the project  including adding userboxes  creating articles  and engaging with the community.]
+S_1: [The speaker intends to express disagreement with the 48-hour block imposed on Niteshift  suggesting that it may be excessive and questioning its effectiveness. The speaker also seeks clarification from Niteshift about future behavior regarding edit warring.]",0,1,False,0.8759765625
+198258127.2914.2914,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker desires to have their block lifted to contribute constructively.]
+S_1: [The speaker intends to advise the blocked user to wait out the block and follow proper procedures for unblocking.]",1,1,True,0.607421875
+198516490.10132.10132,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform the listener that they have responded to a previous communication on their talk page.]",0,0,True,0.78173828125
+199027098.8713.8713,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express appreciation and recognition for S_1's efforts on the NC project.]
+S_1: [The speaker intends to express frustration and disappointment with the lack of communication and activity in the NC project  while also sharing their workload and dedication.]
+S_0: [The speaker intends to suggest that S_1 nominate their articles for the ""Did you know...?"" feature  specifically recommending the Lightner article.]
+S_1: [The speaker intends to explain that they have not nominated any articles yet and seeks advice on how to make the Lightner article eligible for nomination.]
+S_0: [The speaker intends to provide guidance on improving the article for nomination  suggesting additional inline references and the inclusion of an infobox.]
+S_1: [The speaker intends to express a willingness to learn how to create an infobox and seeks clarification on what is meant by ""more inline refs.""]",1,1,True,0.93701171875
+200053269.20798.20798,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform S_1 about the inappropriate action of deleting a discussion from the Talk page and to request that S_1 refrain from doing so in the future.]",0,1,False,0.5595703125
+200598687.13150.13150,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to report and seek action against another user for harassment and vandalism.]",1,1,True,0.7333984375
+201355402.14545.14545,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to convey that their previous statement was made in jest or sarcasm.]
+S_1: [The speaker intends to acknowledge understanding of the previous sarcasm and to continue the playful tone while cautioning against overuse.]",0,1,False,0.8837890625
+202631441.23725.23725,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to provide feedback on the rewrite by suggesting deletions and modifications to improve clarity and conciseness.]
+S_1: [The speaker intends to communicate their attempt to refine the text and express the need for clarification regarding the terminology used for the art form and its examples.]",0,1,False,0.81201171875
+204048265.12399.12399,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to argue for renaming the wiki page to reflect the full name of the wrestling team as it was commonly known in the past.]
+S_1: [The speaker intends to challenge the previous claim by questioning the source of the information and providing evidence from other references.]",1,1,True,0.8515625
+20516361.5416.5416,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to initiate or start an action or activity.]",0,1,False,0.52734375
+206086951.35665.35665,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [the speaker intends to provide a link or reference to an external source.]
+S_1: [the speaker intends to express their belief that Cebactokpatop is not genuinely interested in mediation and to justify their decision not to pursue further mediation.]
+S_2: [the speaker intends to express agreement with Seminarist and to suggest an alternative approach to handling the situation with Cebactokpatop.]",0,1,False,0.78076171875
+209529096.12127.12127,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to assert their right to manage their talk page and criticize the other person for perceived bias.]
+S_1: [The speaker intends to clarify their understanding of the rules and to explain why the other person's threat was unnecessary.]
+S_0: [The speaker intends to dismiss the other person's explanation and reaffirm their own stance.]",1,1,True,0.96337890625
+211717949.74386.74386,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker seeks clarification and additional information about the term ""National police of Slovenia"" and its historical context during WW2.]",0,0,True,0.8740234375
+213054683.78816.78816,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to provide information on the topic of ""dysgenics"" by sharing articles from the past 10 years.]
+S_1: [The speaker intends to critique the relevance and credibility of the articles shared by S_0  suggesting they are not representative of mainstream scientific thought.]
+S_0: [The speaker intends to clarify that their link is from Google Scholar  implying a level of credibility and specificity in the search results.]
+S_2: [The speaker intends to question the usage of the term 'dysgenics' in the context of fruit flies and mice  expressing skepticism about its application.]
+S_1: [The speaker intends to assert that their link was also from Google Scholar and to confirm the usage of the term ""disgenic cross"" in scientific literature.]",0,1,False,0.78369140625
+215798673.8775.8775,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker is expressing excitement or enthusiasm about being in the game.]
+S_1: [The speaker is initially questioning the validity of the claim but then dismisses the need for proof due to the removal of links.]",0,1,False,0.97509765625
+216690978.0.0,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express their opinion that the band Tool is not significant outside of rock music and suggests that the article about them should be deleted for lack of notability.]
+S_1: [The speaker intends to counter S_0's opinion by pointing out that many Wikipedians  especially those who promoted the article to featured status  would disagree  implying that the article is notable.]",1,1,True,0.80419921875
+218721997.57099.57099,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to propose a merger of two articles and justify the proposal by suggesting a more encyclopedic title for the merged article.]
+S_1: [The speaker intends to express disagreement with the proposed merger and to emphasize that there is an established consensus against it  while also taking action to revert the merge tag.]",1,1,True,0.8037109375
+219094633.13249.13249,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express their thoughts on the problem of RfA and share their fascination with human interaction.]",0,0,True,0.57177734375
+219174365.27632.27632,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker is questioning why a link is not added to the filmography section and suggests it should be added based on the assumption that filming has started.]
+S_1: [The speaker intends to assert that a source is needed to verify the information.]
+S_0: [The speaker provides a source to support their claim.]
+S_1: [The speaker intends to refute the provided source by explaining that it does not confirm filming has started and emphasizes the need for accurate information on Wikipedia.]
+S_2: [The speaker aims to provide additional evidence that filming has started and suggests adding it to the filmography  while also mentioning another source of information.]
+S_1: [The speaker intends to reject the sources provided by S_2 as unacceptable and accuses the speaker of using multiple accounts to push edits.]",1,1,True,0.95654296875
+219719525.2602.2602,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to criticize S_1's editing approach and highlight the grammatical issues resulting from S_1's changes.]
+S_1: [The speaker intends to defend their edit by arguing that the sentence was grammatical and superior to the original.]
+S_0: [The speaker intends to refute S_1's defense by pointing out specific grammatical errors and questioning S_1's reasoning.]",1,1,True,0.96533203125
+22692170.6872.6872,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker seeks to understand the current status of the article and whether the team is satisfied or if everyone is unavailable due to vacations.]
+S_1: [The speaker intends to identify a potential obstacle (Uncle Ed) and clarify their own availability for collaboration.]",1,1,True,0.80029296875
+228468167.5005.5005,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express concern about the reversion of edits and to advocate for community decision-making in content disputes.]
+S_1: [The speaker intends to accuse the other party of breaking the 3RR rule and to assert their own adherence to the rules.]
+S_2: [The speaker intends to challenge the impartiality of the other party and to criticize their history of edit-warring.]",1,1,True,0.96142578125
+230801127.6148.6148,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to question why certain footballers' articles are not deleted  suggesting inconsistency.]
+S_1: [The speaker intends to express uncertainty and a lack of prior knowledge about the articles mentioned.]
+S_0: [The speaker intends to assert that information about reserve and academy players can be posted  implying justification for their actions.]
+S_1: [The speaker intends to deflect responsibility and suggest consulting someone more knowledgeable about football club articles.]",1,1,True,0.7861328125
+231825204.10900.10900,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [the speaker is expressing distress and confusion about not seeing Luna.]
+S_1: [the speaker is informing S_0 that they need to wait a few days.]
+S_0: [the speaker is expressing frustration but also indicating they have important news to share and is seeking a method of communication.]",1,1,True,0.8037109375
+235169271.31317.31317,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform S_1 about the importance of keeping the AfD notice on the page and to reassure S_1 by expressing confidence in the article's notability and offering assistance.]
+S_1: [The speaker intends to express frustration and disbelief about the article's nomination for deletion and to assert their experience and the importance of the subject.]
+S_2: [The speaker intends to warn S_1 to stop removing the AfD notice  emphasizing that such actions are considered vandalism.]",1,1,True,0.62646484375
+235774547.61002.61002,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to explain their reasoning for reverting an edit and clarify their understanding of the topic  emphasizing the distinction between mainstream and traditional views in Judaism.]",0,0,True,0.83642578125
+236161634.27131.27131,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to present a hypothetical scenario involving a conflict of interest on a wiki page and seeks advice on how to handle it.]
+S_1: [The speaker intends to express agreement with the removal of certain criticisms and to provide reasoning based on Wikipedia's citation policies.]",1,1,True,0.69189453125
+23619937.12859.12924,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker seeks clarification and challenges the use of the term ""asian fetish "" questioning its non-disparaging usage and expressing belief that it is inherently pejorative.]",1,0,False,0.5361328125
+238239921.7047.7047,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to seek support and an alternate opinion from S_1 regarding a disputed article entry on a notable event in 2008.]
+S_1: [The speaker intends to express skepticism about the value of articles on specific years and to convey a lack of interest in engaging in the dispute.]",1,1,True,0.89013671875
+247903949.1969.1969,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to question the consistency of the presentation on the user page with wiki_link policies.]",1,0,False,0.6962890625
+251209633.1236.1236,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform S_1 about the policy on creating multiple accounts and provide guidance on how to manage them.]
+S_1: [The speaker intends to express gratitude for the information  indicate willingness to try the suggestion  and express a desire for the vandal to be blocked.]",1,1,True,0.5634765625
+251630183.1918.1918,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to acknowledge the addition of a policy and question its relevance to the topic  expressing skepticism about its contribution to understanding WP:LEAD.]",0,0,True,0.9072265625
+25461244.1080.1080,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to justify their edits to the article by explaining the lack of evidence for certain claims and the need for objectivity.]
+S_1: [The speaker intends to clarify misconceptions about the history of music videos and emphasize the significance of ""Bohemian Rhapsody"" in a specific context.]",1,1,True,0.6533203125
+254877713.23605.23605,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to justify the removal of categories by referencing a guideline or previous decision.]
+S_1: [The speaker intends to express disagreement with the complete removal and justify the re-addition of heritage information.]
+S_0: [The speaker intends to challenge the other speaker's motives and emphasize the need for sourcing.]",1,1,True,0.751953125
+260226312.867.867,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to clarify their actions and defend themselves against accusations of trolling  while emphasizing their focus on editing pages related to creationism.]",0,1,False,0.734375
+261116027.1231.1231,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker is seeking clarification on whether a standings template is necessary for every division from every year.]
+S_1: [The speaker intends to inform S_0 that a template is not needed and suggests a simpler method by copying and pasting the code.]",0,1,False,0.5849609375
+263276775.2860.2860,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to assert that Zazas are not Kurds and to propose reducing their numbers in demographic figures.]
+S_1: [The speaker intends to agree with S_0 on the Zazas not being Kurds and to provide information on how they are often misclassified.]
+S_0: [The speaker intends to acknowledge S_1's point and to criticize the CIA's demographic data for being simplistic and inaccurate.]
+S_1: [The speaker intends to disagree with S_0's claim about the CIA's overestimation and to mention a report as a more reliable source.]
+S_0: [The speaker intends to advise against using Turkish sources due to potential bias from Kurdish nationalists.]
+S_1: [The speaker intends to defend the reliability of a recent survey report over older estimates and to mention criticism from Turkish nationalists.]",0,1,False,0.947265625
+271057420.29079.29079,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to explain why the roster was not visible on the newspaper website and to assert the truthfulness of the printed information.]
+S_1: [The speaker intends to express skepticism about the reliability of the information provided by S_0 and to reiterate their stance.]
+S_0: [The speaker intends to reaffirm their claim by suggesting a way to verify the information and to correct a previous mistake regarding the date.]",1,1,True,0.87255859375
+275729431.56050.56050,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to question the validity of the dispute regarding the guideline and to assert that MOSLINK has been a consistent element.]
+S_1: [The speaker intends to challenge S_0's perspective by suggesting that the existence of arbitration indicates a dispute.]",0,1,False,0.85888671875
+276059233.473.473,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to assert that tour dates should not be added to the article because they violate wiki_link guidelines.]
+S_1: [The speaker intends to challenge S_0's reasoning and express frustration over S_0's reliance on wiki_link.]
+S_0: [The speaker intends to defend their position by quoting wiki_link and express feeling attacked by S_1's aggression.]
+S_1: [The speaker intends to dismiss S_0's argument as baseless and point out that more information will be available once the tour starts.]
+S_0: [The speaker intends to reiterate their belief that tour dates are unnecessary due to wiki_link violations.]
+S_1: [The speaker intends to criticize S_0's logic and accuse them of presenting a flawed argument.]
+S_0: [The speaker intends to clarify their position and request S_1 to stop speaking in a condescending manner.]
+S_1: [The speaker intends to express frustration and insist that tour dates are not part of wiki_link  questioning S_0's understanding.]",1,1,True,0.9404296875
+276389286.25164.25164,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to encourage S_1 to contribute to improving the article by acknowledging their interest and suggesting they help with the rewrite.]
+S_1: [The speaker intends to explain their lack of knowledge about quaternions and express their disapproval of actions taken against consensus  which motivated their previous protest.]
+S_0: [The speaker intends to seek clarification on what specific content was deleted from the article.]",0,0,True,0.642578125
+281389431.12597.12597,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to defend their position by citing reputable sources and challenge the other person to verify the information before making judgments.]",0,0,True,0.5810546875
+281524096.7036.7036,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker requests assistance in merging external_link into wiki_link due to lack of knowledge and time.]
+S_1: [The speaker humorously acknowledges the request and makes a joke about doing additional tasks  while commenting on lifestyle changes.]
+S_2: [The speaker humorously expresses a lack of interest in running unless necessary.]
+S_0: [The speaker shares a personal anecdote about breakfast and preferences  while politely declining the offer to fold laundry and expressing a shared sentiment about running.]",0,1,False,0.83837890625
+288566610.12241.12241,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express doubt and seek clarification about the historical foundation of NSWRFL clubs  suggesting they might have existed as rugby union clubs before 1908.]
+S_1: [The speaker intends to share their understanding and opinion that the NSWRFL clubs were new institutions with defected players  while acknowledging the complexity of historical foundations.]",1,1,True,0.60400390625
+288655305.38122.38122,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to clarify the categorization of ""Malayo-Polynesian"" as a language group and provide evidence from a U.S. Government website to support the Malay background of Filipinos.]
+S_1: [The speaker intends to explain the shared ancestry and cultural differences among Filipino  Malaysian  Indonesian  Polynesian  and Malagasy people  emphasizing their common ethnic roots.]
+S_0: [The speaker intends to reiterate the classification of ""Malayo-Polynesian"" as a language group and provide additional historical context and evidence from a U.S. Government website to support the Malay influence on Filipino culture.]",0,1,False,0.734375
+292222895.4877.4877,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker seeks confirmation about the criteria for account edits.]
+S_1: [The speaker intends to clarify the criteria and provide additional context about the account's acceptability.]
+S_0: [The speaker expresses frustration and seeks information about the suspension duration.]",1,1,True,0.884765625
+300914163.6359.6359,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to warn the other person about the consequences of their actions and suggests a course of action if they have complaints.]",0,0,True,0.73193359375
+303378306.30420.30420,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker is expressing curiosity about the inconsistency in article titling and seeking clarification.]
+S_1: [The speaker is suggesting that someone could undertake a project to address the inconsistency.]
+S_2: [The speaker is expressing confidence that there are existing rules regarding the use of initialisms.]
+S_3: [The speaker is providing a reason for writing out the acronym  emphasizing clarity for those unfamiliar with it.]
+S_4: [The speaker is asserting their belief about the correct way to title articles  based on common practices in sports projects.]
+S_3: [The speaker is referencing a past discussion to explain the rationale behind writing out the acronym.]
+S_0: [The speaker is advocating for consistency across articles and suggesting a change to use the acronym due to its widespread recognition.]
+S_3: [The speaker is questioning the rationale behind the proposed change and expressing skepticism about the acronym's recognition.]
+S_0: [The speaker is arguing that the acronym WWE is unique and does not cause confusion  unlike TNA  and is supporting their stance with this reasoning.]
+S_2: [The speaker is seeking clarification on whether the focus should be on consistency in spelling out or abbreviating all instances.]
+S_5: [The speaker is providing an example to illustrate that not all instances require spelling out  suggesting context matters.]",0,0,True,0.724609375
+303630750.4946.4946,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to explain their rationale for balancing different perspectives on the inclusion criteria for a list of writers  aiming to prevent conflicts.]
+S_1: [The speaker intends to express disagreement with the inclusion of a particular sentence  finding it unnecessary and absurd.]",1,1,True,0.90869140625
+303957324.19810.19810,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to correct the other person's mistake and emphasize the importance of using the correct license.]
+S_1: [The speaker intends to assert their knowledge and expertise on the subject and challenge the other person to verify the information themselves.]
+S_0: [The speaker intends to express disagreement and provide reasoning to support their stance  reinforcing their belief that the other person is wrong.]
+S_1: [The speaker intends to suggest an alternative course of action and express frustration with the current discussion.]",1,1,True,0.95263671875
+304181779.2394.2394,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to defend their previous edit and assert its correctness by stating that the edit is factual and not a point of view issue.]
+S_1: [The speaker intends to challenge the previous edit by providing a counter-argument that emphasizes Ulf Sterner's achievements and criticizes the lack of reliable sources for the claim.]",1,1,True,0.9677734375
+30780757.2692.2692,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to acknowledge the request for a nomination review and explain the delay due to illness.]
+S_1: [The speaker intends to express a competitive attitude and highlight their own health.]
+S_0: [The speaker intends to clarify that the nomination process is not a competition and express indifference to who nominates whom.]
+S_1: [The speaker intends to lighten the mood by emphasizing the fun aspect of Wikipedia and express interest in checking the list while wishing the speaker well.]",1,1,True,0.78076171875
+311233422.1251.1251,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker seeks clarification on why information about Amazon's release date was removed from the article and argues that it is relevant because it indicates pre-order availability.]",0,0,True,0.7412109375
+311246875.27.27,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [the speaker intends to provide information about the number of tracks in a game and support it with a source to establish credibility.]",1,0,False,0.76806640625
+315070204.6725.6725,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to clarify that they are not engaging in an edit war and to provide evidence of sockpuppetry to justify their actions.]
+S_1: [The speaker intends to acknowledge the situation  provide advice on how to handle similar situations in the future  and suggest tools to help manage and report issues more effectively.]
+S_2: [The speaker intends to inform the other party about the benefits of having an account  specifically in relation to semi-protecting articles to manage vandalism.]",0,0,True,0.5810546875
+31619004.3644.3644,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to request a specific action regarding the handling of article deletions to facilitate the functioning of their bot.]
+S_1: [The speaker intends to express confusion and request clarification or an example to better understand the request.]
+S_0: [The speaker intends to provide a detailed example to clarify their initial request and explain the issue with the current process.]",0,0,True,0.67431640625
+318394814.36482.36482,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to establish rules and guidelines for maintaining decorum and civility on the Wikipedia page  emphasizing the importance of good faith and discouraging personal attacks and unfounded accusations.]",0,0,True,0.68408203125
+323819947.7048.7048,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to caution S_1 about being careful with deletions and inform them of a mistake they made.]
+S_1: [The speaker intends to acknowledge their mistake and express gratitude for S_0's quick correction.]
+S_0: [The speaker intends to downplay the effort involved in fixing the mistake and humorously comment on their own efficiency.]
+S_2: [The speaker intends to assert their ownership of their user and talk page and request that others refrain from editing it.]
+S_1: [The speaker intends to warn S_2 about potential consequences of their actions and clarify the rules regarding user talk pages and deletion discussions.]
+S_0: [The speaker intends to seek clarification on whether they can suggest a block in the MfD discussion.]",1,0,False,0.6826171875
+324034622.5371.5371,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker seeks clarification and justification for the reversion of their edits.]
+S_1: [The speaker intends to provide a reason for the reversion and direct the other speaker to additional information.]
+S_0: [The speaker intends to challenge the previous statement by providing a counterexample.]",1,1,True,0.92724609375
+328043589.16897.16897,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker is seeking information about whether technical arrangements have been initiated and is referencing past assistance from Tim Starling to suggest a possible course of action.]
+S_1: [The speaker is responding to the inquiry by indicating that  to their knowledge  no technical arrangements have been made.]
+S_0: [The speaker is expressing urgency about the need to initiate technical arrangements and is outlining their plan to contact individuals who might assist.]",0,1,False,0.7509765625
+328290158.11714.11714,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express frustration and challenge the other speaker's assumptions and actions  seeking acknowledgment of their own perspective.]
+S_1: [The speaker intends to apologize for any perceived condescension  clarify the criteria for article deletion  and suggest a proper process for evaluating claims.]
+S_0: [The speaker intends to assert that the other speaker's judgment was incorrect  using the deletion tags as evidence.]",1,1,True,0.966796875
+329764865.9821.9821,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express their dislike for the wiki_link and to highlight the limited content available.]",0,1,False,0.62353515625
+33128995.5275.5275,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker seeks clarification on the differences between the CPC and the Liberal party and questions the removal of relevant information from an article.]",1,0,False,0.77490234375
+336425981.26651.26651,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to critique the concept of labor value in a capitalist economy and argue that if everyone can produce everything  the need for exchange and labor value becomes irrelevant.]
+S_1: [The speaker intends to challenge S_0's statement by introducing the concept of comparative advantage  suggesting that even if everyone can produce everything  exchange is still necessary due to specialization.]
+S_0: [The speaker intends to argue that exchange does not necessarily occur based on labor values  using the example of a pig farmer and potato grower to illustrate their point.]
+S_1: [The speaker intends to explain the concept of ""socially necessary labour"" within the labor theory of value and argue that exchange can still be based on comparative labor amounts  even if not directly on labor values.]
+S_2: [The speaker intends to provide a practical example of how individuals assess labor time and effort in exchange situations  suggesting that people will choose the most efficient option.]
+S_0: [The speaker intends to question the necessity of exchange if individuals can produce goods themselves  especially when only surplus goods are traded.]",1,1,True,0.74365234375
+337479181.2630.2630,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express disbelief and criticism towards the subject's financial situation and reliance on government support  while challenging the other speaker to dispute this claim.]",1,1,True,0.78271484375
+337863577.3998.3998,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform about the upcoming release and changes in tagging criteria  seek clarification on whether articles with 1 or 2 links should be untagged  and request review of their BRFA.]
+S_1: [The speaker intends to seek clarification on whether the 3 links requirement applies specifically to links from the mainspace.]",0,0,True,0.658203125
+339693606.26593.26593,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker seeks guidance on the correct procedure.]
+S_1: [The speaker intends to inform the other about the complexity of the task and advises against it.]
+S_0: [The speaker expresses gratitude and seeks confirmation on the correct procedure.]",0,1,False,0.685546875
+341366438.17798.17798,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to question the actions of S_1 regarding the deletion of links and seeks clarification on the rationale behind it.]",0,0,True,0.66259765625
+342231636.4813.4813,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express concern about the other person's editing behavior and to provide guidance on how to improve it  with the underlying goal of maintaining the quality and integrity of the article.]",1,1,True,0.65234375
+34252121.10264.10264,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to propose a restructuring of the article by suggesting a cutoff point and merging post-World War II content into another article.]",0,0,True,0.71484375
+34321014.11100.11100,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker desires the article to be deleted because they believe it is a tirade.]",1,0,False,0.51318359375
+345836163.5110.5110,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to clarify their position and provide feedback on the situation without appearing to interfere in the discussion.]",0,0,True,0.54150390625
+348330368.1486.1486,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to warn the other person about their behavior and express their intention to report the personal attack.]
+S_1: [The speaker intends to seek clarification on whether the previous statement was a warning.]",1,1,True,0.59765625
+348829120.23977.23977,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker seeks clarification on the claim about Venn's demonstration of randomness in pi's digits and expresses skepticism about the validity of the claim.]
+S_1: [The speaker acknowledges the lack of access to the book and provides additional context about Venn's work  indicating uncertainty about the details.]
+S_0: [The speaker emphasizes the importance of meaningful content and places the responsibility on the other speaker to clarify the statement.]
+S_1: [The speaker suggests that the other speaker conduct further research and clarifies that the statement does not explicitly claim a proof.]
+S_0: [The speaker insists on the need for clarification of the term ""showed"" and advises against adding unclear material.]",1,1,True,0.77734375
+348963045.4017.4017,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to justify their edits to the Richard Sternberg article by referencing verifiable sources and seeks a response from the other speaker before reverting their edits.]
+S_1: [The speaker intends to express skepticism about the reliability of the source used by the other speaker  suggesting it is not a reliable endorsement.]
+S_0: [The speaker intends to challenge the other speaker's assessment of the source's reliability and questions the consistency of their application of Wikipedia policy.]",1,1,True,0.9609375
+350767287.7099.7099,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform about a potential request to change the naming format of Star Wars articles based on official naming conventions.]
+S_1: [The speaker intends to clarify that they never intended to move all pages and to express frustration over being accused of making a controversial move.]",1,1,True,0.94287109375
+351432768.1226.1226,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to question S_1's actions and prompt them to revert their edits.]
+S_1: [The speaker intends to clarify their actions and express willingness to comply with a request to revert edits if engaged on the talk page.]",0,1,False,0.9150390625
+356508931.24027.24027,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to address a previous interaction with S_1 and express a desire for respectful communication while clarifying their own intentions to improve the encyclopedia.]",1,0,False,0.775390625
+357207414.4917.4917,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to challenge the other speaker to provide evidence for their claim and suggests using the talk page for discussion.]
+S_1: [The speaker intends to criticize the other speaker for not providing evidence for their own claim.]",1,1,True,0.98681640625
+357620024.6128.6128,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to clarify the nature of the title associated with John de Byron and provide historical context to support their argument about the article's content.]
+S_1: [The speaker intends to express their concern about the proper application of A7 and suggest possible solutions for handling the article  including turning it into a stub or considering deletion.]
+S_1: [The speaker intends to highlight that there are multiple articles created by the same individual  suggesting that they might need to be addressed collectively.]",0,1,False,0.89599609375
+360718486.10941.10941,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express skepticism about the premature conclusions regarding the election results and highlight the uncertainty of the Lib Dems' coalition decision.]",1,1,True,0.5751953125
+364501079.2068.2068,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [the speaker intends to establish a guideline for the new list entries to have independent citations.]
+S_1: [the speaker intends to agree with the criteria and express willingness to help improve the article.]
+S_0: [the speaker intends to reassure S_1 that they are already working on the task.]
+S_1: [the speaker intends to apologize and express confidence that there will be no conflict  handing over the task to S_0.]
+S_0: [the speaker intends to seek feedback on the current state of the list after making changes.]",0,0,True,0.5712890625
+366296033.6325.6325,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to defend themselves against an accusation of harassment by pointing out their regular contributions and contrasting it with the other person's lack of recent activity.]",1,1,True,0.9052734375
+367750069.1458.1458,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform S_1 about the edits made to a Wikipedia page and requests S_1 to review contributions by another user who is adding external links.]",0,0,True,0.66357421875
+369856116.1255.1255,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to justify the removal of the RealClimate reference by providing multiple reasons based on policy and relevance.]
+S_1: [The speaker intends to challenge the previous speaker's reasoning by arguing that the link is not used as a source and pointing out a perceived inconsistency in the argument.]",1,1,True,0.96875
+371222368.86.86,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express gratitude and appreciation for the other person's contributions and to acknowledge their shared efforts in improving the article.]
+S_1: [The speaker intends to acknowledge the compliment and express their perspective on the use of parentheses in the article.]
+S_0: [The speaker intends to apologize for their previous humorous comment and express a desire to be more restrained in the future.]",1,1,True,0.56884765625
+371868127.2715.2715,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform S_1 about the re-uploaded video and provide evidence for its authenticity while expressing disapproval of perceived threats.]
+S_1: [The speaker intends to defend themselves against the accusation of being threatening and invites S_0 to provide evidence to support their claims.]
+S_0: [The speaker intends to reinforce their previous point by emphasizing the availability of evidence and urging S_1 to conduct research to verify the video's authenticity.]",1,1,True,0.9228515625
+375832992.12369.12369,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to request assistance in finding third-party references to support the article's statements.]
+S_1: [The speaker intends to clarify their limited involvement with the article and suggest another person to contact for more information.]
+S_0: [The speaker intends to express gratitude for the provided link and indicate their intention to follow up on the suggestion.]",0,0,True,0.5869140625
+38026236.2887.2887,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker is questioning the legitimacy of the UN and a group of countries in deciding sovereign state status.]
+S_1: [The speaker intends to clarify misconceptions about the UN's role and sovereignty.]
+S_0: [The speaker is questioning the recognition status of a particular entity by a large number of states.]
+S_1: [The speaker is seeking clarification on what specific information the other speaker wants.]
+S_0: [The speaker is asking for reasons why a particular entity is not recognized by many states.]
+S_1: [The speaker is expressing uncertainty about the reasons for the lack of recognition.]
+S_0: [The speaker is asserting that there is a known occurrence of states withdrawing recognition and implies a difference between ignorance and willful ignorance.]
+S_1: [The speaker is challenging the other speaker to provide information and accuses them of ignoring certain sources and facts.]
+S_0: [The speaker is rejecting the other speaker's sources as biased and accuses them of ignoring atrocities committed by the opposing side.]
+S_1: [The speaker is asking for specific examples and sources to support the other speaker's claims.]
+S_0: [The speaker is directing the other speaker to specific organizations for information and reiterates their stance on the entity's legitimacy.]",1,1,True,0.73095703125
+382415725.75.75,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to confirm their assumption about the reason for the article's history cleanup and seeks clarification on Wikipedia's policy regarding BLP violations.]
+S_1: [The speaker intends to explain the reasons for redacting portions of the article  acknowledging the issues of direct copying and original research.]
+S_2: [The speaker intends to express their desire for feedback on their proposal to change Wikipedia's license to public domain and apologizes for any perceived spamming.]",0,0,True,0.564453125
+385358710.26091.26091,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to highlight the discrepancy between the number of Transformers character articles in Finnish Wikipedia compared to English Wikipedia  suggesting a difference in notability standards.]
+S_1: [The speaker intends to explain why foreign-language Wikipedias might have more articles on certain topics  suggesting lower standards or lack of oversight.]
+S_2: [The speaker intends to express interest in any Finnish sources that could prove the notability of Transformers characters and seeks help with translation to understand those articles.]",0,1,False,0.787109375
+386488782.12704.12704,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform S_1 about an option to redirect their userpage to prevent accidental creation by others.]
+S_1: [The speaker intends to offer an alternative solution to S_0 by setting the page to ""create=autoconfirmed"" to achieve a similar outcome.]
+S_2: [The speaker intends to express agreement with S_1's suggestion and show gratitude.]",0,0,True,0.68798828125
+387118463.10991.10991,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to instruct and inform S_1 about the importance of maintaining sources in articles and to guide them to additional resources for understanding the guidelines.]
+S_1: [The speaker intends to argue against the necessity of keeping references for episodes that have already aired  based on past practices on SNL season pages.]",0,1,False,0.74365234375
+387167288.20553.20553,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker is seeking clarification and explanation regarding J Milburn's talk and the issue of credit for image promotion.]
+S_1: [The speaker is questioning the motives of S_0  suggesting they are looking for conflict.]
+S_2: [The speaker is advising S_0 to calm down and suggesting a method to manage conflict.]
+S_0: [The speaker is reiterating their request for clarification on what they perceive as a contradiction in S_1's argument.]",1,1,True,0.92919921875
+387272313.4675.4675,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform the listener about the concerns within the Liberal party regarding Peter Slipper's potential deal with Labor and his absence from party meetings.]",1,0,False,0.529296875
+39051761.108176.108176,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to assert that the book ""Dianetics: The Modern Science of Mental Health"" should be included in the references and claims to have reinstated it after a previous action by Antaeus Feldspar.]",0,0,True,0.83349609375
+396200383.5760.5760,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform the other participants about a common occurrence and express a casual farewell.]
+S_1: [The speaker intends to criticize S_0 for being self-centered and suggest they look elsewhere for information.]
+S_0: [The speaker intends to acknowledge the removal of content from S_1's talk page and make a light-hearted comment.]
+S_1: [The speaker intends to assert that S_0 should not be involved in the issue and should stay away from their talk page.]",1,1,True,0.947265625
+400187364.2534.2534,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to suggest a longer block for the IP due to its history of vandalism and to provide context about the IP's origin.]
+S_1: [The speaker intends to explain the general policy regarding blocking school IPs and to suggest that reblocking is an option.]",0,1,False,0.662109375
+403808950.15328.15328,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inquire about the requirements to become an 'experienced' reviewer to contribute to the Wikipedia community.]",0,0,True,0.93310546875
+407640062.17456.17456,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to acknowledge a mistake and express a commitment to remember the information in the future while seeking clarification on the process.]",0,0,True,0.63916015625
+408375548.1540.1540,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker seeks approval or feedback on a proposed change to a text.]",0,0,True,0.57080078125
+408656204.14076.14076,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to reflect on the progress made in societal debates  highlighting a shift from serious accusations to minor disagreements.]",1,0,False,0.8232421875
+411006545.5393.5393,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker is seeking information or assistance on how to format infoboxes in articles  specifically asking if they can be grouped or left-justified.]",1,0,False,0.775390625
+411548262.13413.13413,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to persuade the listener to reconsider the deletion of the article by providing reasons for its notability and the removal of promotional content.]",0,0,True,0.689453125
+416209715.31737.31737,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to challenge the claim made by Huldra and request its removal  while also expressing frustration and seeking clarification.]
+S_1: [The speaker intends to correct S_0's misunderstanding and defend Huldra's statement  while advising S_0 to calm down.]
+S_0: [The speaker intends to reiterate their point and defend themselves against perceived personal attacks  while requesting more respectful language from S_1.]
+S_1: [The speaker intends to express disinterest in S_0's accusations and suggest that S_0 seek administrative intervention if they feel attacked.]",1,1,True,0.9716796875
+417439774.1753.1753,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker is seeking assistance with logging into their account and provides the username for reference.]
+S_1: [The speaker is suggesting that the account may have been created under a different name and is providing additional information about the account's history.]
+S_0: [The speaker is expressing gratitude for the information provided.]",0,1,False,0.53515625
+419026245.255.255,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to provide information and justify the categorization of ""Plays"" as an acceptable parent category for musicals and other theatrical works.]
+S_1: [The speaker intends to express disagreement with the categorization of Wodehouse's works as ""plays"" and argues for a more accurate classification  suggesting sibling categories instead.]",1,1,True,0.83154296875
+424464455.2372.2372,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker seeks a solution to a layout issue with the photo placement.]
+S_1: [The speaker questions the importance of the issue to understand the concern.]
+S_0: [The speaker explains their concern about the photo placement and its relevance to the content.]",1,1,True,0.787109375
+424708268.17278.17278,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express skepticism about the reliability of the external link and seeks confirmation from Legolas about the voice they hear.]
+S_1: [The speaker intends to communicate that the external link is not functioning for them.]",1,1,True,0.68212890625
+425006000.4119.4119,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to welcome the other person and remind them of the importance of citing sources when editing Wikipedia articles to maintain quality and reliability.]
+S_1: [The speaker intends to express frustration and defend their previous edit by arguing that the deleted content was sourced and reliable  urging the other person to review the source before making judgments.]",0,1,False,0.96826171875
+425049340.78.78,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express their lack of surprise at the reversion of their edit and seeks clarification from Armbrust regarding the comment about the tone.]
+S_1: [The speaker intends to justify the reversion by explaining that the edit was not neutral and altered the meaning  and to assert that the current wording is appropriate.]",1,1,True,0.75
+426338661.4672.4672,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker is questioning the notability of certain articles and expressing concern about the quality of articles in the Wikiproject.]
+S_1: [The speaker is agreeing with S_0's concern and providing an example to illustrate the issue with the articles being created.]",1,1,True,0.87353515625
+430792779.0.0,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform the other person about the relevance criteria for images in the article and to express disapproval of the inclusion of a non-notable person's photo.]
+S_1: [The speaker intends to direct the other person to check their talk page for further information or discussion.]
+S_2: [The speaker intends to suggest that the other person explain their actions on the article's talk page and to express agreement with the decision to revert the image.]
+S_1: [The speaker intends to reiterate the request for the other person to check their talk page.]",1,1,True,0.59912109375
+433247719.840.840,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to challenge the accusation of adding inappropriate links and seeks clarification on why their actions were deemed inappropriate.]
+S_1: [The speaker intends to justify their actions by explaining the reason for removing the links and referencing wiki guidelines.]",1,1,True,0.677734375
+441084985.348.348,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker seeks clarification about a specific noticeboard mentioned in a previous discussion.]
+S_1: [The speaker aims to clarify which noticeboard they were referring to and acknowledges the overlap in discussions.]
+S_0: [The speaker expresses understanding and apologizes for the confusion.]",0,1,False,0.7890625
+44112860.3247.3247,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to assert the validity of their sources and challenge the other person to provide evidence against the band's genre classification.]
+S_1: [The speaker intends to question the validity of the source and suggest alternative interpretations of the genre classification.]
+S_0: [The speaker intends to reinforce their argument by providing additional sources and assert that the information should remain in the article.]",1,1,True,0.8388671875
+442847112.1639.1639,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to instruct the other person to read their original message carefully and to revert their changes  emphasizing the need for consensus before making changes.]
+S_1: [The speaker intends to question the other person's actions and challenge them to justify their revert by asking if they supported their action on the discussion page.]",1,1,True,0.91650390625
+445132896.1407.1387,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform the recipient about the deletion review and encourage their participation.]
+S_1: [The speaker intends to communicate that they have responded to the issue.]
+S_2: [The speaker intends to express frustration and dissatisfaction with the recipient's lack of action in resolving the issue.]",1,1,True,0.96826171875
+445252976.1693.1693,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform S_1 about the existence of an ANI thread that involves them.]
+S_1: [The speaker intends to clarify that they were already aware of the notification and explain their action of removing talkpage sections to prevent regrettable comments.]",0,1,False,0.8173828125
+445892253.11382.11382,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to provide advice on how to strengthen an argument by suggesting a more convincing approach and providing evidence to support the claim.]",0,0,True,0.6513671875
+454956608.1607.1607,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [the speaker intends to introduce or reference an external link or source.]
+S_1: [the speaker intends to express disapproval and suggest that the user should not have access to certain privileges.]",1,1,True,0.93212890625
+454978736.90042.90042,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to encourage S_1 to enjoy the present moment and expresses a positive sentiment.]
+S_1: [The speaker intends to express a preference for a different drink and playfully challenges S_0's statement about the season.]",1,1,True,0.7099609375
+460607970.1330.1330,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker is questioning the appropriateness of using an emotive quote from the BBC in a Wikipedia article and seeks clarification on the rules regarding quoting news articles.]",0,0,True,0.7431640625
+465356738.3921.3921,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to seek clarification and justification for the reversion of their changes and to assert that their actions were within the correct process.]
+S_1: [The speaker intends to accuse the other party of being disruptive and to instruct them to follow the correct process for making contested or controversial changes.]",1,1,True,0.97998046875
+467435202.6833.6833,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to request assistance from S_1 regarding an issue with content additions by a user  suggesting that the additions should be removed.]
+S_1: [The speaker intends to express uncertainty about the purpose of the text and to question whether it violates the wiki policy on excessive content.]
+S_0: [The speaker intends to provide their understanding of copyright violations on the platform and to express concern about the significance of the content additions.]",0,1,False,0.59033203125
+468022115.5131.5131,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express confusion and seek clarification about the use of a question mark in historical dates on Wikipedia  questioning the consistency of guidelines and expressing reluctance to start a public discussion.]
+S_1: [The speaker intends to explain the rationale behind the use of a question mark for probable dates  suggesting that an explanatory footnote could resolve potential confusion.]
+S_0: [The speaker intends to propose an alternative solution to the use of a question mark by suggesting a different format and example  aiming to improve clarity and consistency in the guidelines.]",0,1,False,0.798828125
+473786014.2956.2956,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express frustration and seek an explanation for the lack of response to their report about rogue edits.]
+S_1: [The speaker intends to provide a possible reason for the lack of response and to clarify the technicality regarding the report not breaking the 3RR rule.]",0,1,False,0.52392578125
+476994508.410.410,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to warn the other person about potential conflict and express frustration over perceived provocation.]",1,1,True,0.67626953125
+481498676.14263.14263,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to clarify the correct grammatical structure and categorization of the term ""Post-scarcity economy.""]
+S_1: [The speaker intends to express agreement with the grammatical correction but clarifies that ""Post-scarcity economy"" should not be considered a wiki link.]
+S_0: [The speaker intends to acknowledge the previous correction and clarify their original intention by using humor.]",0,1,False,0.556640625
+482155719.15515.15515,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express frustration and warn the other person about their actions  threatening to report them if they continue.]",1,0,False,0.5048828125
+483208609.903.903,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [the speaker intends to inform S_1 about their response to a comment.]
+S_1: [the speaker intends to acknowledge S_0's response and imply that it was overly reliant on links.]",1,1,True,0.78369140625
+492922820.46400.46400,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express dissatisfaction with Dahliarose's actions regarding article tagging and merging  and to warn Dahliarose to adhere to Wikipedia guidelines.]",1,1,True,0.7861328125
+494768256.23.23,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to seek advice on how to make their screenshot compliant with copyright regulations.]",0,0,True,0.8203125
+498961571.2546.2546,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform S_1 about the enabling of the Rollback ability and offers to remove it if S_1 does not want it.]
+S_1: [The speaker intends to humorously criticize S_0's decision by referencing a well-known quote  implying disagreement with the assessment of S_1 as a good contributor.]",0,1,False,0.68212890625
+49978241.22383.22383,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker is questioning the credibility of the information and expressing skepticism about the claim  suggesting it might be self-promotion.]",0,1,False,0.75244140625
+501385931.2628.2628,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to argue for redirecting the article to focus on the first part of the movie  using a precedent to support their point.]
+S_1: [The speaker intends to express a neutral stance on the issue  acknowledging both sides of the argument and inviting further discussion.]
+S_0: [The speaker intends to provide additional information and a source to support their argument for separating the articles.]",1,1,True,0.70458984375
+503856909.8426.8426,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express skepticism about the reports of Finding Nemo 2 being in production and seeks clarification on how it can be categorized as such without credible sources.]
+S_1: [The speaker intends to challenge the previous statement by questioning the evidence that Finding Nemo 2 is not in production.]",0,1,False,0.884765625
+50514621.843.843,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to share personal interests and experiences related to meditation and neuroscience  and to express admiration for Oliver Sacks' work.]
+S_1: [The speaker intends to help S_0 by suggesting the title of the book they might be referring to.]",0,0,True,0.5927734375
+512584711.25304.25304,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express frustration and criticize those promoting AFL on the platform  suggesting that popularity should not be judged solely on participation.]",1,0,False,0.6220703125
+513868198.3527.3527,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to gather information about the transition from glass to plastic headlamp lenses  including the materials used  the reasons for the transition  and any potential drawbacks of plastic lenses.]
+S_1: [The speaker intends to provide historical context and personal observations regarding the use of plastic headlamp lenses  while expressing skepticism about the connection to halogen lamps and emphasizing weight-saving motivations.]",0,1,False,0.82470703125
+521109525.5453.5453,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker is introducing the topic of regulations and technical specifications  possibly to set the context for the discussion.]
+S_1: [The speaker intends to challenge S_0's reliance on wiki policies  suggesting they should be used as guidelines rather than strict rules  and to defend the historical style of the article.]
+S_0: [The speaker intends to express frustration with S_1's actions  defend their own editing approach  and request specific policies to justify editing styles.]",1,1,True,0.9794921875
+530905027.3856.3856,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express concern about the size and content of certain sections in the article and proposes to summarize them  seeking input from others.]
+S_1: [The speaker intends to support the idea of summarizing the sections and suggests a fundamental rewrite to focus on major issues  indicating agreement with the previous speaker.]",1,1,True,0.6640625
+53117953.7705.7705,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to request that the other person use the preview button and stop ranting in edit summaries  expressing a desire for more considerate behavior.]
+S_1: [The speaker intends to challenge the accusation of ranting and assert their contribution level  expressing a belief in their own value.]
+S_2: [The speaker intends to highlight the issue of civility and clarify that contribution level does not justify incivility  expressing a belief in maintaining respectful interactions.]
+S_1: [The speaker intends to question the accusation of ranting and defend their edit summaries  expressing a belief that they have not been uncivil.]
+S_2: [The speaker intends to clarify which comment they found uncivil  expressing a desire to address specific behavior.]",1,1,True,0.85107421875
+531859108.16373.16373,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform others about the dead links and suggest corrections  while also requesting someone with permissions to make the necessary edits.]",0,0,True,0.708984375
+53375755.11975.11975,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform the recipient about the requirements for uploading images to Wikipedia  including the need for indicating the source and copyright status.]
+S_1: [The speaker intends to warn the recipient against uploading copyrighted images and clarify their own actions regarding the image in question.]
+S_2: [The speaker intends to accuse the recipient of uploading and misusing an image to link articles inappropriately.]
+S_1: [The speaker intends to clarify their role in uploading the image and emphasize the copyright violation issue  urging the recipient to review relevant guidelines.]
+S_2: [The speaker intends to acknowledge understanding of the tagging process and appeal for fairness in the situation.]",0,1,False,0.71044921875
+551297239.1848.1848,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to justify the addition of a refimprove tag by explaining the article's over-reliance on a single source and suggesting the need for incorporating additional sources.]
+S_1: [The speaker intends to challenge the necessity of the refimprove tag by asserting that the article already cites reliable sources and questioning what specifically is lacking.]",1,1,True,0.86962890625
+554389863.3049.3049,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to warn the other person about their editing behavior on Wikipedia and to encourage them to follow proper procedures for making changes.]
+S_1: [The speaker intends to justify their actions by explaining their perspective on the genre change and to assert their decision on the order of genres.]",1,1,True,0.94482421875
+554453136.3219.3219,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to share their opinion about the external link being funny but expresses uncertainty about its universal appeal.]
+S_1: [The speaker intends to encourage a light-hearted perspective on the bizarre discussion  suggesting it should be viewed humorously.]",0,1,False,0.67626953125
+564554335.3427.3427,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [the speaker intends to monitor the article for any changes or updates.]
+S_1: [the speaker intends to express gratitude for the previous statement.]
+S_2: [the speaker intends to express frustration and resignation  indicating they will no longer engage with the article.]",1,1,True,0.9033203125
+570690471.2411.2413,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express concerns about S_1's behavior and clarify the appropriate use of talk pages according to Wikipedia policies.]",1,0,False,0.70166015625
+575704490.3854.3854,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform S_1 about a discussion regarding a possible policy violation.]
+S_1: [The speaker expresses surprise and questions the necessity of being monitored.]
+S_0: [The speaker intends to clarify that they are not specifically monitoring S_1 and to remind S_1 of a previous warning about policy violations.]
+S_1: [The speaker intends to assert that they are working towards a consensus and that the issue is unrelated to S_0.]",0,1,False,0.92431640625
+575780939.19620.19620,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker seeks clarification on whether the effect described is correctly termed the Coriolis effect and provides reasoning for their doubt.]
+S_1: [The speaker intends to confirm that the effect is part of the Coriolis effect and provides a reference to a special name.]
+S_0: [The speaker intends to refute S_1's claim by explaining the difference between the effect they are describing and the Coriolis effect.]",0,1,False,0.9697265625
+590944497.53053.53053,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform others about a change in the Japanese Wikipedia regarding AKB48-related articles and express dissatisfaction with the change.]
+S_1: [The speaker intends to redirect the conversation to the appropriate topic  emphasizing that the current discussion is not relevant to the English Wikipedia's article.]",0,1,False,0.693359375
+594306682.5259.5259,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform the other party about the block from editing and provide instructions on how to appeal the block.]
+S_1: [The speaker seeks guidance on what actions to take if someone does not respond to discussions.]
+S_0: [The speaker intends to provide a brief and standard response to the query about actions to take.]
+S_1: [The speaker expresses gratitude for the information provided.]
+S_0: [The speaker intends to inform the other party about a new block from editing  explain the reason for the block  and express disappointment in the other party's actions.]",0,1,False,0.93896484375
+59797248.10412.10412,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inquire about the origin and necessity of spoiler tags and express skepticism about their implementation.]",0,0,True,0.62646484375
+619817658.8986.8986,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to clarify a misunderstanding and request the other person to verify their facts before making accusations.]
+S_1: [The speaker intends to inform about filing a report on a suspected sockpuppet and to update on their involvement in the mediation process.]",0,1,False,0.75634765625
+622274329.861.861,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to clarify their perspective on the classification of government systems  specifically regarding South Yemen  and to argue against the use of certain terms in the infobox.]",1,0,False,0.64013671875
+62357027.107.107,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express skepticism about the reliability of a scanned magazine as a source and emphasizes the need for reliable sources before making changes to the article.]",1,1,True,0.51953125
+65623511.956.956,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform S_1 that the image cannot be relabeled under GFDL without proof of copyright release and has taken action by removing it.]
+S_1: [The speaker intends to reassure S_0 by stating that they have checked with the university's communications office and believe the image's use is permissible.]",1,0,False,0.56298828125
+65823673.469.469,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to question the accuracy of the article's claim by bringing up Scandinavia as a potentially larger peninsula.]
+S_1: [The speaker intends to clarify that the article refers specifically to the ""three southern European"" peninsulas.]",1,1,True,0.5703125
+665075602.3270.3270,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to recommend a source for further reading to support their argument.]
+S_1: [The speaker intends to dismiss the previous suggestion and assert their own stance on the issue.]
+S_0: [The speaker intends to clarify their position with factual information and warn the other speaker of potential consequences for their actions.]",0,1,False,0.90869140625
+665524181.4487.4487,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to instruct Alirobe to adhere to Wikipedia's content sourcing policies and emphasize the importance of citing sources to avoid disruptive editing.]",0,0,True,0.80322265625
+667134702.8503.8503,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform S_1 that their recent edits are incorrect because the subject is not an animation studio.]
+S_1: [The speaker intends to defend their edits by arguing that video games are similar to animation and expressing frustration at the edits being changed.]",1,1,True,0.97119140625
+67444928.11043.11043,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker expresses nostalgia and a desire for the return of B.R.I.O.N.]
+S_1: [The speaker agrees with S_0 and shares the same sentiment.]",1,1,True,0.763671875
+67568898.558.558,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker seeks clarification on how to prove their identity.]
+S_1: [The speaker challenges the other person to come up with a way to prove their identity  implying skepticism.]
+S_0: [The speaker seeks information about the reason for the deletion.]
+S_1: [The speaker accuses the other person of misrepresenting themselves and instructs them to leave.]
+S_2: [The speaker defends the accused person  expressing belief in their identity and providing a reason for their absence.]",1,1,True,0.9384765625
+690357946.7028.7028,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to request technical insight and assistance from the listener regarding a formatting issue on a wiki page.]",1,0,False,0.77685546875
+699165828.1198.1198,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to challenge the other speaker's memory or awareness regarding the wiki_link  implying that the other speaker should already be familiar with it.]",1,1,True,0.7119140625
+70299304.17375.17375,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to propose a change to the article structure by merging individual bios into the main article to reduce redundancy.]",0,0,True,0.91015625
+704242144.1514.1514,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to justify their decision to change the article's title by explaining the reasoning and providing context.]
+S_1: [The speaker intends to challenge the previous speaker's claim by requesting evidence from reliable sources and questioning the commonality of the terms.]
+S_0: [The speaker intends to provide evidence and support for their claim by citing sources and offering links for verification.]",0,1,False,0.6044921875
+70475487.1262.1239,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to provide detailed information about the Bradley vehicles and question the source of a specific statement regarding the naming of the M3 CFV.]",0,0,True,0.5517578125
+70801203.4680.4680,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to assert their authority and expertise on Wikipedia's policies and to warn the other person against misusing warning templates.]",1,1,True,0.5166015625
+708713055.6994.6994,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to assert that the State of Origin is the highest level of the game by definition and supports this claim with a reference to Wayne Carey's opinion.]
+S_1: [The speaker intends to challenge the assertion by emphasizing that opinions from players are subjective and not objective facts  and argues that State of Origin is no longer the highest level since it is not played by AFL players anymore.]",0,1,False,0.798828125
+709789654.843.843,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express concern about the inadequacy of Wikipedia's current policies on conflict of interest (COI) editing and the increasing prevalence of promotional content.]
+S_1: [The speaker intends to question the experience and credibility of the other speaker by pointing out their short duration of registered account activity.]
+S_0: [The speaker intends to clarify their experience by stating that they have been involved with Wikipedia for a longer time using dynamic IPs.]",1,1,True,0.79345703125
+71192620.4431.4431,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to initiate a discussion about rationalizing the talk page to contain only pertinent information and seeks input from other project members.]
+S_1: [The speaker intends to clarify the procedure for archiving the page and proposes a plan to archive the current content  while also expressing willingness to take action unless there are objections.]
+S_0: [The speaker intends to agree with S_1's suggestion and humorously acknowledge their own straightforwardness in communication.]
+S_1: [The speaker intends to humorously elaborate on their preference for direct communication and confirms their intention to proceed with archiving the page.]
+S_2: [The speaker intends to question why certain individuals have not been added to the page  possibly indicating a concern or oversight.]",0,0,True,0.771484375
+71560823.11284.11284,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to request the unprotection and restoration of an article about ""The Blaques"" and expresses a belief that the deletion of previous articles was unfair.]
+S_1: [The speaker intends to question the validity of the claim that ""The Blaques"" is highly regarded  seeking clarification on the extent and source of this regard.]
+S_0: [The speaker intends to provide evidence to support the claim that ""The Blaques"" is highly regarded  citing its members and the general population of Sydney.]
+S_1: [The speaker intends to challenge the previous evidence by asking for additional  more credible sources that support the claim.]",1,1,True,0.86865234375
+715975983.4994.4994,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform DHeyward about the restrictions on editing a specific page and to warn about potential consequences for misconduct.]
+S_1: [The speaker intends to question the possibility of banning a named party from the case  expressing skepticism or confusion.]
+S_0: [The speaker intends to explain the procedure for submitting comments and to inform about the proper channels for statements  while also acknowledging a previous action taken.]",1,0,False,0.6162109375
+71880377.3865.3865,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to justify their decision to place ""Carowhina"" in a specific section by explaining their reasoning and providing a reference link.]",1,0,False,0.6767578125
+730870922.2040.2040,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform S_1 about their engagement in an edit war and to advise them on how to resolve the dispute constructively.]
+S_1: [The speaker intends to dismiss the accusation of being engaged in an edit war and to express a desire to leave the situation as it is.]",1,1,True,0.97119140625
+73456666.17206.17206,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker seeks clarification and understanding regarding the changes made to the article's categories.]
+S_1: [The speaker aims to justify their edits by explaining the mis-categorization and suggesting more appropriate categories.]
+S_0: [The speaker intends to provide context and reasoning for their original categorization choices and seeks further clarification on the perceived mis-categorization.]",0,1,False,0.84814453125
+738558606.11396.11396,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to warn the other person about their behavior and express frustration over repeated pings  threatening to report them for harassment if it continues.]
+S_1: [The speaker intends to defend their actions by explaining their understanding of standard conventions and expressing their inability to accommodate individual preferences.]
+S_2: [The speaker intends to clarify the request made by S_0 and emphasize that the action in question is not a standard convention  urging S_1 to comply with the request.]",1,1,True,0.89794921875
+744949047.2940.2940,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to critique the article's content and question the validity of the singles' releases  suggesting they may not be notable or officially released.]",0,0,True,0.53662109375
+74631077.12510.12510,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to offer a snack and express birthday wishes to the listener.]
+S_1: [The speaker intends to wish their friend a happy birthday and express good wishes for their future.]",0,0,True,0.51171875
+76602706.22880.22880,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker seeks advice on whether to block a user for disruptive behavior and wants validation for their decision-making process.]
+S_1: [The speaker intends to provide advice and support for blocking the user  while also expressing frustration with the situation and offering to take action if needed.]
+S_0: [The speaker acknowledges their own naivety  agrees to take action by blocking the user  and seeks future assistance with a pop music article review.]",1,1,True,0.74609375
+76665503.16927.16927,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to identify the problem and seek a way to resolve it.]
+S_1: [The speaker intends to explain the issue with the trivia section and question the appropriateness of adding information not found in the original source.]
+S_0: [The speaker intends to verify the information provided by S_1 and request an explanation from Tenebrae regarding the inclusion of additional information.]",1,1,True,0.7607421875
+767573928.1430.1430,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to warn the other person about potential consequences of their actions.]
+S_1: [The speaker intends to dismiss the warning as a personal opinion and express their intention to report the other person's actions.]",1,1,True,0.98974609375
+771543487.6863.6863,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker seeks clarification on whether they are allowed to remove the PROD and suggest the article go to AFD  despite being the creator.]",0,1,False,0.57568359375
+78498044.29904.29904,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express dissatisfaction with the current state of the piece and suggests that it needs editing for chronological order. The speaker also intends to convey sarcasm about the emphasis on a person's contributions to popular culture over their life story.]",0,1,False,0.90673828125
+78575567.85056.85056,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express frustration with the current situation and suggest arbitration as the only remaining solution.]
+S_1: [The speaker intends to express skepticism about the arbitration process and imply that it is biased.]
+S_2: [The speaker intends to express disappointment or sarcasm regarding the effectiveness of a previously mentioned process or link.]
+S_3: [The speaker intends to criticize another participant  Markovich  by accusing them of hypocrisy and policy violations.]
+S_4: [The speaker intends to defend themselves against accusations and criticize the other speaker for making false accusations.]",1,1,True,0.98388671875
+78642211.11864.11864,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [the speaker intends to defend their contributions and argue against the classification of their link as spam.]
+S_1: [the speaker intends to assert that the link provided is not a reliable source for the article in question.]",0,1,False,0.76513671875
+83062448.8505.8505,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to criticize the use of biased sources and emphasize the need for a neutral point of view (NPOV) by highlighting that the issues are disputed.]",1,1,True,0.6591796875
+83160877.1204.1204,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express frustration and seek justification for the change in the article title  emphasizing adherence to original content and rules.]",1,0,False,0.572265625
+87270554.7356.7356,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to inform the recipient about the listing of an uploaded or altered image or media file and to encourage them to check the listing to prevent its deletion.]
+S_1: [The speaker intends to inform that they have restored a picture to its original place and removed a tag  implying a correction or update has been made.]",1,1,True,0.58154296875
+89045803.11389.11389,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express gratitude for the edits and share their background and current activities related to Wikipedia.]",0,0,True,0.82177734375
+90825950.8127.8127,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express concerns about creating biography lines for all characters  suggesting it would cause clutter and proposing an alternative solution.]
+S_1: [The speaker intends to argue for more comprehensive content on the Zatch Bell! pages  suggesting additional information and expressing a desire to improve the pages.]",1,1,True,0.86083984375
+93669698.12651.12652,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to encourage LC to become a more active and constructive member of the community by suggesting mentorship and offering assistance in contacting the blocking admin.]
+S_1: [The speaker intends to assert their belief that they are already a useful member of the community and to express frustration with others' perceptions of their contributions.]",0,1,False,0.97509765625
+96332705.622.622,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express amusement and relief about a humorous edit summary and to make a playful comment about their own condition.]
+S_1: [The speaker intends to acknowledge the humor and extend a festive greeting to the other speaker.]
+S_0: [The speaker intends to reciprocate the festive greeting.]
+S_1: [The speaker intends to inquire about the other speaker's health condition  possibly out of concern or curiosity.]
+S_0: [The speaker intends to clarify that they do not have arthritis.]",0,0,True,0.7412109375
+97711081.16397.16397,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_3: [The speaker intends to defend the actions of another editor  suggesting that the edit was made with good intentions and not to cause inconvenience.]
+S_1: [The speaker intends to accuse another user of trolling by suggesting that they are being targeted due to a previous disagreement on another page.]
+S_0: [The speaker intends to inform the recipient about the removal of fair use images from their user namespace due to a violation of the wiki's fair use policy and to guide them towards the appropriate resources.]",0,1,False,0.7626953125
+97899746.2042.2042,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to justify their reversion of the spelling change and argue against the rationale for Americanizing the spelling based on population size.]
+S_1: [The speaker intends to redirect the discussion to the appropriate forum  which is the article's talk page.]",0,1,False,0.66064453125
+99634556.9406.9406,4,"You are an assistant trained to detect early warning signs of toxic behavior in online conversations given only the intentions behind each utterance of the conversation. Predict whether the conversation is likely to result in a personal attack later on. Provide your answer in the format 'ATTACK: YES/NO'
+
+Conversation:
+S_0: [The speaker intends to express gratitude or acknowledgment for an external link.]",0,0,True,0.65576171875

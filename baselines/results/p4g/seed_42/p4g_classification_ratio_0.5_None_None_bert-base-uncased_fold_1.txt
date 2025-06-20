@@ -1,9 +1,0 @@
-Dataset: p4g
-Local Info: None
-Global Info: None
-Model: bert-base-uncased
-Fraction: 0.5
-Seed: 42
-Fold: 1
-
-Test data 	 Precision: 0.32926829268292684 	 Recall: 0.5 	 F1: 0.39705882352941174	 Loss: 0.6317662542516534
