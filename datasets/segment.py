@@ -16,8 +16,6 @@ def format_conversation_for_gpt(group: pd.DataFrame) -> str:
     """Format conversation utterances for GPT analysis."""
     conversation = []
     for _, row in group.iterrows():
-        # Adjust these column names based on your actual CSV structure
-        # Common column names: 'text', 'message', 'utterance', 'content'
         utterance_text = row.get('text', row.get('message', row.get('utterance', row.get('content', str(row.iloc[-1])))))
         speaker = row.get('speaker', row.get('role', f"Speaker_{row['utterance_idx']}"))
         conversation.append(f"{speaker}: {utterance_text}")
