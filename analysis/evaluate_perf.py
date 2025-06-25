@@ -12,20 +12,19 @@ from scipy.stats import pearsonr, spearmanr
 from pprint import pprint
 
 
-def get_p4g_perfs():
+
+def get_p4g_han_perfs():
 
     fracs       = [0.25, 0.375, 0.5, 0.625, 0.75]
 
     seeds       = ['42', '11611', '10623']
 
-    infos       = ['none', 'local', 'global_scd', 'global_scm', 'global_traditional', 'both_scd', 'both_scm', 'both_traditional']
-
-    results_dir = f'../src/{args.method}/results/{args.dataset}/'
-
-    # for seed in seeds:
+    results_dir = f'../baselines/results/{args.dataset}/'
+    infos       = ['None_None', 'intentions_None', 'None_traditional_summary', 'None_scd_summary', 'None_scm_summary', 'intentions_scd_summary', 'intentions_scm_summary', 'intentions_traditional_summary']
 
     results_dict = ddict(list)
 
+    all_conversations_dict = ddict(list)
 
     for info in infos:
 
@@ -35,7 +34,70 @@ def get_p4g_perfs():
             mf1_arr = []
             for seed in seeds:
 
-                # load the csv file
+                for fold in range(0, 5):
+
+                    
+                    csv_file = f'{results_dir}/seed_{seed}/{args.dataset}_classification_ratio_{frac}_{info}_bert-base-uncased_fold_{fold}_test.csv'
+
+                    try:
+                        df       = pd.read_csv(csv_file)
+
+                        y_trues = df['gold_label'].values
+                        y_preds = df['predicted_label'].values
+
+
+                        # print(f'
+                        # Loaded {csv_file} with shape {df.shape}')
+                    except Exception as e:
+                        print(f'Error loading {csv_file}: {e}')
+
+                        continue
+
+                # dialogue_id,fold,text,label,predicted_label,correct,confidence_score
+
+               
+                mf1     = f1_score(y_trues, y_preds, average='macro')
+                mf1_arr.append(100*mf1)
+            
+            # calculate the mean and std of the mf1
+            mf1_mean = np.mean(mf1_arr)
+            mf1_std  = np.std(mf1_arr)
+
+            result  = f'{mf1_mean:.2f} ± {mf1_std:.2f}' 
+            
+            results_dict[frac].append(result)
+            print(f'Info: {info}, frac: {frac}, mf1: {result}')
+
+    # convert the results_dict to a dataframe
+    results_df = pd.DataFrame(results_dict)
+    
+    # save the dataframe to a csv file
+    results_df.to_csv(f'../results/{args.method}-{args.dataset}-agg_perfs.csv', index=False)
+    
+        
+    
+
+def get_p4g_sft_perfs():
+
+    fracs       = [0.25, 0.375, 0.5, 0.625, 0.75]
+
+    seeds       = ['42', '11611', '10623']
+
+
+    results_dir = f'../src/{args.method}/results/{args.dataset}/'
+    infos       = ['none', 'local', 'global_scd', 'global_scm', 'global_traditional', 'both_scd', 'both_scm', 'both_traditional']
+    
+    results_dict = ddict(list)
+
+    for info in infos:
+
+        results_dict['Info'].append(info)
+        for frac in fracs:
+
+            mf1_arr = []
+            for seed in seeds:
+
+                
                 csv_file = f'{results_dir}/seed_{seed}/{args.dataset}_classification_ratio_{frac}_{info}_predictions.csv'
 
                 try:
@@ -49,6 +111,7 @@ def get_p4g_perfs():
                     # Loaded {csv_file} with shape {df.shape}')
                 except Exception as e:
                     print(f'Error loading {csv_file}: {e}')
+
                     continue
 
                 # dialogue_id,fold,text,label,predicted_label,correct,confidence_score
@@ -75,7 +138,69 @@ def get_p4g_perfs():
 
 
 
-def get_cd_perfs():
+def get_cd_han_perfs():
+
+    fracs       = [0.25, 0.375, 0.5, 0.625, 0.75]
+
+    seeds       = ['42', '11611', '10623']
+
+    results_dir = f'../baselines/results/{args.dataset}/'
+    infos       = ['None_None', 'intentions_None', 'None_traditional_summary', 'None_scd_summary', 'None_scm_summary', 'intentions_scd_summary', 'intentions_scm_summary', 'intentions_traditional_summary']
+
+    results_dict = ddict(list)
+
+    for info in infos:
+
+        results_dict['Info'].append(info)
+        for frac in fracs:
+
+            mf1_arr = []
+            for seed in seeds:
+
+                for fold in range(0, 5):
+
+                    
+                    csv_file = f'{results_dir}/seed_{seed}/{args.dataset}_classification_ratio_{frac}_{info}_bert-base-uncased_fold_{fold}_test.csv'
+
+                    try:
+                        df       = pd.read_csv(csv_file)
+
+                        y_trues = df['gold_label'].values
+                        y_preds = df['predicted_label'].values
+
+
+                        # print(f'
+                        # Loaded {csv_file} with shape {df.shape}')
+                    except Exception as e:
+                        print(f'Error loading {csv_file}: {e}')
+
+                        continue
+
+                # dialogue_id,fold,text,label,predicted_label,correct,confidence_score
+
+               
+                mf1     = f1_score(y_trues, y_preds, average='macro')
+                mf1_arr.append(100*mf1)
+            
+            # calculate the mean and std of the mf1
+            mf1_mean = np.mean(mf1_arr)
+            mf1_std  = np.std(mf1_arr)
+
+            result  = f'{mf1_mean:.2f} ± {mf1_std:.2f}' 
+            
+            results_dict[frac].append(result)
+            print(f'Info: {info}, frac: {frac}, mf1: {result}')
+
+    # convert the results_dict to a dataframe
+    results_df = pd.DataFrame(results_dict)
+    
+    # save the dataframe to a csv file
+    results_df.to_csv(f'../results/{args.method}-{args.dataset}-agg_perfs.csv', index=False)
+    
+        
+    
+
+def get_cd_sft_perfs():
 
     fracs       = [0.25, 0.375, 0.5, 0.625, 0.75]
 
@@ -371,15 +496,26 @@ if __name__== '__main__':
 
 
     if args.step == 'get_perf':
-        
-        if args.dataset == 'p4g':
-            get_p4g_perfs()
-        
-        elif args.dataset == 'cb':
-            get_cb_perfs()
 
-        elif args.dataset == 'casino':
-            get_casino_perfs()
+        if args.method == 'sft':
+    
+            if args.dataset == 'p4g':
+                get_p4g_sft_perfs()
+            
+            elif args.dataset == 'cd':
+                get_cd_sft_perfs()
+
+            elif args.dataset == 'casino':
+                get_casino_perfs()
+            
+            elif args.dataset == 'cd':
+                get_cd_perfs()
         
-        elif args.dataset == 'cd':
-            get_cd_perfs()
+
+        if args.method == 'han':
+    
+            if args.dataset == 'p4g':
+                get_p4g_han_perfs()
+            
+            elif args.dataset == 'cd':
+                get_cd_han_perfs()
