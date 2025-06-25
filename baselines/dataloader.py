@@ -16,22 +16,27 @@ def create_mini_batch(samples):
     utt_mask        = [s["utt_masks"] for s in samples]
     global_ids      = [s["global_ids"] for s in samples]
     global_mask     = [s["global_masks"] for s in samples]
-    binary_score    = [s["binary_score"] for s in samples]
-    
-    # Handle the case where global_ids might contain None values
+    score           = [s["score"] for s in samples]
+    utterances      = [s["utterances"] for s in samples]
+    speakers        = [s["speakers"] for s in samples]
+    dialogue_id     = [s["dialogue_id"] for s in samples]
+
     if any(g_id is None for g_id in global_ids):
         global_ids_tensor = None
         global_mask_tensor = None
     else:
         global_ids_tensor = torch.vstack(global_ids)
         global_mask_tensor = torch.vstack(global_mask)
-    
+
     return {
         "utt_ids":  utt_ids,
         "utt_masks": utt_mask,
         "global_ids": global_ids_tensor,
         "global_masks": global_mask_tensor,
-        "binary_score": torch.LongTensor(binary_score)
+        "score": torch.FloatTensor(score),
+        "utt_text": utterances,
+        "speakers": speakers,
+        "dialogue_id": dialogue_id,
     }
 
 
@@ -58,7 +63,7 @@ def conv_encoder(item, tokenizer, local_info=None, global_info=None, num_classes
     #     "scm_summary": "Buyer:  \n  warmth: high  \n  competence: high  \n  explanation: The Buyer initiates the conversation with a friendly greeting and expresses interest, indicating openness and positive intent. Their direct approach suggests they are knowledgeable about what they want.\n\nSeller:  \n  warmth: high  \n  competence: high  \n  explanation: The Seller responds promptly with a friendly greeting and offers assistance, demonstrating a willingness to help and engage. Their readiness to answer questions suggests they are knowledgeable and prepared.",
     #     "scd_summary": "The conversation begins with the buyer expressing interest in the seller's product, indicating a positive and curious sentiment. The seller responds promptly and openly, inviting further engagement by asking if the buyer has any questions. This sets a cooperative tone, with the seller adopting a supportive and accommodating strategy to facilitate the buyer's decision-making process. Both parties appear open and ready to continue the dialogue constructively.",
     #     "politeness_summary": "In this exchange, both participants effectively use face management strategies to maintain a positive social dynamic. The Buyer raises the Seller's positive face by expressing interest, affirming the product's value. The Seller's response invites further engagement, respecting the Buyer's autonomy and minimizing face-threatening acts by allowing the Buyer to guide the conversation. These politeness strategies foster a respectful and cooperative interaction, reinforcing positive interpersonal dynamics and mutual respect, which can lead to a successful transaction.",
-    #     "binary_score": 0,
+    #     "score": 0,
 
     utt_ids     = []
     utt_mask    = []
@@ -109,7 +114,7 @@ def conv_encoder(item, tokenizer, local_info=None, global_info=None, num_classes
         global_mask = global_encoding['attention_mask']
     
     
-    binary_score    = item['binary_score']
+    score    = item['score']
 
 
     result = {
@@ -117,7 +122,7 @@ def conv_encoder(item, tokenizer, local_info=None, global_info=None, num_classes
         'utt_masks': utt_mask,
         'global_ids': global_ids,
         'global_masks': global_mask,
-        'binary_score': binary_score,
+        'score': score,
     }
 
     return result
@@ -142,6 +147,7 @@ class DialogueDataset(Dataset):
         
         dial_encoding['speakers'] = item['speakers']
         dial_encoding['utterances'] = item['utterances']
+        dial_encoding['dialogue_id'] = item['dialogue_id']
         if self.local_info is not None:
             dial_encoding['local_info'] = item[self.local_info]
         if self.global_info is not None:
@@ -187,7 +193,7 @@ def get_data_loaders(
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset', type=str, default='p4g')
+    parser.add_argument('--dataset', type=str, default='CB')
     parser.add_argument('--local_info', type=str, default='intentions')
     parser.add_argument('--global_info', type=str, default='scd_summary')
     parser.add_argument('--batch_size', type=int, default=8)
@@ -207,6 +213,3 @@ if __name__ == '__main__':
         tokenizer,
         args,
     )
-    
-
-
