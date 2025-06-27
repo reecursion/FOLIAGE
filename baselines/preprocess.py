@@ -27,7 +27,7 @@ def preprocess_wiki(args):
     # dialogue_id,turn_id,utterance_idx,speaker,utterance,personal_attack,intention,traditional_summary,scm_summary,scd_summary
 
     fracwise_dialogs    = ddict(list)
-    df = pd.read_csv(f'/Users/rithviksenthil/Desktop/FOLIAGE/datasets/p4g/final/ratio_{args.frac}.csv')
+    df = pd.read_csv(f'datasets/p4g/final/ratio_{args.frac}.csv')
     # df.rename(columns={'politeness_theory_stage2_summary': 'politeness_summary'}, inplace=True)
     uniq_conversations  = df['dialogue_id'].unique()
 
@@ -36,9 +36,9 @@ def preprocess_wiki(args):
     test_foldwise_data   = ddict(list)
     train_foldwise_data  = ddict(list)
 
-    for frac in [0.25, 0.375, 0.5, 0.625, 0.75]:
+    for frac in [1]:
         
-        df = pd.read_csv(f'/Users/rithviksenthil/Desktop/FOLIAGE/datasets/p4g/final/ratio_{frac}.csv')
+        df = pd.read_csv(f'datasets/p4g/final/ratio_{frac}.csv')
         # df.rename(columns={'politeness_theory_stage2_summary': 'politeness_summary'}, inplace=True)
         uniq_conversations  = df['dialogue_id'].unique()
 
@@ -91,10 +91,10 @@ def preprocess_wiki(args):
                     train_foldwise_data[fold].append(curr_data)
             
 
-            with open(f'/Users/rithviksenthil/Desktop/FOLIAGE/baselines/data/{args.dataset}/processed/RAT_{frac}_{fold}_train.json', 'w') as f:
+            with open(f'baselines/data/{args.dataset}/processed/RAT_{frac}_{fold}_train.json', 'w') as f:
                 json.dump(train_conv_data, f, indent=4)
             
-            with open(f'/Users/rithviksenthil/Desktop/FOLIAGE/baselines/data/{args.dataset}/processed/RAT_{frac}_{fold}_test.json', 'w') as f:
+            with open(f'baselines/data/{args.dataset}/processed/RAT_{frac}_{fold}_test.json', 'w') as f:
                 json.dump(test_conv_data, f, indent=4)
         
             # print("Length of train data: ", len(train_conv_data))
@@ -102,10 +102,10 @@ def preprocess_wiki(args):
     
     for fold in range(args.num_folds):
 
-        with open(f'/Users/rithviksenthil/Desktop/FOLIAGE/baselines/data/{args.dataset}/processed/RAT_ALL_{fold}_train.json', 'w') as f:
+        with open(f'baselines/data/{args.dataset}/processed/RAT_ALL_{fold}_train.json', 'w') as f:
             json.dump(train_foldwise_data[fold], f, indent=4)
         
-        with open(f'/Users/rithviksenthil/Desktop/FOLIAGE/baselines/data/{args.dataset}/processed/RAT_ALL_{fold}_test.json', 'w') as f:
+        with open(f'baselines/data/{args.dataset}/processed/RAT_ALL_{fold}_test.json', 'w') as f:
             json.dump(test_foldwise_data[fold], f, indent=4)
     
 
