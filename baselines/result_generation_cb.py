@@ -23,6 +23,7 @@ def analyze_file(filepath):
             'filename': os.path.basename(filepath),
             'avg_metrics': metrics
         }
+    
     except Exception as e:
         print(f"Error processing {filepath}: {e}")
         return {

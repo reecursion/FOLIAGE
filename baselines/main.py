@@ -34,7 +34,7 @@ from transformers import (
     Trainer,
     TrainingArguments,
     default_data_collator,
-    set_seed,
+    set_seed
 )
 
 def seed_everything(seed=0):
@@ -75,7 +75,8 @@ def get_arguments():
     parser.add_argument('--run_shap',           type=int, default=0, help='Whether to run SHAP analysis')
     parser.add_argument('--shap_samples',       type=int, default=100, help='Number of samples for SHAP analysis')
     parser.add_argument('--shap_background',    type=int, default=50, help='Number of background samples for SHAP')
-    
+    parser.add_argument('--category',           type=int, default=1, help='Category for pairwise classifier')
+
     args = parser.parse_args()
     return args
 
@@ -159,9 +160,9 @@ if __name__ == '__main__':
     device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
     tokenizer = AutoTokenizer.from_pretrained(args.model_name)
 
-    train_data = json.load(open(f'baselines/data/{args.dataset}/processed/RAT_{args.frac}_{args.fold}_train.json'))
-    dev_data = json.load(open(f'baselines/data/{args.dataset}/processed/RAT_{args.frac}_{args.fold}_test.json'))
-    test_data = json.load(open(f'baselines/data/{args.dataset}/processed/RAT_{args.frac}_{args.fold}_test.json'))
+    train_data = json.load(open(f'baselines/data/{args.dataset}/processed/RAT_{args.frac}_{args.fold}_cat{args.category}_train.json'))
+    dev_data = json.load(open(f'baselines/data/{args.dataset}/processed/RAT_{args.frac}_{args.fold}_cat{args.category}_test.json'))
+    test_data = json.load(open(f'baselines/data/{args.dataset}/processed/RAT_{args.frac}_{args.fold}_cat{args.category}_test.json'))
 
     train_loader, dev_loader, test_loader = get_data_loaders(
         train_data, dev_data, test_data, tokenizer, args,
@@ -171,8 +172,8 @@ if __name__ == '__main__':
     model.to(device)
     CE_loss = nn.CrossEntropyLoss()
 
-    identifiable_file = f'{args.dataset}_classification_ratio_{args.frac}_{args.local_info}_{args.global_info}_{args.model_name}_fold_{args.fold}.txt'
-    checkpoint_file = f'/data/user_data/rithviks/ckpts/{identifiable_file}.pt'
+    identifiable_file = f'{args.dataset}_classification_ratio_{args.frac}_{args.local_info}_{args.global_info}_{args.model_name}_fold_{args.fold}_cat{args.category}'
+    checkpoint_file = f'/data/shire/projects/RAT_forecast/ckpts/{identifiable_file}.pt'
 
 
     if args.do_train == 1:

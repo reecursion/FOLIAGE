@@ -1,0 +1,16 @@
+file,category_1,category_1_desc,category_2,category_2_desc,conversations_cat1,conversations_cat2,utterances_cat1,utterances_cat2,total_conversations,total_utterances,balance_ratio
+pairwise_01_expresseddonatedid_vs_expresseddonatedonated.csv,expressed_donate_did,Expressed intention of donating but did not donate,expressed_donate_donated,Expressed intention and donated,78,64,2714,2434,142,5148,0.8968312453942521
+pairwise_02_expresseddonatedid_vs_noexpressdonated.csv,expressed_donate_did,Expressed intention of donating but did not donate,no_express_donated,Did not express intention but donated,78,4,2714,164,82,2878,0.0604274134119381
+pairwise_03_expresseddonatedid_vs_noexpressnodonate.csv,expressed_donate_did,Expressed intention of donating but did not donate,no_express_no_donate,Did not express intention and did not donate,78,33,2714,1171,111,3885,0.43146647015475315
+pairwise_04_expresseddonatedid_vs_uncleardonated.csv,expressed_donate_did,Expressed intention of donating but did not donate,unclear_donated,Unclear but donated,78,3,2714,114,81,2828,0.04200442151805453
+pairwise_05_expresseddonatedid_vs_unclearnodonate.csv,expressed_donate_did,Expressed intention of donating but did not donate,unclear_no_donate,Unclear but did not donate,78,22,2714,682,100,3396,0.25128960943257184
+pairwise_06_expresseddonatedonated_vs_noexpressdonated.csv,expressed_donate_donated,Expressed intention and donated,no_express_donated,Did not express intention but donated,64,4,2434,164,68,2598,0.06737880032867707
+pairwise_07_expresseddonatedonated_vs_noexpressnodonate.csv,expressed_donate_donated,Expressed intention and donated,no_express_no_donate,Did not express intention and did not donate,64,33,2434,1171,97,3605,0.48110106820049303
+pairwise_08_expresseddonatedonated_vs_uncleardonated.csv,expressed_donate_donated,Expressed intention and donated,unclear_donated,Unclear but donated,64,3,2434,114,67,2548,0.04683648315529992
+pairwise_09_expresseddonatedonated_vs_unclearnodonate.csv,expressed_donate_donated,Expressed intention and donated,unclear_no_donate,Unclear but did not donate,64,22,2434,682,86,3116,0.28019720624486444
+pairwise_10_noexpressdonated_vs_noexpressnodonate.csv,no_express_donated,Did not express intention but donated,no_express_no_donate,Did not express intention and did not donate,4,33,164,1171,37,1335,0.14005123825789922
+pairwise_11_noexpressdonated_vs_uncleardonated.csv,no_express_donated,Did not express intention but donated,unclear_donated,Unclear but donated,4,3,164,114,7,278,0.6951219512195121
+pairwise_12_noexpressdonated_vs_unclearnodonate.csv,no_express_donated,Did not express intention but donated,unclear_no_donate,Unclear but did not donate,4,22,164,682,26,846,0.2404692082111437
+pairwise_13_noexpressnodonate_vs_uncleardonated.csv,no_express_no_donate,Did not express intention and did not donate,unclear_donated,Unclear but donated,33,3,1171,114,36,1285,0.09735269000853972
+pairwise_14_noexpressnodonate_vs_unclearnodonate.csv,no_express_no_donate,Did not express intention and did not donate,unclear_no_donate,Unclear but did not donate,33,22,1171,682,55,1853,0.5824081981212639
+pairwise_15_uncleardonated_vs_unclearnodonate.csv,unclear_donated,Unclear but donated,unclear_no_donate,Unclear but did not donate,3,22,114,682,25,796,0.16715542521994134

@@ -27,7 +27,7 @@ def preprocess_wiki(args):
     # dialogue_id,turn_id,utterance_idx,speaker,utterance,personal_attack,intention,traditional_summary,scm_summary,scd_summary
 
     fracwise_dialogs    = ddict(list)
-    df = pd.read_csv(f'datasets/p4g/final/ratio_{args.frac}.csv')
+    df = pd.read_csv(f'baselines/pairwise_datasets/category{args.category}.csv')
     # df.rename(columns={'politeness_theory_stage2_summary': 'politeness_summary'}, inplace=True)
     uniq_conversations  = df['dialogue_id'].unique()
 
@@ -38,7 +38,7 @@ def preprocess_wiki(args):
 
     for frac in [1]:
         
-        df = pd.read_csv(f'datasets/p4g/final/ratio_{frac}.csv')
+        df = pd.read_csv(f'baselines/pairwise_datasets/category{args.category}.csv')
         # df.rename(columns={'politeness_theory_stage2_summary': 'politeness_summary'}, inplace=True)
         uniq_conversations  = df['dialogue_id'].unique()
 
@@ -80,7 +80,7 @@ def preprocess_wiki(args):
                     else:
                         assert row['scd_summary'] == curr_data['scd_summary']
 
-                curr_data['binary_score']  = row["donation_made"]
+                curr_data['binary_score']  = row["binary_label"]
 
                 if dialog_id in foldwise_conv_ids[fold]:
                     test_conv_data.append(curr_data)
@@ -91,10 +91,10 @@ def preprocess_wiki(args):
                     train_foldwise_data[fold].append(curr_data)
             
 
-            with open(f'baselines/data/{args.dataset}/processed/RAT_{frac}_{fold}_train.json', 'w') as f:
+            with open(f'baselines/data/{args.dataset}/processed/RAT_{frac}_{fold}_cat{args.category}_train.json', 'w') as f:
                 json.dump(train_conv_data, f, indent=4)
             
-            with open(f'baselines/data/{args.dataset}/processed/RAT_{frac}_{fold}_test.json', 'w') as f:
+            with open(f'baselines/data/{args.dataset}/processed/RAT_{frac}_{fold}_cat{args.category}_test.json', 'w') as f:
                 json.dump(test_conv_data, f, indent=4)
         
             # print("Length of train data: ", len(train_conv_data))
@@ -102,10 +102,10 @@ def preprocess_wiki(args):
     
     for fold in range(args.num_folds):
 
-        with open(f'baselines/data/{args.dataset}/processed/RAT_ALL_{fold}_train.json', 'w') as f:
+        with open(f'baselines/data/{args.dataset}/processed/RAT_ALL_{fold}_cat{args.category}_train.json', 'w') as f:
             json.dump(train_foldwise_data[fold], f, indent=4)
         
-        with open(f'baselines/data/{args.dataset}/processed/RAT_ALL_{fold}_test.json', 'w') as f:
+        with open(f'baselines/data/{args.dataset}/processed/RAT_ALL_{fold}_cat{args.category}_test.json', 'w') as f:
             json.dump(test_foldwise_data[fold], f, indent=4)
     
 
@@ -118,6 +118,7 @@ if __name__ == '__main__':
     parser.add_argument('--step',    type=str, default='prepare')
     parser.add_argument('--frac',    type=str, default=0.25, help='Fraction of data to use.')
     parser.add_argument('--num_folds', type=int, default=5, help='Number of folds for cross-validation.')
+    parser.add_argument('--category', type=int, default=5, help='Category for pairwise classifier')
     
     args = parser.parse_args()
 

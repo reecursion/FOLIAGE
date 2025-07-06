@@ -176,7 +176,7 @@ def parse_arguments():
                         choices=["none", "traditional", "scd", "relational", "scm", "appraisal_theory", "politeness_theory_stage2"],
                         help="Type of summary to use for global intentions")
     # Training arguments
-    parser.add_argument("--output_dir", type=str, default="/data/user_data/rithviks/output/regression",
+    parser.add_argument("--output_dir", type=str, default="/data/shire/projects/RAT_forecast/FOLIAGE_EXPTS/cb-regression",
                         help="Directory to save model checkpoints")
     parser.add_argument("--batch_size", type=int, default=1, help="Training batch size per device (reduced from 4)")
     parser.add_argument("--epochs", type=int, default=10, help="Number of training epochs")
