@@ -183,7 +183,7 @@ if __name__ == '__main__':
         #######################################
         print("Setting up training loop...")
         optimizer = torch.optim.AdamW(model.parameters(), lr=args.learning_rate)
-        best_p, best_r, best_f1 = 0, 0, 0
+        best_p, best_r, best_f1 = 0, 0, -1
         kill_cnt = 0
 
 
