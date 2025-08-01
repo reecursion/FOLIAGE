@@ -31,16 +31,16 @@ class ConversationForecastingWithIntentions:
         self.include_intentions = include_intentions
         
         if self.dataset_type == "cb":
-            self.dataset_dir = "/home/gganeshl/FOLIAGE/datasets/craigslistbargain/final"
+            self.dataset_dir = "/home/rithviks/FOLIAGE/datasets/craigslistbargain/final"
         elif self.dataset_type == "p4g":
-            self.dataset_dir = "/home/gganeshl/FOLIAGE/datasets/p4g/final"
+            self.dataset_dir = "/home/rithviks/FOLIAGE/datasets/p4g/final"
         elif self.dataset_type == "casino":
-            self.dataset_dir = "/home/gganeshl/FOLIAGE/datasets/casino/final"
+            self.dataset_dir = "/home/rithviks/FOLIAGE/datasets/casino/final"
         elif self.dataset_type == "cd":
-            self.dataset_dir = "/home/gganeshl/FOLIAGE/datasets/conversationderailment/final"
+            self.dataset_dir = "/home/rithviks/FOLIAGE/datasets/conversationderailment/final"
         
         # Base output directory
-        base_output_dir = f"/home/gganeshl/FOLIAGE/src/icl/results/{dataset_type}/{model_type}/seed_{seed}"
+        base_output_dir = f"/home/rithviks/FOLIAGE/src/icl/results/{dataset_type}/{model_type}/seed_{seed}"
         
         # Determine the appropriate subdirectory based on intentions and summary type
         if self.include_intentions and self.summary_type == "none":
@@ -63,7 +63,7 @@ class ConversationForecastingWithIntentions:
             self.client = OpenAI(api_key=self.api_key)
         elif self.model_type == "llama70b" or self.model_type == "llama8b":
             self.client = OpenAI(
-                base_url="http://babel-3-21:8081/v1",
+                base_url="http://shire-1-10:8081/v1",
                 api_key="EMPTY"
             )
         
