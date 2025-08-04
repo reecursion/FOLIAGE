@@ -1,0 +1,142 @@
+================================================================================
+MODEL PERFORMANCE vs PERSUASION BEHAVIOR ANALYSIS
+================================================================================
+
+AGGREGATE MODEL PERFORMANCE:
+----------------------------------------
+Total Conversations: 204
+Overall Accuracy: 0.6029
+Overall F1 (Weighted): 0.5804
+Overall F1 (Macro): 0.5195
+Overall F1 (Micro): 0.6029
+Overall Precision: 0.5724
+Overall Recall: 0.6029
+Average Confidence: 0.8908
+Correct Predictions: 123
+
+PROMISE-KEEPING PREDICTION ANALYSIS:
+----------------------------------------
+Promise Conversations Analyzed: 142
+Promise Prediction Accuracy: 0.5563
+Promise F1 Score: 0.3505
+Promise Precision: 0.5152
+Promise Recall: 0.2656
+
+Promise Confusion Matrix:
+                    Predicted
+                Broken    Kept
+Actual Broken       62      16
+Actual Kept         47      17
+
+Promise Prediction Breakdown:
+  • Correctly predicted promise kept: 17
+  • Correctly predicted promise broken: 62
+  • Falsely predicted kept (actually broken): 16
+  • Falsely predicted broken (actually kept): 47
+  → Model tends to be overly pessimistic about promise-keeping
+
+USER CATEGORY BREAKDOWN:
+----------------------------------------
+Promise Keepers: 64 (31.4%)
+Promise Breakers: 78 (38.2%)
+Refusal Reversers: 4 (2.0%)
+Consistent Refusers: 33 (16.2%)
+Unclear Decision: 25 (12.3%)
+
+MODEL PERFORMANCE BY CATEGORY:
+----------------------------------------
+
+🎯 KEY FINDING - PROMISE ANALYSIS:
+Promise Keepers (said yes, donated):
+  • Accuracy: 0.2656 | F1: 0.4198 | Confidence: 0.8755
+  • Sample size: 64
+
+Promise Breakers (said yes, didn't donate):
+  • Accuracy: 0.7949 | F1: 0.8857 | Confidence: 0.9043
+  • Sample size: 78
+
+📊 Performance Differences:
+  • Accuracy difference: -0.5292 (keepers vs breakers)
+  • F1 difference: -0.4660 (keepers vs breakers)
+  • Confidence difference: -0.0288 (keepers vs breakers)
+   → Model performs significantly better on promise breakers
+   → Model may be good at detecting inconsistency signals
+
+DETAILED PERFORMANCE METRICS:
+----------------------------------------
+
+PROMISE KEEPERS:
+  Sample Size: 64
+  Accuracy: 0.2656
+  Precision: 1.0000
+  Recall: 0.2656
+  F1 Score: 0.4198
+  Avg Confidence: 0.8755
+  Correct Predictions: 17
+
+PROMISE BREAKERS:
+  Sample Size: 78
+  Accuracy: 0.7949
+  Precision: 1.0000
+  Recall: 0.7949
+  F1 Score: 0.8857
+  Avg Confidence: 0.9043
+  Correct Predictions: 62
+
+REFUSAL REVERSERS:
+  Sample Size: 4
+  Accuracy: 0.5000
+  Precision: 1.0000
+  Recall: 0.5000
+  F1 Score: 0.6667
+  Avg Confidence: 0.9391
+  Correct Predictions: 2
+
+CONSISTENT REFUSERS:
+  Sample Size: 33
+  Accuracy: 0.7273
+  Precision: 1.0000
+  Recall: 0.7273
+  F1 Score: 0.8421
+  Avg Confidence: 0.8743
+  Correct Predictions: 24
+
+UNCLEAR DECISION:
+  Sample Size: 25
+  Accuracy: 0.7200
+  Precision: 0.7543
+  Recall: 0.7200
+  F1 Score: 0.7367
+  Avg Confidence: 0.9017
+  Correct Predictions: 18
+
+DECISION TIMING IMPACT:
+----------------------------------------
+
+Promise Keepers:
+  Late (66-100%): 0.2143 accuracy (28 samples)
+  Middle (33-66%): 0.3200 accuracy (25 samples)
+  Early (0-33%): 0.2727 accuracy (11 samples)
+
+Promise Breakers:
+  Middle (33-66%): 0.7778 accuracy (36 samples)
+  Late (66-100%): 0.8049 accuracy (41 samples)
+  Early (0-33%): 1.0000 accuracy (1 samples)
+
+Refusal Reversers:
+  Middle (33-66%): 0.5000 accuracy (2 samples)
+  Late (66-100%): 1.0000 accuracy (1 samples)
+  Early (0-33%): 0.0000 accuracy (1 samples)
+
+Consistent Refusers:
+  Late (66-100%): 0.8333 accuracy (18 samples)
+  Middle (33-66%): 0.6154 accuracy (13 samples)
+  Early (0-33%): 0.5000 accuracy (2 samples)
+
+Unclear Decision:
+  Late (66-100%): 1.0000 accuracy (2 samples)
+
+STATISTICAL INSIGHTS:
+----------------------------------------
+Correlation between user consistency and model accuracy: -0.6195
+→ Model performs better on inconsistent users

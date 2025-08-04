@@ -1,0 +1,19 @@
+Majority Vote Classification Summary
+========================================
+
+Dataset: p4g
+Model: bert-base-uncased
+Local Info: None
+Global Info: None
+Number of Folds: 5
+Total Pairwise Classifiers: 15
+
+Class Distribution:
+  expressed_donate_did: 102 (50.0%)
+  expressed_donate_donated: 67 (32.8%)
+  no_express_donated: 0 (0.0%)
+  no_express_no_donate: 32 (15.7%)
+  unclear_donated: 0 (0.0%)
+  unclear_no_donate: 3 (1.5%)
+
+Total Unique Dialogues: 204

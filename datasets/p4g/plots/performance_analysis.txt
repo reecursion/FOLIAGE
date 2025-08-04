@@ -1,0 +1,95 @@
+============================================================
+DETAILED PERFORMANCE ANALYSIS
+============================================================
+Overall Accuracy: 0.7206 (72.06%)
+
+Classification Report:
+--------------------------------------------------
+                          precision    recall  f1-score   support
+
+    expressed_donate_did     0.6863    0.8974    0.7778        78
+expressed_donate_donated     0.7761    0.8125    0.7939        64
+      no_express_donated     0.0000    0.0000    0.0000         4
+    no_express_no_donate     0.6875    0.6667    0.6769        33
+         unclear_donated     0.0000    0.0000    0.0000         3
+       unclear_no_donate     1.0000    0.1364    0.2400        22
+
+                accuracy                         0.7206       204
+               macro avg     0.5250    0.4188    0.4148       204
+            weighted avg     0.7249    0.7206    0.6818       204
+
+
+Per-Class Analysis:
+--------------------------------------------------
+
+expressed_donate_did:
+  True instances: 78
+  Predicted instances: 102
+  Correct predictions: 70
+  Precision: 0.6863
+  Recall: 0.8974
+  F1-Score: 0.7778
+
+expressed_donate_donated:
+  True instances: 64
+  Predicted instances: 67
+  Correct predictions: 52
+  Precision: 0.7761
+  Recall: 0.8125
+  F1-Score: 0.7939
+
+no_express_donated:
+  True instances: 4
+  Predicted instances: 0
+  Correct predictions: 0
+  Precision: 0.0000
+  Recall: 0.0000
+  F1-Score: 0.0000
+
+no_express_no_donate:
+  True instances: 33
+  Predicted instances: 32
+  Correct predictions: 22
+  Precision: 0.6875
+  Recall: 0.6667
+  F1-Score: 0.6769
+
+unclear_donated:
+  True instances: 3
+  Predicted instances: 0
+  Correct predictions: 0
+  Precision: 0.0000
+  Recall: 0.0000
+  F1-Score: 0.0000
+
+unclear_no_donate:
+  True instances: 22
+  Predicted instances: 3
+  Correct predictions: 3
+  Precision: 1.0000
+  Recall: 0.1364
+  F1-Score: 0.2400
+
+Most Confused Class Pairs:
+--------------------------------------------------
+  unclear_no_donate → expressed_donate_did: 14 cases
+  expressed_donate_donated → expressed_donate_did: 8 cases
+  no_express_no_donate → expressed_donate_did: 7 cases
+  expressed_donate_did → expressed_donate_donated: 6 cases
+  no_express_no_donate → expressed_donate_donated: 4 cases
+  expressed_donate_donated → no_express_no_donate: 4 cases
+  unclear_no_donate → expressed_donate_donated: 3 cases
+  unclear_donated → expressed_donate_did: 3 cases
+  unclear_no_donate → no_express_no_donate: 2 cases
+  no_express_donated → no_express_no_donate: 2 cases
+
+
+Confusion Matrix (Counts):
+--------------------------------------------------
+True\Pred	Promised	Promised	Refused→	Refused→	Unclear→	Unclear→
+Promised	70	6	0	2	0	0
+Promised	8	52	0	4	0	0
+Refused→	0	2	0	2	0	0
+Refused→	7	4	0	22	0	0
+Unclear→	3	0	0	0	0	0
+Unclear→	14	3	0	2	0	3
