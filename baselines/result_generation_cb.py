@@ -75,17 +75,17 @@ def map_file_to_config_type(filename):
     elif '_intentions_None' in filename:
         return '(ii) Utterance + Intentions'
     elif '_None_scd_summary' in filename:
-        return '(iii) Utterance + SCD Summary'
+        return '(iii) Utterance + SCD'
     elif '_None_scm_summary' in filename:
-        return '(iv) Utterance + SCM Summary'
+        return '(iv) Utterance + SCM'
     elif '_None_traditional_summary' in filename:
-        return '(v) Utterance + Traditional Summary'
+        return '(v) Utterance + Traditional'
     elif '_intentions_scd_summary' in filename:
-        return '(vi) Utt + Intentions + SCD Summary'
+        return '(vi) Utterance + Intentions + SCD'
     elif '_intentions_scm_summary' in filename:
-        return '(vii) Utt + Intentions + SCM Summary'
+        return '(vii) Utterance + Intentions + SCM'
     elif '_intentions_traditional_summary' in filename:
-        return '(viii) Utt + Intentions + Traditional Summary'
+        return '(viii) Utterance + Intentions + Traditional'
     else:
         return 'Unknown'
 
@@ -131,12 +131,12 @@ def process_all_files():
         config_types = [
             '(i) Utterance',
             '(ii) Utterance + Intentions',
-            '(iii) Utterance + SCD Summary',
-            '(iv) Utterance + SCM Summary',
-            '(v) Utterance + Traditional Summary',
-            '(vi) Utt + Intentions + SCD Summary',
-            '(vii) Utt + Intentions + SCM Summary',
-            '(viii) Utt + Intentions + Traditional Summary'
+            '(iii) Utterance + SCD',
+            '(iv) Utterance + SCM',
+            '(v) Utterance + Traditional',
+            '(vi) Utterance + Intentions + SCD',
+            '(vii) Utterance + Intentions + SCM',
+            '(viii) Utterance + Intentions + Traditional'
         ]
         
         ratios = ['0.25', '0.375', '0.5', '0.625', '0.75']

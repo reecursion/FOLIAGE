@@ -5,7 +5,7 @@ import re
 from sklearn.metrics import precision_score, recall_score, f1_score
 
 # Path to the directory containing the CSV files
-base_dir = "src/icl/results/p4g/llama70b/"
+base_dir = "src/icl/results/cd/llama70b/"
 
 # Function to calculate metrics for a single file
 def analyze_file(filepath):
@@ -94,7 +94,7 @@ def map_file_to_config_type(filepath, filename):
 
 # Extract ratio from filename
 def extract_ratio(filename):
-    match = re.search(r'p4g_(\d+\.\d+)', filename)
+    match = re.search(r'cd_(\d+\.\d+)', filename)
     return match.group(1) if match else None
 
 # Main function to process all files
@@ -194,7 +194,7 @@ def generate_combined_latex_table(data, ratios):
     # Start the table
     latex_table = "\\begin{table*}[ht]\n\\centering\n\\begin{tabular}{ll" + "c" * len(ratios) + "}\n\\hline\n"
     latex_table += "\\textbf{Metric} & \\textbf{Config} & " + " & ".join([f"\\textbf{{{float(r) * 100:.1f}\\%}}" for r in ratios]) + " \\\\\n\\hline\n"
-    
+    print("DATA:", data)
     # For each metric
     for i, metric_name in enumerate(metric_names):
         metric_key = metric_keys[i]
@@ -258,7 +258,7 @@ def generate_combined_latex_table(data, ratios):
     
     latex_table += "\\hline\n\\end{tabular}\n"
     latex_table += "\\caption{\\textbf{ICL: }Performance metrics across different conversation lengths and configuration types for \\textbf{Llama-3.1-70B} on the \\textbf{Persuasion for Good} dataset}\n"
-    latex_table += "\\label{tab:combined_metrics_icl_llama_p4g}\n\\end{table*}"
+    latex_table += "\\label{tab:combined_metrics_icl_llama_cd}\n\\end{table*}"
     
     print(latex_table)
     return latex_table

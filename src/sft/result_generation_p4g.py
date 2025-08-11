@@ -5,7 +5,7 @@ import re
 from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
 
 # Path to the directory containing the CSV files
-base_dir = "/Users/rithviksenthil/Desktop/FOLIAGE/src/sft/results/p4g"
+base_dir = "src/sft/results/p4g"
 
 # Function to calculate metrics for a single file
 def analyze_file(filepath):
@@ -113,17 +113,17 @@ def map_file_to_config_type(filepath, filename):
     elif '_local_predictions' in filename:
         return '(ii) Utterance + Intentions'
     elif '_global_scd_predictions' in filename:
-        return '(iii) Utterance + SCD Summary'
+        return '(iii) Utterance + SCD'
     elif '_global_scm_predictions' in filename:
-        return '(iv) Utterance + SCM Summary'
+        return '(iv) Utterance + SCM'
     elif '_global_traditional_predictions' in filename:
-        return '(v) Utterance + Traditional Summary'
+        return '(v) Utterance + Traditional'
     elif '_both_scd_predictions' in filename:
-        return '(vi) Utt + Intentions + SCD Summary'
+        return '(vi) Utterance + Intentions + SCD'
     elif '_both_scm_predictions' in filename:
-        return '(vii) Utt + Intentions + SCM Summary'
+        return '(vii) Utterance + Intentions + SCM'
     elif '_both_traditional_predictions' in filename:
-        return '(viii) Utt + Intentions + Traditional Summary'
+        return '(viii) Utterance + Intentions + Traditional'
     else:
         return 'Unknown'
 
@@ -171,12 +171,12 @@ def process_all_files():
         config_types = [
             '(i) Utterance',
             '(ii) Utterance + Intentions',
-            '(iii) Utterance + SCD Summary',
-            '(iv) Utterance + SCM Summary',
-            '(v) Utterance + Traditional Summary',
-            '(vi) Utt + Intentions + SCD Summary',
-            '(vii) Utt + Intentions + SCM Summary',
-            '(viii) Utt + Intentions + Traditional Summary'
+            '(iii) Utterance + SCD',
+            '(iv) Utterance + SCM',
+            '(v) Utterance + Traditional',
+            '(vi) Utterance + Intentions + SCD',
+            '(vii) Utterance + Intentions + SCM',
+            '(viii) Utterance + Intentions + Traditional'
         ]
         
         ratios = ['0.25', '0.375', '0.5', '0.625', '0.75']

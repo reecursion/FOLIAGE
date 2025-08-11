@@ -18,7 +18,7 @@ from torch.nn.utils.rnn import pack_padded_sequence,pad_packed_sequence
 from torch.nn.utils.rnn import pad_sequence
 from torch.utils.data import Dataset, DataLoader
 
-from dataloader import *
+from dataloader_regression import *
 from models import *
 import transformers
 

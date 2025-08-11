@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 METRIC_REGEX = re.compile(r"Precision: ([\d.]+)\s+Recall: ([\d.]+)\s+F1: ([\d.]+).*?Loss: ([\d.]+)")
 
 # Directory containing seed_* folders
-BASE_DIR = "baselines/results/p4g/"  # <-- Change this
+BASE_DIR = "baselines/results/cd/"  # <-- Change this
 
 # Stores data like:
 # data[metric][config][ratio] = average value across seeds
